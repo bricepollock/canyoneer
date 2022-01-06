@@ -6,9 +6,11 @@
 //
 
 import Foundation
+import MapKit
 
 struct Canyon {
+    let coordinate: CLLocationCoordinate2D
+    let maxRapLength: Int // feet
     let name: String
     let numRaps: Int
-    let maxRapLength: Int // feet
 }

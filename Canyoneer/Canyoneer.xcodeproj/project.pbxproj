@@ -41,7 +41,6 @@
 		40E442EF2787710700FE245D /* RegionResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442EE2787710700FE245D /* RegionResultView.swift */; };
 		40E442F22787751B00FE245D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 40E442F12787751B00FE245D /* RxSwift */; };
 		40E442F4278775A000FE245D /* Observable+onNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442F3278775A000FE245D /* Observable+onNext.swift */; };
-		40E442F62787766100FE245D /* LandingViewModel+mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442F52787766100FE245D /* LandingViewModel+mocks.swift */; };
 		40E442F82787770200FE245D /* ContainedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442F72787770200FE245D /* ContainedButton.swift */; };
 		40E442FA2787777700FE245D /* FontBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442F92787777700FE245D /* FontBook.swift */; };
 		40E442FC278779AE00FE245D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442FB278779AD00FE245D /* MainViewController.swift */; };
@@ -57,6 +56,12 @@
 		40E44316278794D500FE245D /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E44315278794D500FE245D /* TagView.swift */; };
 		40E4431827879B8000FE245D /* RegionListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431727879B8000FE245D /* RegionListRow.swift */; };
 		40E4431A27879DF100FE245D /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431927879DF100FE245D /* TextField.swift */; };
+		40E4431D27879F1D00FE245D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431C27879F1D00FE245D /* MapViewController.swift */; };
+		40E4431F2787A0C000FE245D /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431E2787A0C000FE245D /* MapViewModel.swift */; };
+		40E443222787A0F200FE245D /* RopeWikiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443212787A0F200FE245D /* RopeWikiService.swift */; };
+		40E443242787A11900FE245D /* RopeWikiService+mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443232787A11900FE245D /* RopeWikiService+mocks.swift */; };
+		40E443262787A23A00FE245D /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443252787A23A00FE245D /* SearchService.swift */; };
+		40E443282787A45100FE245D /* MapViewControler+MapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443272787A45100FE245D /* MapViewControler+MapViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,7 +119,6 @@
 		40E442EC2787710100FE245D /* CanyonResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonResultView.swift; sourceTree = "<group>"; };
 		40E442EE2787710700FE245D /* RegionResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionResultView.swift; sourceTree = "<group>"; };
 		40E442F3278775A000FE245D /* Observable+onNext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+onNext.swift"; sourceTree = "<group>"; };
-		40E442F52787766100FE245D /* LandingViewModel+mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LandingViewModel+mocks.swift"; sourceTree = "<group>"; };
 		40E442F72787770200FE245D /* ContainedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainedButton.swift; sourceTree = "<group>"; };
 		40E442F92787777700FE245D /* FontBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBook.swift; sourceTree = "<group>"; };
 		40E442FB278779AD00FE245D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +134,12 @@
 		40E44315278794D500FE245D /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 		40E4431727879B8000FE245D /* RegionListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionListRow.swift; sourceTree = "<group>"; };
 		40E4431927879DF100FE245D /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		40E4431C27879F1D00FE245D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		40E4431E2787A0C000FE245D /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		40E443212787A0F200FE245D /* RopeWikiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopeWikiService.swift; sourceTree = "<group>"; };
+		40E443232787A11900FE245D /* RopeWikiService+mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RopeWikiService+mocks.swift"; sourceTree = "<group>"; };
+		40E443252787A23A00FE245D /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		40E443272787A45100FE245D /* MapViewControler+MapViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapViewControler+MapViewDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				40E442C72787601D00FE245D /* Logger.swift */,
+				40E443202787A0E200FE245D /* Services */,
 				40E442B627875E9800FE245D /* Models */,
 			);
 			path = AppDataKit;
@@ -307,7 +318,6 @@
 				40E4428A27875D9F00FE245D /* LandingViewController.swift */,
 				40E442FD27877A9200FE245D /* LandingViewController+textField.swift */,
 				40E442E127876E0F00FE245D /* LandingViewModel.swift */,
-				40E442F52787766100FE245D /* LandingViewModel+mocks.swift */,
 			);
 			path = Landing;
 			sourceTree = "<group>";
@@ -344,6 +354,7 @@
 		40E4430327877F8400FE245D /* Region */ = {
 			isa = PBXGroup;
 			children = (
+				40E4431B27879EFA00FE245D /* Map */,
 				40E4431427878A6800FE245D /* Views */,
 				40E4430427877F8D00FE245D /* RegionViewController.swift */,
 			);
@@ -359,6 +370,26 @@
 				40E4430E2787897F00FE245D /* SubCanyonListView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		40E4431B27879EFA00FE245D /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				40E4431C27879F1D00FE245D /* MapViewController.swift */,
+				40E443272787A45100FE245D /* MapViewControler+MapViewDelegate.swift */,
+				40E4431E2787A0C000FE245D /* MapViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		40E443202787A0E200FE245D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				40E443212787A0F200FE245D /* RopeWikiService.swift */,
+				40E443232787A11900FE245D /* RopeWikiService+mocks.swift */,
+				40E443252787A23A00FE245D /* SearchService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -499,21 +530,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				40E4428B27875D9F00FE245D /* LandingViewController.swift in Sources */,
+				40E443282787A45100FE245D /* MapViewControler+MapViewDelegate.swift in Sources */,
 				40E442E427876F7E00FE245D /* SearchResult.swift in Sources */,
 				40E442CB278760E300FE245D /* ScrollableStackViewController.swift in Sources */,
 				40E442BD27875F0200FE245D /* GlobalSearchView.swift in Sources */,
-				40E442F62787766100FE245D /* LandingViewModel+mocks.swift in Sources */,
 				40E442CF278760EF00FE245D /* RxButton.swift in Sources */,
 				40E442D1278760EF00FE245D /* LoadingComponent.swift in Sources */,
 				40E442F82787770200FE245D /* ContainedButton.swift in Sources */,
 				40E442FE27877A9200FE245D /* LandingViewController+textField.swift in Sources */,
 				40E442DF2787630700FE245D /* GlobalStrings.swift in Sources */,
 				40E442E227876E0F00FE245D /* LandingViewModel.swift in Sources */,
+				40E4431D27879F1D00FE245D /* MapViewController.swift in Sources */,
 				40E442D0278760EF00FE245D /* RxUIButton.swift in Sources */,
 				40E442E627876F9600FE245D /* Canyon.swift in Sources */,
 				40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */,
 				40E4430D2787842800FE245D /* CanyonDetailView.swift in Sources */,
 				40E4431A27879DF100FE245D /* TextField.swift in Sources */,
+				40E443222787A0F200FE245D /* RopeWikiService.swift in Sources */,
 				40E4431327878A5700FE245D /* SubRegionView.swift in Sources */,
 				40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */,
 				40E442C527875FCD00FE245D /* UIView+autolayout.swift in Sources */,
@@ -523,12 +556,15 @@
 				40E4430127877C5500FE245D /* DesignSystem.swift in Sources */,
 				40E442FC278779AE00FE245D /* MainViewController.swift in Sources */,
 				40E442C82787601D00FE245D /* Logger.swift in Sources */,
+				40E443262787A23A00FE245D /* SearchService.swift in Sources */,
+				40E4431F2787A0C000FE245D /* MapViewModel.swift in Sources */,
 				40E442D82787614000FE245D /* Grid.swift in Sources */,
 				40E442C427875FCD00FE245D /* UIEdgeInsets+Extensions.swift in Sources */,
 				40E442D72787614000FE245D /* ColorPalette.swift in Sources */,
 				40E4430527877F8D00FE245D /* RegionViewController.swift in Sources */,
 				40E4431127878A3D00FE245D /* SubCanyonView.swift in Sources */,
 				40E4430F2787897F00FE245D /* SubCanyonListView.swift in Sources */,
+				40E443242787A11900FE245D /* RopeWikiService+mocks.swift in Sources */,
 				40E442EF2787710700FE245D /* RegionResultView.swift in Sources */,
 				40E4430B2787801900FE245D /* SubRegionListView.swift in Sources */,
 				40E442DD2787629B00FE245D /* GlobalProgressIndicator.swift in Sources */,

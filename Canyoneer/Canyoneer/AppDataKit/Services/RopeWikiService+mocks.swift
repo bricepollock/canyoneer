@@ -1,30 +1,35 @@
 //
-//  LandingViewModel+mocks.swift
+//  RopeWikiService+mocks.swift
 //  Canyoneer
 //
 //  Created by Brice Pollock on 1/6/22.
 //
 
 import Foundation
+import MapKit
 
-extension LandingViewModel {
+extension CLLocationCoordinate2D {
+    static let zero = CLLocationCoordinate2D(latitude: .zero, longitude: .zero)
+}
+
+extension RopeWikiService {
     static let utah = Region(
         name: "Utah",
         geoLocation: .zero,
         children: [
             Region(
                 name: "Zion",
-                geoLocation: Coordinate.zero,
+                geoLocation: CLLocationCoordinate2D.zero,
                 children: [
                     Region(
                         name: "Area 1",
-                        geoLocation: Coordinate.zero,
+                        geoLocation: CLLocationCoordinate2D.zero,
                         children: [],
                         canyons: []
                     ),
                     Region(
                         name: "Area 2",
-                        geoLocation: Coordinate.zero,
+                        geoLocation: CLLocationCoordinate2D.zero,
                         children: [],
                         canyons: []
                     )
@@ -33,11 +38,11 @@ extension LandingViewModel {
             ),
             Region(
                 name: "Moab",
-                geoLocation: Coordinate.zero,
+                geoLocation: CLLocationCoordinate2D.zero,
                 children: [
                     Region(
                         name: "Area 1",
-                        geoLocation: Coordinate.zero,
+                        geoLocation: CLLocationCoordinate2D.zero,
                         children: [],
                         canyons: [Self.moonflower]
                     )
@@ -49,15 +54,15 @@ extension LandingViewModel {
     )
     static let california = Region(
         name: "California",
-        geoLocation: Coordinate.zero,
+        geoLocation: CLLocationCoordinate2D.zero,
         children: [
             Region(
                 name: "Death Valley",
-                geoLocation: Coordinate.zero,
+                geoLocation: CLLocationCoordinate2D.zero,
                 children: [
                     Region(
                         name: "Furnace Creek",
-                        geoLocation: Coordinate.zero,
+                        geoLocation: CLLocationCoordinate2D.zero,
                         children: [],
                         canyons: []
                     )
@@ -68,5 +73,12 @@ extension LandingViewModel {
         canyons: []
     )
     
-    static let moonflower = Canyon(name: "Moonflower", numRaps: 2, maxRapLength: 220)
+    static let moonflower = Canyon(
+        coordinate: CLLocationCoordinate2D(latitude: 38.5542, longitude: -109.5794),
+        maxRapLength: 220,
+        name: "Moonflower",
+        numRaps: 2
+        
+        
+    )
 }

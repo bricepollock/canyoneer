@@ -6,17 +6,11 @@
 //
 
 import Foundation
-
-struct Coordinate {
-    let latitude: Float
-    let longitude: Float
-    
-    static let zero = Coordinate(latitude: 0, longitude: 0)
-}
+import MapKit
 
 struct Region {
     let name: String
-    let geoLocation: Coordinate
+    let geoLocation: CLLocationCoordinate2D
     let children: [Region]
     let canyons: [Canyon]
 }

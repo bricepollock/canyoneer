@@ -8,22 +8,16 @@
 import Foundation
 
 struct LandingViewModel {
+    private let service = RopeWikiService()
+    private let searchService = SearchService()
+    
     // MARK: Outputs
     public func regions() -> [Region] {
-        return [
-            Self.california,
-            Self.utah
-        ]
+        return service.regions()
     }
     
     // MARK: Inputs
     func requestSearch(for searchString: String) -> SearchResultList {
-        return SearchResultList(
-            searchString: searchString,
-            result: [
-                SearchResult(name: "Utah", type: .region, canyonDetails: nil, regionDetails: Self.utah),
-                SearchResult(name: "Moonflower", type: .canyon, canyonDetails: Self.moonflower, regionDetails: nil)
-            ]
-        )
+        return searchService.requestSearch(for: searchString)
     }
 }
