@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import RxSwift
 
 class RegionViewController: ScrollableStackViewController {
     enum Strings {
@@ -18,6 +19,7 @@ class RegionViewController: ScrollableStackViewController {
     private let subRegionView = SubRegionListView()
     
     private let region: Region
+    private let bag = DisposeBag()
     
     init(region: Region) {
         self.region = region
@@ -38,5 +40,9 @@ class RegionViewController: ScrollableStackViewController {
         
         self.title = Strings.name(with: region.name)
         self.subRegionView.configure(with: region.children)
+        self.subRegionView.didSelect.subscribeOnNext { [weak self] region in
+            let next = RegionViewController(region: region)
+            self?.navigationController?.pushViewController(next, animated: true)
+        }.disposed(by: self.bag)
     }
 }
