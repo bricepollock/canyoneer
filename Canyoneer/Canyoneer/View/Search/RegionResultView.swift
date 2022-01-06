@@ -13,21 +13,24 @@ class RegionResultView: UIView {
     
     enum Strings {
         static func name(with name: String) -> String {
-            return "\(name) (region)"
+            return "\(name)"
         }
         static func childrenCount(count: Int) -> String {
             return "\(count) subareas"
         }
+        static let region = "Region"
     }
     
     public let didSelect: Observable<Void>
     private let didSelectSubject: PublishSubject<Void>
     
     private let masterStackView = UIStackView()
+    private let regionNameStackView = UIStackView()
     // RHS details
     private let detailStackView = UIStackView()
     
     private let name = UILabel()
+    private let regionTag = TagView()
     private let childrenCount = UILabel()
     
     init() {
@@ -41,13 +44,25 @@ class RegionResultView: UIView {
         
         self.masterStackView.axis = .horizontal
         self.masterStackView.spacing = Grid.medium
-        self.masterStackView.addArrangedSubview(self.name)
+        self.masterStackView.addArrangedSubview(self.regionNameStackView)
         self.masterStackView.addArrangedSubview(self.detailStackView)
+        self.masterStackView.alignment = .center
+        self.masterStackView.distribution = .equalCentering
+        
+        self.regionNameStackView.axis = .horizontal
+        self.regionNameStackView.spacing = Grid.small
+        self.regionNameStackView.addArrangedSubview(self.name)
+        self.regionNameStackView.addArrangedSubview(self.regionTag)
         
         self.detailStackView.axis = .vertical
         self.detailStackView.spacing = Grid.medium
         self.detailStackView.addArrangedSubview(self.childrenCount)
         
+        self.regionTag.configure(
+            name: Strings.region,
+            background: ColorPalette.GrayScale.black,
+            text: ColorPalette.GrayScale.white
+        )
         self.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTap)))
     }
     

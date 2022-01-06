@@ -54,6 +54,7 @@
 		40E4430F2787897F00FE245D /* SubCanyonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430E2787897F00FE245D /* SubCanyonListView.swift */; };
 		40E4431127878A3D00FE245D /* SubCanyonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431027878A3D00FE245D /* SubCanyonView.swift */; };
 		40E4431327878A5700FE245D /* SubRegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431227878A5700FE245D /* SubRegionView.swift */; };
+		40E44316278794D500FE245D /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E44315278794D500FE245D /* TagView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		40E4430E2787897F00FE245D /* SubCanyonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCanyonListView.swift; sourceTree = "<group>"; };
 		40E4431027878A3D00FE245D /* SubCanyonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCanyonView.swift; sourceTree = "<group>"; };
 		40E4431227878A5700FE245D /* SubRegionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubRegionView.swift; sourceTree = "<group>"; };
+		40E44315278794D500FE245D /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +268,7 @@
 				40E442CC278760EF00FE245D /* RxButton.swift */,
 				40E442CD278760EF00FE245D /* RxUIButton.swift */,
 				40E442CA278760E300FE245D /* ScrollableStackViewController.swift */,
+				40E44315278794D500FE245D /* TagView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -523,6 +526,7 @@
 				40E4430B2787801900FE245D /* SubRegionListView.swift in Sources */,
 				40E442DD2787629B00FE245D /* GlobalProgressIndicator.swift in Sources */,
 				40E442DB2787616E00FE245D /* UIStackView+remove.swift in Sources */,
+				40E44316278794D500FE245D /* TagView.swift in Sources */,
 				40E442BB27875EFB00FE245D /* RegionListView.swift in Sources */,
 				40E442B927875EB200FE245D /* Region.swift in Sources */,
 				40E442ED2787710100FE245D /* CanyonResultView.swift in Sources */,

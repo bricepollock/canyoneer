@@ -17,7 +17,6 @@ class SubRegionView: UIView {
             } else {
                 return "\(name) (regions: \(subRegionsCount))"
             }
-            
         }
     }
     
