@@ -32,6 +32,7 @@ class RegionViewController: ScrollableStackViewController {
         self.masterStackView.addArrangedSubview(self.subRegionView)
         self.masterStackView.addArrangedSubview(self.subCanyonView)
         
+        self.subRegionView.isHidden = self.region.children.isEmpty
         self.subRegionView.configure(with: region.children)
         self.subRegionView.didSelect.subscribeOnNext { [weak self] region in
             let next = RegionViewController(region: region)

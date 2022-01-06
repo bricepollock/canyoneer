@@ -18,7 +18,8 @@ enum ColorPalette {
     }
     
     enum Color {
-        static let red = UIColor.red
+        static let warning = UIColor.red
+        static let canyonRed = UIColor(red: 171/255, green: 119/255, blue: 108/255, alpha: 1)
         static let yellow = UIColor.yellow
         static let green = UIColor.green
         static let action = UIColor.systemBlue

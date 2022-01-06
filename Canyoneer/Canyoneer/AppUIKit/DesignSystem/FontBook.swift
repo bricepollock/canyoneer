@@ -28,9 +28,9 @@ enum FontBook {
     }
     
     enum Size {
-        static let title: CGFloat = 24
-        static let heading: CGFloat = 17
-        static let subhead: CGFloat = 14
-        static let body: CGFloat = 12
+        static let title: CGFloat = 32
+        static let heading: CGFloat = 28
+        static let subhead: CGFloat = 20
+        static let body: CGFloat = 16
     }
 }

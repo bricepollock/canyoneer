@@ -12,9 +12,9 @@ import RxSwift
 class SubCanyonListView: UIView {
     enum Strings {
         static func title(with canyons: [Canyon]) -> String {
-            let base = "Canyons:"
+            let base = " Canyons"
             guard !canyons.isEmpty else {
-                return "\(base) None"
+                return "\(base) (None)"
             }
             return base
         }
@@ -34,7 +34,7 @@ class SubCanyonListView: UIView {
         super.init(frame: .zero)
         self.addSubview(self.canyonStack)
         self.canyonStack.constrain.fillSuperview()
-        self.canyonStack.spacing = .medium
+        self.canyonStack.spacing = .xSmall
         self.canyonStack.axis = .vertical
     }
     
@@ -46,8 +46,11 @@ class SubCanyonListView: UIView {
         self.canyonStack.removeAll()
         
         self.titleLabel.text = Strings.title(with: canyons)
+        self.titleLabel.backgroundColor = ColorPalette.Color.canyonRed
+        self.titleLabel.font = FontBook.Body.emphasis
+        
         self.canyonStack.addArrangedSubview(self.titleLabel)
-                
+        
         canyons.forEach { canyon in
             let view = SubCanyonView()
             view.configure(with: canyon.name)
@@ -55,6 +58,7 @@ class SubCanyonListView: UIView {
                 self?.didSelectSubject.onNext(canyon)
             }.disposed(by: self.bag)
             self.canyonStack.addArrangedSubview(view)
+            self.canyonStack.addArrangedSubview(UIView.createLineView())
         }
     }
 }

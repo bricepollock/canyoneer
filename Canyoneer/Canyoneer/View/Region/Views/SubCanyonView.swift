@@ -12,7 +12,7 @@ import RxSwift
 class SubCanyonView: UIView {
     enum Strings {
         static func name(with name: String) -> String {
-            return "\t* \(name)"
+            return "\(name)"
         }
     }
     
@@ -28,6 +28,7 @@ class SubCanyonView: UIView {
         super.init(frame: .zero)
         self.addSubview(self.name)
         self.name.constrain.fillSuperview()
+        self.name.font = FontBook.Body.regular
         
         self.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTap)))
 

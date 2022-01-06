@@ -12,9 +12,9 @@ import RxSwift
 class SubRegionListView: UIView {
     enum Strings {
         static func title(with regions: [Region]) -> String {
-            let base = "Sub Regions:"
+            let base = " Regions"
             guard !regions.isEmpty else {
-                return "\(base) None"
+                return "\(base) (None)"
             }
             return base
         }
@@ -34,7 +34,7 @@ class SubRegionListView: UIView {
         super.init(frame: .zero)
         self.addSubview(self.regionStack)
         self.regionStack.constrain.fillSuperview()
-        self.regionStack.spacing = .medium
+        self.regionStack.spacing = .xSmall
         self.regionStack.axis = .vertical
     }
     
@@ -46,15 +46,19 @@ class SubRegionListView: UIView {
         self.regionStack.removeAll()
         
         self.titleLabel.text = Strings.title(with: regions)
+        self.titleLabel.backgroundColor = ColorPalette.Color.canyonRed
+        self.titleLabel.font = FontBook.Body.emphasis
+        
         self.regionStack.addArrangedSubview(self.titleLabel)
                 
         regions.forEach { region in
             let view = SubRegionView()
-            view.configure(with: region.name)
+            view.configure(with: region)
             view.didSelect.subscribeOnNext { [weak self] () in
                 self?.didSelectSubject.onNext(region)
             }.disposed(by: self.bag)
             self.regionStack.addArrangedSubview(view)
+            self.regionStack.addArrangedSubview(UIView.createLineView())
         }
     }
 }
