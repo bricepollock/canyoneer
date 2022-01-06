@@ -9,5 +9,5 @@ import Foundation
 import UIKit
 
 enum DesignSystem {
-    static let cornerRadius: CGFloat = 2
+    static let cornerRadius: CGFloat = 4
 }
