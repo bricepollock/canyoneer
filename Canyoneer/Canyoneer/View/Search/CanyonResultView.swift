@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import RxSwift
 
 class CanyonResultView: UIView {
     
@@ -22,6 +23,9 @@ class CanyonResultView: UIView {
         }
     }
     
+    public let didSelect: Observable<Void>
+    private let didSelectSubject: PublishSubject<Void>
+    
     private let masterStackView = UIStackView()
     // RHS details
     private let detailStackView = UIStackView()
@@ -31,6 +35,9 @@ class CanyonResultView: UIView {
     private let maxRappelLength = UILabel()
     
     init() {
+        self.didSelectSubject = PublishSubject()
+        self.didSelect = self.didSelectSubject.asObservable()
+        
         super.init(frame: .zero)
     
         self.addSubview(self.masterStackView)
@@ -45,6 +52,8 @@ class CanyonResultView: UIView {
         self.detailStackView.spacing = Grid.medium
         self.detailStackView.addArrangedSubview(self.rappels)
         self.detailStackView.addArrangedSubview(self.maxRappelLength)
+        
+        self.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTap)))
     }
     
     required init?(coder: NSCoder) {
@@ -59,5 +68,9 @@ class CanyonResultView: UIView {
         self.name.text = Strings.name(with: canyon.name)
         self.rappels.text = Strings.rapCount(count: canyon.numRaps)
         self.maxRappelLength.text = Strings.rapLength(feet: canyon.maxRapLength)
+    }
+    
+    @objc func didTap() {
+        self.didSelectSubject.onNext(())
     }
 }

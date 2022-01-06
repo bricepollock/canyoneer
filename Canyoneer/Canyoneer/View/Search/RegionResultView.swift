@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import RxSwift
 
 class RegionResultView: UIView {
     
@@ -19,6 +20,9 @@ class RegionResultView: UIView {
         }
     }
     
+    public let didSelect: Observable<Void>
+    private let didSelectSubject: PublishSubject<Void>
+    
     private let masterStackView = UIStackView()
     // RHS details
     private let detailStackView = UIStackView()
@@ -27,6 +31,9 @@ class RegionResultView: UIView {
     private let childrenCount = UILabel()
     
     init() {
+        self.didSelectSubject = PublishSubject()
+        self.didSelect = self.didSelectSubject.asObservable()
+        
         super.init(frame: .zero)
     
         self.addSubview(self.masterStackView)
@@ -40,6 +47,8 @@ class RegionResultView: UIView {
         self.detailStackView.axis = .vertical
         self.detailStackView.spacing = Grid.medium
         self.detailStackView.addArrangedSubview(self.childrenCount)
+        
+        self.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTap)))
     }
     
     required init?(coder: NSCoder) {
@@ -53,5 +62,9 @@ class RegionResultView: UIView {
         
         self.name.text = Strings.name(with: region.name)
         self.childrenCount.text = Strings.childrenCount(count: region.children.count)
+    }
+    
+    @objc func didTap() {
+        self.didSelectSubject.onNext(())
     }
 }

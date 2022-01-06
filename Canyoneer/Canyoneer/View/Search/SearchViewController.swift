@@ -7,9 +7,16 @@
 
 import Foundation
 import UIKit
+import RxSwift
 
 class SearchViewController: ScrollableStackViewController {
+    enum Strings {
+        static func title(search: String) -> String {
+            return "Search: \(search)"
+        }
+    }
     private let result: SearchResultList
+    private let bag = DisposeBag()
     
     init(result: SearchResultList) {
         self.result = result
@@ -26,7 +33,7 @@ class SearchViewController: ScrollableStackViewController {
         self.masterStackView.axis = .vertical
         self.masterStackView.spacing = Grid.medium
         
-        self.title = self.result.searchString
+        self.title = Strings.title(search: self.result.searchString)
         
         self.masterStackView.removeAll()
         self.masterStackView.addArrangedSubview(UIView.createLineView())
@@ -36,10 +43,24 @@ class SearchViewController: ScrollableStackViewController {
             case .canyon:
                 let specificView = CanyonResultView()
                 specificView.configure(with: result)
+                specificView.didSelect.subscribeOnNext { [weak self] () in
+                    guard let canyon = result.canyonDetails else {
+                        return
+                    }
+                    let next = CanyonViewController(canyon: canyon)
+                    self?.navigationController?.pushViewController(next, animated: true)
+                }.disposed(by: self.bag)
                 view = specificView
             case .region:
                 let specificView = RegionResultView()
                 specificView.configure(with: result)
+                specificView.didSelect.subscribeOnNext { [weak self] () in
+                    guard let region = result.regionDetails else {
+                        return
+                    }
+                    let next = RegionViewController(region: region)
+                    self?.navigationController?.pushViewController(next, animated: true)
+                }.disposed(by: self.bag)
                 view = specificView
             }
             

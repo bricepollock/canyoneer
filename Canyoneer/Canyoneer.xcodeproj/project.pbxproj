@@ -47,6 +47,10 @@
 		40E442FC278779AE00FE245D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442FB278779AD00FE245D /* MainViewController.swift */; };
 		40E442FE27877A9200FE245D /* LandingViewController+textField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442FD27877A9200FE245D /* LandingViewController+textField.swift */; };
 		40E4430127877C5500FE245D /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430027877C5500FE245D /* DesignSystem.swift */; };
+		40E4430527877F8D00FE245D /* RegionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430427877F8D00FE245D /* RegionViewController.swift */; };
+		40E4430727877F9500FE245D /* CanyonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430627877F9500FE245D /* CanyonViewController.swift */; };
+		40E4430B2787801900FE245D /* SubRegionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430A2787801900FE245D /* SubRegionListView.swift */; };
+		40E4430D2787842800FE245D /* CanyonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430C2787842800FE245D /* CanyonDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +114,10 @@
 		40E442FB278779AD00FE245D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		40E442FD27877A9200FE245D /* LandingViewController+textField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LandingViewController+textField.swift"; sourceTree = "<group>"; };
 		40E4430027877C5500FE245D /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		40E4430427877F8D00FE245D /* RegionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionViewController.swift; sourceTree = "<group>"; };
+		40E4430627877F9500FE245D /* CanyonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewController.swift; sourceTree = "<group>"; };
+		40E4430A2787801900FE245D /* SubRegionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubRegionListView.swift; sourceTree = "<group>"; };
+		40E4430C2787842800FE245D /* CanyonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +213,8 @@
 		40E442B727875E9F00FE245D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				40E4430327877F8400FE245D /* Region */,
+				40E4430227877F7D00FE245D /* Canyon */,
 				40E442E72787701500FE245D /* Search */,
 				40E442E0278764CD00FE245D /* Landing */,
 			);
@@ -305,6 +315,24 @@
 				40E442BA27875EFB00FE245D /* RegionListView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		40E4430227877F7D00FE245D /* Canyon */ = {
+			isa = PBXGroup;
+			children = (
+				40E4430C2787842800FE245D /* CanyonDetailView.swift */,
+				40E4430627877F9500FE245D /* CanyonViewController.swift */,
+			);
+			path = Canyon;
+			sourceTree = "<group>";
+		};
+		40E4430327877F8400FE245D /* Region */ = {
+			isa = PBXGroup;
+			children = (
+				40E4430A2787801900FE245D /* SubRegionListView.swift */,
+				40E4430427877F8D00FE245D /* RegionViewController.swift */,
+			);
+			path = Region;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,17 +486,21 @@
 				40E442D0278760EF00FE245D /* RxUIButton.swift in Sources */,
 				40E442E627876F9600FE245D /* Canyon.swift in Sources */,
 				40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */,
+				40E4430D2787842800FE245D /* CanyonDetailView.swift in Sources */,
 				40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */,
 				40E442C527875FCD00FE245D /* UIView+autolayout.swift in Sources */,
 				40E442EB2787708100FE245D /* UIView+line.swift in Sources */,
 				40E442E92787701D00FE245D /* SearchViewController.swift in Sources */,
+				40E4430727877F9500FE245D /* CanyonViewController.swift in Sources */,
 				40E4430127877C5500FE245D /* DesignSystem.swift in Sources */,
 				40E442FC278779AE00FE245D /* MainViewController.swift in Sources */,
 				40E442C82787601D00FE245D /* Logger.swift in Sources */,
 				40E442D82787614000FE245D /* Grid.swift in Sources */,
 				40E442C427875FCD00FE245D /* UIEdgeInsets+Extensions.swift in Sources */,
 				40E442D72787614000FE245D /* ColorPalette.swift in Sources */,
+				40E4430527877F8D00FE245D /* RegionViewController.swift in Sources */,
 				40E442EF2787710700FE245D /* RegionResultView.swift in Sources */,
+				40E4430B2787801900FE245D /* SubRegionListView.swift in Sources */,
 				40E442DD2787629B00FE245D /* GlobalProgressIndicator.swift in Sources */,
 				40E442DB2787616E00FE245D /* UIStackView+remove.swift in Sources */,
 				40E442BB27875EFB00FE245D /* RegionListView.swift in Sources */,
