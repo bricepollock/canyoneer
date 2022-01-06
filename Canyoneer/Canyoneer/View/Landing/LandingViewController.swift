@@ -9,6 +9,10 @@ import UIKit
 import RxSwift
 
 class LandingViewController: ScrollableStackViewController {
+    enum Strings {
+        static let title = "Canyoneer"
+    }
+    
     private let headerImage = UIImageView()
     private let searchView = GlobalSearchView()
     private let regionList = RegionListView()
@@ -33,6 +37,11 @@ class LandingViewController: ScrollableStackViewController {
         self.masterStackView.addArrangedSubview(self.searchView)
         self.masterStackView.addArrangedSubview(self.regionList)
         
+        self.headerImage.constrain.height(220)
+        self.headerImage.contentMode = .scaleAspectFill
+        self.headerImage.image = UIImage(named: "img_hand_line")
+        self.headerImage.clipsToBounds = true
+        
         self.searchView.searchTextField.delegate = self
         
         self.regionList.didSelect.subscribeOnNext { [weak self] region in
@@ -43,6 +52,7 @@ class LandingViewController: ScrollableStackViewController {
     
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.title = Strings.title
         self.navigationItem.backButtonTitle = ""
         
         let regions = self.viewModel.regions()
