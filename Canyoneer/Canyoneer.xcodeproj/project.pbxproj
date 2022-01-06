@@ -55,6 +55,7 @@
 		40E4431127878A3D00FE245D /* SubCanyonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431027878A3D00FE245D /* SubCanyonView.swift */; };
 		40E4431327878A5700FE245D /* SubRegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431227878A5700FE245D /* SubRegionView.swift */; };
 		40E44316278794D500FE245D /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E44315278794D500FE245D /* TagView.swift */; };
+		40E4431827879B8000FE245D /* RegionListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431727879B8000FE245D /* RegionListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,7 @@
 		40E4431027878A3D00FE245D /* SubCanyonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCanyonView.swift; sourceTree = "<group>"; };
 		40E4431227878A5700FE245D /* SubRegionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubRegionView.swift; sourceTree = "<group>"; };
 		40E44315278794D500FE245D /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		40E4431727879B8000FE245D /* RegionListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,6 +323,7 @@
 			isa = PBXGroup;
 			children = (
 				40E442BC27875F0200FE245D /* GlobalSearchView.swift */,
+				40E4431727879B8000FE245D /* RegionListRow.swift */,
 				40E442BA27875EFB00FE245D /* RegionListView.swift */,
 			);
 			path = Views;
@@ -532,6 +535,7 @@
 				40E442ED2787710100FE245D /* CanyonResultView.swift in Sources */,
 				40E442F4278775A000FE245D /* Observable+onNext.swift in Sources */,
 				40E442C327875FCD00FE245D /* NSDirectionalEdgeInsets+convenience.swift in Sources */,
+				40E4431827879B8000FE245D /* RegionListRow.swift in Sources */,
 				40E442FA2787777700FE245D /* FontBook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
