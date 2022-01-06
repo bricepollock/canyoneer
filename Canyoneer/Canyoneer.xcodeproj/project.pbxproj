@@ -56,6 +56,7 @@
 		40E4431327878A5700FE245D /* SubRegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431227878A5700FE245D /* SubRegionView.swift */; };
 		40E44316278794D500FE245D /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E44315278794D500FE245D /* TagView.swift */; };
 		40E4431827879B8000FE245D /* RegionListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431727879B8000FE245D /* RegionListRow.swift */; };
+		40E4431A27879DF100FE245D /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431927879DF100FE245D /* TextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		40E4431227878A5700FE245D /* SubRegionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubRegionView.swift; sourceTree = "<group>"; };
 		40E44315278794D500FE245D /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 		40E4431727879B8000FE245D /* RegionListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionListRow.swift; sourceTree = "<group>"; };
+		40E4431927879DF100FE245D /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +273,7 @@
 				40E442CD278760EF00FE245D /* RxUIButton.swift */,
 				40E442CA278760E300FE245D /* ScrollableStackViewController.swift */,
 				40E44315278794D500FE245D /* TagView.swift */,
+				40E4431927879DF100FE245D /* TextField.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 				40E442E627876F9600FE245D /* Canyon.swift in Sources */,
 				40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */,
 				40E4430D2787842800FE245D /* CanyonDetailView.swift in Sources */,
+				40E4431A27879DF100FE245D /* TextField.swift in Sources */,
 				40E4431327878A5700FE245D /* SubRegionView.swift in Sources */,
 				40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */,
 				40E442C527875FCD00FE245D /* UIView+autolayout.swift in Sources */,

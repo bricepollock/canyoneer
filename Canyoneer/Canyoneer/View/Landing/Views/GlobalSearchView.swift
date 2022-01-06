@@ -15,7 +15,7 @@ class GlobalSearchView: UIView {
     
     private let masterStackView = UIStackView()
     private let titleLabel = UILabel()
-    public let searchTextField = UITextField()
+    public let searchTextField = TextField()
     private let searchButton = ContainedButton()
     
     init() {
