@@ -18,4 +18,5 @@ struct Region {
     let name: String
     let geoLocation: Coordinate
     let children: [Region]
+    let canyons: [Canyon]
 }

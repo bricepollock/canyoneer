@@ -38,6 +38,7 @@ class CanyonViewController: ScrollableStackViewController {
         self.masterStackView.addArrangedSubview(self.detailView)
         
         self.title = Strings.name(with: canyon.name)
+        self.navigationItem.backButtonTitle = ""
         self.detailView.configure(with: canyon)
     }
 }

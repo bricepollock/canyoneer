@@ -17,6 +17,7 @@ class RegionViewController: ScrollableStackViewController {
     }
     private let name = UILabel()
     private let subRegionView = SubRegionListView()
+    private let subCanyonView = SubCanyonListView()
     
     private let region: Region
     private let bag = DisposeBag()
@@ -24,6 +25,25 @@ class RegionViewController: ScrollableStackViewController {
     init(region: Region) {
         self.region = region
         super.init(insets: .init(all: .medium), atMargin: true)
+        
+        self.masterStackView.axis = .vertical
+        self.masterStackView.spacing = .medium
+        self.masterStackView.addArrangedSubview(self.name)
+        self.masterStackView.addArrangedSubview(self.subRegionView)
+        self.masterStackView.addArrangedSubview(self.subCanyonView)
+        
+        self.subRegionView.configure(with: region.children)
+        self.subRegionView.didSelect.subscribeOnNext { [weak self] region in
+            let next = RegionViewController(region: region)
+            self?.navigationController?.pushViewController(next, animated: true)
+        }.disposed(by: self.bag)
+        
+        self.subCanyonView.isHidden = self.region.canyons.isEmpty
+        self.subCanyonView.configure(with: region.canyons)
+        self.subCanyonView.didSelect.subscribeOnNext { [weak self] canyon in
+            let next = CanyonViewController(canyon: canyon)
+            self?.navigationController?.pushViewController(next, animated: true)
+        }.disposed(by: self.bag)
     }
     
     required init?(coder: NSCoder) {
@@ -33,16 +53,8 @@ class RegionViewController: ScrollableStackViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        self.masterStackView.axis = .vertical
-        self.masterStackView.spacing = .medium
-        self.masterStackView.addArrangedSubview(self.name)
-        self.masterStackView.addArrangedSubview(self.subRegionView)
-        
         self.title = Strings.name(with: region.name)
-        self.subRegionView.configure(with: region.children)
-        self.subRegionView.didSelect.subscribeOnNext { [weak self] region in
-            let next = RegionViewController(region: region)
-            self?.navigationController?.pushViewController(next, animated: true)
-        }.disposed(by: self.bag)
+        self.navigationItem.backButtonTitle = ""
+
     }
 }

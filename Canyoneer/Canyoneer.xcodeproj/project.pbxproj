@@ -51,6 +51,9 @@
 		40E4430727877F9500FE245D /* CanyonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430627877F9500FE245D /* CanyonViewController.swift */; };
 		40E4430B2787801900FE245D /* SubRegionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430A2787801900FE245D /* SubRegionListView.swift */; };
 		40E4430D2787842800FE245D /* CanyonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430C2787842800FE245D /* CanyonDetailView.swift */; };
+		40E4430F2787897F00FE245D /* SubCanyonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430E2787897F00FE245D /* SubCanyonListView.swift */; };
+		40E4431127878A3D00FE245D /* SubCanyonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431027878A3D00FE245D /* SubCanyonView.swift */; };
+		40E4431327878A5700FE245D /* SubRegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431227878A5700FE245D /* SubRegionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +121,9 @@
 		40E4430627877F9500FE245D /* CanyonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewController.swift; sourceTree = "<group>"; };
 		40E4430A2787801900FE245D /* SubRegionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubRegionListView.swift; sourceTree = "<group>"; };
 		40E4430C2787842800FE245D /* CanyonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonDetailView.swift; sourceTree = "<group>"; };
+		40E4430E2787897F00FE245D /* SubCanyonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCanyonListView.swift; sourceTree = "<group>"; };
+		40E4431027878A3D00FE245D /* SubCanyonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCanyonView.swift; sourceTree = "<group>"; };
+		40E4431227878A5700FE245D /* SubRegionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubRegionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,10 +335,21 @@
 		40E4430327877F8400FE245D /* Region */ = {
 			isa = PBXGroup;
 			children = (
-				40E4430A2787801900FE245D /* SubRegionListView.swift */,
+				40E4431427878A6800FE245D /* Views */,
 				40E4430427877F8D00FE245D /* RegionViewController.swift */,
 			);
 			path = Region;
+			sourceTree = "<group>";
+		};
+		40E4431427878A6800FE245D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40E4431227878A5700FE245D /* SubRegionView.swift */,
+				40E4430A2787801900FE245D /* SubRegionListView.swift */,
+				40E4431027878A3D00FE245D /* SubCanyonView.swift */,
+				40E4430E2787897F00FE245D /* SubCanyonListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -487,6 +504,7 @@
 				40E442E627876F9600FE245D /* Canyon.swift in Sources */,
 				40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */,
 				40E4430D2787842800FE245D /* CanyonDetailView.swift in Sources */,
+				40E4431327878A5700FE245D /* SubRegionView.swift in Sources */,
 				40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */,
 				40E442C527875FCD00FE245D /* UIView+autolayout.swift in Sources */,
 				40E442EB2787708100FE245D /* UIView+line.swift in Sources */,
@@ -499,6 +517,8 @@
 				40E442C427875FCD00FE245D /* UIEdgeInsets+Extensions.swift in Sources */,
 				40E442D72787614000FE245D /* ColorPalette.swift in Sources */,
 				40E4430527877F8D00FE245D /* RegionViewController.swift in Sources */,
+				40E4431127878A3D00FE245D /* SubCanyonView.swift in Sources */,
+				40E4430F2787897F00FE245D /* SubCanyonListView.swift in Sources */,
 				40E442EF2787710700FE245D /* RegionResultView.swift in Sources */,
 				40E4430B2787801900FE245D /* SubRegionListView.swift in Sources */,
 				40E442DD2787629B00FE245D /* GlobalProgressIndicator.swift in Sources */,

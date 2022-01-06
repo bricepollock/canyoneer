@@ -19,14 +19,17 @@ extension LandingViewModel {
                     Region(
                         name: "Area 1",
                         geoLocation: Coordinate.zero,
-                        children: []
+                        children: [],
+                        canyons: []
                     ),
                     Region(
                         name: "Area 2",
                         geoLocation: Coordinate.zero,
-                        children: []
+                        children: [],
+                        canyons: []
                     )
-                ]
+                ],
+                canyons: []
             ),
             Region(
                 name: "Moab",
@@ -35,11 +38,14 @@ extension LandingViewModel {
                     Region(
                         name: "Area 1",
                         geoLocation: Coordinate.zero,
-                        children: []
+                        children: [],
+                        canyons: [Self.moonflower]
                     )
-                ]
+                ],
+                canyons: []
             )
-        ]
+        ],
+        canyons: []
     )
     static let california = Region(
         name: "California",
@@ -52,11 +58,14 @@ extension LandingViewModel {
                     Region(
                         name: "Furnace Creek",
                         geoLocation: Coordinate.zero,
-                        children: []
+                        children: [],
+                        canyons: []
                     )
-                ]
+                ],
+                canyons: []
             )
-        ]
+        ],
+        canyons: []
     )
     
     static let moonflower = Canyon(name: "Moonflower", numRaps: 2, maxRapLength: 220)

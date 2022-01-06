@@ -34,6 +34,7 @@ class SearchViewController: ScrollableStackViewController {
         self.masterStackView.spacing = Grid.medium
         
         self.title = Strings.title(search: self.result.searchString)
+        self.navigationItem.backButtonTitle = ""
         
         self.masterStackView.removeAll()
         self.masterStackView.addArrangedSubview(UIView.createLineView())

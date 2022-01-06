@@ -28,6 +28,7 @@ class LandingViewController: ScrollableStackViewController {
     
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.navigationItem.backButtonTitle = ""
         
         let regions = self.viewModel.regions()
         self.regionList.configure(with: RegionListViewData(regions: regions))
