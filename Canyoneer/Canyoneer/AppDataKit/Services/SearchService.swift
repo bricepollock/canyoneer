@@ -6,27 +6,20 @@
 //
 
 import Foundation
+import RxSwift
 
 struct SearchService {
     private let ropeWikiService = RopeWikiService()
-    func requestSearch(for searchString: String) -> SearchResultList {
-        let regions = ropeWikiService.regions()
-        let canyons = ropeWikiService.canyons()
-        let flattenedRegions = flattenRegions(regions: regions)
-        
-        var results = [SearchResult]()
-        canyons.filter { canyon in
-            return canyon.name.lowercased().contains(searchString.lowercased())
-        }.forEach { canyon in
-            results.append(SearchResult(name: canyon.name, type: .canyon, canyonDetails: canyon, regionDetails: nil))
+    func requestSearch(for searchString: String) -> Single<SearchResultList> {
+        return self.ropeWikiService.canyons().map { canyons in
+            var results = [SearchResult]()
+            canyons.filter { canyon in
+                return canyon.name.lowercased().contains(searchString.lowercased())
+            }.forEach { canyon in
+                results.append(SearchResult(name: canyon.name, type: .canyon, canyonDetails: canyon, regionDetails: nil))
+            }
+            return SearchResultList(searchString: searchString, result: results)
         }
-        
-        flattenedRegions.filter { region in
-            return region.name.lowercased().contains(searchString.lowercased())
-        }.forEach { region in
-            results.append(SearchResult(name: region.name, type: .region, canyonDetails: nil, regionDetails: region))
-        }
-        return SearchResultList(searchString: searchString, result: results)
     }
     
     func flattenRegions(regions: [Region]) -> [Region] {

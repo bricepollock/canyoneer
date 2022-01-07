@@ -70,9 +70,13 @@ class LandingViewController: ScrollableStackViewController {
     
     // MARK: Actions
     func performSearch(for searchString: String) {
-        let result = self.viewModel.requestSearch(for: searchString)
-        let next = SearchViewController(result: result)
-        self.navigationController?.pushViewController(next, animated: true)
+        self.viewModel.requestSearch(for: searchString).subscribe { [weak self] results in
+            let next = SearchViewController(result: results)
+            self?.navigationController?.pushViewController(next, animated: true)
+        } onFailure: { error in
+            Global.logger.error("Failed search")
+        }.disposed(by: self.bag)
+
     }
 }
 

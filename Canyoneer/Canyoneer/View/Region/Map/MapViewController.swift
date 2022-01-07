@@ -7,6 +7,7 @@
 
 import Foundation
 import MapKit
+import RxSwift
 
 class CanyonAnnotation: MKPointAnnotation {
     public let canyon: Canyon
@@ -22,6 +23,7 @@ class CanyonAnnotation: MKPointAnnotation {
 class MapViewController: UIViewController {
     private let mapView = MKMapView()
     private let viewModel = MapViewModel()
+    private let bag = DisposeBag()
     
     init() {
         super.init(nibName: nil, bundle: nil)
@@ -40,9 +42,13 @@ class MapViewController: UIViewController {
         let utahCenter = CLLocationCoordinate2D(latitude: 39.3210, longitude: -111.0937)
         self.mapView.region = MKCoordinateRegion(center: utahCenter, span: MKCoordinateSpan(latitudeDelta: 20, longitudeDelta: 20))
         
-        self.viewModel.canyons().forEach { canyon in
-            let annotation = CanyonAnnotation(canyon: canyon)
-            mapView.addAnnotation(annotation)
-        }
+        self.viewModel.canyons().subscribe { [weak self] canyons in
+            canyons.forEach { canyon in
+                let annotation = CanyonAnnotation(canyon: canyon)
+                self?.mapView.addAnnotation(annotation)
+            }
+        } onFailure: { error in
+            Global.logger.error("Failed to load canyon data for map")
+        }.disposed(by: self.bag)
     }
 }

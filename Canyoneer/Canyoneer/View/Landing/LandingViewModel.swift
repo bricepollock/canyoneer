@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 struct LandingViewModel {
     private let service = RopeWikiService()
@@ -17,7 +18,7 @@ struct LandingViewModel {
     }
     
     // MARK: Inputs
-    func requestSearch(for searchString: String) -> SearchResultList {
+    func requestSearch(for searchString: String) -> Single<SearchResultList> {
         return searchService.requestSearch(for: searchString)
     }
 }

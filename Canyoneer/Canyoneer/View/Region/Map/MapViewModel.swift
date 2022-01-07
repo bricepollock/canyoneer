@@ -6,11 +6,18 @@
 //
 
 import Foundation
+import RxSwift
 
 class MapViewModel {
-    let service = RopeWikiService()
+    private let service = RopeWikiService()
+    private var cache: [Canyon]?
     
-    func canyons() -> [Canyon] {
-        return service.canyons()
+    func canyons() -> Single<[Canyon]> {
+        guard let cache = self.cache else {
+            return service.canyons().do { canyons in
+                self.cache = canyons
+            }
+        }
+        return Single.just(cache)
     }
 }

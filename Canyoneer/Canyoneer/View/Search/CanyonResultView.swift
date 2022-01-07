@@ -15,11 +15,17 @@ class CanyonResultView: UIView {
         static func name(with name: String) -> String {
             return "\(name)"
         }
-        static func rapCount(count: Int) -> String {
+        static func rapCount(count: Int?) -> String {
+            guard let count = count else {
+                return "Unknown Raps"
+            }
             return "\(count) raps"
         }
-        static func rapLength(feet: Int) -> String {
-            return "\(feet) ft"
+        static func rapLength(feet: Int?) -> String {
+            guard let feet = feet else {
+                return "Unknown Max Rap"
+            }
+            return "Max: \(feet) ft"
         }
         static let canyon = "Canyon"
     }
