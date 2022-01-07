@@ -7,9 +7,11 @@
 
 import Foundation
 import RxSwift
+import CoreLocation
 
 struct SearchService {
     private let ropeWikiService = RopeWikiService()
+    private let locationService = LocationService()
     func requestSearch(for searchString: String) -> Single<SearchResultList> {
         return self.ropeWikiService.canyons().map { canyons in
             var results = [SearchResult]()
@@ -22,17 +24,45 @@ struct SearchService {
         }
     }
     
-    func flattenRegions(regions: [Region]) -> [Region] {
-        return regions.flatMap { region in
-            return self.flattenRegion(region: region)
+    func nearMeSearch(limit: Int) -> Single<SearchResultList> {
+        guard locationService.isLocationEnabled() else {
+            return Single.error(RequestError.badRequest)
+        }
+        
+        return self.ropeWikiService.canyons().flatMap { canyons in
+            return Single.create { single in
+                self.locationService.getCurrentLocation { currentLocation in
+                    
+                    let results = canyons.sorted { lhs, rhs in
+                        let lhsDistance = lhs.coordinate.distance(to: currentLocation)
+                        let rhsDistance = rhs.coordinate.distance(to: currentLocation)
+                        return lhsDistance < rhsDistance
+                    }
+                        .prefix(50)
+                        .map { canyon in
+                            return SearchResult(name: canyon.name, type: .canyon, canyonDetails: canyon, regionDetails: nil)
+                        }
+                    
+                    
+                    single(.success(SearchResultList(searchString: "Closest 50", result: results)))
+                }
+                return Disposables.create()
+            }
+
         }
     }
-    func flattenRegion(region: Region) -> [Region] {
-        guard !region.children.isEmpty else {
-            return [region]
-        }
-        return region.children.flatMap { region in
-            return self.flattenRegion(region: region)
-        }
-    }
+    
+//    func flattenRegions(regions: [Region]) -> [Region] {
+//        return regions.flatMap { region in
+//            return self.flattenRegion(region: region)
+//        }
+//    }
+//    func flattenRegion(region: Region) -> [Region] {
+//        guard !region.children.isEmpty else {
+//            return [region]
+//        }
+//        return region.children.flatMap { region in
+//            return self.flattenRegion(region: region)
+//        }
+//    }
 }

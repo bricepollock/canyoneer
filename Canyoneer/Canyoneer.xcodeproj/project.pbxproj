@@ -65,7 +65,9 @@
 		40E4432C2787D80100FE245D /* CanyonPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4432B2787D80100FE245D /* CanyonPoint.swift */; };
 		40E4432F2787D90C00FE245D /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4432E2787D90C00FE245D /* RequestError.swift */; };
 		40E443312787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443302787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift */; };
-		40E443332787E7A400FE245D /* MapViewController+CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443322787E7A400FE245D /* MapViewController+CoreLocation.swift */; };
+		40E44335278886CC00FE245D /* DataTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E44334278886CC00FE245D /* DataTableView.swift */; };
+		40E4433727888D9100FE245D /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4433627888D9100FE245D /* LocationService.swift */; };
+		40E4433A2788914000FE245D /* CLLocation2D+distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443392788914000FE245D /* CLLocation2D+distance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,7 +149,9 @@
 		40E4432B2787D80100FE245D /* CanyonPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonPoint.swift; sourceTree = "<group>"; };
 		40E4432E2787D90C00FE245D /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
 		40E443302787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonClusteringMKMarkerAnnotationView.swift; sourceTree = "<group>"; };
-		40E443322787E7A400FE245D /* MapViewController+CoreLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapViewController+CoreLocation.swift"; sourceTree = "<group>"; };
+		40E44334278886CC00FE245D /* DataTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableView.swift; sourceTree = "<group>"; };
+		40E4433627888D9100FE245D /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		40E443392788914000FE245D /* CLLocation2D+distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation2D+distance.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,6 +285,7 @@
 				40E4432D2787D90100FE245D /* Network */,
 				40E443202787A0E200FE245D /* Services */,
 				40E442B627875E9800FE245D /* Models */,
+				40E443382788913000FE245D /* Extensions */,
 			);
 			path = AppDataKit;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				40E442F72787770200FE245D /* ContainedButton.swift */,
+				40E44334278886CC00FE245D /* DataTableView.swift */,
 				40E442DC2787629B00FE245D /* GlobalProgressIndicator.swift */,
 				40E442CE278760EF00FE245D /* LoadingComponent.swift */,
 				40E442CC278760EF00FE245D /* RxButton.swift */,
@@ -389,7 +395,6 @@
 				40E443302787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift */,
 				40E4431C27879F1D00FE245D /* MapViewController.swift */,
 				40E443272787A45100FE245D /* MapViewControler+MapViewDelegate.swift */,
-				40E443322787E7A400FE245D /* MapViewController+CoreLocation.swift */,
 				40E4431E2787A0C000FE245D /* MapViewModel.swift */,
 			);
 			path = Map;
@@ -400,6 +405,7 @@
 			children = (
 				40E443212787A0F200FE245D /* RopeWikiService.swift */,
 				40E443252787A23A00FE245D /* SearchService.swift */,
+				40E4433627888D9100FE245D /* LocationService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -410,6 +416,14 @@
 				40E4432E2787D90C00FE245D /* RequestError.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		40E443382788913000FE245D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40E443392788914000FE245D /* CLLocation2D+distance.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -568,15 +582,16 @@
 				40E4430D2787842800FE245D /* CanyonDetailView.swift in Sources */,
 				40E4431A27879DF100FE245D /* TextField.swift in Sources */,
 				40E443222787A0F200FE245D /* RopeWikiService.swift in Sources */,
+				40E4433A2788914000FE245D /* CLLocation2D+distance.swift in Sources */,
 				40E4432C2787D80100FE245D /* CanyonPoint.swift in Sources */,
 				40E4431327878A5700FE245D /* SubRegionView.swift in Sources */,
 				40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */,
 				40E442C527875FCD00FE245D /* UIView+autolayout.swift in Sources */,
 				40E442EB2787708100FE245D /* UIView+line.swift in Sources */,
-				40E443332787E7A400FE245D /* MapViewController+CoreLocation.swift in Sources */,
 				40E442E92787701D00FE245D /* SearchViewController.swift in Sources */,
 				40E4430727877F9500FE245D /* CanyonViewController.swift in Sources */,
 				40E4430127877C5500FE245D /* DesignSystem.swift in Sources */,
+				40E4433727888D9100FE245D /* LocationService.swift in Sources */,
 				40E442FC278779AE00FE245D /* MainViewController.swift in Sources */,
 				40E442C82787601D00FE245D /* Logger.swift in Sources */,
 				40E443262787A23A00FE245D /* SearchService.swift in Sources */,
@@ -586,6 +601,7 @@
 				40E442D72787614000FE245D /* ColorPalette.swift in Sources */,
 				40E4430527877F8D00FE245D /* RegionViewController.swift in Sources */,
 				40E4431127878A3D00FE245D /* SubCanyonView.swift in Sources */,
+				40E44335278886CC00FE245D /* DataTableView.swift in Sources */,
 				40E4430F2787897F00FE245D /* SubCanyonListView.swift in Sources */,
 				40E4432F2787D90C00FE245D /* RequestError.swift in Sources */,
 				40E442EF2787710700FE245D /* RegionResultView.swift in Sources */,

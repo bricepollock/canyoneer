@@ -12,11 +12,13 @@ class LandingViewController: ScrollableStackViewController {
     enum Strings {
         static let title = "Canyoneer"
         static let map = "View Map"
+        static let nearMe = "Near Me"
     }
     
     private let headerImage = UIImageView()
     private let searchView = GlobalSearchView()
     private let viewMapButton = ContainedButton()
+    private let nearMeButton = ContainedButton()
     private let regionList = RegionListView()
     
     private let viewModel = LandingViewModel()
@@ -38,6 +40,7 @@ class LandingViewController: ScrollableStackViewController {
         self.masterStackView.addArrangedSubview(self.headerImage)
         self.masterStackView.addArrangedSubview(self.searchView)
         self.masterStackView.addArrangedSubview(self.viewMapButton)
+        self.masterStackView.addArrangedSubview(self.nearMeButton)
         self.masterStackView.addArrangedSubview(self.regionList)
         
         self.headerImage.constrain.height(220)
@@ -50,6 +53,14 @@ class LandingViewController: ScrollableStackViewController {
         self.viewMapButton.configure(text: Strings.map)
         self.viewMapButton.didSelect.subscribeOnNext { [weak self] () in
             let next = MapViewController()
+            self?.navigationController?.pushViewController(next, animated: true)
+        }.disposed(by: self.bag)
+        
+        self.nearMeButton.configure(text: Strings.nearMe)
+        self.nearMeButton.didSelect.flatMap {
+            return self.viewModel.nearMeSearch()
+        }.subscribeOnNext { [weak self] results in            
+            let next = SearchViewController(result: results)
             self?.navigationController?.pushViewController(next, animated: true)
         }.disposed(by: self.bag)
         

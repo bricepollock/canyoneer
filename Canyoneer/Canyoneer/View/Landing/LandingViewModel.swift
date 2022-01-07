@@ -21,4 +21,8 @@ struct LandingViewModel {
     func requestSearch(for searchString: String) -> Single<SearchResultList> {
         return searchService.requestSearch(for: searchString)
     }
+    
+    func nearMeSearch() -> Single<SearchResultList> {
+        return searchService.nearMeSearch(limit: 50)
+    }
 }

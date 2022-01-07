@@ -9,12 +9,13 @@ import Foundation
 
 enum RequestError: Error {
     
+    case badRequest
     case serialization
     
     func description() -> String {
         switch self {
-        case .serialization:
-            return "Deserialization failure!"
+        case .badRequest: return "Bad Request"
+        case .serialization: return "Deserialization failure!"
         }
         
     }

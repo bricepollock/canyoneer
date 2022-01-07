@@ -22,7 +22,7 @@ class CanyonAnnotation: MKPointAnnotation {
 }
 
 class MapViewController: UIViewController {
-    private let locationManager = CLLocationManager()
+    private let locationService = LocationService()
     internal let mapView = MKMapView()
     private let viewModel = MapViewModel()
     private let bag = DisposeBag()
@@ -46,11 +46,12 @@ class MapViewController: UIViewController {
         self.mapView.region = MKCoordinateRegion(center: utahCenter, span: MKCoordinateSpan(latitudeDelta: 20, longitudeDelta: 20))
         
         
-        if CLLocationManager.locationServicesEnabled() {
-            self.locationManager.delegate = self
-            self.locationManager.desiredAccuracy = kCLLocationAccuracyKilometer
-            self.locationManager.requestWhenInUseAuthorization()
-            self.locationManager.startUpdatingLocation()
+        if locationService.isLocationEnabled() {
+            self.locationService.getCurrentLocation { location in
+                let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
+                let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
+                self.mapView.setRegion(region, animated: true)
+            }
         }
 
         if let coor = mapView.userLocation.location?.coordinate{

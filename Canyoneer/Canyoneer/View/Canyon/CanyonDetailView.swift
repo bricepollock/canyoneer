@@ -12,6 +12,7 @@ class CanyonDetailView: UIView {
     private let masterStackView = UIStackView()
     private let raps = UILabel()
     private let longestRap = UILabel()
+    private let dataTable = DataTableView()
     
     init() {
         super.init(frame: .zero)
@@ -24,6 +25,7 @@ class CanyonDetailView: UIView {
         
         self.masterStackView.addArrangedSubview(self.raps)
         self.masterStackView.addArrangedSubview(self.longestRap)
+        self.masterStackView.addArrangedSubview(self.dataTable)
     }
     
     required init?(coder: NSCoder) {

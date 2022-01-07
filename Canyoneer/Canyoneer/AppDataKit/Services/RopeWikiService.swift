@@ -36,10 +36,21 @@ struct RopeWikiService {
                         return nil
                     }
                     return Canyon(
+                        bestSeasons: data.bestSeasons,
                         coordinate: CLLocationCoordinate2D(latitude: latitude, longitude: longitude),
+                        
+                        isRestricted: data.isRestricted,
                         maxRapLength: data.rappelMaxLength,
                         name: data.name,
-                        numRaps: data.numRappels
+                        numRaps: data.numRappels,
+                        requiresShuttle: data.requiresShuttle,
+                        requiresPermit: data.requiresPermits,
+                        ropeWikiURL: URL(string: data.urlString),
+                        technicalDifficulty: data.technicalDifficulty,
+                        timeGrade: data.timeRatingString,
+                        waterDifficulty: data.waterDifficulty,
+                        quality: data.quality,
+                        vehicleAccessibility: data.vehicleAccessibility
                     )
                 }
                 single(.success(canyons))
@@ -51,17 +62,17 @@ struct RopeWikiService {
             }
         }
     }
-    
-    private func canyons(with regions: [Region]) -> [Canyon] {
-        return regions.flatMap { region in
-            return self.canyons(for: region)
-        }
-    }
-    
-    private func canyons(for region: Region) -> [Canyon] {
-        guard region.canyons.isEmpty else {
-            return region.canyons
-        }
-        return self.canyons(with: region.children)
-    }
+//
+//    private func canyons(with regions: [Region]) -> [Canyon] {
+//        return regions.flatMap { region in
+//            return self.canyons(for: region)
+//        }
+//    }
+//
+//    private func canyons(for region: Region) -> [Canyon] {
+//        guard region.canyons.isEmpty else {
+//            return region.canyons
+//        }
+//        return self.canyons(with: region.children)
+//    }
 }
