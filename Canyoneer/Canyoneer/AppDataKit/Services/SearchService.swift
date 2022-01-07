@@ -10,6 +10,8 @@ import RxSwift
 import CoreLocation
 
 struct SearchService {
+    private static let maxNearMe = 50
+    
     private let ropeWikiService = RopeWikiService()
     private let locationService = LocationService()
     func requestSearch(for searchString: String) -> Single<SearchResultList> {
@@ -17,9 +19,13 @@ struct SearchService {
             var results = [SearchResult]()
             canyons.filter { canyon in
                 return canyon.name.lowercased().contains(searchString.lowercased())
-            }.forEach { canyon in
+            }.sorted(by: { lhs, rhs in
+                return lhs.quality > rhs.quality
+            })
+            .forEach { canyon in
                 results.append(SearchResult(name: canyon.name, type: .canyon, canyonDetails: canyon, regionDetails: nil))
             }
+            
             return SearchResultList(searchString: searchString, result: results)
         }
     }
@@ -38,13 +44,16 @@ struct SearchService {
                         let rhsDistance = rhs.coordinate.distance(to: currentLocation)
                         return lhsDistance < rhsDistance
                     }
-                        .prefix(50)
+                        .prefix(Self.maxNearMe)
+                        .sorted(by: { lhs, rhs in
+                            return lhs.quality > rhs.quality
+                        })
                         .map { canyon in
                             return SearchResult(name: canyon.name, type: .canyon, canyonDetails: canyon, regionDetails: nil)
                         }
                     
                     
-                    single(.success(SearchResultList(searchString: "Closest 50", result: results)))
+                    single(.success(SearchResultList(searchString: "Closest \(Self.maxNearMe)", result: results)))
                 }
                 return Disposables.create()
             }
