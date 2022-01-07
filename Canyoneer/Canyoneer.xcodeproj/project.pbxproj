@@ -68,6 +68,8 @@
 		40E44335278886CC00FE245D /* DataTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E44334278886CC00FE245D /* DataTableView.swift */; };
 		40E4433727888D9100FE245D /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4433627888D9100FE245D /* LocationService.swift */; };
 		40E4433A2788914000FE245D /* CLLocation2D+distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443392788914000FE245D /* CLLocation2D+distance.swift */; };
+		40E4433C2788A25B00FE245D /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4433B2788A25B00FE245D /* BottomSheetViewController.swift */; };
+		40E4433F2788F1D600FE245D /* RappelFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4433E2788F1D600FE245D /* RappelFilterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +154,8 @@
 		40E44334278886CC00FE245D /* DataTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableView.swift; sourceTree = "<group>"; };
 		40E4433627888D9100FE245D /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		40E443392788914000FE245D /* CLLocation2D+distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation2D+distance.swift"; sourceTree = "<group>"; };
+		40E4433B2788A25B00FE245D /* BottomSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
+		40E4433E2788F1D600FE245D /* RappelFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappelFilterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +297,7 @@
 		40E442C9278760CB00FE245D /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				40E4433B2788A25B00FE245D /* BottomSheetViewController.swift */,
 				40E442F72787770200FE245D /* ContainedButton.swift */,
 				40E44334278886CC00FE245D /* DataTableView.swift */,
 				40E442DC2787629B00FE245D /* GlobalProgressIndicator.swift */,
@@ -342,6 +347,7 @@
 		40E442E72787701500FE245D /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				40E4433D2788F1C800FE245D /* Filters */,
 				40E442E82787701D00FE245D /* SearchViewController.swift */,
 				40E442EC2787710100FE245D /* CanyonResultView.swift */,
 				40E442EE2787710700FE245D /* RegionResultView.swift */,
@@ -424,6 +430,14 @@
 				40E443392788914000FE245D /* CLLocation2D+distance.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		40E4433D2788F1C800FE245D /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				40E4433E2788F1D600FE245D /* RappelFilterView.swift */,
+			);
+			path = Filters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -587,6 +601,7 @@
 				40E4431327878A5700FE245D /* SubRegionView.swift in Sources */,
 				40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */,
 				40E442C527875FCD00FE245D /* UIView+autolayout.swift in Sources */,
+				40E4433C2788A25B00FE245D /* BottomSheetViewController.swift in Sources */,
 				40E442EB2787708100FE245D /* UIView+line.swift in Sources */,
 				40E442E92787701D00FE245D /* SearchViewController.swift in Sources */,
 				40E4430727877F9500FE245D /* CanyonViewController.swift in Sources */,
@@ -596,6 +611,7 @@
 				40E442C82787601D00FE245D /* Logger.swift in Sources */,
 				40E443262787A23A00FE245D /* SearchService.swift in Sources */,
 				40E4431F2787A0C000FE245D /* MapViewModel.swift in Sources */,
+				40E4433F2788F1D600FE245D /* RappelFilterView.swift in Sources */,
 				40E442D82787614000FE245D /* Grid.swift in Sources */,
 				40E442C427875FCD00FE245D /* UIEdgeInsets+Extensions.swift in Sources */,
 				40E442D72787614000FE245D /* ColorPalette.swift in Sources */,
