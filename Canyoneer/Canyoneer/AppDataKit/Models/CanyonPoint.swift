@@ -25,6 +25,7 @@ enum Month: String, Codable {
 enum Vehicle: String, Codable {
     case passenger = "Passenger"
     case highClearance = "High Clearance"
+    case fourWheels = "4WD"
     case fourWheelsHighClearnace = "4WD - High Clearance"
 }
 
@@ -76,6 +77,10 @@ struct CanyonDataPoint: Codable {
         guard let difficulty = difficulty else {
             return nil
         }
+        guard difficulty.count == 2 else {
+            // "class 2" and "class 3"
+            return 2
+        }
         return Int(difficulty.prefix(1))
     }
     
@@ -83,6 +88,11 @@ struct CanyonDataPoint: Codable {
         guard let difficulty = difficulty else {
             return nil
         }
+        guard difficulty.count == 2 else {
+            // "class 2" and "class 3"
+            return "A"
+        }
+        
         return String(difficulty.suffix(1)).uppercased()
     }
     
@@ -92,13 +102,25 @@ struct CanyonDataPoint: Codable {
     }
     
     var requiresShuttle: Bool? {
-        guard !shuttleString.isEmpty else { return nil }
-        return shuttleString == "Yes"
+        guard !shuttleString.isEmpty && shuttleString != "None" else {
+            return nil
+        }
+        return shuttleString.contains("Required")
+    }
+    
+    var shuttleDetails: String? {
+        guard !shuttleString.isEmpty && shuttleString != "None" else {
+            return nil
+        }
+        return shuttleString
     }
     
     var requiresPermits: Bool? {
-        guard !requirePermitsString.isEmpty else { return nil }
         return requirePermitsString == "Yes"
+    }
+    
+    var isRestricted: Bool? {
+        return requirePermitsString == "Restricted"
     }
     
     var timeRating: Int? {
