@@ -40,8 +40,8 @@ class CanyonResultView: UIView {
     
     private let name = UILabel()
     private let canyonTag = TagView()
-    private let rappels = UILabel()
-    private let maxRappelLength = UILabel()
+    private let quality = UILabel()
+    private let summary = UILabel()
     
     init() {
         self.didSelectSubject = PublishSubject()
@@ -73,10 +73,11 @@ class CanyonResultView: UIView {
 
         self.detailStackView.axis = .vertical
         self.detailStackView.spacing = Grid.medium
-        self.detailStackView.addArrangedSubview(self.rappels)
-        self.detailStackView.addArrangedSubview(self.maxRappelLength)
-//        self.detailStackView.setContentCompressionResistancePriority(.required, for: .horizontal)
-        self.maxRappelLength.setContentCompressionResistancePriority(.required, for: .horizontal)
+        self.detailStackView.alignment = .center
+        self.detailStackView.addArrangedSubview(self.quality)
+        self.detailStackView.addArrangedSubview(self.summary)
+
+        self.summary.setContentCompressionResistancePriority(.required, for: .horizontal)
         
         self.canyonTag.configure(
             name: Strings.canyon,
@@ -97,8 +98,8 @@ class CanyonResultView: UIView {
         }
         
         self.name.text = Strings.name(with: canyon.name)
-        self.rappels.text = Strings.rapCount(count: canyon.numRaps)
-        self.maxRappelLength.text = Strings.rapLength(feet: canyon.maxRapLength)
+        self.quality.text = CanyonDetailView.Strings.stars(quality: canyon.quality)
+        self.summary.text = CanyonDetailView.Strings.summaryDetails(for: canyon)
     }
     
     @objc func didTap() {

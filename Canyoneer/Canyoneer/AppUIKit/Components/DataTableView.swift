@@ -19,6 +19,8 @@ class DataTableView: UIView {
         super.init(frame: .zero)
         self.addSubview(self.masterStackView)
         self.masterStackView.constrain.fillSuperview()
+        self.masterStackView.axis = .vertical
+        self.masterStackView.spacing = .xSmall
     }
     
     required init?(coder: NSCoder) {
@@ -32,15 +34,17 @@ class DataTableView: UIView {
             let backgroundColor = index % 2 == 0 ? ColorPalette.GrayScale.white : ColorPalette.GrayScale.light
             let title = UILabel()
             title.font = FontBook.Body.emphasis
-            title.backgroundColor = backgroundColor
-            title.text = dataTuple.title
+            // this tab is for alignment purposes, we cannot alternate colors on the lines AND keep alignment vertically
+            title.text = dataTuple.title + "\t"
+            title.setContentHuggingPriority(.required, for: .horizontal)
             
             let value = UILabel()
             value.font = FontBook.Body.regular
-            value.backgroundColor = backgroundColor
             value.text = dataTuple.value
+            value.textAlignment = .left
             
             let row = UIStackView()
+            row.backgroundColor = backgroundColor
             row.axis = .horizontal
             row.spacing = .medium
             row.addArrangedSubview(title)

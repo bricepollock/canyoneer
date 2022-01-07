@@ -13,7 +13,7 @@ enum ColorPalette {
         static let black = UIColor.black
         static let dark = UIColor.darkGray
         static let gray = UIColor.gray
-        static let light = UIColor.lightGray
+        static let light = UIColor(white: 0.9, alpha: 1)
         static let white = UIColor.white
     }
     
