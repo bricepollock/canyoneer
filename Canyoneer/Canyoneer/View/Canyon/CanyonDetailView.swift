@@ -65,17 +65,20 @@ class CanyonDetailView: UIView {
             guard let string = string else { return "--" }
             return string
         }
-        static func stars(quality: Float) -> String {
-            if quality >= 5 {
-                return "⭐️⭐️⭐️⭐️⭐️"
-            } else if quality >= 4 {
-                return "⭐️⭐️⭐️⭐️"
-            } else if quality >= 3 {
-                return "⭐️⭐️⭐️"
-            } else if quality >= 2 {
-                return "⭐️⭐️"
-            } else {
-                return "⭐️"
+        
+        static func stars(quality: Float) -> [UIImage] {
+            var images = [UIImage?]()
+            var remainingQuality = quality
+            while remainingQuality > 0 {
+                if remainingQuality >= 1 {
+                    images.append(UIImage(named: "emj_star_full"))
+                } else {
+                    images.append(UIImage(named: "emj_star_half"))
+                }
+                remainingQuality -= 1
+            }
+            return images.compactMap {
+                return $0
             }
         }
     }
@@ -135,5 +138,4 @@ class CanyonDetailView: UIView {
         self.dataTable.configure(with: data)
         
     }
-    
 }

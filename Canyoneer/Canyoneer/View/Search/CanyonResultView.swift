@@ -40,7 +40,7 @@ class CanyonResultView: UIView {
     
     private let name = UILabel()
     private let canyonTag = TagView()
-    private let quality = UILabel()
+    private let qualityStack = UIStackView()
     private let summary = UILabel()
     
     init() {
@@ -74,9 +74,11 @@ class CanyonResultView: UIView {
         self.detailStackView.axis = .vertical
         self.detailStackView.spacing = Grid.medium
         self.detailStackView.alignment = .center
-        self.detailStackView.addArrangedSubview(self.quality)
+        self.detailStackView.addArrangedSubview(self.qualityStack)
         self.detailStackView.addArrangedSubview(self.summary)
 
+        self.qualityStack.axis = .horizontal
+        self.qualityStack.spacing = 1
         self.summary.setContentCompressionResistancePriority(.required, for: .horizontal)
         
         self.canyonTag.configure(
@@ -98,7 +100,16 @@ class CanyonResultView: UIView {
         }
         
         self.name.text = Strings.name(with: canyon.name)
-        self.quality.text = CanyonDetailView.Strings.stars(quality: canyon.quality)
+        
+        // special rendering needed for array of images becuase there is no half-star emoji we could put in text
+        self.qualityStack.removeAll()
+        CanyonDetailView.Strings.stars(quality: canyon.quality).forEach { image in
+            let imageView = UIImageView(image: image)
+            imageView.constrain.width(20)
+            imageView.constrain.aspect(1)
+            imageView.contentMode = .scaleAspectFit
+            self.qualityStack.addArrangedSubview(imageView)
+        }
         self.summary.text = CanyonDetailView.Strings.summaryDetails(for: canyon)
     }
     
