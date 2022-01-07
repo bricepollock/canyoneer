@@ -65,6 +65,7 @@
 		40E4432C2787D80100FE245D /* CanyonPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4432B2787D80100FE245D /* CanyonPoint.swift */; };
 		40E4432F2787D90C00FE245D /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4432E2787D90C00FE245D /* RequestError.swift */; };
 		40E443312787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443302787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift */; };
+		40E443332787E7A400FE245D /* MapViewController+CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443322787E7A400FE245D /* MapViewController+CoreLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +147,7 @@
 		40E4432B2787D80100FE245D /* CanyonPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonPoint.swift; sourceTree = "<group>"; };
 		40E4432E2787D90C00FE245D /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
 		40E443302787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonClusteringMKMarkerAnnotationView.swift; sourceTree = "<group>"; };
+		40E443322787E7A400FE245D /* MapViewController+CoreLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapViewController+CoreLocation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -387,6 +389,7 @@
 				40E443302787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift */,
 				40E4431C27879F1D00FE245D /* MapViewController.swift */,
 				40E443272787A45100FE245D /* MapViewControler+MapViewDelegate.swift */,
+				40E443322787E7A400FE245D /* MapViewController+CoreLocation.swift */,
 				40E4431E2787A0C000FE245D /* MapViewModel.swift */,
 			);
 			path = Map;
@@ -570,6 +573,7 @@
 				40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */,
 				40E442C527875FCD00FE245D /* UIView+autolayout.swift in Sources */,
 				40E442EB2787708100FE245D /* UIView+line.swift in Sources */,
+				40E443332787E7A400FE245D /* MapViewController+CoreLocation.swift in Sources */,
 				40E442E92787701D00FE245D /* SearchViewController.swift in Sources */,
 				40E4430727877F9500FE245D /* CanyonViewController.swift in Sources */,
 				40E4430127877C5500FE245D /* DesignSystem.swift in Sources */,

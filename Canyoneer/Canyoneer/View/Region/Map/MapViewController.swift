@@ -7,6 +7,7 @@
 
 import Foundation
 import MapKit
+import CoreLocation
 import RxSwift
 
 class CanyonAnnotation: MKPointAnnotation {
@@ -21,7 +22,8 @@ class CanyonAnnotation: MKPointAnnotation {
 }
 
 class MapViewController: UIViewController {
-    private let mapView = MKMapView()
+    private let locationManager = CLLocationManager()
+    internal let mapView = MKMapView()
     private let viewModel = MapViewModel()
     private let bag = DisposeBag()
     
@@ -38,9 +40,22 @@ class MapViewController: UIViewController {
         self.view.addSubview(self.mapView)
         self.mapView.constrain.fillSuperview()
         self.mapView.delegate = self
+        self.mapView.showsUserLocation = true
         
         let utahCenter = CLLocationCoordinate2D(latitude: 39.3210, longitude: -111.0937)
         self.mapView.region = MKCoordinateRegion(center: utahCenter, span: MKCoordinateSpan(latitudeDelta: 20, longitudeDelta: 20))
+        
+        
+        if CLLocationManager.locationServicesEnabled() {
+            self.locationManager.delegate = self
+            self.locationManager.desiredAccuracy = kCLLocationAccuracyKilometer
+            self.locationManager.requestWhenInUseAuthorization()
+            self.locationManager.startUpdatingLocation()
+        }
+
+        if let coor = mapView.userLocation.location?.coordinate{
+            mapView.setCenter(coor, animated: true)
+        }
         
         self.viewModel.canyons().subscribe { [weak self] canyons in
             canyons.forEach { canyon in
