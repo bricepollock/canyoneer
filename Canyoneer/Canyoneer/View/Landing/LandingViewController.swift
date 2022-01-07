@@ -52,14 +52,19 @@ class LandingViewController: ScrollableStackViewController {
         
         self.viewMapButton.configure(text: Strings.map)
         self.viewMapButton.didSelect.subscribeOnNext { [weak self] () in
-            let next = MapViewController()
-            self?.navigationController?.pushViewController(next, animated: true)
+            guard let self = self else { return }
+            self.viewModel.canyons().subscribe(onSuccess: { [weak self] canyons in
+                let next = MapViewController(canyons: canyons)
+                self?.navigationController?.pushViewController(next, animated: true)
+            }, onFailure: { error in
+                Global.logger.error("\(String(describing: error))")
+            }).disposed(by: self.bag)
         }.disposed(by: self.bag)
         
         self.nearMeButton.configure(text: Strings.nearMe)
         self.nearMeButton.didSelect.flatMap {
             return self.viewModel.nearMeSearch()
-        }.subscribeOnNext { [weak self] results in            
+        }.subscribeOnNext { [weak self] results in
             let next = SearchViewController(result: results)
             self?.navigationController?.pushViewController(next, animated: true)
         }.disposed(by: self.bag)

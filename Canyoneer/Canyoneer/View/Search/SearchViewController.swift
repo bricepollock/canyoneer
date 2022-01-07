@@ -21,6 +21,7 @@ class SearchViewController: ScrollableStackViewController {
     private let rappelFilter = RappelFilterView()
     
     private let result: SearchResultList
+    private var filteredResults: [Canyon]?
     private let bag = DisposeBag()
     
     init(result: SearchResultList) {
@@ -40,7 +41,10 @@ class SearchViewController: ScrollableStackViewController {
         
         self.title = Strings.title(search: self.result.searchString)
         self.navigationItem.backButtonTitle = ""
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "line.3.horizontal.decrease.circle"), style: .plain, target: self, action: #selector(didRequestFilters))
+        
+        let mapButton = UIBarButtonItem(image: UIImage(systemName: "map"), style: .plain, target: self, action: #selector(didRequetMap))
+        let filterButton = UIBarButtonItem(image: UIImage(systemName: "line.3.horizontal.decrease.circle"), style: .plain, target: self, action: #selector(didRequestFilters))
+        self.navigationItem.rightBarButtonItems = [mapButton, filterButton]
         self.renderResults(results: self.result.result)
     }
     
@@ -90,7 +94,16 @@ class SearchViewController: ScrollableStackViewController {
             }
             return maxRap >= self.rappelFilter.minRappels && maxRap <= self.rappelFilter.maxRappels
         }
+        self.filteredResults = results.compactMap { result in
+            return result.canyonDetails
+        }
         self.renderResults(results: results)
+    }
+    
+    @objc func didRequetMap() {
+        let canyons = self.filteredResults ?? self.result.result.compactMap { $0.canyonDetails }
+        let next = MapViewController(canyons: canyons)
+        self.navigationController?.pushViewController(next, animated: true)
     }
     
     @objc func didRequestFilters() {

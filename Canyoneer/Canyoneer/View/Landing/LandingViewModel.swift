@@ -17,6 +17,10 @@ struct LandingViewModel {
         return service.regions()
     }
     
+    public func canyons() -> Single<[Canyon]> {
+        return service.canyons()
+    }
+    
     // MARK: Inputs
     func requestSearch(for searchString: String) -> Single<SearchResultList> {
         return searchService.requestSearch(for: searchString)

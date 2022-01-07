@@ -24,10 +24,13 @@ class CanyonAnnotation: MKPointAnnotation {
 class MapViewController: UIViewController {
     private let locationService = LocationService()
     internal let mapView = MKMapView()
+    
+    private let canyons: [Canyon]
     private let viewModel = MapViewModel()
     private let bag = DisposeBag()
     
-    init() {
+    init(canyons: [Canyon]) {
+        self.canyons = canyons
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -57,14 +60,9 @@ class MapViewController: UIViewController {
         if let coor = mapView.userLocation.location?.coordinate{
             mapView.setCenter(coor, animated: true)
         }
-        
-        self.viewModel.canyons().subscribe { [weak self] canyons in
-            canyons.forEach { canyon in
-                let annotation = CanyonAnnotation(canyon: canyon)
-                self?.mapView.addAnnotation(annotation)
-            }
-        } onFailure: { error in
-            Global.logger.error("Failed to load canyon data for map")
-        }.disposed(by: self.bag)
+        self.canyons.forEach { canyon in
+            let annotation = CanyonAnnotation(canyon: canyon)
+            self.mapView.addAnnotation(annotation)
+        }
     }
 }
