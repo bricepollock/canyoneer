@@ -54,9 +54,15 @@ class RegionResultView: UIView {
         self.regionNameStackView.addArrangedSubview(self.name)
         self.regionNameStackView.addArrangedSubview(self.regionTag)
         
+        self.name.numberOfLines = 0
+        self.name.setContentHuggingPriority(.required, for: .horizontal)
+        self.name.setContentCompressionResistancePriority(.defaultLow, for: .horizontal)
+        self.regionTag.setContentCompressionResistancePriority(.required, for: .horizontal)
+        
         self.detailStackView.axis = .vertical
         self.detailStackView.spacing = Grid.medium
         self.detailStackView.addArrangedSubview(self.childrenCount)
+        self.detailStackView.setContentCompressionResistancePriority(.required, for: .horizontal)
         
         self.regionTag.configure(
             name: Strings.region,

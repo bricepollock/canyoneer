@@ -17,13 +17,13 @@ class CanyonResultView: UIView {
         }
         static func rapCount(count: Int?) -> String {
             guard let count = count else {
-                return "Unknown Raps"
+                return "Raps: --"
             }
-            return "\(count) raps"
+            return "Raps: \(count)"
         }
         static func rapLength(feet: Int?) -> String {
             guard let feet = feet else {
-                return "Unknown Max Rap"
+                return "Max: -- ft"
             }
             return "Max: \(feet) ft"
         }
@@ -63,11 +63,20 @@ class CanyonResultView: UIView {
         self.canyonNameStackView.spacing = Grid.small
         self.canyonNameStackView.addArrangedSubview(self.name)
         self.canyonNameStackView.addArrangedSubview(self.canyonTag)
+        self.canyonNameStackView.alignment = .leading
+        self.canyonNameStackView.distribution = .equalCentering
+        
+        self.name.numberOfLines = 0
+        self.name.setContentHuggingPriority(.required, for: .horizontal)
+        self.name.setContentCompressionResistancePriority(.defaultLow, for: .horizontal)
+        self.canyonTag.setContentCompressionResistancePriority(.required, for: .horizontal)
 
         self.detailStackView.axis = .vertical
         self.detailStackView.spacing = Grid.medium
         self.detailStackView.addArrangedSubview(self.rappels)
         self.detailStackView.addArrangedSubview(self.maxRappelLength)
+//        self.detailStackView.setContentCompressionResistancePriority(.required, for: .horizontal)
+        self.maxRappelLength.setContentCompressionResistancePriority(.required, for: .horizontal)
         
         self.canyonTag.configure(
             name: Strings.canyon,
