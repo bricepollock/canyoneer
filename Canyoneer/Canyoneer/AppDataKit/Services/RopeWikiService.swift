@@ -12,14 +12,10 @@ import MapKit
 struct RopeWikiService {
     func canyons() -> Single<[Canyon]> {
         return loadFromFile()
-//        return self.canyons(with: self.regions())
     }
     
     func regions() -> [Region] {
-        return [
-            Self.california,
-            Self.utah
-        ]
+        return []
     }
     
     func loadFromFile() -> Single<[Canyon]> {

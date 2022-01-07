@@ -59,12 +59,12 @@
 		40E4431D27879F1D00FE245D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431C27879F1D00FE245D /* MapViewController.swift */; };
 		40E4431F2787A0C000FE245D /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431E2787A0C000FE245D /* MapViewModel.swift */; };
 		40E443222787A0F200FE245D /* RopeWikiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443212787A0F200FE245D /* RopeWikiService.swift */; };
-		40E443242787A11900FE245D /* RopeWikiService+mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443232787A11900FE245D /* RopeWikiService+mocks.swift */; };
 		40E443262787A23A00FE245D /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443252787A23A00FE245D /* SearchService.swift */; };
 		40E443282787A45100FE245D /* MapViewControler+MapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443272787A45100FE245D /* MapViewControler+MapViewDelegate.swift */; };
 		40E4432A2787D3A300FE245D /* ropewiki_database.json in Resources */ = {isa = PBXBuildFile; fileRef = 40E443292787D3A300FE245D /* ropewiki_database.json */; };
 		40E4432C2787D80100FE245D /* CanyonPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4432B2787D80100FE245D /* CanyonPoint.swift */; };
 		40E4432F2787D90C00FE245D /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4432E2787D90C00FE245D /* RequestError.swift */; };
+		40E443312787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443302787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,12 +140,12 @@
 		40E4431C27879F1D00FE245D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		40E4431E2787A0C000FE245D /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		40E443212787A0F200FE245D /* RopeWikiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopeWikiService.swift; sourceTree = "<group>"; };
-		40E443232787A11900FE245D /* RopeWikiService+mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RopeWikiService+mocks.swift"; sourceTree = "<group>"; };
 		40E443252787A23A00FE245D /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
 		40E443272787A45100FE245D /* MapViewControler+MapViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapViewControler+MapViewDelegate.swift"; sourceTree = "<group>"; };
 		40E443292787D3A300FE245D /* ropewiki_database.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ropewiki_database.json; sourceTree = "<group>"; };
 		40E4432B2787D80100FE245D /* CanyonPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonPoint.swift; sourceTree = "<group>"; };
 		40E4432E2787D90C00FE245D /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		40E443302787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonClusteringMKMarkerAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -384,6 +384,7 @@
 		40E4431B27879EFA00FE245D /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				40E443302787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift */,
 				40E4431C27879F1D00FE245D /* MapViewController.swift */,
 				40E443272787A45100FE245D /* MapViewControler+MapViewDelegate.swift */,
 				40E4431E2787A0C000FE245D /* MapViewModel.swift */,
@@ -395,7 +396,6 @@
 			isa = PBXGroup;
 			children = (
 				40E443212787A0F200FE245D /* RopeWikiService.swift */,
-				40E443232787A11900FE245D /* RopeWikiService+mocks.swift */,
 				40E443252787A23A00FE245D /* SearchService.swift */,
 			);
 			path = Services;
@@ -584,7 +584,6 @@
 				40E4431127878A3D00FE245D /* SubCanyonView.swift in Sources */,
 				40E4430F2787897F00FE245D /* SubCanyonListView.swift in Sources */,
 				40E4432F2787D90C00FE245D /* RequestError.swift in Sources */,
-				40E443242787A11900FE245D /* RopeWikiService+mocks.swift in Sources */,
 				40E442EF2787710700FE245D /* RegionResultView.swift in Sources */,
 				40E4430B2787801900FE245D /* SubRegionListView.swift in Sources */,
 				40E442DD2787629B00FE245D /* GlobalProgressIndicator.swift in Sources */,
@@ -597,6 +596,7 @@
 				40E442C327875FCD00FE245D /* NSDirectionalEdgeInsets+convenience.swift in Sources */,
 				40E4431827879B8000FE245D /* RegionListRow.swift in Sources */,
 				40E442FA2787777700FE245D /* FontBook.swift in Sources */,
+				40E443312787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,4 +20,7 @@ extension MapViewController: MKMapViewDelegate {
         self.navigationController?.pushViewController(next, animated: true)
     }
     
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        return NonClusteringMKMarkerAnnotationView(annotation: annotation, reuseIdentifier: "MyMarker")
+    }
 }
