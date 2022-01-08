@@ -22,8 +22,13 @@ class CanyonAnnotation: MKPointAnnotation {
 }
 
 class MapViewController: UIViewController {
+    enum Strings {
+        static let save = "Save"
+    }
+    
     private let locationService = LocationService()
     internal let mapView = MKMapView()
+    private let rappelFilter = RappelFilterView()
     
     private let canyons: [Canyon]
     private let viewModel = MapViewModel()
@@ -41,13 +46,16 @@ class MapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addSubview(self.mapView)
+        
+        let filterButton = UIBarButtonItem(image: UIImage(systemName: "line.3.horizontal.decrease.circle"), style: .plain, target: self, action: #selector(didRequestFilters))
+        self.navigationItem.rightBarButtonItems = [filterButton]
+        
         self.mapView.constrain.fillSuperview()
         self.mapView.delegate = self
         self.mapView.showsUserLocation = true
         
         let utahCenter = CLLocationCoordinate2D(latitude: 39.3210, longitude: -111.0937)
         self.mapView.region = MKCoordinateRegion(center: utahCenter, span: MKCoordinateSpan(latitudeDelta: 20, longitudeDelta: 20))
-        
         
         if locationService.isLocationEnabled() {
             self.locationService.getCurrentLocation { location in
@@ -64,5 +72,41 @@ class MapViewController: UIViewController {
             let annotation = CanyonAnnotation(canyon: canyon)
             self.mapView.addAnnotation(annotation)
         }
+    }
+    
+    private func updateWithFilters() {
+        self.mapView.removeAnnotations(self.mapView.annotations)
+        
+        let canyons = self.canyons.filter { canyon in
+            // filter out canyons without this rap information
+            guard let maxRap = canyon.maxRapLength else {
+                return false
+            }
+            return maxRap >= self.rappelFilter.minRappels && maxRap <= self.rappelFilter.maxRappels
+        }
+        canyons.forEach { canyon in
+            let annotation = CanyonAnnotation(canyon: canyon)
+            self.mapView.addAnnotation(annotation)
+        }
+    }
+    
+    @objc func didRequestFilters() {
+        let bottomSheet = BottomSheetViewController()
+        bottomSheet.modalPresentationStyle = .overCurrentContext
+        
+        let saveButton = ContainedButton()
+        saveButton.configure(text: Strings.save)
+        saveButton.didSelect.subscribeOnNext { () in
+            bottomSheet.animateDismissView()
+        }.disposed(by: self.bag)
+        
+        bottomSheet.contentStackView.spacing = .medium
+        bottomSheet.contentStackView.addArrangedSubview(rappelFilter)
+        bottomSheet.contentStackView.addArrangedSubview(saveButton)
+        bottomSheet.contentStackView.addArrangedSubview(UIView())
+        bottomSheet.willDismiss.subscribeOnNext { () in
+            self.updateWithFilters()
+        }.disposed(by: self.bag)
+        self.present(bottomSheet, animated: false)
     }
 }
