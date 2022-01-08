@@ -13,7 +13,7 @@ class CanyonDetailView: UIView {
     enum Strings {
         
         static func summary(for canyon: Canyon) -> String {
-            return " Summary: \(Strings.stars(quality: canyon.quality))"
+            return " Summary"
         }
         
         static let details = " Details"
@@ -84,6 +84,8 @@ class CanyonDetailView: UIView {
     }
     
     private let masterStackView = UIStackView()
+    private let starsStackView = UIStackView()
+    private let summaryStackView = UIStackView()
     private let summaryTitle = UILabel()
     private let summaryDetails = UILabel()
     private let dataTitle = UILabel()
@@ -98,14 +100,21 @@ class CanyonDetailView: UIView {
         self.masterStackView.axis = .vertical
         self.masterStackView.spacing = Grid.medium
         
-        self.masterStackView.addArrangedSubview(self.summaryTitle)
+        // -- render summary
+        self.summaryStackView.addArrangedSubview(self.summaryTitle)
+        self.summaryStackView.addArrangedSubview(self.starsStackView)
+        self.summaryStackView.addArrangedSubview(UIView())  //spacer
+        self.summaryStackView.backgroundColor = ColorPalette.Color.canyonRed
+        self.summaryStackView.alignment = .leading
+        self.summaryStackView.spacing = .small
+        // --
+        
+        self.masterStackView.addArrangedSubview(summaryStackView)
         self.masterStackView.addArrangedSubview(self.summaryDetails)
         self.masterStackView.addArrangedSubview(self.dataTitle)
         self.masterStackView.addArrangedSubview(self.dataTable)
         
         self.summaryTitle.font = FontBook.Body.emphasis
-        self.summaryTitle.backgroundColor = ColorPalette.Color.canyonRed
-        
         
         self.summaryDetails.font = FontBook.Body.regular
         
@@ -122,6 +131,16 @@ class CanyonDetailView: UIView {
 
         self.summaryTitle.text = Strings.summary(for: canyon)
         self.summaryDetails.text = Strings.summaryDetails(for: canyon)
+        
+        // special rendering needed for array of images becuase there is no half-star emoji we could put in text
+        self.starsStackView.removeAll()
+        CanyonDetailView.Strings.stars(quality: canyon.quality).forEach { image in
+            let imageView = UIImageView(image: image)
+            imageView.constrain.width(20)
+            imageView.constrain.aspect(1)
+            imageView.contentMode = .scaleAspectFit
+            self.starsStackView.addArrangedSubview(imageView)
+        }
         
         let dataDetails = [
             (title: Strings.numRaps, value: Strings.intValue(int: canyon.numRaps)),
