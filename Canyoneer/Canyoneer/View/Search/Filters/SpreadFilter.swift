@@ -40,9 +40,11 @@ class SpreadFilter: UIView {
         masterStackView.spacing = Grid.xSmall
         
         masterStackView.addArrangedSubview(self.titleLabel)
+        masterStackView.addArrangedSubview(UIView())
         masterStackView.addArrangedSubview(self.minTextField)
         masterStackView.addArrangedSubview(self.comparisonLabel)
         masterStackView.addArrangedSubview(self.maxTextField)
+        masterStackView.addArrangedSubview(self.unitsLabel)
         
         let textFieldWidth: CGFloat = 50
         
