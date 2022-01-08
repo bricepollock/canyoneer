@@ -26,7 +26,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         static let c = "C"
 
         static let time = CanyonDetailView.Strings.time
-        
+        static let season = "Best Months"
     }
     
     private let starFitler = SpreadFilter()
@@ -35,6 +35,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
     private let technicalFilter = SpreadFilter()
     private let waterDifficultyFilter = MultiSelectFilter()
     private let timeFilter = MultiSelectFilter()
+    private let seasonFilter = BestSeasonFilter()
     private let bag = DisposeBag()
     
     override init() {
@@ -55,6 +56,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         self.contentStackView.addArrangedSubview(self.technicalFilter)
         self.contentStackView.addArrangedSubview(self.waterDifficultyFilter)
         self.contentStackView.addArrangedSubview(self.timeFilter)
+        self.contentStackView.addArrangedSubview(self.seasonFilter)
         self.contentStackView.addArrangedSubview(saveButton)
         self.contentStackView.addArrangedSubview(UIView())
         
@@ -84,6 +86,12 @@ class BottomSheetFilterViewController: BottomSheetViewController {
             initialSelections: RomanNumeral.allCases.map { $0.rawValue }
         )
         self.timeFilter.configure(with: timeData)
+                
+        let seasonData = BestSeasonFilterData(
+            name: Strings.season,
+            options: Month.allCases.map { $0.short }
+        )
+        self.seasonFilter.configure(with: seasonData)
     }
     
     required init?(coder: NSCoder) {
@@ -124,6 +132,12 @@ class BottomSheetFilterViewController: BottomSheetViewController {
             // Time
             guard let time = canyon.timeGrade else { return false}
             guard timeFilter.selections.contains(time) else {
+                return false
+            }
+            
+            // Season, if any seasons match up
+            let bestSeasonsInitials = canyon.bestSeasons.map { $0.short }
+            guard Set(bestSeasonsInitials).intersection(self.seasonFilter.selections).count > 0 else {
                 return false
             }
             

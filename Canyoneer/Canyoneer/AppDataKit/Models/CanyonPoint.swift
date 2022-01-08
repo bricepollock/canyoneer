@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Month: String, Codable {
+enum Month: String, Codable, CaseIterable {
     case january = "January"
     case february = "February"
     case march = "March"
@@ -20,6 +20,14 @@ enum Month: String, Codable {
     case october = "October"
     case november = "November"
     case december = "December"
+    
+    var initial: String {
+        return String(self.rawValue.prefix(1))
+    }
+    
+    var short: String {
+        return String(self.rawValue.prefix(3))
+    }
 }
 
 enum Vehicle: String, Codable {
