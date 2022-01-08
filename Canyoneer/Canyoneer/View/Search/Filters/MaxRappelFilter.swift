@@ -8,10 +8,10 @@
 import Foundation
 import UIKit
 
-class RappelFilterView: UIView {
+class MaxRappelFilter: UIView {
     
     enum Strings {
-        static let title = "Rappels"
+        static let title = "Max Rappel"
         static let compare = "<"
         static let units = "ft"
     }
@@ -74,7 +74,7 @@ class RappelFilterView: UIView {
     }
 }
 
-extension RappelFilterView: UITextFieldDelegate {
+extension MaxRappelFilter: UITextFieldDelegate {
     func textFieldDidChangeSelection(_ textField: UITextField) {
         guard let text = textField.text, let textInt = Int(text) else { return }
         if textField == self.minRapTextField {

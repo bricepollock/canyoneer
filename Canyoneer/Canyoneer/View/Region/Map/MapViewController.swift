@@ -22,13 +22,9 @@ class CanyonAnnotation: MKPointAnnotation {
 }
 
 class MapViewController: UIViewController {
-    enum Strings {
-        static let save = "Save"
-    }
-    
     private let locationService = LocationService()
     internal let mapView = MKMapView()
-    private let rappelFilter = RappelFilterView()
+    private let filterSheet = SearchBottomSheetViewController()
     
     private let canyons: [Canyon]
     private let viewModel = MapViewModel()
@@ -49,6 +45,9 @@ class MapViewController: UIViewController {
         
         let filterButton = UIBarButtonItem(image: UIImage(systemName: "line.3.horizontal.decrease.circle"), style: .plain, target: self, action: #selector(didRequestFilters))
         self.navigationItem.rightBarButtonItems = [filterButton]
+        self.filterSheet.willDismiss.subscribeOnNext { () in
+            self.updateWithFilters()
+        }.disposed(by: self.bag)
         
         self.mapView.constrain.fillSuperview()
         self.mapView.delegate = self
@@ -76,14 +75,7 @@ class MapViewController: UIViewController {
     
     private func updateWithFilters() {
         self.mapView.removeAnnotations(self.mapView.annotations)
-        
-        let canyons = self.canyons.filter { canyon in
-            // filter out canyons without this rap information
-            guard let maxRap = canyon.maxRapLength else {
-                return false
-            }
-            return maxRap >= self.rappelFilter.minRappels && maxRap <= self.rappelFilter.maxRappels
-        }
+        let canyons = self.filterSheet.filter(canyons: self.canyons)
         canyons.forEach { canyon in
             let annotation = CanyonAnnotation(canyon: canyon)
             self.mapView.addAnnotation(annotation)
@@ -91,22 +83,6 @@ class MapViewController: UIViewController {
     }
     
     @objc func didRequestFilters() {
-        let bottomSheet = BottomSheetViewController()
-        bottomSheet.modalPresentationStyle = .overCurrentContext
-        
-        let saveButton = ContainedButton()
-        saveButton.configure(text: Strings.save)
-        saveButton.didSelect.subscribeOnNext { () in
-            bottomSheet.animateDismissView()
-        }.disposed(by: self.bag)
-        
-        bottomSheet.contentStackView.spacing = .medium
-        bottomSheet.contentStackView.addArrangedSubview(rappelFilter)
-        bottomSheet.contentStackView.addArrangedSubview(saveButton)
-        bottomSheet.contentStackView.addArrangedSubview(UIView())
-        bottomSheet.willDismiss.subscribeOnNext { () in
-            self.updateWithFilters()
-        }.disposed(by: self.bag)
-        self.present(bottomSheet, animated: false)
+        self.present(self.filterSheet, animated: false)
     }
 }

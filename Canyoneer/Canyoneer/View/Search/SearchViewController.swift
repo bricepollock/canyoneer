@@ -14,11 +14,9 @@ class SearchViewController: ScrollableStackViewController {
         static func title(search: String) -> String {
             return "Search: \(search)"
         }
-        static let save = "Save"
     }
     
-    // filters
-    private let rappelFilter = RappelFilterView()
+    private let filterSheet = SearchBottomSheetViewController()
     
     private let result: SearchResultList
     private var filteredResults: [Canyon]?
@@ -46,6 +44,11 @@ class SearchViewController: ScrollableStackViewController {
         let filterButton = UIBarButtonItem(image: UIImage(systemName: "line.3.horizontal.decrease.circle"), style: .plain, target: self, action: #selector(didRequestFilters))
         self.navigationItem.rightBarButtonItems = [mapButton, filterButton]
         self.renderResults(results: self.result.result)
+        
+        self.filterSheet.willDismiss.subscribeOnNext { () in
+            self.updateWithFilters()
+        }.disposed(by: self.bag)
+
     }
     
     private func renderResults(results: [SearchResult]) {
@@ -84,20 +87,9 @@ class SearchViewController: ScrollableStackViewController {
     }
     
     private func updateWithFilters() {
-        let results = self.result.result.filter { result in
-            guard let canyon = result.canyonDetails else {
-                return true
-            }
-            // filter out canyons without this rap information
-            guard let maxRap = canyon.maxRapLength else {
-                return false
-            }
-            return maxRap >= self.rappelFilter.minRappels && maxRap <= self.rappelFilter.maxRappels
-        }
-        self.filteredResults = results.compactMap { result in
-            return result.canyonDetails
-        }
-        self.renderResults(results: results)
+        let filtered = self.filterSheet.filter(results: self.result.result)
+        self.filteredResults = filtered.compactMap { $0.canyonDetails }
+        self.renderResults(results: filtered)
     }
     
     @objc func didRequetMap() {
@@ -107,23 +99,6 @@ class SearchViewController: ScrollableStackViewController {
     }
     
     @objc func didRequestFilters() {
-        
-        let bottomSheet = BottomSheetViewController()
-        bottomSheet.modalPresentationStyle = .overCurrentContext
-        
-        let saveButton = ContainedButton()
-        saveButton.configure(text: Strings.save)
-        saveButton.didSelect.subscribeOnNext { () in
-            bottomSheet.animateDismissView()
-        }.disposed(by: self.bag)
-        
-        bottomSheet.contentStackView.spacing = .medium
-        bottomSheet.contentStackView.addArrangedSubview(rappelFilter)
-        bottomSheet.contentStackView.addArrangedSubview(saveButton)
-        bottomSheet.contentStackView.addArrangedSubview(UIView())
-        bottomSheet.willDismiss.subscribeOnNext { () in
-            self.updateWithFilters()
-        }.disposed(by: self.bag)
-        self.present(bottomSheet, animated: false)
+        self.present(self.filterSheet, animated: false)
     }
 }
