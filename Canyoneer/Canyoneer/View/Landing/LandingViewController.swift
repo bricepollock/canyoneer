@@ -21,6 +21,7 @@ class LandingViewController: ScrollableStackViewController {
     private let nearMeButton = ContainedButton()
     private let regionList = RegionListView()
     
+    private let loadingComponent = LoadingComponent()
     private let viewModel = LandingViewModel()
     private let bag = DisposeBag()
     
@@ -53,18 +54,23 @@ class LandingViewController: ScrollableStackViewController {
         self.viewMapButton.configure(text: Strings.map)
         self.viewMapButton.didSelect.subscribeOnNext { [weak self] () in
             guard let self = self else { return }
+            self.loadingComponent.startLoading(loadingType: .screen)
             self.viewModel.canyons().subscribe(onSuccess: { [weak self] canyons in
+                defer { self?.loadingComponent.stopLoading() }
                 let next = MapViewController(canyons: canyons)
                 self?.navigationController?.pushViewController(next, animated: true)
             }, onFailure: { error in
+                defer { self.loadingComponent.stopLoading() }
                 Global.logger.error("\(String(describing: error))")
             }).disposed(by: self.bag)
         }.disposed(by: self.bag)
         
         self.nearMeButton.configure(text: Strings.nearMe)
-        self.nearMeButton.didSelect.flatMap {
+        self.nearMeButton.didSelect.flatMap { () -> Single<SearchResultList>  in
+            self.loadingComponent.startLoading(loadingType: .screen)
             return self.viewModel.nearMeSearch()
         }.subscribeOnNext { [weak self] results in
+            defer { self?.loadingComponent.stopLoading() }
             let next = SearchViewController(result: results)
             self?.navigationController?.pushViewController(next, animated: true)
         }.disposed(by: self.bag)
@@ -86,13 +92,15 @@ class LandingViewController: ScrollableStackViewController {
     
     // MARK: Actions
     func performSearch(for searchString: String) {
+        self.loadingComponent.startLoading(loadingType: .screen)
         self.viewModel.requestSearch(for: searchString).subscribe { [weak self] results in
+            defer { self?.loadingComponent.stopLoading() }
             let next = SearchViewController(result: results)
             self?.navigationController?.pushViewController(next, animated: true)
         } onFailure: { error in
+            defer { self.loadingComponent.stopLoading() }
             Global.logger.error("Failed search")
         }.disposed(by: self.bag)
-
     }
 }
 
