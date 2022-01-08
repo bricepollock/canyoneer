@@ -52,6 +52,7 @@ class CanyonDetailView: UIView {
         static let time = "Time Grade\t"
         static let quality = "Stars"
         static let vehicle = "Vehicle"
+        static let season = "Best Months"
         
         static func intValue(int: Int?) -> String {
             guard let int = int else { return "--" }
@@ -90,6 +91,7 @@ class CanyonDetailView: UIView {
     private let summaryDetails = UILabel()
     private let dataTitle = UILabel()
     private let dataTable = DataTableView()
+    private let seasons = BestSeasonFilter()
     
     init() {
         super.init(frame: .zero)
@@ -113,6 +115,7 @@ class CanyonDetailView: UIView {
         self.masterStackView.addArrangedSubview(self.summaryDetails)
         self.masterStackView.addArrangedSubview(self.dataTitle)
         self.masterStackView.addArrangedSubview(self.dataTable)
+        self.masterStackView.addArrangedSubview(self.seasons)
         
         self.summaryTitle.font = FontBook.Body.emphasis
         
@@ -156,5 +159,13 @@ class CanyonDetailView: UIView {
         let data = DataTableViewData(data: dataDetails)
         self.dataTable.configure(with: data)
         
+        let seasonData = BestSeasonFilterData(
+            name: Strings.season,
+            options: Month.allCases.map {
+                return SeasonSelection(name: $0.short, isSelected: canyon.bestSeasons.contains($0))
+            }
+        )
+        self.seasons.configure(with: seasonData)
+        self.seasons.isUserInteractionEnabled = false
     }
 }

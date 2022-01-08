@@ -26,7 +26,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         static let c = "C"
 
         static let time = CanyonDetailView.Strings.time
-        static let season = "Best Months"
+        static let season = CanyonDetailView.Strings.season
     }
     
     private let starFitler = SpreadFilter()
@@ -89,7 +89,9 @@ class BottomSheetFilterViewController: BottomSheetViewController {
                 
         let seasonData = BestSeasonFilterData(
             name: Strings.season,
-            options: Month.allCases.map { $0.short }
+            options: Month.allCases.map {
+                return SeasonSelection(name: $0.short, isSelected: true)                
+            }
         )
         self.seasonFilter.configure(with: seasonData)
     }

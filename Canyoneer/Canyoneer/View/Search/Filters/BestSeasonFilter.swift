@@ -53,7 +53,12 @@ class SeasonView: UIView {
 
 struct BestSeasonFilterData {
     let name: String
-    let options: [String]
+    let options: [SeasonSelection]
+}
+
+struct SeasonSelection {
+    let name: String
+    let isSelected: Bool
 }
 
 class BestSeasonFilter: UIView {
@@ -79,7 +84,7 @@ class BestSeasonFilter: UIView {
         self.addSubview(self.masterStackView)
         self.masterStackView.constrain.fillSuperview()
         self.masterStackView.axis = .vertical
-        self.masterStackView.spacing = .xSmall
+        self.masterStackView.spacing = .small
         self.titleLabel.textAlignment = .center
         self.titleLabel.font = FontBook.Body.emphasis
     }
@@ -101,8 +106,8 @@ class BestSeasonFilter: UIView {
         firstRow.alignment = .center
         firstRowData.forEach {
             let monthView = SeasonView()
-            monthView.configure(name: $0)
-            monthView.chooseSelection(true)
+            monthView.configure(name: $0.name)
+            monthView.chooseSelection($0.isSelected)
             firstRow.addArrangedSubview(monthView)
         }
         self.masterStackView.addArrangedSubview(firstRow)
@@ -110,8 +115,8 @@ class BestSeasonFilter: UIView {
         secondRow.distribution = .equalSpacing
         secondRowData.forEach {
             let monthView = SeasonView()
-            monthView.configure(name: $0)
-            monthView.chooseSelection(true)
+            monthView.configure(name: $0.name)
+            monthView.chooseSelection($0.isSelected)
             secondRow.addArrangedSubview(monthView)
         }
         
