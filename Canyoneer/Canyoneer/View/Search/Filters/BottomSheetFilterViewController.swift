@@ -16,6 +16,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         static let maxRap = "Max Rappel Length"
         static let feet = "ft"
         static let numRap = "Number Rappels"
+        static let technical = CanyonDetailView.Strings.difficulty
         
         static let water = CanyonDetailView.Strings.water
         static let a = "A"
@@ -28,6 +29,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
     
     private let maxRapFilter = SpreadFilter()
     private let numRapFilter = SpreadFilter()
+    private let technicalFilter = SpreadFilter()
     private let waterDifficultyFilter = MultiSelectFilter()
     private let timeFilter = MultiSelectFilter()
     private let bag = DisposeBag()
@@ -46,6 +48,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         self.contentStackView.spacing = .medium
         self.contentStackView.addArrangedSubview(self.numRapFilter)
         self.contentStackView.addArrangedSubview(self.maxRapFilter)
+        self.contentStackView.addArrangedSubview(self.technicalFilter)
         self.contentStackView.addArrangedSubview(self.waterDifficultyFilter)
         self.contentStackView.addArrangedSubview(self.timeFilter)
         self.contentStackView.addArrangedSubview(saveButton)
@@ -56,6 +59,9 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         
         let maxRapData = SpreadFilterData(name: Strings.maxRap, units: Strings.feet, initialMin: 0, initialMax: 600)
         self.maxRapFilter.configure(with: maxRapData)
+        
+        let technicalData = SpreadFilterData(name: Strings.technical, units: nil, initialMin: 1, initialMax: 4)
+        self.technicalFilter.configure(with: technicalData)
         
         let waterSelections = [Strings.a, Strings.b, Strings.c]
         let waterData = MultiSelectFilterData(
@@ -88,6 +94,12 @@ class BottomSheetFilterViewController: BottomSheetViewController {
             // max rap
             guard let maxRap = canyon.maxRapLength else { return false }
             guard maxRap >= self.maxRapFilter.minValue && maxRap <= self.maxRapFilter.maxValue else {
+                return false
+            }
+            
+            // technical
+            guard let technicalRating = canyon.technicalDifficulty else { return false }
+            guard technicalRating >= self.technicalFilter.minValue && technicalRating <= self.technicalFilter.maxValue else {
                 return false
             }
             

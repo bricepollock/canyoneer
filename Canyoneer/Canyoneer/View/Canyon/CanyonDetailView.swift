@@ -46,7 +46,7 @@ class CanyonDetailView: UIView {
         static let restricted = "Has Restrictions"
         static let permits = "Requires Permits"
         static let shuttle = "Shuttle Required"
-        static let difficulty = "Difficulty Rating"
+        static let difficulty = "Technical Rating"
         // these tabs are for alignment in the table, this is a hack-hack shortcut
         static let water = "Water Rating\t"
         static let time = "Time Grade\t"
