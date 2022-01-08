@@ -16,7 +16,7 @@ class SearchViewController: ScrollableStackViewController {
         }
     }
     
-    private let filterSheet = SearchBottomSheetViewController()
+    private let filterSheet = BottomSheetFilterViewController()
     
     private let result: SearchResultList
     private var filteredResults: [Canyon]?

@@ -24,7 +24,7 @@ class CanyonAnnotation: MKPointAnnotation {
 class MapViewController: UIViewController {
     private let locationService = LocationService()
     internal let mapView = MKMapView()
-    private let filterSheet = SearchBottomSheetViewController()
+    private let filterSheet = BottomSheetFilterViewController()
     
     private let canyons: [Canyon]
     private let viewModel = MapViewModel()

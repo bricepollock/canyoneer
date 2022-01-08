@@ -9,12 +9,18 @@ import Foundation
 import UIKit
 import RxSwift
 
-class SearchBottomSheetViewController: BottomSheetViewController {
+class BottomSheetFilterViewController: BottomSheetViewController {
     enum Strings {
         static let save = "Save"
+        
+        static let water = CanyonDetailView.Strings.water
+        static let a = "A"
+        static let b = "B"
+        static let c = "C"
     }
     
-    public let maxRapFilter = MaxRappelFilter()
+    private let maxRapFilter = MaxRappelFilter()
+    private let waterDifficultyFilter = MultiSelectFilter()
     private let bag = DisposeBag()
     
     override init() {
@@ -30,8 +36,17 @@ class SearchBottomSheetViewController: BottomSheetViewController {
         
         self.contentStackView.spacing = .medium
         self.contentStackView.addArrangedSubview(self.maxRapFilter)
+        self.contentStackView.addArrangedSubview(self.waterDifficultyFilter)
         self.contentStackView.addArrangedSubview(saveButton)
         self.contentStackView.addArrangedSubview(UIView())
+        
+        let waterSelections = [Strings.a, Strings.b, Strings.c]
+        let waterData = MultiSelectFilterData(
+            name: Strings.water,
+            selections: waterSelections,
+            initialSelections: waterSelections
+        )
+        self.waterDifficultyFilter.configure(with: waterData)
     }
     
     required init?(coder: NSCoder) {
@@ -44,7 +59,20 @@ class SearchBottomSheetViewController: BottomSheetViewController {
             guard let maxRap = canyon.maxRapLength else {
                 return false
             }
-            return maxRap >= self.maxRapFilter.minRappels && maxRap <= self.maxRapFilter.maxRappels
+            guard maxRap >= self.maxRapFilter.minRappels && maxRap <= self.maxRapFilter.maxRappels else {
+                return false
+            }
+            
+            // water
+            guard let waterDifficulty = canyon.waterDifficulty else {
+                return false
+            }
+            guard waterDifficultyFilter.selections.contains(waterDifficulty) else {
+                return false
+            }
+            
+            // end
+            return true
         }
     }
     

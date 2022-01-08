@@ -70,7 +70,9 @@
 		40E4433A2788914000FE245D /* CLLocation2D+distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443392788914000FE245D /* CLLocation2D+distance.swift */; };
 		40E4433C2788A25B00FE245D /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4433B2788A25B00FE245D /* BottomSheetViewController.swift */; };
 		40E4433F2788F1D600FE245D /* MaxRappelFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4433E2788F1D600FE245D /* MaxRappelFilter.swift */; };
-		40E443412789F36C00FE245D /* SearchBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443402789F36C00FE245D /* SearchBottomSheetViewController.swift */; };
+		40E443412789F36C00FE245D /* BottomSheetFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443402789F36C00FE245D /* BottomSheetFilterViewController.swift */; };
+		40E443442789F82D00FE245D /* MultiSelectSegmentedControl in Frameworks */ = {isa = PBXBuildFile; productRef = 40E443432789F82D00FE245D /* MultiSelectSegmentedControl */; };
+		40E443462789F8A100FE245D /* MultiSelectFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443452789F8A100FE245D /* MultiSelectFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,7 +159,8 @@
 		40E443392788914000FE245D /* CLLocation2D+distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation2D+distance.swift"; sourceTree = "<group>"; };
 		40E4433B2788A25B00FE245D /* BottomSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
 		40E4433E2788F1D600FE245D /* MaxRappelFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxRappelFilter.swift; sourceTree = "<group>"; };
-		40E443402789F36C00FE245D /* SearchBottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBottomSheetViewController.swift; sourceTree = "<group>"; };
+		40E443402789F36C00FE245D /* BottomSheetFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetFilterViewController.swift; sourceTree = "<group>"; };
+		40E443452789F8A100FE245D /* MultiSelectFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40E442F22787751B00FE245D /* RxSwift in Frameworks */,
+				40E443442789F82D00FE245D /* MultiSelectSegmentedControl in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +304,6 @@
 			isa = PBXGroup;
 			children = (
 				40E4433B2788A25B00FE245D /* BottomSheetViewController.swift */,
-				40E443402789F36C00FE245D /* SearchBottomSheetViewController.swift */,
 				40E442F72787770200FE245D /* ContainedButton.swift */,
 				40E44334278886CC00FE245D /* DataTableView.swift */,
 				40E442DC2787629B00FE245D /* GlobalProgressIndicator.swift */,
@@ -438,7 +441,9 @@
 		40E4433D2788F1C800FE245D /* Filters */ = {
 			isa = PBXGroup;
 			children = (
+				40E443402789F36C00FE245D /* BottomSheetFilterViewController.swift */,
 				40E4433E2788F1D600FE245D /* MaxRappelFilter.swift */,
+				40E443452789F8A100FE245D /* MultiSelectFilter.swift */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -461,6 +466,7 @@
 			name = Canyoneer;
 			packageProductDependencies = (
 				40E442F12787751B00FE245D /* RxSwift */,
+				40E443432789F82D00FE245D /* MultiSelectSegmentedControl */,
 			);
 			productName = Canyoneer;
 			productReference = 40E4428327875D9F00FE245D /* Canyoneer.app */;
@@ -536,6 +542,7 @@
 			mainGroup = 40E4427A27875D9F00FE245D;
 			packageReferences = (
 				40E442F02787751B00FE245D /* XCRemoteSwiftPackageReference "RxSwift" */,
+				40E443422789F82D00FE245D /* XCRemoteSwiftPackageReference "MultiSelectSegmentedControl" */,
 			);
 			productRefGroup = 40E4428427875D9F00FE245D /* Products */;
 			projectDirPath = "";
@@ -619,12 +626,13 @@
 				40E442C427875FCD00FE245D /* UIEdgeInsets+Extensions.swift in Sources */,
 				40E442D72787614000FE245D /* ColorPalette.swift in Sources */,
 				40E4430527877F8D00FE245D /* RegionViewController.swift in Sources */,
+				40E443462789F8A100FE245D /* MultiSelectFilter.swift in Sources */,
 				40E4431127878A3D00FE245D /* SubCanyonView.swift in Sources */,
 				40E44335278886CC00FE245D /* DataTableView.swift in Sources */,
 				40E4430F2787897F00FE245D /* SubCanyonListView.swift in Sources */,
 				40E4432F2787D90C00FE245D /* RequestError.swift in Sources */,
 				40E442EF2787710700FE245D /* RegionResultView.swift in Sources */,
-				40E443412789F36C00FE245D /* SearchBottomSheetViewController.swift in Sources */,
+				40E443412789F36C00FE245D /* BottomSheetFilterViewController.swift in Sources */,
 				40E4430B2787801900FE245D /* SubRegionListView.swift in Sources */,
 				40E442DD2787629B00FE245D /* GlobalProgressIndicator.swift in Sources */,
 				40E442DB2787616E00FE245D /* UIStackView+remove.swift in Sources */,
@@ -994,6 +1002,14 @@
 				version = 6.2.0;
 			};
 		};
+		40E443422789F82D00FE245D /* XCRemoteSwiftPackageReference "MultiSelectSegmentedControl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yonat/MultiSelectSegmentedControl";
+			requirement = {
+				kind = exactVersion;
+				version = 2.3.6;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1001,6 +1017,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 40E442F02787751B00FE245D /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
+		};
+		40E443432789F82D00FE245D /* MultiSelectSegmentedControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40E443422789F82D00FE245D /* XCRemoteSwiftPackageReference "MultiSelectSegmentedControl" */;
+			productName = MultiSelectSegmentedControl;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
