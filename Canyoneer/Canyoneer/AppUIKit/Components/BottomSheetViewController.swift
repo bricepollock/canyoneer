@@ -113,7 +113,7 @@ class BottomSheetViewController: UIViewController {
         // Set dynamic constraints
         // First, set container to default height
         // after panning, the height can expand
-        containerViewHeightConstraint = containerView.heightAnchor.constraint(equalToConstant: defaultHeight)
+        containerViewHeightConstraint = containerView.heightAnchor.constraint(greaterThanOrEqualToConstant: defaultHeight)
         
         // By setting the height to default height, the container will be hide below the bottom anchor view
         // Later, will bring it up by set it to 0
