@@ -13,13 +13,19 @@ class BottomSheetFilterViewController: BottomSheetViewController {
     enum Strings {
         static let save = "Save"
         
+        static let maxRap = "Max Rappel Length"
+        static let feet = "ft"
+        static let numRap = "Number Rappels"
+        
         static let water = CanyonDetailView.Strings.water
         static let a = "A"
         static let b = "B"
         static let c = "C"
+
     }
     
-    private let maxRapFilter = MaxRappelFilter()
+    private let maxRapFilter = SpreadFilter()
+    private let numRapFilter = SpreadFilter()
     private let waterDifficultyFilter = MultiSelectFilter()
     private let bag = DisposeBag()
     
@@ -35,10 +41,17 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         }.disposed(by: self.bag)
         
         self.contentStackView.spacing = .medium
+        self.contentStackView.addArrangedSubview(self.numRapFilter)
         self.contentStackView.addArrangedSubview(self.maxRapFilter)
         self.contentStackView.addArrangedSubview(self.waterDifficultyFilter)
         self.contentStackView.addArrangedSubview(saveButton)
         self.contentStackView.addArrangedSubview(UIView())
+        
+        let numRapData = SpreadFilterData(name: Strings.numRap, units: nil, initialMin: 0, initialMax: 50)
+        self.numRapFilter.configure(with: numRapData)
+        
+        let maxRapData = SpreadFilterData(name: Strings.maxRap, units: Strings.feet, initialMin: 0, initialMax: 600)
+        self.maxRapFilter.configure(with: maxRapData)
         
         let waterSelections = [Strings.a, Strings.b, Strings.c]
         let waterData = MultiSelectFilterData(
@@ -55,11 +68,19 @@ class BottomSheetFilterViewController: BottomSheetViewController {
     
     public func filter(canyons: [Canyon]) -> [Canyon] {
         return canyons.filter { canyon in
-            // filter out canyons without this rap information
+            // num raps
+            guard let numRaps = canyon.numRaps else {
+                return false
+            }
+            guard numRaps >= self.numRapFilter.minValue && numRaps <= self.numRapFilter.maxValue else {
+                return false
+            }
+            
+            // max rap
             guard let maxRap = canyon.maxRapLength else {
                 return false
             }
-            guard maxRap >= self.maxRapFilter.minRappels && maxRap <= self.maxRapFilter.maxRappels else {
+            guard maxRap >= self.maxRapFilter.minValue && maxRap <= self.maxRapFilter.maxValue else {
                 return false
             }
             
