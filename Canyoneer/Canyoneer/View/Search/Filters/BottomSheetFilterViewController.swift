@@ -13,6 +13,8 @@ class BottomSheetFilterViewController: BottomSheetViewController {
     enum Strings {
         static let save = "Save"
         
+        static let quality = "Quality"
+        static let stars = "stars"
         static let maxRap = "Max Rappel Length"
         static let feet = "ft"
         static let numRap = "Number Rappels"
@@ -27,6 +29,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         
     }
     
+    private let starFitler = SpreadFilter()
     private let maxRapFilter = SpreadFilter()
     private let numRapFilter = SpreadFilter()
     private let technicalFilter = SpreadFilter()
@@ -46,6 +49,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         }.disposed(by: self.bag)
         
         self.contentStackView.spacing = .medium
+        self.contentStackView.addArrangedSubview(self.starFitler)
         self.contentStackView.addArrangedSubview(self.numRapFilter)
         self.contentStackView.addArrangedSubview(self.maxRapFilter)
         self.contentStackView.addArrangedSubview(self.technicalFilter)
@@ -54,10 +58,13 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         self.contentStackView.addArrangedSubview(saveButton)
         self.contentStackView.addArrangedSubview(UIView())
         
+        let starData = SpreadFilterData(name: Strings.quality, units: Strings.stars, initialMin: 1, initialMax: 5)
+        self.starFitler.configure(with: starData)
+        
         let numRapData = SpreadFilterData(name: Strings.numRap, units: nil, initialMin: 0, initialMax: 50)
         self.numRapFilter.configure(with: numRapData)
         
-        let maxRapData = SpreadFilterData(name: Strings.maxRap, units: Strings.feet, initialMin: 0, initialMax: 600)
+        let maxRapData = SpreadFilterData(name: Strings.maxRap, units: Strings.feet, initialMin: 1, initialMax: 600)
         self.maxRapFilter.configure(with: maxRapData)
         
         let technicalData = SpreadFilterData(name: Strings.technical, units: nil, initialMin: 1, initialMax: 4)
@@ -85,6 +92,11 @@ class BottomSheetFilterViewController: BottomSheetViewController {
     
     public func filter(canyons: [Canyon]) -> [Canyon] {
         return canyons.filter { canyon in
+            // num raps
+            guard canyon.quality >= Float(self.starFitler.minValue) && canyon.quality <= Float(self.starFitler.maxValue) else {
+                return false
+            }
+            
             // num raps
             guard let numRaps = canyon.numRaps else { return false }
             guard numRaps >= self.numRapFilter.minValue && numRaps <= self.numRapFilter.maxValue else {
