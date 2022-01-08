@@ -22,11 +22,14 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         static let b = "B"
         static let c = "C"
 
+        static let time = CanyonDetailView.Strings.time
+        
     }
     
     private let maxRapFilter = SpreadFilter()
     private let numRapFilter = SpreadFilter()
     private let waterDifficultyFilter = MultiSelectFilter()
+    private let timeFilter = MultiSelectFilter()
     private let bag = DisposeBag()
     
     override init() {
@@ -44,6 +47,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         self.contentStackView.addArrangedSubview(self.numRapFilter)
         self.contentStackView.addArrangedSubview(self.maxRapFilter)
         self.contentStackView.addArrangedSubview(self.waterDifficultyFilter)
+        self.contentStackView.addArrangedSubview(self.timeFilter)
         self.contentStackView.addArrangedSubview(saveButton)
         self.contentStackView.addArrangedSubview(UIView())
         
@@ -60,6 +64,13 @@ class BottomSheetFilterViewController: BottomSheetViewController {
             initialSelections: waterSelections
         )
         self.waterDifficultyFilter.configure(with: waterData)
+        
+        let timeData = MultiSelectFilterData(
+            name: Strings.time,
+            selections: RomanNumeral.allCases.map { $0.rawValue },
+            initialSelections: RomanNumeral.allCases.map { $0.rawValue }
+        )
+        self.timeFilter.configure(with: timeData)
     }
     
     required init?(coder: NSCoder) {
@@ -69,26 +80,26 @@ class BottomSheetFilterViewController: BottomSheetViewController {
     public func filter(canyons: [Canyon]) -> [Canyon] {
         return canyons.filter { canyon in
             // num raps
-            guard let numRaps = canyon.numRaps else {
-                return false
-            }
+            guard let numRaps = canyon.numRaps else { return false }
             guard numRaps >= self.numRapFilter.minValue && numRaps <= self.numRapFilter.maxValue else {
                 return false
             }
             
             // max rap
-            guard let maxRap = canyon.maxRapLength else {
-                return false
-            }
+            guard let maxRap = canyon.maxRapLength else { return false }
             guard maxRap >= self.maxRapFilter.minValue && maxRap <= self.maxRapFilter.maxValue else {
                 return false
             }
             
             // water
-            guard let waterDifficulty = canyon.waterDifficulty else {
+            guard let waterDifficulty = canyon.waterDifficulty else { return false }
+            guard waterDifficultyFilter.selections.contains(waterDifficulty) else {
                 return false
             }
-            guard waterDifficultyFilter.selections.contains(waterDifficulty) else {
+            
+            // Time
+            guard let time = canyon.timeGrade else { return false}
+            guard timeFilter.selections.contains(time) else {
                 return false
             }
             

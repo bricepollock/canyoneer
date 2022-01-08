@@ -29,6 +29,15 @@ enum Vehicle: String, Codable {
     case fourWheelsHighClearnace = "4WD - High Clearance"
 }
 
+enum RomanNumeral: String, Codable, CaseIterable {
+    case one = "I"
+    case two = "II"
+    case three = "III"
+    case four = "IV"
+    case five = "V"
+    case six = "VI"
+}
+
 struct CanyonDataPoint: Codable {
     internal enum CodingKeys: String, CodingKey {
         case urlString = "URL"
@@ -121,21 +130,5 @@ struct CanyonDataPoint: Codable {
     
     var isRestricted: Bool? {
         return requirePermitsString == "Restricted"
-    }
-    
-    var timeRating: Int? {
-        guard let timeRatingString = timeRatingString else {
-            return nil
-        }
-        switch timeRatingString {
-        case "I": return 1
-        case "II": return 2
-        case "III": return 3
-        case "IV": return 4
-        case "V": return 5
-        case "VI": return 6
-        case "VII": return 7
-        default: return nil
-        }
     }
 }
