@@ -13,12 +13,16 @@ class BottomSheetFilterViewController: BottomSheetViewController {
     enum Strings {
         static let save = "Save"
         
-        static let quality = "Quality"
-        static let stars = "stars"
+        static let quality = "Stars"
         static let maxRap = "Max Rappel Length"
         static let feet = "ft"
         static let numRap = "Number Rappels"
         static let technical = CanyonDetailView.Strings.difficulty
+        static let one = "1"
+        static let two = "2"
+        static let three = "3"
+        static let four = "4"
+        static let five = "5"
         
         static let water = CanyonDetailView.Strings.water
         static let a = "A"
@@ -29,10 +33,10 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         static let season = CanyonDetailView.Strings.season
     }
     
-    private let starFitler = SpreadFilter()
     private let maxRapFilter = SpreadFilter()
     private let numRapFilter = SpreadFilter()
-    private let technicalFilter = SpreadFilter()
+    private let starFitler = MultiSelectFilter()
+    private let technicalFilter = MultiSelectFilter()
     private let waterDifficultyFilter = MultiSelectFilter()
     private let timeFilter = MultiSelectFilter()
     private let seasonFilter = BestSeasonFilter()
@@ -60,16 +64,24 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         self.contentStackView.addArrangedSubview(saveButton)
         self.contentStackView.addArrangedSubview(UIView())
         
-        let starData = SpreadFilterData(name: Strings.quality, units: Strings.stars, initialMin: 1, initialMax: 5)
-        self.starFitler.configure(with: starData)
-        
         let numRapData = SpreadFilterData(name: Strings.numRap, units: nil, initialMin: 0, initialMax: 50)
         self.numRapFilter.configure(with: numRapData)
         
         let maxRapData = SpreadFilterData(name: Strings.maxRap, units: Strings.feet, initialMin: 1, initialMax: 600)
         self.maxRapFilter.configure(with: maxRapData)
         
-        let technicalData = SpreadFilterData(name: Strings.technical, units: nil, initialMin: 1, initialMax: 4)
+        let starData = MultiSelectFilterData(
+            name: Strings.quality,
+            selections: [Strings.one, Strings.two, Strings.three, Strings.four, Strings.five],
+            initialSelections: [Strings.one, Strings.two, Strings.three, Strings.four, Strings.five]
+        )
+        self.starFitler.configure(with: starData)
+        
+        let technicalData = MultiSelectFilterData(
+            name: Strings.technical,
+            selections: [Strings.one, Strings.two, Strings.three, Strings.four],
+            initialSelections: [Strings.one, Strings.two, Strings.three, Strings.four]
+        )
         self.technicalFilter.configure(with: technicalData)
         
         let waterSelections = [Strings.a, Strings.b, Strings.c]
@@ -102,8 +114,8 @@ class BottomSheetFilterViewController: BottomSheetViewController {
     
     public func filter(canyons: [Canyon]) -> [Canyon] {
         return canyons.filter { canyon in
-            // num raps
-            guard canyon.quality >= Float(self.starFitler.minValue) && canyon.quality <= Float(self.starFitler.maxValue) else {
+            // quality
+            guard self.starFitler.selections.contains(String(Int(canyon.quality))) else {
                 return false
             }
             
@@ -121,7 +133,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
             
             // technical
             guard let technicalRating = canyon.technicalDifficulty else { return false }
-            guard technicalRating >= self.technicalFilter.minValue && technicalRating <= self.technicalFilter.maxValue else {
+            guard self.technicalFilter.selections.contains(String(technicalRating)) else {
                 return false
             }
             
