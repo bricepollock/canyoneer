@@ -9,7 +9,7 @@ import Foundation
 
 enum Month: String, Codable, CaseIterable {
     case january = "January"
-    case february = "February"
+    case february = "Feburary"
     case march = "March"
     case april = "April"
     case may = "May"
