@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITextField.appearance().textColor = ColorPalette.GrayScale.black
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: ColorPalette.GrayScale.black]
         UIButton.appearance().setTitleColor(ColorPalette.Color.action, for: .normal)
+        UISegmentedControl.appearance().selectedSegmentTintColor = ColorPalette.Color.action
+        UISegmentedControl.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: ColorPalette.GrayScale.black], for: .normal)
+        UISegmentedControl.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: ColorPalette.GrayScale.white], for: .selected)
         return true
     }
 
