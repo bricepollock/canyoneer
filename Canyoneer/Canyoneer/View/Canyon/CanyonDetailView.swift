@@ -113,8 +113,11 @@ class CanyonDetailView: UIView {
         self.summaryStackView.addArrangedSubview(self.starsStackView)
         self.summaryStackView.addArrangedSubview(UIView())  //spacer
         self.summaryStackView.backgroundColor = ColorPalette.Color.canyonRed
-        self.summaryStackView.alignment = .leading
+        self.summaryStackView.alignment = .center
         self.summaryStackView.spacing = .small
+        
+        // this expands the height of the summaryTitle because the size of the stars will remain constant
+        self.starsStackView.constrain.height(to: self.summaryTitle, ratio: 0.8)
         // --
         
         self.detailStackView.axis = .horizontal
