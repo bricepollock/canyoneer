@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import RxSwift
 
 class CanyonDetailView: UIView {
     
@@ -17,6 +18,7 @@ class CanyonDetailView: UIView {
         }
         
         static let details = " Details"
+        static let ropeWiki = "Ropewiki Page"
         
         static func summaryDetails(for canyon: Canyon) -> String {
             var summary = ""
@@ -88,10 +90,14 @@ class CanyonDetailView: UIView {
     private let starsStackView = UIStackView()
     private let summaryStackView = UIStackView()
     private let summaryTitle = UILabel()
+    private let detailStackView = UIStackView()
     private let summaryDetails = UILabel()
+    private let ropeWikiURL = RxUIButton()
     private let dataTitle = UILabel()
     private let dataTable = DataTableView()
     private let seasons = BestSeasonFilter()
+    
+    private var urlLinkDisposeBag = DisposeBag()
     
     init() {
         super.init(frame: .zero)
@@ -111,15 +117,19 @@ class CanyonDetailView: UIView {
         self.summaryStackView.spacing = .small
         // --
         
-        self.masterStackView.addArrangedSubview(summaryStackView)
-        self.masterStackView.addArrangedSubview(self.summaryDetails)
+        self.detailStackView.axis = .vertical
+        self.detailStackView.addArrangedSubview(self.summaryDetails)
+        self.detailStackView.addArrangedSubview(self.ropeWikiURL)
+        
+        self.masterStackView.addArrangedSubview(self.summaryStackView)
+        self.masterStackView.addArrangedSubview(self.detailStackView)
         self.masterStackView.addArrangedSubview(self.dataTitle)
         self.masterStackView.addArrangedSubview(self.dataTable)
         self.masterStackView.addArrangedSubview(self.seasons)
         
         self.summaryTitle.font = FontBook.Body.emphasis
-        
         self.summaryDetails.font = FontBook.Body.regular
+        self.ropeWikiURL.configure(text: Strings.ropeWiki)
         
         self.dataTitle.font = FontBook.Body.emphasis
         self.dataTitle.backgroundColor = ColorPalette.Color.canyonRed
@@ -167,5 +177,11 @@ class CanyonDetailView: UIView {
         )
         self.seasons.configure(with: seasonData)
         self.seasons.isUserInteractionEnabled = false
+        
+        self.urlLinkDisposeBag = DisposeBag()
+        self.ropeWikiURL.didSelect.subscribeOnNext { () in
+            guard let url = canyon.ropeWikiURL else { return }
+            UIApplication.shared.open(url)
+        }.disposed(by: self.urlLinkDisposeBag)
     }
 }
