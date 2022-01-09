@@ -117,7 +117,7 @@ class CanyonDetailView: UIView {
         self.summaryStackView.spacing = .small
         // --
         
-        self.detailStackView.axis = .vertical
+        self.detailStackView.axis = .horizontal
         self.detailStackView.addArrangedSubview(self.summaryDetails)
         self.detailStackView.addArrangedSubview(self.ropeWikiURL)
         
