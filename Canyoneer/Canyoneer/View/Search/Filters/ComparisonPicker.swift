@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import RxSwift
 
-class ComparisonPicker: UIPickerView {
+class ComparisonPicker: UIView {
     
     enum Strings {
         static let comparison = "<"
@@ -19,6 +19,9 @@ class ComparisonPicker: UIPickerView {
     public let valueChange: Observable<(minValue: Int, maxValue: Int)>
     private let valueChangeSubject: PublishSubject<(minValue: Int, maxValue: Int)>
     
+    private let masterStackView = UIStackView()
+    private let toolBar = UIToolbar()
+    private let picker = UIPickerView()
     private let comparisonLabel = UILabel()
     
     private let maxValue: Int
@@ -37,31 +40,32 @@ class ComparisonPicker: UIPickerView {
         self.valueChangeSubject = PublishSubject()
         self.valueChange = self.valueChangeSubject.asObservable()
         super.init(frame: .zero)
-        self.delegate = self
-        self.dataSource = self
+        self.picker.delegate = self
+        self.picker.dataSource = self
         self.backgroundColor = ColorPalette.GrayScale.white
         
+        self.addSubview(self.masterStackView)
+        self.masterStackView.constrain.fillSuperview()
+        self.masterStackView.axis = .vertical
+        self.masterStackView.addArrangedSubview(self.toolBar)
+        self.masterStackView.addArrangedSubview(self.picker)
+        
+        // toolbar
+        self.toolBar.barStyle = UIBarStyle.default
+        self.toolBar.isTranslucent = true
+        self.toolBar.tintColor = ColorPalette.Color.action
+
+        let doneButton = UIBarButtonItem(title: Strings.done, style: UIBarButtonItem.Style.done, target: self, action: #selector(self.donePicker))
+        let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: nil, action: nil)
+        self.toolBar.setItems([spaceButton, doneButton], animated: false)
+        self.toolBar.isUserInteractionEnabled = true
+        
+        // comparison in picker
         self.comparisonLabel.font = FontBook.Heading.emphasis
         self.comparisonLabel.text = Strings.comparison
-        self.addSubview(self.comparisonLabel)
-        self.comparisonLabel.constrain.centerX(on: self)
-        self.comparisonLabel.constrain.centerY(on: self)
-        
-//        let toolBar = UIToolbar()
-//        toolBar.barStyle = UIBarStyle.default
-//        toolBar.isTranslucent = true
-//        toolBar.tintColor = ColorPalette.Color.action
-////        toolBar.sizeToFit()
-//
-//        let doneButton = UIBarButtonItem(title: Strings.done, style: UIBarButtonItem.Style.done, target: self, action: #selector(self.donePicker))
-//        let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: nil, action: nil)
-//
-//        toolBar.setItems([spaceButton, doneButton], animated: false)
-//        toolBar.isUserInteractionEnabled = true
-//        self.addSubview(toolBar)
-//        toolBar.constrain.top(to: self)
-//        toolBar.constrain.leading(to: self)
-//        toolBar.constrain.trailing(to: self)
+        self.picker.addSubview(self.comparisonLabel)
+        self.comparisonLabel.constrain.centerX(on: self.picker)
+        self.comparisonLabel.constrain.centerY(on: self.picker)
     }
     
     required init?(coder: NSCoder) {

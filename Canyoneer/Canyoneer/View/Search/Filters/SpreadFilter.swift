@@ -65,7 +65,7 @@ class SpreadFilter: UIView {
                 rootView.addSubview(self.comparisonPicker)
                 self.comparisonPicker.constrain.leading(to: rootView)
                 self.comparisonPicker.constrain.trailing(to: rootView)
-                self.comparisonPicker.becomeFirstResponder()
+//                self.comparisonPicker.becomeFirstResponder()
                 self.comparisonPicker.constrain.bottom(to: rootView)
                 
             }
