@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UILabel.appearance().textColor = ColorPalette.GrayScale.black
         UITextField.appearance().textColor = ColorPalette.GrayScale.black
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: ColorPalette.GrayScale.black]
+        UIButton.appearance().setTitleColor(ColorPalette.Color.action, for: .normal)
         return true
     }
 

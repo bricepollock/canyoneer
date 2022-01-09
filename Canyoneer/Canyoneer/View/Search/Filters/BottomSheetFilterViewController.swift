@@ -40,6 +40,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
     private let waterDifficultyFilter = MultiSelectFilter()
     private let timeFilter = MultiSelectFilter()
     private let seasonFilter = BestSeasonFilter()
+
     private let bag = DisposeBag()
     
     override init() {
@@ -64,10 +65,23 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         self.contentStackView.addArrangedSubview(saveButton)
         self.contentStackView.addArrangedSubview(UIView())
         
-        let numRapData = SpreadFilterData(name: Strings.numRap, units: nil, initialMin: 0, initialMax: 50)
+        let numRapData = SpreadFilterData(
+            name: Strings.numRap,
+            units: nil,
+            initialMin: 0,
+            initialMax: 50,
+            advanceIncrements: 1
+        )
         self.numRapFilter.configure(with: numRapData)
         
-        let maxRapData = SpreadFilterData(name: Strings.maxRap, units: Strings.feet, initialMin: 1, initialMax: 600)
+        let maxRapData = SpreadFilterData(
+            name: Strings.maxRap,
+            units: Strings.feet,
+            initialMin: 0,
+            initialMax: 600,
+            advanceIncrements: 10
+            
+        )
         self.maxRapFilter.configure(with: maxRapData)
         
         let starData = MultiSelectFilterData(

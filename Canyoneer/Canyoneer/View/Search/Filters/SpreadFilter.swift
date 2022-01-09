@@ -7,29 +7,37 @@
 
 import Foundation
 import UIKit
+import RxSwift
 
 struct SpreadFilterData {
     let name: String
     let units: String?
     let initialMin: Int
     let initialMax: Int
+    let advanceIncrements: Int
 }
 
 class SpreadFilter: UIView {
     
     enum Strings {
-        static let compare = "<"
+        static func spread(maxValue: Int, minValue: Int, units: String?) -> String {
+            let prefix = "\(minValue) < \(maxValue)"
+            guard let units = units else {
+                return prefix
+            }
+            return prefix + " \(units)"
+        }
     }
     
     private let masterStackView = UIStackView()
     private let titleLabel = UILabel()
-    private let minTextField = UITextField()
-    private let comparisonLabel = UILabel()
-    private let maxTextField = UITextField()
-    private let unitsLabel = UILabel()
+    private let inputTextControl = RxUIButton()
     
     public var maxValue: Int = 0
     public var minValue: Int = 0
+    
+    private var comparisonPicker: ComparisonPicker!
+    private let bag = DisposeBag()
     
     init() {
         super.init(frame: .zero)
@@ -41,36 +49,27 @@ class SpreadFilter: UIView {
         
         masterStackView.addArrangedSubview(self.titleLabel)
         masterStackView.addArrangedSubview(UIView())
-        masterStackView.addArrangedSubview(self.minTextField)
-        masterStackView.addArrangedSubview(self.comparisonLabel)
-        masterStackView.addArrangedSubview(self.maxTextField)
-        masterStackView.addArrangedSubview(self.unitsLabel)
-        
-        let textFieldWidth: CGFloat = 50
+        masterStackView.addArrangedSubview(self.inputTextControl)
         
         self.titleLabel.font = FontBook.Body.regular
         
-        self.minTextField.constrain.width(textFieldWidth)
-        
-        self.minTextField.keyboardType = .numberPad
-        self.minTextField.layer.cornerRadius = DesignSystem.cornerRadius
-        self.minTextField.layer.borderColor = ColorPalette.GrayScale.black.cgColor
-        self.minTextField.layer.borderWidth = 1
-        self.minTextField.textAlignment = .center
-        self.minTextField.delegate = self
-        
-        self.comparisonLabel.font = FontBook.Body.regular
-        self.comparisonLabel.text = Strings.compare
-        
-        self.maxTextField.constrain.width(textFieldWidth)
-        self.maxTextField.keyboardType = .numberPad
-        self.maxTextField.layer.cornerRadius = DesignSystem.cornerRadius
-        self.maxTextField.layer.borderColor = ColorPalette.GrayScale.black.cgColor
-        self.maxTextField.layer.borderWidth = 1
-        self.maxTextField.textAlignment = .center
-        self.maxTextField.delegate = self
-        
-        self.unitsLabel.font = FontBook.Body.regular
+        self.inputTextControl.didSelect.subscribeOnNext { () in
+            let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+            guard let rootView = window?.rootViewController?.view else { return }
+
+//            let topConstraint = self.comparisonPicker.topAnchor.constraint(equalTo: rootView.bottomAnchor)
+//            topConstraint.isActive = true
+            
+            UIView.animate(withDuration: 0.25) {
+//                self.comparisonPicker.removeConstraint(topConstraint)
+                rootView.addSubview(self.comparisonPicker)
+                self.comparisonPicker.constrain.leading(to: rootView)
+                self.comparisonPicker.constrain.trailing(to: rootView)
+                self.comparisonPicker.becomeFirstResponder()
+                self.comparisonPicker.constrain.bottom(to: rootView)
+                
+            }
+        }.disposed(by: self.bag)
     }
     
     required init?(coder: NSCoder) {
@@ -80,22 +79,18 @@ class SpreadFilter: UIView {
     public func configure(with data: SpreadFilterData) {
         self.minValue = data.initialMin
         self.maxValue = data.initialMax
-
+        
         self.titleLabel.text = data.name
-        self.minTextField.text = String(data.initialMin)
-        self.maxTextField.text = String(data.initialMax)
-        self.unitsLabel.text = data.units
-        self.unitsLabel.isHidden = data.units == nil
-    }
-}
-
-extension SpreadFilter: UITextFieldDelegate {
-    func textFieldDidChangeSelection(_ textField: UITextField) {
-        guard let text = textField.text, let textInt = Int(text) else { return }
-        if textField == self.minTextField {
-            self.minValue = textInt
-        } else if textField == self.maxTextField {
-            self.maxValue = textInt
-        }
+        self.inputTextControl.configure(text: Strings.spread(maxValue: self.maxValue, minValue: self.minValue, units: data.units))
+        self.comparisonPicker = ComparisonPicker(
+            maxValue: self.maxValue,
+            minValue: self.minValue,
+            advanceIncrements: data.advanceIncrements
+        )
+        self.comparisonPicker.valueChange.subscribeOnNext { tuple in
+            self.maxValue = tuple.maxValue
+            self.minValue = tuple.minValue
+            self.inputTextControl.configure(text: Strings.spread(maxValue: self.maxValue, minValue: self.minValue, units: data.units))
+        }.disposed(by: self.bag)
     }
 }

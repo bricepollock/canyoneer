@@ -74,6 +74,7 @@
 		40E443442789F82D00FE245D /* MultiSelectSegmentedControl in Frameworks */ = {isa = PBXBuildFile; productRef = 40E443432789F82D00FE245D /* MultiSelectSegmentedControl */; };
 		40E443462789F8A100FE245D /* MultiSelectFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443452789F8A100FE245D /* MultiSelectFilter.swift */; };
 		40E44348278A0A7100FE245D /* BestSeasonFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E44347278A0A7100FE245D /* BestSeasonFilter.swift */; };
+		40E4434A278B327C00FE245D /* ComparisonPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E44349278B327B00FE245D /* ComparisonPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +164,7 @@
 		40E443402789F36C00FE245D /* BottomSheetFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetFilterViewController.swift; sourceTree = "<group>"; };
 		40E443452789F8A100FE245D /* MultiSelectFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectFilter.swift; sourceTree = "<group>"; };
 		40E44347278A0A7100FE245D /* BestSeasonFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSeasonFilter.swift; sourceTree = "<group>"; };
+		40E44349278B327B00FE245D /* ComparisonPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -447,6 +449,7 @@
 				40E4433E2788F1D600FE245D /* SpreadFilter.swift */,
 				40E443452789F8A100FE245D /* MultiSelectFilter.swift */,
 				40E44347278A0A7100FE245D /* BestSeasonFilter.swift */,
+				40E44349278B327B00FE245D /* ComparisonPicker.swift */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -615,6 +618,7 @@
 				40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */,
 				40E442C527875FCD00FE245D /* UIView+autolayout.swift in Sources */,
 				40E4433C2788A25B00FE245D /* BottomSheetViewController.swift in Sources */,
+				40E4434A278B327C00FE245D /* ComparisonPicker.swift in Sources */,
 				40E442EB2787708100FE245D /* UIView+line.swift in Sources */,
 				40E442E92787701D00FE245D /* SearchViewController.swift in Sources */,
 				40E4430727877F9500FE245D /* CanyonViewController.swift in Sources */,
