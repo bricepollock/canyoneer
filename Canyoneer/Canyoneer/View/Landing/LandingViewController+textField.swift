@@ -11,11 +11,7 @@ import UIKit
 extension LandingViewController: UITextFieldDelegate {
     
     func textFieldDidChangeSelection(_ textField: UITextField) {
-        Global.logger.info("input: \(String(describing: textField.text))")
-    }
-    
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        self.performSearch(for: textField.text ?? "")
+        // no - op
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -23,6 +19,7 @@ extension LandingViewController: UITextFieldDelegate {
             return false
         }
         textField.resignFirstResponder()
+        self.performSearch(for: textField.text ?? "")
         return true
     }
 }
