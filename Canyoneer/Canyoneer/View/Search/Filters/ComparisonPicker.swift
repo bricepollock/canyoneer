@@ -74,7 +74,7 @@ class ComparisonPicker: UIView {
     
     @objc func donePicker() {
         self.resignFirstResponder()
-        UIView.animate(withDuration: 0.25) {
+        UIView.animate(withDuration: DesignSystem.animation) {
             self.removeFromSuperview()
         }
     }

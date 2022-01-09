@@ -14,14 +14,14 @@ enum GlobalProgressIndicator {
     
     static func show() {
         let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
-        UIView.animate(withDuration: 0.25) {
+        UIView.animate(withDuration: DesignSystem.fastAnimation) {
             window?.rootViewController?.view.addSubview(self.overview.view)
             self.overview.view.constrain.fillSuperview()
         }
     }
     
     static func dismiss() {
-        UIView.animate(withDuration: 0.25) {
+        UIView.animate(withDuration: DesignSystem.fastAnimation) {
             self.overview.view.removeFromSuperview()
         }
     }

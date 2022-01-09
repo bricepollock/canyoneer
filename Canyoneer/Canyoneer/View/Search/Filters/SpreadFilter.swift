@@ -57,17 +57,14 @@ class SpreadFilter: UIView {
             let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
             guard let rootView = window?.rootViewController?.view else { return }
 
-//            let topConstraint = self.comparisonPicker.topAnchor.constraint(equalTo: rootView.bottomAnchor)
-//            topConstraint.isActive = true
-            
-            UIView.animate(withDuration: 0.25) {
-//                self.comparisonPicker.removeConstraint(topConstraint)
-                rootView.addSubview(self.comparisonPicker)
-                self.comparisonPicker.constrain.leading(to: rootView)
-                self.comparisonPicker.constrain.trailing(to: rootView)
-//                self.comparisonPicker.becomeFirstResponder()
-                self.comparisonPicker.constrain.bottom(to: rootView)
-                
+            rootView.addSubview(self.comparisonPicker)
+            self.comparisonPicker.constrain.leading(to: rootView)
+            self.comparisonPicker.constrain.trailing(to: rootView)
+            self.comparisonPicker.constrain.bottom(to: rootView)
+            let height = self.comparisonPicker.heightAnchor.constraint(equalToConstant: 0)
+            height.isActive = true
+            UIView.animate(withDuration: DesignSystem.animation) {
+                self.comparisonPicker.removeConstraint(height)
             }
         }.disposed(by: self.bag)
     }

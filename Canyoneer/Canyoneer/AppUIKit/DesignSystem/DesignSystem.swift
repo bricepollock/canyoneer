@@ -10,4 +10,6 @@ import UIKit
 
 enum DesignSystem {
     static let cornerRadius: CGFloat = 4
+    static let fastAnimation: CGFloat = 0.25
+    static let animation: CGFloat = 0.5
 }
