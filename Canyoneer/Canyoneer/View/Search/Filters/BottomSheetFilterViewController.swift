@@ -30,6 +30,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         static let c = "C"
 
         static let time = CanyonDetailView.Strings.time
+        static let shuttle = CanyonDetailView.Strings.shuttle
         static let season = CanyonDetailView.Strings.season
     }
     
@@ -39,6 +40,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
     private let technicalFilter = MultiSelectFilter()
     private let waterDifficultyFilter = MultiSelectFilter()
     private let timeFilter = MultiSelectFilter()
+    private let shuttleFilter = SwitchFilter()
     private let seasonFilter = BestSeasonFilter()
 
     private let bag = DisposeBag()
@@ -61,6 +63,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         self.contentStackView.addArrangedSubview(self.technicalFilter)
         self.contentStackView.addArrangedSubview(self.waterDifficultyFilter)
         self.contentStackView.addArrangedSubview(self.timeFilter)
+        self.contentStackView.addArrangedSubview(self.shuttleFilter)
         self.contentStackView.addArrangedSubview(self.seasonFilter)
         self.contentStackView.addArrangedSubview(saveButton)
         self.contentStackView.addArrangedSubview(UIView())
@@ -113,6 +116,9 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         )
         self.timeFilter.configure(with: timeData)
                 
+        
+        self.shuttleFilter.configure(title: Strings.shuttle)
+        
         let seasonData = BestSeasonFilterData(
             name: Strings.season,
             options: Month.allCases.map {
@@ -162,6 +168,22 @@ class BottomSheetFilterViewController: BottomSheetViewController {
             guard timeFilter.selections.contains(time) else {
                 return false
             }
+            
+            // Shuttle (bypass any)
+            if shuttleFilter.selections[0] != SwitchFilter.Strings.any {
+                let isYes = shuttleFilter.selections[0] == SwitchFilter.Strings.yes
+                
+                // Don't count canyons without shuttle information
+                if let requireShuttle = canyon.requiresShuttle {
+                    guard requireShuttle == isYes else {
+                        return false
+                    }
+                // if there is no shuttle information and we've asked for yes then filter out
+                } else if isYes {
+                    return false
+                }
+            }
+
             
             // Season, if any seasons match up
             let bestSeasonsInitials = canyon.bestSeasons.map { $0.short }
