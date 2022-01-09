@@ -76,6 +76,7 @@
 		40E44348278A0A7100FE245D /* BestSeasonFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E44347278A0A7100FE245D /* BestSeasonFilter.swift */; };
 		40E4434A278B327C00FE245D /* ComparisonPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E44349278B327B00FE245D /* ComparisonPicker.swift */; };
 		40E4434E278B489D00FE245D /* SwitchFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4434D278B489D00FE245D /* SwitchFilter.swift */; };
+		40E44350278B4F4600FE245D /* SeasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4434F278B4F4600FE245D /* SeasonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,6 +168,7 @@
 		40E44347278A0A7100FE245D /* BestSeasonFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSeasonFilter.swift; sourceTree = "<group>"; };
 		40E44349278B327B00FE245D /* ComparisonPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonPicker.swift; sourceTree = "<group>"; };
 		40E4434D278B489D00FE245D /* SwitchFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchFilter.swift; sourceTree = "<group>"; };
+		40E4434F278B4F4600FE245D /* SeasonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -451,6 +453,7 @@
 				40E4433E2788F1D600FE245D /* SpreadFilter.swift */,
 				40E443452789F8A100FE245D /* MultiSelectFilter.swift */,
 				40E44347278A0A7100FE245D /* BestSeasonFilter.swift */,
+				40E4434F278B4F4600FE245D /* SeasonView.swift */,
 				40E4434D278B489D00FE245D /* SwitchFilter.swift */,
 				40E44349278B327B00FE245D /* ComparisonPicker.swift */,
 			);
@@ -651,6 +654,7 @@
 				40E44316278794D500FE245D /* TagView.swift in Sources */,
 				40E442BB27875EFB00FE245D /* RegionListView.swift in Sources */,
 				40E442B927875EB200FE245D /* Region.swift in Sources */,
+				40E44350278B4F4600FE245D /* SeasonView.swift in Sources */,
 				40E442ED2787710100FE245D /* CanyonResultView.swift in Sources */,
 				40E442F4278775A000FE245D /* Observable+onNext.swift in Sources */,
 				40E442C327875FCD00FE245D /* NSDirectionalEdgeInsets+convenience.swift in Sources */,

@@ -123,7 +123,8 @@ class BottomSheetFilterViewController: BottomSheetViewController {
             name: Strings.season,
             options: Month.allCases.map {
                 return SeasonSelection(name: $0.short, isSelected: true)                
-            }
+            },
+            isUserInteractionEnabled: true
         )
         self.seasonFilter.configure(with: seasonData)
     }

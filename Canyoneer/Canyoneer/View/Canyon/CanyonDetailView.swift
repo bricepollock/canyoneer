@@ -176,10 +176,10 @@ class CanyonDetailView: UIView {
             name: Strings.season,
             options: Month.allCases.map {
                 return SeasonSelection(name: $0.short, isSelected: canyon.bestSeasons.contains($0))
-            }
+            },
+            isUserInteractionEnabled: false
         )
         self.seasons.configure(with: seasonData)
-        self.seasons.isUserInteractionEnabled = false
         
         self.urlLinkDisposeBag = DisposeBag()
         self.ropeWikiURL.didSelect.subscribeOnNext { () in
