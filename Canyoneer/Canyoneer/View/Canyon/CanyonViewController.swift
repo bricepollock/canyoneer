@@ -50,23 +50,8 @@ class CanyonViewController: ScrollableStackViewController {
     }
     
     @objc func didRequestShare() {
-        let to = ""
-        let subject = "Check out this cool canyon: \(self.canyon.name)"
-        var body = "I found '\(self.canyon.name) \(CanyonDetailView.Strings.summaryDetails(for: canyon))' on the 'Canyoneer' app."
-        if let ropeWikiString = self.canyon.ropeWikiURL?.absoluteString {
-            body += " Check out the canyon on Ropewiki: \(ropeWikiString)"
-        }
-        
-        guard let urlString = "mailto:\(to)?subject=\(subject)&body=\(body)".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
-                let url = URL(string: urlString) else {
-            return
-        }
-        
-        if UIApplication.shared.canOpenURL(url) {
-            UIApplication.shared.open(url)
-        } else {
-            Global.logger.error("Unable to open url: \(url)")
-        }
+        let next = UIActivityViewController(activityItems: [self], applicationActivities: nil)
+        self.present(next, animated: true)
     }
     
     @objc func didRequestFavoriteToggle() {
@@ -78,5 +63,32 @@ class CanyonViewController: ScrollableStackViewController {
             UserPreferencesStorage.addFavorite(canyon: canyon)
             self.navigationItem.rightBarButtonItems?[0].image = UIImage(systemName: "star.fill")
         }
+    }
+}
+
+extension CanyonViewController: UIActivityItemSource {
+    func activityViewControllerPlaceholderItem(_ activityViewController: UIActivityViewController) -> Any {
+        return "1Check out this cool canyon: \(self.canyon.name)"
+    }
+
+    func activityViewController(_ activityViewController: UIActivityViewController, itemForActivityType activityType: UIActivity.ActivityType?) -> Any? {
+        if activityType == .mail {
+            var body = "I found '\(self.canyon.name) \(CanyonDetailView.Strings.summaryDetails(for: canyon))' on the 'Canyoneer' app."
+            if let ropeWikiString = self.canyon.ropeWikiURL?.absoluteString {
+                body += " Check out the canyon on Ropewiki: \(ropeWikiString)"
+            }
+            return body
+        } else {
+            var message = "Check out this cool canyon: \(self.canyon.name)"
+            if let ropeWikiString = self.canyon.ropeWikiURL?.absoluteString {
+                message += " on Ropewiki: \(ropeWikiString)"
+            }
+            return message
+        }
+        
+    }
+    
+    func activityViewController(_ activityViewController: UIActivityViewController, subjectForActivityType activityType: UIActivity.ActivityType?) -> String {
+        return "Check out this cool canyon: \(self.canyon.name)"
     }
 }
