@@ -51,6 +51,7 @@ class LandingViewController: ScrollableStackViewController {
         self.masterStackView.addArrangedSubview(self.viewMapButton)
         self.masterStackView.addArrangedSubview(self.nearMeButton)
         self.masterStackView.addArrangedSubview(self.regionList)
+        self.regionList.isHidden = true // we don't have this data yet
         
         self.headerImage.constrain.height(220)
         self.headerImage.contentMode = .scaleAspectFill
