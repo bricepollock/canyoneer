@@ -11,6 +11,7 @@
 		40783CE9278DF46A001E78DB /* UserPreferencesStorage+favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */; };
 		40783CEB278DF5E3001E78DB /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CEA278DF5E3001E78DB /* Storage.swift */; };
 		40783CED278DF63F001E78DB /* UserPreferencesStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CEC278DF63F001E78DB /* UserPreferencesStorage.swift */; };
+		40783CF0278E0878001E78DB /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CEF278E0878001E78DB /* FavoriteViewController.swift */; };
 		40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428627875D9F00FE245D /* AppDelegate.swift */; };
 		40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428827875D9F00FE245D /* SceneDelegate.swift */; };
 		40E4428B27875D9F00FE245D /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428A27875D9F00FE245D /* LandingViewController.swift */; };
@@ -105,6 +106,7 @@
 		40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserPreferencesStorage+favorite.swift"; sourceTree = "<group>"; };
 		40783CEA278DF5E3001E78DB /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		40783CEC278DF63F001E78DB /* UserPreferencesStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferencesStorage.swift; sourceTree = "<group>"; };
+		40783CEF278E0878001E78DB /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		40E4428327875D9F00FE245D /* Canyoneer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canyoneer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E4428627875D9F00FE245D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40E4428827875D9F00FE245D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -217,6 +219,14 @@
 			path = Persistence;
 			sourceTree = "<group>";
 		};
+		40783CEE278E0868001E78DB /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				40783CEF278E0878001E78DB /* FavoriteViewController.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
 		40E4427A27875D9F00FE245D = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +298,7 @@
 			children = (
 				40E4430327877F8400FE245D /* Region */,
 				40E4430227877F7D00FE245D /* Canyon */,
+				40783CEE278E0868001E78DB /* Favorites */,
 				40E442E72787701500FE245D /* Search */,
 				40E442E0278764CD00FE245D /* Landing */,
 			);
@@ -642,6 +653,7 @@
 				40E4433A2788914000FE245D /* CLLocation2D+distance.swift in Sources */,
 				40783CE8278DF46A001E78DB /* InMemoryStorage.swift in Sources */,
 				40E4432C2787D80100FE245D /* CanyonPoint.swift in Sources */,
+				40783CF0278E0878001E78DB /* FavoriteViewController.swift in Sources */,
 				40E4431327878A5700FE245D /* SubRegionView.swift in Sources */,
 				40E4434E278B489D00FE245D /* SwitchFilter.swift in Sources */,
 				40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */,

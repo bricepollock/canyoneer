@@ -35,6 +35,14 @@ class LandingViewController: ScrollableStackViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "list.bullet.circle"), style: .plain, target: self, action: #selector(showFavorites))
+        
+        self.configureViews()
+        self.bind()
+    }
+    
+    private func configureViews() {
         self.masterStackView.axis = .vertical
         self.masterStackView.spacing = Grid.large
         
@@ -52,6 +60,9 @@ class LandingViewController: ScrollableStackViewController {
         self.searchView.searchTextField.delegate = self
         
         self.viewMapButton.configure(text: Strings.map)
+    }
+    
+    private func bind() {
         self.viewMapButton.didSelect.subscribeOnNext { [weak self] () in
             guard let self = self else { return }
             self.loadingComponent.startLoading(loadingType: .screen)
@@ -101,6 +112,11 @@ class LandingViewController: ScrollableStackViewController {
             defer { self.loadingComponent.stopLoading() }
             Global.logger.error("Failed search")
         }.disposed(by: self.bag)
+    }
+    
+    @objc func showFavorites() {
+        let next = FavoriteViewController()
+        self.navigationController?.pushViewController(next, animated: true)
     }
 }
 

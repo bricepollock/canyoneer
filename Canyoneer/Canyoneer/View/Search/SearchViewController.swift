@@ -51,7 +51,7 @@ class SearchViewController: ScrollableStackViewController {
 
     }
     
-    private func renderResults(results: [SearchResult]) {
+    internal func renderResults(results: [SearchResult]) {
         self.masterStackView.removeAll()
         self.masterStackView.addArrangedSubview(UIView.createLineView())
         results.forEach { result in
