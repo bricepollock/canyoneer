@@ -85,7 +85,7 @@ extension ComparisonPicker: UIPickerViewDelegate {
         switch component {
         case 0: self.currentMinValue = (self.minValue + row) * self.advanceIncrements
         case 1: return
-        case 2: self.currentMaxValue = (self.minValue + row) * self.advanceIncrements
+        case 2: self.currentMaxValue = (self.maxValue/self.advanceIncrements - row) * self.advanceIncrements
         default: return
         }
         
@@ -114,7 +114,7 @@ extension ComparisonPicker: UIPickerViewDataSource {
         case 1:
             return nil
         case 2:
-            return String((self.minValue + row) * self.advanceIncrements)
+            return String((self.maxValue/self.advanceIncrements - row) * self.advanceIncrements)
         default:
             return nil
         }
