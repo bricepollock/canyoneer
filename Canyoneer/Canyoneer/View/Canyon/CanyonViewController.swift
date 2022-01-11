@@ -39,6 +39,27 @@ class CanyonViewController: ScrollableStackViewController {
         
         self.title = Strings.name(with: canyon.name)
         self.navigationItem.backButtonTitle = ""
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "square.and.arrow.up"), style: .plain, target: self, action: #selector(self.didRequestShare))
         self.detailView.configure(with: canyon)
+    }
+    
+    @objc func didRequestShare() {
+        let to = ""
+        let subject = "Check out this cool canyon: \(self.canyon.name)"
+        var body = "I found '\(self.canyon.name) \(CanyonDetailView.Strings.summaryDetails(for: canyon))' on the 'Canyoneer' app."
+        if let ropeWikiString = self.canyon.ropeWikiURL?.absoluteString {
+            body += " Check out the canyon on Ropewiki: \(ropeWikiString)"
+        }
+        
+        guard let urlString = "mailto:\(to)?subject=\(subject)&body=\(body)".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
+                let url = URL(string: urlString) else {
+            return
+        }
+        
+        if UIApplication.shared.canOpenURL(url) {
+            UIApplication.shared.open(url)
+        } else {
+            Global.logger.error("Unable to open url: \(url)")
+        }
     }
 }
