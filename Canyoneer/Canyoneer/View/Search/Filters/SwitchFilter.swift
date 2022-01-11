@@ -41,7 +41,6 @@ class SwitchFilter: UIStackView {
         self.filterSwitch.insertSegment(withTitle: Strings.yes, at: 0, animated: false)
         self.filterSwitch.insertSegment(withTitle: Strings.no, at: 1, animated: false)
         self.filterSwitch.insertSegment(withTitle: Strings.any, at: 2, animated: false)
-        self.filterSwitch.selectedSegmentIndex = 2
     }
     
     required init(coder: NSCoder) {
@@ -50,5 +49,6 @@ class SwitchFilter: UIStackView {
     
     public func configure(title: String) {
         self.filterTitle.text = title
+        self.filterSwitch.selectedSegmentIndex = 2
     }
 }

@@ -60,6 +60,7 @@ class BestSeasonFilter: UIView {
         self.titleLabel.textAlignment = .center
         self.titleLabel.font = FontBook.Body.emphasis
         
+        self.addSubview(self.massSelectionButton)
         self.massSelectionButton.didSelect.subscribeOnNext { () in
             let isAnySelected = self.selections.count > 0
             let shouldHighlightAll = !isAnySelected
@@ -80,6 +81,7 @@ class BestSeasonFilter: UIView {
         self.masterStackView.removeAll()
         self.masterStackView.addArrangedSubview(self.titleStackView)
         
+        self.titleStackView.removeAll()
         self.titleStackView.axis = .horizontal
         self.titleStackView.alignment = .center
         self.titleStackView.distribution = .equalCentering
@@ -87,7 +89,6 @@ class BestSeasonFilter: UIView {
         self.titleStackView.addArrangedSubview(self.titleLabel)
         self.titleStackView.addArrangedSubview(UIView())
         
-        self.addSubview(self.massSelectionButton)
         self.massSelectionButton.constrain.horizontalSpacing(to: self.titleLabel, with: Grid.small)
         self.massSelectionButton.constrain.height(to: self.titleLabel)
         
@@ -109,6 +110,7 @@ class BestSeasonFilter: UIView {
         let firstRowData = data.options.prefix(mid)
         let secondRowData = data.options.dropFirst(mid)
         
+        self.firstRow.removeAll()
         firstRow.distribution = .equalSpacing
         firstRow.alignment = .center
         firstRowData.forEach {
@@ -120,6 +122,7 @@ class BestSeasonFilter: UIView {
         }
         self.masterStackView.addArrangedSubview(firstRow)
         
+        self.secondRow.removeAll()
         secondRow.distribution = .equalSpacing
         secondRowData.forEach {
             let monthView = SeasonView()

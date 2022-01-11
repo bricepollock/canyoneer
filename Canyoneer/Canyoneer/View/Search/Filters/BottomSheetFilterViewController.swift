@@ -12,7 +12,7 @@ import RxSwift
 class BottomSheetFilterViewController: BottomSheetViewController {
     enum Strings {
         static let save = "Save"
-        
+        static let reset = "Reset All"
         static let quality = "Stars"
         static let maxRap = "Max Rappel Length"
         static let feet = "ft"
@@ -34,6 +34,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         static let season = CanyonDetailView.Strings.season
     }
     
+    private let resetButton = RxUIButton()
     private let maxRapFilter = SpreadFilter()
     private let numRapFilter = SpreadFilter()
     private let starFitler = MultiSelectFilter()
@@ -56,7 +57,14 @@ class BottomSheetFilterViewController: BottomSheetViewController {
             self.animateDismissView()
         }.disposed(by: self.bag)
         
+        let headerStackView = UIStackView()
+        headerStackView.axis = .horizontal
+        headerStackView.addArrangedSubview(UIView())
+        headerStackView.addArrangedSubview(self.resetButton)
+        self.resetButton.configure(text: Strings.reset)
+        
         self.contentStackView.spacing = .medium
+        self.contentStackView.addArrangedSubview(headerStackView)
         self.contentStackView.addArrangedSubview(self.starFitler)
         self.contentStackView.addArrangedSubview(self.numRapFilter)
         self.contentStackView.addArrangedSubview(self.maxRapFilter)
@@ -127,6 +135,17 @@ class BottomSheetFilterViewController: BottomSheetViewController {
             isUserInteractionEnabled: true
         )
         self.seasonFilter.configure(with: seasonData)
+        
+        self.resetButton.didSelect.subscribeOnNext { () in
+            self.numRapFilter.configure(with: numRapData)
+            self.maxRapFilter.configure(with: maxRapData)
+            self.starFitler.configure(with: starData)
+            self.technicalFilter.configure(with: technicalData)
+            self.waterDifficultyFilter.configure(with: waterData)
+            self.timeFilter.configure(with: timeData)
+            self.shuttleFilter.configure(title: Strings.shuttle)
+            self.seasonFilter.configure(with: seasonData)
+        }.disposed(by: self.bag)
     }
     
     required init?(coder: NSCoder) {
