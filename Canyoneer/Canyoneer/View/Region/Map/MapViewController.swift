@@ -17,7 +17,7 @@ class CanyonAnnotation: MKPointAnnotation {
         self.canyon = canyon
         super.init()
         self.title = canyon.name
-        self.coordinate = canyon.coordinate
+        self.coordinate = canyon.coordinate.asCLObject
     }
 }
 

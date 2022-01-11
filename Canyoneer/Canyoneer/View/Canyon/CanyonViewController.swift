@@ -17,6 +17,7 @@ class CanyonViewController: ScrollableStackViewController {
 
     private let name = UILabel()
     private let detailView = CanyonDetailView()
+    private let storage = UserPreferencesStorage.favorites
     
     private let canyon: Canyon
     
@@ -39,7 +40,12 @@ class CanyonViewController: ScrollableStackViewController {
         
         self.title = Strings.name(with: canyon.name)
         self.navigationItem.backButtonTitle = ""
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "square.and.arrow.up"), style: .plain, target: self, action: #selector(self.didRequestShare))
+        
+        let shareButton = UIBarButtonItem(image: UIImage(systemName: "square.and.arrow.up"), style: .plain, target: self, action: #selector(self.didRequestShare))
+        
+        let favoriteImage = UserPreferencesStorage.isFavorite(canyon: canyon) ? "star.fill" : "star"
+        let favoriteButton = UIBarButtonItem(image: UIImage(systemName: favoriteImage), style: .plain, target: self, action: #selector(self.didRequestFavoriteToggle))
+        self.navigationItem.rightBarButtonItems = [favoriteButton, shareButton]
         self.detailView.configure(with: canyon)
     }
     
@@ -60,6 +66,17 @@ class CanyonViewController: ScrollableStackViewController {
             UIApplication.shared.open(url)
         } else {
             Global.logger.error("Unable to open url: \(url)")
+        }
+    }
+    
+    @objc func didRequestFavoriteToggle() {
+        let isFavorited = UserPreferencesStorage.isFavorite(canyon: self.canyon)
+        if isFavorited {
+            UserPreferencesStorage.removeFavorite(canyon: canyon)
+            self.navigationItem.rightBarButtonItems?[0].image = UIImage(systemName: "star")
+        } else {
+            UserPreferencesStorage.addFavorite(canyon: canyon)
+            self.navigationItem.rightBarButtonItems?[0].image = UIImage(systemName: "star.fill")
         }
     }
 }

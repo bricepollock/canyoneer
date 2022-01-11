@@ -36,8 +36,9 @@ struct RopeWikiService {
                         return nil
                     }
                     return Canyon(
+                        id: "\(data.name)_\(latitude)_\(longitude)",
                         bestSeasons: data.bestSeasons,
-                        coordinate: CLLocationCoordinate2D(latitude: latitude, longitude: longitude),
+                        coordinate: Coordinate(latitude: latitude, longitude: longitude),
                         
                         isRestricted: data.isRestricted,
                         maxRapLength: data.rappelMaxLength,

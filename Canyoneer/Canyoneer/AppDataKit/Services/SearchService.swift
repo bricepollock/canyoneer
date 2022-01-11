@@ -40,8 +40,8 @@ struct SearchService {
                 self.locationService.getCurrentLocation { currentLocation in
                     
                     let results = canyons.sorted { lhs, rhs in
-                        let lhsDistance = lhs.coordinate.distance(to: currentLocation)
-                        let rhsDistance = rhs.coordinate.distance(to: currentLocation)
+                        let lhsDistance = lhs.coordinate.asCLObject.distance(to: currentLocation)
+                        let rhsDistance = rhs.coordinate.asCLObject.distance(to: currentLocation)
                         return lhsDistance < rhsDistance
                     }
                         .prefix(Self.maxNearMe)

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40783CE8278DF46A001E78DB /* InMemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE6278DF46A001E78DB /* InMemoryStorage.swift */; };
+		40783CE9278DF46A001E78DB /* UserPreferencesStorage+favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */; };
+		40783CEB278DF5E3001E78DB /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CEA278DF5E3001E78DB /* Storage.swift */; };
+		40783CED278DF63F001E78DB /* UserPreferencesStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CEC278DF63F001E78DB /* UserPreferencesStorage.swift */; };
 		40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428627875D9F00FE245D /* AppDelegate.swift */; };
 		40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428827875D9F00FE245D /* SceneDelegate.swift */; };
 		40E4428B27875D9F00FE245D /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428A27875D9F00FE245D /* LandingViewController.swift */; };
@@ -97,6 +101,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40783CE6278DF46A001E78DB /* InMemoryStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryStorage.swift; sourceTree = "<group>"; };
+		40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserPreferencesStorage+favorite.swift"; sourceTree = "<group>"; };
+		40783CEA278DF5E3001E78DB /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		40783CEC278DF63F001E78DB /* UserPreferencesStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferencesStorage.swift; sourceTree = "<group>"; };
 		40E4428327875D9F00FE245D /* Canyoneer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canyoneer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E4428627875D9F00FE245D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40E4428827875D9F00FE245D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -198,6 +206,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40783CE5278DF44F001E78DB /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				40783CEA278DF5E3001E78DB /* Storage.swift */,
+				40783CE6278DF46A001E78DB /* InMemoryStorage.swift */,
+				40783CEC278DF63F001E78DB /* UserPreferencesStorage.swift */,
+				40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
 		40E4427A27875D9F00FE245D = {
 			isa = PBXGroup;
 			children = (
@@ -300,6 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				40E442C72787601D00FE245D /* Logger.swift */,
+				40783CE5278DF44F001E78DB /* Persistence */,
 				40E4432D2787D90100FE245D /* Network */,
 				40E443202787A0E200FE245D /* Services */,
 				40E442B627875E9800FE245D /* Models */,
@@ -618,7 +638,9 @@
 				40E4430D2787842800FE245D /* CanyonDetailView.swift in Sources */,
 				40E4431A27879DF100FE245D /* TextField.swift in Sources */,
 				40E443222787A0F200FE245D /* RopeWikiService.swift in Sources */,
+				40783CED278DF63F001E78DB /* UserPreferencesStorage.swift in Sources */,
 				40E4433A2788914000FE245D /* CLLocation2D+distance.swift in Sources */,
+				40783CE8278DF46A001E78DB /* InMemoryStorage.swift in Sources */,
 				40E4432C2787D80100FE245D /* CanyonPoint.swift in Sources */,
 				40E4431327878A5700FE245D /* SubRegionView.swift in Sources */,
 				40E4434E278B489D00FE245D /* SwitchFilter.swift in Sources */,
@@ -632,6 +654,7 @@
 				40E4430127877C5500FE245D /* DesignSystem.swift in Sources */,
 				40E44348278A0A7100FE245D /* BestSeasonFilter.swift in Sources */,
 				40E4433727888D9100FE245D /* LocationService.swift in Sources */,
+				40783CE9278DF46A001E78DB /* UserPreferencesStorage+favorite.swift in Sources */,
 				40E442FC278779AE00FE245D /* MainViewController.swift in Sources */,
 				40E442C82787601D00FE245D /* Logger.swift in Sources */,
 				40E443262787A23A00FE245D /* SearchService.swift in Sources */,
@@ -659,6 +682,7 @@
 				40E442F4278775A000FE245D /* Observable+onNext.swift in Sources */,
 				40E442C327875FCD00FE245D /* NSDirectionalEdgeInsets+convenience.swift in Sources */,
 				40E4431827879B8000FE245D /* RegionListRow.swift in Sources */,
+				40783CEB278DF5E3001E78DB /* Storage.swift in Sources */,
 				40E442FA2787777700FE245D /* FontBook.swift in Sources */,
 				40E443312787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift in Sources */,
 			);
