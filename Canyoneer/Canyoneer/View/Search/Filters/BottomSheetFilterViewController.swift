@@ -10,6 +10,9 @@ import UIKit
 import RxSwift
 
 class BottomSheetFilterViewController: BottomSheetViewController {
+    // we want a global filter configuration across screens: favorites, map, search results
+    public static let shared = BottomSheetFilterViewController()
+
     enum Strings {
         static let save = "Save"
         static let reset = "Reset All"
