@@ -40,6 +40,7 @@ class LandingViewController: ScrollableStackViewController {
         
         self.configureViews()
         self.bind()
+        self.viewModel.loadCanyonDatabase()
     }
     
     private func configureViews() {

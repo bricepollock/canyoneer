@@ -15,7 +15,7 @@ class InMemoryStorage: Storage {
     private var cache = [String: Any]()
     private let lock = NSLock()
     
-    public static let shared = InMemoryStorage()
+    public static let canyons = InMemoryStorage()
     
     static func clearAll() {
         // no cached items yet

@@ -15,17 +15,28 @@ protocol RopeWikiServiceInterface {
 }
 
 class RopeWikiService: RopeWikiServiceInterface {
-    private var cachedCanyons: [Canyon] = []
+    private let storage = InMemoryStorage.canyons
+    
+    // while each service entity should be able to act independently, this multi-caching is not supported by Storage
+    // Therefore we have to ensure we are not reading mid-writing all these canyons to the storage.
+    private static let cacheLock = NSLock()
     
     func canyons() -> Single<[Canyon]> {
+        Self.cacheLock.lock()
+        
         // preference in-memory cache
+        let cachedCanyons = storage.all() as [Canyon]
         guard cachedCanyons.isEmpty else {
+            Self.cacheLock.unlock()
             return Single.just(cachedCanyons)
         }
 
         // update cache
         return loadFromFile().do { canyons in
-            self.cachedCanyons = canyons
+            canyons.forEach {
+                self.storage.set(key: $0.id, value: $0)
+            }
+            Self.cacheLock.unlock()
         }
     }
     
@@ -87,17 +98,4 @@ class RopeWikiService: RopeWikiServiceInterface {
             }
         }
     }
-//
-//    private func canyons(with regions: [Region]) -> [Canyon] {
-//        return regions.flatMap { region in
-//            return self.canyons(for: region)
-//        }
-//    }
-//
-//    private func canyons(for region: Region) -> [Canyon] {
-//        guard region.canyons.isEmpty else {
-//            return region.canyons
-//        }
-//        return self.canyons(with: region.children)
-//    }
 }

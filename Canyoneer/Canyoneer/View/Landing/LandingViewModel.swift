@@ -12,6 +12,8 @@ struct LandingViewModel {
     private let service = RopeWikiService()
     private let searchService = SearchService()
     
+    private let bag = DisposeBag()
+    
     // MARK: Outputs
     public func regions() -> [Region] {
         return service.regions()
@@ -21,12 +23,7 @@ struct LandingViewModel {
         return service.canyons()
     }
     
-    // MARK: Inputs
-    func requestSearch(for searchString: String) -> Single<SearchResultList> {
-        return searchService.requestSearch(for: searchString)
-    }
-    
-    func nearMeSearch() -> Single<SearchResultList> {
-        return searchService.nearMeSearch(limit: 50)
+    public func loadCanyonDatabase() {
+        self.service.canyons().subscribe().disposed(by: self.bag)
     }
 }

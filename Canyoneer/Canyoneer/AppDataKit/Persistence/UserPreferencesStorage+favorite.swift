@@ -18,7 +18,7 @@ extension UserPreferencesStorage {
     }
     
     static func isFavorite(canyon: Canyon) -> Bool {
-        return self.allFavorites.firstIndex(where: { listCanyon in
+        return Self.allFavorites.firstIndex(where: { listCanyon in
             return listCanyon.id == canyon.id
         }) != nil
     }
