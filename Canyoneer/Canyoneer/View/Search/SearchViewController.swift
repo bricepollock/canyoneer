@@ -20,7 +20,7 @@ class SearchViewController: ScrollableStackViewController {
     
     private let result: SearchResultList
     private var filteredResults: [Canyon]?
-    private let bag = DisposeBag()
+    internal let bag = DisposeBag()
     
     init(result: SearchResultList) {
         self.result = result

@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Foundation
 import XCTest
 import RxTest
 @testable import Canyoneer

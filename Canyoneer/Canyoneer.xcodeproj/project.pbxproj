@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4005DFB6278F583500EB1640 /* FavoriteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFB5278F583500EB1640 /* FavoriteService.swift */; };
+		4005DFB9278F59E200EB1640 /* FavoriteViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFB8278F59E200EB1640 /* FavoriteViewModelTests.swift */; };
 		4032AEBD278F3028002EEA4E /* CanyonViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEBC278F3028002EEA4E /* CanyonViewControllerTests.swift */; };
 		4032AEBF278F324D002EEA4E /* CanyonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEBE278F324D002EEA4E /* CanyonViewModel.swift */; };
 		4032AEC1278F3AB7002EEA4E /* CanyonViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEC0278F3AB7002EEA4E /* CanyonViewModelTests.swift */; };
@@ -15,6 +17,7 @@
 		4032AEC8278F3EFE002EEA4E /* Array+safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEC7278F3EFE002EEA4E /* Array+safe.swift */; };
 		4032AECB278F3FD8002EEA4E /* MockRopeWikiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AECA278F3FD8002EEA4E /* MockRopeWikiService.swift */; };
 		4032AECD278F41D0002EEA4E /* CanyonDetailViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AECC278F41D0002EEA4E /* CanyonDetailViewTests.swift */; };
+		4032AED5278F507E002EEA4E /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AED4278F507E002EEA4E /* FavoriteViewModel.swift */; };
 		40783CE8278DF46A001E78DB /* InMemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE6278DF46A001E78DB /* InMemoryStorage.swift */; };
 		40783CE9278DF46A001E78DB /* UserPreferencesStorage+favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */; };
 		40783CEB278DF5E3001E78DB /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CEA278DF5E3001E78DB /* Storage.swift */; };
@@ -99,12 +102,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4005DFB5278F583500EB1640 /* FavoriteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteService.swift; sourceTree = "<group>"; };
+		4005DFB8278F59E200EB1640 /* FavoriteViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModelTests.swift; sourceTree = "<group>"; };
 		4032AEBC278F3028002EEA4E /* CanyonViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewControllerTests.swift; sourceTree = "<group>"; };
 		4032AEBE278F324D002EEA4E /* CanyonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewModel.swift; sourceTree = "<group>"; };
 		4032AEC0278F3AB7002EEA4E /* CanyonViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewModelTests.swift; sourceTree = "<group>"; };
 		4032AEC7278F3EFE002EEA4E /* Array+safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+safe.swift"; sourceTree = "<group>"; };
 		4032AECA278F3FD8002EEA4E /* MockRopeWikiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRopeWikiService.swift; sourceTree = "<group>"; };
 		4032AECC278F41D0002EEA4E /* CanyonDetailViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonDetailViewTests.swift; sourceTree = "<group>"; };
+		4032AED4278F507E002EEA4E /* FavoriteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
 		40783CE6278DF46A001E78DB /* InMemoryStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryStorage.swift; sourceTree = "<group>"; };
 		40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserPreferencesStorage+favorite.swift"; sourceTree = "<group>"; };
 		40783CEA278DF5E3001E78DB /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
@@ -201,6 +207,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4005DFB7278F59D900EB1640 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				4005DFB8278F59E200EB1640 /* FavoriteViewModelTests.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
 		4032AEC9278F3FCD002EEA4E /* MockServices */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +236,7 @@
 		4032AECF278F41E6002EEA4E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4005DFB7278F59D900EB1640 /* Favorite */,
 				4032AECE278F41DA002EEA4E /* Canyon */,
 			);
 			path = View;
@@ -242,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				40783CEF278E0878001E78DB /* FavoriteViewController.swift */,
+				4032AED4278F507E002EEA4E /* FavoriteViewModel.swift */,
 			);
 			path = Favorites;
 			sourceTree = "<group>";
@@ -467,6 +483,7 @@
 				40E443212787A0F200FE245D /* RopeWikiService.swift */,
 				40E443252787A23A00FE245D /* SearchService.swift */,
 				40E4433627888D9100FE245D /* LocationService.swift */,
+				4005DFB5278F583500EB1640 /* FavoriteService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -642,6 +659,7 @@
 				40E4431327878A5700FE245D /* SubRegionView.swift in Sources */,
 				40E4434E278B489D00FE245D /* SwitchFilter.swift in Sources */,
 				40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */,
+				4032AED5278F507E002EEA4E /* FavoriteViewModel.swift in Sources */,
 				40E442C527875FCD00FE245D /* UIView+autolayout.swift in Sources */,
 				40E4433C2788A25B00FE245D /* BottomSheetViewController.swift in Sources */,
 				40E4434A278B327C00FE245D /* ComparisonPicker.swift in Sources */,
@@ -673,6 +691,7 @@
 				40E442DD2787629B00FE245D /* GlobalProgressIndicator.swift in Sources */,
 				40E442DB2787616E00FE245D /* UIStackView+remove.swift in Sources */,
 				40E44316278794D500FE245D /* TagView.swift in Sources */,
+				4005DFB6278F583500EB1640 /* FavoriteService.swift in Sources */,
 				40E442BB27875EFB00FE245D /* RegionListView.swift in Sources */,
 				40E442B927875EB200FE245D /* Region.swift in Sources */,
 				40E44350278B4F4600FE245D /* SeasonView.swift in Sources */,
@@ -694,6 +713,7 @@
 				4032AEBD278F3028002EEA4E /* CanyonViewControllerTests.swift in Sources */,
 				4032AECB278F3FD8002EEA4E /* MockRopeWikiService.swift in Sources */,
 				4032AECD278F41D0002EEA4E /* CanyonDetailViewTests.swift in Sources */,
+				4005DFB9278F59E200EB1640 /* FavoriteViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,6 +23,7 @@ class CanyonViewModel {
     
     // objects
     private let service: RopeWikiServiceInterface
+    private let favoriteService = FavoriteService()
     private let bag = DisposeBag()
     
     init(canyonId: String, service: RopeWikiServiceInterface = RopeWikiService()) {
@@ -44,7 +45,7 @@ class CanyonViewModel {
             self.canyon = canyon
             self.canyonSubject.onNext(canyon)
             
-            let isFavorite = UserPreferencesStorage.isFavorite(canyon: canyon)
+            let isFavorite = self.favoriteService.isFavorite(canyon: canyon)
             self.isFavoriteSubject.onNext(isFavorite)
         } onFailure: { error in
             Global.logger.error("\(String(describing: error))")
@@ -54,12 +55,8 @@ class CanyonViewModel {
     public func toggleFavorite() {
         guard let canyon = canyon else { return }
         
-        let isFavorited = UserPreferencesStorage.isFavorite(canyon: canyon)
-        if isFavorited {
-            UserPreferencesStorage.removeFavorite(canyon: canyon)
-        } else {
-            UserPreferencesStorage.addFavorite(canyon: canyon)
-        }
+        let isFavorited = favoriteService.isFavorite(canyon: canyon)
+        favoriteService.setFavorite(canyon: canyon, to: !isFavorited)
         self.isFavoriteSubject.onNext(!isFavorited)
     }
 }
