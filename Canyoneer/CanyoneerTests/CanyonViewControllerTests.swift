@@ -20,7 +20,7 @@ class CanyonViewControllerTests: XCTestCase {
     
     func testMessage() {
         let canyon = Canyon.dummy()
-        let expected = "I found 'Moonflower Canyon 3A II' on the 'Canyoneer' app. Check out the canyon on Ropewiki: http://ropewiki.com/Moonflower_Canyon"
+        let expected = "I found 'Moonflower Canyon 3A II 2r ↧220ft' on the 'Canyoneer' app. Check out the canyon on Ropewiki: http://ropewiki.com/Moonflower_Canyon"
         let result = CanyonViewController.Strings.message(for: canyon)
         XCTAssertEqual(expected, result)
     }
@@ -28,14 +28,14 @@ class CanyonViewControllerTests: XCTestCase {
     func testMessage_noUrl() {
         var canyon = Canyon.dummy()
         canyon.ropeWikiURL = nil
-        let expected = "I found 'Moonflower Canyon 3A II' on the 'Canyoneer' app."
+        let expected = "I found 'Moonflower Canyon 3A II 2r ↧220ft' on the 'Canyoneer' app."
         let result = CanyonViewController.Strings.message(for: canyon)
         XCTAssertEqual(expected, result)
     }
     
     func testBody() {
         let canyon = Canyon.dummy()
-        let expected = "I found 'Moonflower Canyon 3A II' on the 'Canyoneer' app. Check out the canyon on Ropewiki: http://ropewiki.com/Moonflower_Canyon"
+        let expected = "I found 'Moonflower Canyon 3A II 2r ↧220ft' on the 'Canyoneer' app. Check out the canyon on Ropewiki: http://ropewiki.com/Moonflower_Canyon"
         let result = CanyonViewController.Strings.body(for: canyon)
         XCTAssertEqual(expected, result)
     }
@@ -43,7 +43,7 @@ class CanyonViewControllerTests: XCTestCase {
     func testBody_noUrl() {
         var canyon = Canyon.dummy()
         canyon.ropeWikiURL = nil
-        let expected = "I found 'Moonflower Canyon 3A II' on the 'Canyoneer' app."
+        let expected = "I found 'Moonflower Canyon 3A II 2r ↧220ft' on the 'Canyoneer' app."
         let result = CanyonViewController.Strings.body(for: canyon)
         XCTAssertEqual(expected, result)
     }

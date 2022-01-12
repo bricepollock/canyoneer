@@ -22,11 +22,12 @@ class CanyonViewModel {
     private let canyonId: String
     
     // objects
-    private let service = RopeWikiService()
+    private let service: RopeWikiServiceInterface
     private let bag = DisposeBag()
     
-    init(canyonId: String) {
+    init(canyonId: String, service: RopeWikiServiceInterface = RopeWikiService()) {
         self.canyonId = canyonId
+        self.service = service
         
         self.canyonSubject = PublishSubject()
         self.canyonObservable = self.canyonSubject.asObservable()

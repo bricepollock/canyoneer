@@ -24,11 +24,11 @@ class CanyonDetailView: UIView {
             var summary = ""
             
             if let difficulty = canyon.technicalDifficulty, let water = canyon.waterDifficulty {
-                summary.append(" \(difficulty)\(water)")
+                summary.append("\(difficulty)\(water)")
             } else if let difficulty = canyon.technicalDifficulty {
-                summary.append(" \(difficulty)")
+                summary.append("\(difficulty)")
             } else if let water = canyon.waterDifficulty {
-                summary.append(" \(water)")
+                summary.append("\(water)")
             }
             if let time = canyon.timeGrade {
                 summary.append(" \(time)")

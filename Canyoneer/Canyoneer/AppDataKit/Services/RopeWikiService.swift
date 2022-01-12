@@ -9,7 +9,12 @@ import Foundation
 import RxSwift
 import MapKit
 
-class RopeWikiService {
+protocol RopeWikiServiceInterface {
+    func canyons() -> Single<[Canyon]>
+    func canyon(for id: String) -> Single<Canyon?>
+}
+
+class RopeWikiService: RopeWikiServiceInterface {
     private var cachedCanyons: [Canyon] = []
     
     func canyons() -> Single<[Canyon]> {

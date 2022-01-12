@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		4032AEBD278F3028002EEA4E /* CanyonViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEBC278F3028002EEA4E /* CanyonViewControllerTests.swift */; };
 		4032AEBF278F324D002EEA4E /* CanyonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEBE278F324D002EEA4E /* CanyonViewModel.swift */; };
+		4032AEC1278F3AB7002EEA4E /* CanyonViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEC0278F3AB7002EEA4E /* CanyonViewModelTests.swift */; };
+		4032AEC4278F3B56002EEA4E /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4032AEC3278F3B56002EEA4E /* RxSwift */; };
+		4032AEC6278F3B56002EEA4E /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 4032AEC5278F3B56002EEA4E /* RxTest */; };
+		4032AEC8278F3EFE002EEA4E /* Array+safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEC7278F3EFE002EEA4E /* Array+safe.swift */; };
+		4032AECB278F3FD8002EEA4E /* MockRopeWikiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AECA278F3FD8002EEA4E /* MockRopeWikiService.swift */; };
 		40783CE8278DF46A001E78DB /* InMemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE6278DF46A001E78DB /* InMemoryStorage.swift */; };
 		40783CE9278DF46A001E78DB /* UserPreferencesStorage+favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */; };
 		40783CEB278DF5E3001E78DB /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CEA278DF5E3001E78DB /* Storage.swift */; };
@@ -20,9 +25,6 @@
 		40E4428E27875D9F00FE245D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E4428C27875D9F00FE245D /* Main.storyboard */; };
 		40E4429027875DA000FE245D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E4428F27875DA000FE245D /* Assets.xcassets */; };
 		40E4429327875DA000FE245D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E4429127875DA000FE245D /* LaunchScreen.storyboard */; };
-		40E4429E27875DA100FE245D /* CanyoneerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4429D27875DA100FE245D /* CanyoneerTests.swift */; };
-		40E442A827875DA100FE245D /* CanyoneerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442A727875DA100FE245D /* CanyoneerUITests.swift */; };
-		40E442AA27875DA100FE245D /* CanyoneerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442A927875DA100FE245D /* CanyoneerUITestsLaunchTests.swift */; };
 		40E442B927875EB200FE245D /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442B827875EB200FE245D /* Region.swift */; };
 		40E442BB27875EFB00FE245D /* RegionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442BA27875EFB00FE245D /* RegionListView.swift */; };
 		40E442BD27875F0200FE245D /* GlobalSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442BC27875F0200FE245D /* GlobalSearchView.swift */; };
@@ -46,7 +48,6 @@
 		40E442EB2787708100FE245D /* UIView+line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442EA2787708100FE245D /* UIView+line.swift */; };
 		40E442ED2787710100FE245D /* CanyonResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442EC2787710100FE245D /* CanyonResultView.swift */; };
 		40E442EF2787710700FE245D /* RegionResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442EE2787710700FE245D /* RegionResultView.swift */; };
-		40E442F22787751B00FE245D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 40E442F12787751B00FE245D /* RxSwift */; };
 		40E442F4278775A000FE245D /* Observable+onNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442F3278775A000FE245D /* Observable+onNext.swift */; };
 		40E442F82787770200FE245D /* ContainedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442F72787770200FE245D /* ContainedButton.swift */; };
 		40E442FA2787777700FE245D /* FontBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442F92787777700FE245D /* FontBook.swift */; };
@@ -94,18 +95,14 @@
 			remoteGlobalIDString = 40E4428227875D9F00FE245D;
 			remoteInfo = Canyoneer;
 		};
-		40E442A427875DA100FE245D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 40E4427B27875D9F00FE245D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 40E4428227875D9F00FE245D;
-			remoteInfo = Canyoneer;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4032AEBC278F3028002EEA4E /* CanyonViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewControllerTests.swift; sourceTree = "<group>"; };
 		4032AEBE278F324D002EEA4E /* CanyonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewModel.swift; sourceTree = "<group>"; };
+		4032AEC0278F3AB7002EEA4E /* CanyonViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewModelTests.swift; sourceTree = "<group>"; };
+		4032AEC7278F3EFE002EEA4E /* Array+safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+safe.swift"; sourceTree = "<group>"; };
+		4032AECA278F3FD8002EEA4E /* MockRopeWikiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRopeWikiService.swift; sourceTree = "<group>"; };
 		40783CE6278DF46A001E78DB /* InMemoryStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryStorage.swift; sourceTree = "<group>"; };
 		40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserPreferencesStorage+favorite.swift"; sourceTree = "<group>"; };
 		40783CEA278DF5E3001E78DB /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
@@ -120,10 +117,6 @@
 		40E4429227875DA000FE245D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40E4429427875DA000FE245D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40E4429927875DA100FE245D /* CanyoneerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanyoneerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		40E4429D27875DA100FE245D /* CanyoneerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyoneerTests.swift; sourceTree = "<group>"; };
-		40E442A327875DA100FE245D /* CanyoneerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanyoneerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		40E442A727875DA100FE245D /* CanyoneerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyoneerUITests.swift; sourceTree = "<group>"; };
-		40E442A927875DA100FE245D /* CanyoneerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyoneerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		40E442B827875EB200FE245D /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
 		40E442BA27875EFB00FE245D /* RegionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionListView.swift; sourceTree = "<group>"; };
 		40E442BC27875F0200FE245D /* GlobalSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSearchView.swift; sourceTree = "<group>"; };
@@ -190,7 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E442F22787751B00FE245D /* RxSwift in Frameworks */,
+				4032AEC4278F3B56002EEA4E /* RxSwift in Frameworks */,
 				40E443442789F82D00FE245D /* MultiSelectSegmentedControl in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,19 +192,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		40E442A027875DA100FE245D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4032AEC6278F3B56002EEA4E /* RxTest in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4032AEC9278F3FCD002EEA4E /* MockServices */ = {
+			isa = PBXGroup;
+			children = (
+				4032AECA278F3FD8002EEA4E /* MockRopeWikiService.swift */,
+			);
+			path = MockServices;
+			sourceTree = "<group>";
+		};
 		40783CE5278DF44F001E78DB /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,7 +231,6 @@
 			children = (
 				40E4428527875D9F00FE245D /* Canyoneer */,
 				40E4429C27875DA100FE245D /* CanyoneerTests */,
-				40E442A627875DA100FE245D /* CanyoneerUITests */,
 				40E4428427875D9F00FE245D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -246,7 +240,6 @@
 			children = (
 				40E4428327875D9F00FE245D /* Canyoneer.app */,
 				40E4429927875DA100FE245D /* CanyoneerTests.xctest */,
-				40E442A327875DA100FE245D /* CanyoneerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -272,19 +265,11 @@
 		40E4429C27875DA100FE245D /* CanyoneerTests */ = {
 			isa = PBXGroup;
 			children = (
-				40E4429D27875DA100FE245D /* CanyoneerTests.swift */,
+				4032AEC9278F3FCD002EEA4E /* MockServices */,
 				4032AEBC278F3028002EEA4E /* CanyonViewControllerTests.swift */,
+				4032AEC0278F3AB7002EEA4E /* CanyonViewModelTests.swift */,
 			);
 			path = CanyoneerTests;
-			sourceTree = "<group>";
-		};
-		40E442A627875DA100FE245D /* CanyoneerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				40E442A727875DA100FE245D /* CanyoneerUITests.swift */,
-				40E442A927875DA100FE245D /* CanyoneerUITestsLaunchTests.swift */,
-			);
-			path = CanyoneerUITests;
 			sourceTree = "<group>";
 		};
 		40E442B627875E9800FE245D /* Models */ = {
@@ -479,6 +464,7 @@
 			isa = PBXGroup;
 			children = (
 				40E443392788914000FE245D /* CLLocation2D+distance.swift */,
+				4032AEC7278F3EFE002EEA4E /* Array+safe.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -514,8 +500,8 @@
 			);
 			name = Canyoneer;
 			packageProductDependencies = (
-				40E442F12787751B00FE245D /* RxSwift */,
 				40E443432789F82D00FE245D /* MultiSelectSegmentedControl */,
+				4032AEC3278F3B56002EEA4E /* RxSwift */,
 			);
 			productName = Canyoneer;
 			productReference = 40E4428327875D9F00FE245D /* Canyoneer.app */;
@@ -535,27 +521,12 @@
 				40E4429B27875DA100FE245D /* PBXTargetDependency */,
 			);
 			name = CanyoneerTests;
+			packageProductDependencies = (
+				4032AEC5278F3B56002EEA4E /* RxTest */,
+			);
 			productName = CanyoneerTests;
 			productReference = 40E4429927875DA100FE245D /* CanyoneerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		40E442A227875DA100FE245D /* CanyoneerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 40E442B327875DA100FE245D /* Build configuration list for PBXNativeTarget "CanyoneerUITests" */;
-			buildPhases = (
-				40E4429F27875DA100FE245D /* Sources */,
-				40E442A027875DA100FE245D /* Frameworks */,
-				40E442A127875DA100FE245D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				40E442A527875DA100FE245D /* PBXTargetDependency */,
-			);
-			name = CanyoneerUITests;
-			productName = CanyoneerUITests;
-			productReference = 40E442A327875DA100FE245D /* CanyoneerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -574,10 +545,6 @@
 						CreatedOnToolsVersion = 13.2;
 						TestTargetID = 40E4428227875D9F00FE245D;
 					};
-					40E442A227875DA100FE245D = {
-						CreatedOnToolsVersion = 13.2;
-						TestTargetID = 40E4428227875D9F00FE245D;
-					};
 				};
 			};
 			buildConfigurationList = 40E4427E27875D9F00FE245D /* Build configuration list for PBXProject "Canyoneer" */;
@@ -590,8 +557,8 @@
 			);
 			mainGroup = 40E4427A27875D9F00FE245D;
 			packageReferences = (
-				40E442F02787751B00FE245D /* XCRemoteSwiftPackageReference "RxSwift" */,
 				40E443422789F82D00FE245D /* XCRemoteSwiftPackageReference "MultiSelectSegmentedControl" */,
+				4032AEC2278F3B56002EEA4E /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 40E4428427875D9F00FE245D /* Products */;
 			projectDirPath = "";
@@ -599,7 +566,6 @@
 			targets = (
 				40E4428227875D9F00FE245D /* Canyoneer */,
 				40E4429827875DA100FE245D /* CanyoneerTests */,
-				40E442A227875DA100FE245D /* CanyoneerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -617,13 +583,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		40E4429727875DA100FE245D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		40E442A127875DA100FE245D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -677,6 +636,7 @@
 				40E442FC278779AE00FE245D /* MainViewController.swift in Sources */,
 				40E442C82787601D00FE245D /* Logger.swift in Sources */,
 				40E443262787A23A00FE245D /* SearchService.swift in Sources */,
+				4032AEC8278F3EFE002EEA4E /* Array+safe.swift in Sources */,
 				40E4431F2787A0C000FE245D /* MapViewModel.swift in Sources */,
 				40E4433F2788F1D600FE245D /* SpreadFilter.swift in Sources */,
 				40E442D82787614000FE245D /* Grid.swift in Sources */,
@@ -711,17 +671,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4032AEC1278F3AB7002EEA4E /* CanyonViewModelTests.swift in Sources */,
 				4032AEBD278F3028002EEA4E /* CanyonViewControllerTests.swift in Sources */,
-				40E4429E27875DA100FE245D /* CanyoneerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		40E4429F27875DA100FE245D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40E442A827875DA100FE245D /* CanyoneerUITests.swift in Sources */,
-				40E442AA27875DA100FE245D /* CanyoneerUITestsLaunchTests.swift in Sources */,
+				4032AECB278F3FD8002EEA4E /* MockRopeWikiService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -732,11 +684,6 @@
 			isa = PBXTargetDependency;
 			target = 40E4428227875D9F00FE245D /* Canyoneer */;
 			targetProxy = 40E4429A27875DA100FE245D /* PBXContainerItemProxy */;
-		};
-		40E442A527875DA100FE245D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 40E4428227875D9F00FE245D /* Canyoneer */;
-			targetProxy = 40E442A427875DA100FE245D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -978,42 +925,6 @@
 			};
 			name = Release;
 		};
-		40E442B427875DA100FE245D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q9KJUL2LRV;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.backcountry-nomad.CanyoneerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Canyoneer;
-			};
-			name = Debug;
-		};
-		40E442B527875DA100FE245D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q9KJUL2LRV;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.backcountry-nomad.CanyoneerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Canyoneer;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1044,19 +955,10 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40E442B327875DA100FE245D /* Build configuration list for PBXNativeTarget "CanyoneerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				40E442B427875DA100FE245D /* Debug */,
-				40E442B527875DA100FE245D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		40E442F02787751B00FE245D /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		4032AEC2278F3B56002EEA4E /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
@@ -1075,10 +977,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		40E442F12787751B00FE245D /* RxSwift */ = {
+		4032AEC3278F3B56002EEA4E /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 40E442F02787751B00FE245D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 4032AEC2278F3B56002EEA4E /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
+		};
+		4032AEC5278F3B56002EEA4E /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4032AEC2278F3B56002EEA4E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
 		};
 		40E443432789F82D00FE245D /* MultiSelectSegmentedControl */ = {
 			isa = XCSwiftPackageProductDependency;

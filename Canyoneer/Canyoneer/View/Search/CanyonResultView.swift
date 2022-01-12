@@ -110,7 +110,7 @@ class CanyonResultView: UIView {
             imageView.contentMode = .scaleAspectFit
             self.qualityStack.addArrangedSubview(imageView)
         }
-        self.summary.text = CanyonDetailView.Strings.summaryDetails(for: canyon)
+        self.summary.text = " " + CanyonDetailView.Strings.summaryDetails(for: canyon)
     }
     
     @objc func didTap() {
