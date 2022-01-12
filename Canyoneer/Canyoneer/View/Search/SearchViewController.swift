@@ -34,7 +34,7 @@ class SearchViewController: ScrollableStackViewController {
         self.navigationItem.backButtonTitle = ""
         
         // setup bar button items
-        let mapButton = UIBarButtonItem(image: UIImage(systemName: "map"), style: .plain, target: self, action: #selector(didRequetMap))
+        let mapButton = UIBarButtonItem(image: UIImage(systemName: "map"), style: .plain, target: self, action: #selector(didRequestMap))
         let filterButton = UIBarButtonItem(image: UIImage(systemName: "line.3.horizontal.decrease.circle"), style: .plain, target: self, action: #selector(didRequestFilters))
         self.navigationItem.rightBarButtonItems = [mapButton, filterButton]
         
@@ -101,7 +101,7 @@ class SearchViewController: ScrollableStackViewController {
         self.viewModel.updateFromFilter(with: filtered)
     }
     
-    @objc func didRequetMap() {
+    @objc func didRequestMap() {
         let canyons = self.viewModel.currentResults.compactMap { $0.canyonDetails }
         let next = MapViewController(canyons: canyons)
         self.navigationController?.pushViewController(next, animated: true)
