@@ -17,6 +17,7 @@
 		4005DFC9278F793200EB1640 /* SearchViewController+query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFC8278F793200EB1640 /* SearchViewController+query.swift */; };
 		4005DFCB278F7AAD00EB1640 /* SearchViewModel+nearMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFCA278F7AAD00EB1640 /* SearchViewModel+nearMe.swift */; };
 		4005DFCD278F7B0A00EB1640 /* MockSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFCC278F7B0A00EB1640 /* MockSearchService.swift */; };
+		4005DFCF278F96E100EB1640 /* MapView+annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFCE278F96E100EB1640 /* MapView+annotations.swift */; };
 		4032AEBD278F3028002EEA4E /* CanyonViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEBC278F3028002EEA4E /* CanyonViewControllerTests.swift */; };
 		4032AEBF278F324D002EEA4E /* CanyonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEBE278F324D002EEA4E /* CanyonViewModel.swift */; };
 		4032AEC1278F3AB7002EEA4E /* CanyonViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEC0278F3AB7002EEA4E /* CanyonViewModelTests.swift */; };
@@ -118,6 +119,7 @@
 		4005DFC8278F793200EB1640 /* SearchViewController+query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchViewController+query.swift"; sourceTree = "<group>"; };
 		4005DFCA278F7AAD00EB1640 /* SearchViewModel+nearMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchViewModel+nearMe.swift"; sourceTree = "<group>"; };
 		4005DFCC278F7B0A00EB1640 /* MockSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchService.swift; sourceTree = "<group>"; };
+		4005DFCE278F96E100EB1640 /* MapView+annotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapView+annotations.swift"; sourceTree = "<group>"; };
 		4032AEBC278F3028002EEA4E /* CanyonViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewControllerTests.swift; sourceTree = "<group>"; };
 		4032AEBE278F324D002EEA4E /* CanyonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewModel.swift; sourceTree = "<group>"; };
 		4032AEC0278F3AB7002EEA4E /* CanyonViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewModelTests.swift; sourceTree = "<group>"; };
@@ -489,6 +491,7 @@
 				40E4431C27879F1D00FE245D /* MapViewController.swift */,
 				40E443272787A45100FE245D /* MapViewControler+MapViewDelegate.swift */,
 				40E4431E2787A0C000FE245D /* MapViewModel.swift */,
+				4005DFCE278F96E100EB1640 /* MapView+annotations.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -672,6 +675,7 @@
 				4005DFC0278F60C500EB1640 /* FilterViewModel.swift in Sources */,
 				40E4431A27879DF100FE245D /* TextField.swift in Sources */,
 				40E443222787A0F200FE245D /* RopeWikiService.swift in Sources */,
+				4005DFCF278F96E100EB1640 /* MapView+annotations.swift in Sources */,
 				40783CED278DF63F001E78DB /* UserPreferencesStorage.swift in Sources */,
 				40E4433A2788914000FE245D /* CLLocation2D+distance.swift in Sources */,
 				40783CE8278DF46A001E78DB /* InMemoryStorage.swift in Sources */,

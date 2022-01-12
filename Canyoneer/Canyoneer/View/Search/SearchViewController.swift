@@ -41,7 +41,8 @@ class SearchViewController: ScrollableStackViewController {
         // setup bar button items
         let mapButton = UIBarButtonItem(image: UIImage(systemName: "map"), style: .plain, target: self, action: #selector(didRequestMap))
         let filterButton = UIBarButtonItem(image: UIImage(systemName: "line.3.horizontal.decrease.circle"), style: .plain, target: self, action: #selector(didRequestFilters))
-        self.navigationItem.rightBarButtonItems = [mapButton, filterButton]
+        let wasLaunchedFromMap = (self.navigationController?.viewControllers.count ?? 0) > 2
+        self.navigationItem.rightBarButtonItems = wasLaunchedFromMap ? [] : [mapButton, filterButton]
         
         self.viewModel.refresh()
     }

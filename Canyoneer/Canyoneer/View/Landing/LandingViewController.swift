@@ -36,7 +36,7 @@ class LandingViewController: ScrollableStackViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "list.bullet.circle"), style: .plain, target: self, action: #selector(showFavorites))
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "list.star"), style: .plain, target: self, action: #selector(showFavorites))
         
         self.configureViews()
         self.bind()

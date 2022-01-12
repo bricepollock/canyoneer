@@ -43,8 +43,10 @@ class MapViewController: UIViewController {
         super.viewDidLoad()
         self.view.addSubview(self.mapView)
         
+        let listButton = UIBarButtonItem(image: UIImage(systemName: "list.bullet.rectangle"), style: .plain, target: self, action: #selector(didRequestList))
         let filterButton = UIBarButtonItem(image: UIImage(systemName: "line.3.horizontal.decrease.circle"), style: .plain, target: self, action: #selector(didRequestFilters))
-        self.navigationItem.rightBarButtonItems = [filterButton]
+        let isFullMapView = self.navigationController?.viewControllers.count == 2
+        self.navigationItem.rightBarButtonItems = isFullMapView ? [listButton, filterButton] : []
         self.filterSheet.willDismiss.subscribeOnNext { () in
             self.updateWithFilters()
         }.disposed(by: self.bag)
@@ -87,5 +89,15 @@ class MapViewController: UIViewController {
     
     @objc func didRequestFilters() {
         self.present(self.filterSheet, animated: false)
+    }
+    
+    @objc func didRequestList() {
+        let canyons = self.mapView.visibleAnnotations().compactMap {
+            return $0 as? CanyonAnnotation
+        }.map {
+            return SearchResult(name: $0.canyon.name, type: .canyon, canyonDetails: $0.canyon, regionDetails: nil)
+        }
+        let next = SearchViewController(type: .map(list: canyons))
+        self.navigationController?.pushViewController(next, animated: true)
     }
 }

@@ -12,6 +12,7 @@ enum SearchType {
     case string(query: String)
     case nearMe
     case favorites
+    case map(list: [SearchResult])
 }
 
 class SearchViewModel {
@@ -24,8 +25,12 @@ class SearchViewModel {
         static func nearMe(limit: Int) -> String {
             return "Near Me (Top \(limit))"
         }
+        static func map(count: Int) -> String {
+            return "Map (\(count) Canyons)"
+        }
     }
     private static let maxNearMe = 50
+    private static let maxMap = 100
     
     public let title: Observable<String>
     private let titleSubject: PublishSubject<String>
@@ -106,6 +111,12 @@ class SearchViewModel {
                 defer { self.loadingComponent.stopLoading() }
                 Global.logger.error(error)
             }.disposed(by: self.bag)
+        case .map(let list):
+            let results = Array(list.prefix(Self.maxMap))
+            title = Strings.map(count: results.count)
+            self.initialResults = results
+            self.resultsSubject.onNext(results)
+            self.loadingComponent.stopLoading()
         }
         
         self.titleSubject.onNext(title)
