@@ -22,16 +22,22 @@ class LocationService: NSObject, CLLocationManagerDelegate {
     }
     
     func getCurrentLocation(callback: @escaping ((CLLocation) -> Void)) {
-        locationManager.requestWhenInUseAuthorization()
-        locationCallback = callback
-        locationManager.desiredAccuracy = kCLLocationAccuracyThreeKilometers
-        locationManager.delegate = self
-        locationManager.requestLocation()
+        self.locationManager.requestWhenInUseAuthorization()
+        self.locationCallback = callback
+        self.locationManager.desiredAccuracy = kCLLocationAccuracyThreeKilometers
+        self.locationManager.delegate = self
+        self.locationManager.requestLocation()
     }
     
     @objc func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.last {
-            locationCallback?(location)
+            self.locationCallback?(location)
+        }
+    }
+    
+    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
+        if manager.authorizationStatus != .denied {
+            self.locationManager.requestLocation()
         }
     }
     
