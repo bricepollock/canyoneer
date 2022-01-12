@@ -15,13 +15,17 @@ enum SearchType {
 }
 
 class SearchViewModel {
+        
     enum Strings {
         static func search(query: String) -> String {
             return "Search: \(query)"
         }
         static let favorites = "Favorites"
-        static let nearMe = "Near Me"
+        static func nearMe(limit: Int) -> String {
+            return "Near Me (Top \(limit))"
+        }
     }
+    private static let maxNearMe = 50
     
     public let title: Observable<String>
     private let titleSubject: PublishSubject<String>
@@ -33,15 +37,19 @@ class SearchViewModel {
     public let loadingComponent = LoadingComponent()
     
     private let canyonService: RopeWikiServiceInterface
-    private let searchService = SearchService()
+    private let searchService: SearchServiceInterface
     private let favoriteService = FavoriteService()
     private let bag = DisposeBag()
     private let type: SearchType
     
-    init(type: SearchType, canyonService: RopeWikiServiceInterface = RopeWikiService()) {
+    init(
+        type: SearchType,
+        canyonService: RopeWikiServiceInterface = RopeWikiService(),
+        searchService: SearchServiceInterface? = nil
+    ) {
         self.type = type
         self.canyonService = canyonService
-        
+        self.searchService = searchService ?? SearchService(canyonService: canyonService)
         self.resultsSubject = PublishSubject()
         self.results = self.resultsSubject.asObservable()
         
@@ -69,8 +77,8 @@ class SearchViewModel {
                 Global.logger.error(error)
             }.disposed(by: self.bag)
         case .nearMe:
-            title = Strings.nearMe
-            self.searchService.nearMeSearch(limit: 50).subscribe { [weak self] results in
+            title = Strings.nearMe(limit: Self.maxNearMe)
+            self.searchService.nearMeSearch(limit: Self.maxNearMe).subscribe { [weak self] results in
                 defer { self?.loadingComponent.stopLoading() }
                 self?.resultsSubject.onNext(results.result)
             } onFailure: { error in

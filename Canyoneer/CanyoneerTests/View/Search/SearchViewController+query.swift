@@ -1,5 +1,5 @@
 //
-//  SearchViewModel+favorite.swift
+//  SearchViewController+query.swift
 //  CanyoneerTests
 //
 //  Created by Brice Pollock on 1/12/22.
@@ -11,7 +11,7 @@ import RxTest
 @testable import Canyoneer
 
 
-class SearchViewModelFavoriteTests: XCTestCase {
+class SearchViewModelQueryTests: XCTestCase {
     var scheduler: TestScheduler!
     
     override func setUp() {
@@ -22,10 +22,11 @@ class SearchViewModelFavoriteTests: XCTestCase {
     
     func testReturnsFavorites() {
         // setup
-        let canyon = Canyon.dummy()
+        var canyon = Canyon.dummy()
+        canyon.name = "Something else"
         let service = MockRopeWikiService()
         service.mockCanyons = [canyon, Canyon.dummy(), Canyon.dummy(), Canyon.dummy()]
-        let viewModel = SearchViewModel(type: .favorites, canyonService: service)
+        let viewModel = SearchViewModel(type: .string(query: "Moon"), canyonService: service)
         UserPreferencesStorage.addFavorite(canyon: canyon)
         
         // Create the observation of the affected streams
@@ -38,7 +39,7 @@ class SearchViewModelFavoriteTests: XCTestCase {
         
         // observe the response
         let results = observer.events.map { $0.value.element }
-        XCTAssertEqual(results.first??.count, 1)
+        XCTAssertEqual(results.first??.count, 3)
         
         // clean up
         subscription.dispose()
@@ -49,7 +50,7 @@ class SearchViewModelFavoriteTests: XCTestCase {
         let canyon = Canyon.dummy()
         let service = MockRopeWikiService()
         service.mockCanyons = [canyon, Canyon.dummy(), Canyon.dummy(), Canyon.dummy()]
-        let viewModel = SearchViewModel(type: .favorites, canyonService: service)
+        let viewModel = SearchViewModel(type: .string(query: "Moon"), canyonService: service)
         
         // Create the observation of the affected streams
         let observer = scheduler.createObserver(String.self)
@@ -61,7 +62,7 @@ class SearchViewModelFavoriteTests: XCTestCase {
         
         // observe the response
         let results = observer.events.map { $0.value.element }
-        XCTAssertEqual(results.first, "Favorites")
+        XCTAssertEqual(results.first, "Search: Moon")
         
         // clean up
         subscription.dispose()

@@ -9,11 +9,21 @@ import Foundation
 import RxSwift
 import CoreLocation
 
-struct SearchService {
+protocol SearchServiceInterface {
+    init(canyonService: RopeWikiServiceInterface)
+    func requestSearch(for searchString: String) -> Single<SearchResultList>
+    func nearMeSearch(limit: Int) -> Single<SearchResultList>
+}
+
+struct SearchService: SearchServiceInterface {
     private static let maxNearMe = 50
-    
-    private let ropeWikiService = RopeWikiService()
+    private let ropeWikiService: RopeWikiServiceInterface
     private let locationService = LocationService()
+    
+    init(canyonService: RopeWikiServiceInterface = RopeWikiService()) {
+        self.ropeWikiService = canyonService
+    }
+    
     func requestSearch(for searchString: String) -> Single<SearchResultList> {
         return self.ropeWikiService.canyons().map { canyons in
             var results = [SearchResult]()
@@ -60,18 +70,4 @@ struct SearchService {
 
         }
     }
-    
-//    func flattenRegions(regions: [Region]) -> [Region] {
-//        return regions.flatMap { region in
-//            return self.flattenRegion(region: region)
-//        }
-//    }
-//    func flattenRegion(region: Region) -> [Region] {
-//        guard !region.children.isEmpty else {
-//            return [region]
-//        }
-//        return region.children.flatMap { region in
-//            return self.flattenRegion(region: region)
-//        }
-//    }
 }
