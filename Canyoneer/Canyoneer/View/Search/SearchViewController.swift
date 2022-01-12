@@ -10,20 +10,15 @@ import UIKit
 import RxSwift
 
 class SearchViewController: ScrollableStackViewController {
-    enum Strings {
-        static func title(search: String) -> String {
-            return "Search: \(search)"
-        }
-    }
     
     private let filterSheet = BottomSheetFilterViewController.shared
     
-    private let result: SearchResultList
+    private let viewModel: SearchViewModel
     private var filteredResults: [Canyon]?
     internal let bag = DisposeBag()
     
-    init(result: SearchResultList) {
-        self.result = result
+    init(type: SearchType) {
+        self.viewModel = SearchViewModel(type: type)
         super.init(insets: .init(all: .medium), atMargin: true)
     }
     
@@ -33,22 +28,36 @@ class SearchViewController: ScrollableStackViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.masterStackView.axis = .vertical
-        self.masterStackView.spacing = Grid.medium
-        
-        self.title = Strings.title(search: self.result.searchString)
+        self.configureViews()
+        self.bind()
+
         self.navigationItem.backButtonTitle = ""
         
+        // setup bar button items
         let mapButton = UIBarButtonItem(image: UIImage(systemName: "map"), style: .plain, target: self, action: #selector(didRequetMap))
         let filterButton = UIBarButtonItem(image: UIImage(systemName: "line.3.horizontal.decrease.circle"), style: .plain, target: self, action: #selector(didRequestFilters))
         self.navigationItem.rightBarButtonItems = [mapButton, filterButton]
-        self.renderResults(results: self.result.result)
         
-        self.filterSheet.willDismiss.subscribeOnNext { () in
-            self.updateWithFilters()
+        self.viewModel.refresh()
+    }
+    
+    func configureViews() {
+        self.masterStackView.axis = .vertical
+        self.masterStackView.spacing = Grid.medium
+    }
+    
+    func bind() {        
+        self.viewModel.title.subscribeOnNext { [weak self] title in
+            self?.title = title
         }.disposed(by: self.bag)
-
+        
+        self.viewModel.results.subscribeOnNext { [weak self] result in
+            self?.renderResults(results: result)
+        }.disposed(by: self.bag)
+        
+        self.filterSheet.willDismiss.subscribeOnNext { [weak self] () in
+            self?.updateWithFilters()
+        }.disposed(by: self.bag)
     }
     
     internal func renderResults(results: [SearchResult]) {
@@ -87,13 +96,13 @@ class SearchViewController: ScrollableStackViewController {
     }
     
     private func updateWithFilters() {
-        let filtered = self.filterSheet.filter(results: self.result.result)
-        self.filteredResults = filtered.compactMap { $0.canyonDetails }
-        self.renderResults(results: filtered)
+        self.filterSheet.update()
+        let filtered = self.filterSheet.viewModel.filter(results: self.viewModel.currentResults)
+        self.viewModel.updateFromFilter(with: filtered)
     }
     
     @objc func didRequetMap() {
-        let canyons = self.filteredResults ?? self.result.result.compactMap { $0.canyonDetails }
+        let canyons = self.viewModel.currentResults.compactMap { $0.canyonDetails }
         let next = MapViewController(canyons: canyons)
         self.navigationController?.pushViewController(next, animated: true)
     }

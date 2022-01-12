@@ -73,17 +73,14 @@ class LandingViewController: ScrollableStackViewController {
                 self?.navigationController?.pushViewController(next, animated: true)
             }, onFailure: { error in
                 defer { self.loadingComponent.stopLoading() }
-                Global.logger.error("\(String(describing: error))")
+                Global.logger.error(error)
             }).disposed(by: self.bag)
         }.disposed(by: self.bag)
         
         self.nearMeButton.configure(text: Strings.nearMe)
-        self.nearMeButton.didSelect.flatMap { () -> Single<SearchResultList>  in
-            self.loadingComponent.startLoading(loadingType: .screen)
-            return self.viewModel.nearMeSearch()
-        }.subscribeOnNext { [weak self] results in
+        self.nearMeButton.didSelect.subscribeOnNext { [weak self] results in
             defer { self?.loadingComponent.stopLoading() }
-            let next = SearchViewController(result: results)
+            let next = SearchViewController(type: .nearMe)
             self?.navigationController?.pushViewController(next, animated: true)
         }.disposed(by: self.bag)
         
@@ -104,19 +101,12 @@ class LandingViewController: ScrollableStackViewController {
     
     // MARK: Actions
     func performSearch(for searchString: String) {
-        self.loadingComponent.startLoading(loadingType: .screen)
-        self.viewModel.requestSearch(for: searchString).subscribe { [weak self] results in
-            defer { self?.loadingComponent.stopLoading() }
-            let next = SearchViewController(result: results)
-            self?.navigationController?.pushViewController(next, animated: true)
-        } onFailure: { error in
-            defer { self.loadingComponent.stopLoading() }
-            Global.logger.error("Failed search")
-        }.disposed(by: self.bag)
+        let next = SearchViewController(type: .string(query: searchString))
+        self.navigationController?.pushViewController(next, animated: true)
     }
     
     @objc func showFavorites() {
-        let next = FavoriteViewController()
+        let next = SearchViewController(type: .favorites)
         self.navigationController?.pushViewController(next, animated: true)
     }
 }

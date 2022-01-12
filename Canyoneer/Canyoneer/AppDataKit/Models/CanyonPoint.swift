@@ -21,6 +21,14 @@ enum Month: String, Codable, CaseIterable {
     case november = "November"
     case december = "December"
     
+    init?(short: String) {
+        if let result =  Self.allCases.filter({ $0.short == short }).first {
+            self = result
+        } else {
+            return nil
+        }
+    }
+    
     var initial: String {
         return String(self.rawValue.prefix(1))
     }
@@ -44,6 +52,17 @@ enum RomanNumeral: String, Codable, CaseIterable {
     case four = "IV"
     case five = "V"
     case six = "VI"
+    
+    var number: Int {
+        switch self {
+        case .one: return 1
+        case .two: return 2
+        case .three: return 3
+        case .four: return 4
+        case .five: return 5
+        case .six: return 6
+        }
+    }
 }
 
 struct CanyonDataPoint: Codable {

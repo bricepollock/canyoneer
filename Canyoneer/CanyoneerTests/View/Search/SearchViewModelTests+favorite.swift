@@ -1,5 +1,5 @@
 //
-//  FavoriteViewModelTests.swift
+//  SearchViewModel+favorite.swift
 //  CanyoneerTests
 //
 //  Created by Brice Pollock on 1/12/22.
@@ -10,7 +10,8 @@ import XCTest
 import RxTest
 @testable import Canyoneer
 
-class FavoriteViewModelTests: XCTestCase {
+
+class SearchViewModelFavoriteTests: XCTestCase {
     var scheduler: TestScheduler!
     
     override func setUp() {
@@ -24,12 +25,12 @@ class FavoriteViewModelTests: XCTestCase {
         let canyon = Canyon.dummy()
         let service = MockRopeWikiService()
         service.mockCanyons = [canyon, Canyon.dummy(), Canyon.dummy(), Canyon.dummy()]
-        let viewModel = FavoriteViewModel(service: service)
+        let viewModel = SearchViewModel(type: .favorites, canyonService: service)
         UserPreferencesStorage.addFavorite(canyon: canyon)
         
         // Create the observation of the affected streams
-        let observer = scheduler.createObserver([Canyon].self)
-        let subscription = viewModel.canyons.subscribe(observer)
+        let observer = scheduler.createObserver([SearchResult].self)
+        let subscription = viewModel.results.subscribe(observer)
         
         // Create the event stream
         viewModel.refresh()
@@ -37,7 +38,7 @@ class FavoriteViewModelTests: XCTestCase {
         
         // observe the response
         let results = observer.events.map { $0.value.element }
-        XCTAssertEqual(results.count, 1)
+        XCTAssertEqual(results.first??.count, 1)
         
         // clean up
         subscription.dispose()

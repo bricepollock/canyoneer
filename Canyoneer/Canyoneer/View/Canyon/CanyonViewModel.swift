@@ -48,7 +48,7 @@ class CanyonViewModel {
             let isFavorite = self.favoriteService.isFavorite(canyon: canyon)
             self.isFavoriteSubject.onNext(isFavorite)
         } onFailure: { error in
-            Global.logger.error("\(String(describing: error))")
+            Global.logger.error(error)
         }.disposed(by: self.bag)
     }
     

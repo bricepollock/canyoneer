@@ -75,8 +75,11 @@ class MapViewController: UIViewController {
     
     private func updateWithFilters() {
         self.mapView.removeAnnotations(self.mapView.annotations)
-        let canyons = self.filterSheet.filter(canyons: self.canyons)
-        canyons.forEach { canyon in
+        let original = canyons.map { SearchResult(name: $0.name, type: .canyon, canyonDetails: $0, regionDetails: nil)}
+        let results = self.filterSheet.viewModel.filter(results: original)
+        results.compactMap {
+            return $0.canyonDetails
+        }.forEach { canyon in
             let annotation = CanyonAnnotation(canyon: canyon)
             self.mapView.addAnnotation(annotation)
         }
