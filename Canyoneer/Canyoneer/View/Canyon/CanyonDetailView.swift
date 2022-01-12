@@ -13,9 +13,7 @@ class CanyonDetailView: UIView {
     
     enum Strings {
         
-        static func summary(for canyon: Canyon) -> String {
-            return " Summary"
-        }
+        static let summary: String = "Summary"
         
         static let details = " Details"
         static let ropeWiki = "Ropewiki Page"
@@ -68,21 +66,21 @@ class CanyonDetailView: UIView {
             guard let string = string else { return "--" }
             return string
         }
-        
-        static func stars(quality: Float) -> [UIImage] {
-            var images = [UIImage?]()
-            var remainingQuality = quality
-            while remainingQuality > 0 {
-                if remainingQuality >= 1 {
-                    images.append(UIImage(named: "emj_star_full"))
-                } else {
-                    images.append(UIImage(named: "emj_star_half"))
-                }
-                remainingQuality -= 1
-            }
-            return images.compactMap {
-                return $0
-            }
+    }
+    
+    static func stars(quality: Float) -> [UIImage] {
+        var images = [UIImage?]()
+        var remainingQuality = quality
+        while remainingQuality > 0 {
+            if remainingQuality >= 1 {
+                images.append(UIImage(named: "emj_star_full"))
+            } else if remainingQuality >= 0.5 {
+                images.append(UIImage(named: "emj_star_half"))
+            } // else no star because less than 0.5
+            remainingQuality -= 1
+        }
+        return images.compactMap {
+            return $0
         }
     }
     
@@ -144,13 +142,13 @@ class CanyonDetailView: UIView {
     }
     
     func configure(with canyon: Canyon) {
-
-        self.summaryTitle.text = Strings.summary(for: canyon)
+        // initial space is for padding with background coloration
+        self.summaryTitle.text = " " + Strings.summary
         self.summaryDetails.text = Strings.summaryDetails(for: canyon)
         
         // special rendering needed for array of images becuase there is no half-star emoji we could put in text
         self.starsStackView.removeAll()
-        CanyonDetailView.Strings.stars(quality: canyon.quality).forEach { image in
+        CanyonDetailView.stars(quality: canyon.quality).forEach { image in
             let imageView = UIImageView(image: image)
             imageView.constrain.width(20)
             imageView.constrain.aspect(1)

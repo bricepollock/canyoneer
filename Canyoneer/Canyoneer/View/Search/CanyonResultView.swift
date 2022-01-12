@@ -103,7 +103,7 @@ class CanyonResultView: UIView {
         
         // special rendering needed for array of images becuase there is no half-star emoji we could put in text
         self.qualityStack.removeAll()
-        CanyonDetailView.Strings.stars(quality: canyon.quality).forEach { image in
+        CanyonDetailView.stars(quality: canyon.quality).forEach { image in
             let imageView = UIImageView(image: image)
             imageView.constrain.width(20)
             imageView.constrain.aspect(1)
