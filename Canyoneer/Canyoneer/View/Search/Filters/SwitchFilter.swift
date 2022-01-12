@@ -47,8 +47,13 @@ class SwitchFilter: UIStackView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    public func configure(title: String) {
+    public func configure(title: String, isYes: Bool?) {
         self.filterTitle.text = title
-        self.filterSwitch.selectedSegmentIndex = 2
+        
+        if let isYes = isYes {
+            self.filterSwitch.selectedSegmentIndex = isYes ? 0 : 1
+        } else {
+            self.filterSwitch.selectedSegmentIndex = 2
+        }
     }
 }

@@ -40,12 +40,16 @@ class FilterViewModel {
     public let state: Observable<FilterState>
     private let stateSubject: PublishSubject<FilterState>
 
+    // used to set the options we have for the filter
+    public let initialState: FilterState
+    // used to set the current selections for the filters
     private var currentState: FilterState
     
     init() {
         self.stateSubject = PublishSubject()
         self.state = self.stateSubject.asObservable()
-        self.currentState = FilterState.default
+        self.initialState = FilterState.default
+        self.currentState = self.initialState
     }
     
     // MARK: Actions
@@ -152,14 +156,13 @@ class FilterViewModel {
             
             // Shuttle (bypass any)
             if let filterRequireShuttle = filters.shuttleRequired {
-                
                 // Don't count canyons without shuttle information
                 if let requireShuttle = canyon.requiresShuttle {
                     guard requireShuttle == filterRequireShuttle else {
                         return false
                     }
-                // if there is no shuttle information  then filter out
-                } else {
+                // if there is no shuttle information then consider this false
+                } else if filterRequireShuttle {
                     return false
                 }
             }

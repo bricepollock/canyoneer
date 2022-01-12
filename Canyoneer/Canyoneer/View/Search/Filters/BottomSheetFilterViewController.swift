@@ -61,22 +61,28 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         self.viewModel.reset()
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
-    
     // FIXME: Respond reactive to each of these objects
     public func update() {
-        self.viewModel.update(maxRap: (max: self.maxRapFilter.maxValue, self.maxRapFilter.minValue))
-        self.viewModel.update(numRaps: (max: self.numRapFilter.maxValue, self.numRapFilter.minValue))
-
-        self.viewModel.update(stars: self.starFitler.selections)
-        self.viewModel.update(technicality: self.technicalFilter.selections)
-        self.viewModel.update(water: self.waterDifficultyFilter.selections)
-        self.viewModel.update(time: self.timeFilter.selections)
-        self.viewModel.update(shuttle: self.shuttleFilter.selections.first)
-        self.viewModel.update(seasons: self.seasonFilter.selections)
+        // if we don't capture the state and send individually then when the whole state update comes in (on first update call)
+        // it will clear out state for all other items
+        
+        let maxRap = (max: self.maxRapFilter.maxValue, self.maxRapFilter.minValue)
+        let numRaps = (max: self.numRapFilter.maxValue, self.numRapFilter.minValue)
+        let stars = self.starFitler.selections
+        let technicality = self.technicalFilter.selections
+        let water = self.waterDifficultyFilter.selections
+        let time = self.timeFilter.selections
+        let shuttle = self.shuttleFilter.selections.first
+        let seasons = self.seasonFilter.selections
+        
+        self.viewModel.update(maxRap: maxRap)
+        self.viewModel.update(numRaps: numRaps)
+        self.viewModel.update(stars: stars)
+        self.viewModel.update(technicality: technicality)
+        self.viewModel.update(water: water)
+        self.viewModel.update(time: time)
+        self.viewModel.update(shuttle: shuttle)
+        self.viewModel.update(seasons: seasons)
     }
     
     private func configureViews() {
@@ -137,38 +143,39 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         
         let starData = MultiSelectFilterData(
             name: Strings.quality,
-            selections: state.stars.map { String($0)},
+            selections: self.viewModel.initialState.stars.map { String($0)},
             initialSelections: state.stars.map { String($0)}
         )
         self.starFitler.configure(with: starData)
         
         let technicalData = MultiSelectFilterData(
             name: Strings.technical,
-            selections: state.technicality.map { String($0)},
+            selections: self.viewModel.initialState.technicality.map { String($0)},
             initialSelections: state.technicality.map { String($0)}
         )
         self.technicalFilter.configure(with: technicalData)
         
         let waterData = MultiSelectFilterData(
             name: Strings.water,
-            selections: state.water,
+            selections: self.viewModel.initialState.water,
             initialSelections: state.water
         )
         self.waterDifficultyFilter.configure(with: waterData)
         
         let timeData = MultiSelectFilterData(
             name: Strings.time,
-            selections: state.time.map { $0.rawValue },
+            selections: self.viewModel.initialState.time.map { $0.rawValue },
             initialSelections: state.time.map { $0.rawValue }
         )
         self.timeFilter.configure(with: timeData)
         
-        self.shuttleFilter.configure(title: Strings.shuttle)
+        self.shuttleFilter.configure(title: Strings.shuttle, isYes: state.shuttleRequired)
         
         let seasonData = BestSeasonFilterData(
             name: Strings.season,
-            options: state.seasons.map {
-                return SeasonSelection(name: $0.short, isSelected: true)                
+            options: self.viewModel.initialState.seasons.map {
+                let isSelected = state.seasons.contains($0)
+                return SeasonSelection(name: $0.short, isSelected: isSelected)
             },
             isUserInteractionEnabled: true
         )

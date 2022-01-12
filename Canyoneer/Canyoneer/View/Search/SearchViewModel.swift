@@ -30,7 +30,11 @@ class SearchViewModel {
     public let title: Observable<String>
     private let titleSubject: PublishSubject<String>
     
+    // used for what to show
     public var currentResults: [SearchResult] = []
+    // used for base of the filtering
+    public var initialResults: [SearchResult] = []
+    // these are current results
     public let results: Observable<[SearchResult]>
     private let resultsSubject: PublishSubject<[SearchResult]>
     
@@ -71,6 +75,7 @@ class SearchViewModel {
             title = Strings.search(query: query)
             self.searchService.requestSearch(for: query).subscribe { [weak self] results in
                 defer { self?.loadingComponent.stopLoading() }
+                self?.initialResults = results.result
                 self?.resultsSubject.onNext(results.result)
             } onFailure: { error in
                 defer { self.loadingComponent.stopLoading() }
@@ -80,6 +85,7 @@ class SearchViewModel {
             title = Strings.nearMe(limit: Self.maxNearMe)
             self.searchService.nearMeSearch(limit: Self.maxNearMe).subscribe { [weak self] results in
                 defer { self?.loadingComponent.stopLoading() }
+                self?.initialResults = results.result
                 self?.resultsSubject.onNext(results.result)
             } onFailure: { error in
                 defer { self.loadingComponent.stopLoading() }
@@ -94,6 +100,7 @@ class SearchViewModel {
                 let results = canyons.map {
                     return SearchResult(name: $0.name, type: .canyon, canyonDetails: $0, regionDetails: nil)
                 }
+                self?.initialResults = results
                 self?.resultsSubject.onNext(results)
             } onFailure: { error in
                 defer { self.loadingComponent.stopLoading() }

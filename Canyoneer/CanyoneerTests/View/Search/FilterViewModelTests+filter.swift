@@ -320,7 +320,7 @@ class FilterViewModelFilterTests: XCTestCase {
         var state = FilterState.default
         state.shuttleRequired = false
         let result = FilterViewModel.filter(canyons: canyons, against: state)
-        XCTAssertEqual(result.count, 2)
+        XCTAssertEqual(result.count, 3)
     }
     
     func testFilter_shuttle_nil_stateNil() {

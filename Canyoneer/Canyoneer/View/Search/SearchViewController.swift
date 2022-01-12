@@ -33,6 +33,11 @@ class SearchViewController: ScrollableStackViewController {
 
         self.navigationItem.backButtonTitle = ""
         
+        // setup loading
+        self.view.addSubview(self.viewModel.loadingComponent.inlineLoader)
+        self.viewModel.loadingComponent.inlineLoader.constrain.centerX(on: self.view)
+        self.viewModel.loadingComponent.inlineLoader.constrain.centerY(on: self.view)
+        
         // setup bar button items
         let mapButton = UIBarButtonItem(image: UIImage(systemName: "map"), style: .plain, target: self, action: #selector(didRequestMap))
         let filterButton = UIBarButtonItem(image: UIImage(systemName: "line.3.horizontal.decrease.circle"), style: .plain, target: self, action: #selector(didRequestFilters))
@@ -97,7 +102,8 @@ class SearchViewController: ScrollableStackViewController {
     
     private func updateWithFilters() {
         self.filterSheet.update()
-        let filtered = self.filterSheet.viewModel.filter(results: self.viewModel.currentResults)
+        // NEED to filter off the initial results otherwise we accumulate our filters until there is none
+        let filtered = self.filterSheet.viewModel.filter(results: self.viewModel.initialResults)
         self.viewModel.updateFromFilter(with: filtered)
     }
     
