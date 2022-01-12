@@ -37,18 +37,38 @@ struct Canyon: Codable {
     }
     
     let id: String
-    let bestSeasons: [Month]
-    let coordinate: Coordinate
-    let isRestricted: Bool?
-    let maxRapLength: Int? // feet
-    let name: String
-    let numRaps: Int?
-    let requiresShuttle: Bool?
-    let requiresPermit: Bool?
-    let ropeWikiURL: URL?
-    let technicalDifficulty: Int?
-    let timeGrade: String?
-    let waterDifficulty: String?
-    let quality: Float // 1-5 stars
-    let vehicleAccessibility: Vehicle?
+    var bestSeasons: [Month]
+    var coordinate: Coordinate
+    var isRestricted: Bool?
+    var maxRapLength: Int? // feet
+    var name: String
+    var numRaps: Int?
+    var requiresShuttle: Bool?
+    var requiresPermit: Bool?
+    var ropeWikiURL: URL?
+    var technicalDifficulty: Int?
+    var timeGrade: String?
+    var waterDifficulty: String?
+    var quality: Float // 1-5 stars
+    var vehicleAccessibility: Vehicle?
+    
+    static func dummy() -> Canyon {
+        return Canyon(
+            id: UUID().uuidString,
+            bestSeasons: [.march, .april, .may, .june, .july, .august, .september],
+            coordinate: Coordinate(latitude: 1, longitude: 1),
+            isRestricted: false,
+            maxRapLength: 220,
+            name: "Moonflower Canyon",
+            numRaps: 2,
+            requiresShuttle: false,
+            requiresPermit: false,
+            ropeWikiURL: URL(string: "http://ropewiki.com/Moonflower_Canyon"),
+            technicalDifficulty: 3,
+            timeGrade: "II",
+            waterDifficulty: "A",
+            quality: 4.3,
+            vehicleAccessibility: Vehicle.passenger
+        )
+    }
 }

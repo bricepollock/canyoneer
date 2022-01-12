@@ -64,7 +64,7 @@ class SearchViewController: ScrollableStackViewController {
                     guard let canyon = result.canyonDetails else {
                         return
                     }
-                    let next = CanyonViewController(canyon: canyon)
+                    let next = CanyonViewController(canyonId: canyon.id)
                     self?.navigationController?.pushViewController(next, animated: true)
                 }.disposed(by: self.bag)
                 view = specificView

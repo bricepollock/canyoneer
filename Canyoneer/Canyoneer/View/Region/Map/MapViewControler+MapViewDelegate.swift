@@ -16,7 +16,7 @@ extension MapViewController: MKMapViewDelegate {
             return
         }
         
-        let next = CanyonViewController(canyon: annotation.canyon)
+        let next = CanyonViewController(canyonId: annotation.canyon.id)
         self.navigationController?.pushViewController(next, animated: true)
     }
     

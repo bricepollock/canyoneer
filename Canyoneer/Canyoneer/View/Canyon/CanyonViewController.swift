@@ -7,22 +7,42 @@
 
 import Foundation
 import UIKit
+import RxSwift
 
 class CanyonViewController: ScrollableStackViewController {
     enum Strings {
         static func name(with name: String) -> String {
             return "Canyon: \(name)"
         }
+        static func message(for canyon: Canyon) -> String {
+            var message = "I found '\(canyon.name) \(CanyonDetailView.Strings.summaryDetails(for: canyon))' on the 'Canyoneer' app."
+            if let ropeWikiString = canyon.ropeWikiURL?.absoluteString {
+                message += " Check out the canyon on Ropewiki: \(ropeWikiString)"
+            }
+            return message
+        }
+        
+        static func subject(name: String) -> String {
+            return "Check out this cool canyon: \(name)"
+        }
+        
+        static func body(for canyon: Canyon) -> String {
+            var body = "I found '\(canyon.name) \(CanyonDetailView.Strings.summaryDetails(for: canyon))' on the 'Canyoneer' app."
+            if let ropeWikiString = canyon.ropeWikiURL?.absoluteString {
+                body += " Check out the canyon on Ropewiki: \(ropeWikiString)"
+            }
+            return body
+        }
     }
 
     private let name = UILabel()
     private let detailView = CanyonDetailView()
-    private let storage = UserPreferencesStorage.favorites
+    private let viewModel: CanyonViewModel
+    private let bag = DisposeBag()
     
-    private let canyon: Canyon
-    
-    init(canyon: Canyon) {
-        self.canyon = canyon
+    // MARK: lifecycle
+    init(canyonId: String) {
+        self.viewModel = CanyonViewModel(canyonId: canyonId)
         super.init(insets: .init(all: .medium), atMargin: true)
     }
     
@@ -30,65 +50,77 @@ class CanyonViewController: ScrollableStackViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.configureViews()
+        self.bind()
+        
+        self.navigationItem.backButtonTitle = ""
+        
+        // setup bar button items
+        let shareButton = UIBarButtonItem(image: UIImage(systemName: "square.and.arrow.up"), style: .plain, target: self, action: #selector(self.didRequestShare))
+                
+        let favoriteButton = UIBarButtonItem(image: UIImage(systemName: "star"), style: .plain, target: self, action: #selector(self.didRequestFavoriteToggle))
+        self.navigationItem.rightBarButtonItems = [favoriteButton, shareButton]
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-                
+        self.viewModel.refresh()
+    }
+    
+    // MARK: internal
+    private func configureViews() {
         self.masterStackView.axis = .vertical
         self.masterStackView.spacing = Grid.medium
         self.masterStackView.addArrangedSubview(self.name)
         self.masterStackView.addArrangedSubview(self.detailView)
-        
-        self.title = Strings.name(with: canyon.name)
-        self.navigationItem.backButtonTitle = ""
-        
-        let shareButton = UIBarButtonItem(image: UIImage(systemName: "square.and.arrow.up"), style: .plain, target: self, action: #selector(self.didRequestShare))
-        
-        let favoriteImage = UserPreferencesStorage.isFavorite(canyon: canyon) ? "star.fill" : "star"
-        let favoriteButton = UIBarButtonItem(image: UIImage(systemName: favoriteImage), style: .plain, target: self, action: #selector(self.didRequestFavoriteToggle))
-        self.navigationItem.rightBarButtonItems = [favoriteButton, shareButton]
-        self.detailView.configure(with: canyon)
     }
     
+    private func bind() {
+        self.viewModel.canyonObservable.subscribeOnNext { [weak self] canyon in
+            self?.title = Strings.name(with: canyon.name)
+            self?.detailView.configure(with: canyon)
+        }.disposed(by: self.bag)
+        
+        self.viewModel.isFavorite.subscribeOnNext { [weak self] isFavorite in
+            if isFavorite {
+                self?.navigationItem.rightBarButtonItems?[0].image = UIImage(systemName: "star.fill")
+            } else {
+                self?.navigationItem.rightBarButtonItems?[0].image = UIImage(systemName: "star")
+            }
+        }.disposed(by: self.bag)
+    }
+    
+    // MARK: actions
     @objc func didRequestShare() {
         let next = UIActivityViewController(activityItems: [self], applicationActivities: nil)
         self.present(next, animated: true)
     }
     
     @objc func didRequestFavoriteToggle() {
-        let isFavorited = UserPreferencesStorage.isFavorite(canyon: self.canyon)
-        if isFavorited {
-            UserPreferencesStorage.removeFavorite(canyon: canyon)
-            self.navigationItem.rightBarButtonItems?[0].image = UIImage(systemName: "star")
-        } else {
-            UserPreferencesStorage.addFavorite(canyon: canyon)
-            self.navigationItem.rightBarButtonItems?[0].image = UIImage(systemName: "star.fill")
-        }
+        self.viewModel.toggleFavorite()
     }
 }
 
 extension CanyonViewController: UIActivityItemSource {
     func activityViewControllerPlaceholderItem(_ activityViewController: UIActivityViewController) -> Any {
-        return "1Check out this cool canyon: \(self.canyon.name)"
+        guard let canyon = self.viewModel.canyon else { return ""}
+        return Strings.message(for: canyon)
     }
 
     func activityViewController(_ activityViewController: UIActivityViewController, itemForActivityType activityType: UIActivity.ActivityType?) -> Any? {
+        guard let canyon = self.viewModel.canyon else { return nil }
         if activityType == .mail {
-            var body = "I found '\(self.canyon.name) \(CanyonDetailView.Strings.summaryDetails(for: canyon))' on the 'Canyoneer' app."
-            if let ropeWikiString = self.canyon.ropeWikiURL?.absoluteString {
-                body += " Check out the canyon on Ropewiki: \(ropeWikiString)"
-            }
-            return body
+            return Strings.body(for: canyon)
         } else {
-            var message = "Check out this cool canyon: \(self.canyon.name)"
-            if let ropeWikiString = self.canyon.ropeWikiURL?.absoluteString {
-                message += " on Ropewiki: \(ropeWikiString)"
-            }
-            return message
+            return Strings.message(for: canyon)
         }
         
     }
     
     func activityViewController(_ activityViewController: UIActivityViewController, subjectForActivityType activityType: UIActivity.ActivityType?) -> String {
-        return "Check out this cool canyon: \(self.canyon.name)"
+        guard let canyon = self.viewModel.canyon else { return "" }
+        return Strings.subject(name: canyon.name)
     }
 }

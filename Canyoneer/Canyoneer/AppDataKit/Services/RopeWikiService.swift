@@ -9,9 +9,28 @@ import Foundation
 import RxSwift
 import MapKit
 
-struct RopeWikiService {
+class RopeWikiService {
+    private var cachedCanyons: [Canyon] = []
+    
     func canyons() -> Single<[Canyon]> {
-        return loadFromFile()
+        // preference in-memory cache
+        guard cachedCanyons.isEmpty else {
+            return Single.just(cachedCanyons)
+        }
+
+        // update cache
+        return loadFromFile().do { canyons in
+            self.cachedCanyons = canyons
+        }
+    }
+    
+    func canyon(for id: String) -> Single<Canyon?> {
+        return canyons().map { canyons in
+            let found = canyons.filter { canyon in
+                return canyon.id == id
+            }.first
+            return found
+        }
     }
     
     func regions() -> [Region] {
