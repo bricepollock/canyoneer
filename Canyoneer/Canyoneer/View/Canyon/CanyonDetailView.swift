@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 import RxSwift
+import WebKit
 
 class CanyonDetailView: UIView {
     
@@ -57,6 +58,7 @@ class CanyonDetailView: UIView {
         static let quality = "Stars"
         static let vehicle = "Vehicle"
         static let season = "Best Months"
+        static let description = "Description"
         
         static func intValue(int: Int?) -> String {
             guard let int = int else { return "--" }
@@ -95,10 +97,13 @@ class CanyonDetailView: UIView {
     private let detailStackView = UIStackView()
     private let summaryDetails = UILabel()
     private let ropeWikiURL = RxUIButton()
+    private let descriptionTitle = UILabel()
+    private let descriptionView = WKWebView()
     private let dataTitle = UILabel()
     private let dataTable = DataTableView()
     private let seasons = BestSeasonFilter()
     
+    private var webViewHeightConstraint: NSLayoutConstraint!
     private var urlLinkDisposeBag = DisposeBag()
     
     init() {
@@ -131,10 +136,22 @@ class CanyonDetailView: UIView {
         self.masterStackView.addArrangedSubview(self.dataTitle)
         self.masterStackView.addArrangedSubview(self.dataTable)
         self.masterStackView.addArrangedSubview(self.seasons)
+        self.masterStackView.addArrangedSubview(self.descriptionTitle)
+        self.masterStackView.addArrangedSubview(self.descriptionView)
         
+        // initial space is for padding with background coloration
+        self.summaryTitle.text = " " + Strings.summary
         self.summaryTitle.font = FontBook.Body.emphasis
         self.summaryDetails.font = FontBook.Body.regular
         self.ropeWikiURL.configure(text: Strings.ropeWiki)
+        
+        self.descriptionTitle.font = FontBook.Body.emphasis
+        self.descriptionTitle.text = " " + Strings.description
+        self.descriptionTitle.backgroundColor = ColorPalette.Color.canyonRed
+        
+        webViewHeightConstraint = self.descriptionView.heightAnchor.constraint(greaterThanOrEqualToConstant: 200)
+        webViewHeightConstraint.isActive = true
+        self.descriptionView.navigationDelegate = self
         
         self.dataTitle.font = FontBook.Body.emphasis
         self.dataTitle.backgroundColor = ColorPalette.Color.canyonRed
@@ -146,8 +163,7 @@ class CanyonDetailView: UIView {
     }
     
     func configure(with canyon: Canyon) {
-        // initial space is for padding with background coloration
-        self.summaryTitle.text = " " + Strings.summary
+        
         self.summaryDetails.text = Strings.summaryDetails(for: canyon)
         
         // special rendering needed for array of images becuase there is no half-star emoji we could put in text
@@ -184,10 +200,29 @@ class CanyonDetailView: UIView {
         )
         self.seasons.configure(with: seasonData)
         
+        let header = "<head><meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'></head>"
+        var htmlString = "<html>" + header + "<body>" + canyon.description + "</body></html>"
+        htmlString = htmlString.replacingOccurrences(of: "<span class=\"mw-headline\"", with: "<h1")
+        htmlString = htmlString.replacingOccurrences(of: "</span>", with: "</h1>")
+        self.descriptionView.loadHTMLString(htmlString, baseURL: nil)
+        
         self.urlLinkDisposeBag = DisposeBag()
         self.ropeWikiURL.didSelect.subscribeOnNext { () in
             guard let url = canyon.ropeWikiURL else { return }
             UIApplication.shared.open(url)
         }.disposed(by: self.urlLinkDisposeBag)
+    }
+}
+
+extension CanyonDetailView: WKNavigationDelegate {
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        webView.evaluateJavaScript("document.readyState", completionHandler: { (complete, error) in
+            if complete != nil {
+                webView.evaluateJavaScript("document.body.scrollHeight", completionHandler: { (height, error) in
+                    self.webViewHeightConstraint.constant = height as! CGFloat
+                })
+            }
+
+            })
     }
 }

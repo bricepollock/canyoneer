@@ -17,6 +17,8 @@ protocol SearchServiceInterface {
 
 struct SearchService: SearchServiceInterface {
     private static let maxNearMe = 50
+    private static let maxSearchResults = 100
+    
     private let ropeWikiService: RopeWikiServiceInterface
     private let locationService = LocationService()
     
@@ -31,7 +33,7 @@ struct SearchService: SearchServiceInterface {
                 return canyon.name.lowercased().contains(searchString.lowercased())
             }.sorted(by: { lhs, rhs in
                 return lhs.quality > rhs.quality
-            })
+            }).prefix(Self.maxSearchResults)
             .forEach { canyon in
                 results.append(SearchResult(name: canyon.name, type: .canyon, canyonDetails: canyon, regionDetails: nil))
             }

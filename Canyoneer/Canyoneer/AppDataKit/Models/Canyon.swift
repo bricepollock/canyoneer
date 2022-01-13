@@ -35,6 +35,7 @@ struct Canyon: Codable {
         case waterDifficulty
         case quality
         case vehicleAccessibility
+        case description
     }
     
     let id: String
@@ -53,6 +54,7 @@ struct Canyon: Codable {
     var waterDifficulty: String?
     var quality: Float // 1-5 stars
     var vehicleAccessibility: Vehicle?
+    var description: String // HTML
     
     static func dummy() -> Canyon {
         return Canyon(
@@ -71,7 +73,8 @@ struct Canyon: Codable {
             timeGrade: "II",
             waterDifficulty: "A",
             quality: 4.3,
-            vehicleAccessibility: Vehicle.passenger
+            vehicleAccessibility: Vehicle.passenger,
+            description: "<b>This is a canyon</b>"
         )
     }
 }

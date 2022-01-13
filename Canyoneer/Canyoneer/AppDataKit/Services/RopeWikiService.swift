@@ -83,10 +83,12 @@ class RopeWikiService: RopeWikiServiceInterface {
                         requiresPermit: data.requiresPermits,
                         ropeWikiURL: URL(string: data.urlString),
                         technicalDifficulty: data.technicalDifficulty,
+                        risk: data.risk,
                         timeGrade: data.timeRatingString,
                         waterDifficulty: data.waterDifficulty,
                         quality: data.quality,
-                        vehicleAccessibility: data.vehicleAccessibility
+                        vehicleAccessibility: data.vehicleAccessibility,
+                        description: data.htmlDescription ?? ""
                     )
                 }
                 single(.success(canyons))

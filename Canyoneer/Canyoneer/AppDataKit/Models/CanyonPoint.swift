@@ -88,6 +88,7 @@ struct CanyonDataPoint: Codable {
         case timeRatingString = "Time"
         case numRappels = "RappelCountMax"
         case rappelMaxLength = "RappelLengthMax"
+        case htmlDescription = "HTMLDescription"
     }
     
     let urlString: String
@@ -109,6 +110,7 @@ struct CanyonDataPoint: Codable {
     // Clearly have null values when not available
     let numRappels: Int?
     let rappelMaxLength: Int?
+    let htmlDescription: String?
     
     // There are string errors like mispelling months so we may miss some months by doing this
     var bestSeasons: [Month] {
