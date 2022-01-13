@@ -10,66 +10,15 @@ import MapKit
 import CoreLocation
 import RxSwift
 
-class CanyonAnnotation: MKPointAnnotation {
-    public let canyon: Canyon
-    
-    init(canyon: Canyon) {
-        self.canyon = canyon
-        super.init()
-        self.title = canyon.name
-        self.coordinate = canyon.coordinate.asCLObject
-    }
-}
-
-class WaypointAnnotation: MKPointAnnotation {
-    init(feature: CoordinateFeature) {
-        super.init()
-        self.title = feature.name
-        self.coordinate = feature.coordinates[0].asCLObject
-    }
-}
-
-enum TopoLineType {
-    case driving
-    case approach
-    case descent
-    case exit
-    
-    var color: UIColor {
-        switch self {
-        case .driving: return ColorPalette.Color.action
-        case .approach: return ColorPalette.Color.green
-        case .descent: return ColorPalette.Color.warning
-        case .exit: return ColorPalette.Color.yellow
-        }
-    }
-}
-
-class TopoLineOverlay: MKPolyline {
-    var name: String?
-    var type: TopoLineType? {
-        guard let name = name else { return nil }
-        if name.lowercased().contains("approach") {
-            return .approach
-        } else if name.lowercased().contains("drive") || name.lowercased().contains("shuttle") {
-            return .driving
-        } else if name.lowercased().contains("descent") {
-            return .descent
-        } else if name.lowercased().contains("exit") {
-            return .exit
-        } else {
-            return nil
-        }
-    }
-}
-
 class MapViewController: UIViewController {
     enum Strings {
         static let showTopoLines = "Show Route Lines"
+        static let legend = "Legend"
     }
     
     private let locationService = LocationService()
     internal let mapView = MKMapView()
+    private let showLegendButton = RxUIButton()
     private let showLineOverlayStack = UIStackView()
     private let showLineOverlayTitle = UILabel()
     private let showLineOverlaySwitch = UISwitch()
@@ -107,10 +56,26 @@ class MapViewController: UIViewController {
         self.mapView.showsUserLocation = true
         self.updateInitialRegion()
         self.render(canyons: self.canyons)
+        self.renderControls()
+    }
+    
+    private func renderControls() {
+        let mapControlsStackView = UIStackView()
+        mapControlsStackView.axis = .vertical
+        mapControlsStackView.spacing = .small
+        mapControlsStackView.alignment = .trailing
         
-        self.mapView.addSubview(self.showLineOverlayStack)
-        self.showLineOverlayStack.constrain.trailing(to: self.mapView, with: -Grid.medium)
-        self.showLineOverlayStack.constrain.bottom(to: self.mapView, with: -Grid.medium)
+        self.mapView.addSubview(mapControlsStackView)
+        mapControlsStackView.constrain.trailing(to: self.mapView, with: -Grid.medium)
+        mapControlsStackView.constrain.bottom(to: self.mapView, with: -Grid.medium)
+        mapControlsStackView.addArrangedSubview(self.showLegendButton)
+        mapControlsStackView.addArrangedSubview(self.showLineOverlayStack)
+        
+        self.showLegendButton.configure(text: Strings.legend)
+        self.showLegendButton.didSelect.subscribeOnNext { () in
+            let bottomSheet = MapLegendBottomSheetViewController()
+            self.present(bottomSheet, animated: false)
+        }.disposed(by: self.bag)
         
         self.showLineOverlayStack.axis = .horizontal
         self.showLineOverlayStack.spacing = .medium
@@ -143,7 +108,6 @@ class MapViewController: UIViewController {
         // render lines
         let overlays = canyons.flatMap { canyon in
             return canyon.geoLines.map { feature -> MKPolyline in
-                print("Topo Line Named: \(String(describing: feature.name))")
                 let overlay = TopoLineOverlay(coordinates: feature.coordinates.map { $0.asCLObject }, count: feature.coordinates.count)
                 overlay.name = feature.name
                 return overlay

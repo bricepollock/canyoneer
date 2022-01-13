@@ -31,6 +31,8 @@
 		40783CEB278DF5E3001E78DB /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CEA278DF5E3001E78DB /* Storage.swift */; };
 		40783CED278DF63F001E78DB /* UserPreferencesStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CEC278DF63F001E78DB /* UserPreferencesStorage.swift */; };
 		407FB74F278FC805008B65BE /* GeoJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB74E278FC805008B65BE /* GeoJson.swift */; };
+		407FB75127906CAC008B65BE /* MKObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB75027906CAC008B65BE /* MKObjects.swift */; };
+		407FB75327906DF0008B65BE /* MapLegendBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB75227906DF0008B65BE /* MapLegendBottomSheetViewController.swift */; };
 		40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428627875D9F00FE245D /* AppDelegate.swift */; };
 		40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428827875D9F00FE245D /* SceneDelegate.swift */; };
 		40E4428B27875D9F00FE245D /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428A27875D9F00FE245D /* LandingViewController.swift */; };
@@ -132,6 +134,8 @@
 		40783CEA278DF5E3001E78DB /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		40783CEC278DF63F001E78DB /* UserPreferencesStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferencesStorage.swift; sourceTree = "<group>"; };
 		407FB74E278FC805008B65BE /* GeoJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJson.swift; sourceTree = "<group>"; };
+		407FB75027906CAC008B65BE /* MKObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKObjects.swift; sourceTree = "<group>"; };
+		407FB75227906DF0008B65BE /* MapLegendBottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLegendBottomSheetViewController.swift; sourceTree = "<group>"; };
 		40E4428327875D9F00FE245D /* Canyoneer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canyoneer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E4428627875D9F00FE245D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40E4428827875D9F00FE245D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -491,6 +495,8 @@
 			isa = PBXGroup;
 			children = (
 				40E443302787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift */,
+				407FB75027906CAC008B65BE /* MKObjects.swift */,
+				407FB75227906DF0008B65BE /* MapLegendBottomSheetViewController.swift */,
 				40E4431C27879F1D00FE245D /* MapViewController.swift */,
 				40E443272787A45100FE245D /* MapViewControler+MapViewDelegate.swift */,
 				40E4431E2787A0C000FE245D /* MapViewModel.swift */,
@@ -665,6 +671,7 @@
 				40E442BD27875F0200FE245D /* GlobalSearchView.swift in Sources */,
 				40E442CF278760EF00FE245D /* RxButton.swift in Sources */,
 				40E442D1278760EF00FE245D /* LoadingComponent.swift in Sources */,
+				407FB75327906DF0008B65BE /* MapLegendBottomSheetViewController.swift in Sources */,
 				40E442F82787770200FE245D /* ContainedButton.swift in Sources */,
 				40E442FE27877A9200FE245D /* LandingViewController+textField.swift in Sources */,
 				40E442DF2787630700FE245D /* GlobalStrings.swift in Sources */,
@@ -674,6 +681,7 @@
 				40E442E627876F9600FE245D /* Canyon.swift in Sources */,
 				40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */,
 				40E4430D2787842800FE245D /* CanyonDetailView.swift in Sources */,
+				407FB75127906CAC008B65BE /* MKObjects.swift in Sources */,
 				4005DFBE278F5DD900EB1640 /* Logger+error.swift in Sources */,
 				4005DFC0278F60C500EB1640 /* FilterViewModel.swift in Sources */,
 				40E4431A27879DF100FE245D /* TextField.swift in Sources */,

@@ -9,9 +9,9 @@ import Foundation
 import UIKit
 
 extension UIView {
-    static func createLineView() -> UIView {
+    static func createLineView(height: CGFloat = 1) -> UIView {
         let line = UIView()
-        line.constrain.height(1)
+        line.constrain.height(height)
         line.backgroundColor = ColorPalette.GrayScale.light
         return line
     }
