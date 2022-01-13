@@ -105,7 +105,7 @@ class MapViewController: UIViewController {
         self.mapView.constrain.fillSuperview()
         self.mapView.delegate = self
         self.mapView.showsUserLocation = true
-        self.updateMapLocation()
+        self.updateInitialRegion()
         self.render(canyons: self.canyons)
         
         self.mapView.addSubview(self.showLineOverlayStack)
@@ -124,7 +124,7 @@ class MapViewController: UIViewController {
         self.showLineOverlaySwitch.addTarget(self, action: #selector(lineOverlaySwitchChanged), for: .valueChanged)
     }
     
-    private func updateMapLocation() {
+    private func updateInitialRegion() {
         let utahCenter = CLLocationCoordinate2D(latitude: 39.3210, longitude: -111.0937)
         self.mapView.region = MKCoordinateRegion(center: utahCenter, span: MKCoordinateSpan(latitudeDelta: 20, longitudeDelta: 20))
     }
