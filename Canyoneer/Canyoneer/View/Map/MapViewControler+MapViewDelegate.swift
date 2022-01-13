@@ -28,9 +28,10 @@ extension MapViewController: MKMapViewDelegate {
     }
     
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
-        if let routePolyline = overlay as? MKPolyline {
+        if let routePolyline = overlay as? TopoLineOverlay {
             let renderer = MKPolylineRenderer(polyline: routePolyline)
-            renderer.strokeColor = ColorPalette.Color.action.withAlphaComponent(0.9)
+            let color = routePolyline.type?.color ?? ColorPalette.GrayScale.dark
+            renderer.strokeColor = color.withAlphaComponent(0.6)
             renderer.lineWidth = 3
             return renderer
         }

@@ -29,6 +29,40 @@ class WaypointAnnotation: MKPointAnnotation {
     }
 }
 
+enum TopoLineType {
+    case driving
+    case approach
+    case descent
+    case exit
+    
+    var color: UIColor {
+        switch self {
+        case .driving: return ColorPalette.Color.action
+        case .approach: return ColorPalette.Color.green
+        case .descent: return ColorPalette.Color.warning
+        case .exit: return ColorPalette.Color.yellow
+        }
+    }
+}
+
+class TopoLineOverlay: MKPolyline {
+    var name: String?
+    var type: TopoLineType? {
+        guard let name = name else { return nil }
+        if name.lowercased().contains("approach") {
+            return .approach
+        } else if name.lowercased().contains("drive") || name.lowercased().contains("shuttle") {
+            return .driving
+        } else if name.lowercased().contains("descent") {
+            return .descent
+        } else if name.lowercased().contains("exit") {
+            return .exit
+        } else {
+            return nil
+        }
+    }
+}
+
 class MapViewController: UIViewController {
     enum Strings {
         static let showTopoLines = "Show Topo Lines"
@@ -108,10 +142,11 @@ class MapViewController: UIViewController {
         
         // render lines
         let overlays = canyons.flatMap { canyon in
-            return canyon.geoLines.map { coordinateList -> MKPolyline in
-                print("Topo Line Named: \(String(describing: coordinateList.name))")
-                let clCoords = coordinateList.coordinates.map { $0.asCLObject }
-                return MKPolyline(coordinates: clCoords, count: clCoords.count)
+            return canyon.geoLines.map { feature -> MKPolyline in
+                print("Topo Line Named: \(String(describing: feature.name))")
+                let overlay = TopoLineOverlay(coordinates: feature.coordinates.map { $0.asCLObject }, count: feature.coordinates.count)
+                overlay.name = feature.name
+                return overlay
             }
         }
         self.mapOverlays = overlays
