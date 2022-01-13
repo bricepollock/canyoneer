@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 import RxSwift
 import WebKit
+import MapKit
 
 class CanyonDetailView: UIView {
     
@@ -59,6 +60,7 @@ class CanyonDetailView: UIView {
         static let vehicle = "Vehicle"
         static let season = "Best Months"
         static let description = "Description"
+        static let openInMaps = "Open in Apple Maps"
         
         static func intValue(int: Int?) -> String {
             guard let int = int else { return "--" }
@@ -102,9 +104,11 @@ class CanyonDetailView: UIView {
     private let dataTitle = UILabel()
     private let dataTable = DataTableView()
     private let seasons = BestSeasonFilter()
+    private let directions = ContainedButton()
     
     private var webViewHeightConstraint: NSLayoutConstraint!
     private var urlLinkDisposeBag = DisposeBag()
+    private let bag = DisposeBag()
     
     init() {
         super.init(frame: .zero)
@@ -136,6 +140,7 @@ class CanyonDetailView: UIView {
         self.masterStackView.addArrangedSubview(self.dataTitle)
         self.masterStackView.addArrangedSubview(self.dataTable)
         self.masterStackView.addArrangedSubview(self.seasons)
+        self.masterStackView.addArrangedSubview(self.directions)
         self.masterStackView.addArrangedSubview(self.descriptionTitle)
         self.masterStackView.addArrangedSubview(self.descriptionView)
         
@@ -200,6 +205,17 @@ class CanyonDetailView: UIView {
         )
         self.seasons.configure(with: seasonData)
         
+        // directions
+        self.directions.configure(text: Strings.openInMaps)
+        self.directions.didSelect.subscribeOnNext { () in
+            let coordinate = CLLocationCoordinate2DMake(canyon.coordinate.latitude, canyon.coordinate.longitude)
+            let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
+            mapItem.name = canyon.name
+            mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
+        }.disposed(by: self.bag)
+        
+        
+        // html render of the description
         let header = "<head><meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'></head>"
         var htmlString = "<html>" + header + "<body>" + canyon.description + "</body></html>"
         htmlString = htmlString.replacingOccurrences(of: "<span class=\"mw-headline\"", with: "<h1")

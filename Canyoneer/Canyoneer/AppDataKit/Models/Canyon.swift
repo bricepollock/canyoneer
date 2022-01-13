@@ -17,6 +17,19 @@ struct Coordinate: Codable {
     }
 }
 
+struct CoordinateFeature: Codable {
+    let name: String?
+    let type: GeoFeatureType
+    let coordinates: [Coordinate]
+    
+    init?(name: String?, type: GeoFeatureType?, coordinates: [Coordinate]) {
+        guard let type = type else { return nil }
+        self.name = name
+        self.type = type
+        self.coordinates = coordinates
+    }
+}
+
 struct Canyon: Codable {
     internal enum CodingKeys: String, CodingKey {
         case id
@@ -57,8 +70,8 @@ struct Canyon: Codable {
     var quality: Float // 1-5 stars
     var vehicleAccessibility: Vehicle?
     var description: String // HTML
-    var geoWaypoints: [Coordinate]
-    var geoLines: [[Coordinate]]
+    var geoWaypoints: [CoordinateFeature]
+    var geoLines: [CoordinateFeature]
     
     static func dummy() -> Canyon {
         return Canyon(

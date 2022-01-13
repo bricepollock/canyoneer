@@ -112,13 +112,21 @@ class MapViewController: UIViewController {
         // render lines
         let overlays = canyons.flatMap { canyon in
             return canyon.geoLines.map { coordinateList -> MKPolyline in
-                let clCoords = coordinateList.map { $0.asCLObject }
+                print("Topo Line Named: \(coordinateList.name)")
+                let clCoords = coordinateList.coordinates.map { $0.asCLObject }
                 return MKPolyline(coordinates: clCoords, count: clCoords.count)
             }
         }
         self.mapOverlays = overlays
         overlays.forEach {
             self.mapView.addOverlay($0)
+        }
+        
+        // render waypoints
+        let waypoints = canyons.flatMap { canyon in
+            canyon.geoWaypoints.forEach { feature in
+                print("\(canyon.name) Waypoint name: \(feature.name)")
+            }
         }
 
     }
