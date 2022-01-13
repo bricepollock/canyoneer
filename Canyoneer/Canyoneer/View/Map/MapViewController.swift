@@ -145,6 +145,7 @@ class MapViewController: UIViewController {
     }
     
     private func updateWithFilters() {
+        self.filterSheet.update()
         // perfom filter
         let original = canyons.map { SearchResult(name: $0.name, type: .canyon, canyonDetails: $0, regionDetails: nil)}
         let results = self.filterSheet.viewModel.filter(results: original)
