@@ -13,7 +13,9 @@ struct SpreadFilterData {
     let name: String
     let units: String?
     let initialMin: Int
+    let currentMin: Int
     let initialMax: Int
+    let currentMax: Int
     let advanceIncrements: Int
 }
 
@@ -79,11 +81,18 @@ class SpreadFilter: UIView {
         
         self.titleLabel.text = data.name
         self.inputTextControl.configure(text: Strings.spread(maxValue: self.maxValue, minValue: self.minValue, units: data.units))
-        self.comparisonPicker = ComparisonPicker(
-            maxValue: self.maxValue,
-            minValue: self.minValue,
+        let pickerData = ComparisonPickerData(
+            maxValue: data.initialMax,
+            minValue: data.initialMin,
+            currentMax: data.currentMax,
+            currentMin: data.currentMin,
             advanceIncrements: data.advanceIncrements
         )
+        self.comparisonPicker = ComparisonPicker(with: pickerData)
+        
+        // set initial state
+        self.inputTextControl.configure(text: Strings.spread(maxValue: data.currentMax, minValue: data.currentMin, units: data.units))
+        
         self.comparisonPicker.valueChange.subscribeOnNext { tuple in
             self.maxValue = tuple.maxValue
             self.minValue = tuple.minValue

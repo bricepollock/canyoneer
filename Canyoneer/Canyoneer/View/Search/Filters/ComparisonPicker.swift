@@ -9,6 +9,14 @@ import Foundation
 import UIKit
 import RxSwift
 
+struct ComparisonPickerData {
+    let maxValue: Int
+    let minValue: Int
+    let currentMax: Int
+    let currentMin: Int
+    let advanceIncrements: Int
+}
+
 class ComparisonPicker: UIView {
     
     enum Strings {
@@ -31,17 +39,24 @@ class ComparisonPicker: UIView {
     private var currentMaxValue: Int
     private var currentMinValue: Int
     
-    init(maxValue: Int, minValue: Int, advanceIncrements: Int) {
-        self.maxValue = maxValue
-        self.currentMaxValue = maxValue
-        self.minValue = minValue
-        self.currentMinValue = minValue
-        self.advanceIncrements = advanceIncrements
+    init(with data: ComparisonPickerData) {
+        self.maxValue = data.maxValue
+        self.currentMaxValue = data.currentMax
+        self.minValue = data.minValue
+        self.currentMinValue = data.currentMin
+        self.advanceIncrements = data.advanceIncrements
         self.valueChangeSubject = PublishSubject()
         self.valueChange = self.valueChangeSubject.asObservable()
         super.init(frame: .zero)
         self.picker.delegate = self
         self.picker.dataSource = self
+        
+        // update initial state
+        let maxRow = (self.maxValue - self.currentMaxValue) / self.advanceIncrements
+        let minRow = self.currentMinValue / self.advanceIncrements
+        self.picker.selectRow(minRow, inComponent: 0, animated: false)
+        self.picker.selectRow(maxRow, inComponent: 2, animated: false)
+        
         self.backgroundColor = ColorPalette.GrayScale.white
         
         self.addSubview(self.masterStackView)

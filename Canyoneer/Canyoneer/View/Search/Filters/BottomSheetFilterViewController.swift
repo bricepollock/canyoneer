@@ -125,8 +125,10 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         let numRapData = SpreadFilterData(
             name: Strings.numRap,
             units: nil,
-            initialMin: state.numRaps.min,
-            initialMax: state.numRaps.max,
+            initialMin: self.viewModel.initialState.numRaps.min,
+            currentMin: state.numRaps.min,
+            initialMax: self.viewModel.initialState.numRaps.max,
+            currentMax: state.numRaps.max,
             advanceIncrements: 1
         )
         self.numRapFilter.configure(with: numRapData)
@@ -134,8 +136,10 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         let maxRapData = SpreadFilterData(
             name: Strings.maxRap,
             units: Strings.feet,
-            initialMin: state.maxRap.min,
-            initialMax: state.maxRap.max,
+            initialMin: self.viewModel.initialState.maxRap.min,
+            currentMin: state.maxRap.min,
+            initialMax: self.viewModel.initialState.maxRap.max,
+            currentMax: state.maxRap.max,
             advanceIncrements: 10
             
         )
