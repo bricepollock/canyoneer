@@ -11,9 +11,7 @@ import RxSwift
 
 class CanyonViewController: ScrollableStackViewController {
     enum Strings {
-        static func name(with name: String) -> String {
-            return "Canyon: \(name)"
-        }
+        static let canyon = "Canyon Details"
         static func message(for canyon: Canyon) -> String {
             var message = "I found '\(canyon.name) \(CanyonDetailView.Strings.summaryDetails(for: canyon))' on the 'Canyoneer' app."
             if let ropeWikiString = canyon.ropeWikiURL?.absoluteString {
@@ -55,13 +53,16 @@ class CanyonViewController: ScrollableStackViewController {
         self.configureViews()
         self.bind()
         
+        self.title = Strings.canyon
         self.navigationItem.backButtonTitle = ""
         
         // setup bar button items
+        let mapButton = UIBarButtonItem(image: UIImage(systemName: "map"), style: .plain, target: self, action: #selector(didRequestMap))
+        
         let shareButton = UIBarButtonItem(image: UIImage(systemName: "square.and.arrow.up"), style: .plain, target: self, action: #selector(self.didRequestShare))
                 
         let favoriteButton = UIBarButtonItem(image: UIImage(systemName: "star"), style: .plain, target: self, action: #selector(self.didRequestFavoriteToggle))
-        self.navigationItem.rightBarButtonItems = [favoriteButton, shareButton]
+        self.navigationItem.rightBarButtonItems = [favoriteButton, shareButton, mapButton]
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -79,7 +80,6 @@ class CanyonViewController: ScrollableStackViewController {
     
     private func bind() {
         self.viewModel.canyonObservable.subscribeOnNext { [weak self] canyon in
-            self?.title = Strings.name(with: canyon.name)
             self?.detailView.configure(with: canyon)
         }.disposed(by: self.bag)
         
@@ -100,6 +100,12 @@ class CanyonViewController: ScrollableStackViewController {
     
     @objc func didRequestFavoriteToggle() {
         self.viewModel.toggleFavorite()
+    }
+    
+    @objc func didRequestMap() {
+        guard let thisCanyon = self.viewModel.canyon else { return }
+        let next = MapViewController(canyons: [thisCanyon])
+        self.navigationController?.pushViewController(next, animated: true)
     }
 }
 

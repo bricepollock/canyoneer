@@ -93,6 +93,7 @@ class CanyonDetailView: UIView {
     }
     
     private let masterStackView = UIStackView()
+    private let name = UILabel()
     private let starsStackView = UIStackView()
     private let summaryStackView = UIStackView()
     private let summaryTitle = UILabel()
@@ -135,6 +136,7 @@ class CanyonDetailView: UIView {
         self.detailStackView.addArrangedSubview(self.summaryDetails)
         self.detailStackView.addArrangedSubview(self.ropeWikiURL)
         
+        self.masterStackView.addArrangedSubview(self.name)
         self.masterStackView.addArrangedSubview(self.summaryStackView)
         self.masterStackView.addArrangedSubview(self.detailStackView)
         self.masterStackView.addArrangedSubview(self.dataTitle)
@@ -143,6 +145,10 @@ class CanyonDetailView: UIView {
         self.masterStackView.addArrangedSubview(self.directions)
         self.masterStackView.addArrangedSubview(self.descriptionTitle)
         self.masterStackView.addArrangedSubview(self.descriptionView)
+        
+        self.name.textAlignment = .center
+        self.name.numberOfLines = 0
+        self.name.font = FontBook.Heading.emphasis
         
         // initial space is for padding with background coloration
         self.summaryTitle.text = " " + Strings.summary
@@ -168,7 +174,7 @@ class CanyonDetailView: UIView {
     }
     
     func configure(with canyon: Canyon) {
-        
+        self.name.text = canyon.name
         self.summaryDetails.text = Strings.summaryDetails(for: canyon)
         
         // special rendering needed for array of images becuase there is no half-star emoji we could put in text

@@ -21,6 +21,14 @@ class CanyonAnnotation: MKPointAnnotation {
     }
 }
 
+class WaypointAnnotation: MKPointAnnotation {
+    init(feature: CoordinateFeature) {
+        super.init()
+        self.title = feature.name
+        self.coordinate = feature.coordinates[0].asCLObject
+    }
+}
+
 class MapViewController: UIViewController {
     enum Strings {
         static let showTopoLines = "Show Topo Lines"
@@ -50,6 +58,7 @@ class MapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addSubview(self.mapView)
+        self.navigationItem.backButtonTitle = ""
         
         let listButton = UIBarButtonItem(image: UIImage(systemName: "list.bullet.rectangle"), style: .plain, target: self, action: #selector(didRequestList))
         let filterButton = UIBarButtonItem(image: UIImage(systemName: "line.3.horizontal.decrease.circle"), style: .plain, target: self, action: #selector(didRequestFilters))
@@ -84,18 +93,6 @@ class MapViewController: UIViewController {
     private func updateMapLocation() {
         let utahCenter = CLLocationCoordinate2D(latitude: 39.3210, longitude: -111.0937)
         self.mapView.region = MKCoordinateRegion(center: utahCenter, span: MKCoordinateSpan(latitudeDelta: 20, longitudeDelta: 20))
-        
-        if locationService.isLocationEnabled() {
-            self.locationService.getCurrentLocation { location in
-                let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
-                let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
-                self.mapView.setRegion(region, animated: true)
-            }
-        }
-
-        if let coor = mapView.userLocation.location?.coordinate{
-            mapView.setCenter(coor, animated: true)
-        }
     }
     
     private func render(canyons: [Canyon]) {
@@ -122,13 +119,30 @@ class MapViewController: UIViewController {
             self.mapView.addOverlay($0)
         }
         
-        // render waypoints
-        let waypoints = canyons.flatMap { canyon in
-            canyon.geoWaypoints.forEach { feature in
-                print("\(canyon.name) Waypoint name: \(feature.name)")
+        // render waypoints if only showing one canyon
+        if canyons.count == 1 {
+            let waypoints = canyons.flatMap { canyon in
+                canyon.geoWaypoints.map { feature in
+                    return WaypointAnnotation(feature: feature)
+                }
+            }
+            waypoints.forEach { annotation in
+                self.mapView.addAnnotation(annotation)
             }
         }
-
+        
+        // center location
+        if canyons.count == 1 {
+            let center = canyons[0].coordinate.asCLObject
+            let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
+            self.mapView.setRegion(region, animated: true)
+        } else if locationService.isLocationEnabled() {
+            self.locationService.getCurrentLocation { location in
+                let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
+                let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
+                self.mapView.setRegion(region, animated: true)
+            }
+        }
     }
     
     private func updateWithFilters() {
