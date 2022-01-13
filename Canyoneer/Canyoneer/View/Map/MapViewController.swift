@@ -56,6 +56,7 @@ class MapViewController: UIViewController {
         self.mapView.showsUserLocation = true
         self.updateInitialRegion()
         self.render(canyons: self.canyons)
+        self.updateCamera(canyons: self.canyons)
         self.renderControls()
     }
     
@@ -129,7 +130,9 @@ class MapViewController: UIViewController {
                 self.mapView.addAnnotation(annotation)
             }
         }
-        
+    }
+    
+    private func updateCamera(canyons: [Canyon]) {
         // center location
         if canyons.count == 1 {
             let center = canyons[0].coordinate.asCLObject
