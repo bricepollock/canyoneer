@@ -98,9 +98,7 @@ class SearchViewModel {
             }.disposed(by: self.bag)
         case .favorites:
             title = Strings.favorites
-            self.canyonService.canyons().map { canyons in
-                return canyons.filter { canyon in self.favoriteService.isFavorite(canyon: canyon) }
-            }.subscribe { [weak self] canyons in
+            self.favoriteService.allFavorites().subscribe { [weak self] canyons in
                 defer { self?.loadingComponent.stopLoading() }
                 let results = canyons.map {
                     return SearchResult(name: $0.name, type: .canyon, canyonDetails: $0, regionDetails: nil)

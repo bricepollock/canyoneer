@@ -6,8 +6,14 @@
 //
 
 import Foundation
+import RxSwift
 
 class FavoriteService {
+    
+    func allFavorites() -> Single<[Canyon]> {
+        return Single.just(UserPreferencesStorage.allFavorites)
+    }
+    
     func isFavorite(canyon: Canyon) -> Bool {
         return UserPreferencesStorage.isFavorite(canyon: canyon)
     }
