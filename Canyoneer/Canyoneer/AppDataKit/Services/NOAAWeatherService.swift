@@ -172,6 +172,7 @@ class NOAAWeatherService: Service, WeatherService {
         
         let priorDay = date.addingTimeInterval(-aDayInSeconds)
         let nextDay = date.addingTimeInterval(+aDayInSeconds)
+        let dayAfter = date.addingTimeInterval(2*aDayInSeconds)
         
         return WeatherDetails(
             areaCoord: areaCoord,
@@ -180,7 +181,9 @@ class NOAAWeatherService: Service, WeatherService {
             requested: requested,
             requestedDate: date,
             next: weatherForDate(points: weatherPoints, onDate: nextDay),
-            nextDate: nextDay
+            nextDate: nextDay,
+            dayAfter: weatherForDate(points: weatherPoints, onDate: dayAfter),
+            dayAfterDate: dayAfter
         )
     }
     

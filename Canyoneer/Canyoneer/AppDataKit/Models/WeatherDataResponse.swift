@@ -51,6 +51,8 @@ class WeatherDetails: NSObject, NSCoding {
     let requestedDate: Date
     let next: WeatherDataPoint?
     let nextDate: Date
+    let dayAfter: WeatherDataPoint?
+    let dayAfterDate: Date?
     
     init(
         areaCoord: Coordinate,
@@ -59,7 +61,9 @@ class WeatherDetails: NSObject, NSCoding {
         requested: WeatherDataPoint,
         requestedDate: Date,
         next: WeatherDataPoint?,
-        nextDate: Date
+        nextDate: Date,
+        dayAfter: WeatherDataPoint?,
+        dayAfterDate: Date?
         ) {
         self.areaCoord = areaCoord
         self.prior = prior
@@ -68,6 +72,8 @@ class WeatherDetails: NSObject, NSCoding {
         self.requestedDate = requestedDate
         self.next = next
         self.nextDate = nextDate
+        self.dayAfter = dayAfter
+        self.dayAfterDate = dayAfterDate
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -84,6 +90,8 @@ class WeatherDetails: NSObject, NSCoding {
         self.requestedDate = requestedDate
         self.next = aDecoder.decodeObject(forKey: "next") as? WeatherDataPoint
         self.nextDate = nextDate
+        self.dayAfter = aDecoder.decodeObject(forKey: "dayAfter") as? WeatherDataPoint
+        self.dayAfterDate = aDecoder.decodeObject(forKey: "dayAfterDate") as? Date
     }
     
     func encode(with aCoder: NSCoder) {
@@ -98,5 +106,12 @@ class WeatherDetails: NSObject, NSCoding {
             aCoder.encode(next, forKey: "next")
         }
         aCoder.encode(nextDate, forKey: "nextDate")
+        
+        if let dayAfter = dayAfter {
+            aCoder.encode(dayAfter, forKey: "dayAfter")
+        }
+        if let dayAfterDate = dayAfterDate {
+            aCoder.encode(dayAfterDate, forKey: "dayAfterDate")
+        }
     }
 }

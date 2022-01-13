@@ -12,6 +12,7 @@ struct DayWeatherDetails {
     let maxTemp: Double
     let minTemp: Double
     let precipProbability: Double
+    let dayOfWeek: String
 }
 
 struct ThreeDayForecast {
@@ -22,10 +23,19 @@ struct ThreeDayForecast {
 
 extension WeatherDataPoint {
     var dayDetails: DayWeatherDetails? {
-        guard let max = self.temperatureMax, let min = self.temperatureMin, let precip = self.precipProbability else {
+        guard let max = self.temperatureMax, let min = self.temperatureMin, let precip = self.precipProbability, let date = self.time else {
             return nil
         }
-        return DayWeatherDetails(maxTemp: max, minTemp: min, precipProbability: precip)
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "EEEE"
+        let dayOfWeek = dateFormatter.string(from: date).capitalized
+        
+        return DayWeatherDetails(
+            maxTemp: max,
+            minTemp: min,
+            precipProbability: precip,
+            dayOfWeek: dayOfWeek
+        )
     }
 }
 
@@ -84,7 +94,7 @@ class CanyonViewModel {
                 let forecast = ThreeDayForecast(
                     today: details.requested.dayDetails,
                     tomorrow: details.next?.dayDetails,
-                    dayAfterTomorrow: nil
+                    dayAfterTomorrow: details.dayAfter?.dayDetails
                 )
                 DispatchQueue.main.async {
                     self.forecastSubject.onNext(forecast)

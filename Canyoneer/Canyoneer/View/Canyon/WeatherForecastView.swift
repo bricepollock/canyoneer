@@ -11,31 +11,38 @@ import UIKit
 class WeatherForecastView: UIStackView {
     
     enum Strings {
-        static let today = "Today"
-        static let tomorrow = "Tomorrow"
+        static let error = "Weather Not Found"
     }
     
     private let loader = LoadingComponent()
     private let today = WeatherForecastDayView()
     private let tomorrow = WeatherForecastDayView()
+    private let dayAfter = WeatherForecastDayView()
+    
+    private let errorLabel = UILabel()
     
     init() {
         super.init(frame: .zero)
         self.axis = .horizontal
         self.spacing = .medium
         self.alignment = .center
-        self.distribution = .equalCentering
+        self.distribution = .fillEqually
         
-        self.addArrangedSubview(UIView())
         self.addArrangedSubview(today)
         self.addArrangedSubview(tomorrow)
-        self.addArrangedSubview(UIView())
+        self.addArrangedSubview(dayAfter)
         
         self.addSubview(self.loader.inlineLoader)
         self.loader.inlineLoader.constrain.centerX(on: self)
         self.loader.inlineLoader.constrain.centerY(on: self)
-        
         self.loader.startLoading(loadingType: .inline)
+        
+        self.errorLabel.text = Strings.error
+        self.errorLabel.font = FontBook.Body.regular
+        self.errorLabel.isHidden = true
+        self.addSubview(self.errorLabel)
+        self.errorLabel.constrain.centerX(on: self)
+        self.errorLabel.constrain.centerY(on: self)
     }
     
     required init(coder: NSCoder) {
@@ -43,8 +50,13 @@ class WeatherForecastView: UIStackView {
     }
     
     func configure(with data: ThreeDayForecast) {
-        self.today.configure(with: data.today, day: Strings.today)
-        self.tomorrow.configure(with: data.tomorrow, day: Strings.tomorrow)
+        guard let today = data.today, let tomorrow = data.tomorrow, let dayAfter = data.dayAfterTomorrow else {
+            self.errorLabel.isHidden = false
+            return
+        }
+        self.today.configure(with: today)
+        self.tomorrow.configure(with: tomorrow)
+        self.dayAfter.configure(with: dayAfter)
         self.loader.stopLoading()
     }
 }

@@ -46,15 +46,10 @@ class WeatherForecastDayView: UIStackView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func configure(with data: DayWeatherDetails?, day: String) {
-        self.dayLabel.text = day
-        guard let data = data else {
-            self.tempLabel.text = Strings.unknown
-            self.precipLabel.isHidden = true
-            return
-        }
+    func configure(with data: DayWeatherDetails) {
         self.tempLabel.text = Strings.temp(max: data.maxTemp, min: data.minTemp)
         self.precipLabel.text = Strings.precip(chance: data.precipProbability)
+        self.dayLabel.text = data.dayOfWeek
         
     }
 }
