@@ -51,7 +51,7 @@ struct GeoLocation: Codable {
     
     var coordinates: [Coordinate] {
         return points.map { numberList in
-            return Coordinate(latitude: numberList[0], longitude: numberList[1])
+            return Coordinate(latitude: numberList[1], longitude: numberList[0])
         }
     }
     

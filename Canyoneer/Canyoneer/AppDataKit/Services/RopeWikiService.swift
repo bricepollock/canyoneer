@@ -70,6 +70,9 @@ class RopeWikiService: RopeWikiServiceInterface {
                     guard let latitude = data.latitude, let longitude = data.longitude else {
                         return nil
                     }
+                    let features = data.geoJson?.features.map({ $0.geometry }) ?? []
+                    let waypoints = features.filter { $0.type == .waypoint }.map { $0.coordinates }.first ?? []
+                    let lines = features.filter { $0.type == .line }.map { $0.coordinates }
                     return Canyon(
                         id: "\(data.name)_\(latitude)_\(longitude)",
                         bestSeasons: data.bestSeasons,
@@ -88,7 +91,9 @@ class RopeWikiService: RopeWikiServiceInterface {
                         waterDifficulty: data.waterDifficulty,
                         quality: data.quality,
                         vehicleAccessibility: data.vehicleAccessibility,
-                        description: data.htmlDescription ?? ""
+                        description: data.htmlDescription ?? "",
+                        geoWaypoints: waypoints,
+                        geoLines: lines
                     )
                 }
                 single(.success(canyons))

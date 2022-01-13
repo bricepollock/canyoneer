@@ -26,4 +26,23 @@ extension MapViewController: MKMapViewDelegate {
         }
         return NonClusteringMKMarkerAnnotationView(annotation: annotation, reuseIdentifier: "MyMarker")
     }
+    
+    func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
+        if let routePolyline = overlay as? MKPolyline {
+            let renderer = MKPolylineRenderer(polyline: routePolyline)
+            renderer.strokeColor = ColorPalette.Color.action.withAlphaComponent(0.9)
+            renderer.lineWidth = 3
+            return renderer
+        }
+
+        return MKOverlayRenderer()
+    }
+    
+    func mapView(_ mapView: MKMapView, didAddOverlayViews overlayViews: [Any]) {
+        print("Overlay added with x views: \(overlayViews.count)")
+    }
+    func mapView(_ mapView: MKMapView, viewFor overlay: MKOverlay) -> MKOverlayView {
+        print("View for overlay")
+        return MKOverlayView()
+    }
 }

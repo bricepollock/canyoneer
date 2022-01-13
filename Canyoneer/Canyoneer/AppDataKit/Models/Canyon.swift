@@ -36,6 +36,8 @@ struct Canyon: Codable {
         case quality
         case vehicleAccessibility
         case description
+        case geoWaypoints
+        case geoLines
     }
     
     let id: String
@@ -55,6 +57,8 @@ struct Canyon: Codable {
     var quality: Float // 1-5 stars
     var vehicleAccessibility: Vehicle?
     var description: String // HTML
+    var geoWaypoints: [Coordinate]
+    var geoLines: [[Coordinate]]
     
     static func dummy() -> Canyon {
         return Canyon(
@@ -74,7 +78,9 @@ struct Canyon: Codable {
             waterDifficulty: "A",
             quality: 4.3,
             vehicleAccessibility: Vehicle.passenger,
-            description: "<b>This is a canyon</b>"
+            description: "<b>This is a canyon</b>",
+            geoWaypoints: [],
+            geoLines: []
         )
     }
 }
