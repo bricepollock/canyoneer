@@ -89,6 +89,7 @@ struct CanyonDataPoint: Codable {
         case numRappels = "RappelCountMax"
         case rappelMaxLength = "RappelLengthMax"
         case htmlDescription = "HTMLDescription"
+        case geoJson = "GeoJSON"
     }
     
     let urlString: String
@@ -111,6 +112,8 @@ struct CanyonDataPoint: Codable {
     let numRappels: Int?
     let rappelMaxLength: Int?
     let htmlDescription: String?
+    
+    let geoJson: GeoJson?
     
     // There are string errors like mispelling months so we may miss some months by doing this
     var bestSeasons: [Month] {

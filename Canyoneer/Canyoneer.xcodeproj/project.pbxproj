@@ -30,6 +30,7 @@
 		40783CE9278DF46A001E78DB /* UserPreferencesStorage+favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */; };
 		40783CEB278DF5E3001E78DB /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CEA278DF5E3001E78DB /* Storage.swift */; };
 		40783CED278DF63F001E78DB /* UserPreferencesStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CEC278DF63F001E78DB /* UserPreferencesStorage.swift */; };
+		407FB74F278FC805008B65BE /* GeoJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB74E278FC805008B65BE /* GeoJson.swift */; };
 		40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428627875D9F00FE245D /* AppDelegate.swift */; };
 		40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428827875D9F00FE245D /* SceneDelegate.swift */; };
 		40E4428B27875D9F00FE245D /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428A27875D9F00FE245D /* LandingViewController.swift */; };
@@ -130,6 +131,7 @@
 		40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserPreferencesStorage+favorite.swift"; sourceTree = "<group>"; };
 		40783CEA278DF5E3001E78DB /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		40783CEC278DF63F001E78DB /* UserPreferencesStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferencesStorage.swift; sourceTree = "<group>"; };
+		407FB74E278FC805008B65BE /* GeoJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJson.swift; sourceTree = "<group>"; };
 		40E4428327875D9F00FE245D /* Canyoneer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canyoneer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E4428627875D9F00FE245D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40E4428827875D9F00FE245D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -332,6 +334,7 @@
 				40E442B827875EB200FE245D /* Region.swift */,
 				40E442E527876F9600FE245D /* Canyon.swift */,
 				40E4432B2787D80100FE245D /* CanyonPoint.swift */,
+				407FB74E278FC805008B65BE /* GeoJson.swift */,
 				40E442E327876F7E00FE245D /* SearchResult.swift */,
 			);
 			path = Models;
@@ -689,6 +692,7 @@
 				40E442EB2787708100FE245D /* UIView+line.swift in Sources */,
 				40E442E92787701D00FE245D /* SearchViewController.swift in Sources */,
 				40E4430727877F9500FE245D /* CanyonViewController.swift in Sources */,
+				407FB74F278FC805008B65BE /* GeoJson.swift in Sources */,
 				40E4430127877C5500FE245D /* DesignSystem.swift in Sources */,
 				40E44348278A0A7100FE245D /* BestSeasonFilter.swift in Sources */,
 				40E4433727888D9100FE245D /* LocationService.swift in Sources */,
