@@ -50,6 +50,7 @@ class WeatherForecastView: UIStackView {
     }
     
     func configure(with data: ThreeDayForecast) {
+        defer { self.loader.stopLoading() }
         guard let today = data.today, let tomorrow = data.tomorrow, let dayAfter = data.dayAfterTomorrow else {
             self.errorLabel.isHidden = false
             return
@@ -57,6 +58,5 @@ class WeatherForecastView: UIStackView {
         self.today.configure(with: today)
         self.tomorrow.configure(with: tomorrow)
         self.dayAfter.configure(with: dayAfter)
-        self.loader.stopLoading()
     }
 }
