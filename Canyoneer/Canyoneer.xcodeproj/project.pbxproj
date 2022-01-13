@@ -33,6 +33,17 @@
 		407FB74F278FC805008B65BE /* GeoJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB74E278FC805008B65BE /* GeoJson.swift */; };
 		407FB75127906CAC008B65BE /* MKObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB75027906CAC008B65BE /* MKObjects.swift */; };
 		407FB75327906DF0008B65BE /* MapLegendBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB75227906DF0008B65BE /* MapLegendBottomSheetViewController.swift */; };
+		407FB75F2790CD2B008B65BE /* WeatherDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB7592790CD2B008B65BE /* WeatherDataResponse.swift */; };
+		407FB7602790CD2B008B65BE /* NOAAWeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB75A2790CD2B008B65BE /* NOAAWeatherService.swift */; };
+		407FB7612790CD2B008B65BE /* NOAAData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB75B2790CD2B008B65BE /* NOAAData.swift */; };
+		407FB7622790CD2B008B65BE /* WeatherDataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB75C2790CD2B008B65BE /* WeatherDataPoint.swift */; };
+		407FB7632790CD2B008B65BE /* NOAASerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB75D2790CD2B008B65BE /* NOAASerializer.swift */; };
+		407FB7642790CD2B008B65BE /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB75E2790CD2B008B65BE /* WeatherService.swift */; };
+		407FB7672790CDB3008B65BE /* UnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB7662790CDB3008B65BE /* UnitConverter.swift */; };
+		407FB7692790CDE5008B65BE /* NetworkValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB7682790CDE5008B65BE /* NetworkValidation.swift */; };
+		407FB76B2790D592008B65BE /* WeatherForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB76A2790D591008B65BE /* WeatherForecastView.swift */; };
+		407FB76D2790D59C008B65BE /* WeatherForecastDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB76C2790D59C008B65BE /* WeatherForecastDayView.swift */; };
+		407FB76F2790D6FE008B65BE /* WeatherForecastDayViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB76E2790D6FE008B65BE /* WeatherForecastDayViewTests.swift */; };
 		40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428627875D9F00FE245D /* AppDelegate.swift */; };
 		40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428827875D9F00FE245D /* SceneDelegate.swift */; };
 		40E4428B27875D9F00FE245D /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428A27875D9F00FE245D /* LandingViewController.swift */; };
@@ -136,6 +147,17 @@
 		407FB74E278FC805008B65BE /* GeoJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJson.swift; sourceTree = "<group>"; };
 		407FB75027906CAC008B65BE /* MKObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKObjects.swift; sourceTree = "<group>"; };
 		407FB75227906DF0008B65BE /* MapLegendBottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLegendBottomSheetViewController.swift; sourceTree = "<group>"; };
+		407FB7592790CD2B008B65BE /* WeatherDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDataResponse.swift; sourceTree = "<group>"; };
+		407FB75A2790CD2B008B65BE /* NOAAWeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NOAAWeatherService.swift; sourceTree = "<group>"; };
+		407FB75B2790CD2B008B65BE /* NOAAData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NOAAData.swift; sourceTree = "<group>"; };
+		407FB75C2790CD2B008B65BE /* WeatherDataPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDataPoint.swift; sourceTree = "<group>"; };
+		407FB75D2790CD2B008B65BE /* NOAASerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NOAASerializer.swift; sourceTree = "<group>"; };
+		407FB75E2790CD2B008B65BE /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		407FB7662790CDB3008B65BE /* UnitConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverter.swift; sourceTree = "<group>"; };
+		407FB7682790CDE5008B65BE /* NetworkValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkValidation.swift; sourceTree = "<group>"; };
+		407FB76A2790D591008B65BE /* WeatherForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastView.swift; sourceTree = "<group>"; };
+		407FB76C2790D59C008B65BE /* WeatherForecastDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastDayView.swift; sourceTree = "<group>"; };
+		407FB76E2790D6FE008B65BE /* WeatherForecastDayViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastDayViewTests.swift; sourceTree = "<group>"; };
 		40E4428327875D9F00FE245D /* Canyoneer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canyoneer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E4428627875D9F00FE245D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40E4428827875D9F00FE245D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -260,6 +282,7 @@
 		4032AECE278F41DA002EEA4E /* Canyon */ = {
 			isa = PBXGroup;
 			children = (
+				407FB76E2790D6FE008B65BE /* WeatherForecastDayViewTests.swift */,
 				4032AECC278F41D0002EEA4E /* CanyonDetailViewTests.swift */,
 				4032AEBC278F3028002EEA4E /* CanyonViewControllerTests.swift */,
 				4032AEC0278F3AB7002EEA4E /* CanyonViewModelTests.swift */,
@@ -285,6 +308,15 @@
 				40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */,
 			);
 			path = Persistence;
+			sourceTree = "<group>";
+		};
+		407FB7652790CD9B008B65BE /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				407FB75D2790CD2B008B65BE /* NOAASerializer.swift */,
+				407FB7662790CDB3008B65BE /* UnitConverter.swift */,
+			);
+			path = BusinessLogic;
 			sourceTree = "<group>";
 		};
 		40E4427A27875D9F00FE245D = {
@@ -339,7 +371,10 @@
 				40E442E527876F9600FE245D /* Canyon.swift */,
 				40E4432B2787D80100FE245D /* CanyonPoint.swift */,
 				407FB74E278FC805008B65BE /* GeoJson.swift */,
+				407FB75B2790CD2B008B65BE /* NOAAData.swift */,
 				40E442E327876F7E00FE245D /* SearchResult.swift */,
+				407FB75C2790CD2B008B65BE /* WeatherDataPoint.swift */,
+				407FB7592790CD2B008B65BE /* WeatherDataResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -383,6 +418,7 @@
 				40E442C72787601D00FE245D /* Logger.swift */,
 				40783CE5278DF44F001E78DB /* Persistence */,
 				40E4432D2787D90100FE245D /* Network */,
+				407FB7652790CD9B008B65BE /* BusinessLogic */,
 				40E443202787A0E200FE245D /* Services */,
 				40E442B627875E9800FE245D /* Models */,
 				40E443382788913000FE245D /* Extensions */,
@@ -465,6 +501,8 @@
 			isa = PBXGroup;
 			children = (
 				40E4430C2787842800FE245D /* CanyonDetailView.swift */,
+				407FB76A2790D591008B65BE /* WeatherForecastView.swift */,
+				407FB76C2790D59C008B65BE /* WeatherForecastDayView.swift */,
 				40E4430627877F9500FE245D /* CanyonViewController.swift */,
 				4032AEBE278F324D002EEA4E /* CanyonViewModel.swift */,
 			);
@@ -512,6 +550,8 @@
 				40E443252787A23A00FE245D /* SearchService.swift */,
 				40E4433627888D9100FE245D /* LocationService.swift */,
 				4005DFB5278F583500EB1640 /* FavoriteService.swift */,
+				407FB75A2790CD2B008B65BE /* NOAAWeatherService.swift */,
+				407FB75E2790CD2B008B65BE /* WeatherService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -520,6 +560,7 @@
 			isa = PBXGroup;
 			children = (
 				40E4432E2787D90C00FE245D /* RequestError.swift */,
+				407FB7682790CDE5008B65BE /* NetworkValidation.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -663,6 +704,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4005DFBB278F5C0100EB1640 /* SearchViewModel.swift in Sources */,
+				407FB7642790CD2B008B65BE /* WeatherService.swift in Sources */,
+				407FB76D2790D59C008B65BE /* WeatherForecastDayView.swift in Sources */,
 				4032AEBF278F324D002EEA4E /* CanyonViewModel.swift in Sources */,
 				40E4428B27875D9F00FE245D /* LandingViewController.swift in Sources */,
 				40E443282787A45100FE245D /* MapViewControler+MapViewDelegate.swift in Sources */,
@@ -686,13 +729,16 @@
 				4005DFC0278F60C500EB1640 /* FilterViewModel.swift in Sources */,
 				40E4431A27879DF100FE245D /* TextField.swift in Sources */,
 				40E443222787A0F200FE245D /* RopeWikiService.swift in Sources */,
+				407FB7632790CD2B008B65BE /* NOAASerializer.swift in Sources */,
 				4005DFCF278F96E100EB1640 /* MapView+annotations.swift in Sources */,
 				40783CED278DF63F001E78DB /* UserPreferencesStorage.swift in Sources */,
 				40E4433A2788914000FE245D /* CLLocation2D+distance.swift in Sources */,
 				40783CE8278DF46A001E78DB /* InMemoryStorage.swift in Sources */,
+				407FB7622790CD2B008B65BE /* WeatherDataPoint.swift in Sources */,
 				40E4432C2787D80100FE245D /* CanyonPoint.swift in Sources */,
 				40E4431327878A5700FE245D /* SubRegionView.swift in Sources */,
 				40E4434E278B489D00FE245D /* SwitchFilter.swift in Sources */,
+				407FB76B2790D592008B65BE /* WeatherForecastView.swift in Sources */,
 				40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */,
 				40E442C527875FCD00FE245D /* UIView+autolayout.swift in Sources */,
 				40E4433C2788A25B00FE245D /* BottomSheetViewController.swift in Sources */,
@@ -712,13 +758,17 @@
 				40E4431F2787A0C000FE245D /* MapViewModel.swift in Sources */,
 				40E4433F2788F1D600FE245D /* SpreadFilter.swift in Sources */,
 				40E442D82787614000FE245D /* Grid.swift in Sources */,
+				407FB7612790CD2B008B65BE /* NOAAData.swift in Sources */,
 				40E442C427875FCD00FE245D /* UIEdgeInsets+Extensions.swift in Sources */,
 				40E442D72787614000FE245D /* ColorPalette.swift in Sources */,
 				40E4430527877F8D00FE245D /* RegionViewController.swift in Sources */,
+				407FB7692790CDE5008B65BE /* NetworkValidation.swift in Sources */,
 				40E443462789F8A100FE245D /* MultiSelectFilter.swift in Sources */,
 				40E4431127878A3D00FE245D /* SubCanyonView.swift in Sources */,
+				407FB7602790CD2B008B65BE /* NOAAWeatherService.swift in Sources */,
 				40E44335278886CC00FE245D /* DataTableView.swift in Sources */,
 				40E4430F2787897F00FE245D /* SubCanyonListView.swift in Sources */,
+				407FB7672790CDB3008B65BE /* UnitConverter.swift in Sources */,
 				40E4432F2787D90C00FE245D /* RequestError.swift in Sources */,
 				40E442EF2787710700FE245D /* RegionResultView.swift in Sources */,
 				40E443412789F36C00FE245D /* BottomSheetFilterViewController.swift in Sources */,
@@ -727,6 +777,7 @@
 				40E442DB2787616E00FE245D /* UIStackView+remove.swift in Sources */,
 				40E44316278794D500FE245D /* TagView.swift in Sources */,
 				4005DFB6278F583500EB1640 /* FavoriteService.swift in Sources */,
+				407FB75F2790CD2B008B65BE /* WeatherDataResponse.swift in Sources */,
 				40E442BB27875EFB00FE245D /* RegionListView.swift in Sources */,
 				40E442B927875EB200FE245D /* Region.swift in Sources */,
 				40E44350278B4F4600FE245D /* SeasonView.swift in Sources */,
@@ -748,6 +799,7 @@
 				4005DFCD278F7B0A00EB1640 /* MockSearchService.swift in Sources */,
 				4032AEC1278F3AB7002EEA4E /* CanyonViewModelTests.swift in Sources */,
 				4032AEBD278F3028002EEA4E /* CanyonViewControllerTests.swift in Sources */,
+				407FB76F2790D6FE008B65BE /* WeatherForecastDayViewTests.swift in Sources */,
 				4005DFC9278F793200EB1640 /* SearchViewController+query.swift in Sources */,
 				4005DFC5278F6F0300EB1640 /* FilterViewModelTests+update.swift in Sources */,
 				4005DFC3278F67F800EB1640 /* SearchViewModelTests+favorite.swift in Sources */,

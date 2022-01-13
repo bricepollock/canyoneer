@@ -90,6 +90,10 @@ class CanyonViewController: ScrollableStackViewController {
                 self?.navigationItem.rightBarButtonItems?[0].image = UIImage(systemName: "star")
             }
         }.disposed(by: self.bag)
+        
+        self.viewModel.forecast.subscribeOnNext { forecast in
+            self.detailView.configure(weather: forecast)
+        }.disposed(by: self.bag)
     }
     
     // MARK: actions

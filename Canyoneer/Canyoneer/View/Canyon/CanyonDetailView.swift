@@ -61,6 +61,8 @@ class CanyonDetailView: UIView {
         static let season = "Best Months"
         static let description = "Description"
         static let openInMaps = "Open in Apple Maps"
+        static let weather = "Weather"
+        static let directions = "Directions"
         
         static func intValue(int: Int?) -> String {
             guard let int = int else { return "--" }
@@ -105,7 +107,10 @@ class CanyonDetailView: UIView {
     private let dataTitle = UILabel()
     private let dataTable = DataTableView()
     private let seasons = BestSeasonFilter()
+    private let directionsTitle = UILabel()
     private let directions = ContainedButton()
+    private let weatherTitle = UILabel()
+    private let weatherView = WeatherForecastView()
     
     private var webViewHeightConstraint: NSLayoutConstraint!
     private var urlLinkDisposeBag = DisposeBag()
@@ -142,6 +147,9 @@ class CanyonDetailView: UIView {
         self.masterStackView.addArrangedSubview(self.dataTitle)
         self.masterStackView.addArrangedSubview(self.dataTable)
         self.masterStackView.addArrangedSubview(self.seasons)
+        self.masterStackView.addArrangedSubview(self.weatherTitle)
+        self.masterStackView.addArrangedSubview(self.weatherView)
+        self.masterStackView.addArrangedSubview(self.directionsTitle)
         self.masterStackView.addArrangedSubview(self.directions)
         self.masterStackView.addArrangedSubview(self.descriptionTitle)
         self.masterStackView.addArrangedSubview(self.descriptionView)
@@ -167,6 +175,14 @@ class CanyonDetailView: UIView {
         self.dataTitle.font = FontBook.Body.emphasis
         self.dataTitle.backgroundColor = ColorPalette.Color.canyonRed
         self.dataTitle.text = Strings.details
+
+        self.directionsTitle.font = FontBook.Body.emphasis
+        self.directionsTitle.backgroundColor = ColorPalette.Color.canyonRed
+        self.directionsTitle.text = " " + Strings.directions
+        
+        self.weatherTitle.font = FontBook.Body.emphasis
+        self.weatherTitle.backgroundColor = ColorPalette.Color.canyonRed
+        self.weatherTitle.text = " " + Strings.weather
     }
     
     required init?(coder: NSCoder) {
@@ -233,6 +249,10 @@ class CanyonDetailView: UIView {
             guard let url = canyon.ropeWikiURL else { return }
             UIApplication.shared.open(url)
         }.disposed(by: self.urlLinkDisposeBag)
+    }
+    
+    func configure(weather: ThreeDayForecast) {
+        self.weatherView.configure(with: weather)
     }
 }
 

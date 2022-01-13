@@ -10,13 +10,6 @@ import XCTest
 @testable import Canyoneer
 
 class CanyonViewControllerTests: XCTestCase {
-   
-    func testName() {
-        let name = "Moonflower Canyon"
-        let expected = "Canyon: Moonflower Canyon"
-        let result = CanyonViewController.Strings.name(with: name)
-        XCTAssertEqual(expected, result)
-    }
     
     func testMessage() {
         let canyon = Canyon.dummy()

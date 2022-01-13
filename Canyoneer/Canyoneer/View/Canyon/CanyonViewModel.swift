@@ -8,6 +8,27 @@
 import Foundation
 import RxSwift
 
+struct DayWeatherDetails {
+    let maxTemp: Double
+    let minTemp: Double
+    let precipProbability: Double
+}
+
+struct ThreeDayForecast {
+    let today: DayWeatherDetails?
+    let tomorrow: DayWeatherDetails?
+    let dayAfterTomorrow: DayWeatherDetails?
+}
+
+extension WeatherDataPoint {
+    var dayDetails: DayWeatherDetails? {
+        guard let max = self.temperatureMax, let min = self.temperatureMin, let precip = self.precipProbability else {
+            return nil
+        }
+        return DayWeatherDetails(maxTemp: max, minTemp: min, precipProbability: precip)
+    }
+}
+
 class CanyonViewModel {
     
     // Rx
@@ -17,6 +38,9 @@ class CanyonViewModel {
     public let isFavorite: Observable<Bool>
     private let isFavoriteSubject: PublishSubject<Bool>
     
+    public let forecast: Observable<ThreeDayForecast>
+    private let forecastSubject: PublishSubject<ThreeDayForecast>
+    
     // state
     public var canyon: Canyon?
     private let canyonId: String
@@ -24,6 +48,7 @@ class CanyonViewModel {
     // objects
     private let service: RopeWikiServiceInterface
     private let favoriteService = FavoriteService()
+    private let weatherService: WeatherService = NOAAWeatherService()
     private let bag = DisposeBag()
     
     init(canyonId: String, service: RopeWikiServiceInterface = RopeWikiService()) {
@@ -35,6 +60,9 @@ class CanyonViewModel {
         
         self.isFavoriteSubject = PublishSubject()
         self.isFavorite = self.isFavoriteSubject.asObservable()
+        
+        self.forecastSubject = PublishSubject()
+        self.forecast = self.forecastSubject.asObservable()
     }
     
     // MARK: Actions
@@ -47,6 +75,22 @@ class CanyonViewModel {
             
             let isFavorite = self.favoriteService.isFavorite(canyon: canyon)
             self.isFavoriteSubject.onNext(isFavorite)
+            
+            self.weatherService.requestCurrentWeatherForLocation(
+                lat: canyon.coordinate.latitude,
+                long: canyon.coordinate.longitude
+            ).subscribeOnNext { details in
+                guard let details = details else { return }
+                let forecast = ThreeDayForecast(
+                    today: details.requested.dayDetails,
+                    tomorrow: details.next?.dayDetails,
+                    dayAfterTomorrow: nil
+                )
+                DispatchQueue.main.async {
+                    self.forecastSubject.onNext(forecast)
+                }
+            }.disposed(by: self.bag)
+            
         } onFailure: { error in
             Global.logger.error(error)
         }.disposed(by: self.bag)
