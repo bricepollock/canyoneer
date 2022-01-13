@@ -30,6 +30,7 @@ struct Canyon: Codable {
         case requiresPermit
         case ropeWikiURL
         case technicalDifficulty
+        case risk
         case timeGrade
         case waterDifficulty
         case quality
@@ -47,6 +48,7 @@ struct Canyon: Codable {
     var requiresPermit: Bool?
     var ropeWikiURL: URL?
     var technicalDifficulty: Int?
+    var risk: Risk?
     var timeGrade: String?
     var waterDifficulty: String?
     var quality: Float // 1-5 stars
@@ -65,6 +67,7 @@ struct Canyon: Codable {
             requiresPermit: false,
             ropeWikiURL: URL(string: "http://ropewiki.com/Moonflower_Canyon"),
             technicalDifficulty: 3,
+            risk: nil,
             timeGrade: "II",
             waterDifficulty: "A",
             quality: 4.3,

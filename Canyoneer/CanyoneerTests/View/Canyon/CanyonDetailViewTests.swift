@@ -12,8 +12,9 @@ import XCTest
 class CanyonDetailViewTests: XCTestCase {
    
     func testSummaryDetails_all() {
-        let canyon = Canyon.dummy()
-        let expected = "3A II 2r ↧220ft"
+        var canyon = Canyon.dummy()
+        canyon.risk = .x
+        let expected = "3A II X 2r ↧220ft"
         let result = CanyonDetailView.Strings.summaryDetails(for: canyon)
         XCTAssertEqual(expected, result)
     }

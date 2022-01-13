@@ -65,6 +65,12 @@ enum RomanNumeral: String, Codable, CaseIterable {
     }
 }
 
+enum Risk: String, Codable {
+    case pg = "PG"
+    case r = "R"
+    case x = "X"
+}
+
 struct CanyonDataPoint: Codable {
     internal enum CodingKeys: String, CodingKey {
         case urlString = "URL"
@@ -75,6 +81,7 @@ struct CanyonDataPoint: Codable {
         case longitude = "Longitude"
         case bestSeasonStrings = "Months"
         case difficulty = "Difficulty"
+        case riskRaw = "AdditionalRisk"
         case vehicleAccessibilityRaw = "Vehicle"
         case shuttleString = "Shuttle"
         case requirePermitsString = "Permits"
@@ -93,6 +100,7 @@ struct CanyonDataPoint: Codable {
     
     // Optional values are because sometimes the field is not present in the JSON
     let difficulty: String? // Technical and water rating
+    let riskRaw: String?
     let vehicleAccessibilityRaw: String?
     let shuttleString: String
     let requirePermitsString: String
@@ -118,6 +126,13 @@ struct CanyonDataPoint: Codable {
             return 2
         }
         return Int(difficulty.prefix(1))
+    }
+    
+    var risk: Risk? {
+        guard let riskRaw = riskRaw else {
+            return nil
+        }
+        return Risk(rawValue: riskRaw)
     }
     
     var waterDifficulty: String? {

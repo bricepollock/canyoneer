@@ -31,6 +31,9 @@ class CanyonDetailView: UIView {
             if let time = canyon.timeGrade {
                 summary.append(" \(time)")
             }
+            if let risk = canyon.risk {
+                summary.append(" \(risk.rawValue)")
+            }
             if let num = canyon.numRaps {
                 summary.append(" \(num)r")
             }
@@ -47,6 +50,7 @@ class CanyonDetailView: UIView {
         static let permits = "Requires Permits"
         static let shuttle = "Shuttle Required"
         static let difficulty = "Technical Rating"
+        static let risk = "Additional Risk"
         // these tabs are for alignment in the table, this is a hack-hack shortcut
         static let water = "Water Rating\t"
         static let time = "Time Grade\t"
@@ -160,6 +164,7 @@ class CanyonDetailView: UIView {
             (title: Strings.numRaps, value: Strings.intValue(int: canyon.numRaps)),
             (title: Strings.longestRap, value: Strings.intValue(int: canyon.maxRapLength)),
             (title: Strings.difficulty, value: Strings.intValue(int: canyon.technicalDifficulty)),
+            (title: Strings.risk, value: Strings.stringValue(string: canyon.risk?.rawValue)),
             (title: Strings.water, value: Strings.stringValue(string: canyon.waterDifficulty)),
             (title: Strings.time, value: Strings.stringValue(string: canyon.timeGrade)),
             (title: Strings.restricted, value: Strings.boolValue(bool: canyon.isRestricted)),
