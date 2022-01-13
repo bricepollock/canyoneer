@@ -247,4 +247,17 @@ extension CanyonDetailView: WKNavigationDelegate {
 
             })
     }
+    
+    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+        
+        if var url = navigationAction.request.url, url.absoluteString != "about:blank"{
+            if url.absoluteString.hasPrefix("/") {
+                url = URL(string: "http://www.ropewiki.com" + url.absoluteString)!
+            }
+            decisionHandler(.cancel)
+            UIApplication.shared.open(url)
+        } else {
+            decisionHandler(.allow)
+        }
+    }
 }
