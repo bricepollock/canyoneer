@@ -76,8 +76,8 @@ class SpreadFilter: UIView {
     }
     
     public func configure(with data: SpreadFilterData) {
-        self.minValue = data.initialMin
-        self.maxValue = data.initialMax
+        self.minValue = data.currentMin
+        self.maxValue = data.currentMax
         
         self.titleLabel.text = data.name
         self.inputTextControl.configure(text: Strings.spread(maxValue: self.maxValue, minValue: self.minValue, units: data.units))
