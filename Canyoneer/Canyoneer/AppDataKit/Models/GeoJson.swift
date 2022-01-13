@@ -63,7 +63,8 @@ struct GeoLocation: Codable {
             self.points = [pointCoordinates]
         } else if let lineCoordinates = try? container.decode([[Double]].self, forKey: .points) {
             self.points = lineCoordinates
-        } else if let polygonCoordinates = try? container.decode([[[Double]]].self, forKey: .points) {
+        // polygon
+        } else if let _ = try? container.decode([[[Double]]].self, forKey: .points) {
             // we aren't messing with polygons for now
             self.points = []
         } else {

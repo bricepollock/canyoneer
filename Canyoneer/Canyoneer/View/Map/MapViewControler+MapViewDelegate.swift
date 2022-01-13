@@ -37,12 +37,4 @@ extension MapViewController: MKMapViewDelegate {
 
         return MKOverlayRenderer()
     }
-    
-    func mapView(_ mapView: MKMapView, didAddOverlayViews overlayViews: [Any]) {
-        print("Overlay added with x views: \(overlayViews.count)")
-    }
-    func mapView(_ mapView: MKMapView, viewFor overlay: MKOverlay) -> MKOverlayView {
-        print("View for overlay")
-        return MKOverlayView()
-    }
 }

@@ -109,7 +109,7 @@ class MapViewController: UIViewController {
         // render lines
         let overlays = canyons.flatMap { canyon in
             return canyon.geoLines.map { coordinateList -> MKPolyline in
-                print("Topo Line Named: \(coordinateList.name)")
+                print("Topo Line Named: \(String(describing: coordinateList.name))")
                 let clCoords = coordinateList.coordinates.map { $0.asCLObject }
                 return MKPolyline(coordinates: clCoords, count: clCoords.count)
             }
