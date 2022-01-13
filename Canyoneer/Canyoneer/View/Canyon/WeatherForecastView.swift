@@ -11,14 +11,11 @@ import UIKit
 class WeatherForecastView: UIStackView {
     
     enum Strings {
-        static let yesterday = "Yesterday"
         static let today = "Today"
         static let tomorrow = "Tomorrow"
-        static let dayAfterTomorrow = "Day After"
     }
     
     private let loader = LoadingComponent()
-    private let yesterday = WeatherForecastDayView()
     private let today = WeatherForecastDayView()
     private let tomorrow = WeatherForecastDayView()
     
@@ -30,7 +27,6 @@ class WeatherForecastView: UIStackView {
         self.distribution = .equalCentering
         
         self.addArrangedSubview(UIView())
-        self.addArrangedSubview(yesterday)
         self.addArrangedSubview(today)
         self.addArrangedSubview(tomorrow)
         self.addArrangedSubview(UIView())
@@ -47,8 +43,6 @@ class WeatherForecastView: UIStackView {
     }
     
     func configure(with data: ThreeDayForecast) {
-        // yesterday is currently unsupported
-        self.yesterday.isHidden = true
         self.today.configure(with: data.today, day: Strings.today)
         self.tomorrow.configure(with: data.tomorrow, day: Strings.tomorrow)
         self.loader.stopLoading()
