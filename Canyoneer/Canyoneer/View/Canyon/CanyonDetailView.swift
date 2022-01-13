@@ -63,6 +63,7 @@ class CanyonDetailView: UIView {
         static let openInMaps = "Open in Apple Maps"
         static let weather = "Weather"
         static let directions = "Directions"
+        static let creativeCommons = "This information is licensed from Ropewiki under Creative Commons"
         
         static func intValue(int: Int?) -> String {
             guard let int = int else { return "--" }
@@ -111,6 +112,7 @@ class CanyonDetailView: UIView {
     private let directions = ContainedButton()
     private let weatherTitle = UILabel()
     private let weatherView = WeatherForecastView()
+    private let creativeCommons = UILabel()
     
     private var webViewHeightConstraint: NSLayoutConstraint!
     private var urlLinkDisposeBag = DisposeBag()
@@ -153,6 +155,7 @@ class CanyonDetailView: UIView {
         self.masterStackView.addArrangedSubview(self.directions)
         self.masterStackView.addArrangedSubview(self.descriptionTitle)
         self.masterStackView.addArrangedSubview(self.descriptionView)
+        self.masterStackView.addArrangedSubview(self.creativeCommons)
         
         self.name.textAlignment = .center
         self.name.numberOfLines = 0
@@ -183,6 +186,11 @@ class CanyonDetailView: UIView {
         self.weatherTitle.font = FontBook.Body.emphasis
         self.weatherTitle.backgroundColor = ColorPalette.Color.canyonRed
         self.weatherTitle.text = " " + Strings.weather
+        
+        self.creativeCommons.text = Strings.creativeCommons
+        self.creativeCommons.font = FontBook.Body.regular
+        self.creativeCommons.numberOfLines = 0
+        self.creativeCommons.textAlignment = .center
     }
     
     required init?(coder: NSCoder) {
