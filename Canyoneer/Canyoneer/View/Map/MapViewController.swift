@@ -65,7 +65,7 @@ class TopoLineOverlay: MKPolyline {
 
 class MapViewController: UIViewController {
     enum Strings {
-        static let showTopoLines = "Show Topo Lines"
+        static let showTopoLines = "Show Route Lines"
     }
     
     private let locationService = LocationService()
