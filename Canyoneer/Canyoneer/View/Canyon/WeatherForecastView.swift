@@ -49,9 +49,9 @@ class WeatherForecastView: UIStackView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func configure(with data: ThreeDayForecast) {
+    func configure(with data: ThreeDayForecast?) {
         defer { self.loader.stopLoading() }
-        guard let today = data.today, let tomorrow = data.tomorrow, let dayAfter = data.dayAfterTomorrow else {
+        guard let data = data, let today = data.today, let tomorrow = data.tomorrow, let dayAfter = data.dayAfterTomorrow else {
             self.errorLabel.isHidden = false
             return
         }

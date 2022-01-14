@@ -48,8 +48,8 @@ class CanyonViewModel {
     public let isFavorite: Observable<Bool>
     private let isFavoriteSubject: PublishSubject<Bool>
     
-    public let forecast: Observable<ThreeDayForecast>
-    private let forecastSubject: PublishSubject<ThreeDayForecast>
+    public let forecast: Observable<ThreeDayForecast?>
+    private let forecastSubject: PublishSubject<ThreeDayForecast?>
     
     public let shareGPXFile: Observable<URL>
     private let shareGPXFileSubject: PublishSubject<URL>
@@ -98,7 +98,12 @@ class CanyonViewModel {
                 lat: canyon.coordinate.latitude,
                 long: canyon.coordinate.longitude
             ).subscribeOnNext { details in
-                guard let details = details else { return }
+                guard let details = details else {
+                    DispatchQueue.main.async {
+                        self.forecastSubject.onNext(nil)
+                    }
+                    return
+                }
                 let forecast = ThreeDayForecast(
                     today: details.requested.dayDetails,
                     tomorrow: details.next?.dayDetails,
