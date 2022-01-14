@@ -15,22 +15,33 @@ class WeatherForecastView: UIStackView {
     }
     
     private let loader = LoadingComponent()
+    private let daysStack = UIStackView()
     private let today = WeatherForecastDayView()
     private let tomorrow = WeatherForecastDayView()
     private let dayAfter = WeatherForecastDayView()
+    private let daylightHours = UILabel()
     
     private let errorLabel = UILabel()
     
     init() {
         super.init(frame: .zero)
-        self.axis = .horizontal
+        
+        self.axis = .vertical
         self.spacing = .medium
         self.alignment = .center
-        self.distribution = .fillEqually
+        self.addArrangedSubview(self.daysStack)
+        self.addArrangedSubview(self.daylightHours)
         
-        self.addArrangedSubview(today)
-        self.addArrangedSubview(tomorrow)
-        self.addArrangedSubview(dayAfter)
+        self.daylightHours.font = FontBook.Body.regular
+        
+        self.daysStack.axis = .horizontal
+        self.daysStack.spacing = .medium
+        self.daysStack.alignment = .center
+        self.daysStack.distribution = .fillEqually
+        
+        self.daysStack.addArrangedSubview(today)
+        self.daysStack.addArrangedSubview(tomorrow)
+        self.daysStack.addArrangedSubview(dayAfter)
         
         self.addSubview(self.loader.inlineLoader)
         self.loader.inlineLoader.constrain.centerX(on: self)
@@ -58,5 +69,6 @@ class WeatherForecastView: UIStackView {
         self.today.configure(with: today)
         self.tomorrow.configure(with: tomorrow)
         self.dayAfter.configure(with: dayAfter)
+        self.daylightHours.text = data.sunsetDetails
     }
 }

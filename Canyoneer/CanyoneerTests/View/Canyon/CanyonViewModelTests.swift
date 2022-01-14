@@ -19,6 +19,22 @@ class CanyonViewModelTests: XCTestCase {
         UserPreferencesStorage.clearFavorites()
     }
     
+    func testSolarTime_lessThanHalf() {
+        let sunrise = Date(timeIntervalSince1970: -TimeInterval.hour * 12.3)
+        let sunset = Date(timeIntervalSince1970: TimeInterval.hour * 1.1)
+        let result = CanyonViewModel.Strings.sunsetTimes(sunset: sunset, sunrise: sunrise)
+        let expected = "Daylight: 3:42 AM - 5:06 PM (13 hours)"
+        XCTAssertEqual(expected, result)
+    }
+    
+    func testSolarTime_moreThanHalf() {
+        let sunrise = Date(timeIntervalSince1970: -TimeInterval.hour * 12.3)
+        let sunset = Date(timeIntervalSince1970: TimeInterval.hour * 1.9)
+        let result = CanyonViewModel.Strings.sunsetTimes(sunset: sunset, sunrise: sunrise)
+        let expected = "Daylight: 3:42 AM - 5:54 PM (14 hours)"
+        XCTAssertEqual(expected, result)
+    }
+    
     func testInitialFavorite_true() {
         // setup
         let canyon = Canyon.dummy()

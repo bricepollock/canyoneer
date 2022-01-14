@@ -19,6 +19,7 @@ struct ThreeDayForecast {
     let today: DayWeatherDetails?
     let tomorrow: DayWeatherDetails?
     let dayAfterTomorrow: DayWeatherDetails?
+    let sunsetDetails: String
 }
 
 extension WeatherDataPoint {
@@ -40,7 +41,23 @@ extension WeatherDataPoint {
 }
 
 class CanyonViewModel {
-    
+    enum Strings {
+        static func sunsetTimes(sunset: Date, sunrise: Date) -> String {
+            let sunsetTime = DateFormatter.localizedString(
+                from: sunset,
+                dateStyle: .none,
+                timeStyle: .short
+            )
+            let sunriseTime = DateFormatter.localizedString(
+                from: sunrise,
+                dateStyle: .none,
+                timeStyle: .short
+            )
+            let time = sunset.timeIntervalSince(sunrise) / 60 / 60
+            let hours = Int(time.rounded(.toNearestOrEven))
+            return "Daylight: \(sunriseTime) - \(sunsetTime) (\(hours) hours)"
+        }
+    }
     // Rx
     public let canyonObservable: Observable<Canyon>
     private let canyonSubject: PublishSubject<Canyon>
@@ -64,6 +81,7 @@ class CanyonViewModel {
     private let favoriteService = FavoriteService()
     private let weatherService: WeatherService = NOAAWeatherService()
     private let gpxService = GPXService()
+    private let solarService = SolarService()
     private let bag = DisposeBag()
     
     init(canyonId: String, service: RopeWikiServiceInterface = RopeWikiService()) {
@@ -94,11 +112,15 @@ class CanyonViewModel {
             let isFavorite = self.favoriteService.isFavorite(canyon: canyon)
             self.isFavoriteSubject.onNext(isFavorite)
             
-            self.weatherService.requestCurrentWeatherForLocation(
+            let weatherRequest = self.weatherService.requestCurrentWeatherForLocation(
                 lat: canyon.coordinate.latitude,
                 long: canyon.coordinate.longitude
-            ).subscribeOnNext { details in
-                guard let details = details else {
+            )
+            let solarRequest = self.solarService.sunTimes(for: canyon.coordinate.asCLObject).asObservable()
+            Observable.zip(weatherRequest, solarRequest)
+                .subscribeOnNext({ tuple in
+                let (weather, solar) = tuple
+                guard let details = weather else {
                     DispatchQueue.main.async {
                         self.forecastSubject.onNext(nil)
                     }
@@ -107,12 +129,13 @@ class CanyonViewModel {
                 let forecast = ThreeDayForecast(
                     today: details.requested.dayDetails,
                     tomorrow: details.next?.dayDetails,
-                    dayAfterTomorrow: details.dayAfter?.dayDetails
+                    dayAfterTomorrow: details.dayAfter?.dayDetails,
+                    sunsetDetails: Strings.sunsetTimes(sunset: solar.sunset, sunrise: solar.sunrise)
                 )
                 DispatchQueue.main.async {
                     self.forecastSubject.onNext(forecast)
                 }
-            }.disposed(by: self.bag)
+                }).disposed(by: self.bag)
             
         } onFailure: { error in
             Global.logger.error(error)

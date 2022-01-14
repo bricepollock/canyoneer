@@ -21,7 +21,7 @@ class WeatherForecastDayViewTests: XCTestCase {
     
     func testPrecip() {
         let chance = 0.25884
-        let expected = "25% Chance Moisture"
+        let expected = "25% Moisture"
         let result = WeatherForecastDayView.Strings.precip(chance: chance)
         XCTAssertEqual(expected, result)
     }

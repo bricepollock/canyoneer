@@ -118,6 +118,8 @@
 		40FDB3882791FCCB0065FF47 /* GPXService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3872791FCCB0065FF47 /* GPXService.swift */; };
 		40FDB38A2791FCDE0065FF47 /* Data+toFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3892791FCDE0065FF47 /* Data+toFile.swift */; };
 		40FDB38C2791FCFD0065FF47 /* FileAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB38B2791FCFD0065FF47 /* FileAccess.swift */; };
+		40FDB38E279218C50065FF47 /* SolarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB38D279218C50065FF47 /* SolarService.swift */; };
+		40FDB391279218EA0065FF47 /* Solar in Frameworks */ = {isa = PBXBuildFile; productRef = 40FDB390279218EA0065FF47 /* Solar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -240,6 +242,7 @@
 		40FDB3872791FCCB0065FF47 /* GPXService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXService.swift; sourceTree = "<group>"; };
 		40FDB3892791FCDE0065FF47 /* Data+toFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+toFile.swift"; sourceTree = "<group>"; };
 		40FDB38B2791FCFD0065FF47 /* FileAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileAccess.swift; sourceTree = "<group>"; };
+		40FDB38D279218C50065FF47 /* SolarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +253,7 @@
 				40FDB3812791CFDF0065FF47 /* MapboxMaps in Frameworks */,
 				4032AEC4278F3B56002EEA4E /* RxSwift in Frameworks */,
 				40E443442789F82D00FE245D /* MultiSelectSegmentedControl in Frameworks */,
+				40FDB391279218EA0065FF47 /* Solar in Frameworks */,
 				40FDB3862791FAA00065FF47 /* CoreGPX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,6 +578,7 @@
 			isa = PBXGroup;
 			children = (
 				40E443212787A0F200FE245D /* RopeWikiService.swift */,
+				40FDB38D279218C50065FF47 /* SolarService.swift */,
 				40E443252787A23A00FE245D /* SearchService.swift */,
 				40E4433627888D9100FE245D /* LocationService.swift */,
 				40FDB3872791FCCB0065FF47 /* GPXService.swift */,
@@ -649,6 +654,7 @@
 				4032AEC3278F3B56002EEA4E /* RxSwift */,
 				40FDB3802791CFDF0065FF47 /* MapboxMaps */,
 				40FDB3852791FAA00065FF47 /* CoreGPX */,
+				40FDB390279218EA0065FF47 /* Solar */,
 			);
 			productName = Canyoneer;
 			productReference = 40E4428327875D9F00FE245D /* Canyoneer.app */;
@@ -708,6 +714,7 @@
 				4032AEC2278F3B56002EEA4E /* XCRemoteSwiftPackageReference "RxSwift" */,
 				40FDB37F2791CFDF0065FF47 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
 				40FDB3842791FA9F0065FF47 /* XCRemoteSwiftPackageReference "CoreGPX" */,
+				40FDB38F279218EA0065FF47 /* XCRemoteSwiftPackageReference "Solar" */,
 			);
 			productRefGroup = 40E4428427875D9F00FE245D /* Products */;
 			projectDirPath = "";
@@ -832,6 +839,7 @@
 				40E442F4278775A000FE245D /* Observable+onNext.swift in Sources */,
 				40E442C327875FCD00FE245D /* NSDirectionalEdgeInsets+convenience.swift in Sources */,
 				40E4431827879B8000FE245D /* RegionListRow.swift in Sources */,
+				40FDB38E279218C50065FF47 /* SolarService.swift in Sources */,
 				40783CEB278DF5E3001E78DB /* Storage.swift in Sources */,
 				40E442FA2787777700FE245D /* FontBook.swift in Sources */,
 				40E443312787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift in Sources */,
@@ -1172,6 +1180,14 @@
 				version = 0.9.0;
 			};
 		};
+		40FDB38F279218EA0065FF47 /* XCRemoteSwiftPackageReference "Solar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ceeK/Solar";
+			requirement = {
+				kind = exactVersion;
+				version = 3.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1199,6 +1215,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 40FDB3842791FA9F0065FF47 /* XCRemoteSwiftPackageReference "CoreGPX" */;
 			productName = CoreGPX;
+		};
+		40FDB390279218EA0065FF47 /* Solar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40FDB38F279218EA0065FF47 /* XCRemoteSwiftPackageReference "Solar" */;
+			productName = Solar;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
