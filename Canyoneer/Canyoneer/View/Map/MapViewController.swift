@@ -10,6 +10,11 @@ import UIKit
 import CoreLocation
 import RxSwift
 
+enum CanyonMapType {
+    case apple
+    case mapbox
+}
+
 class MapViewController: UIViewController {
     enum Strings {
         static let showTopoLines = "Show Route Lines"
@@ -17,7 +22,7 @@ class MapViewController: UIViewController {
     }
     
     private let locationService = LocationService()
-    internal let mapView: MapView
+    internal let mapView: CanyonMap
     private let showLegendButton = RxUIButton()
     private let showLineOverlayStack = UIStackView()
     private let showLineOverlayTitle = UILabel()
@@ -28,9 +33,12 @@ class MapViewController: UIViewController {
     private let viewModel = MapViewModel()
     private let bag = DisposeBag()
     
-    init(canyons: [Canyon]) {
+    init(type: CanyonMapType, canyons: [Canyon]) {
         self.canyons = canyons
-        self.mapView = AppleMapView()
+        switch type {
+        case .apple: self.mapView = AppleMapView()
+        case .mapbox: self.mapView = MapboxMapView()
+        }
         super.init(nibName: nil, bundle: nil)
         self.mapView.didRequestCanyon.subscribeOnNext { [weak self] canyonId in
             let next = CanyonViewController(canyonId: canyonId)

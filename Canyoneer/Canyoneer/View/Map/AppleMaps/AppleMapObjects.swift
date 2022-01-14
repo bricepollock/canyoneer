@@ -28,36 +28,10 @@ class WaypointAnnotation: MKPointAnnotation {
     }
 }
 
-enum TopoLineType {
-    case driving
-    case approach
-    case descent
-    case exit
-    
-    var color: UIColor {
-        switch self {
-        case .driving: return ColorPalette.Color.action
-        case .approach: return ColorPalette.Color.green
-        case .descent: return ColorPalette.Color.warning
-        case .exit: return ColorPalette.Color.yellow
-        }
-    }
-}
-
 class TopoLineOverlay: MKPolyline {
     var name: String?
-    var type: TopoLineType? {
-        guard let name = name else { return nil }
-        if name.lowercased().contains("approach") {
-            return .approach
-        } else if name.lowercased().contains("drive") || name.lowercased().contains("shuttle") {
-            return .driving
-        } else if name.lowercased().contains("descent") {
-            return .descent
-        } else if name.lowercased().contains("exit") {
-            return .exit
-        } else {
-            return nil
-        }
+    var type: TopoLineType {
+        guard let name = name else { return .unknown }
+        return TopoLineType(string: name)
     }
 }

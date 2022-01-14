@@ -110,7 +110,7 @@ class SearchViewController: ScrollableStackViewController {
     
     @objc func didRequestMap() {
         let canyons = self.viewModel.currentResults.compactMap { $0.canyonDetails }
-        let next = MapViewController(canyons: canyons)
+        let next = MapViewController(type: .apple, canyons: canyons)
         self.navigationController?.pushViewController(next, animated: true)
     }
     

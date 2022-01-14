@@ -70,7 +70,7 @@ class LandingViewController: ScrollableStackViewController {
             self.loadingComponent.startLoading(loadingType: .screen)
             self.viewModel.canyons().subscribe(onSuccess: { [weak self] canyons in
                 defer { self?.loadingComponent.stopLoading() }
-                let next = MapViewController(canyons: canyons)
+                let next = MapViewController(type: .apple, canyons: canyons)
                 self?.navigationController?.pushViewController(next, animated: true)
             }, onFailure: { error in
                 defer { self.loadingComponent.stopLoading() }

@@ -108,7 +108,7 @@ class CanyonViewController: ScrollableStackViewController {
     
     @objc func didRequestMap() {
         guard let thisCanyon = self.viewModel.canyon else { return }
-        let next = MapViewController(canyons: [thisCanyon])
+        let next = MapViewController(type: .mapbox, canyons: [thisCanyon])
         self.navigationController?.pushViewController(next, animated: true)
     }
 }

@@ -9,7 +9,7 @@ import Foundation
 import MapKit
 import RxSwift
 
-class AppleMapView: NSObject, MapView {
+class AppleMapView: NSObject, CanyonMap {
     public var locationService = LocationService()
     
     private let mapView = MKMapView()
@@ -122,7 +122,7 @@ extension AppleMapView: MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
         if let routePolyline = overlay as? TopoLineOverlay {
             let renderer = MKPolylineRenderer(polyline: routePolyline)
-            let color = routePolyline.type?.color ?? ColorPalette.GrayScale.dark
+            let color = routePolyline.type.color
             renderer.strokeColor = color.withAlphaComponent(0.6)
             renderer.lineWidth = 3
             return renderer

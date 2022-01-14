@@ -71,7 +71,7 @@ class MapLegendBottomSheetViewController: BottomSheetViewController {
         self.configure(stack: self.greenStack, title: self.greenLineTitle, line: self.greenLine, text: Strings.approach, color: TopoLineType.approach.color)
         self.configure(stack: self.redStack, title: self.redLineTitle, line: self.redLine, text: Strings.descent, color: TopoLineType.descent.color)
         self.configure(stack: self.yellowStack, title: self.yellowLineTitle, line: self.yellowLine, text: Strings.exit, color: TopoLineType.exit.color)
-        self.configure(stack: self.blackStack, title: self.blackLineTitle, line: self.blackLine, text: Strings.unknown, color: ColorPalette.GrayScale.dark)
+        self.configure(stack: self.blackStack, title: self.blackLineTitle, line: self.blackLine, text: Strings.unknown, color: TopoLineType.unknown.color)
     }
     
     private func configure(stack: UIStackView, title: UILabel, line: UIView, text: String, color: UIColor) {

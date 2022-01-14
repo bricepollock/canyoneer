@@ -10,7 +10,7 @@ import UIKit
 import CoreLocation
 import RxSwift
 
-protocol MapView {
+protocol CanyonMap {
     var locationService: LocationService { get }
     
     /// the map view
@@ -49,7 +49,7 @@ protocol MapView {
     func focusCameraOn(location: CLLocationCoordinate2D)
 }
 
-extension MapView {
+extension CanyonMap {
     
     public func updateInitialCamera() {
         let utahCenter = CLLocationCoordinate2D(latitude: 39.3210, longitude: -111.0937)
