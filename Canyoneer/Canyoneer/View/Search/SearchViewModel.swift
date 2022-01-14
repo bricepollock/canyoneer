@@ -8,11 +8,24 @@
 import Foundation
 import RxSwift
 
-enum SearchType {
+enum SearchType: Equatable {
+    static func == (lhs: SearchType, rhs: SearchType) -> Bool {
+        return lhs.typeValue == rhs.typeValue
+    }
+    
     case string(query: String)
     case nearMe
     case favorites
     case map(list: [SearchResult])
+    
+    var typeValue: Int {
+        switch self {
+        case .string: return 1
+        case .nearMe: return 2
+        case .favorites: return 3
+        case .map: return 4
+        }
+    }
 }
 
 class SearchViewModel {
@@ -35,6 +48,9 @@ class SearchViewModel {
     public let title: Observable<String>
     private let titleSubject: PublishSubject<String>
     
+    public let hasDownloadedAll: Observable<Bool>
+    private let hasDownloadedAllSubject: PublishSubject<Bool>
+    
     // used for what to show
     public var currentResults: [SearchResult] = []
     // used for base of the filtering
@@ -44,12 +60,14 @@ class SearchViewModel {
     private let resultsSubject: PublishSubject<[SearchResult]>
     
     public let loadingComponent = LoadingComponent()
+    private let downloadLoader = LoadingComponent()
     
     private let canyonService: RopeWikiServiceInterface
     private let searchService: SearchServiceInterface
     private let favoriteService = FavoriteService()
+    private let mapService = MapService.shared
     private let bag = DisposeBag()
-    private let type: SearchType
+    public let type: SearchType
     
     init(
         type: SearchType,
@@ -64,6 +82,9 @@ class SearchViewModel {
         
         self.titleSubject = PublishSubject()
         self.title = self.titleSubject.asObservable()
+        
+        self.hasDownloadedAllSubject = PublishSubject()
+        self.hasDownloadedAll = self.hasDownloadedAllSubject.asObservable()
         
         self.results.subscribeOnNext { [weak self] results in
             self?.currentResults = results
@@ -100,11 +121,19 @@ class SearchViewModel {
             title = Strings.favorites
             self.favoriteService.allFavorites().subscribe { [weak self] canyons in
                 defer { self?.loadingComponent.stopLoading() }
+                guard let self = self else { return }
                 let results = canyons.map {
                     return SearchResult(name: $0.name, type: .canyon, canyonDetails: $0, regionDetails: nil)
                 }
-                self?.initialResults = results
-                self?.resultsSubject.onNext(results)
+                self.initialResults = results
+                self.resultsSubject.onNext(results)
+                
+                self.mapService.hasDownloaded(all: canyons).subscribe { [weak self] hasAll in
+                    self?.hasDownloadedAllSubject.onNext(hasAll)
+                } onFailure: { error in
+                    Global.logger.error(error)
+                    self.hasDownloadedAllSubject.onNext(false)
+                }.disposed(by: self.bag)
             } onFailure: { error in
                 defer { self.loadingComponent.stopLoading() }
                 Global.logger.error(error)
@@ -123,5 +152,25 @@ class SearchViewModel {
     func updateFromFilter(with filtered: [SearchResult]) {
         self.currentResults = filtered
         self.resultsSubject.onNext(filtered)
+    }
+    
+    func downloadCanyonMaps() {
+        self.downloadLoader.startLoading(loadingType: .screen)
+        self.mapService.downloadTiles(for: self.currentResults.compactMap { $0.canyonDetails }).subscribe { _ in
+            defer {
+                DispatchQueue.main.async {
+                    self.downloadLoader.stopLoading()
+                    self.hasDownloadedAllSubject.onNext(true)
+                }
+            }
+            Global.logger.info("Downloaded all Canyons")
+        } onFailure: { error in
+            defer {
+                DispatchQueue.main.async {
+                    self.downloadLoader.stopLoading()
+                }
+            }
+            Global.logger.error(error)
+        }.disposed(by: self.bag)
     }
 }

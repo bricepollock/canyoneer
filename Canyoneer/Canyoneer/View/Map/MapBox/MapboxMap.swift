@@ -17,7 +17,7 @@ class MapboxMapView: NSObject, CanyonMap {
     private var mapView: MapView!
     public var view: UIView {
         if self.mapView == nil {
-            let myResourceOptions = ResourceOptions(accessToken: "pk.eyJ1IjoiYnJpY2Vwb2xsb2NrIiwiYSI6ImNreWRhdGNtODAyNzUyb2xoMXdmbWFvd3UifQ.-iGgCZKoYX9wKf5uAyLWHA")
+            let myResourceOptions = ResourceOptions(accessToken: MapService.publicAccessToken)
             let myMapInitOptions = MapInitOptions(
                 resourceOptions: myResourceOptions,
                 styleURI: StyleURI.outdoors

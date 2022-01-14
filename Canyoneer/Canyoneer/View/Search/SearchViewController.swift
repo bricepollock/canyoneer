@@ -12,6 +12,9 @@ import RxSwift
 class SearchViewController: ScrollableStackViewController {
     
     private let filterSheet = BottomSheetFilterViewController.shared
+    private lazy var downloadButton = {
+        return UIBarButtonItem(image: UIImage(systemName: "arrow.down.circle"), style: .plain, target: self, action: #selector(self.didRequestDownloads))
+    }()
     
     private let viewModel: SearchViewModel
     private var filteredResults: [Canyon]?
@@ -39,10 +42,22 @@ class SearchViewController: ScrollableStackViewController {
         self.viewModel.loadingComponent.inlineLoader.constrain.centerY(on: self.view)
         
         // setup bar button items
+        
         let mapButton = UIBarButtonItem(image: UIImage(systemName: "map"), style: .plain, target: self, action: #selector(didRequestMap))
         let filterButton = UIBarButtonItem(image: UIImage(systemName: "line.3.horizontal.decrease.circle"), style: .plain, target: self, action: #selector(didRequestFilters))
         let wasLaunchedFromMap = (self.navigationController?.viewControllers.count ?? 0) > 2
-        self.navigationItem.rightBarButtonItems = wasLaunchedFromMap ? [] : [mapButton, filterButton]
+        
+        let buttons: [UIBarButtonItem]
+        if wasLaunchedFromMap {
+            buttons = []
+        } else {
+            if self.viewModel.type == .favorites {
+                buttons = [mapButton, filterButton, self.downloadButton]
+            } else {
+                buttons = [mapButton, filterButton]
+            }
+        }
+        self.navigationItem.rightBarButtonItems = buttons
         
         self.viewModel.refresh()
     }
@@ -63,6 +78,10 @@ class SearchViewController: ScrollableStackViewController {
         
         self.filterSheet.willDismiss.subscribeOnNext { [weak self] () in
             self?.updateWithFilters()
+        }.disposed(by: self.bag)
+        
+        self.viewModel.hasDownloadedAll.subscribeOnNext { [weak self] haveAll in
+            self?.downloadButton.image = haveAll ? UIImage(systemName: "arrow.down.circle.fill")! : UIImage(systemName: "arrow.down.circle")!
         }.disposed(by: self.bag)
     }
     
@@ -116,5 +135,9 @@ class SearchViewController: ScrollableStackViewController {
     
     @objc func didRequestFilters() {
         self.present(self.filterSheet, animated: false)
+    }
+    
+    @objc func didRequestDownloads() {
+        self.viewModel.downloadCanyonMaps()
     }
 }

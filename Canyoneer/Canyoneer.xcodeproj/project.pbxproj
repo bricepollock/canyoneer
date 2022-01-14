@@ -120,6 +120,7 @@
 		40FDB38E279218C50065FF47 /* SolarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB38D279218C50065FF47 /* SolarService.swift */; };
 		40FDB391279218EA0065FF47 /* Solar in Frameworks */ = {isa = PBXBuildFile; productRef = 40FDB390279218EA0065FF47 /* Solar */; };
 		40FDB3932792270F0065FF47 /* WeatherDataPointTests+Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3922792270F0065FF47 /* WeatherDataPointTests+Strings.swift */; };
+		40FDB39527922C950065FF47 /* MapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB39427922C950065FF47 /* MapService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -243,6 +244,7 @@
 		40FDB38B2791FCFD0065FF47 /* FileAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileAccess.swift; sourceTree = "<group>"; };
 		40FDB38D279218C50065FF47 /* SolarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarService.swift; sourceTree = "<group>"; };
 		40FDB3922792270F0065FF47 /* WeatherDataPointTests+Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherDataPointTests+Strings.swift"; sourceTree = "<group>"; };
+		40FDB39427922C950065FF47 /* MapService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -578,6 +580,7 @@
 			isa = PBXGroup;
 			children = (
 				40E443212787A0F200FE245D /* RopeWikiService.swift */,
+				40FDB39427922C950065FF47 /* MapService.swift */,
 				40FDB38D279218C50065FF47 /* SolarService.swift */,
 				40E443252787A23A00FE245D /* SearchService.swift */,
 				40E4433627888D9100FE245D /* LocationService.swift */,
@@ -763,6 +766,7 @@
 				40E442CF278760EF00FE245D /* RxButton.swift in Sources */,
 				40E442D1278760EF00FE245D /* LoadingComponent.swift in Sources */,
 				407FB75327906DF0008B65BE /* MapLegendBottomSheetViewController.swift in Sources */,
+				40FDB39527922C950065FF47 /* MapService.swift in Sources */,
 				40FDB37E2791CF5D0065FF47 /* MapboxMap.swift in Sources */,
 				40FDB3882791FCCB0065FF47 /* GPXService.swift in Sources */,
 				40E442F82787770200FE245D /* ContainedButton.swift in Sources */,
