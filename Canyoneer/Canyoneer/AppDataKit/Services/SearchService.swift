@@ -16,7 +16,6 @@ protocol SearchServiceInterface {
 }
 
 struct SearchService: SearchServiceInterface {
-    private static let maxNearMe = 50
     private static let maxSearchResults = 100
     
     private let ropeWikiService: RopeWikiServiceInterface
@@ -56,7 +55,7 @@ struct SearchService: SearchServiceInterface {
                         let rhsDistance = rhs.coordinate.asCLObject.distance(to: currentLocation)
                         return lhsDistance < rhsDistance
                     }
-                        .prefix(Self.maxNearMe)
+                        .prefix(limit)
                         .sorted(by: { lhs, rhs in
                             return lhs.quality > rhs.quality
                         })
@@ -65,7 +64,7 @@ struct SearchService: SearchServiceInterface {
                         }
                     
                     
-                    single(.success(SearchResultList(searchString: "Closest \(Self.maxNearMe)", result: results)))
+                    single(.success(SearchResultList(searchString: "Closest \(limit)", result: results)))
                 }
                 return Disposables.create()
             }

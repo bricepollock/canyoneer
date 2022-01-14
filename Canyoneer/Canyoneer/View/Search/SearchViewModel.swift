@@ -29,7 +29,7 @@ class SearchViewModel {
             return "Map (\(count) Canyons)"
         }
     }
-    private static let maxNearMe = 50
+    private static let maxNearMe = 100
     private static let maxMap = 100
     
     public let title: Observable<String>
