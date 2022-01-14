@@ -9,9 +9,8 @@ import Foundation
 import RxSwift
 
 struct DayWeatherDetails {
-    let maxTemp: Double
-    let minTemp: Double
-    let precipProbability: Double
+    let temp: String
+    let precip: String
     let dayOfWeek: String
 }
 
@@ -23,6 +22,16 @@ struct ThreeDayForecast {
 }
 
 extension WeatherDataPoint {
+    enum Strings {
+        static func temp(max: Double, min: Double) -> String {
+            return "\(Int(min)) - \(Int(max)) °F"
+        }
+        static func precip(chance: Double) -> String {
+            let percentage = chance * 100
+            return "\(String(Int(percentage)))% Moisture"
+        }
+    }
+    
     var dayDetails: DayWeatherDetails? {
         guard let max = self.temperatureMax, let min = self.temperatureMin, let precip = self.precipProbability, let date = self.time else {
             return nil
@@ -32,9 +41,8 @@ extension WeatherDataPoint {
         let dayOfWeek = dateFormatter.string(from: date).capitalized
         
         return DayWeatherDetails(
-            maxTemp: max,
-            minTemp: min,
-            precipProbability: precip,
+            temp: Strings.temp(max: max, min: min),
+            precip: Strings.precip(chance: precip),
             dayOfWeek: dayOfWeek
         )
     }
@@ -58,6 +66,7 @@ class CanyonViewModel {
             return "Daylight: \(sunriseTime) - \(sunsetTime) (\(hours) hours)"
         }
     }
+    
     // Rx
     public let canyonObservable: Observable<Canyon>
     private let canyonSubject: PublishSubject<Canyon>

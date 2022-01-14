@@ -9,16 +9,6 @@ import Foundation
 import UIKit
 
 class WeatherForecastDayView: UIStackView {
-    enum Strings {
-        static let unknown = "Not Found"
-        static func temp(max: Double, min: Double) -> String {
-            return "\(Int(max)) - \(Int(min)) °F"
-        }
-        static func precip(chance: Double) -> String {
-            let percentage = chance * 100
-            return "\(String(Int(percentage)))% Moisture"
-        }
-    }
     
     private let tempLabel = UILabel()
     private let precipLabel = UILabel()
@@ -47,9 +37,8 @@ class WeatherForecastDayView: UIStackView {
     }
     
     func configure(with data: DayWeatherDetails) {
-        self.tempLabel.text = Strings.temp(max: data.maxTemp, min: data.minTemp)
-        self.precipLabel.text = Strings.precip(chance: data.precipProbability)
+        self.tempLabel.text = data.temp
+        self.precipLabel.text = data.precip
         self.dayLabel.text = data.dayOfWeek
-        
     }
 }

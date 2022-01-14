@@ -224,25 +224,25 @@ class WeatherDataAlert: NSObject, NSCoding {
 }
 
 class WeatherDataPoint: NSObject, NSCoding {
-    let time: Date?
-    let iconType: WeatherIconType?
-    let summary: String? // A human-readable text summary of this data point.
-    let sunrise: Date?
-    let sunset: Date?
-    let moonPhase: MoonPhase?
-    let precipProbability: Double? // [0-1]
-    let precipIntensity: PrecipIntensity?
-    let cloudCover: CloudCover?
-    let windSpeed: Double? //mph
-    let windBearing: Double? // zero is north, going clockwise
-    let temperature: Double? // temperature at given time, not available on daily metric (F)
-    let temperatureMax: Double? // F
-    let temperatureMin: Double? // F
-    let temperatureMaxTime: Date?
-    let temperatureMinTime: Date?
-    let visibility: Double? // miles visible, capped at 10 miles
-    let pressure: Double? // millibars
-    let alerts: [WeatherDataAlert]
+    var time: Date?
+    var iconType: WeatherIconType?
+    var summary: String? // A human-readable text summary of this data point.
+    var sunrise: Date?
+    var sunset: Date?
+    var moonPhase: MoonPhase?
+    var precipProbability: Double? // [0-1]
+    var precipIntensity: PrecipIntensity?
+    var cloudCover: CloudCover?
+    var windSpeed: Double? //mph
+    var windBearing: Double? // zero is north, going clockwise
+    var temperature: Double? // temperature at given time, not available on daily metric (F)
+    var temperatureMax: Double? // F
+    var temperatureMin: Double? // F
+    var temperatureMaxTime: Date?
+    var temperatureMinTime: Date?
+    var visibility: Double? // miles visible, capped at 10 miles
+    var pressure: Double? // millibars
+    var alerts: [WeatherDataAlert]
     
     init(
         time: Date?,
@@ -331,5 +331,29 @@ class WeatherDataPoint: NSObject, NSCoding {
         if let visibility = visibility { aCoder.encode(visibility, forKey: "visibility") }
         if let pressure = pressure { aCoder.encode(pressure, forKey: "pressure") }
         aCoder.encode(alerts, forKey: "alerts")
+    }
+    
+    static func dummy() -> WeatherDataPoint {
+        return WeatherDataPoint(
+            time: nil,
+            iconType: nil,
+            summary: nil,
+            sunrise: nil,
+            sunset: nil,
+            moonPhase: nil,
+            precipProbability: nil,
+            precipIntensity: nil,
+            cloudCover: nil,
+            windSpeed: nil,
+            windBearing: nil,
+            temperature: nil,
+            temperatureMax: nil,
+            temperatureMin: nil,
+            temperatureMaxTime: nil,
+            temperatureMinTime: nil,
+            visibility: nil,
+            pressure: nil,
+            alerts: []
+        )
     }
 }
