@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import MapKit
+import UIKit
 import CoreLocation
 import RxSwift
 
@@ -17,21 +17,25 @@ class MapViewController: UIViewController {
     }
     
     private let locationService = LocationService()
-    internal let mapView = MKMapView()
+    internal let mapView: MapView
     private let showLegendButton = RxUIButton()
     private let showLineOverlayStack = UIStackView()
     private let showLineOverlayTitle = UILabel()
     private let showLineOverlaySwitch = UISwitch()
     private let filterSheet = BottomSheetFilterViewController.shared
-    
-    private var mapOverlays = [MKPolyline]()
+
     private let canyons: [Canyon]
     private let viewModel = MapViewModel()
     private let bag = DisposeBag()
     
     init(canyons: [Canyon]) {
         self.canyons = canyons
+        self.mapView = AppleMapView()
         super.init(nibName: nil, bundle: nil)
+        self.mapView.didRequestCanyon.subscribeOnNext { [weak self] canyonId in
+            let next = CanyonViewController(canyonId: canyonId)
+            self?.navigationController?.pushViewController(next, animated: true)
+        }.disposed(by: self.bag)
     }
     
     required init?(coder: NSCoder) {
@@ -40,7 +44,7 @@ class MapViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.addSubview(self.mapView)
+        self.view.addSubview(self.mapView.view)
         self.navigationItem.backButtonTitle = ""
         
         let listButton = UIBarButtonItem(image: UIImage(systemName: "list.bullet.rectangle"), style: .plain, target: self, action: #selector(didRequestList))
@@ -51,12 +55,11 @@ class MapViewController: UIViewController {
             self.updateWithFilters()
         }.disposed(by: self.bag)
         
-        self.mapView.constrain.fillSuperview()
-        self.mapView.delegate = self
-        self.mapView.showsUserLocation = true
-        self.updateInitialRegion()
-        self.render(canyons: self.canyons)
-        self.updateCamera(canyons: self.canyons)
+        self.mapView.view.constrain.fillSuperview()
+        self.mapView.initialize()
+        self.mapView.updateInitialCamera()
+        self.mapView.render(canyons: canyons)
+        self.mapView.updateCamera(canyons: canyons)
         self.renderControls()
     }
     
@@ -66,9 +69,9 @@ class MapViewController: UIViewController {
         mapControlsStackView.spacing = .small
         mapControlsStackView.alignment = .trailing
         
-        self.mapView.addSubview(mapControlsStackView)
-        mapControlsStackView.constrain.trailing(to: self.mapView, with: -Grid.medium)
-        mapControlsStackView.constrain.bottom(to: self.mapView, with: -Grid.medium)
+        self.mapView.view.addSubview(mapControlsStackView)
+        mapControlsStackView.constrain.trailing(to: self.mapView.view, with: -Grid.medium)
+        mapControlsStackView.constrain.bottom(to: self.mapView.view, with: -Grid.medium)
         mapControlsStackView.addArrangedSubview(self.showLegendButton)
         mapControlsStackView.addArrangedSubview(self.showLineOverlayStack)
         
@@ -90,63 +93,6 @@ class MapViewController: UIViewController {
         self.showLineOverlaySwitch.addTarget(self, action: #selector(lineOverlaySwitchChanged), for: .valueChanged)
     }
     
-    private func updateInitialRegion() {
-        let utahCenter = CLLocationCoordinate2D(latitude: 39.3210, longitude: -111.0937)
-        self.mapView.region = MKCoordinateRegion(center: utahCenter, span: MKCoordinateSpan(latitudeDelta: 20, longitudeDelta: 20))
-    }
-    
-    private func render(canyons: [Canyon]) {
-        // clear map
-        self.mapView.removeAnnotations(self.mapView.annotations)
-        self.mapView.removeOverlays(self.mapView.overlays)
-        
-        // Render annotations
-        canyons.forEach { canyon in
-            let annotation = CanyonAnnotation(canyon: canyon)
-            self.mapView.addAnnotation(annotation)
-        }
-        
-        // render lines
-        let overlays = canyons.flatMap { canyon in
-            return canyon.geoLines.map { feature -> MKPolyline in
-                let overlay = TopoLineOverlay(coordinates: feature.coordinates.map { $0.asCLObject }, count: feature.coordinates.count)
-                overlay.name = feature.name
-                return overlay
-            }
-        }
-        self.mapOverlays = overlays
-        overlays.forEach {
-            self.mapView.addOverlay($0)
-        }
-        
-        // render waypoints if only showing one canyon
-        if canyons.count == 1 {
-            let waypoints = canyons.flatMap { canyon in
-                canyon.geoWaypoints.map { feature in
-                    return WaypointAnnotation(feature: feature)
-                }
-            }
-            waypoints.forEach { annotation in
-                self.mapView.addAnnotation(annotation)
-            }
-        }
-    }
-    
-    private func updateCamera(canyons: [Canyon]) {
-        // center location
-        if canyons.count == 1 {
-            let center = canyons[0].coordinate.asCLObject
-            let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
-            self.mapView.setRegion(region, animated: true)
-        } else if locationService.isLocationEnabled() {
-            self.locationService.getCurrentLocation { location in
-                let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
-                let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
-                self.mapView.setRegion(region, animated: true)
-            }
-        }
-    }
-    
     private func updateWithFilters() {
         self.filterSheet.update()
         // perfom filter
@@ -155,7 +101,7 @@ class MapViewController: UIViewController {
         let canyons = results.compactMap {
             return $0.canyonDetails
         }
-        self.render(canyons: canyons)
+        self.mapView.render(canyons: canyons)
     }
     
     // MARK: Actions
@@ -165,10 +111,8 @@ class MapViewController: UIViewController {
     }
     
     @objc func didRequestList() {
-        let canyons = self.mapView.visibleAnnotations().compactMap {
-            return $0 as? CanyonAnnotation
-        }.map {
-            return SearchResult(name: $0.canyon.name, type: .canyon, canyonDetails: $0.canyon, regionDetails: nil)
+        let canyons = self.mapView.visibleCanyons.map {
+            return SearchResult(name: $0.name, type: .canyon, canyonDetails: $0, regionDetails: nil)
         }
         let next = SearchViewController(type: .map(list: canyons))
         self.navigationController?.pushViewController(next, animated: true)
@@ -176,14 +120,9 @@ class MapViewController: UIViewController {
     
     @objc func lineOverlaySwitchChanged() {
         if showLineOverlaySwitch.isOn {
-            guard self.mapView.overlays.isEmpty else {
-                return // we already added the overlays
-            }
-            self.mapOverlays.forEach {
-                self.mapView.addOverlay($0)
-            }
+            self.mapView.renderPolylinesFromCache()
         } else {
-            self.mapView.removeOverlays(self.mapView.overlays)
+            self.mapView.removePolylines()
         }
     }
 }
