@@ -114,6 +114,10 @@
 		40FDB37E2791CF5D0065FF47 /* MapboxMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB37D2791CF5D0065FF47 /* MapboxMap.swift */; };
 		40FDB3812791CFDF0065FF47 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 40FDB3802791CFDF0065FF47 /* MapboxMaps */; };
 		40FDB3832791D0E30065FF47 /* TopoLineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3822791D0E30065FF47 /* TopoLineType.swift */; };
+		40FDB3862791FAA00065FF47 /* CoreGPX in Frameworks */ = {isa = PBXBuildFile; productRef = 40FDB3852791FAA00065FF47 /* CoreGPX */; };
+		40FDB3882791FCCB0065FF47 /* GPXService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3872791FCCB0065FF47 /* GPXService.swift */; };
+		40FDB38A2791FCDE0065FF47 /* Data+toFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3892791FCDE0065FF47 /* Data+toFile.swift */; };
+		40FDB38C2791FCFD0065FF47 /* FileAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB38B2791FCFD0065FF47 /* FileAccess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -233,6 +237,9 @@
 		40E4434F278B4F4600FE245D /* SeasonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonView.swift; sourceTree = "<group>"; };
 		40FDB37D2791CF5D0065FF47 /* MapboxMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxMap.swift; sourceTree = "<group>"; };
 		40FDB3822791D0E30065FF47 /* TopoLineType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopoLineType.swift; sourceTree = "<group>"; };
+		40FDB3872791FCCB0065FF47 /* GPXService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXService.swift; sourceTree = "<group>"; };
+		40FDB3892791FCDE0065FF47 /* Data+toFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+toFile.swift"; sourceTree = "<group>"; };
+		40FDB38B2791FCFD0065FF47 /* FileAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileAccess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +250,7 @@
 				40FDB3812791CFDF0065FF47 /* MapboxMaps in Frameworks */,
 				4032AEC4278F3B56002EEA4E /* RxSwift in Frameworks */,
 				40E443442789F82D00FE245D /* MultiSelectSegmentedControl in Frameworks */,
+				40FDB3862791FAA00065FF47 /* CoreGPX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +576,7 @@
 				40E443212787A0F200FE245D /* RopeWikiService.swift */,
 				40E443252787A23A00FE245D /* SearchService.swift */,
 				40E4433627888D9100FE245D /* LocationService.swift */,
+				40FDB3872791FCCB0065FF47 /* GPXService.swift */,
 				4005DFB5278F583500EB1640 /* FavoriteService.swift */,
 				407FB75A2790CD2B008B65BE /* NOAAWeatherService.swift */,
 				407FB75E2790CD2B008B65BE /* WeatherService.swift */,
@@ -590,6 +599,8 @@
 				40E443392788914000FE245D /* CLLocation2D+distance.swift */,
 				4032AEC7278F3EFE002EEA4E /* Array+safe.swift */,
 				4005DFBD278F5DD900EB1640 /* Logger+error.swift */,
+				40FDB3892791FCDE0065FF47 /* Data+toFile.swift */,
+				40FDB38B2791FCFD0065FF47 /* FileAccess.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -637,6 +648,7 @@
 				40E443432789F82D00FE245D /* MultiSelectSegmentedControl */,
 				4032AEC3278F3B56002EEA4E /* RxSwift */,
 				40FDB3802791CFDF0065FF47 /* MapboxMaps */,
+				40FDB3852791FAA00065FF47 /* CoreGPX */,
 			);
 			productName = Canyoneer;
 			productReference = 40E4428327875D9F00FE245D /* Canyoneer.app */;
@@ -695,6 +707,7 @@
 				40E443422789F82D00FE245D /* XCRemoteSwiftPackageReference "MultiSelectSegmentedControl" */,
 				4032AEC2278F3B56002EEA4E /* XCRemoteSwiftPackageReference "RxSwift" */,
 				40FDB37F2791CFDF0065FF47 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+				40FDB3842791FA9F0065FF47 /* XCRemoteSwiftPackageReference "CoreGPX" */,
 			);
 			productRefGroup = 40E4428427875D9F00FE245D /* Products */;
 			projectDirPath = "";
@@ -744,6 +757,7 @@
 				40E442D1278760EF00FE245D /* LoadingComponent.swift in Sources */,
 				407FB75327906DF0008B65BE /* MapLegendBottomSheetViewController.swift in Sources */,
 				40FDB37E2791CF5D0065FF47 /* MapboxMap.swift in Sources */,
+				40FDB3882791FCCB0065FF47 /* GPXService.swift in Sources */,
 				40E442F82787770200FE245D /* ContainedButton.swift in Sources */,
 				40E442FE27877A9200FE245D /* LandingViewController+textField.swift in Sources */,
 				40E442DF2787630700FE245D /* GlobalStrings.swift in Sources */,
@@ -760,6 +774,7 @@
 				407FB7712790FF49008B65BE /* CanyonMap.swift in Sources */,
 				40E443222787A0F200FE245D /* RopeWikiService.swift in Sources */,
 				407FB7632790CD2B008B65BE /* NOAASerializer.swift in Sources */,
+				40FDB38C2791FCFD0065FF47 /* FileAccess.swift in Sources */,
 				4005DFCF278F96E100EB1640 /* MapView+annotations.swift in Sources */,
 				40783CED278DF63F001E78DB /* UserPreferencesStorage.swift in Sources */,
 				40E4433A2788914000FE245D /* CLLocation2D+distance.swift in Sources */,
@@ -801,6 +816,7 @@
 				40E4430F2787897F00FE245D /* SubCanyonListView.swift in Sources */,
 				407FB7672790CDB3008B65BE /* UnitConverter.swift in Sources */,
 				40E4432F2787D90C00FE245D /* RequestError.swift in Sources */,
+				40FDB38A2791FCDE0065FF47 /* Data+toFile.swift in Sources */,
 				40E442EF2787710700FE245D /* RegionResultView.swift in Sources */,
 				40E443412789F36C00FE245D /* BottomSheetFilterViewController.swift in Sources */,
 				40E4430B2787801900FE245D /* SubRegionListView.swift in Sources */,
@@ -1146,6 +1162,14 @@
 				version = 10.2.0;
 			};
 		};
+		40FDB3842791FA9F0065FF47 /* XCRemoteSwiftPackageReference "CoreGPX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vincentneo/CoreGPX.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.9.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1168,6 +1192,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 40FDB37F2791CFDF0065FF47 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
 			productName = MapboxMaps;
+		};
+		40FDB3852791FAA00065FF47 /* CoreGPX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40FDB3842791FA9F0065FF47 /* XCRemoteSwiftPackageReference "CoreGPX" */;
+			productName = CoreGPX;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

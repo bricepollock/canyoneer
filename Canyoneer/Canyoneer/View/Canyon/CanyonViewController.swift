@@ -57,12 +57,14 @@ class CanyonViewController: ScrollableStackViewController {
         self.navigationItem.backButtonTitle = ""
         
         // setup bar button items
+        let gpxButton = UIBarButtonItem(image: UIImage(systemName: "square.and.arrow.down"), style: .plain, target: self, action: #selector(didRequestShareGPX))
+        
         let mapButton = UIBarButtonItem(image: UIImage(systemName: "map"), style: .plain, target: self, action: #selector(didRequestMap))
         
         let shareButton = UIBarButtonItem(image: UIImage(systemName: "square.and.arrow.up"), style: .plain, target: self, action: #selector(self.didRequestShare))
                 
         let favoriteButton = UIBarButtonItem(image: UIImage(systemName: "star"), style: .plain, target: self, action: #selector(self.didRequestFavoriteToggle))
-        self.navigationItem.rightBarButtonItems = [favoriteButton, shareButton, mapButton]
+        self.navigationItem.rightBarButtonItems = [favoriteButton, shareButton, mapButton, gpxButton]
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -94,12 +96,21 @@ class CanyonViewController: ScrollableStackViewController {
         self.viewModel.forecast.subscribeOnNext { forecast in
             self.detailView.configure(weather: forecast)
         }.disposed(by: self.bag)
+        
+        self.viewModel.shareGPXFile.subscribeOnNext { url in
+            let next = UIActivityViewController(activityItems: [url], applicationActivities: nil)
+            self.present(next, animated: true)
+        }.disposed(by: self.bag)
     }
     
     // MARK: actions
-    @objc func didRequestShare() {
+    @objc func didRequestShare() {        
         let next = UIActivityViewController(activityItems: [self], applicationActivities: nil)
         self.present(next, animated: true)
+    }
+    
+    @objc func didRequestShareGPX() {
+        self.viewModel.requestDownloadGPX()
     }
     
     @objc func didRequestFavoriteToggle() {

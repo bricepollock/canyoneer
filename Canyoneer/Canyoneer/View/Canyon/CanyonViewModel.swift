@@ -51,7 +51,11 @@ class CanyonViewModel {
     public let forecast: Observable<ThreeDayForecast>
     private let forecastSubject: PublishSubject<ThreeDayForecast>
     
+    public let shareGPXFile: Observable<URL>
+    private let shareGPXFileSubject: PublishSubject<URL>
+    
     // state
+    public let gpxLoader = LoadingComponent()
     public var canyon: Canyon?
     private let canyonId: String
     
@@ -59,6 +63,7 @@ class CanyonViewModel {
     private let service: RopeWikiServiceInterface
     private let favoriteService = FavoriteService()
     private let weatherService: WeatherService = NOAAWeatherService()
+    private let gpxService = GPXService()
     private let bag = DisposeBag()
     
     init(canyonId: String, service: RopeWikiServiceInterface = RopeWikiService()) {
@@ -73,6 +78,9 @@ class CanyonViewModel {
         
         self.forecastSubject = PublishSubject()
         self.forecast = self.forecastSubject.asObservable()
+        
+        self.shareGPXFileSubject = PublishSubject()
+        self.shareGPXFile = self.shareGPXFileSubject.asObservable()
     }
     
     // MARK: Actions
@@ -112,5 +120,17 @@ class CanyonViewModel {
         let isFavorited = favoriteService.isFavorite(canyon: canyon)
         favoriteService.setFavorite(canyon: canyon, to: !isFavorited)
         self.isFavoriteSubject.onNext(!isFavorited)
+    }
+    
+    public func requestDownloadGPX() {
+        defer { gpxLoader.stopLoading() }
+        guard let canyon = canyon else { return }
+
+        gpxLoader.startLoading(loadingType: .screen)
+        guard let url = gpxService.gpxFileUrl(from: canyon) else {
+            Global.logger.error("Could not create GPX file!")
+            return
+        }
+        self.shareGPXFileSubject.onNext(url)                
     }
 }
