@@ -21,6 +21,8 @@ class AppleMapView: NSObject, CanyonMap {
     private let didRequestCanyonSubject: PublishSubject<String>
     
     private var mapOverlays = [MKOverlay]()
+    private var headingView: UIView?
+    private var heading: CLHeading?
     
     override init() {
         self.didRequestCanyonSubject = PublishSubject()
@@ -37,6 +39,15 @@ class AppleMapView: NSObject, CanyonMap {
     public func initialize() {
         self.mapView.delegate = self
         self.mapView.showsUserLocation = true
+        
+        self.locationService.didUpdateHeading.subscribeOnNext { newHeading in
+            if newHeading.headingAccuracy < 0 { return }
+            let heading = newHeading.trueHeading > 0 ? newHeading.trueHeading : newHeading.magneticHeading
+            if let headingView = self.headingView {
+                let rotation = CGFloat(heading/180 * Double.pi)
+                headingView.transform = CGAffineTransform(rotationAngle: rotation)
+            }
+        }
     }
     
     public func renderAnnotations(canyons: [Canyon]) {
@@ -114,7 +125,16 @@ extension AppleMapView: MKMapViewDelegate {
     
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         guard annotation.title != "My Location" else {
-            return nil
+            let image = UIImage(systemName: "location.north.fill")!
+            let headingView = UIImageView(image: image)
+            self.headingView = headingView
+            headingView.constrain.height(20)
+            headingView.constrain.aspect(1)
+            
+            let annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "userLocation")
+            annotationView.insertSubview(headingView, at: 0)
+            return annotationView
+            
         }
         return NonClusteringMKMarkerAnnotationView(annotation: annotation, reuseIdentifier: "MyMarker")
     }
