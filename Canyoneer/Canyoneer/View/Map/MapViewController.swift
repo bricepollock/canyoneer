@@ -119,10 +119,7 @@ class MapViewController: UIViewController {
     }
     
     @objc func didRequestList() {
-        let canyons = self.mapView.visibleCanyons.map {
-            return SearchResult(name: $0.name, type: .canyon, canyonDetails: $0, regionDetails: nil)
-        }
-        let next = SearchViewController(type: .map(list: canyons))
+        let next = MapListViewController(canyons: self.mapView.visibleCanyons)
         self.navigationController?.pushViewController(next, animated: true)
     }
     

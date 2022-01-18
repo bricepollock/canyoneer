@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4005DFB6278F583500EB1640 /* FavoriteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFB5278F583500EB1640 /* FavoriteService.swift */; };
-		4005DFBB278F5C0100EB1640 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFBA278F5C0100EB1640 /* SearchViewModel.swift */; };
 		4005DFBE278F5DD900EB1640 /* Logger+error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFBD278F5DD900EB1640 /* Logger+error.swift */; };
 		4005DFC0278F60C500EB1640 /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFBF278F60C500EB1640 /* FilterViewModel.swift */; };
 		4005DFC3278F67F800EB1640 /* SearchViewModelTests+favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFC2278F67F800EB1640 /* SearchViewModelTests+favorite.swift */; };
@@ -28,6 +27,16 @@
 		4032AECD278F41D0002EEA4E /* CanyonDetailViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AECC278F41D0002EEA4E /* CanyonDetailViewTests.swift */; };
 		405E6792279736C600BA41D9 /* DownloadBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E6791279736C600BA41D9 /* DownloadBar.swift */; };
 		405E679427973BBE00BA41D9 /* DispatchTime+duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E679327973BBE00BA41D9 /* DispatchTime+duration.swift */; };
+		405E67B62797865D00BA41D9 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E67AD2797865C00BA41D9 /* ResultsViewController.swift */; };
+		405E67B72797865D00BA41D9 /* NearMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E67AE2797865C00BA41D9 /* NearMeViewController.swift */; };
+		405E67B82797865D00BA41D9 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E67AF2797865C00BA41D9 /* FavoritesViewModel.swift */; };
+		405E67B92797865D00BA41D9 /* MapListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E67B02797865C00BA41D9 /* MapListViewController.swift */; };
+		405E67BA2797865D00BA41D9 /* ResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E67B12797865D00BA41D9 /* ResultsViewModel.swift */; };
+		405E67BB2797865D00BA41D9 /* NearMeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E67B22797865D00BA41D9 /* NearMeViewModel.swift */; };
+		405E67BC2797865D00BA41D9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E67B32797865D00BA41D9 /* SearchViewController.swift */; };
+		405E67BD2797865D00BA41D9 /* MapListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E67B42797865D00BA41D9 /* MapListViewModel.swift */; };
+		405E67BE2797865D00BA41D9 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E67B52797865D00BA41D9 /* SearchViewModel.swift */; };
+		405E67C02797869100BA41D9 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E67BF2797869100BA41D9 /* FavoriteViewController.swift */; };
 		40783CE8278DF46A001E78DB /* InMemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE6278DF46A001E78DB /* InMemoryStorage.swift */; };
 		40783CE9278DF46A001E78DB /* UserPreferencesStorage+favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */; };
 		40783CEB278DF5E3001E78DB /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CEA278DF5E3001E78DB /* Storage.swift */; };
@@ -72,7 +81,6 @@
 		40E442E227876E0F00FE245D /* LandingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442E127876E0F00FE245D /* LandingViewModel.swift */; };
 		40E442E427876F7E00FE245D /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442E327876F7E00FE245D /* SearchResult.swift */; };
 		40E442E627876F9600FE245D /* Canyon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442E527876F9600FE245D /* Canyon.swift */; };
-		40E442E92787701D00FE245D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442E82787701D00FE245D /* SearchViewController.swift */; };
 		40E442EB2787708100FE245D /* UIView+line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442EA2787708100FE245D /* UIView+line.swift */; };
 		40E442ED2787710100FE245D /* CanyonResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442EC2787710100FE245D /* CanyonResultView.swift */; };
 		40E442EF2787710700FE245D /* RegionResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442EE2787710700FE245D /* RegionResultView.swift */; };
@@ -138,7 +146,6 @@
 
 /* Begin PBXFileReference section */
 		4005DFB5278F583500EB1640 /* FavoriteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteService.swift; sourceTree = "<group>"; };
-		4005DFBA278F5C0100EB1640 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		4005DFBD278F5DD900EB1640 /* Logger+error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+error.swift"; sourceTree = "<group>"; };
 		4005DFBF278F60C500EB1640 /* FilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
 		4005DFC2278F67F800EB1640 /* SearchViewModelTests+favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchViewModelTests+favorite.swift"; sourceTree = "<group>"; };
@@ -156,6 +163,16 @@
 		4032AECC278F41D0002EEA4E /* CanyonDetailViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonDetailViewTests.swift; sourceTree = "<group>"; };
 		405E6791279736C600BA41D9 /* DownloadBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadBar.swift; sourceTree = "<group>"; };
 		405E679327973BBE00BA41D9 /* DispatchTime+duration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchTime+duration.swift"; sourceTree = "<group>"; };
+		405E67AD2797865C00BA41D9 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		405E67AE2797865C00BA41D9 /* NearMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearMeViewController.swift; sourceTree = "<group>"; };
+		405E67AF2797865C00BA41D9 /* FavoritesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
+		405E67B02797865C00BA41D9 /* MapListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapListViewController.swift; sourceTree = "<group>"; };
+		405E67B12797865D00BA41D9 /* ResultsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewModel.swift; sourceTree = "<group>"; };
+		405E67B22797865D00BA41D9 /* NearMeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearMeViewModel.swift; sourceTree = "<group>"; };
+		405E67B32797865D00BA41D9 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		405E67B42797865D00BA41D9 /* MapListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapListViewModel.swift; sourceTree = "<group>"; };
+		405E67B52797865D00BA41D9 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		405E67BF2797869100BA41D9 /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		40783CE6278DF46A001E78DB /* InMemoryStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryStorage.swift; sourceTree = "<group>"; };
 		40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserPreferencesStorage+favorite.swift"; sourceTree = "<group>"; };
 		40783CEA278DF5E3001E78DB /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
@@ -203,7 +220,6 @@
 		40E442E127876E0F00FE245D /* LandingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewModel.swift; sourceTree = "<group>"; };
 		40E442E327876F7E00FE245D /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		40E442E527876F9600FE245D /* Canyon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canyon.swift; sourceTree = "<group>"; };
-		40E442E82787701D00FE245D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		40E442EA2787708100FE245D /* UIView+line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+line.swift"; sourceTree = "<group>"; };
 		40E442EC2787710100FE245D /* CanyonResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonResultView.swift; sourceTree = "<group>"; };
 		40E442EE2787710700FE245D /* RegionResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionResultView.swift; sourceTree = "<group>"; };
@@ -327,6 +343,43 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		405E67C1279789C700BA41D9 /* ResultsBase */ = {
+			isa = PBXGroup;
+			children = (
+				405E67AD2797865C00BA41D9 /* ResultsViewController.swift */,
+				405E67B12797865D00BA41D9 /* ResultsViewModel.swift */,
+			);
+			path = ResultsBase;
+			sourceTree = "<group>";
+		};
+		405E67C2279789D400BA41D9 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				405E6791279736C600BA41D9 /* DownloadBar.swift */,
+				405E67BF2797869100BA41D9 /* FavoriteViewController.swift */,
+				405E67AF2797865C00BA41D9 /* FavoritesViewModel.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		405E67C3279789D900BA41D9 /* MapList */ = {
+			isa = PBXGroup;
+			children = (
+				405E67B02797865C00BA41D9 /* MapListViewController.swift */,
+				405E67B42797865D00BA41D9 /* MapListViewModel.swift */,
+			);
+			path = MapList;
+			sourceTree = "<group>";
+		};
+		405E67C4279789E200BA41D9 /* NearMe */ = {
+			isa = PBXGroup;
+			children = (
+				405E67AE2797865C00BA41D9 /* NearMeViewController.swift */,
+				405E67B22797865D00BA41D9 /* NearMeViewModel.swift */,
+			);
+			path = NearMe;
+			sourceTree = "<group>";
+		};
 		40783CE5278DF44F001E78DB /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
@@ -424,6 +477,10 @@
 				40E4431B27879EFA00FE245D /* Map */,
 				40E4430327877F8400FE245D /* Region */,
 				40E4430227877F7D00FE245D /* Canyon */,
+				405E67C1279789C700BA41D9 /* ResultsBase */,
+				405E67C2279789D400BA41D9 /* Favorites */,
+				405E67C3279789D900BA41D9 /* MapList */,
+				405E67C4279789E200BA41D9 /* NearMe */,
 				40E442E72787701500FE245D /* Search */,
 				40E442E0278764CD00FE245D /* Landing */,
 			);
@@ -521,9 +578,8 @@
 			children = (
 				40E4433D2788F1C800FE245D /* Filters */,
 				4005DFBC278F5C0500EB1640 /* ResultViews */,
-				405E6791279736C600BA41D9 /* DownloadBar.swift */,
-				40E442E82787701D00FE245D /* SearchViewController.swift */,
-				4005DFBA278F5C0100EB1640 /* SearchViewModel.swift */,
+				405E67B32797865D00BA41D9 /* SearchViewController.swift */,
+				405E67B52797865D00BA41D9 /* SearchViewModel.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -764,7 +820,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4005DFBB278F5C0100EB1640 /* SearchViewModel.swift in Sources */,
 				407FB7642790CD2B008B65BE /* WeatherService.swift in Sources */,
 				407FB76D2790D59C008B65BE /* WeatherForecastDayView.swift in Sources */,
 				4032AEBF278F324D002EEA4E /* CanyonViewModel.swift in Sources */,
@@ -774,8 +829,10 @@
 				40E442BD27875F0200FE245D /* GlobalSearchView.swift in Sources */,
 				40E442CF278760EF00FE245D /* RxButton.swift in Sources */,
 				40FDB39E27970DAC0065FF47 /* UIColor+hex.swift in Sources */,
+				405E67B82797865D00BA41D9 /* FavoritesViewModel.swift in Sources */,
 				40E442D1278760EF00FE245D /* LoadingComponent.swift in Sources */,
 				407FB75327906DF0008B65BE /* MapLegendBottomSheetViewController.swift in Sources */,
+				405E67BE2797865D00BA41D9 /* SearchViewModel.swift in Sources */,
 				40FDB39527922C950065FF47 /* MapService.swift in Sources */,
 				40FDB37E2791CF5D0065FF47 /* MapboxMap.swift in Sources */,
 				40FDB3882791FCCB0065FF47 /* GPXService.swift in Sources */,
@@ -785,8 +842,10 @@
 				40E442E227876E0F00FE245D /* LandingViewModel.swift in Sources */,
 				40E4431D27879F1D00FE245D /* MapViewController.swift in Sources */,
 				40E442D0278760EF00FE245D /* RxUIButton.swift in Sources */,
+				405E67C02797869100BA41D9 /* FavoriteViewController.swift in Sources */,
 				40E442E627876F9600FE245D /* Canyon.swift in Sources */,
 				40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */,
+				405E67BD2797865D00BA41D9 /* MapListViewModel.swift in Sources */,
 				40E4430D2787842800FE245D /* CanyonDetailView.swift in Sources */,
 				407FB75127906CAC008B65BE /* AppleMapObjects.swift in Sources */,
 				4005DFBE278F5DD900EB1640 /* Logger+error.swift in Sources */,
@@ -800,6 +859,7 @@
 				40783CED278DF63F001E78DB /* UserPreferencesStorage.swift in Sources */,
 				40E4433A2788914000FE245D /* CLLocation2D+distance.swift in Sources */,
 				40783CE8278DF46A001E78DB /* InMemoryStorage.swift in Sources */,
+				405E67BB2797865D00BA41D9 /* NearMeViewModel.swift in Sources */,
 				407FB7622790CD2B008B65BE /* WeatherDataPoint.swift in Sources */,
 				407FB7732790FF7B008B65BE /* AppleMapView.swift in Sources */,
 				40E4432C2787D80100FE245D /* CanyonPoint.swift in Sources */,
@@ -811,7 +871,6 @@
 				40E4433C2788A25B00FE245D /* BottomSheetViewController.swift in Sources */,
 				40E4434A278B327C00FE245D /* ComparisonPicker.swift in Sources */,
 				40E442EB2787708100FE245D /* UIView+line.swift in Sources */,
-				40E442E92787701D00FE245D /* SearchViewController.swift in Sources */,
 				40E4430727877F9500FE245D /* CanyonViewController.swift in Sources */,
 				407FB74F278FC805008B65BE /* GeoJson.swift in Sources */,
 				40E4430127877C5500FE245D /* DesignSystem.swift in Sources */,
@@ -830,7 +889,9 @@
 				40E442D72787614000FE245D /* ColorPalette.swift in Sources */,
 				40E4430527877F8D00FE245D /* RegionViewController.swift in Sources */,
 				407FB7692790CDE5008B65BE /* NetworkValidation.swift in Sources */,
+				405E67B92797865D00BA41D9 /* MapListViewController.swift in Sources */,
 				405E6792279736C600BA41D9 /* DownloadBar.swift in Sources */,
+				405E67BC2797865D00BA41D9 /* SearchViewController.swift in Sources */,
 				40E443462789F8A100FE245D /* MultiSelectFilter.swift in Sources */,
 				40E4431127878A3D00FE245D /* SubCanyonView.swift in Sources */,
 				407FB7602790CD2B008B65BE /* NOAAWeatherService.swift in Sources */,
@@ -839,11 +900,14 @@
 				40E4430F2787897F00FE245D /* SubCanyonListView.swift in Sources */,
 				407FB7672790CDB3008B65BE /* UnitConverter.swift in Sources */,
 				40E4432F2787D90C00FE245D /* RequestError.swift in Sources */,
+				405E67BA2797865D00BA41D9 /* ResultsViewModel.swift in Sources */,
 				40FDB38A2791FCDE0065FF47 /* Data+toFile.swift in Sources */,
 				40E442EF2787710700FE245D /* RegionResultView.swift in Sources */,
 				40E443412789F36C00FE245D /* BottomSheetFilterViewController.swift in Sources */,
+				405E67B72797865D00BA41D9 /* NearMeViewController.swift in Sources */,
 				40E4430B2787801900FE245D /* SubRegionListView.swift in Sources */,
 				40E442DD2787629B00FE245D /* GlobalProgressIndicator.swift in Sources */,
+				405E67B62797865D00BA41D9 /* ResultsViewController.swift in Sources */,
 				40E442DB2787616E00FE245D /* UIStackView+remove.swift in Sources */,
 				40E44316278794D500FE245D /* TagView.swift in Sources */,
 				4005DFB6278F583500EB1640 /* FavoriteService.swift in Sources */,

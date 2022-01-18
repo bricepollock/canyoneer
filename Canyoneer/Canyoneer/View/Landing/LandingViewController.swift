@@ -81,7 +81,7 @@ class LandingViewController: ScrollableStackViewController {
         self.nearMeButton.configure(text: Strings.nearMe)
         self.nearMeButton.didSelect.subscribeOnNext { [weak self] results in
             defer { self?.loadingComponent.stopLoading() }
-            let next = SearchViewController(type: .nearMe)
+            let next = NearMeViewController()
             self?.navigationController?.pushViewController(next, animated: true)
         }.disposed(by: self.bag)
         
@@ -102,12 +102,12 @@ class LandingViewController: ScrollableStackViewController {
     
     // MARK: Actions
     func performSearch(for searchString: String) {
-        let next = SearchViewController(type: .string(query: searchString))
+        let next = SearchViewController(query: searchString)
         self.navigationController?.pushViewController(next, animated: true)
     }
     
     @objc func showFavorites() {
-        let next = SearchViewController(type: .favorites)
+        let next = FavoriteViewController()
         self.navigationController?.pushViewController(next, animated: true)
     }
 }
