@@ -110,7 +110,8 @@ class MapboxMapView: NSObject, CanyonMap {
     
     func renderWaypoints(canyon: Canyon) {
         let annotationManager = self.mapView.annotations.makePointAnnotationManager()
-        annotationManager.annotations = canyon.geoWaypoints.map { feature in
+        // add waypoints from map
+        let waypoints = canyon.geoWaypoints.map { feature -> PointAnnotation in
             let point = Point(feature.coordinates[0].asCLObject)
             var annotation = PointAnnotation(point: point)
             let image = UIImage(systemName: "pin.fill")!.withTintColor(ColorPalette.Color.warning, renderingMode: .alwaysOriginal)
@@ -119,6 +120,21 @@ class MapboxMapView: NSObject, CanyonMap {
             annotation.iconAnchor = .bottom
             return annotation
         }
+        
+        
+        // add labels for the lines
+        let labels = canyon.geoLines.compactMap { feature -> PointAnnotation? in
+            if let first = feature.coordinates.first {
+                let point = Point(first.asCLObject)
+                var annotation = PointAnnotation(point: point)
+                annotation.textField = feature.name
+                annotation.iconAnchor = .bottom
+                return annotation
+            } else {
+                return nil
+            }
+        }
+        annotationManager.annotations = waypoints + labels
     }
     
     func focusCameraOn(canyon: Canyon) {
