@@ -77,7 +77,15 @@ class MapboxMapView: NSObject, CanyonMap {
         let overlays = canyons.flatMap { canyon in
             return canyon.geoLines.map { feature -> PolylineAnnotation in
                 var overlay = PolylineAnnotation(lineCoordinates: feature.coordinates.map { $0.asCLObject })
-                overlay.lineColor = StyleColor(TopoLineType(string: feature.name).color)
+                let type = TopoLineType(string: feature.name)
+                let geoColor: UIColor?
+                if let stroke = feature.hexColor {
+                    geoColor = UIColor.hex(stroke)
+                } else {
+                    geoColor = nil
+                }
+                let color = type == .unknown ? geoColor ?? type.color : type.color
+                overlay.lineColor = StyleColor(color)
                 overlay.lineWidth = 3
                 overlay.lineOpacity = 0.5
                 return overlay
