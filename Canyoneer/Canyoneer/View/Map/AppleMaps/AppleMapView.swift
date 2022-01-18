@@ -22,7 +22,7 @@ class AppleMapView: NSObject, CanyonMap {
     
     private var mapOverlays = [MKOverlay]()
     private var headingView: UIView?
-    private var heading: CLHeading?
+    private let bag = DisposeBag()
     
     override init() {
         self.didRequestCanyonSubject = PublishSubject()
@@ -47,7 +47,7 @@ class AppleMapView: NSObject, CanyonMap {
                 let rotation = CGFloat(heading/180 * Double.pi)
                 headingView.transform = CGAffineTransform(rotationAngle: rotation)
             }
-        }
+        }.disposed(by: self.bag)
     }
     
     public func renderAnnotations(canyons: [Canyon]) {
@@ -66,6 +66,10 @@ class AppleMapView: NSObject, CanyonMap {
             return canyon.geoLines.map { feature -> MKPolyline in
                 let overlay = TopoLineOverlay(coordinates: feature.coordinates.map { $0.asCLObject }, count: feature.coordinates.count)
                 overlay.name = feature.name
+                
+                if let hex = feature.hexColor {
+                    overlay.color = UIColor.hex(hex)
+                }
                 return overlay
             }
         }
@@ -142,8 +146,8 @@ extension AppleMapView: MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
         if let routePolyline = overlay as? TopoLineOverlay {
             let renderer = MKPolylineRenderer(polyline: routePolyline)
-            let color = routePolyline.type.color
-            renderer.strokeColor = color.withAlphaComponent(0.6)
+            // use our color first and then use ropewiki if we cannot find one
+            renderer.strokeColor = routePolyline.type == .unknown ? routePolyline.color ?? routePolyline.type.color : routePolyline.type.color
             renderer.lineWidth = 3
             return renderer
         }

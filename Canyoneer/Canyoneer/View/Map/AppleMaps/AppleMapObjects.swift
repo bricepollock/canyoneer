@@ -30,6 +30,7 @@ class WaypointAnnotation: MKPointAnnotation {
 
 class TopoLineOverlay: MKPolyline {
     var name: String?
+    var color: UIColor?
     var type: TopoLineType {
         guard let name = name else { return .unknown }
         return TopoLineType(string: name)

@@ -71,7 +71,14 @@ class RopeWikiService: RopeWikiServiceInterface {
                         return nil
                     }
                     let features = data.geoJson?.features ?? []
-                    let geoFeatures = features.compactMap { return CoordinateFeature(name: $0.properties.name, type: $0.geometry.type, coordinates: $0.geometry.coordinates)}
+                    let geoFeatures: [CoordinateFeature] = features.compactMap {
+                        return CoordinateFeature(
+                            name: $0.properties.name,
+                            type: $0.geometry.type,
+                            hexColor: $0.properties.color,
+                            coordinates: $0.geometry.coordinates
+                        )
+                    }
                     let waypoints = geoFeatures.filter { $0.type == .waypoint }
                     let lines = geoFeatures.filter { $0.type == .line }
                     return Canyon(

@@ -121,6 +121,7 @@
 		40FDB391279218EA0065FF47 /* Solar in Frameworks */ = {isa = PBXBuildFile; productRef = 40FDB390279218EA0065FF47 /* Solar */; };
 		40FDB3932792270F0065FF47 /* WeatherDataPointTests+Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3922792270F0065FF47 /* WeatherDataPointTests+Strings.swift */; };
 		40FDB39527922C950065FF47 /* MapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB39427922C950065FF47 /* MapService.swift */; };
+		40FDB39E27970DAC0065FF47 /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB39D27970DAC0065FF47 /* UIColor+hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -245,6 +246,7 @@
 		40FDB38D279218C50065FF47 /* SolarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarService.swift; sourceTree = "<group>"; };
 		40FDB3922792270F0065FF47 /* WeatherDataPointTests+Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherDataPointTests+Strings.swift"; sourceTree = "<group>"; };
 		40FDB39427922C950065FF47 /* MapService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapService.swift; sourceTree = "<group>"; };
+		40FDB39D27970DAC0065FF47 /* UIColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -494,6 +496,7 @@
 				40E442F3278775A000FE245D /* Observable+onNext.swift */,
 				40E442DA2787616E00FE245D /* UIStackView+remove.swift */,
 				40E442EA2787708100FE245D /* UIView+line.swift */,
+				40FDB39D27970DAC0065FF47 /* UIColor+hex.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -764,6 +767,7 @@
 				40E442CB278760E300FE245D /* ScrollableStackViewController.swift in Sources */,
 				40E442BD27875F0200FE245D /* GlobalSearchView.swift in Sources */,
 				40E442CF278760EF00FE245D /* RxButton.swift in Sources */,
+				40FDB39E27970DAC0065FF47 /* UIColor+hex.swift in Sources */,
 				40E442D1278760EF00FE245D /* LoadingComponent.swift in Sources */,
 				407FB75327906DF0008B65BE /* MapLegendBottomSheetViewController.swift in Sources */,
 				40FDB39527922C950065FF47 /* MapService.swift in Sources */,

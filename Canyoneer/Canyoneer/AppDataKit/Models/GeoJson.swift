@@ -84,6 +84,8 @@ struct GeoLocation: Codable {
 struct GeoProperties: Codable {
     internal enum CodingKeys: String, CodingKey {
         case name
+        case color = "stroke"
     }
     let name: String?
+    let color: String?
 }

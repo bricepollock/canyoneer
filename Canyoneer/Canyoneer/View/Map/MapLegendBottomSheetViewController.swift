@@ -16,7 +16,8 @@ class MapLegendBottomSheetViewController: BottomSheetViewController {
         static let exit = "Exit"
         static let approach = "Approach"
         static let descent = "Descent"
-        static let unknown = "Ropewiki Route"
+        static let other = "Other Colors"
+        static let otherDescription = "See Ropewiki"
     }
     static let lineWidth: CGFloat = 10
     static let lineLength: CGFloat = 50
@@ -37,9 +38,9 @@ class MapLegendBottomSheetViewController: BottomSheetViewController {
     private let greenLineTitle = UILabel()
     private let greenLine = UIView.createLineView(height: MapLegendBottomSheetViewController.lineWidth)
     
-    private let blackStack = UIStackView()
-    private let blackLineTitle = UILabel()
-    private let blackLine = UIView.createLineView(height: MapLegendBottomSheetViewController.lineWidth)
+    private let otherStack = UIStackView()
+    private let otherLineTitle = UILabel()
+    private let otherLineDescription = UILabel()
     
     override init() {
         super.init()
@@ -64,14 +65,21 @@ class MapLegendBottomSheetViewController: BottomSheetViewController {
         self.contentStackView.addArrangedSubview(self.greenStack)
         self.contentStackView.addArrangedSubview(self.redStack)
         self.contentStackView.addArrangedSubview(self.yellowStack)
-        self.contentStackView.addArrangedSubview(self.blackStack)
+        self.contentStackView.addArrangedSubview(self.otherStack)
         self.contentStackView.addArrangedSubview(UIView())
         
         self.configure(stack: self.blueStack, title: self.blueLineTitle, line: self.blueLine, text: Strings.driving, color: TopoLineType.driving.color)
         self.configure(stack: self.greenStack, title: self.greenLineTitle, line: self.greenLine, text: Strings.approach, color: TopoLineType.approach.color)
         self.configure(stack: self.redStack, title: self.redLineTitle, line: self.redLine, text: Strings.descent, color: TopoLineType.descent.color)
         self.configure(stack: self.yellowStack, title: self.yellowLineTitle, line: self.yellowLine, text: Strings.exit, color: TopoLineType.exit.color)
-        self.configure(stack: self.blackStack, title: self.blackLineTitle, line: self.blackLine, text: Strings.unknown, color: TopoLineType.unknown.color)
+        
+        // Other Description
+        otherStack.axis = .horizontal
+        otherStack.spacing = .medium
+        otherStack.addArrangedSubview(self.otherLineTitle)
+        otherStack.addArrangedSubview(self.otherLineDescription)
+        otherLineTitle.text = Strings.other
+        otherLineDescription.text = Strings.otherDescription
     }
     
     private func configure(stack: UIStackView, title: UILabel, line: UIView, text: String, color: UIColor) {
