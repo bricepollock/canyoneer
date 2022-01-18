@@ -50,7 +50,6 @@ class NOAAWeatherService: Service, WeatherService {
     }
     
     func requestPointForLocation(lat: Double, long: Double) -> Observable<NOAAData.Point?> {
-        return Observable.just(nil)
         let endpoint = NOAARequest.point(lat, long)
         guard let url = URL(string: endpoint.urlString) else {
             Global.logger.debug("could not create URL for NOAA points!")
