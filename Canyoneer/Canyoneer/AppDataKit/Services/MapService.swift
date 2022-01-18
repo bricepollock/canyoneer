@@ -13,14 +13,18 @@ import RxSwift
 struct MapService {
     public static let shared = MapService()
     
-    private let loader = LoadingComponent()
+    public let downloadProgress: RxSwift.Observable<Float>
+    private let downloadProgressSubject: PublishSubject<Float>
     
     public static let publicAccessToken = "pk.eyJ1IjoiYnJpY2Vwb2xsb2NrIiwiYSI6ImNreWRhdGNtODAyNzUyb2xoMXdmbWFvd3UifQ.-iGgCZKoYX9wKf5uAyLWHA"
     private let tileStore = TileStore.default
     private let offlineManager: OfflineManager
     
     private init() {
-        tileStore.setOptionForKey(TileStoreOptions.mapboxAccessToken, value: Self.publicAccessToken as Any)
+        self.downloadProgressSubject = PublishSubject()
+        self.downloadProgress = self.downloadProgressSubject.asObservable()
+        
+        self.tileStore.setOptionForKey(TileStoreOptions.mapboxAccessToken, value: Self.publicAccessToken as Any)
         self.offlineManager = OfflineManager(resourceOptions: ResourceOptions(accessToken: Self.publicAccessToken, tileStore: tileStore))
     }
     
@@ -77,9 +81,6 @@ struct MapService {
                         Global.logger.error(error)
                     }
                     single(.failure(error))
-                    DispatchQueue.main.async {
-                        loader.stopLoading()
-                    }
                 }
             }
             return Disposables.create()
@@ -87,8 +88,31 @@ struct MapService {
     }
     
     func downloadTiles(for canyons: [Canyon]) -> Single<Void> {
-        let singles = canyons.map { self.downloadTile(for: $0) }
+        let totalDownloads = Float(canyons.count)
+        var downloaded: Float = 0
+        self.downloadProgressSubject.onNext(0)
+        let singles = canyons.map {
+            self.downloadTile(for: $0)
+                .do { _ in
+                    downloaded += 1
+                    let downloadPercentage = downloaded / totalDownloads
+                    DispatchQueue.main.async {
+                        self.downloadProgressSubject.onNext(downloadPercentage)
+                    }
+                }
+        }
         return Single.zip(singles)
             .map { _ in return () }
+            .do { _ in
+                DispatchQueue.main.async {
+                    self.downloadProgressSubject.onNext(1)
+                }
+            } onError: { error in
+                Global.logger.error(error)
+                DispatchQueue.main.async {
+                    self.downloadProgressSubject.onNext(1)
+                }
+            }
+
     }
 }

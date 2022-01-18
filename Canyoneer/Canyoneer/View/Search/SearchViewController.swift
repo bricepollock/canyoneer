@@ -16,6 +16,7 @@ class SearchViewController: ScrollableStackViewController {
         return UIBarButtonItem(image: UIImage(systemName: "arrow.down.circle"), style: .plain, target: self, action: #selector(self.didRequestDownloads))
     }()
     
+    private let progressView = DownloadBar()
     private let viewModel: SearchViewModel
     private var filteredResults: [Canyon]?
     internal let bag = DisposeBag()
@@ -75,6 +76,13 @@ class SearchViewController: ScrollableStackViewController {
     func configureViews() {
         self.masterStackView.axis = .vertical
         self.masterStackView.spacing = Grid.medium
+        self.view.addSubview(self.progressView)
+        
+        let sizeOfNavBar: CGFloat = 60 + 5 // spacing
+        self.progressView.constrain.top(to: self.view, with: sizeOfNavBar)
+        self.progressView.constrain.leading(to: self.view, with: Grid.large)
+        self.progressView.constrain.trailing(to: self.view, with: -Grid.large)
+        self.progressView.hide()
     }
     
     func bind() {        
@@ -92,6 +100,21 @@ class SearchViewController: ScrollableStackViewController {
         
         self.viewModel.hasDownloadedAll.subscribeOnNext { [weak self] haveAll in
             self?.downloadButton.image = haveAll ? UIImage(systemName: "arrow.down.circle.fill")! : UIImage(systemName: "arrow.down.circle")!
+        }.disposed(by: self.bag)
+        
+        self.viewModel.progress.subscribeOnNext { [weak self] percentage in
+            guard let self = self else { return }
+            guard percentage < 1 else {
+                self.progressView.update(progress: percentage)
+                UIView.animate(withDuration: DesignSystem.animation) {
+                    self.progressView.hide()
+                }
+                return
+            }
+            self.progressView.update(progress: percentage)
+            UIView.animate(withDuration: DesignSystem.animation) {
+               self.progressView.show()
+            }
         }.disposed(by: self.bag)
     }
     

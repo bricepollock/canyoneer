@@ -59,6 +59,10 @@ class SearchViewModel {
     public let results: Observable<[SearchResult]>
     private let resultsSubject: PublishSubject<[SearchResult]>
     
+    var progress: Observable<Float> {
+        return self.mapService.downloadProgress
+    }
+    
     public let loadingComponent = LoadingComponent()
     private let downloadLoader = LoadingComponent()
     
@@ -155,21 +159,14 @@ class SearchViewModel {
     }
     
     func downloadCanyonMaps() {
-        self.downloadLoader.startLoading(loadingType: .screen)
         self.mapService.downloadTiles(for: self.currentResults.compactMap { $0.canyonDetails }).subscribe { _ in
             defer {
                 DispatchQueue.main.async {
-                    self.downloadLoader.stopLoading()
                     self.hasDownloadedAllSubject.onNext(true)
                 }
             }
             Global.logger.info("Downloaded all Canyons")
         } onFailure: { error in
-            defer {
-                DispatchQueue.main.async {
-                    self.downloadLoader.stopLoading()
-                }
-            }
             Global.logger.error(error)
         }.disposed(by: self.bag)
     }
