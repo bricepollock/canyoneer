@@ -64,7 +64,7 @@ class SearchViewModelNearMeTests: XCTestCase {
         
         // observe the response
         let results = observer.events.map { $0.value.element }
-        XCTAssertEqual(results.first, "Near Me (Top 50)")
+        XCTAssertEqual(results.first, "Near Me (Top 100)")
         
         // clean up
         subscription.dispose()
