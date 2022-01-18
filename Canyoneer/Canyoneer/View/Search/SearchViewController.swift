@@ -62,6 +62,16 @@ class SearchViewController: ScrollableStackViewController {
         self.viewModel.refresh()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Technically this should be in the view model but it saves time and complexity with the amount of signals putting it here.
+        // We need to refresh the data on appear because you could have un-favorited an item and otherwise that item would still show in your favorite list.
+        if self.viewModel.type == .favorites {
+            self.viewModel.refresh()
+        }
+    }
+    
     func configureViews() {
         self.masterStackView.axis = .vertical
         self.masterStackView.spacing = Grid.medium
