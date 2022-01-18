@@ -259,7 +259,7 @@ class CanyonDetailView: UIView {
         }.disposed(by: self.urlLinkDisposeBag)
     }
     
-    func configure(weather: ThreeDayForecast?) {
+    func configure(weather: ThreeDayForecast) {
         self.weatherView.configure(with: weather)
     }
 }

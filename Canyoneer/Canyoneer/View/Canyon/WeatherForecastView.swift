@@ -52,23 +52,23 @@ class WeatherForecastView: UIStackView {
         self.errorLabel.font = FontBook.Body.regular
         self.errorLabel.isHidden = true
         self.addSubview(self.errorLabel)
-        self.errorLabel.constrain.centerX(on: self)
-        self.errorLabel.constrain.centerY(on: self)
+        self.errorLabel.constrain.centerX(on: self.daysStack)
+        self.errorLabel.constrain.centerY(on: self.daysStack)
     }
     
     required init(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func configure(with data: ThreeDayForecast?) {
+    func configure(with data: ThreeDayForecast) {
         defer { self.loader.stopLoading() }
-        guard let data = data, let today = data.today, let tomorrow = data.tomorrow, let dayAfter = data.dayAfterTomorrow else {
+        self.daylightHours.text = data.sunsetDetails
+        guard let today = data.today, let tomorrow = data.tomorrow, let dayAfter = data.dayAfterTomorrow else {
             self.errorLabel.isHidden = false
             return
         }
         self.today.configure(with: today)
         self.tomorrow.configure(with: tomorrow)
         self.dayAfter.configure(with: dayAfter)
-        self.daylightHours.text = data.sunsetDetails
     }
 }

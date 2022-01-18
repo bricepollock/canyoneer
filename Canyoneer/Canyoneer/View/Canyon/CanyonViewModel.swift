@@ -74,8 +74,8 @@ class CanyonViewModel {
     public let isFavorite: Observable<Bool>
     private let isFavoriteSubject: PublishSubject<Bool>
     
-    public let forecast: Observable<ThreeDayForecast?>
-    private let forecastSubject: PublishSubject<ThreeDayForecast?>
+    public let forecast: Observable<ThreeDayForecast>
+    private let forecastSubject: PublishSubject<ThreeDayForecast>
     
     public let shareGPXFile: Observable<URL>
     private let shareGPXFileSubject: PublishSubject<URL>
@@ -131,7 +131,13 @@ class CanyonViewModel {
                 let (weather, solar) = tuple
                 guard let details = weather else {
                     DispatchQueue.main.async {
-                        self.forecastSubject.onNext(nil)
+                        let data = ThreeDayForecast(
+                            today: nil,
+                            tomorrow: nil,
+                            dayAfterTomorrow: nil,
+                            sunsetDetails: Strings.sunsetTimes(sunset: solar.sunset, sunrise: solar.sunrise)
+                        )
+                        self.forecastSubject.onNext(data)
                     }
                     return
                 }
