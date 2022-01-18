@@ -46,6 +46,11 @@ class MapboxMapView: NSObject, CanyonMap {
         self.mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         let annotationManager = self.mapView.annotations.makePointAnnotationManager()
         annotationManager.delegate = self
+        
+        if locationService.isLocationEnabled() {
+            // Add user position icon to the map with location indicator layer
+            mapView.location.options.puckType = .puck2D()
+        }
     }
     
     func renderAnnotations(canyons: [Canyon]) {
