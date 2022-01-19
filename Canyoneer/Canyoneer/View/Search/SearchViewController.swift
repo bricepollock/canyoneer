@@ -15,13 +15,13 @@ class SearchViewController: UIViewController, UITextViewDelegate {
         static let map = "View Map"
         static let nearMe = "Near Me"
         static let done = "Done"
+        static let placeholder = "Search canyons by name"
     }
     
     private let filterSheet = BottomSheetFilterViewController.shared
     
+    private let searchController: UISearchController
     private let resultsViewController: ResultsViewController
-    private let masterStackView = UIStackView()
-    private let searchView = GlobalSearchView()
     
     private let viewModel: SearchViewModel
     internal let bag = DisposeBag()
@@ -29,50 +29,22 @@ class SearchViewController: UIViewController, UITextViewDelegate {
     init() {
         self.viewModel = SearchViewModel()
         self.resultsViewController = ResultsViewController(type: .search, searchResults: [], viewModel: self.viewModel)
+        self.searchController = UISearchController(searchResultsController: self.resultsViewController)
         super.init(nibName: nil, bundle: nil)
         self.navigationItem.backButtonTitle = ""
         
-        self.view.addSubview(self.masterStackView)
-        self.masterStackView.axis = .vertical
-        self.masterStackView.spacing = .zero
-        let padding: CGFloat = .medium
-        self.masterStackView.constrain.top(to: self.view, atMargin: true, with: padding)
-        self.masterStackView.constrain.bottom(to: self.view, atMargin: true, with: -padding)
-        self.masterStackView.constrain.leading(to: self.view, with: padding)
-        self.masterStackView.constrain.trailing(to: self.view, with: -padding)
-        
-        self.masterStackView.addArrangedSubview(self.searchView)
-        self.masterStackView.addArrangedSubview(self.resultsViewController.view)
-        self.addChild(self.resultsViewController)
-        self.resultsViewController.didMove(toParent: self)
+        self.searchController.searchResultsUpdater = self
+        self.searchController.obscuresBackgroundDuringPresentation = false
+        self.searchController.searchBar.placeholder = Strings.placeholder
+        self.navigationItem.searchController = self.searchController
 
         // setup the near me button
         let nearMe = UIBarButtonItem(image: UIImage(systemName: "location.circle"), style: .plain, target: self, action: #selector(self.nearMePressed))
         self.navigationItem.rightBarButtonItems = [nearMe]
-        
-        self.searchView.searchTextField.delegate = self
-        
-        // Add done to top of keyboard to get back to tab bar
-        let doneToolbar: UIToolbar = UIToolbar(frame: CGRect(x: 0, y: 0, width: 320, height: 50))
-        let flexSpace = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
-        let done = UIBarButtonItem(title: Strings.done, style: .done, target: self, action: #selector(donePressed))
-        doneToolbar.items = [flexSpace, done]
-        self.searchView.searchTextField.inputAccessoryView = doneToolbar
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        if self.searchView.searchTextField.text?.isEmpty == true {
-            self.searchView.searchTextField.becomeFirstResponder()
-        }
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-    
-    @objc func donePressed() {
-        self.searchView.searchTextField.resignFirstResponder()
     }
     
     @objc func nearMePressed() {
@@ -81,13 +53,12 @@ class SearchViewController: UIViewController, UITextViewDelegate {
     }
 }
 
-extension SearchViewController: UITextFieldDelegate {
-    
-    func textFieldDidChangeSelection(_ textField: UITextField) {
-        guard let query = textField.text, query.isEmpty == false else {
-            self.viewModel.clearResults()
-            return
-        }
-        self.viewModel.search(query: query)
-    }
+extension SearchViewController: UISearchResultsUpdating {
+  func updateSearchResults(for searchController: UISearchController) {
+      guard let query = searchController.searchBar.text, query.isEmpty == false else {
+          self.viewModel.clearResults()
+          return
+      }
+      self.viewModel.search(query: query)
+  }
 }

@@ -43,8 +43,12 @@ class RxUIButton: UIButton, RxButton {
         fatalError("init(coder:) has not been implemented")
     }
     
-    @objc public func configure(text: String) {
+    public func configure(text: String) {
         self.setTitle(text, for: .normal)
+    }
+    
+    public func configure(image: UIImage) {
+        self.setImage(image, for: .normal)
     }
     
     private func changeSelection(to selection: Bool) {
