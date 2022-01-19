@@ -7,13 +7,16 @@
 
 import Foundation
 import UIKit
+import RxSwift
 
 class MainViewController: UIViewController {
+    private let canyonService = RopeWikiService()
+    private let bag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let navigationController = UINavigationController(rootViewController: LandingViewController())
-        let contained = navigationController
+        let contained = MainTabBarController.make()
         self.addChild(contained)
         self.view.addSubview(contained.view)
         contained.view.constrain.top(to: self.view, atMargin: true)
@@ -21,5 +24,11 @@ class MainViewController: UIViewController {
         contained.view.constrain.trailing(to: self.view)
         contained.view.constrain.bottom(to: self.view, atMargin: true)
         contained.didMove(toParent: self)
+        
+        // load the canyon data
+        self.canyonService.canyons().subscribe().disposed(by: self.bag)
+        
+        // preload the mapview for speed
+        MainTabBarController.controller(for: .map).viewDidLoad()
     }
 }

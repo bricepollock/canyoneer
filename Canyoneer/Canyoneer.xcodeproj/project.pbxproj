@@ -36,6 +36,7 @@
 		405E67BD2797865D00BA41D9 /* MapListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E67B42797865D00BA41D9 /* MapListViewModel.swift */; };
 		405E67BE2797865D00BA41D9 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E67B52797865D00BA41D9 /* SearchViewModel.swift */; };
 		405E67C02797869100BA41D9 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E67BF2797869100BA41D9 /* FavoriteViewController.swift */; };
+		405E67C627979D7400BA41D9 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E67C527979D7400BA41D9 /* MainTabBarViewController.swift */; };
 		40783CE8278DF46A001E78DB /* InMemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE6278DF46A001E78DB /* InMemoryStorage.swift */; };
 		40783CE9278DF46A001E78DB /* UserPreferencesStorage+favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */; };
 		40783CEB278DF5E3001E78DB /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CEA278DF5E3001E78DB /* Storage.swift */; };
@@ -57,7 +58,6 @@
 		407FB7732790FF7B008B65BE /* AppleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB7722790FF7B008B65BE /* AppleMapView.swift */; };
 		40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428627875D9F00FE245D /* AppDelegate.swift */; };
 		40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428827875D9F00FE245D /* SceneDelegate.swift */; };
-		40E4428B27875D9F00FE245D /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428A27875D9F00FE245D /* LandingViewController.swift */; };
 		40E4428E27875D9F00FE245D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E4428C27875D9F00FE245D /* Main.storyboard */; };
 		40E4429027875DA000FE245D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E4428F27875DA000FE245D /* Assets.xcassets */; };
 		40E4429327875DA000FE245D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E4429127875DA000FE245D /* LaunchScreen.storyboard */; };
@@ -76,7 +76,6 @@
 		40E442DB2787616E00FE245D /* UIStackView+remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442DA2787616E00FE245D /* UIStackView+remove.swift */; };
 		40E442DD2787629B00FE245D /* GlobalProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442DC2787629B00FE245D /* GlobalProgressIndicator.swift */; };
 		40E442DF2787630700FE245D /* GlobalStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442DE2787630700FE245D /* GlobalStrings.swift */; };
-		40E442E227876E0F00FE245D /* LandingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442E127876E0F00FE245D /* LandingViewModel.swift */; };
 		40E442E427876F7E00FE245D /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442E327876F7E00FE245D /* SearchResult.swift */; };
 		40E442E627876F9600FE245D /* Canyon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442E527876F9600FE245D /* Canyon.swift */; };
 		40E442EB2787708100FE245D /* UIView+line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442EA2787708100FE245D /* UIView+line.swift */; };
@@ -85,7 +84,6 @@
 		40E442F82787770200FE245D /* ContainedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442F72787770200FE245D /* ContainedButton.swift */; };
 		40E442FA2787777700FE245D /* FontBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442F92787777700FE245D /* FontBook.swift */; };
 		40E442FC278779AE00FE245D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442FB278779AD00FE245D /* MainViewController.swift */; };
-		40E442FE27877A9200FE245D /* LandingViewController+textField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442FD27877A9200FE245D /* LandingViewController+textField.swift */; };
 		40E4430127877C5500FE245D /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430027877C5500FE245D /* DesignSystem.swift */; };
 		40E4430727877F9500FE245D /* CanyonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430627877F9500FE245D /* CanyonViewController.swift */; };
 		40E4430D2787842800FE245D /* CanyonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430C2787842800FE245D /* CanyonDetailView.swift */; };
@@ -163,6 +161,7 @@
 		405E67B42797865D00BA41D9 /* MapListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapListViewModel.swift; sourceTree = "<group>"; };
 		405E67B52797865D00BA41D9 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		405E67BF2797869100BA41D9 /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		405E67C527979D7400BA41D9 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		40783CE6278DF46A001E78DB /* InMemoryStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryStorage.swift; sourceTree = "<group>"; };
 		40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserPreferencesStorage+favorite.swift"; sourceTree = "<group>"; };
 		40783CEA278DF5E3001E78DB /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
@@ -185,7 +184,6 @@
 		40E4428327875D9F00FE245D /* Canyoneer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canyoneer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E4428627875D9F00FE245D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40E4428827875D9F00FE245D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40E4428A27875D9F00FE245D /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		40E4428D27875D9F00FE245D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40E4428F27875DA000FE245D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40E4429227875DA000FE245D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -206,7 +204,6 @@
 		40E442DA2787616E00FE245D /* UIStackView+remove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+remove.swift"; sourceTree = "<group>"; };
 		40E442DC2787629B00FE245D /* GlobalProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalProgressIndicator.swift; sourceTree = "<group>"; };
 		40E442DE2787630700FE245D /* GlobalStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalStrings.swift; sourceTree = "<group>"; };
-		40E442E127876E0F00FE245D /* LandingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewModel.swift; sourceTree = "<group>"; };
 		40E442E327876F7E00FE245D /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		40E442E527876F9600FE245D /* Canyon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canyon.swift; sourceTree = "<group>"; };
 		40E442EA2787708100FE245D /* UIView+line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+line.swift"; sourceTree = "<group>"; };
@@ -215,7 +212,6 @@
 		40E442F72787770200FE245D /* ContainedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainedButton.swift; sourceTree = "<group>"; };
 		40E442F92787777700FE245D /* FontBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBook.swift; sourceTree = "<group>"; };
 		40E442FB278779AD00FE245D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		40E442FD27877A9200FE245D /* LandingViewController+textField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LandingViewController+textField.swift"; sourceTree = "<group>"; };
 		40E4430027877C5500FE245D /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
 		40E4430627877F9500FE245D /* CanyonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewController.swift; sourceTree = "<group>"; };
 		40E4430C2787842800FE245D /* CanyonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonDetailView.swift; sourceTree = "<group>"; };
@@ -407,6 +403,7 @@
 				40E4428627875D9F00FE245D /* AppDelegate.swift */,
 				40E4428827875D9F00FE245D /* SceneDelegate.swift */,
 				40E442FB278779AD00FE245D /* MainViewController.swift */,
+				405E67C527979D7400BA41D9 /* MainTabBarViewController.swift */,
 				40E442C62787601300FE245D /* AppDataKit */,
 				40E442BE27875FB800FE245D /* AppUIKit */,
 				40E442B727875E9F00FE245D /* View */,
@@ -453,7 +450,6 @@
 				405E67C3279789D900BA41D9 /* MapList */,
 				405E67C4279789E200BA41D9 /* NearMe */,
 				40E442E72787701500FE245D /* Search */,
-				40E442E0278764CD00FE245D /* Landing */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -533,34 +529,16 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		40E442E0278764CD00FE245D /* Landing */ = {
-			isa = PBXGroup;
-			children = (
-				40E442FF27877ABB00FE245D /* Views */,
-				40E4428A27875D9F00FE245D /* LandingViewController.swift */,
-				40E442FD27877A9200FE245D /* LandingViewController+textField.swift */,
-				40E442E127876E0F00FE245D /* LandingViewModel.swift */,
-			);
-			path = Landing;
-			sourceTree = "<group>";
-		};
 		40E442E72787701500FE245D /* Search */ = {
 			isa = PBXGroup;
 			children = (
 				40E4433D2788F1C800FE245D /* Filters */,
+				40E442BC27875F0200FE245D /* GlobalSearchView.swift */,
 				40E442EC2787710100FE245D /* CanyonResultView.swift */,
 				405E67B32797865D00BA41D9 /* SearchViewController.swift */,
 				405E67B52797865D00BA41D9 /* SearchViewModel.swift */,
 			);
 			path = Search;
-			sourceTree = "<group>";
-		};
-		40E442FF27877ABB00FE245D /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				40E442BC27875F0200FE245D /* GlobalSearchView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		40E4430227877F7D00FE245D /* Canyon */ = {
@@ -772,7 +750,6 @@
 				407FB7642790CD2B008B65BE /* WeatherService.swift in Sources */,
 				407FB76D2790D59C008B65BE /* WeatherForecastDayView.swift in Sources */,
 				4032AEBF278F324D002EEA4E /* CanyonViewModel.swift in Sources */,
-				40E4428B27875D9F00FE245D /* LandingViewController.swift in Sources */,
 				40E442E427876F7E00FE245D /* SearchResult.swift in Sources */,
 				40E442CB278760E300FE245D /* ScrollableStackViewController.swift in Sources */,
 				40E442BD27875F0200FE245D /* GlobalSearchView.swift in Sources */,
@@ -786,9 +763,7 @@
 				40FDB37E2791CF5D0065FF47 /* MapboxMap.swift in Sources */,
 				40FDB3882791FCCB0065FF47 /* GPXService.swift in Sources */,
 				40E442F82787770200FE245D /* ContainedButton.swift in Sources */,
-				40E442FE27877A9200FE245D /* LandingViewController+textField.swift in Sources */,
 				40E442DF2787630700FE245D /* GlobalStrings.swift in Sources */,
-				40E442E227876E0F00FE245D /* LandingViewModel.swift in Sources */,
 				40E4431D27879F1D00FE245D /* MapViewController.swift in Sources */,
 				40E442D0278760EF00FE245D /* RxUIButton.swift in Sources */,
 				405E67C02797869100BA41D9 /* FavoriteViewController.swift in Sources */,
@@ -835,6 +810,7 @@
 				407FB7612790CD2B008B65BE /* NOAAData.swift in Sources */,
 				40E442C427875FCD00FE245D /* UIEdgeInsets+Extensions.swift in Sources */,
 				40E442D72787614000FE245D /* ColorPalette.swift in Sources */,
+				405E67C627979D7400BA41D9 /* MainTabBarViewController.swift in Sources */,
 				407FB7692790CDE5008B65BE /* NetworkValidation.swift in Sources */,
 				405E67B92797865D00BA41D9 /* MapListViewController.swift in Sources */,
 				405E6792279736C600BA41D9 /* DownloadBar.swift in Sources */,

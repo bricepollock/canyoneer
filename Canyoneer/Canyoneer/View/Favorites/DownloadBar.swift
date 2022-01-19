@@ -12,13 +12,15 @@ class DownloadBar: UIView {
     enum Strings {
         static let download = "Downloading: "
     }
+    private static let timeForCompletionAnimation: TimeInterval = 1
+    private static let minTimeToShow: Double = 1
+    
     private let masterStack = UIStackView()
     private let header = UILabel()
     private let progress = UIProgressView()
     private let height: CGFloat = 60
     private var heightConstraint: NSLayoutConstraint!
     private var dateShown: Date?
-    private var minTimeToShow: Double = 1
     private var isShown: Bool = false
     
     init() {
@@ -64,7 +66,7 @@ class DownloadBar: UIView {
     }
     
     func update(progress: Float) {
-        self.progress.setProgress(progress, animated: true)
+        self.progress.setProgress(progress, animated: progress != 0)
     }
     
     func hide() {
@@ -74,9 +76,12 @@ class DownloadBar: UIView {
         }
 
         let timeSinceShown = dateShown.timeIntervalSinceNow // a negative number
-        let timeRemaing = self.minTimeToShow + timeSinceShown
+        let timeRemaing = Self.minTimeToShow + timeSinceShown
         guard timeRemaing > 0 else {
-            self.performHide()
+            // need to wait for the progress to animate to the end
+            DispatchQueue.main.asyncAfter(deadline: .seconds(Self.timeForCompletionAnimation)) {
+                self.performHide()
+            }
             return
         }
         

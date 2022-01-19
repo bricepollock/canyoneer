@@ -29,12 +29,12 @@ class MapViewController: UIViewController {
     private let showLineOverlaySwitch = UISwitch()
     private let filterSheet = BottomSheetFilterViewController.shared
 
-    private let canyons: [Canyon]
+    private var initialCanyons: [Canyon]
     private let viewModel = MapViewModel()
     private let bag = DisposeBag()
     
     init(type: CanyonMapType, canyons: [Canyon]) {
-        self.canyons = canyons
+        self.initialCanyons = canyons
         switch type {
         case .apple: self.mapView = AppleMapView()
         case .mapbox: self.mapView = MapboxMapView()
@@ -57,17 +57,31 @@ class MapViewController: UIViewController {
         
         let listButton = UIBarButtonItem(image: UIImage(systemName: "list.bullet.rectangle"), style: .plain, target: self, action: #selector(didRequestList))
         let filterButton = UIBarButtonItem(image: UIImage(systemName: "line.3.horizontal.decrease.circle"), style: .plain, target: self, action: #selector(didRequestFilters))
-        let isFullMapView = self.navigationController?.viewControllers.count == 2
+        let isFullMapView = self.navigationController?.viewControllers.count == 1
         self.navigationItem.rightBarButtonItems = isFullMapView ? [listButton, filterButton] : []
         self.filterSheet.willDismiss.subscribeOnNext { () in
             self.updateWithFilters()
         }.disposed(by: self.bag)
         
-        self.mapView.view.constrain.fillSuperview()
+        self.mapView.view.constrain.top(to: self.view)
+        self.mapView.view.constrain.bottom(to: self.view, atMargin: true)
+        self.mapView.view.constrain.leading(to: self.view)
+        self.mapView.view.constrain.trailing(to: self.view)
         self.mapView.initialize()
         self.mapView.updateInitialCamera()
-        self.mapView.render(canyons: canyons)
-        self.mapView.updateCamera(canyons: canyons)
+        
+        if initialCanyons.isEmpty {
+            self.viewModel.canyons().subscribe { canyons in
+                self.initialCanyons = canyons
+                self.mapView.render(canyons: canyons)
+                self.mapView.updateCamera(canyons: canyons)
+            } onFailure: { error in
+                Global.logger.error(error)
+            }.disposed(by: self.bag)
+        } else {
+            self.mapView.render(canyons: initialCanyons)
+            self.mapView.updateCamera(canyons: initialCanyons)
+        }
         self.renderControls()
     }
     
@@ -104,7 +118,7 @@ class MapViewController: UIViewController {
     private func updateWithFilters() {
         self.filterSheet.update()
         // perfom filter
-        let original = canyons.map { SearchResult(name: $0.name, canyonDetails: $0)}
+        let original = initialCanyons.map { SearchResult(name: $0.name, canyonDetails: $0)}
         let results = self.filterSheet.viewModel.filter(results: original)
         let canyons = results.compactMap {
             return $0.canyonDetails
@@ -115,7 +129,7 @@ class MapViewController: UIViewController {
     // MARK: Actions
     
     @objc func didRequestFilters() {
-        self.present(self.filterSheet, animated: false)
+        self.tabBarController?.present(self.filterSheet, animated: false)
     }
     
     @objc func didRequestList() {

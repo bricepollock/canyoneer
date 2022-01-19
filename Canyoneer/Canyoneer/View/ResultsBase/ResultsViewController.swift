@@ -115,6 +115,6 @@ class ResultsViewController: ScrollableStackViewController {
     }
     
     @objc func didRequestFilters() {
-        self.present(self.filterSheet, animated: false)
+        self.tabBarController?.present(self.filterSheet, animated: false)
     }
 }

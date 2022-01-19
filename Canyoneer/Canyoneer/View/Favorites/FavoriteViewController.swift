@@ -10,10 +10,14 @@ import UIKit
 import RxSwift
 
 class FavoriteViewController: ResultsViewController {
+    enum Strings {
+        static let addFavorites = "Add favorites to this list"
+    }
     private lazy var downloadButton = {
         return UIBarButtonItem(image: UIImage(systemName: "arrow.down.circle"), style: .plain, target: self, action: #selector(self.didRequestDownloads))
     }()
     private let progressView = DownloadBar()
+    private let emptyStateView = UILabel()
     private let viewModel = FavoritesViewModel()
 
     init() {
@@ -30,6 +34,7 @@ class FavoriteViewController: ResultsViewController {
         var items = self.navigationItem.rightBarButtonItems ?? []
         items.append(self.downloadButton)
         self.navigationItem.rightBarButtonItems = items
+        
         self.bind()
     }
     
@@ -47,10 +52,23 @@ class FavoriteViewController: ResultsViewController {
         self.progressView.constrain.leading(to: self.view, with: Grid.large)
         self.progressView.constrain.trailing(to: self.view, with: -Grid.large)
         self.progressView.hide()
+        
+        self.view.addSubview(self.emptyStateView)
+        self.emptyStateView.constrain.centerX(on: self.view)
+        self.emptyStateView.constrain.centerY(on: self.view)
+        self.emptyStateView.text = Strings.addFavorites
+        self.emptyStateView.textAlignment = .center
+        self.emptyStateView.font = FontBook.Body.regular
+        self.emptyStateView.textColor = ColorPalette.GrayScale.gray
+        self.emptyStateView.isHidden = true
     }
     
     override func bind() {
         super.bind()
+        
+        self.viewModel.results.subscribeOnNext { results in
+            self.emptyStateView.isHidden = !results.isEmpty
+        }.disposed(by: self.bag)
         
         self.viewModel.hasDownloadedAll.subscribeOnNext { [weak self] haveAll in
             self?.downloadButton.image = haveAll ? UIImage(systemName: "arrow.down.circle.fill")! : UIImage(systemName: "arrow.down.circle")!

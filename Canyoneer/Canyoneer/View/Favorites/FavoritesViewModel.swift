@@ -43,13 +43,14 @@ class FavoritesViewModel: ResultsViewModel {
             }
             self.initialResults = results
             self.resultsSubject.onNext(results)
-            
-            self.mapService.hasDownloaded(all: canyons).subscribe { [weak self] hasAll in
-                self?.hasDownloadedAllSubject.onNext(hasAll)
-            } onFailure: { error in
-                Global.logger.error(error)
-                self.hasDownloadedAllSubject.onNext(false)
-            }.disposed(by: self.bag)
+            if !canyons.isEmpty {
+                self.mapService.hasDownloaded(all: canyons).subscribe { [weak self] hasAll in
+                    self?.hasDownloadedAllSubject.onNext(hasAll)
+                } onFailure: { error in
+                    Global.logger.error(error)
+                    self.hasDownloadedAllSubject.onNext(false)
+                }.disposed(by: self.bag)
+            }
         } onFailure: { error in
             defer { self.loadingComponent.stopLoading() }
             Global.logger.error(error)

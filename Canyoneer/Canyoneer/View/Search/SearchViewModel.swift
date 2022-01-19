@@ -44,4 +44,8 @@ class SearchViewModel: ResultsViewModel {
 
         }
     }
+    
+    public func clearResults() {
+        self.resultsSubject.onNext([])
+    }
 }
