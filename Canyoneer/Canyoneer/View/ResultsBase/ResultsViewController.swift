@@ -93,7 +93,15 @@ class ResultsViewController: ScrollableStackViewController {
             view.didSelect.subscribeOnNext { [weak self] () in
                 let canyon = result.canyonDetails
                 let next = CanyonViewController(canyonId: canyon.id)
-                self?.navigationController?.pushViewController(next, animated: true)
+                
+                if let navigationController = self?.navigationController {
+                    navigationController.pushViewController(next, animated: true)
+                // hack because UISearchController does not notice the UINavigation controller on SearchViewController
+                } else if let navigationController = MainTabBarController.controller(for: .search).navigationController {
+                    navigationController.pushViewController(next, animated: true)
+                } else {
+                    Global.logger.error("Cannot find navigation controller to push from")
+                }
             }.disposed(by: self.bag)
             
             self.masterStackView.addArrangedSubview(view)
