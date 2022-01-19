@@ -12,13 +12,13 @@ import RxSwift
 import MapboxMaps
 
 extension Point {
-    func isClose(to point: Point) -> Bool {
-        let precision: Double = 100
-        let selfCloseLat = Int((self.coordinates.latitude * precision).rounded(.toNearestOrAwayFromZero))
-        let selfCloseLong = Int((self.coordinates.longitude * precision).rounded(.toNearestOrAwayFromZero))
-        let pointCloseLat = Int((point.coordinates.latitude * precision).rounded(.toNearestOrAwayFromZero))
-        let pointCloseLong = Int((point.coordinates.longitude * precision).rounded(.toNearestOrAwayFromZero))
-        return selfCloseLat == pointCloseLat && selfCloseLong == pointCloseLong
+    func isClose(to point: Point, proximity: Double = 2) -> Bool {
+        let precision: Double = 1000
+        let selfCloseLat = (self.coordinates.latitude * precision).rounded(.toNearestOrAwayFromZero)
+        let selfCloseLong = (self.coordinates.longitude * precision).rounded(.toNearestOrAwayFromZero)
+        let pointCloseLat = (point.coordinates.latitude * precision).rounded(.toNearestOrAwayFromZero)
+        let pointCloseLong = (point.coordinates.longitude * precision).rounded(.toNearestOrAwayFromZero)
+        return abs(selfCloseLat - pointCloseLat) <= proximity && abs(selfCloseLong - pointCloseLong) <= proximity
     }
 }
 
@@ -121,18 +121,39 @@ class MapboxMapView: NSObject, CanyonMap {
     
     func renderWaypoints(canyon: Canyon) {
         let annotationManager = self.mapView.annotations.makePointAnnotationManager()
+        
         // add waypoints from map
-        let waypoints = canyon.geoWaypoints.map { feature -> PointAnnotation in
-            // TODO: Avoid overlapping waypoints
-            let point = Point(feature.coordinates[0].asCLObject)
+        var waypoints: [PointAnnotation] = []
+        canyon.geoWaypoints.forEach { feature in
+            // all waypoints should have one coordinate
+            guard let first = feature.coordinates.first else {
+                return
+            }
+            let point = Point(first.asCLObject)
+            
+            // avoid any waypoints that overlap with others
+            if waypoints.contains(where: { $0.point.isClose(to: point, proximity: 1) }) == true {
+                return
+            }
+            
             var annotation = PointAnnotation(point: point)
             let image = UIImage(systemName: "pin.fill")!.withTintColor(ColorPalette.Color.warning, renderingMode: .alwaysOriginal)
             annotation.image = .init(image: image, name: "red_pin")
             annotation.textField = feature.name
             annotation.iconAnchor = .bottom
-            return annotation
+            waypoints.append(annotation)
         }
         
+        // if no waypoints throw the canyon on there
+        if waypoints.isEmpty {
+            let point = Point(canyon.coordinate.asCLObject)
+            var annotation = PointAnnotation(point: point)
+            let image = UIImage(systemName: "pin.fill")!.withTintColor(ColorPalette.Color.warning, renderingMode: .alwaysOriginal)
+            annotation.image = .init(image: image, name: "red_pin")
+            annotation.textField = canyon.name
+            annotation.iconAnchor = .bottom
+            waypoints.append(annotation)
+        }
         
         // add labels for the lines
         let labels = canyon.geoLines.compactMap { feature -> PointAnnotation? in

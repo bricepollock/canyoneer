@@ -59,12 +59,14 @@ extension CanyonMap {
     public func render(canyons: [Canyon]) {
         self.removeAnnotations()
         self.removePolylines()
-        self.renderAnnotations(canyons: canyons)
+        
         self.renderPolylines(canyons: canyons)
         
         // render waypoints if only showing one canyon
         if canyons.count == 1 {
             self.renderWaypoints(canyon: canyons[0])
+        } else {
+            self.renderAnnotations(canyons: canyons)
         }
     }
     
