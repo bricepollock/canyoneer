@@ -34,7 +34,7 @@ struct SearchService: SearchServiceInterface {
                 return lhs.quality > rhs.quality
             }).prefix(Self.maxSearchResults)
             .forEach { canyon in
-                results.append(SearchResult(name: canyon.name, type: .canyon, canyonDetails: canyon, regionDetails: nil))
+                results.append(SearchResult(name: canyon.name, canyonDetails: canyon))
             }
             
             return SearchResultList(searchString: searchString, result: results)
@@ -60,7 +60,7 @@ struct SearchService: SearchServiceInterface {
                             return lhs.quality > rhs.quality
                         })
                         .map { canyon in
-                            return SearchResult(name: canyon.name, type: .canyon, canyonDetails: canyon, regionDetails: nil)
+                            return SearchResult(name: canyon.name, canyonDetails: canyon)
                         }
                     
                     

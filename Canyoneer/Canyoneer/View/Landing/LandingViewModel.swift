@@ -15,9 +15,6 @@ struct LandingViewModel {
     private let bag = DisposeBag()
     
     // MARK: Outputs
-    public func regions() -> [Region] {
-        return service.regions()
-    }
     
     public func canyons() -> Single<[Canyon]> {
         return service.canyons()

@@ -19,7 +19,7 @@ class MapListViewModel: ResultsViewModel {
     
     init(canyons: [Canyon]) {
         let results = canyons.map {
-            return SearchResult(name: $0.name, type: .canyon, canyonDetails: $0, regionDetails: nil)
+            return SearchResult(name: $0.name, canyonDetails: $0)
         }
         super.init(type: .map, results: results)
     }

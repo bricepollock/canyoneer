@@ -58,7 +58,7 @@ class FilterViewModel {
         let canyons = results.compactMap { $0.canyonDetails }
         let filtered = Self.filter(canyons: canyons, against: self.currentState)
         return filtered.map {
-            return SearchResult(name: $0.name, type: .canyon, canyonDetails: $0, regionDetails: nil)
+            return SearchResult(name: $0.name, canyonDetails: $0)
         }
     }
     

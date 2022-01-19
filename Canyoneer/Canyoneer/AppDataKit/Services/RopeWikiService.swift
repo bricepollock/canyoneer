@@ -49,10 +49,6 @@ class RopeWikiService: RopeWikiServiceInterface {
         }
     }
     
-    func regions() -> [Region] {
-        return []
-    }
-    
     func loadFromFile() -> Single<[Canyon]> {
         let decoder = JSONDecoder()
         let fileName = "ropewiki_database"

@@ -19,7 +19,6 @@ class LandingViewController: ScrollableStackViewController {
     private let searchView = GlobalSearchView()
     private let viewMapButton = ContainedButton()
     private let nearMeButton = ContainedButton()
-    private let regionList = RegionListView()
     
     private let loadingComponent = LoadingComponent()
     private let viewModel = LandingViewModel()
@@ -51,8 +50,6 @@ class LandingViewController: ScrollableStackViewController {
         self.masterStackView.addArrangedSubview(self.searchView)
         self.masterStackView.addArrangedSubview(self.viewMapButton)
         self.masterStackView.addArrangedSubview(self.nearMeButton)
-        self.masterStackView.addArrangedSubview(self.regionList)
-        self.regionList.isHidden = true // we don't have this data yet
         
         self.headerImage.constrain.height(220)
         self.headerImage.contentMode = .scaleAspectFill
@@ -84,20 +81,12 @@ class LandingViewController: ScrollableStackViewController {
             let next = NearMeViewController()
             self?.navigationController?.pushViewController(next, animated: true)
         }.disposed(by: self.bag)
-        
-        self.regionList.didSelect.subscribeOnNext { [weak self] region in
-            let next = RegionViewController(region: region)
-            self?.navigationController?.pushViewController(next, animated: true)
-        }.disposed(by: self.bag)
     }
     
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.title = Strings.title
         self.navigationItem.backButtonTitle = ""
-        
-        let regions = self.viewModel.regions()
-        self.regionList.configure(with: RegionListViewData(regions: regions))
     }
     
     // MARK: Actions

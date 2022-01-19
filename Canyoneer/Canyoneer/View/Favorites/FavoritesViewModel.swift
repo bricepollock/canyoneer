@@ -39,7 +39,7 @@ class FavoritesViewModel: ResultsViewModel {
             defer { self?.loadingComponent.stopLoading() }
             guard let self = self else { return }
             let results = canyons.map {
-                return SearchResult(name: $0.name, type: .canyon, canyonDetails: $0, regionDetails: nil)
+                return SearchResult(name: $0.name, canyonDetails: $0)
             }
             self.initialResults = results
             self.resultsSubject.onNext(results)

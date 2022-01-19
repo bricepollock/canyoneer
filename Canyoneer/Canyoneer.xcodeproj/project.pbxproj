@@ -63,7 +63,6 @@
 		40E4429027875DA000FE245D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E4428F27875DA000FE245D /* Assets.xcassets */; };
 		40E4429327875DA000FE245D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E4429127875DA000FE245D /* LaunchScreen.storyboard */; };
 		40E442B927875EB200FE245D /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442B827875EB200FE245D /* Region.swift */; };
-		40E442BB27875EFB00FE245D /* RegionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442BA27875EFB00FE245D /* RegionListView.swift */; };
 		40E442BD27875F0200FE245D /* GlobalSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442BC27875F0200FE245D /* GlobalSearchView.swift */; };
 		40E442C327875FCD00FE245D /* NSDirectionalEdgeInsets+convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442C027875FCD00FE245D /* NSDirectionalEdgeInsets+convenience.swift */; };
 		40E442C427875FCD00FE245D /* UIEdgeInsets+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442C127875FCD00FE245D /* UIEdgeInsets+Extensions.swift */; };
@@ -83,22 +82,15 @@
 		40E442E627876F9600FE245D /* Canyon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442E527876F9600FE245D /* Canyon.swift */; };
 		40E442EB2787708100FE245D /* UIView+line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442EA2787708100FE245D /* UIView+line.swift */; };
 		40E442ED2787710100FE245D /* CanyonResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442EC2787710100FE245D /* CanyonResultView.swift */; };
-		40E442EF2787710700FE245D /* RegionResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442EE2787710700FE245D /* RegionResultView.swift */; };
 		40E442F4278775A000FE245D /* Observable+onNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442F3278775A000FE245D /* Observable+onNext.swift */; };
 		40E442F82787770200FE245D /* ContainedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442F72787770200FE245D /* ContainedButton.swift */; };
 		40E442FA2787777700FE245D /* FontBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442F92787777700FE245D /* FontBook.swift */; };
 		40E442FC278779AE00FE245D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442FB278779AD00FE245D /* MainViewController.swift */; };
 		40E442FE27877A9200FE245D /* LandingViewController+textField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442FD27877A9200FE245D /* LandingViewController+textField.swift */; };
 		40E4430127877C5500FE245D /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430027877C5500FE245D /* DesignSystem.swift */; };
-		40E4430527877F8D00FE245D /* RegionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430427877F8D00FE245D /* RegionViewController.swift */; };
 		40E4430727877F9500FE245D /* CanyonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430627877F9500FE245D /* CanyonViewController.swift */; };
-		40E4430B2787801900FE245D /* SubRegionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430A2787801900FE245D /* SubRegionListView.swift */; };
 		40E4430D2787842800FE245D /* CanyonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430C2787842800FE245D /* CanyonDetailView.swift */; };
-		40E4430F2787897F00FE245D /* SubCanyonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430E2787897F00FE245D /* SubCanyonListView.swift */; };
-		40E4431127878A3D00FE245D /* SubCanyonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431027878A3D00FE245D /* SubCanyonView.swift */; };
-		40E4431327878A5700FE245D /* SubRegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431227878A5700FE245D /* SubRegionView.swift */; };
 		40E44316278794D500FE245D /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E44315278794D500FE245D /* TagView.swift */; };
-		40E4431827879B8000FE245D /* RegionListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431727879B8000FE245D /* RegionListRow.swift */; };
 		40E4431A27879DF100FE245D /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431927879DF100FE245D /* TextField.swift */; };
 		40E4431D27879F1D00FE245D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431C27879F1D00FE245D /* MapViewController.swift */; };
 		40E4431F2787A0C000FE245D /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431E2787A0C000FE245D /* MapViewModel.swift */; };
@@ -202,7 +194,6 @@
 		40E4429427875DA000FE245D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40E4429927875DA100FE245D /* CanyoneerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanyoneerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E442B827875EB200FE245D /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
-		40E442BA27875EFB00FE245D /* RegionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionListView.swift; sourceTree = "<group>"; };
 		40E442BC27875F0200FE245D /* GlobalSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSearchView.swift; sourceTree = "<group>"; };
 		40E442C027875FCD00FE245D /* NSDirectionalEdgeInsets+convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDirectionalEdgeInsets+convenience.swift"; sourceTree = "<group>"; };
 		40E442C127875FCD00FE245D /* UIEdgeInsets+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Extensions.swift"; sourceTree = "<group>"; };
@@ -222,22 +213,15 @@
 		40E442E527876F9600FE245D /* Canyon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canyon.swift; sourceTree = "<group>"; };
 		40E442EA2787708100FE245D /* UIView+line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+line.swift"; sourceTree = "<group>"; };
 		40E442EC2787710100FE245D /* CanyonResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonResultView.swift; sourceTree = "<group>"; };
-		40E442EE2787710700FE245D /* RegionResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionResultView.swift; sourceTree = "<group>"; };
 		40E442F3278775A000FE245D /* Observable+onNext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+onNext.swift"; sourceTree = "<group>"; };
 		40E442F72787770200FE245D /* ContainedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainedButton.swift; sourceTree = "<group>"; };
 		40E442F92787777700FE245D /* FontBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBook.swift; sourceTree = "<group>"; };
 		40E442FB278779AD00FE245D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		40E442FD27877A9200FE245D /* LandingViewController+textField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LandingViewController+textField.swift"; sourceTree = "<group>"; };
 		40E4430027877C5500FE245D /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
-		40E4430427877F8D00FE245D /* RegionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionViewController.swift; sourceTree = "<group>"; };
 		40E4430627877F9500FE245D /* CanyonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewController.swift; sourceTree = "<group>"; };
-		40E4430A2787801900FE245D /* SubRegionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubRegionListView.swift; sourceTree = "<group>"; };
 		40E4430C2787842800FE245D /* CanyonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonDetailView.swift; sourceTree = "<group>"; };
-		40E4430E2787897F00FE245D /* SubCanyonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCanyonListView.swift; sourceTree = "<group>"; };
-		40E4431027878A3D00FE245D /* SubCanyonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCanyonView.swift; sourceTree = "<group>"; };
-		40E4431227878A5700FE245D /* SubRegionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubRegionView.swift; sourceTree = "<group>"; };
 		40E44315278794D500FE245D /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
-		40E4431727879B8000FE245D /* RegionListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionListRow.swift; sourceTree = "<group>"; };
 		40E4431927879DF100FE245D /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		40E4431C27879F1D00FE245D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		40E4431E2787A0C000FE245D /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
@@ -293,15 +277,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4005DFBC278F5C0500EB1640 /* ResultViews */ = {
-			isa = PBXGroup;
-			children = (
-				40E442EC2787710100FE245D /* CanyonResultView.swift */,
-				40E442EE2787710700FE245D /* RegionResultView.swift */,
-			);
-			path = ResultViews;
-			sourceTree = "<group>";
-		};
 		4005DFC1278F67ED00EB1640 /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -475,7 +450,6 @@
 			isa = PBXGroup;
 			children = (
 				40E4431B27879EFA00FE245D /* Map */,
-				40E4430327877F8400FE245D /* Region */,
 				40E4430227877F7D00FE245D /* Canyon */,
 				405E67C1279789C700BA41D9 /* ResultsBase */,
 				405E67C2279789D400BA41D9 /* Favorites */,
@@ -577,7 +551,7 @@
 			isa = PBXGroup;
 			children = (
 				40E4433D2788F1C800FE245D /* Filters */,
-				4005DFBC278F5C0500EB1640 /* ResultViews */,
+				40E442EC2787710100FE245D /* CanyonResultView.swift */,
 				405E67B32797865D00BA41D9 /* SearchViewController.swift */,
 				405E67B52797865D00BA41D9 /* SearchViewModel.swift */,
 			);
@@ -588,8 +562,6 @@
 			isa = PBXGroup;
 			children = (
 				40E442BC27875F0200FE245D /* GlobalSearchView.swift */,
-				40E4431727879B8000FE245D /* RegionListRow.swift */,
-				40E442BA27875EFB00FE245D /* RegionListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -604,26 +576,6 @@
 				4032AEBE278F324D002EEA4E /* CanyonViewModel.swift */,
 			);
 			path = Canyon;
-			sourceTree = "<group>";
-		};
-		40E4430327877F8400FE245D /* Region */ = {
-			isa = PBXGroup;
-			children = (
-				40E4431427878A6800FE245D /* Views */,
-				40E4430427877F8D00FE245D /* RegionViewController.swift */,
-			);
-			path = Region;
-			sourceTree = "<group>";
-		};
-		40E4431427878A6800FE245D /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				40E4431227878A5700FE245D /* SubRegionView.swift */,
-				40E4430A2787801900FE245D /* SubRegionListView.swift */,
-				40E4431027878A3D00FE245D /* SubCanyonView.swift */,
-				40E4430E2787897F00FE245D /* SubCanyonListView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		40E4431B27879EFA00FE245D /* Map */ = {
@@ -863,7 +815,6 @@
 				407FB7622790CD2B008B65BE /* WeatherDataPoint.swift in Sources */,
 				407FB7732790FF7B008B65BE /* AppleMapView.swift in Sources */,
 				40E4432C2787D80100FE245D /* CanyonPoint.swift in Sources */,
-				40E4431327878A5700FE245D /* SubRegionView.swift in Sources */,
 				40E4434E278B489D00FE245D /* SwitchFilter.swift in Sources */,
 				407FB76B2790D592008B65BE /* WeatherForecastView.swift in Sources */,
 				40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */,
@@ -887,38 +838,31 @@
 				407FB7612790CD2B008B65BE /* NOAAData.swift in Sources */,
 				40E442C427875FCD00FE245D /* UIEdgeInsets+Extensions.swift in Sources */,
 				40E442D72787614000FE245D /* ColorPalette.swift in Sources */,
-				40E4430527877F8D00FE245D /* RegionViewController.swift in Sources */,
 				407FB7692790CDE5008B65BE /* NetworkValidation.swift in Sources */,
 				405E67B92797865D00BA41D9 /* MapListViewController.swift in Sources */,
 				405E6792279736C600BA41D9 /* DownloadBar.swift in Sources */,
 				405E67BC2797865D00BA41D9 /* SearchViewController.swift in Sources */,
 				40E443462789F8A100FE245D /* MultiSelectFilter.swift in Sources */,
-				40E4431127878A3D00FE245D /* SubCanyonView.swift in Sources */,
 				407FB7602790CD2B008B65BE /* NOAAWeatherService.swift in Sources */,
 				405E679427973BBE00BA41D9 /* DispatchTime+duration.swift in Sources */,
 				40E44335278886CC00FE245D /* DataTableView.swift in Sources */,
-				40E4430F2787897F00FE245D /* SubCanyonListView.swift in Sources */,
 				407FB7672790CDB3008B65BE /* UnitConverter.swift in Sources */,
 				40E4432F2787D90C00FE245D /* RequestError.swift in Sources */,
 				405E67BA2797865D00BA41D9 /* ResultsViewModel.swift in Sources */,
 				40FDB38A2791FCDE0065FF47 /* Data+toFile.swift in Sources */,
-				40E442EF2787710700FE245D /* RegionResultView.swift in Sources */,
 				40E443412789F36C00FE245D /* BottomSheetFilterViewController.swift in Sources */,
 				405E67B72797865D00BA41D9 /* NearMeViewController.swift in Sources */,
-				40E4430B2787801900FE245D /* SubRegionListView.swift in Sources */,
 				40E442DD2787629B00FE245D /* GlobalProgressIndicator.swift in Sources */,
 				405E67B62797865D00BA41D9 /* ResultsViewController.swift in Sources */,
 				40E442DB2787616E00FE245D /* UIStackView+remove.swift in Sources */,
 				40E44316278794D500FE245D /* TagView.swift in Sources */,
 				4005DFB6278F583500EB1640 /* FavoriteService.swift in Sources */,
 				407FB75F2790CD2B008B65BE /* WeatherDataResponse.swift in Sources */,
-				40E442BB27875EFB00FE245D /* RegionListView.swift in Sources */,
 				40E442B927875EB200FE245D /* Region.swift in Sources */,
 				40E44350278B4F4600FE245D /* SeasonView.swift in Sources */,
 				40E442ED2787710100FE245D /* CanyonResultView.swift in Sources */,
 				40E442F4278775A000FE245D /* Observable+onNext.swift in Sources */,
 				40E442C327875FCD00FE245D /* NSDirectionalEdgeInsets+convenience.swift in Sources */,
-				40E4431827879B8000FE245D /* RegionListRow.swift in Sources */,
 				40FDB38E279218C50065FF47 /* SolarService.swift in Sources */,
 				40783CEB278DF5E3001E78DB /* Storage.swift in Sources */,
 				40E442FA2787777700FE245D /* FontBook.swift in Sources */,

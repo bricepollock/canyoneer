@@ -88,30 +88,13 @@ class ResultsViewController: ScrollableStackViewController {
         self.masterStackView.removeAll()
         self.masterStackView.addArrangedSubview(UIView.createLineView())
         results.forEach { result in
-            let view: UIView
-            switch result.type {
-            case .canyon:
-                let specificView = CanyonResultView()
-                specificView.configure(with: result)
-                specificView.didSelect.subscribeOnNext { [weak self] () in
-                    guard let canyon = result.canyonDetails else {
-                        return
-                    }
-                    let next = CanyonViewController(canyonId: canyon.id)
-                    self?.navigationController?.pushViewController(next, animated: true)
-                }.disposed(by: self.bag)
-                view = specificView
-            case .region:
-                let specificView = RegionResultView()
-                specificView.configure(with: result)
-                specificView.didSelect.subscribeOnNext { [weak self] () in
-                    guard let region = result.regionDetails else {
-                        return
-                    }
-                    return // TODO: Refactor out regions
-                }.disposed(by: self.bag)
-                view = specificView
-            }
+            let view = CanyonResultView()
+            view.configure(with: result)
+            view.didSelect.subscribeOnNext { [weak self] () in
+                let canyon = result.canyonDetails
+                let next = CanyonViewController(canyonId: canyon.id)
+                self?.navigationController?.pushViewController(next, animated: true)
+            }.disposed(by: self.bag)
             
             self.masterStackView.addArrangedSubview(view)
             self.masterStackView.addArrangedSubview(UIView.createLineView())

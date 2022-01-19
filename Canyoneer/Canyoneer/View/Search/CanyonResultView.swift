@@ -27,7 +27,6 @@ class CanyonResultView: UIView {
             }
             return "Max: \(feet) ft"
         }
-        static let canyon = "Canyon"
     }
     
     public let didSelect: Observable<Void>
@@ -39,7 +38,6 @@ class CanyonResultView: UIView {
     private let detailStackView = UIStackView()
     
     private let name = UILabel()
-    private let canyonTag = TagView()
     private let qualityStack = UIStackView()
     private let summary = UILabel()
     
@@ -62,14 +60,12 @@ class CanyonResultView: UIView {
         self.canyonNameStackView.axis = .horizontal
         self.canyonNameStackView.spacing = Grid.small
         self.canyonNameStackView.addArrangedSubview(self.name)
-        self.canyonNameStackView.addArrangedSubview(self.canyonTag)
         self.canyonNameStackView.alignment = .leading
         self.canyonNameStackView.distribution = .equalCentering
         
         self.name.numberOfLines = 0
         self.name.setContentHuggingPriority(.required, for: .horizontal)
         self.name.setContentCompressionResistancePriority(.defaultLow, for: .horizontal)
-        self.canyonTag.setContentCompressionResistancePriority(.required, for: .horizontal)
 
         self.detailStackView.axis = .vertical
         self.detailStackView.spacing = Grid.medium
@@ -80,13 +76,7 @@ class CanyonResultView: UIView {
         self.qualityStack.axis = .horizontal
         self.qualityStack.spacing = 1
         self.summary.setContentCompressionResistancePriority(.required, for: .horizontal)
-        
-        self.canyonTag.configure(
-            name: Strings.canyon,
-            background: ColorPalette.Color.canyonRed,
-            text: ColorPalette.GrayScale.black
-            
-        )
+
         self.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTap)))
     }
     
@@ -95,10 +85,7 @@ class CanyonResultView: UIView {
     }
     
     public func configure(with result: SearchResult) {
-        guard let canyon = result.canyonDetails else {
-            return
-        }
-        
+        let canyon = result.canyonDetails
         self.name.text = Strings.name(with: canyon.name)
         
         // special rendering needed for array of images becuase there is no half-star emoji we could put in text
