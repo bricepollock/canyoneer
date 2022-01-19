@@ -11,6 +11,17 @@ import CoreLocation
 import RxSwift
 import MapboxMaps
 
+extension Point {
+    func isClose(to point: Point) -> Bool {
+        let precision: Double = 100
+        let selfCloseLat = Int((self.coordinates.latitude * precision).rounded(.toNearestOrAwayFromZero))
+        let selfCloseLong = Int((self.coordinates.longitude * precision).rounded(.toNearestOrAwayFromZero))
+        let pointCloseLat = Int((point.coordinates.latitude * precision).rounded(.toNearestOrAwayFromZero))
+        let pointCloseLong = Int((point.coordinates.longitude * precision).rounded(.toNearestOrAwayFromZero))
+        return selfCloseLat == pointCloseLat && selfCloseLong == pointCloseLong
+    }
+}
+
 class MapboxMapView: NSObject, CanyonMap {
     public var locationService = LocationService()
     
@@ -112,6 +123,7 @@ class MapboxMapView: NSObject, CanyonMap {
         let annotationManager = self.mapView.annotations.makePointAnnotationManager()
         // add waypoints from map
         let waypoints = canyon.geoWaypoints.map { feature -> PointAnnotation in
+            // TODO: Avoid overlapping waypoints
             let point = Point(feature.coordinates[0].asCLObject)
             var annotation = PointAnnotation(point: point)
             let image = UIImage(systemName: "pin.fill")!.withTintColor(ColorPalette.Color.warning, renderingMode: .alwaysOriginal)
@@ -124,15 +136,27 @@ class MapboxMapView: NSObject, CanyonMap {
         
         // add labels for the lines
         let labels = canyon.geoLines.compactMap { feature -> PointAnnotation? in
-            if let first = feature.coordinates.first {
-                let point = Point(first.asCLObject)
-                var annotation = PointAnnotation(point: point)
-                annotation.textField = feature.name
-                annotation.iconAnchor = .bottom
-                return annotation
-            } else {
+            // find a coordinate away from waypoints to label the polyline
+            var coordinates = feature.coordinates
+            var first: Coordinate? = coordinates.first
+            while let found = first {
+                let point = Point(found.asCLObject)
+                // if our line coordinate is far from other waypoints, then use it
+                if waypoints.contains(where: { $0.point.isClose(to: point) }) == false{
+                    break
+                }
+                coordinates = Array(coordinates.dropFirst())
+                first = coordinates.first
+            }
+            // if couldn't find a coordinate away from waypoints then skip this label
+            guard let labelCoordinate = first else {
                 return nil
             }
+            let labelPoint = Point(labelCoordinate.asCLObject)
+            var annotation = PointAnnotation(point: labelPoint)
+            annotation.textField = feature.name
+            annotation.iconAnchor = .center
+            return annotation
         }
         annotationManager.annotations = waypoints + labels
     }
