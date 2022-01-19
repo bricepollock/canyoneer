@@ -22,6 +22,7 @@ class SearchViewController: UIViewController, UITextViewDelegate {
     
     private let searchController: UISearchController
     private let resultsViewController: ResultsViewController
+    private let nearMeButton = RxUIButton()
     
     private let viewModel: SearchViewModel
     internal let bag = DisposeBag()
@@ -33,23 +34,47 @@ class SearchViewController: UIViewController, UITextViewDelegate {
         super.init(nibName: nil, bundle: nil)
         self.navigationItem.backButtonTitle = ""
         
+        self.searchController.delegate = self
         self.searchController.searchResultsUpdater = self
         self.searchController.obscuresBackgroundDuringPresentation = false
         self.searchController.searchBar.placeholder = Strings.placeholder
         self.navigationItem.searchController = self.searchController
 
-        // setup the near me button
-        let nearMe = UIBarButtonItem(image: UIImage(systemName: "location.circle"), style: .plain, target: self, action: #selector(self.nearMePressed))
-        self.navigationItem.rightBarButtonItems = [nearMe]
+        self.searchController.searchBar.addSubview(self.nearMeButton)
+        self.nearMeButton.constrain.trailing(to: self.searchController.searchBar, with: -CGFloat.large)
+        self.nearMeButton.constrain.centerY(on: self.searchController.searchBar, with: -6)
+        self.nearMeButton.constrain.height(DesignSystem.buttonHeight)
+        self.nearMeButton.constrain.aspect(1)
+        
+        self.nearMeButton.configure(image: UIImage(systemName: "location.circle")!)
+        self.nearMeButton.didSelect.subscribeOnNext { _ in
+            let next = NearMeViewController()
+            self.navigationController?.pushViewController(next, animated: true)
+        }.disposed(by: self.bag)
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
     @objc func nearMePressed() {
         let next = NearMeViewController()
         self.navigationController?.pushViewController(next, animated: true)
+    }
+}
+
+extension SearchViewController: UISearchControllerDelegate {
+    func willPresentSearchController(_ searchController: UISearchController) {
+        self.nearMeButton.isHidden = true
+    }
+
+    func willDismissSearchController(_ searchController: UISearchController) {
+        self.nearMeButton.isHidden = false
     }
 }
 

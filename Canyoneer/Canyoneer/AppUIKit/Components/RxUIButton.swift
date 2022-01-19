@@ -49,6 +49,7 @@ class RxUIButton: UIButton, RxButton {
     
     public func configure(image: UIImage) {
         self.setImage(image, for: .normal)
+        self.contentMode = .scaleAspectFit
     }
     
     private func changeSelection(to selection: Bool) {
