@@ -9,18 +9,13 @@
 import Foundation
 import RxSwift
 
-protocol WeatherService {
-    func requestCurrentWeatherForLocation(lat: Double, long: Double) -> Observable<WeatherDetails?>
-    func requestHistoricalWeatherForLocation(lat: Double, long: Double, date: Date) -> Observable<WeatherDetails?>
-}
-
 struct Response {
     let json: NSDictionary?
     let httpResponse: HTTPURLResponse?
     let error: Error?
 }
 
-class Service {
+class NetworkService {
     private let defaultSession: URLSession
     private var dataTasks: [String: URLSessionDataTask] = [:]
     

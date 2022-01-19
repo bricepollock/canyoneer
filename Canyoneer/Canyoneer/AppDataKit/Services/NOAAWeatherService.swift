@@ -36,7 +36,12 @@ enum NOAARequest {
     }
 }
 
-class NOAAWeatherService: Service, WeatherService {
+protocol WeatherService {
+    func requestCurrentWeatherForLocation(lat: Double, long: Double) -> Observable<WeatherDetails?>
+    func requestHistoricalWeatherForLocation(lat: Double, long: Double, date: Date) -> Observable<WeatherDetails?>
+}
+
+class NOAAWeatherService: NetworkService, WeatherService {
     
     private let aDayInSeconds: Double = 24*60*60
     
