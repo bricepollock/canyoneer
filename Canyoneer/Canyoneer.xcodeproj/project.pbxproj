@@ -10,11 +10,10 @@
 		4005DFB6278F583500EB1640 /* FavoriteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFB5278F583500EB1640 /* FavoriteService.swift */; };
 		4005DFBE278F5DD900EB1640 /* Logger+error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFBD278F5DD900EB1640 /* Logger+error.swift */; };
 		4005DFC0278F60C500EB1640 /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFBF278F60C500EB1640 /* FilterViewModel.swift */; };
-		4005DFC3278F67F800EB1640 /* SearchViewModelTests+favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFC2278F67F800EB1640 /* SearchViewModelTests+favorite.swift */; };
+		4005DFC3278F67F800EB1640 /* FavoritesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFC2278F67F800EB1640 /* FavoritesViewModelTests.swift */; };
 		4005DFC5278F6F0300EB1640 /* FilterViewModelTests+update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFC4278F6F0300EB1640 /* FilterViewModelTests+update.swift */; };
 		4005DFC7278F733500EB1640 /* FilterViewModelTests+filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFC6278F733400EB1640 /* FilterViewModelTests+filter.swift */; };
-		4005DFC9278F793200EB1640 /* SearchViewController+query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFC8278F793200EB1640 /* SearchViewController+query.swift */; };
-		4005DFCB278F7AAD00EB1640 /* SearchViewModel+nearMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFCA278F7AAD00EB1640 /* SearchViewModel+nearMe.swift */; };
+		4005DFCB278F7AAD00EB1640 /* NearMeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFCA278F7AAD00EB1640 /* NearMeViewModelTests.swift */; };
 		4005DFCD278F7B0A00EB1640 /* MockSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFCC278F7B0A00EB1640 /* MockSearchService.swift */; };
 		4005DFCF278F96E100EB1640 /* MapView+annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFCE278F96E100EB1640 /* MapView+annotations.swift */; };
 		4032AEBD278F3028002EEA4E /* CanyonViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEBC278F3028002EEA4E /* CanyonViewControllerTests.swift */; };
@@ -140,11 +139,10 @@
 		4005DFB5278F583500EB1640 /* FavoriteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteService.swift; sourceTree = "<group>"; };
 		4005DFBD278F5DD900EB1640 /* Logger+error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+error.swift"; sourceTree = "<group>"; };
 		4005DFBF278F60C500EB1640 /* FilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
-		4005DFC2278F67F800EB1640 /* SearchViewModelTests+favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchViewModelTests+favorite.swift"; sourceTree = "<group>"; };
+		4005DFC2278F67F800EB1640 /* FavoritesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModelTests.swift; sourceTree = "<group>"; };
 		4005DFC4278F6F0300EB1640 /* FilterViewModelTests+update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilterViewModelTests+update.swift"; sourceTree = "<group>"; };
 		4005DFC6278F733400EB1640 /* FilterViewModelTests+filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilterViewModelTests+filter.swift"; sourceTree = "<group>"; };
-		4005DFC8278F793200EB1640 /* SearchViewController+query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchViewController+query.swift"; sourceTree = "<group>"; };
-		4005DFCA278F7AAD00EB1640 /* SearchViewModel+nearMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchViewModel+nearMe.swift"; sourceTree = "<group>"; };
+		4005DFCA278F7AAD00EB1640 /* NearMeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeViewModelTests.swift; sourceTree = "<group>"; };
 		4005DFCC278F7B0A00EB1640 /* MockSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchService.swift; sourceTree = "<group>"; };
 		4005DFCE278F96E100EB1640 /* MapView+annotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapView+annotations.swift"; sourceTree = "<group>"; };
 		4032AEBC278F3028002EEA4E /* CanyonViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewControllerTests.swift; sourceTree = "<group>"; };
@@ -280,9 +278,8 @@
 		4005DFC1278F67ED00EB1640 /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				4005DFC8278F793200EB1640 /* SearchViewController+query.swift */,
-				4005DFCA278F7AAD00EB1640 /* SearchViewModel+nearMe.swift */,
-				4005DFC2278F67F800EB1640 /* SearchViewModelTests+favorite.swift */,
+				4005DFCA278F7AAD00EB1640 /* NearMeViewModelTests.swift */,
+				4005DFC2278F67F800EB1640 /* FavoritesViewModelTests.swift */,
 				4005DFC4278F6F0300EB1640 /* FilterViewModelTests+update.swift */,
 				4005DFC6278F733400EB1640 /* FilterViewModelTests+filter.swift */,
 			);
@@ -875,13 +872,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4005DFCB278F7AAD00EB1640 /* SearchViewModel+nearMe.swift in Sources */,
+				4005DFCB278F7AAD00EB1640 /* NearMeViewModelTests.swift in Sources */,
 				4005DFCD278F7B0A00EB1640 /* MockSearchService.swift in Sources */,
 				4032AEC1278F3AB7002EEA4E /* CanyonViewModelTests.swift in Sources */,
 				4032AEBD278F3028002EEA4E /* CanyonViewControllerTests.swift in Sources */,
-				4005DFC9278F793200EB1640 /* SearchViewController+query.swift in Sources */,
 				4005DFC5278F6F0300EB1640 /* FilterViewModelTests+update.swift in Sources */,
-				4005DFC3278F67F800EB1640 /* SearchViewModelTests+favorite.swift in Sources */,
+				4005DFC3278F67F800EB1640 /* FavoritesViewModelTests.swift in Sources */,
 				4032AECB278F3FD8002EEA4E /* MockRopeWikiService.swift in Sources */,
 				4032AECD278F41D0002EEA4E /* CanyonDetailViewTests.swift in Sources */,
 				40FDB3932792270F0065FF47 /* WeatherDataPointTests+Strings.swift in Sources */,

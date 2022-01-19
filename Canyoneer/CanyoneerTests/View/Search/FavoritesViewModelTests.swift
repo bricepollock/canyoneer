@@ -1,5 +1,5 @@
 //
-//  SearchViewController+nearMe.swift
+//  SearchViewModel+favorite.swift
 //  CanyoneerTests
 //
 //  Created by Brice Pollock on 1/12/22.
@@ -11,7 +11,7 @@ import RxTest
 @testable import Canyoneer
 
 
-class SearchViewModelNearMeTests: XCTestCase {
+class FavoritesViewModelTests: XCTestCase {
     var scheduler: TestScheduler!
     
     override func setUp() {
@@ -20,16 +20,11 @@ class SearchViewModelNearMeTests: XCTestCase {
         UserPreferencesStorage.clearFavorites()
     }
     
-    func testNearMe() {
+    func testReturnsFavorites() {
         // setup
-        var canyon = Canyon.dummy()
-        canyon.name = "Something else"
-        let service = MockSearchService(canyonService: MockRopeWikiService())
-        let searchResults  = [canyon, Canyon.dummy(), Canyon.dummy(), Canyon.dummy()].map {
-            return SearchResult(name: $0.name, type: .canyon, canyonDetails: $0, regionDetails: nil)
-        }
-        service.searchResults = SearchResultList(searchString: "Near Me", result: searchResults)
-        let viewModel = SearchViewModel(type: .nearMe, searchService: service)
+        let canyon = Canyon.dummy()
+        let viewModel = FavoritesViewModel()
+        UserPreferencesStorage.addFavorite(canyon: canyon)
         
         // Create the observation of the affected streams
         let observer = scheduler.createObserver([SearchResult].self)
@@ -41,7 +36,7 @@ class SearchViewModelNearMeTests: XCTestCase {
         
         // observe the response
         let results = observer.events.map { $0.value.element }
-        XCTAssertEqual(results.first??.count, 4)
+        XCTAssertEqual(results.first??.count, 1)
         
         // clean up
         subscription.dispose()
@@ -52,7 +47,7 @@ class SearchViewModelNearMeTests: XCTestCase {
         let canyon = Canyon.dummy()
         let service = MockRopeWikiService()
         service.mockCanyons = [canyon, Canyon.dummy(), Canyon.dummy(), Canyon.dummy()]
-        let viewModel = SearchViewModel(type: .nearMe, canyonService: service)
+        let viewModel = FavoritesViewModel()
         
         // Create the observation of the affected streams
         let observer = scheduler.createObserver(String.self)
@@ -64,7 +59,7 @@ class SearchViewModelNearMeTests: XCTestCase {
         
         // observe the response
         let results = observer.events.map { $0.value.element }
-        XCTAssertEqual(results.first, "Near Me (Top 100)")
+        XCTAssertEqual(results.first, "Favorites")
         
         // clean up
         subscription.dispose()
