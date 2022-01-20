@@ -29,6 +29,7 @@ class MapViewController: UIViewController {
     private let showLineOverlaySwitch = UISwitch()
     private let filterSheet = BottomSheetFilterViewController.shared
 
+    private var hasLoaded: Bool = false
     private var initialCanyons: [Canyon]
     private let viewModel = MapViewModel()
     private let bag = DisposeBag()
@@ -69,6 +70,15 @@ class MapViewController: UIViewController {
         self.mapView.view.constrain.trailing(to: self.view)
         self.mapView.initialize()
         self.mapView.updateInitialCamera()
+    }
+    
+    // wait until view did appear so we don't hang the main thread trying to render everything
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        // only do the load once, important when we think about switching tabs
+        guard self.hasLoaded == false else { return }
+        self.hasLoaded = true
         
         if initialCanyons.isEmpty {
             self.viewModel.canyons().subscribe { canyons in
