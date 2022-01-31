@@ -65,7 +65,7 @@ class MainViewController: UIViewController {
         contained.view.constrain.top(to: self.view, atMargin: true)
         contained.view.constrain.leading(to: self.view)
         contained.view.constrain.trailing(to: self.view)
-        contained.view.constrain.bottom(to: self.view, atMargin: true)
+        contained.view.constrain.bottom(to: self.view, atMargin: false)
         contained.didMove(toParent: self)        
     }
 }
