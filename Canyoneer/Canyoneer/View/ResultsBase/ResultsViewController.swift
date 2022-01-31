@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 import RxSwift
 import SwiftUI
+import Combine
 
 enum SearchType: Equatable {
     static func == (lhs: SearchType, rhs: SearchType) -> Bool {
@@ -36,6 +37,7 @@ class ResultsViewController: ScrollableStackViewController {
     private let viewModel: ResultsViewModel
     private var filteredResults: [Canyon]?
     internal let bag = DisposeBag()
+    private var resultCancelables = [AnyCancellable]()
     
     init(type: SearchType, searchResults: [SearchResult], viewModel: ResultsViewModel) {
         self.viewModel = viewModel
@@ -88,10 +90,11 @@ class ResultsViewController: ScrollableStackViewController {
     internal func renderResults(results: [SearchResult]) {
         self.masterStackView.removeAll()
         self.masterStackView.addArrangedSubview(UIView.createLineView())
+        self.resultCancelables.removeAll()
         results.forEach { result in
             let resultView = CanyonItemView(result: result)
             let hostingViewController = UIHostingController(rootView: resultView)
-            resultView.didSelect.asObservable().subscribeOnNext { [weak self] () in
+            let cancelable = resultView.didSelect.sink { [weak self] _ in
                 let canyon = result.canyonDetails
                 let next = CanyonViewController(canyonId: canyon.id)
                 
@@ -103,7 +106,8 @@ class ResultsViewController: ScrollableStackViewController {
                 } else {
                     Global.logger.error("Cannot find navigation controller to push from")
                 }
-            }.disposed(by: self.bag)
+            }
+            self.resultCancelables.append(cancelable)
             
             self.addChild(hostingViewController)
             self.masterStackView.addArrangedSubview(hostingViewController.view)

@@ -7,6 +7,8 @@
 
 import SwiftUI
 import RxSwift
+import Combine
+
 struct CanyonItemView: View {
     private static func stars(quality: Float) -> [UIImage] {
         var images = [UIImage?]()
@@ -25,11 +27,15 @@ struct CanyonItemView: View {
     }
     private static let imageWidth: CGFloat = 20
     
+    public var didSelect: AnyPublisher<Void, Never> {
+        return self.didSelectSubject.eraseToAnyPublisher()
+    }
+    private let didSelectSubject = PassthroughSubject<Void, Never>()
+    
     @State var result: SearchResult
     var qualityImages: [UIImage] {
         return Self.stars(quality: result.canyonDetails.quality)
     }
-    var didSelect: PublishSubject<Void> = PublishSubject()
     
     var body: some View {
         HStack(alignment: .center, spacing: .medium) {
@@ -54,7 +60,7 @@ struct CanyonItemView: View {
         // enable selection of the stackview and not just from its subviews
         .contentShape(Rectangle())
         .gesture(TapGesture().onEnded {
-            self.didSelect.onNext(())
+            self.didSelectSubject.send(())
         })
             .padding(.leading, .medium)
             .padding(.trailing, .medium)
