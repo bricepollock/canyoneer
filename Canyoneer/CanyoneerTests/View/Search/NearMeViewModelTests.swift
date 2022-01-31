@@ -7,9 +7,7 @@
 
 import Foundation
 import XCTest
-import RxTest
 @testable import Canyoneer
-
 
 class NearMeViewModelTests: XCTestCase {
     override func setUp() {
