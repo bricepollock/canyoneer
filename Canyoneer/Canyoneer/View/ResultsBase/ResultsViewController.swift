@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 import RxSwift
+import SwiftUI
 
 enum SearchType: Equatable {
     static func == (lhs: SearchType, rhs: SearchType) -> Bool {
@@ -88,9 +89,9 @@ class ResultsViewController: ScrollableStackViewController {
         self.masterStackView.removeAll()
         self.masterStackView.addArrangedSubview(UIView.createLineView())
         results.forEach { result in
-            let view = CanyonResultView()
-            view.configure(with: result)
-            view.didSelect.subscribeOnNext { [weak self] () in
+            let resultView = CanyonItemView(result: result)
+            let hostingViewController = UIHostingController(rootView: resultView)
+            resultView.didSelect.asObservable().subscribeOnNext { [weak self] () in
                 let canyon = result.canyonDetails
                 let next = CanyonViewController(canyonId: canyon.id)
                 
@@ -104,7 +105,9 @@ class ResultsViewController: ScrollableStackViewController {
                 }
             }.disposed(by: self.bag)
             
-            self.masterStackView.addArrangedSubview(view)
+            self.addChild(hostingViewController)
+            self.masterStackView.addArrangedSubview(hostingViewController.view)
+            hostingViewController.didMove(toParent: self)
             self.masterStackView.addArrangedSubview(UIView.createLineView())
         }
     }

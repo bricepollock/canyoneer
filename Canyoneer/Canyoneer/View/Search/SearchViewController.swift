@@ -39,7 +39,6 @@ class SearchViewController: UIViewController, UITextViewDelegate {
         self.searchController.obscuresBackgroundDuringPresentation = false
         self.searchController.searchBar.placeholder = Strings.placeholder
         self.navigationItem.searchController = self.searchController
-//        self.definesPresentationContext = false
 
         self.searchController.searchBar.addSubview(self.nearMeButton)
         self.nearMeButton.constrain.trailing(to: self.searchController.searchBar, with: -CGFloat.large)

@@ -16,6 +16,7 @@
 		4005DFCB278F7AAD00EB1640 /* NearMeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFCA278F7AAD00EB1640 /* NearMeViewModelTests.swift */; };
 		4005DFCD278F7B0A00EB1640 /* MockSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFCC278F7B0A00EB1640 /* MockSearchService.swift */; };
 		4005DFCF278F96E100EB1640 /* MapView+annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFCE278F96E100EB1640 /* MapView+annotations.swift */; };
+		40218D7327A83714006A6ABC /* CanyonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40218D7227A83714006A6ABC /* CanyonItemView.swift */; };
 		4032AEBD278F3028002EEA4E /* CanyonViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEBC278F3028002EEA4E /* CanyonViewControllerTests.swift */; };
 		4032AEBF278F324D002EEA4E /* CanyonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEBE278F324D002EEA4E /* CanyonViewModel.swift */; };
 		4032AEC1278F3AB7002EEA4E /* CanyonViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEC0278F3AB7002EEA4E /* CanyonViewModelTests.swift */; };
@@ -81,7 +82,6 @@
 		40E442E427876F7E00FE245D /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442E327876F7E00FE245D /* SearchResult.swift */; };
 		40E442E627876F9600FE245D /* Canyon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442E527876F9600FE245D /* Canyon.swift */; };
 		40E442EB2787708100FE245D /* UIView+line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442EA2787708100FE245D /* UIView+line.swift */; };
-		40E442ED2787710100FE245D /* CanyonResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442EC2787710100FE245D /* CanyonResultView.swift */; };
 		40E442F4278775A000FE245D /* Observable+onNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442F3278775A000FE245D /* Observable+onNext.swift */; };
 		40E442F82787770200FE245D /* ContainedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442F72787770200FE245D /* ContainedButton.swift */; };
 		40E442FA2787777700FE245D /* FontBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442F92787777700FE245D /* FontBook.swift */; };
@@ -145,6 +145,7 @@
 		4005DFCA278F7AAD00EB1640 /* NearMeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeViewModelTests.swift; sourceTree = "<group>"; };
 		4005DFCC278F7B0A00EB1640 /* MockSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchService.swift; sourceTree = "<group>"; };
 		4005DFCE278F96E100EB1640 /* MapView+annotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapView+annotations.swift"; sourceTree = "<group>"; };
+		40218D7227A83714006A6ABC /* CanyonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonItemView.swift; sourceTree = "<group>"; };
 		4032AEBC278F3028002EEA4E /* CanyonViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewControllerTests.swift; sourceTree = "<group>"; };
 		4032AEBE278F324D002EEA4E /* CanyonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewModel.swift; sourceTree = "<group>"; };
 		4032AEC0278F3AB7002EEA4E /* CanyonViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewModelTests.swift; sourceTree = "<group>"; };
@@ -210,7 +211,6 @@
 		40E442E327876F7E00FE245D /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		40E442E527876F9600FE245D /* Canyon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canyon.swift; sourceTree = "<group>"; };
 		40E442EA2787708100FE245D /* UIView+line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+line.swift"; sourceTree = "<group>"; };
-		40E442EC2787710100FE245D /* CanyonResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonResultView.swift; sourceTree = "<group>"; };
 		40E442F3278775A000FE245D /* Observable+onNext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+onNext.swift"; sourceTree = "<group>"; };
 		40E442F72787770200FE245D /* ContainedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainedButton.swift; sourceTree = "<group>"; };
 		40E442F92787777700FE245D /* FontBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBook.swift; sourceTree = "<group>"; };
@@ -539,7 +539,7 @@
 			children = (
 				40E4433D2788F1C800FE245D /* Filters */,
 				40E442BC27875F0200FE245D /* GlobalSearchView.swift */,
-				40E442EC2787710100FE245D /* CanyonResultView.swift */,
+				40218D7227A83714006A6ABC /* CanyonItemView.swift */,
 				405E67B32797865D00BA41D9 /* SearchViewController.swift */,
 				405E67B52797865D00BA41D9 /* SearchViewModel.swift */,
 			);
@@ -790,6 +790,7 @@
 				4005DFCF278F96E100EB1640 /* MapView+annotations.swift in Sources */,
 				40783CED278DF63F001E78DB /* UserPreferencesStorage.swift in Sources */,
 				40E4433A2788914000FE245D /* CLLocation2D+distance.swift in Sources */,
+				40218D7327A83714006A6ABC /* CanyonItemView.swift in Sources */,
 				40783CE8278DF46A001E78DB /* InMemoryStorage.swift in Sources */,
 				405E67BB2797865D00BA41D9 /* NearMeViewModel.swift in Sources */,
 				407FB7622790CD2B008B65BE /* WeatherDataPoint.swift in Sources */,
@@ -841,7 +842,6 @@
 				407FB75F2790CD2B008B65BE /* WeatherDataResponse.swift in Sources */,
 				40E442B927875EB200FE245D /* Region.swift in Sources */,
 				40E44350278B4F4600FE245D /* SeasonView.swift in Sources */,
-				40E442ED2787710100FE245D /* CanyonResultView.swift in Sources */,
 				40E442F4278775A000FE245D /* Observable+onNext.swift in Sources */,
 				40E442C327875FCD00FE245D /* NSDirectionalEdgeInsets+convenience.swift in Sources */,
 				40FDB38E279218C50065FF47 /* SolarService.swift in Sources */,
