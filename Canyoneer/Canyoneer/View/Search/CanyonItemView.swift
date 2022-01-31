@@ -40,7 +40,7 @@ struct CanyonItemView: View {
     var body: some View {
         HStack(alignment: .center, spacing: .medium) {
             Text(result.name)
-                .lineLimit(0)
+                .lineLimit(nil)
                 .multilineTextAlignment(.leading)
                 // make the text fill all remaining space in stack
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -69,7 +69,7 @@ struct CanyonItemView: View {
 
 struct CanyonItemView_Previews: PreviewProvider {
     static var previews: some View {
-        let result = SearchResult(name: "Moonflower", canyonDetails: Canyon.dummy())
+        let result = SearchResult(name: "Moonflower Canyon with a long name", canyonDetails: Canyon.dummy())
         CanyonItemView(result: result)
     }
 }
