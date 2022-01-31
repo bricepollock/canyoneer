@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import RxSwift
 import Combine
 
 class FavoritesViewModel: ResultsViewModel {
@@ -27,6 +26,7 @@ class FavoritesViewModel: ResultsViewModel {
     private let favoriteService = FavoriteService()
     private let mapService = MapService.shared
     private var cancelables = [AnyCancellable]()
+    private var downloadCancelable: AnyCancellable?
     
     init() {
         super.init(type: .favorites, results: [])
@@ -63,15 +63,21 @@ class FavoritesViewModel: ResultsViewModel {
     }
     
     func downloadCanyonMaps() {
-        self.mapService.downloadTiles(for: self.currentResults.compactMap { $0.canyonDetails }).subscribe { _ in
+        self.downloadCancelable?.cancel()
+        self.downloadCancelable = self.mapService.downloadTiles(for: self.currentResults.compactMap { $0.canyonDetails }).sink(receiveCompletion: { completion in
+            switch completion {
+            case .failure(let error):
+                Global.logger.error(error)
+            default: break;
+            }
+            
+        }, receiveValue: { _ in
             defer {
                 DispatchQueue.main.async {
                     self.hasDownloadedAllSubject.send(true)
                 }
             }
             Global.logger.info("Downloaded all Canyons")
-        } onFailure: { error in
-            Global.logger.error(error)
-        }
+        })
     }
 }

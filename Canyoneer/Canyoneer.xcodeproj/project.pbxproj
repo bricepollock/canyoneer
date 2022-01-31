@@ -17,6 +17,7 @@
 		4005DFCD278F7B0A00EB1640 /* MockSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFCC278F7B0A00EB1640 /* MockSearchService.swift */; };
 		4005DFCF278F96E100EB1640 /* MapView+annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005DFCE278F96E100EB1640 /* MapView+annotations.swift */; };
 		40218D7327A83714006A6ABC /* CanyonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40218D7227A83714006A6ABC /* CanyonItemView.swift */; };
+		40218D7727A87A68006A6ABC /* ZipCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40218D7627A87A68006A6ABC /* ZipCollection.swift */; };
 		4032AEBD278F3028002EEA4E /* CanyonViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEBC278F3028002EEA4E /* CanyonViewControllerTests.swift */; };
 		4032AEBF278F324D002EEA4E /* CanyonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEBE278F324D002EEA4E /* CanyonViewModel.swift */; };
 		4032AEC1278F3AB7002EEA4E /* CanyonViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032AEC0278F3AB7002EEA4E /* CanyonViewModelTests.swift */; };
@@ -145,6 +146,7 @@
 		4005DFCC278F7B0A00EB1640 /* MockSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchService.swift; sourceTree = "<group>"; };
 		4005DFCE278F96E100EB1640 /* MapView+annotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapView+annotations.swift"; sourceTree = "<group>"; };
 		40218D7227A83714006A6ABC /* CanyonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonItemView.swift; sourceTree = "<group>"; };
+		40218D7627A87A68006A6ABC /* ZipCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCollection.swift; sourceTree = "<group>"; };
 		4032AEBC278F3028002EEA4E /* CanyonViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewControllerTests.swift; sourceTree = "<group>"; };
 		4032AEBE278F324D002EEA4E /* CanyonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewModel.swift; sourceTree = "<group>"; };
 		4032AEC0278F3AB7002EEA4E /* CanyonViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonViewModelTests.swift; sourceTree = "<group>"; };
@@ -580,6 +582,7 @@
 				40FDB3872791FCCB0065FF47 /* GPXService.swift */,
 				4005DFB5278F583500EB1640 /* FavoriteService.swift */,
 				407FB75A2790CD2B008B65BE /* NOAAWeatherService.swift */,
+				40218D7627A87A68006A6ABC /* ZipCollection.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -761,6 +764,7 @@
 				40FDB39E27970DAC0065FF47 /* UIColor+hex.swift in Sources */,
 				405E67B82797865D00BA41D9 /* FavoritesViewModel.swift in Sources */,
 				40E442D1278760EF00FE245D /* LoadingComponent.swift in Sources */,
+				40218D7727A87A68006A6ABC /* ZipCollection.swift in Sources */,
 				407FB75327906DF0008B65BE /* MapLegendBottomSheetViewController.swift in Sources */,
 				405E67BE2797865D00BA41D9 /* SearchViewModel.swift in Sources */,
 				40FDB39527922C950065FF47 /* MapService.swift in Sources */,

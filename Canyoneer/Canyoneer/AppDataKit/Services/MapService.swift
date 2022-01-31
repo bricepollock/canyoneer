@@ -8,7 +8,6 @@
 import Foundation
 import MapboxMaps
 import UIKit
-import RxSwift
 import Combine
 
 struct MapService {
@@ -49,70 +48,75 @@ struct MapService {
         return subject.eraseToAnyPublisher()
     }
         
-    func downloadTile(for canyon: Canyon) -> Single<Void> {
+    func downloadTile(for canyon: Canyon) -> AnyPublisher<Void, Error> {
         let id = canyon.id
         let options = TilesetDescriptorOptions(styleURI: .outdoors, zoomRange: 8...16)
         let tilesetDescriptor = offlineManager.createTilesetDescriptor(for: options)
+        
+        let publisher = PassthroughSubject<Void, Error>()
         guard let tileRegionLoadOptions = TileRegionLoadOptions(
             geometry: .point(Point(LocationCoordinate2D(latitude: canyon.coordinate.latitude, longitude: canyon.coordinate.longitude))),
             descriptors: [tilesetDescriptor],
             acceptExpired: true
         ) else {
             Global.logger.error("Could not create tile region!")
-            return Single.error(RequestError.noResponse)
+            publisher.send(completion: .failure(RequestError.noResponse))
+            return publisher.eraseToAnyPublisher()
         }
-
-        return Single.create { single in
-            _ = tileStore.loadTileRegion(
-                forId: id,
-                loadOptions: tileRegionLoadOptions) { _ in
-                    // progress callback
-            } completion: { result in
-                switch result {
-                case let .success(tileRegion):
-                    _ = tileRegion // removes warning, may want this object in future
-                    Global.logger.info("Finished downloading tile for \(id)")
-                    single(.success(()))
-                case let .failure(error):
-                    // Handle error occurred during the tile region download
-                    if case TileRegionError.canceled = error {
-                        Global.logger.debug("The tile request was canceled")
-                    } else {
-                        Global.logger.error(error)
-                    }
-                    single(.failure(error))
+        
+        _ = tileStore.loadTileRegion(
+            forId: id,
+            loadOptions: tileRegionLoadOptions) { _ in
+                // progress callback
+        } completion: { result in
+            switch result {
+            case let .success(tileRegion):
+                _ = tileRegion // removes warning, may want this object in future
+                Global.logger.info("Finished downloading tile for \(id)")
+                publisher.send(())
+            case let .failure(error):
+                // Handle error occurred during the tile region download
+                if case TileRegionError.canceled = error {
+                    Global.logger.debug("The tile request was canceled")
+                } else {
+                    Global.logger.error(error)
                 }
+                publisher.send(completion: .failure(error))
             }
-            return Disposables.create()
         }
+        return publisher.eraseToAnyPublisher()
     }
     
-    func downloadTiles(for canyons: [Canyon]) -> Single<Void> {
+    func downloadTiles(for canyons: [Canyon]) -> AnyPublisher<Void, Error> {
         let totalDownloads = Float(canyons.count)
         var downloaded: Float = 0
         self.downloadProgressSubject.send(0)
-        let singles = canyons.map {
+        let publishers = canyons.map {
             self.downloadTile(for: $0)
-                .do { _ in
+                .handleEvents(receiveOutput: { _ in
                     downloaded += 1
                     let downloadPercentage = downloaded / totalDownloads
                     DispatchQueue.main.async {
                         self.downloadProgressSubject.send(downloadPercentage)
                     }
-                }
+                })
         }
-        return Single.zip(singles)
+        
+        return ZipCollection(publishers)
             .map { _ in return () }
-            .do { _ in
+            .handleEvents(receiveOutput: { _ in
                 DispatchQueue.main.async {
                     self.downloadProgressSubject.send(1)
                 }
-            } onError: { error in
-                Global.logger.error(error)
-                DispatchQueue.main.async {
-                    self.downloadProgressSubject.send(1)
+            }, receiveCompletion: { completion in
+                switch completion {
+                case .failure(let error):
+                    Global.logger.error(error)
+                    DispatchQueue.main.async {
+                        self.downloadProgressSubject.send(1)
+                    }
+                default: break;
                 }
-            }
-
+            }).eraseToAnyPublisher()
     }
 }
