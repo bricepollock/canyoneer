@@ -65,7 +65,6 @@
 		40E4429027875DA000FE245D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E4428F27875DA000FE245D /* Assets.xcassets */; };
 		40E4429327875DA000FE245D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E4429127875DA000FE245D /* LaunchScreen.storyboard */; };
 		40E442B927875EB200FE245D /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442B827875EB200FE245D /* Region.swift */; };
-		40E442BD27875F0200FE245D /* GlobalSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442BC27875F0200FE245D /* GlobalSearchView.swift */; };
 		40E442C327875FCD00FE245D /* NSDirectionalEdgeInsets+convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442C027875FCD00FE245D /* NSDirectionalEdgeInsets+convenience.swift */; };
 		40E442C427875FCD00FE245D /* UIEdgeInsets+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442C127875FCD00FE245D /* UIEdgeInsets+Extensions.swift */; };
 		40E442C527875FCD00FE245D /* UIView+autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442C227875FCD00FE245D /* UIView+autolayout.swift */; };
@@ -194,7 +193,6 @@
 		40E4429427875DA000FE245D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40E4429927875DA100FE245D /* CanyoneerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanyoneerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E442B827875EB200FE245D /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
-		40E442BC27875F0200FE245D /* GlobalSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSearchView.swift; sourceTree = "<group>"; };
 		40E442C027875FCD00FE245D /* NSDirectionalEdgeInsets+convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDirectionalEdgeInsets+convenience.swift"; sourceTree = "<group>"; };
 		40E442C127875FCD00FE245D /* UIEdgeInsets+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Extensions.swift"; sourceTree = "<group>"; };
 		40E442C227875FCD00FE245D /* UIView+autolayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+autolayout.swift"; sourceTree = "<group>"; };
@@ -538,7 +536,6 @@
 			isa = PBXGroup;
 			children = (
 				40E4433D2788F1C800FE245D /* Filters */,
-				40E442BC27875F0200FE245D /* GlobalSearchView.swift */,
 				40218D7227A83714006A6ABC /* CanyonItemView.swift */,
 				405E67B32797865D00BA41D9 /* SearchViewController.swift */,
 				405E67B52797865D00BA41D9 /* SearchViewModel.swift */,
@@ -760,7 +757,6 @@
 				4032AEBF278F324D002EEA4E /* CanyonViewModel.swift in Sources */,
 				40E442E427876F7E00FE245D /* SearchResult.swift in Sources */,
 				40E442CB278760E300FE245D /* ScrollableStackViewController.swift in Sources */,
-				40E442BD27875F0200FE245D /* GlobalSearchView.swift in Sources */,
 				40E442CF278760EF00FE245D /* RxButton.swift in Sources */,
 				40FDB39E27970DAC0065FF47 /* UIColor+hex.swift in Sources */,
 				405E67B82797865D00BA41D9 /* FavoritesViewModel.swift in Sources */,
