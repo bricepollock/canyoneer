@@ -9,44 +9,44 @@ import Foundation
 import MapboxMaps
 import UIKit
 import RxSwift
+import Combine
 
 struct MapService {
     public static let shared = MapService()
     
-    public let downloadProgress: RxSwift.Observable<Float>
-    private let downloadProgressSubject: PublishSubject<Float>
+    public var downloadProgress: AnyPublisher<Float, Never> {
+        return self.downloadProgressSubject.eraseToAnyPublisher()
+    }
+    private let downloadProgressSubject = PassthroughSubject<Float, Never>()
     
     public static let publicAccessToken = "pk.eyJ1IjoiYnJpY2Vwb2xsb2NrIiwiYSI6ImNreWRhdGNtODAyNzUyb2xoMXdmbWFvd3UifQ.-iGgCZKoYX9wKf5uAyLWHA"
     private let tileStore = TileStore.default
     private let offlineManager: OfflineManager
     
     private init() {
-        self.downloadProgressSubject = PublishSubject()
-        self.downloadProgress = self.downloadProgressSubject.asObservable()
-        
         self.tileStore.setOptionForKey(TileStoreOptions.mapboxAccessToken, value: Self.publicAccessToken as Any)
         self.offlineManager = OfflineManager(resourceOptions: ResourceOptions(accessToken: Self.publicAccessToken, tileStore: tileStore))
     }
     
-    func hasDownloaded(all canyons: [Canyon]) -> Single<Bool> {
+    func hasDownloaded(all canyons: [Canyon]) -> AnyPublisher<Bool, Error> {
         let ids = canyons.map { $0.id }
-        return Single.create { single in
-            self.tileStore.allTileRegions { result in
-                switch result {
-                case let .success(regions):
-                    let regionIds = regions.map { $0.id }
-                    if Set(ids).intersection(regionIds).count == ids.count {
-                        single(.success(true))
-                    } else {
-                        single(.success(false))
-                    }
-                case let .failure(error):
-                    Global.logger.error(error)
-                    single(.failure(error))
+        let subject = PassthroughSubject<Bool, Error>()
+        
+        self.tileStore.allTileRegions { result in
+            switch result {
+            case let .success(regions):
+                let regionIds = regions.map { $0.id }
+                if Set(ids).intersection(regionIds).count == ids.count {
+                    subject.send(true)
+                } else {
+                    subject.send(false)
                 }
+            case let .failure(error):
+                Global.logger.error(error)
+                subject.send(completion: .failure(error))
             }
-            return Disposables.create()
         }
+        return subject.eraseToAnyPublisher()
     }
         
     func downloadTile(for canyon: Canyon) -> Single<Void> {
@@ -90,14 +90,14 @@ struct MapService {
     func downloadTiles(for canyons: [Canyon]) -> Single<Void> {
         let totalDownloads = Float(canyons.count)
         var downloaded: Float = 0
-        self.downloadProgressSubject.onNext(0)
+        self.downloadProgressSubject.send(0)
         let singles = canyons.map {
             self.downloadTile(for: $0)
                 .do { _ in
                     downloaded += 1
                     let downloadPercentage = downloaded / totalDownloads
                     DispatchQueue.main.async {
-                        self.downloadProgressSubject.onNext(downloadPercentage)
+                        self.downloadProgressSubject.send(downloadPercentage)
                     }
                 }
         }
@@ -105,12 +105,12 @@ struct MapService {
             .map { _ in return () }
             .do { _ in
                 DispatchQueue.main.async {
-                    self.downloadProgressSubject.onNext(1)
+                    self.downloadProgressSubject.send(1)
                 }
             } onError: { error in
                 Global.logger.error(error)
                 DispatchQueue.main.async {
-                    self.downloadProgressSubject.onNext(1)
+                    self.downloadProgressSubject.send(1)
                 }
             }
 

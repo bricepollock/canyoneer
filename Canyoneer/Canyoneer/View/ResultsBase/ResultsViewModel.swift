@@ -6,42 +6,41 @@
 //
 
 import Foundation
-import RxSwift
+import Combine
 
 class ResultsViewModel {
     
-    public let title: Observable<String>
-    internal let titleSubject: PublishSubject<String>
+    public var title: AnyPublisher<String, Never> {
+        self.titleSubject.eraseToAnyPublisher()
+    }
+    internal let titleSubject = PassthroughSubject<String, Never>()
     
     // used for what to show
     public var currentResults: [SearchResult] = []
     // used for base of the filtering
     public var initialResults: [SearchResult] = []
     // these are current results
-    public let results: Observable<[SearchResult]>
-    internal let resultsSubject: PublishSubject<[SearchResult]>
+    public var results: AnyPublisher<[SearchResult], Never> {
+        self.resultsSubject.eraseToAnyPublisher()
+    }
+    internal let resultsSubject = PassthroughSubject<[SearchResult], Never>()
     
     public let loadingComponent = LoadingComponent()
     
-    internal let bag = DisposeBag()
+    private var cancelables = [AnyCancellable]()
     public let type: SearchType
     
     // views that pass no search results are expected to use the refresh method to populate
     init(type: SearchType, results: [SearchResult]) {
         self.type = type
         
-        self.resultsSubject = PublishSubject()
-        self.results = self.resultsSubject.asObservable()
-        
-        self.titleSubject = PublishSubject()
-        self.title = self.titleSubject.asObservable()
-        
         self.initialResults = results
         self.currentResults = self.initialResults
         
-        self.results.subscribeOnNext { [weak self] results in
+        let resultCancelable = self.results.sink { [weak self] results in
             self?.currentResults = results
-        }.disposed(by: self.bag)
+        }
+        cancelables.append(resultCancelable)
     }
     
     // refresh the view if it has logic to do so. No-op for some results pages
@@ -49,6 +48,6 @@ class ResultsViewModel {
     
     func updateFromFilter(with filtered: [SearchResult]) {
         self.currentResults = filtered
-        self.resultsSubject.onNext(filtered)
+        self.resultsSubject.send(filtered)
     }
 }

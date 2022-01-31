@@ -15,6 +15,7 @@ class SearchViewModel: ResultsViewModel {
     }
     
     private let searchService: SearchServiceInterface        
+    private let bag = DisposeBag()
     
     init(
         canyonService: RopeWikiServiceInterface = RopeWikiService(),
@@ -33,7 +34,7 @@ class SearchViewModel: ResultsViewModel {
                 DispatchQueue.main.async {
                     defer { self?.loadingComponent.stopLoading() }
                     self?.initialResults = results.result
-                    self?.resultsSubject.onNext(results.result)
+                    self?.resultsSubject.send(results.result)
                 }
             } onFailure: { error in
                 DispatchQueue.main.async {
@@ -46,6 +47,6 @@ class SearchViewModel: ResultsViewModel {
     }
     
     public func clearResults() {
-        self.resultsSubject.onNext([])
+        self.resultsSubject.send([])
     }
 }

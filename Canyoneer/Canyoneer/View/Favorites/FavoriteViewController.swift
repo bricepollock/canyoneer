@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-import RxSwift
+import Combine
 
 class FavoriteViewController: ResultsViewController {
     enum Strings {
@@ -19,6 +19,8 @@ class FavoriteViewController: ResultsViewController {
     private let progressView = DownloadBar()
     private let emptyStateView = UILabel()
     private let viewModel = FavoritesViewModel()
+    
+    private var cancelables = [AnyCancellable]()
 
     init() {
         super.init(type: .favorites, searchResults: [], viewModel: viewModel)
@@ -66,15 +68,17 @@ class FavoriteViewController: ResultsViewController {
     override func bind() {
         super.bind()
         
-        self.viewModel.results.subscribeOnNext { results in
+        let resultCancelable = self.viewModel.results.sink { results in
             self.emptyStateView.isHidden = !results.isEmpty
-        }.disposed(by: self.bag)
+        }
+        self.cancelables.append(resultCancelable)
         
-        self.viewModel.hasDownloadedAll.subscribeOnNext { [weak self] haveAll in
+        let downloadCancelable = self.viewModel.hasDownloadedAll.sink { [weak self] haveAll in
             self?.downloadButton.image = haveAll ? UIImage(systemName: "arrow.down.circle.fill")! : UIImage(systemName: "arrow.down.circle")!
-        }.disposed(by: self.bag)
+        }
+        self.cancelables.append(downloadCancelable)
         
-        self.viewModel.progress.subscribeOnNext { [weak self] percentage in
+        let progressCancelable = self.viewModel.progress.sink { [weak self] percentage in
             guard let self = self else { return }
             guard percentage < 1 else {
                 self.progressView.update(progress: percentage)
@@ -87,11 +91,8 @@ class FavoriteViewController: ResultsViewController {
             UIView.animate(withDuration: DesignSystem.animation) {
                self.progressView.show()
             }
-        }.disposed(by: self.bag)
-        
-        self.viewModel.hasDownloadedAll.subscribeOnNext { [weak self] haveAll in
-            self?.downloadButton.image = haveAll ? UIImage(systemName: "arrow.down.circle.fill")! : UIImage(systemName: "arrow.down.circle")!
-        }.disposed(by: self.bag)
+        }
+        self.cancelables.append(progressCancelable)
     }
     
     @objc func didRequestDownloads() {

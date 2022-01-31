@@ -7,11 +7,12 @@
 
 import Foundation
 import RxSwift
+import Combine
 
 class FavoriteService {
     
-    func allFavorites() -> Single<[Canyon]> {
-        return Single.just(UserPreferencesStorage.allFavorites)
+    func allFavorites() -> AnyPublisher<[Canyon], Never> {
+        return Just(UserPreferencesStorage.allFavorites).eraseToAnyPublisher()
     }
     
     func isFavorite(canyon: Canyon) -> Bool {

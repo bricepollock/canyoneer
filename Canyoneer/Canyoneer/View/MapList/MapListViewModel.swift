@@ -28,10 +28,10 @@ class MapListViewModel: ResultsViewModel {
         super.refresh()
         self.loadingComponent.startLoading(loadingType: .inline)
         let results = Array(self.currentResults.prefix(Self.maxMap))
-        self.titleSubject.onNext(Strings.map(count: results.count))
+        self.titleSubject.send(Strings.map(count: results.count))
         
         self.initialResults = results
-        self.resultsSubject.onNext(results)
+        self.resultsSubject.send(results)
         self.loadingComponent.stopLoading()
     }
 }

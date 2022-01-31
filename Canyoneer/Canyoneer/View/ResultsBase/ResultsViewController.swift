@@ -38,6 +38,7 @@ class ResultsViewController: ScrollableStackViewController {
     private var filteredResults: [Canyon]?
     internal let bag = DisposeBag()
     private var resultCancelables = [AnyCancellable]()
+    private var cancelables = [AnyCancellable]() // lifetime-bind cancelables
     
     init(type: SearchType, searchResults: [SearchResult], viewModel: ResultsViewModel) {
         self.viewModel = viewModel
@@ -74,13 +75,15 @@ class ResultsViewController: ScrollableStackViewController {
     }
     
     func bind() {
-        self.viewModel.title.subscribeOnNext { [weak self] title in
+        let titleCancelable = self.viewModel.title.sink { [weak self] title in
             self?.title = title
-        }.disposed(by: self.bag)
+        }
+        cancelables.append(titleCancelable)
         
-        self.viewModel.results.subscribeOnNext { [weak self] result in
+        let resultsCancelable = self.viewModel.results.sink { [weak self] result in
             self?.renderResults(results: result)
-        }.disposed(by: self.bag)
+        }
+        cancelables.append(resultsCancelable)
         
         self.filterSheet.willDismiss.subscribeOnNext { [weak self] () in
             self?.updateWithFilters()
