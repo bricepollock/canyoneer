@@ -12,11 +12,9 @@ import RxTest
 
 
 class FavoritesViewModelTests: XCTestCase {
-    var scheduler: TestScheduler!
     
     override func setUp() {
         super.setUp()
-        self.scheduler = TestScheduler(initialClock: 0)
         UserPreferencesStorage.clearFavorites()
     }
     
@@ -26,20 +24,23 @@ class FavoritesViewModelTests: XCTestCase {
         let viewModel = FavoritesViewModel()
         UserPreferencesStorage.addFavorite(canyon: canyon)
         
-        // Create the observation of the affected streams
-        let observer = scheduler.createObserver([SearchResult].self)
-        let subscription = viewModel.results.subscribe(observer)
+        // Wait for results to come in
+        let expectation = self.expectation(description: "results")
+        var results: [SearchResult] = []
+        let cancelable = viewModel.results.sink { searchResults in
+            results = searchResults
+            expectation.fulfill()
+        }
         
         // Create the event stream
         viewModel.refresh()
-        scheduler.start()
+        waitForExpectations(timeout: 1)
         
-        // observe the response
-        let results = observer.events.map { $0.value.element }
-        XCTAssertEqual(results.first??.count, 1)
+        // test
+        XCTAssertEqual(results.count, 1)
         
         // clean up
-        subscription.dispose()
+        cancelable.cancel()
     }
     
     func testTitle() {
@@ -49,19 +50,22 @@ class FavoritesViewModelTests: XCTestCase {
         service.mockCanyons = [canyon, Canyon.dummy(), Canyon.dummy(), Canyon.dummy()]
         let viewModel = FavoritesViewModel()
         
-        // Create the observation of the affected streams
-        let observer = scheduler.createObserver(String.self)
-        let subscription = viewModel.title.subscribe(observer)
+        // wait
+        let expectation = self.expectation(description: "title")
+        var result: String = ""
+        let cancelable = viewModel.title.sink { title in
+            result = title
+            expectation.fulfill()
+        }
         
         // Create the event stream
         viewModel.refresh()
-        scheduler.start()
+        waitForExpectations(timeout: 1)
         
-        // observe the response
-        let results = observer.events.map { $0.value.element }
-        XCTAssertEqual(results.first, "Favorites")
+        // test
+        XCTAssertEqual(result, "Favorites")
         
         // clean up
-        subscription.dispose()
+        cancelable.cancel()
     }
 }
