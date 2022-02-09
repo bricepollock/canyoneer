@@ -156,23 +156,24 @@ class RopeWikiService: RopeWikiServiceInterface {
                             Global.logger.error("Cannot get coordinate for canyon: \(name)")
                             return nil
                         }
+                        
                         return Canyon(
                             id: name,
                             bestSeasons: RopewikiParser.parseTimeOfYear(string: ropewikiCanyon.holder.bestSeasons.first?.fulltext ?? ""),
                             coordinate: Coordinate(latitude: lat, longitude: long),
                             isRestricted: nil,
-                            maxRapLength: nil,
+                            maxRapLength: Int(ropewikiCanyon.holder.longestRappel.first?.value ?? 0),
                             name: name,
-                            numRaps: nil,
-                            requiresShuttle: nil,
-                            requiresPermit: nil,
+                            numRaps: Int(ropewikiCanyon.holder.numberRappels.first?.dropLast() ?? ""),
+                            requiresShuttle: (ropewikiCanyon.holder.shuttle.first?.value ?? 0) > 0,
+                            requiresPermit: RopewikiParser.parseBooleanString(ropewikiCanyon.holder.requiresPermitsRaw.first ?? ""),
                             ropeWikiURL: URL(string: ropewikiCanyon.pageUrlString),
                             technicalDifficulty: nil,
                             risk: nil,
                             timeGrade: nil,
                             waterDifficulty: nil,
-                            quality: 1,
-                            vehicleAccessibility: nil,
+                            quality: Float(ropewikiCanyon.holder.quality?.first ?? 0),
+                            vehicleAccessibility: Vehicle(rawValue: ropewikiCanyon.holder.vehicleRaw.first ?? ""),
                             description: "",
                             geoWaypoints: [],
                             geoLines: []
@@ -186,51 +187,13 @@ class RopeWikiService: RopeWikiServiceInterface {
                 }
                 return Disposables.create()
             }
+        }.do { canyons in
+            Self.cacheLock.lock()
+            // the id for the included cache are different than the id for the remote ropewiki canyons
+            canyons.forEach {
+                self.storage.set(key: $0.id, value: $0)
+            }
+            Self.cacheLock.unlock()
         }
-    }
-}
-
-struct RopewikiParser {
-    static func parseTimeOfYear(string: String) -> [Month] {
-        guard string.count == 15 else { return [] }
-        let seasons = string.split(separator: ",")
-        var bestTimes: [Month] = []
-        if seasons[0][0] == "X" {
-            bestTimes.append(.january)
-        }
-        if seasons[0][1] == "X" {
-            bestTimes.append(.february)
-        }
-        if seasons[0][2] == "X" {
-            bestTimes.append(.march)
-        }
-        if seasons[1][0] == "X" {
-            bestTimes.append(.april)
-        }
-        if seasons[1][1] == "X" {
-            bestTimes.append(.may)
-        }
-        if seasons[1][2] == "X" {
-            bestTimes.append(.june)
-        }
-        if seasons[2][0] == "X" {
-            bestTimes.append(.july)
-        }
-        if seasons[2][1] == "X" {
-            bestTimes.append(.august)
-        }
-        if seasons[2][2] == "X" {
-            bestTimes.append(.september)
-        }
-        if seasons[3][0] == "X" {
-            bestTimes.append(.october)
-        }
-        if seasons[3][1] == "X" {
-            bestTimes.append(.november)
-        }
-        if seasons[3][2] == "X" {
-            bestTimes.append(.december)
-        }
-        return bestTimes
     }
 }

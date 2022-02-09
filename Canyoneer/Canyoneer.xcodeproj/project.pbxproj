@@ -60,6 +60,7 @@
 		407FB76D2790D59C008B65BE /* WeatherForecastDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB76C2790D59C008B65BE /* WeatherForecastDayView.swift */; };
 		407FB7712790FF49008B65BE /* CanyonMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB7702790FF49008B65BE /* CanyonMap.swift */; };
 		407FB7732790FF7B008B65BE /* AppleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB7722790FF7B008B65BE /* AppleMapView.swift */; };
+		40ADD3B927B44DF9004C3292 /* RopewikiParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ADD3B827B44DF9004C3292 /* RopewikiParser.swift */; };
 		40D2ED2A27AEDC990085ADF3 /* RopewikiCanyon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2ED2927AEDC990085ADF3 /* RopewikiCanyon.swift */; };
 		40D2ED2D27B01E810085ADF3 /* RopewikiParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2ED2C27B01E810085ADF3 /* RopewikiParserTests.swift */; };
 		40D2ED2F27B021ED0085ADF3 /* String+index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2ED2E27B021ED0085ADF3 /* String+index.swift */; };
@@ -189,6 +190,7 @@
 		407FB76C2790D59C008B65BE /* WeatherForecastDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastDayView.swift; sourceTree = "<group>"; };
 		407FB7702790FF49008B65BE /* CanyonMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonMap.swift; sourceTree = "<group>"; };
 		407FB7722790FF7B008B65BE /* AppleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapView.swift; sourceTree = "<group>"; };
+		40ADD3B827B44DF9004C3292 /* RopewikiParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopewikiParser.swift; sourceTree = "<group>"; };
 		40D2ED2927AEDC990085ADF3 /* RopewikiCanyon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopewikiCanyon.swift; sourceTree = "<group>"; };
 		40D2ED2C27B01E810085ADF3 /* RopewikiParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopewikiParserTests.swift; sourceTree = "<group>"; };
 		40D2ED2E27B021ED0085ADF3 /* String+index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+index.swift"; sourceTree = "<group>"; };
@@ -373,6 +375,7 @@
 			isa = PBXGroup;
 			children = (
 				407FB75D2790CD2B008B65BE /* NOAASerializer.swift */,
+				40ADD3B827B44DF9004C3292 /* RopewikiParser.swift */,
 				407FB7662790CDB3008B65BE /* UnitConverter.swift */,
 			);
 			path = BusinessLogic;
@@ -800,6 +803,7 @@
 				407FB75127906CAC008B65BE /* AppleMapObjects.swift in Sources */,
 				4005DFBE278F5DD900EB1640 /* Logger+error.swift in Sources */,
 				4005DFC0278F60C500EB1640 /* FilterViewModel.swift in Sources */,
+				40ADD3B927B44DF9004C3292 /* RopewikiParser.swift in Sources */,
 				40E4431A27879DF100FE245D /* TextField.swift in Sources */,
 				407FB7712790FF49008B65BE /* CanyonMap.swift in Sources */,
 				40E443222787A0F200FE245D /* RopeWikiService.swift in Sources */,
