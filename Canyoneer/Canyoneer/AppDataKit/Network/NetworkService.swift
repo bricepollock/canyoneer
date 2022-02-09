@@ -9,11 +9,13 @@
 import Foundation
 import RxSwift
 
+typealias Json = [String: Any]
+
 struct Response {
-    let json: NSDictionary?
+    let json: Json?
     let httpResponse: HTTPURLResponse?
-    let error: Error?
 }
+
 
 class NetworkService {
     private let defaultSession: URLSession
@@ -31,8 +33,8 @@ class NetworkService {
         }
     }
     
-    internal func request(url: URL) -> Observable<Response> {
-        return Observable.create { subscriber in
+    internal func request(url: URL) -> Single<Response> {
+        return Single.create { single in
             let taskKey = url.absoluteString
             // all threads request the same url and therefore we cancel everything. Its a race condition
             //self.cancelPriorTaskIfExists(key: taskKey)
@@ -41,39 +43,36 @@ class NetworkService {
                 
                 if response == nil {
                     Global.logger.debug("nil network response to \(url) with error: \(String(describing: error))")
-                    subscriber.onNext(Response(json: nil, httpResponse: nil, error: error))
+                    single(.failure(error ?? RequestError.noResponse))
                     return
                 }
                 
                 guard let httpResponse = response as? HTTPURLResponse else {
                     Global.logger.debug("Response not HTTPURLResponse!?!??")
-                    subscriber.onNext(Response(json: nil,httpResponse: nil,error: error))
+                    single(.failure(error ?? RequestError.badResponse))
                     return
                 }
                 
                 guard networkResponseHasError(url: url, data: data, response: httpResponse, error: error) == false else {
                     Global.logger.debug("Network Response Error: \(String(describing: error))")
-                    subscriber.onNext(Response(json: nil, httpResponse: httpResponse, error: error))
+                    single(.failure(RequestError.http(code: httpResponse.statusCode)))
                     return
                 }
                 
-                guard let data = data, let json = try? JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary else {
+                guard let data = data, let json = try? JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers) as? Json else {
                     Global.logger.debug("Unable to serialize response")
-                    subscriber.onNext(Response(json: nil,httpResponse: httpResponse,error: error))
+                    single(.failure(RequestError.serialization))
                     return
                 }
                 //            self.printDebugMessage(response)
                 
-                subscriber.onNext(Response(json: json, httpResponse: httpResponse, error: error))
+                single(.success(Response(json: json, httpResponse: httpResponse)))
             }
             
             task.resume()
             self.dataTasks[taskKey] = task
             return Disposables.create()
-            }.catch({ (error) -> Observable<Response> in
-                Global.logger.debug("Network Error! \(String(describing: error))")
-                return Observable.just(Response(json: nil, httpResponse: nil, error: error))
-            })
+        }
     }
 //
 //    private func printDebugMessage(alamoFireResponse: Response<AnyObject, NSError>) {

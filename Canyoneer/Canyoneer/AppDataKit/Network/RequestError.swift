@@ -9,15 +9,19 @@ import Foundation
 
 enum RequestError: Error {
     
+    case noResponse
+    case badResponse
     case badRequest
     case serialization
-    case noResponse
+    case http(code: Int)
     
     func description() -> String {
         switch self {
+        case .noResponse: return "No HTTP response received"
+        case .badResponse: return "Non HTTP response received"
         case .badRequest: return "Bad Request"
         case .serialization: return "Deserialization failure!"
-        case .noResponse: return "No response from server"
+        case .http(let code): return "Encountered HTTP Error \(code)"
         }
         
     }

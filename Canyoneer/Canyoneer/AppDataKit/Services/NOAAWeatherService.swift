@@ -63,14 +63,14 @@ class NOAAWeatherService: NetworkService, WeatherService {
         return request(url: url).map { [weak self] response in
             guard let json = response.json else { return nil }
             return self?.weatherSerializer.pointResponse(json: json)
-        }
+        }.asObservable()
     }
     
     func requestForecastForURL(url: URL) -> Observable<NOAAData.PointForecast?> {
         return request(url: url).map { [weak self] response in
             guard let json = response.json else { return nil }
             return self?.weatherSerializer.pointForecast(json: json)
-        }
+        }.asObservable()
     }
     
     func requestGridForOffice(officeID: String, lat: Double, long: Double) -> Observable<NOAAData.GridForecast?> {
@@ -82,7 +82,7 @@ class NOAAWeatherService: NetworkService, WeatherService {
         return request(url: url).map { [weak self] response in
             guard let json = response.json else { return nil }
             return self?.weatherSerializer.gridForecast(json: json)
-        }
+        }.asObservable()
     }
     
     // TODO: Get the preciptation history from stations info
@@ -135,7 +135,7 @@ class NOAAWeatherService: NetworkService, WeatherService {
                             return nil
                     }
                     return weatherReponse
-            }
+            }.asObservable()
             }.do(onNext: { (response) in
                 if (response == nil) {
                     Global.logger.debug("weather failed for \(coord.latitude), \(coord.longitude)")

@@ -18,7 +18,7 @@ struct NOAASerializer {
     }
     
     // point forecast
-    func pointForecast(json: NSDictionary) -> NOAAData.PointForecast? {
+    func pointForecast(json: Json) -> NOAAData.PointForecast? {
         guard let forcastProperties = json["properties"] as? NSDictionary,
             let updatedTime = forcastProperties["updated"] as? String, // iso
             let elevationDetails = forcastProperties["elevation"] as? NSDictionary,
@@ -31,11 +31,11 @@ struct NOAASerializer {
         return NOAAData.PointForecast(
             updatedTime: updatedTime,
             elevation: Double(elevation) ,
-            periods: periodsRaw.compactMap { periodForecast(json: (($0 as? NSDictionary) ?? [:])) }
+            periods: periodsRaw.compactMap { periodForecast(json: (($0 as? Json) ?? [:])) }
         )
     }
     
-    func gridForecast(json: NSDictionary) -> NOAAData.GridForecast? {
+    func gridForecast(json: Json) -> NOAAData.GridForecast? {
         guard let properties = json["properties"] as? NSDictionary,
             let _ = properties["updateTime"] as? String else {
                 Global.logger.debug("unable to decode grid forcast - top")
@@ -129,13 +129,13 @@ struct NOAASerializer {
         
         return NOAAData.GridForecast(
             elevation: Int(elevation),
-            temperature: temperatureValues.compactMap { valueStamp(json: ($0 as? NSDictionary) ?? [:]) },
-            maxTemp: maxTemperatureValues.compactMap { valueStamp(json: ($0 as? NSDictionary) ?? [:]) },
-            minTemp: minTemperatureValues.compactMap { valueStamp(json: ($0 as? NSDictionary) ?? [:]) },
-            windDirection: windDirectionValues.compactMap { valueStamp(json: ($0 as? NSDictionary) ?? [:]) },
-            windSpeed: windSpeedValues.compactMap { valueStamp(json: ($0 as? NSDictionary) ?? [:]) },
-            precipitation: probabilityOfPrecipitationValues.compactMap { valueStamp(json: ($0 as? NSDictionary) ?? [:]) },
-            rainQuantity: quantitativePrecipitationValues.compactMap { valueStamp(json: ($0 as? NSDictionary) ?? [:]) }
+            temperature: temperatureValues.compactMap { valueStamp(json: ($0 as? Json) ?? [:]) },
+            maxTemp: maxTemperatureValues.compactMap { valueStamp(json: ($0 as? Json) ?? [:]) },
+            minTemp: minTemperatureValues.compactMap { valueStamp(json: ($0 as? Json) ?? [:]) },
+            windDirection: windDirectionValues.compactMap { valueStamp(json: ($0 as? Json) ?? [:]) },
+            windSpeed: windSpeedValues.compactMap { valueStamp(json: ($0 as? Json) ?? [:]) },
+            precipitation: probabilityOfPrecipitationValues.compactMap { valueStamp(json: ($0 as? Json) ?? [:]) },
+            rainQuantity: quantitativePrecipitationValues.compactMap { valueStamp(json: ($0 as? Json) ?? [:]) }
         )
         
 //        return NOAAData.GridForecast(
@@ -177,7 +177,7 @@ struct NOAASerializer {
 //        )
     }
     
-    func valueStamp(json: NSDictionary) -> NOAAData.ValueStamp? {
+    func valueStamp(json: Json) -> NOAAData.ValueStamp? {
         guard let time = json["validTime"] as? String, let value = json["value"] as? Double else {
             Global.logger.debug("unable to decode value stamp")
             return nil
@@ -196,7 +196,7 @@ struct NOAASerializer {
         return dateFormatter.date(from: String(splitString[0].split(separator: "+")[0]))
     }
     
-    func gridSummaryPoint(json: NSDictionary) -> NOAAData.GridForecast.Summary? {
+    func gridSummaryPoint(json: Json) -> NOAAData.GridForecast.Summary? {
         guard let valueList = json["value"] as? NSArray,
             let value = valueList.firstObject as? NSDictionary else {
                 Global.logger.debug("unable to decode grid summary")
@@ -212,7 +212,7 @@ struct NOAASerializer {
     }
     
     // the period forecast has elevation as well
-    func periodForecast(json: NSDictionary) -> NOAAData.PointForecast.PeriodSummary? {
+    func periodForecast(json: Json) -> NOAAData.PointForecast.PeriodSummary? {
         guard let dateString = json["startTime"] as? String, //need to get from iso date
             let isDay: Bool = json["isDaytime"] as? Bool,
             let temperature: Int = json["temperature"] as? Int, // degree F
@@ -250,7 +250,7 @@ struct NOAASerializer {
     
     // point
     // can use this to get all other requests
-    func pointResponse(json: NSDictionary) -> NOAAData.Point? {
+    func pointResponse(json: Json) -> NOAAData.Point? {
         guard let pointProperties = json["properties"] as? NSDictionary,
             let zoneURL = pointProperties["forecastZone"] as? String,
             let gridX = pointProperties["gridX"] as? Int,

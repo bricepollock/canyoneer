@@ -60,6 +60,9 @@
 		407FB76D2790D59C008B65BE /* WeatherForecastDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB76C2790D59C008B65BE /* WeatherForecastDayView.swift */; };
 		407FB7712790FF49008B65BE /* CanyonMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB7702790FF49008B65BE /* CanyonMap.swift */; };
 		407FB7732790FF7B008B65BE /* AppleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB7722790FF7B008B65BE /* AppleMapView.swift */; };
+		40D2ED2A27AEDC990085ADF3 /* RopewikiCanyon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2ED2927AEDC990085ADF3 /* RopewikiCanyon.swift */; };
+		40D2ED2D27B01E810085ADF3 /* RopewikiParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2ED2C27B01E810085ADF3 /* RopewikiParserTests.swift */; };
+		40D2ED2F27B021ED0085ADF3 /* String+index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2ED2E27B021ED0085ADF3 /* String+index.swift */; };
 		40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428627875D9F00FE245D /* AppDelegate.swift */; };
 		40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428827875D9F00FE245D /* SceneDelegate.swift */; };
 		40E4428E27875D9F00FE245D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E4428C27875D9F00FE245D /* Main.storyboard */; };
@@ -186,6 +189,9 @@
 		407FB76C2790D59C008B65BE /* WeatherForecastDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastDayView.swift; sourceTree = "<group>"; };
 		407FB7702790FF49008B65BE /* CanyonMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonMap.swift; sourceTree = "<group>"; };
 		407FB7722790FF7B008B65BE /* AppleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapView.swift; sourceTree = "<group>"; };
+		40D2ED2927AEDC990085ADF3 /* RopewikiCanyon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopewikiCanyon.swift; sourceTree = "<group>"; };
+		40D2ED2C27B01E810085ADF3 /* RopewikiParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopewikiParserTests.swift; sourceTree = "<group>"; };
+		40D2ED2E27B021ED0085ADF3 /* String+index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+index.swift"; sourceTree = "<group>"; };
 		40E4428327875D9F00FE245D /* Canyoneer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canyoneer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E4428627875D9F00FE245D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40E4428827875D9F00FE245D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -383,6 +389,14 @@
 			path = AppleMaps;
 			sourceTree = "<group>";
 		};
+		40D2ED2B27B01E6B0085ADF3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				40D2ED2C27B01E810085ADF3 /* RopewikiParserTests.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		40E4427A27875D9F00FE245D = {
 			isa = PBXGroup;
 			children = (
@@ -425,6 +439,7 @@
 			isa = PBXGroup;
 			children = (
 				4032AEC9278F3FCD002EEA4E /* MockServices */,
+				40D2ED2B27B01E6B0085ADF3 /* API */,
 				4032AECF278F41E6002EEA4E /* View */,
 			);
 			path = CanyoneerTests;
@@ -438,6 +453,7 @@
 				40E4432B2787D80100FE245D /* CanyonPoint.swift */,
 				407FB74E278FC805008B65BE /* GeoJson.swift */,
 				407FB75B2790CD2B008B65BE /* NOAAData.swift */,
+				40D2ED2927AEDC990085ADF3 /* RopewikiCanyon.swift */,
 				40E442E327876F7E00FE245D /* SearchResult.swift */,
 				407FB75C2790CD2B008B65BE /* WeatherDataPoint.swift */,
 				407FB7592790CD2B008B65BE /* WeatherDataResponse.swift */,
@@ -606,6 +622,7 @@
 				40FDB3892791FCDE0065FF47 /* Data+toFile.swift */,
 				405E679327973BBE00BA41D9 /* DispatchTime+duration.swift */,
 				40FDB38B2791FCFD0065FF47 /* FileAccess.swift */,
+				40D2ED2E27B021ED0085ADF3 /* String+index.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -765,6 +782,7 @@
 				405E67B82797865D00BA41D9 /* FavoritesViewModel.swift in Sources */,
 				40E442D1278760EF00FE245D /* LoadingComponent.swift in Sources */,
 				40218D7727A87A68006A6ABC /* ZipCollection.swift in Sources */,
+				40D2ED2A27AEDC990085ADF3 /* RopewikiCanyon.swift in Sources */,
 				407FB75327906DF0008B65BE /* MapLegendBottomSheetViewController.swift in Sources */,
 				405E67BE2797865D00BA41D9 /* SearchViewModel.swift in Sources */,
 				40FDB39527922C950065FF47 /* MapService.swift in Sources */,
@@ -825,6 +843,7 @@
 				405E6792279736C600BA41D9 /* DownloadBar.swift in Sources */,
 				405E67BC2797865D00BA41D9 /* SearchViewController.swift in Sources */,
 				40E443462789F8A100FE245D /* MultiSelectFilter.swift in Sources */,
+				40D2ED2F27B021ED0085ADF3 /* String+index.swift in Sources */,
 				407FB7602790CD2B008B65BE /* NOAAWeatherService.swift in Sources */,
 				405E679427973BBE00BA41D9 /* DispatchTime+duration.swift in Sources */,
 				40E44335278886CC00FE245D /* DataTableView.swift in Sources */,
@@ -864,6 +883,7 @@
 				4005DFC3278F67F800EB1640 /* FavoritesViewModelTests.swift in Sources */,
 				4032AECB278F3FD8002EEA4E /* MockRopeWikiService.swift in Sources */,
 				4032AECD278F41D0002EEA4E /* CanyonDetailViewTests.swift in Sources */,
+				40D2ED2D27B01E810085ADF3 /* RopewikiParserTests.swift in Sources */,
 				40FDB3932792270F0065FF47 /* WeatherDataPointTests+Strings.swift in Sources */,
 				4005DFC7278F733500EB1640 /* FilterViewModelTests+filter.swift in Sources */,
 			);
