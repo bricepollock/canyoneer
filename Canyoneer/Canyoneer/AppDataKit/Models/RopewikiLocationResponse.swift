@@ -7,27 +7,27 @@
 
 import Foundation
 
-struct RopewikiLoationResponse: Codable {
+struct RopewikiLocationResponse: Codable {
     let query: RopewikiLocationQuery
 }
 
 struct RopewikiLocationQuery: Codable {
-    let results: [String: RopewikiCanyon]
+    let results: [String: RopewikiLocationCanyon]
 }
 
-struct RopewikiCanyon: Codable {
+struct RopewikiLocationCanyon: Codable {
     internal enum CodingKeys: String, CodingKey {
         case holder = "printouts"
         case pageUrlString = "fullurl"
         case fullName = "fulltext"
     }
     
-    let holder: RopewikiHolder
+    let holder: RopewikiLocationCanyonHolder
     let pageUrlString: String
     let fullName: String
 }
 
-struct RopewikiHolder: Codable {
+struct RopewikiLocationCanyonHolder: Codable {
     internal enum CodingKeys: String, CodingKey {
         case coordinates = "Has coordinates"
         case summary = "Has summary" // "4.9*  4B V R (<i>v5a2&nbsp;V</i>) 12h-2d 10.5mi 25r 290ft"

@@ -145,7 +145,7 @@ class RopeWikiService: RopeWikiServiceInterface {
                 do {
                     let data = try JSONSerialization.data(withJSONObject: json, options: .fragmentsAllowed)
                     let decoder: JSONDecoder = JSONDecoder()
-                    let canyonResponse = try decoder.decode(RopewikiLoationResponse.self, from: data)
+                    let canyonResponse = try decoder.decode(RopewikiLocationResponse.self, from: data)
                     
                     let canyons = canyonResponse.query.results.compactMap { (key, value) -> Canyon? in
                         // each dictionary has a single key and the canyon response
@@ -154,6 +154,10 @@ class RopeWikiService: RopeWikiServiceInterface {
                         let ropewikiCanyon = value
                         guard let lat = ropewikiCanyon.holder.coordinates.first?.latitude, let long = ropewikiCanyon.holder.coordinates.first?.longitude else {
                             Global.logger.error("Cannot get coordinate for canyon: \(name)")
+                            return nil
+                        }
+                        guard let details = RopewikiParser.parseSummary(ropewikiCanyon.holder.summary.first ?? "") else {
+                            Global.logger.error("Cannot parse out the summary from the canyon")
                             return nil
                         }
                         
@@ -168,11 +172,11 @@ class RopeWikiService: RopeWikiServiceInterface {
                             requiresShuttle: (ropewikiCanyon.holder.shuttle.first?.value ?? 0) > 0,
                             requiresPermit: RopewikiParser.parseBooleanString(ropewikiCanyon.holder.requiresPermitsRaw.first ?? ""),
                             ropeWikiURL: URL(string: ropewikiCanyon.pageUrlString),
-                            technicalDifficulty: nil,
-                            risk: nil,
-                            timeGrade: nil,
-                            waterDifficulty: nil,
-                            quality: Float(ropewikiCanyon.holder.quality?.first ?? 0),
+                            technicalDifficulty: details.technical,
+                            risk: details.risk,
+                            timeGrade: details.time,
+                            waterDifficulty: details.water,
+                            quality: Float(ropewikiCanyon.holder.quality?.first ?? details.quality),
                             vehicleAccessibility: Vehicle(rawValue: ropewikiCanyon.holder.vehicleRaw.first ?? ""),
                             description: "",
                             geoWaypoints: [],
@@ -195,5 +199,12 @@ class RopeWikiService: RopeWikiServiceInterface {
             }
             Self.cacheLock.unlock()
         }
+        // probably need to do a multi-get to get all the wiki details of all pages
+        // this is multi-get for canyons but doesn't have the wikitext details
+        // http://ropewiki.com/api.php?action=ask&format=json&query=[[Category:Canyons]][[Has pageid::303||301]]|?has total rating
+        // This is how to get all the wikitext details:
+        // http://ropewiki.com/api.php?action=parse&page=Arroyo_Blanco_Canyon&prop=wikitext&format=json
+        
+        // probably need to do a multi-get to get all the KML files so we can show on map
     }
 }

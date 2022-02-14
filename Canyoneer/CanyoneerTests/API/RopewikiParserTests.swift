@@ -70,4 +70,37 @@ class RopewikiParserTests: XCTestCase {
         let result = RopewikiParser.parseBooleanString(test)
         XCTAssertEqual(result, nil)
     }
+    
+    // MARK: Summary Parser
+    func testFullSummary() {
+        let test = "4.9*  4B V R (<i>v5a2&nbsp;V</i>) 12h-2d 10.5mi 25r 290ft"
+        let result = RopewikiParser.parseSummary(test)
+        guard let result = result else {
+            XCTFail(); return
+        }
+        XCTAssertEqual(4.9, result.quality)
+        XCTAssertEqual(4, result.technical)
+        XCTAssertEqual("B", result.water)
+        XCTAssertEqual("V", result.time)
+        XCTAssertEqual(Risk.r, result.risk)
+    }
+    
+    func testNoRiskSummary() {
+        let test = "4.9*  4B V (<i>v5a2&nbsp;V</i>) 12h-2d 10.5mi 25r 290ft"
+        let result = RopewikiParser.parseSummary(test)
+        guard let result = result else {
+            XCTFail(); return
+        }
+        XCTAssertEqual(4.9, result.quality)
+        XCTAssertEqual(4, result.technical)
+        XCTAssertEqual("B", result.water)
+        XCTAssertEqual("V", result.time)
+        XCTAssertNil(result.risk)
+    }
+    
+    func testNoWaterSummary() {
+        let test = "4.9*  4 V (<i>v5a2&nbsp;V</i>) 12h-2d 10.5mi 25r 290ft"
+        let result = RopewikiParser.parseSummary(test)
+        XCTAssertNil(result)
+    }
 }

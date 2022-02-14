@@ -61,7 +61,8 @@
 		407FB7712790FF49008B65BE /* CanyonMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB7702790FF49008B65BE /* CanyonMap.swift */; };
 		407FB7732790FF7B008B65BE /* AppleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB7722790FF7B008B65BE /* AppleMapView.swift */; };
 		40ADD3B927B44DF9004C3292 /* RopewikiParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ADD3B827B44DF9004C3292 /* RopewikiParser.swift */; };
-		40D2ED2A27AEDC990085ADF3 /* RopewikiCanyon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2ED2927AEDC990085ADF3 /* RopewikiCanyon.swift */; };
+		40ADD3BB27B450E2004C3292 /* RopewikiCanyonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ADD3BA27B450E2004C3292 /* RopewikiCanyonResponse.swift */; };
+		40D2ED2A27AEDC990085ADF3 /* RopewikiLocationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2ED2927AEDC990085ADF3 /* RopewikiLocationResponse.swift */; };
 		40D2ED2D27B01E810085ADF3 /* RopewikiParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2ED2C27B01E810085ADF3 /* RopewikiParserTests.swift */; };
 		40D2ED2F27B021ED0085ADF3 /* String+index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2ED2E27B021ED0085ADF3 /* String+index.swift */; };
 		40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428627875D9F00FE245D /* AppDelegate.swift */; };
@@ -191,7 +192,8 @@
 		407FB7702790FF49008B65BE /* CanyonMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonMap.swift; sourceTree = "<group>"; };
 		407FB7722790FF7B008B65BE /* AppleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapView.swift; sourceTree = "<group>"; };
 		40ADD3B827B44DF9004C3292 /* RopewikiParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopewikiParser.swift; sourceTree = "<group>"; };
-		40D2ED2927AEDC990085ADF3 /* RopewikiCanyon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopewikiCanyon.swift; sourceTree = "<group>"; };
+		40ADD3BA27B450E2004C3292 /* RopewikiCanyonResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopewikiCanyonResponse.swift; sourceTree = "<group>"; };
+		40D2ED2927AEDC990085ADF3 /* RopewikiLocationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopewikiLocationResponse.swift; sourceTree = "<group>"; };
 		40D2ED2C27B01E810085ADF3 /* RopewikiParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopewikiParserTests.swift; sourceTree = "<group>"; };
 		40D2ED2E27B021ED0085ADF3 /* String+index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+index.swift"; sourceTree = "<group>"; };
 		40E4428327875D9F00FE245D /* Canyoneer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canyoneer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -456,7 +458,8 @@
 				40E4432B2787D80100FE245D /* CanyonPoint.swift */,
 				407FB74E278FC805008B65BE /* GeoJson.swift */,
 				407FB75B2790CD2B008B65BE /* NOAAData.swift */,
-				40D2ED2927AEDC990085ADF3 /* RopewikiCanyon.swift */,
+				40D2ED2927AEDC990085ADF3 /* RopewikiLocationResponse.swift */,
+				40ADD3BA27B450E2004C3292 /* RopewikiCanyonResponse.swift */,
 				40E442E327876F7E00FE245D /* SearchResult.swift */,
 				407FB75C2790CD2B008B65BE /* WeatherDataPoint.swift */,
 				407FB7592790CD2B008B65BE /* WeatherDataResponse.swift */,
@@ -785,7 +788,7 @@
 				405E67B82797865D00BA41D9 /* FavoritesViewModel.swift in Sources */,
 				40E442D1278760EF00FE245D /* LoadingComponent.swift in Sources */,
 				40218D7727A87A68006A6ABC /* ZipCollection.swift in Sources */,
-				40D2ED2A27AEDC990085ADF3 /* RopewikiCanyon.swift in Sources */,
+				40D2ED2A27AEDC990085ADF3 /* RopewikiLocationResponse.swift in Sources */,
 				407FB75327906DF0008B65BE /* MapLegendBottomSheetViewController.swift in Sources */,
 				405E67BE2797865D00BA41D9 /* SearchViewModel.swift in Sources */,
 				40FDB39527922C950065FF47 /* MapService.swift in Sources */,
@@ -815,6 +818,7 @@
 				40218D7327A83714006A6ABC /* CanyonItemView.swift in Sources */,
 				40783CE8278DF46A001E78DB /* InMemoryStorage.swift in Sources */,
 				405E67BB2797865D00BA41D9 /* NearMeViewModel.swift in Sources */,
+				40ADD3BB27B450E2004C3292 /* RopewikiCanyonResponse.swift in Sources */,
 				407FB7622790CD2B008B65BE /* WeatherDataPoint.swift in Sources */,
 				407FB7732790FF7B008B65BE /* AppleMapView.swift in Sources */,
 				40E4432C2787D80100FE245D /* CanyonPoint.swift in Sources */,
