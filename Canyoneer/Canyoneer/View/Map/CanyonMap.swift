@@ -53,7 +53,8 @@ extension CanyonMap {
     
     public func updateInitialCamera() {
         let utahCenter = CLLocationCoordinate2D(latitude: 39.3210, longitude: -111.0937)
-        self.focusCameraOn(location: utahCenter)
+        let center = UserDefaults.standard.lastViewCoordinate ?? utahCenter
+        self.focusCameraOn(location: center)
     }
     
     public func render(canyons: [Canyon]) {
@@ -74,6 +75,8 @@ extension CanyonMap {
         // center location
         if canyons.count == 1 {
             self.focusCameraOn(canyon: canyons[0])
+        } else if let lastViewed = UserDefaults.standard.lastViewCoordinate {
+            self.focusCameraOn(location: lastViewed)
         } else if locationService.isLocationEnabled() {
             self.locationService.getCurrentLocation { location in
                 self.focusCameraOn(location: location.coordinate)

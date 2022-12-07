@@ -5,8 +5,6 @@
 
 import Foundation
 
-
-
 extension UserPreferencesStorage {
     
     fileprivate static let favoriteListKey = "canyon_favorite_list"

@@ -101,11 +101,6 @@ class AppleMapView: NSObject, CanyonMap {
         }
     }
     
-    public func updateInitialCamera() {
-        let utahCenter = CLLocationCoordinate2D(latitude: 39.3210, longitude: -111.0937)
-        self.mapView.region = MKCoordinateRegion(center: utahCenter, span: MKCoordinateSpan(latitudeDelta: 20, longitudeDelta: 20))
-    }
-    
     public func focusCameraOn(canyon: Canyon) {
         let center = canyon.coordinate.asCLObject
         let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
@@ -120,6 +115,13 @@ class AppleMapView: NSObject, CanyonMap {
 
 extension AppleMapView: MKMapViewDelegate {
  
+    func mapViewDidChangeVisibleRegion(_ mapView: MKMapView) {
+        let defaultCenter = CLLocationCoordinate2D(latitude: 37.13284, longitude: -95.78558)
+        if defaultCenter.distance(to: mapView.camera.centerCoordinate) > 0.1 {
+            UserDefaults.standard.setLastViewCoordinate(mapView.camera.centerCoordinate)
+        }
+    }
+    
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
         guard let mkAnnotation = view.annotation, let annotation = mkAnnotation as? CanyonAnnotation else {
             return

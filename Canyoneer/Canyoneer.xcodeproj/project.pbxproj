@@ -42,6 +42,7 @@
 		405E67CF2799C38800BA41D9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 405E67CE2799C38800BA41D9 /* Lottie */; };
 		405E67E7279A075B00BA41D9 /* simple_rap.json in Resources */ = {isa = PBXBuildFile; fileRef = 405E67E6279A075B00BA41D9 /* simple_rap.json */; };
 		406BC85B2940B9680096769B /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 406BC85A2940B9680096769B /* MapboxMaps */; };
+		406BC85D2940C4040096769B /* UserDefaults+location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BC85C2940C4040096769B /* UserDefaults+location.swift */; };
 		40783CE8278DF46A001E78DB /* InMemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE6278DF46A001E78DB /* InMemoryStorage.swift */; };
 		40783CE9278DF46A001E78DB /* UserPreferencesStorage+favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */; };
 		40783CEB278DF5E3001E78DB /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CEA278DF5E3001E78DB /* Storage.swift */; };
@@ -167,6 +168,7 @@
 		405E67BF2797869100BA41D9 /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		405E67C527979D7400BA41D9 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		405E67E6279A075B00BA41D9 /* simple_rap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simple_rap.json; sourceTree = "<group>"; };
+		406BC85C2940C4040096769B /* UserDefaults+location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+location.swift"; sourceTree = "<group>"; };
 		40783CE6278DF46A001E78DB /* InMemoryStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryStorage.swift; sourceTree = "<group>"; };
 		40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserPreferencesStorage+favorite.swift"; sourceTree = "<group>"; };
 		40783CEA278DF5E3001E78DB /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
@@ -359,6 +361,7 @@
 				40783CE6278DF46A001E78DB /* InMemoryStorage.swift */,
 				40783CEC278DF63F001E78DB /* UserPreferencesStorage.swift */,
 				40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */,
+				406BC85C2940C4040096769B /* UserDefaults+location.swift */,
 			);
 			path = Persistence;
 			sourceTree = "<group>";
@@ -838,6 +841,7 @@
 				405E67B62797865D00BA41D9 /* ResultsViewController.swift in Sources */,
 				40E442DB2787616E00FE245D /* UIStackView+remove.swift in Sources */,
 				40E44316278794D500FE245D /* TagView.swift in Sources */,
+				406BC85D2940C4040096769B /* UserDefaults+location.swift in Sources */,
 				4005DFB6278F583500EB1640 /* FavoriteService.swift in Sources */,
 				407FB75F2790CD2B008B65BE /* WeatherDataResponse.swift in Sources */,
 				40E442B927875EB200FE245D /* Region.swift in Sources */,
