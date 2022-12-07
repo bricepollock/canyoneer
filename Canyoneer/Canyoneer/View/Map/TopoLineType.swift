@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-enum TopoLineType {
+enum TopoLineType: String, CaseIterable, Equatable {
     case driving
     case approach
     case descent

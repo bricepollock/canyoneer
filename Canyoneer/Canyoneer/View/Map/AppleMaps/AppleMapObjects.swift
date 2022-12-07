@@ -36,3 +36,15 @@ class TopoLineOverlay: MKPolyline {
         return TopoLineType(string: name)
     }
 }
+
+/// Contains owns a list of TopoLineOverlays
+class TopoLineLayer: MKMultiPolyline {
+    var name: String?
+    var type: TopoLineType
+    
+    init(name: String?, type: TopoLineType, polylines: [TopoLineOverlay]) {
+        self.name = name
+        self.type = type
+        super.init(polylines)
+    }
+}

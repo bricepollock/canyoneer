@@ -16,8 +16,7 @@ class MapLegendBottomSheetViewController: BottomSheetViewController {
         static let exit = "Exit"
         static let approach = "Approach"
         static let descent = "Descent"
-        static let other = "Other Colors"
-        static let otherDescription = "See Ropewiki"
+        static let other = "Unclassified (See Canyon Map)"
     }
     static let lineWidth: CGFloat = 10
     static let lineLength: CGFloat = 50
@@ -40,7 +39,7 @@ class MapLegendBottomSheetViewController: BottomSheetViewController {
     
     private let otherStack = UIStackView()
     private let otherLineTitle = UILabel()
-    private let otherLineDescription = UILabel()
+    private let otherLine = UIView.createLineView(height: MapLegendBottomSheetViewController.lineWidth)
     
     override init() {
         super.init()
@@ -72,14 +71,7 @@ class MapLegendBottomSheetViewController: BottomSheetViewController {
         self.configure(stack: self.greenStack, title: self.greenLineTitle, line: self.greenLine, text: Strings.approach, color: TopoLineType.approach.color)
         self.configure(stack: self.redStack, title: self.redLineTitle, line: self.redLine, text: Strings.descent, color: TopoLineType.descent.color)
         self.configure(stack: self.yellowStack, title: self.yellowLineTitle, line: self.yellowLine, text: Strings.exit, color: TopoLineType.exit.color)
-        
-        // Other Description
-        otherStack.axis = .horizontal
-        otherStack.spacing = .medium
-        otherStack.addArrangedSubview(self.otherLineTitle)
-        otherStack.addArrangedSubview(self.otherLineDescription)
-        otherLineTitle.text = Strings.other
-        otherLineDescription.text = Strings.otherDescription
+        self.configure(stack: self.otherStack, title: self.otherLineTitle, line: self.otherLine, text: Strings.other, color: TopoLineType.unknown.color)
     }
     
     private func configure(stack: UIStackView, title: UILabel, line: UIView, text: String, color: UIColor) {
