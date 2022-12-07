@@ -41,6 +41,7 @@
 		405E67C627979D7400BA41D9 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E67C527979D7400BA41D9 /* MainTabBarViewController.swift */; };
 		405E67CF2799C38800BA41D9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 405E67CE2799C38800BA41D9 /* Lottie */; };
 		405E67E7279A075B00BA41D9 /* simple_rap.json in Resources */ = {isa = PBXBuildFile; fileRef = 405E67E6279A075B00BA41D9 /* simple_rap.json */; };
+		406BC85B2940B9680096769B /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 406BC85A2940B9680096769B /* MapboxMaps */; };
 		40783CE8278DF46A001E78DB /* InMemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE6278DF46A001E78DB /* InMemoryStorage.swift */; };
 		40783CE9278DF46A001E78DB /* UserPreferencesStorage+favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CE7278DF46A001E78DB /* UserPreferencesStorage+favorite.swift */; };
 		40783CEB278DF5E3001E78DB /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40783CEA278DF5E3001E78DB /* Storage.swift */; };
@@ -112,7 +113,6 @@
 		40E4434E278B489D00FE245D /* SwitchFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4434D278B489D00FE245D /* SwitchFilter.swift */; };
 		40E44350278B4F4600FE245D /* SeasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4434F278B4F4600FE245D /* SeasonView.swift */; };
 		40FDB37E2791CF5D0065FF47 /* MapboxMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB37D2791CF5D0065FF47 /* MapboxMap.swift */; };
-		40FDB3812791CFDF0065FF47 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 40FDB3802791CFDF0065FF47 /* MapboxMaps */; };
 		40FDB3832791D0E30065FF47 /* TopoLineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3822791D0E30065FF47 /* TopoLineType.swift */; };
 		40FDB3862791FAA00065FF47 /* CoreGPX in Frameworks */ = {isa = PBXBuildFile; productRef = 40FDB3852791FAA00065FF47 /* CoreGPX */; };
 		40FDB3882791FCCB0065FF47 /* GPXService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3872791FCCB0065FF47 /* GPXService.swift */; };
@@ -255,7 +255,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40FDB3812791CFDF0065FF47 /* MapboxMaps in Frameworks */,
+				406BC85B2940B9680096769B /* MapboxMaps in Frameworks */,
 				4032AEC4278F3B56002EEA4E /* RxSwift in Frameworks */,
 				40E443442789F82D00FE245D /* MultiSelectSegmentedControl in Frameworks */,
 				40FDB391279218EA0065FF47 /* Solar in Frameworks */,
@@ -652,10 +652,10 @@
 			packageProductDependencies = (
 				40E443432789F82D00FE245D /* MultiSelectSegmentedControl */,
 				4032AEC3278F3B56002EEA4E /* RxSwift */,
-				40FDB3802791CFDF0065FF47 /* MapboxMaps */,
 				40FDB3852791FAA00065FF47 /* CoreGPX */,
 				40FDB390279218EA0065FF47 /* Solar */,
 				405E67CE2799C38800BA41D9 /* Lottie */,
+				406BC85A2940B9680096769B /* MapboxMaps */,
 			);
 			productName = Canyoneer;
 			productReference = 40E4428327875D9F00FE245D /* Canyoneer.app */;
@@ -713,10 +713,10 @@
 			packageReferences = (
 				40E443422789F82D00FE245D /* XCRemoteSwiftPackageReference "MultiSelectSegmentedControl" */,
 				4032AEC2278F3B56002EEA4E /* XCRemoteSwiftPackageReference "RxSwift" */,
-				40FDB37F2791CFDF0065FF47 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
 				40FDB3842791FA9F0065FF47 /* XCRemoteSwiftPackageReference "CoreGPX" */,
 				40FDB38F279218EA0065FF47 /* XCRemoteSwiftPackageReference "Solar" */,
 				405E67CD2799C38600BA41D9 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				406BC8592940B9680096769B /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
 			);
 			productRefGroup = 40E4428427875D9F00FE245D /* Products */;
 			projectDirPath = "";
@@ -1041,6 +1041,9 @@
 				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = out.backcountry.canyoneering;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1073,6 +1076,9 @@
 				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = out.backcountry.canyoneering;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1168,20 +1174,20 @@
 				version = 3.3.0;
 			};
 		};
+		406BC8592940B9680096769B /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
 		40E443422789F82D00FE245D /* XCRemoteSwiftPackageReference "MultiSelectSegmentedControl" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/yonat/MultiSelectSegmentedControl";
 			requirement = {
 				kind = exactVersion;
 				version = 2.3.6;
-			};
-		};
-		40FDB37F2791CFDF0065FF47 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
-			requirement = {
-				kind = exactVersion;
-				version = 10.2.0;
 			};
 		};
 		40FDB3842791FA9F0065FF47 /* XCRemoteSwiftPackageReference "CoreGPX" */ = {
@@ -1218,15 +1224,15 @@
 			package = 405E67CD2799C38600BA41D9 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
 		};
+		406BC85A2940B9680096769B /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 406BC8592940B9680096769B /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
 		40E443432789F82D00FE245D /* MultiSelectSegmentedControl */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 40E443422789F82D00FE245D /* XCRemoteSwiftPackageReference "MultiSelectSegmentedControl" */;
 			productName = MultiSelectSegmentedControl;
-		};
-		40FDB3802791CFDF0065FF47 /* MapboxMaps */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 40FDB37F2791CFDF0065FF47 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
-			productName = MapboxMaps;
 		};
 		40FDB3852791FAA00065FF47 /* CoreGPX */ = {
 			isa = XCSwiftPackageProductDependency;

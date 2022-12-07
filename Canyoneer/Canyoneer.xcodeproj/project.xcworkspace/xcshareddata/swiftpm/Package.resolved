@@ -1,106 +1,95 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "CoreGPX",
-        "repositoryURL": "https://github.com/vincentneo/CoreGPX.git",
-        "state": {
-          "branch": null,
-          "revision": "bc61acc0b64f8f09a51811ac0664885af30d0a41",
-          "version": "0.9.0"
-        }
-      },
-      {
-        "package": "Lottie",
-        "repositoryURL": "https://github.com/airbnb/lottie-ios",
-        "state": {
-          "branch": null,
-          "revision": "4a6058cbbdfe4f74aeae92c8bd51ad3b0de2a1ee",
-          "version": "3.3.0"
-        }
-      },
-      {
-        "package": "MapboxCommon",
-        "repositoryURL": "https://github.com/mapbox/mapbox-common-ios.git",
-        "state": {
-          "branch": null,
-          "revision": "3dabe41278e9b88e3eb2851dd3967493d21f08af",
-          "version": "21.0.1"
-        }
-      },
-      {
-        "package": "MapboxCoreMaps",
-        "repositoryURL": "https://github.com/mapbox/mapbox-core-maps-ios.git",
-        "state": {
-          "branch": null,
-          "revision": "a9955a309b7d17ce743bb9ea2eaf259540a2f64a",
-          "version": "10.2.0"
-        }
-      },
-      {
-        "package": "MapboxMobileEvents",
-        "repositoryURL": "https://github.com/mapbox/mapbox-events-ios.git",
-        "state": {
-          "branch": null,
-          "revision": "e29f48d9ed02b31ef51f9774a9c45f1d7c2c2b78",
-          "version": "1.0.6"
-        }
-      },
-      {
-        "package": "MapboxMaps",
-        "repositoryURL": "https://github.com/mapbox/mapbox-maps-ios.git",
-        "state": {
-          "branch": null,
-          "revision": "f8f4bb51777d2062b171018ac738c87d1ec94c7a",
-          "version": "10.2.0"
-        }
-      },
-      {
-        "package": "MultiSelectSegmentedControl",
-        "repositoryURL": "https://github.com/yonat/MultiSelectSegmentedControl",
-        "state": {
-          "branch": null,
-          "revision": "6ecbda7afd5b729142ab1adbc70d83acd96d9e39",
-          "version": "2.3.6"
-        }
-      },
-      {
-        "package": "RxSwift",
-        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
-        "state": {
-          "branch": null,
-          "revision": "7c17a6ccca06b5c107cfa4284e634562ddaf5951",
-          "version": "6.2.0"
-        }
-      },
-      {
-        "package": "Solar",
-        "repositoryURL": "https://github.com/ceeK/Solar",
-        "state": {
-          "branch": null,
-          "revision": "c2b96f2d5fb7f835b91cefac5e83101f54643901",
-          "version": "3.0.1"
-        }
-      },
-      {
-        "package": "SweeterSwift",
-        "repositoryURL": "https://github.com/yonat/SweeterSwift",
-        "state": {
-          "branch": null,
-          "revision": "375a2603e98c8b59c53c9d2096f5443d78861bff",
-          "version": "1.1.5"
-        }
-      },
-      {
-        "package": "Turf",
-        "repositoryURL": "https://github.com/mapbox/turf-swift.git",
-        "state": {
-          "branch": null,
-          "revision": "132aaf7f90fb3e334acd685ae7040a2b70b80d26",
-          "version": "2.1.0"
-        }
+  "pins" : [
+    {
+      "identity" : "coregpx",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vincentneo/CoreGPX.git",
+      "state" : {
+        "revision" : "bc61acc0b64f8f09a51811ac0664885af30d0a41",
+        "version" : "0.9.0"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios",
+      "state" : {
+        "revision" : "4a6058cbbdfe4f74aeae92c8bd51ad3b0de2a1ee",
+        "version" : "3.3.0"
+      }
+    },
+    {
+      "identity" : "mapbox-common-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mapbox/mapbox-common-ios.git",
+      "state" : {
+        "revision" : "dbb2e33e29ba3bb75b9f63673504a5847c8c6e24",
+        "version" : "23.1.0"
+      }
+    },
+    {
+      "identity" : "mapbox-core-maps-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mapbox/mapbox-core-maps-ios.git",
+      "state" : {
+        "revision" : "b343d4fbb120b31c8a48cfbda0e87bb0c39da779",
+        "version" : "10.9.1"
+      }
+    },
+    {
+      "identity" : "mapbox-maps-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mapbox/mapbox-maps-ios.git",
+      "state" : {
+        "revision" : "ad4db5ce4b12ef6c353967f09b64543032b937bf",
+        "version" : "10.9.1"
+      }
+    },
+    {
+      "identity" : "multiselectsegmentedcontrol",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yonat/MultiSelectSegmentedControl",
+      "state" : {
+        "revision" : "6ecbda7afd5b729142ab1adbc70d83acd96d9e39",
+        "version" : "2.3.6"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift.git",
+      "state" : {
+        "revision" : "7c17a6ccca06b5c107cfa4284e634562ddaf5951",
+        "version" : "6.2.0"
+      }
+    },
+    {
+      "identity" : "solar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ceeK/Solar",
+      "state" : {
+        "revision" : "c2b96f2d5fb7f835b91cefac5e83101f54643901",
+        "version" : "3.0.1"
+      }
+    },
+    {
+      "identity" : "sweeterswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yonat/SweeterSwift",
+      "state" : {
+        "revision" : "74b3d19dc80158b2a87240d05894154a1ba7f2ef",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "turf-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mapbox/turf-swift.git",
+      "state" : {
+        "revision" : "87b5b37108ba9f37f0885b586d8f6355d8240dd8",
+        "version" : "2.6.1"
+      }
+    }
+  ],
+  "version" : 2
 }
