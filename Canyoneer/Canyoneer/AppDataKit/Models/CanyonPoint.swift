@@ -76,7 +76,6 @@ struct CanyonDataPoint: Codable {
         case urlString = "URL"
         case name = "Name"
         case quality = "Quality"
-        case popularity = "Popularity"
         case latitude = "Latitude"
         case longitude = "Longitude"
         case bestSeasonStrings = "Months"
@@ -95,7 +94,6 @@ struct CanyonDataPoint: Codable {
     let urlString: String
     let name: String
     let quality: Float // 1-5
-    let popularity: Int // not sure what this means, can be > 100
     let latitude: Double?
     let longitude: Double?
     let bestSeasonStrings: [String]
@@ -172,10 +170,20 @@ struct CanyonDataPoint: Codable {
     }
     
     var requiresPermits: Bool? {
-        return requirePermitsString == "Yes"
+        guard requirePermitsString.isEmpty == false else {
+            return nil
+        }
+        return requirePermitsString.lowercased().contains("permit required")
     }
     
     var isRestricted: Bool? {
-        return requirePermitsString == "Restricted"
+        guard requirePermitsString.isEmpty == false else {
+            return nil
+        }
+        return requirePermitsString.lowercased().contains("access is Restricted")
+    }
+    
+    var isClosed: Bool {
+        return requirePermitsString.lowercased().contains("closed to entry")        
     }
 }
