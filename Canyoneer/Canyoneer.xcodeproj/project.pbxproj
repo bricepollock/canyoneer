@@ -62,6 +62,12 @@
 		407FB76D2790D59C008B65BE /* WeatherForecastDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB76C2790D59C008B65BE /* WeatherForecastDayView.swift */; };
 		407FB7712790FF49008B65BE /* CanyonMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB7702790FF49008B65BE /* CanyonMap.swift */; };
 		407FB7732790FF7B008B65BE /* AppleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB7722790FF7B008B65BE /* AppleMapView.swift */; };
+		4089A1302B0AC91800886179 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089A12F2B0AC91800886179 /* Coordinate.swift */; };
+		4089A1332B0AC9CF00886179 /* CoordinateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089A1312B0AC98D00886179 /* CoordinateTests.swift */; };
+		4089A1362B0AD15A00886179 /* ropewiki_database_pt1.json in Resources */ = {isa = PBXBuildFile; fileRef = 4089A1342B0AD15900886179 /* ropewiki_database_pt1.json */; };
+		4089A1372B0AD15A00886179 /* ropewiki_database_pt2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4089A1352B0AD15A00886179 /* ropewiki_database_pt2.json */; };
+		408B33032B0ABF22000CD934 /* GPXService+simplifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B33012B0ABE9F000CD934 /* GPXService+simplifyTests.swift */; };
+		40A71D912B084995000DFC3A /* GPXService+simplify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A71D902B084995000DFC3A /* GPXService+simplify.swift */; };
 		40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428627875D9F00FE245D /* AppDelegate.swift */; };
 		40E4428927875D9F00FE245D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4428827875D9F00FE245D /* SceneDelegate.swift */; };
 		40E4428E27875D9F00FE245D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E4428C27875D9F00FE245D /* Main.storyboard */; };
@@ -97,13 +103,11 @@
 		40E4431F2787A0C000FE245D /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431E2787A0C000FE245D /* MapViewModel.swift */; };
 		40E443222787A0F200FE245D /* RopeWikiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443212787A0F200FE245D /* RopeWikiService.swift */; };
 		40E443262787A23A00FE245D /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443252787A23A00FE245D /* SearchService.swift */; };
-		40E4432A2787D3A300FE245D /* ropewiki_database.json in Resources */ = {isa = PBXBuildFile; fileRef = 40E443292787D3A300FE245D /* ropewiki_database.json */; };
 		40E4432C2787D80100FE245D /* CanyonPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4432B2787D80100FE245D /* CanyonPoint.swift */; };
 		40E4432F2787D90C00FE245D /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4432E2787D90C00FE245D /* RequestError.swift */; };
 		40E443312787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443302787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift */; };
 		40E44335278886CC00FE245D /* DataTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E44334278886CC00FE245D /* DataTableView.swift */; };
 		40E4433727888D9100FE245D /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4433627888D9100FE245D /* LocationService.swift */; };
-		40E4433A2788914000FE245D /* CLLocation2D+distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443392788914000FE245D /* CLLocation2D+distance.swift */; };
 		40E4433C2788A25B00FE245D /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4433B2788A25B00FE245D /* BottomSheetViewController.swift */; };
 		40E4433F2788F1D600FE245D /* SpreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4433E2788F1D600FE245D /* SpreadFilter.swift */; };
 		40E443412789F36C00FE245D /* BottomSheetFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443402789F36C00FE245D /* BottomSheetFilterViewController.swift */; };
@@ -188,6 +192,12 @@
 		407FB76C2790D59C008B65BE /* WeatherForecastDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastDayView.swift; sourceTree = "<group>"; };
 		407FB7702790FF49008B65BE /* CanyonMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonMap.swift; sourceTree = "<group>"; };
 		407FB7722790FF7B008B65BE /* AppleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapView.swift; sourceTree = "<group>"; };
+		4089A12F2B0AC91800886179 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		4089A1312B0AC98D00886179 /* CoordinateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateTests.swift; sourceTree = "<group>"; };
+		4089A1342B0AD15900886179 /* ropewiki_database_pt1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ropewiki_database_pt1.json; sourceTree = "<group>"; };
+		4089A1352B0AD15A00886179 /* ropewiki_database_pt2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ropewiki_database_pt2.json; sourceTree = "<group>"; };
+		408B33012B0ABE9F000CD934 /* GPXService+simplifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GPXService+simplifyTests.swift"; sourceTree = "<group>"; };
+		40A71D902B084995000DFC3A /* GPXService+simplify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GPXService+simplify.swift"; sourceTree = "<group>"; };
 		40E4428327875D9F00FE245D /* Canyoneer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canyoneer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E4428627875D9F00FE245D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40E4428827875D9F00FE245D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -226,13 +236,11 @@
 		40E4431E2787A0C000FE245D /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		40E443212787A0F200FE245D /* RopeWikiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopeWikiService.swift; sourceTree = "<group>"; };
 		40E443252787A23A00FE245D /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
-		40E443292787D3A300FE245D /* ropewiki_database.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ropewiki_database.json; sourceTree = "<group>"; };
 		40E4432B2787D80100FE245D /* CanyonPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonPoint.swift; sourceTree = "<group>"; };
 		40E4432E2787D90C00FE245D /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
 		40E443302787E2CA00FE245D /* NonClusteringMKMarkerAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonClusteringMKMarkerAnnotationView.swift; sourceTree = "<group>"; };
 		40E44334278886CC00FE245D /* DataTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableView.swift; sourceTree = "<group>"; };
 		40E4433627888D9100FE245D /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
-		40E443392788914000FE245D /* CLLocation2D+distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation2D+distance.swift"; sourceTree = "<group>"; };
 		40E4433B2788A25B00FE245D /* BottomSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
 		40E4433E2788F1D600FE245D /* SpreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadFilter.swift; sourceTree = "<group>"; };
 		40E443402789F36C00FE245D /* BottomSheetFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetFilterViewController.swift; sourceTree = "<group>"; };
@@ -418,7 +426,8 @@
 				405E67E6279A075B00BA41D9 /* simple_rap.json */,
 				40E4428F27875DA000FE245D /* Assets.xcassets */,
 				40E4429127875DA000FE245D /* LaunchScreen.storyboard */,
-				40E443292787D3A300FE245D /* ropewiki_database.json */,
+				4089A1342B0AD15900886179 /* ropewiki_database_pt1.json */,
+				4089A1352B0AD15A00886179 /* ropewiki_database_pt2.json */,
 				40E4429427875DA000FE245D /* Info.plist */,
 			);
 			path = Canyoneer;
@@ -439,6 +448,8 @@
 				40E442B827875EB200FE245D /* Region.swift */,
 				40E442E527876F9600FE245D /* Canyon.swift */,
 				40E4432B2787D80100FE245D /* CanyonPoint.swift */,
+				4089A12F2B0AC91800886179 /* Coordinate.swift */,
+				4089A1312B0AC98D00886179 /* CoordinateTests.swift */,
 				407FB74E278FC805008B65BE /* GeoJson.swift */,
 				407FB75B2790CD2B008B65BE /* NOAAData.swift */,
 				40E442E327876F7E00FE245D /* SearchResult.swift */,
@@ -583,6 +594,8 @@
 				40E443252787A23A00FE245D /* SearchService.swift */,
 				40E4433627888D9100FE245D /* LocationService.swift */,
 				40FDB3872791FCCB0065FF47 /* GPXService.swift */,
+				40A71D902B084995000DFC3A /* GPXService+simplify.swift */,
+				408B33012B0ABE9F000CD934 /* GPXService+simplifyTests.swift */,
 				4005DFB5278F583500EB1640 /* FavoriteService.swift */,
 				407FB75A2790CD2B008B65BE /* NOAAWeatherService.swift */,
 				40218D7627A87A68006A6ABC /* ZipCollection.swift */,
@@ -603,7 +616,6 @@
 		40E443382788913000FE245D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				40E443392788914000FE245D /* CLLocation2D+distance.swift */,
 				4032AEC7278F3EFE002EEA4E /* Array+safe.swift */,
 				4005DFBD278F5DD900EB1640 /* Logger+error.swift */,
 				40FDB3892791FCDE0065FF47 /* Data+toFile.swift */,
@@ -738,9 +750,10 @@
 			files = (
 				40E4429327875DA000FE245D /* LaunchScreen.storyboard in Resources */,
 				405E67E7279A075B00BA41D9 /* simple_rap.json in Resources */,
+				4089A1372B0AD15A00886179 /* ropewiki_database_pt2.json in Resources */,
+				4089A1362B0AD15A00886179 /* ropewiki_database_pt1.json in Resources */,
 				40E4429027875DA000FE245D /* Assets.xcassets in Resources */,
 				40E4428E27875D9F00FE245D /* Main.storyboard in Resources */,
-				40E4432A2787D3A300FE245D /* ropewiki_database.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,6 +783,7 @@
 				40218D7727A87A68006A6ABC /* ZipCollection.swift in Sources */,
 				407FB75327906DF0008B65BE /* MapLegendBottomSheetViewController.swift in Sources */,
 				405E67BE2797865D00BA41D9 /* SearchViewModel.swift in Sources */,
+				40A71D912B084995000DFC3A /* GPXService+simplify.swift in Sources */,
 				40FDB39527922C950065FF47 /* MapService.swift in Sources */,
 				40FDB37E2791CF5D0065FF47 /* MapboxMap.swift in Sources */,
 				40FDB3882791FCCB0065FF47 /* GPXService.swift in Sources */,
@@ -778,6 +792,7 @@
 				40E4431D27879F1D00FE245D /* MapViewController.swift in Sources */,
 				40E442D0278760EF00FE245D /* RxUIButton.swift in Sources */,
 				405E67C02797869100BA41D9 /* FavoriteViewController.swift in Sources */,
+				4089A1302B0AC91800886179 /* Coordinate.swift in Sources */,
 				40E442E627876F9600FE245D /* Canyon.swift in Sources */,
 				40E4428727875D9F00FE245D /* AppDelegate.swift in Sources */,
 				405E67BD2797865D00BA41D9 /* MapListViewModel.swift in Sources */,
@@ -792,7 +807,6 @@
 				40FDB38C2791FCFD0065FF47 /* FileAccess.swift in Sources */,
 				4005DFCF278F96E100EB1640 /* MapView+annotations.swift in Sources */,
 				40783CED278DF63F001E78DB /* UserPreferencesStorage.swift in Sources */,
-				40E4433A2788914000FE245D /* CLLocation2D+distance.swift in Sources */,
 				40218D7327A83714006A6ABC /* CanyonItemView.swift in Sources */,
 				40783CE8278DF46A001E78DB /* InMemoryStorage.swift in Sources */,
 				405E67BB2797865D00BA41D9 /* NearMeViewModel.swift in Sources */,
@@ -864,8 +878,10 @@
 				4005DFCD278F7B0A00EB1640 /* MockSearchService.swift in Sources */,
 				4032AEC1278F3AB7002EEA4E /* CanyonViewModelTests.swift in Sources */,
 				4032AEBD278F3028002EEA4E /* CanyonViewControllerTests.swift in Sources */,
+				408B33032B0ABF22000CD934 /* GPXService+simplifyTests.swift in Sources */,
 				4005DFC5278F6F0300EB1640 /* FilterViewModelTests+update.swift in Sources */,
 				4005DFC3278F67F800EB1640 /* FavoritesViewModelTests.swift in Sources */,
+				4089A1332B0AC9CF00886179 /* CoordinateTests.swift in Sources */,
 				4032AECB278F3FD8002EEA4E /* MockRopeWikiService.swift in Sources */,
 				4032AECD278F41D0002EEA4E /* CanyonDetailViewTests.swift in Sources */,
 				40FDB3932792270F0065FF47 /* WeatherDataPointTests+Strings.swift in Sources */,
@@ -1025,13 +1041,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3E2X8PZ6MG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Canyoneer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Canyoner;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location is used to show user location and orientation in the canyon map";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Uses location best provide map information";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1042,7 +1061,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = out.backcountry.canyoneering;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1060,13 +1079,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3E2X8PZ6MG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Canyoneer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Canyoner;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location is used to show user location and orientation in the canyon map";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Uses location best provide map information";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1077,7 +1099,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = out.backcountry.canyoneering;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1096,7 +1118,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q9KJUL2LRV;
+				DEVELOPMENT_TEAM = 3E2X8PZ6MG;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -1116,7 +1138,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q9KJUL2LRV;
+				DEVELOPMENT_TEAM = 3E2X8PZ6MG;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;

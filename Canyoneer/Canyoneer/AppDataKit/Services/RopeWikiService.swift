@@ -32,12 +32,16 @@ class RopeWikiService: RopeWikiServiceInterface {
         }
 
         // update cache
-        return loadFromFile().do { canyons in
-            canyons.forEach {
-                self.storage.set(key: $0.id, value: $0)
+        return loadFromDisk().do(
+            onSuccess: { canyons in
+                canyons.forEach {
+                    self.storage.set(key: $0.id, value: $0)
+                }
+                Self.cacheLock.unlock()
+            }, onError: { error in
+                assertionFailure(error.localizedDescription)
             }
-            Self.cacheLock.unlock()
-        }
+        )
     }
     
     func canyon(for id: String) -> Single<Canyon?> {
@@ -49,64 +53,77 @@ class RopeWikiService: RopeWikiServiceInterface {
         }
     }
     
-    func loadFromFile() -> Single<[Canyon]> {
-        let decoder = JSONDecoder()
-        let fileName = "ropewiki_database"
-        let bundle = Bundle(for: RxUIButton.self)
-        
-        return Single.create { single in
+    func loadFromDisk() -> Single<[Canyon]> {
+        return Single.create { [weak self] single in
+            guard let self else {
+                return Disposables.create()
+            }
+            
             do {
-                guard let path = bundle.path(forResource: fileName, ofType: "json") else {
-                    throw RequestError.serialization
-                }
-
-                let jsonData = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                let canyonDataList = try decoder.decode([CanyonDataPoint].self, from: jsonData)
-                let canyons: [Canyon] = canyonDataList.compactMap { data in
-                    guard let latitude = data.latitude, let longitude = data.longitude else {
-                        return nil
-                    }
-                    let features = data.geoJson?.features ?? []
-                    let geoFeatures: [CoordinateFeature] = features.compactMap {
-                        return CoordinateFeature(
-                            name: $0.properties.name,
-                            type: $0.geometry.type,
-                            hexColor: $0.properties.color,
-                            coordinates: $0.geometry.coordinates
-                        )
-                    }
-                    let waypoints = geoFeatures.filter { $0.type == .waypoint }
-                    let lines = geoFeatures.filter { $0.type == .line }
-                    return Canyon(
-                        id: "\(data.name)_\(latitude)_\(longitude)",
-                        bestSeasons: data.bestSeasons,
-                        coordinate: Coordinate(latitude: latitude, longitude: longitude),
-                        
-                        isRestricted: data.isRestricted,
-                        maxRapLength: data.rappelMaxLength,
-                        name: data.name,
-                        numRaps: data.numRappels,
-                        requiresShuttle: data.requiresShuttle,
-                        requiresPermit: data.requiresPermits,
-                        ropeWikiURL: URL(string: data.urlString),
-                        technicalDifficulty: data.technicalDifficulty,
-                        risk: data.risk,
-                        timeGrade: data.timeRatingString,
-                        waterDifficulty: data.waterDifficulty,
-                        quality: data.quality,
-                        vehicleAccessibility: data.vehicleAccessibility,
-                        description: data.htmlDescription ?? "",
-                        geoWaypoints: waypoints,
-                        geoLines: lines
-                    )
-                }
-                single(.success(canyons))
+                // We had to split into two files to get around githubs large file limit. We split the DB at "Uranus Canyon" which was more or less halfway.
+                let first = try self.loadFromFile(from: "ropewiki_database_pt1")
+                let second = try self.loadFromFile(from: "ropewiki_database_pt1")
+                let totalList = first + second
+                single(.success(totalList))
                 return Disposables.create()
             } catch {
                 Global.logger.error("Serialization Error: \(String(describing: error))")
                 single(.failure(RequestError.serialization))
                 return Disposables.create()
             }
+        }
+    }
+    
+    func loadFromFile(from fileName: String) throws -> [Canyon] {
+        let decoder = JSONDecoder()
+        let bundle = Bundle(for: RxUIButton.self)
+        
+        guard let path = bundle.path(forResource: fileName, ofType: "json") else {
+            throw RequestError.serialization
+        }
+
+        let jsonData = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+        let canyonDataList = try decoder.decode([CanyonDataPoint].self, from: jsonData)
+        return canyonDataList.compactMap { data in
+            guard let latitude = data.latitude, let longitude = data.longitude else {
+                return nil
+            }
+            // We are just not going to show closed canyons
+            guard !data.isClosed else { return nil }
+            
+            let features = data.geoJson?.features ?? []
+            let geoFeatures: [CoordinateFeature] = features.compactMap {
+                return CoordinateFeature(
+                    name: $0.properties.name,
+                    type: $0.geometry.type,
+                    hexColor: $0.properties.color,
+                    coordinates: $0.geometry.coordinates
+                )
+            }
+            let waypoints = geoFeatures.filter { $0.type == .waypoint }
+            let lines = GPXService.simplify(features: geoFeatures.filter { $0.type == .line })
+            return Canyon(
+                id: "\(data.name)_\(latitude)_\(longitude)",
+                bestSeasons: data.bestSeasons,
+                coordinate: Coordinate(latitude: latitude, longitude: longitude),
+                
+                isRestricted: data.isRestricted,
+                maxRapLength: data.rappelMaxLength,
+                name: data.name,
+                numRaps: data.numRappels,
+                requiresShuttle: data.requiresShuttle,
+                requiresPermit: data.requiresPermits,
+                ropeWikiURL: URL(string: data.urlString),
+                technicalDifficulty: data.technicalDifficulty,
+                risk: data.risk,
+                timeGrade: data.timeRatingString,
+                waterDifficulty: data.waterDifficulty,
+                quality: data.quality,
+                vehicleAccessibility: data.vehicleAccessibility,
+                description: data.htmlDescription ?? "",
+                geoWaypoints: waypoints,
+                geoLines: lines
+            )
         }
     }
 }

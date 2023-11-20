@@ -42,6 +42,5 @@ class GPXService {
         let fixedName = canyon.name.replacingOccurrences(of: " ", with: "_")
         let url = data?.dataToFile(fileName: "\(fixedName).gpx")
         return url as URL?
-
     }
 }

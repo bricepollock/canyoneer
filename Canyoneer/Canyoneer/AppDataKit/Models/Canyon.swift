@@ -8,15 +8,6 @@
 import Foundation
 import MapKit
 
-struct Coordinate: Codable {
-    let latitude: Double
-    let longitude: Double
-    
-    var asCLObject: CLLocationCoordinate2D {
-        return CLLocationCoordinate2D(latitude: self.latitude, longitude: self.longitude)
-    }
-}
-
 struct CoordinateFeature: Codable {
     let name: String?
     let type: GeoFeatureType

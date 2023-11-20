@@ -102,8 +102,8 @@ class BestSeasonFilter: UIView {
             self.massSelectionButton.configure(text: isAnySelected ? Strings.none : Strings.all)
         }.disposed(by: self.bag)
         
-        // to collect all button selections so if any is selected we can update our massSelectionButton
-        var buttonSelections = [Observable<Void>]()
+        // to collect all button selections so if any is selected we can update our massSelectionButton        
+        var buttonSelections: [Observable<Void>] = []
 
         // show two rows of months because we cannot cramp them all visually into one line
         let mid = data.options.count / 2
