@@ -7,10 +7,10 @@
 
 import Foundation
 import UIKit
-import RxSwift
+import Combine
 
 /// A blue button with white text
-class ContainedButton: RxUIButton {
+class ContainedButton: CombineUIButton {
     public enum ButtonType {
         case primary
         case secondary
@@ -43,16 +43,16 @@ class ContainedButton: RxUIButton {
         static let standardWidth: CGFloat = 232
     }
     
-    private let bag = DisposeBag()
+    private var bag = Set<AnyCancellable>()
     
     private let textLabel = UILabel()
     
     public init(type: ButtonType = .primary) {
         super.init()
         
-        self.isSelectedObservable.subscribeOnNext { [weak self] (isSelected) in
+        self.$isSelectedState.sink { [weak self] (isSelected) in
             self?.backgroundColor = isSelected ? type.selectionColor : type.passiveColor
-        }.disposed(by: bag)
+        }.store(in: &bag)
         
         self.textLabel.textColor = type.textColor
         self.textLabel.isUserInteractionEnabled = false

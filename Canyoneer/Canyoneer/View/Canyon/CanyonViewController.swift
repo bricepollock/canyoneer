@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-import RxSwift
+import Combine
 
 class CanyonViewController: ScrollableStackViewController {
     enum Strings {
@@ -36,7 +36,7 @@ class CanyonViewController: ScrollableStackViewController {
     private let name = UILabel()
     private let detailView = CanyonDetailView()
     private let viewModel: CanyonViewModel
-    private let bag = DisposeBag()
+    private var bag = Set<AnyCancellable>()
     
     // MARK: lifecycle
     init(canyonId: String) {
@@ -69,7 +69,9 @@ class CanyonViewController: ScrollableStackViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.viewModel.refresh()
+        Task(priority: .high) { @MainActor [weak self] in
+            await self?.viewModel.refresh()
+        }
     }
     
     // MARK: internal
@@ -81,26 +83,34 @@ class CanyonViewController: ScrollableStackViewController {
     }
     
     private func bind() {
-        self.viewModel.canyonObservable.subscribeOnNext { [weak self] canyon in
+        self.viewModel.$canyon
+            .compactMap { $0 }
+            .sink { [weak self] canyon in
             self?.detailView.configure(with: canyon)
-        }.disposed(by: self.bag)
+        }.store(in: &bag)
         
-        self.viewModel.isFavorite.subscribeOnNext { [weak self] isFavorite in
-            if isFavorite {
-                self?.navigationItem.rightBarButtonItems?[0].image = UIImage(systemName: "star.fill")
-            } else {
-                self?.navigationItem.rightBarButtonItems?[0].image = UIImage(systemName: "star")
-            }
-        }.disposed(by: self.bag)
+        self.viewModel.$isFavorite
+            .compactMap { $0 }
+            .sink { [weak self] isFavorite in
+                if isFavorite {
+                    self?.navigationItem.rightBarButtonItems?[0].image = UIImage(systemName: "star.fill")
+                } else {
+                    self?.navigationItem.rightBarButtonItems?[0].image = UIImage(systemName: "star")
+                }
+            }.store(in: &bag)
         
-        self.viewModel.forecast.subscribeOnNext { forecast in
-            self.detailView.configure(weather: forecast)
-        }.disposed(by: self.bag)
+        self.viewModel.$forecast
+            .compactMap { $0 }
+            .sink { forecast in
+                self.detailView.configure(weather: forecast)
+            }.store(in: &bag)
         
-        self.viewModel.shareGPXFile.subscribeOnNext { url in
-            let next = UIActivityViewController(activityItems: [url], applicationActivities: nil)
-            self.present(next, animated: true)
-        }.disposed(by: self.bag)
+        self.viewModel.$shareGPXFile
+            .compactMap { $0 }
+            .sink { url in
+                let next = UIActivityViewController(activityItems: [url], applicationActivities: nil)
+                self.present(next, animated: true)
+            }.store(in: &bag)
     }
     
     // MARK: actions

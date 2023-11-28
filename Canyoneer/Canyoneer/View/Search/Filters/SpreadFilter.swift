@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-import RxSwift
+import Combine
 
 struct SpreadFilterData {
     let name: String
@@ -33,13 +33,13 @@ class SpreadFilter: UIView {
     
     private let masterStackView = UIStackView()
     private let titleLabel = UILabel()
-    private let inputTextControl = RxUIButton()
+    private let inputTextControl = CombineUIButton()
     
     public var maxValue: Int = 0
     public var minValue: Int = 0
     
     private var comparisonPicker: ComparisonPicker!
-    private let bag = DisposeBag()
+    private var bag = Set<AnyCancellable>()
     
     init() {
         super.init(frame: .zero)
@@ -55,20 +55,23 @@ class SpreadFilter: UIView {
         
         self.titleLabel.font = FontBook.Body.regular
         
-        self.inputTextControl.didSelect.subscribeOnNext { () in
-            let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
-            guard let rootView = window?.rootViewController?.view else { return }
+        self.inputTextControl.didSelect
+            .sink { [weak self] _ in
+                guard let self else { return }
+                
+                let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+                guard let rootView = window?.rootViewController?.view else { return }
 
-            rootView.addSubview(self.comparisonPicker)
-            self.comparisonPicker.constrain.leading(to: rootView)
-            self.comparisonPicker.constrain.trailing(to: rootView)
-            self.comparisonPicker.constrain.bottom(to: rootView)
-            let height = self.comparisonPicker.heightAnchor.constraint(equalToConstant: 0)
-            height.isActive = true
-            UIView.animate(withDuration: DesignSystem.animation) {
-                self.comparisonPicker.removeConstraint(height)
-            }
-        }.disposed(by: self.bag)
+                rootView.addSubview(self.comparisonPicker)
+                self.comparisonPicker.constrain.leading(to: rootView)
+                self.comparisonPicker.constrain.trailing(to: rootView)
+                self.comparisonPicker.constrain.bottom(to: rootView)
+                let height = self.comparisonPicker.heightAnchor.constraint(equalToConstant: 0)
+                height.isActive = true
+                UIView.animate(withDuration: DesignSystem.animation) {
+                    self.comparisonPicker.removeConstraint(height)
+                }
+            }.store(in: &bag)
     }
     
     required init?(coder: NSCoder) {
@@ -93,10 +96,12 @@ class SpreadFilter: UIView {
         // set initial state
         self.inputTextControl.configure(text: Strings.spread(maxValue: data.currentMax, minValue: data.currentMin, units: data.units))
         
-        self.comparisonPicker.valueChange.subscribeOnNext { tuple in
-            self.maxValue = tuple.maxValue
-            self.minValue = tuple.minValue
+        self.comparisonPicker.$state
+            .compactMap { $0 }
+            .sink { state in
+            self.maxValue = state.max
+            self.minValue = state.min
             self.inputTextControl.configure(text: Strings.spread(maxValue: self.maxValue, minValue: self.minValue, units: data.units))
-        }.disposed(by: self.bag)
+        }.store(in: &bag)
     }
 }

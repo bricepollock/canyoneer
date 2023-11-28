@@ -7,52 +7,72 @@
 
 import Foundation
 import CoreLocation
-import RxSwift
 
 class LocationService: NSObject, CLLocationManagerDelegate {
+    
+    @Published var heading: CLHeading?
+    
+    private var authorizationContinuation: CheckedContinuation<Bool, Never>?
+    private var currentLocationContinuation: CheckedContinuation<CLLocationCoordinate2D, Error>?
+    
     private let locationManager = CLLocationManager()
-    
-    private var locationCallback: ((CLLocation) -> Void)?
-    
-    public let didUpdateHeading: Observable<CLHeading>
-    private let didUpdateHeadingSubject: PublishSubject<CLHeading>
-    
-    override init() {
-        self.didUpdateHeadingSubject = PublishSubject()
-        self.didUpdateHeading = self.didUpdateHeadingSubject.asObservable()
-        super.init()
-    }
     
     func isLocationEnabled() -> Bool {
         return CLLocationManager.locationServicesEnabled()
     }
     
-    func getCurrentLocation(callback: @escaping ((CLLocation) -> Void)) {
-        self.locationManager.requestWhenInUseAuthorization()
-        self.locationCallback = callback
+    func getCurrentLocation() async throws -> CLLocationCoordinate2D {
         self.locationManager.desiredAccuracy = kCLLocationAccuracyThreeKilometers
         self.locationManager.delegate = self
-        self.locationManager.requestLocation()
+        
+        let canUseLocation: Bool
+        let authStatus = self.locationManager.authorizationStatus
+        if authStatus == .notDetermined {
+            canUseLocation = await withCheckedContinuation { continuation in
+                authorizationContinuation = continuation
+                self.locationManager.requestWhenInUseAuthorization()
+            }
+        } else {
+            canUseLocation = authStatus != .denied
+        }
+        
+        guard canUseLocation else {
+            throw GeneralError.permissionsDenied
+        }
+        authorizationContinuation = nil
+                
         self.locationManager.startUpdatingHeading()
+        
+        defer { currentLocationContinuation = nil }
+        return try await withCheckedThrowingContinuation { continuation in
+            currentLocationContinuation = continuation
+            self.locationManager.requestLocation()
+        }
+        
     }
     
     @objc func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.last {
-            self.locationCallback?(location)
+            currentLocationContinuation?.resume(returning: location.coordinate)
+        } else {
+            currentLocationContinuation?.resume(throwing: GeneralError.notFound)
         }
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
-        self.didUpdateHeadingSubject.onNext(newHeading)
+        self.heading = newHeading
     }
     
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
         if manager.authorizationStatus != .denied {
-            self.locationManager.requestLocation()
+            authorizationContinuation?.resume(returning: true)
+        } else {
+            authorizationContinuation?.resume(returning: false)
         }
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         Global.logger.debug("error \(String(describing: error))");
+        currentLocationContinuation?.resume(throwing: GeneralError.unknownFailure)
     }
 }

@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import RxSwift
 
 struct FilterState {
     enum Strings {
@@ -37,17 +36,12 @@ struct FilterState {
 }
 
 class FilterViewModel {
-    public let state: Observable<FilterState>
-    private let stateSubject: PublishSubject<FilterState>
+    @Published public var currentState: FilterState
 
     // used to set the options we have for the filter
     public let initialState: FilterState
-    // used to set the current selections for the filters
-    private var currentState: FilterState
     
     init() {
-        self.stateSubject = PublishSubject()
-        self.state = self.stateSubject.asObservable()
         self.initialState = FilterState.default
         self.currentState = self.initialState
     }
@@ -64,37 +58,30 @@ class FilterViewModel {
     
     public func reset() {
         self.currentState = FilterState.default
-        self.stateSubject.onNext(self.currentState)
     }
     
     public func update(maxRap: (max: Int, min: Int)) {
         self.currentState.maxRap = maxRap
-        self.stateSubject.onNext(self.currentState)
     }
     
     public func update(numRaps: (max: Int, min: Int)) {
         self.currentState.numRaps = numRaps
-        self.stateSubject.onNext(self.currentState)
     }
     
     public func update(stars: [String]) {
         self.currentState.stars = stars.compactMap { Int($0) }
-        self.stateSubject.onNext(self.currentState)
     }
     
     public func update(technicality: [String]) {
         self.currentState.technicality = technicality.compactMap { Int($0) }
-        self.stateSubject.onNext(self.currentState)
     }
     
     public func update(water: [String]) {
         self.currentState.water = water
-        self.stateSubject.onNext(self.currentState)
     }
     
     public func update(time: [String]) {
         self.currentState.time = time.compactMap { RomanNumeral(rawValue: $0) }
-        self.stateSubject.onNext(self.currentState)
     }
     
     public func update(shuttle: String?) {
@@ -109,12 +96,10 @@ class FilterViewModel {
             required = shuttle == SwitchFilter.Strings.yes
         }
         self.currentState.shuttleRequired = required
-        self.stateSubject.onNext(self.currentState)
     }
     
     public func update(seasons: [String]) {
         self.currentState.seasons = seasons.compactMap { Month(short: $0) }
-        self.stateSubject.onNext(self.currentState)
     }
     
     internal static func filter(canyons: [Canyon], against filters: FilterState) -> [Canyon] {

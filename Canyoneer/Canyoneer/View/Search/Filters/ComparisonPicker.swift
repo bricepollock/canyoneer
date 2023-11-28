@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-import RxSwift
 
 struct ComparisonPickerData {
     let maxValue: Int
@@ -18,14 +17,17 @@ struct ComparisonPickerData {
 }
 
 class ComparisonPicker: UIView {
-    
     enum Strings {
         static let comparison = "<"
         static let done = "Done"
     }
     
-    public let valueChange: Observable<(minValue: Int, maxValue: Int)>
-    private let valueChangeSubject: PublishSubject<(minValue: Int, maxValue: Int)>
+    struct State {
+        let max: Int
+        let min: Int
+    }
+    
+    @Published public var state: State?
     
     private let masterStackView = UIStackView()
     private let toolBar = UIToolbar()
@@ -45,8 +47,6 @@ class ComparisonPicker: UIView {
         self.minValue = data.minValue
         self.currentMinValue = data.currentMin
         self.advanceIncrements = data.advanceIncrements
-        self.valueChangeSubject = PublishSubject()
-        self.valueChange = self.valueChangeSubject.asObservable()
         super.init(frame: .zero)
         self.picker.delegate = self
         self.picker.dataSource = self
@@ -104,7 +104,7 @@ extension ComparisonPicker: UIPickerViewDelegate {
         default: return
         }
         
-        self.valueChangeSubject.onNext((minValue: self.currentMinValue, maxValue: self.currentMaxValue))
+        self.state = State(max: self.currentMaxValue, min: self.currentMinValue)
     }
 }
 

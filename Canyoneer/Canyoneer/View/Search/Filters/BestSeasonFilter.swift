@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-import RxSwift
+import Combine
 
 struct BestSeasonFilterData {
     let name: String
@@ -29,12 +29,12 @@ class BestSeasonFilter: UIView {
     
     private let masterStackView = UIStackView()
     private let titleStackView = UIStackView()
-    private let massSelectionButton = RxUIButton()
+    private let massSelectionButton = CombineUIButton()
     private let firstRow = UIStackView()
     private let secondRow = UIStackView()
     private let titleLabel = UILabel()
     
-    private let bag = DisposeBag()
+    private var bag = Set<AnyCancellable>()
     
     public var selections: [String] {
         return seasonButtons.filter {
@@ -61,13 +61,14 @@ class BestSeasonFilter: UIView {
         self.titleLabel.font = FontBook.Body.emphasis
         
         self.addSubview(self.massSelectionButton)
-        self.massSelectionButton.didSelect.subscribeOnNext { () in
+        self.massSelectionButton.didSelect.sink { [weak self] _ in
+            guard let self else { return }
             let isAnySelected = self.selections.count > 0
             let shouldHighlightAll = !isAnySelected
             self.seasonButtons.forEach {
                 $0.chooseSelection(shouldHighlightAll)
             }
-        }.disposed(by: self.bag)
+        }.store(in: &bag)
     }
     
     required init?(coder: NSCoder) {
@@ -97,13 +98,14 @@ class BestSeasonFilter: UIView {
         self.titleLabel.text = data.name
         self.massSelectionButton.configure(text: Strings.none)
         self.massSelectionButton.contentHorizontalAlignment = .left
-        self.massSelectionButton.didSelect.subscribeOnNext { () in
+        self.massSelectionButton.didSelect.sink { [weak self] _ in
+            guard let self else { return }
             let isAnySelected = self.selections.count > 0
             self.massSelectionButton.configure(text: isAnySelected ? Strings.none : Strings.all)
-        }.disposed(by: self.bag)
+        }.store(in: &bag)
         
         // to collect all button selections so if any is selected we can update our massSelectionButton        
-        var buttonSelections: [Observable<Void>] = []
+        var buttonSelections: [PassthroughSubject<Void, Never>] = []
 
         // show two rows of months because we cannot cramp them all visually into one line
         let mid = data.options.count / 2
@@ -135,9 +137,11 @@ class BestSeasonFilter: UIView {
         self.masterStackView.addArrangedSubview(secondRow)
         
         // if any button selected then update massSelectionButton
-        Observable.merge(buttonSelections).subscribeOnNext { () in
+        Publishers.MergeMany(buttonSelections)
+            .sink { [weak self] _ in
+            guard let self else { return }
             let isAnySelected = self.selections.count > 0
             self.massSelectionButton.configure(text: isAnySelected ? Strings.none : Strings.all)
-        }.disposed(by: self.bag)
+        }.store(in: &bag)
     }
 }

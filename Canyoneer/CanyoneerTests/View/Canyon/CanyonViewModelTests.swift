@@ -7,15 +7,13 @@
 
 import Foundation
 import XCTest
-import RxTest
 @testable import Canyoneer
 
+@MainActor
 class CanyonViewModelTests: XCTestCase {
-    var scheduler: TestScheduler!
     
     override func setUp() {
         super.setUp()
-        self.scheduler = TestScheduler(initialClock: 0)
         UserPreferencesStorage.clearFavorites()
     }
     
@@ -35,7 +33,7 @@ class CanyonViewModelTests: XCTestCase {
         XCTAssertEqual(expected, result)
     }
     
-    func testInitialFavorite_true() {
+    func testInitialFavorite_true() async throws {
         // setup
         let canyon = Canyon.dummy()
         let service = MockRopeWikiService()
@@ -43,98 +41,53 @@ class CanyonViewModelTests: XCTestCase {
         let viewModel = CanyonViewModel(canyonId: canyon.id, service: service)
         UserPreferencesStorage.addFavorite(canyon: canyon)
         
-        // Create the observation of the affected streams
-        let observer = scheduler.createObserver(Bool.self)
-        let subscription = viewModel.isFavorite.subscribe(observer)
+        // test
+        await viewModel.refresh()
         
-        // Create the event stream
-        viewModel.refresh()
-        scheduler.start()
-        
-        // observe the response
-        let results = observer.events.map { $0.value.element }
-        guard let isFavorite = results.first else { XCTFail(); return }
+        let isFavorite = try XCTUnwrap(viewModel.isFavorite)
         XCTAssertEqual(isFavorite, true)
-        
-        // clean up
-        subscription.dispose()
     }
     
-    func testToggleFavorite() {
+    func testToggleFavorite() async throws {
         // setup
         let canyon = Canyon.dummy()
         let service = MockRopeWikiService()
         service.mockCanyon = canyon
         let viewModel = CanyonViewModel(canyonId: canyon.id, service: service)
         
-        // Create the observation of the affected streams
-        let observer = scheduler.createObserver(Bool.self)
-        let subscription = viewModel.isFavorite.subscribe(observer)
+        // test
+        await viewModel.refresh()
+        XCTAssertEqual(viewModel.isFavorite, false)
         
-        // Create the event stream
-        viewModel.refresh()
         viewModel.toggleFavorite()
+        XCTAssertEqual(viewModel.isFavorite, true)
+        
         viewModel.toggleFavorite()
-        scheduler.start()
-        
-        // observe the response
-        let results = observer.events.map { $0.value.element }
-        guard let initialResult = results[0] else { XCTFail(); return }
-        guard let toggleOneResult = results[1] else { XCTFail(); return }
-        guard let toggleTwoResult = results[2] else { XCTFail(); return }
-        XCTAssertEqual(initialResult, false)
-        XCTAssertEqual(toggleOneResult, true)
-        XCTAssertEqual(toggleTwoResult, false)
-        
-        // clean up
-        subscription.dispose()
+        XCTAssertEqual(viewModel.isFavorite, false)
     }
     
-    func testCanyon_found() {
+    func testCanyon_found() async {
         // setup
         let canyon = Canyon.dummy()
         let service = MockRopeWikiService()
         service.mockCanyon = canyon
         let viewModel = CanyonViewModel(canyonId: canyon.id, service: service)
         
-        // Create the observation of the affected streams
-        let observer = scheduler.createObserver(Canyon.self)
-        let subscription = viewModel.canyonObservable.subscribe(observer)
-        
-        // Create the event stream
-        viewModel.refresh()
-        scheduler.start()
-        
-        // observe the response
-        let results = observer.events.map { $0.value.element }
-        guard let canyonResult = results[0] else { XCTFail(); return }
-        XCTAssertEqual(canyonResult.id, canyon.id)
-
-        // clean up
-        subscription.dispose()
+        // test
+        await viewModel.refresh()
+        XCTAssertEqual(viewModel.canyon?.id, canyon.id)
     }
     
-    func testCanyon_notFound() {
+    func testCanyon_notFound() async throws {
         // setup
         let canyon = Canyon.dummy()
         let service = MockRopeWikiService()
         service.mockCanyon = nil
         let viewModel = CanyonViewModel(canyonId: canyon.id, service: service)
         
-        // Create the observation of the affected streams
-        let observer = scheduler.createObserver(Canyon.self)
-        let subscription = viewModel.canyonObservable.subscribe(observer)
-        
-        // Create the event stream
-        viewModel.refresh()
-        scheduler.start()
-        
-        // observe the response
-        let results = observer.events.map { $0.value.element }
-        XCTAssertEqual(results.count, 0) // we don't supply a nil canyon
-
-        // clean up
-        subscription.dispose()
+        // test
+        await viewModel.refresh()
+        XCTAssertNil(viewModel.canyon)
     }
 }
    

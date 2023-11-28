@@ -7,12 +7,12 @@
 
 import Foundation
 import UIKit
-import RxSwift
 import Lottie
+import Combine
 
+@MainActor
 class MainViewController: UIViewController {
     private let canyonService = RopeWikiService()
-    private let bag = DisposeBag()
     private let background = UIImageView()
     
     override func viewDidLoad() {
@@ -36,23 +36,16 @@ class MainViewController: UIViewController {
         animationView.constrain.top(to: self.view)
         animationView.constrain.bottom(to: self.view)
         animationView.play(toProgress: 1, loopMode: .loop)
-        
-        // load the canyon data
-        DispatchQueue.global().async {
-            self.canyonService.canyons().subscribe { _ in
-                DispatchQueue.main.async {
-                    animationView.stop()
-                    animationView.removeFromSuperview()
-                    self.launchApp()
-                }
-            } onFailure: { error in
-                DispatchQueue.main.async {
-                    animationView.stop()
-                    animationView.removeFromSuperview()
-                    self.launchApp()
-                }
-                Global.logger.error(error)
-            }.disposed(by: self.bag)
+                
+        Task(priority: .high) { @MainActor [weak self] in
+            guard let self else { return }
+
+            // load the canyon data
+            _ = await self.canyonService.canyons()
+            
+            animationView.stop()
+            animationView.removeFromSuperview()
+            self.launchApp()
         }
     }
     

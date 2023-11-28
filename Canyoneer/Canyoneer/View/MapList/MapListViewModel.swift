@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import RxSwift
 
+@MainActor
 class MapListViewModel: ResultsViewModel {
     enum Strings {
         static func map(count: Int) -> String {
@@ -24,14 +24,14 @@ class MapListViewModel: ResultsViewModel {
         super.init(type: .map, results: results)
     }
     
-    override func refresh() {
-        super.refresh()
+    override func refresh() async {
+        await super.refresh()
         self.loadingComponent.startLoading(loadingType: .inline)
         let results = Array(self.currentResults.prefix(Self.maxMap))
-        self.titleSubject.send(Strings.map(count: results.count))
+        self.title = Strings.map(count: results.count)
         
         self.initialResults = results
-        self.resultsSubject.send(results)
+        self.currentResults = results
         self.loadingComponent.stopLoading()
     }
 }

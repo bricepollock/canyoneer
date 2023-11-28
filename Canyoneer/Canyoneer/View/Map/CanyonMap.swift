@@ -8,8 +8,9 @@
 import Foundation
 import UIKit
 import CoreLocation
-import RxSwift
+import Combine
 
+@MainActor
 protocol CanyonMap {
     var locationService: LocationService { get }
     
@@ -17,7 +18,7 @@ protocol CanyonMap {
     var view: UIView { get }
     
     /// When the map requests to view a canyon. Supplies the canyon id
-    var didRequestCanyon: Observable<String> { get }
+    var didRequestCanyon: PassthroughSubject<String, Never> { get }
     
     /// Canyons visible in the mapview
     var visibleCanyons: [Canyon] { get }
@@ -71,16 +72,15 @@ extension CanyonMap {
         }
     }
     
-    public func updateCamera(canyons: [Canyon]) {
+    public func updateCamera(canyons: [Canyon]) async throws {
         // center location
         if canyons.count == 1 {
             self.focusCameraOn(canyon: canyons[0])
         } else if let lastViewed = UserDefaults.standard.lastViewCoordinate {
             self.focusCameraOn(location: lastViewed)
         } else if locationService.isLocationEnabled() {
-            self.locationService.getCurrentLocation { location in
-                self.focusCameraOn(location: location.coordinate)
-            }
+            let location = try await self.locationService.getCurrentLocation()
+            self.focusCameraOn(location: location)
         }
     }
 }

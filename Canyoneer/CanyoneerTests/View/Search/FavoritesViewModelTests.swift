@@ -9,6 +9,7 @@ import Foundation
 import XCTest
 @testable import Canyoneer
 
+@MainActor
 class FavoritesViewModelTests: XCTestCase {
     
     override func setUp() {
@@ -16,54 +17,26 @@ class FavoritesViewModelTests: XCTestCase {
         UserPreferencesStorage.clearFavorites()
     }
     
-    func testReturnsFavorites() {
+    func testReturnsFavorites() async {
         // setup
         let canyon = Canyon.dummy()
         let viewModel = FavoritesViewModel()
         UserPreferencesStorage.addFavorite(canyon: canyon)
         
-        // Wait for results to come in
-        let expectation = self.expectation(description: "results")
-        var results: [SearchResult] = []
-        let cancelable = viewModel.results.sink { searchResults in
-            results = searchResults
-            expectation.fulfill()
-        }
-        
-        // Create the event stream
-        viewModel.refresh()
-        waitForExpectations(timeout: 1)
-        
         // test
-        XCTAssertEqual(results.count, 1)
-        
-        // clean up
-        cancelable.cancel()
+        await viewModel.refresh()
+        XCTAssertEqual(viewModel.currentResults.count, 1)
     }
     
-    func testTitle() {
+    func testTitle() async {
         // setup
         let canyon = Canyon.dummy()
         let service = MockRopeWikiService()
         service.mockCanyons = [canyon, Canyon.dummy(), Canyon.dummy(), Canyon.dummy()]
         let viewModel = FavoritesViewModel()
         
-        // wait
-        let expectation = self.expectation(description: "title")
-        var result: String = ""
-        let cancelable = viewModel.title.sink { title in
-            result = title
-            expectation.fulfill()
-        }
-        
-        // Create the event stream
-        viewModel.refresh()
-        waitForExpectations(timeout: 1)
-        
         // test
-        XCTAssertEqual(result, "Favorites")
-        
-        // clean up
-        cancelable.cancel()
+        await viewModel.refresh()
+        XCTAssertEqual(viewModel.title, "Favorites")
     }
 }

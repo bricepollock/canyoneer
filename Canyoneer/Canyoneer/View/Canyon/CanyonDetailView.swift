@@ -7,9 +7,9 @@
 
 import Foundation
 import UIKit
-import RxSwift
 import WebKit
 import MapKit
+import Combine
 
 class CanyonDetailView: UIView {
     
@@ -102,7 +102,7 @@ class CanyonDetailView: UIView {
     private let summaryTitle = UILabel()
     private let detailStackView = UIStackView()
     private let summaryDetails = UILabel()
-    private let ropeWikiURL = RxUIButton()
+    private let ropeWikiURL = CombineUIButton()
     private let descriptionTitle = UILabel()
     private let descriptionView = WKWebView()
     private let dataTitle = UILabel()
@@ -115,8 +115,8 @@ class CanyonDetailView: UIView {
     private let creativeCommons = UILabel()
     
     private var webViewHeightConstraint: NSLayoutConstraint!
-    private var urlLinkDisposeBag = DisposeBag()
-    private let bag = DisposeBag()
+    private var urlLinkDisposeBag = Set<AnyCancellable>()
+    private var bag = Set<AnyCancellable>()
     
     init() {
         super.init(frame: .zero)
@@ -237,12 +237,12 @@ class CanyonDetailView: UIView {
         
         // directions
         self.directions.configure(text: Strings.openInMaps)
-        self.directions.didSelect.subscribeOnNext { () in
+        self.directions.didSelect.sink { _ in
             let coordinate = CLLocationCoordinate2DMake(canyon.coordinate.latitude, canyon.coordinate.longitude)
             let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
             mapItem.name = canyon.name
             mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
-        }.disposed(by: self.bag)
+        }.store(in: &bag)
         
         
         // html render of the description
@@ -252,11 +252,11 @@ class CanyonDetailView: UIView {
         htmlString = htmlString.replacingOccurrences(of: "</span>", with: "</h1>")
         self.descriptionView.loadHTMLString(htmlString, baseURL: nil)
         
-        self.urlLinkDisposeBag = DisposeBag()
-        self.ropeWikiURL.didSelect.subscribeOnNext { () in
+        self.urlLinkDisposeBag = Set<AnyCancellable>()
+        self.ropeWikiURL.didSelect.sink { _ in
             guard let url = canyon.ropeWikiURL else { return }
             UIApplication.shared.open(url)
-        }.disposed(by: self.urlLinkDisposeBag)
+        }.store(in: &bag)
     }
     
     func configure(weather: ThreeDayForecast) {

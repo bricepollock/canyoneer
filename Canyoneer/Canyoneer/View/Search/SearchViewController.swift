@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-import RxSwift
+import Combine
 
 class SearchViewController: UIViewController, UITextViewDelegate {
     enum Strings {
@@ -22,10 +22,10 @@ class SearchViewController: UIViewController, UITextViewDelegate {
     
     private let searchController: UISearchController
     private let resultsViewController: ResultsViewController
-    private let nearMeButton = RxUIButton()
+    private let nearMeButton = CombineUIButton()
     
     private let viewModel: SearchViewModel
-    internal let bag = DisposeBag()
+    internal var bag = Set<AnyCancellable>()
     
     init() {
         self.viewModel = SearchViewModel()
@@ -47,10 +47,11 @@ class SearchViewController: UIViewController, UITextViewDelegate {
         self.nearMeButton.constrain.aspect(1)
         
         self.nearMeButton.configure(image: UIImage(systemName: "location.circle")!)
-        self.nearMeButton.didSelect.subscribeOnNext { _ in
+        self.nearMeButton.didSelect            
+            .sink { _ in
             let next = NearMeViewController()
             self.navigationController?.pushViewController(next, animated: true)
-        }.disposed(by: self.bag)
+        }.store(in: &bag)
     }
     
     required init?(coder: NSCoder) {
@@ -84,6 +85,8 @@ extension SearchViewController: UISearchResultsUpdating {
           self.viewModel.clearResults()
           return
       }
-      self.viewModel.search(query: query)
+      Task(priority: .userInitiated) { @MainActor [weak self] in
+          await self?.viewModel.search(query: query)
+      }      
   }
 }

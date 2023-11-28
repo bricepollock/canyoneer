@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import RxSwift
 
+@MainActor
 class NearMeViewModel: ResultsViewModel {
     
     enum Strings {
@@ -18,23 +18,22 @@ class NearMeViewModel: ResultsViewModel {
     private static let maxNearMe = 100
     
     private let searchService: SearchServiceInterface
-    private let bag = DisposeBag()
     
     init(searchService: SearchServiceInterface = SearchService()) {
         self.searchService = searchService
         super.init(type: .nearMe, results: [])
     }
     
-    override func refresh() {
+    override func refresh() async {
+        self.title = Strings.nearMe(limit: Self.maxNearMe)
         
-        self.titleSubject.send(Strings.nearMe(limit: Self.maxNearMe))
-        self.searchService.nearMeSearch(limit: Self.maxNearMe).subscribe { [weak self] results in
-            defer { self?.loadingComponent.stopLoading() }
-            self?.initialResults = results.result
-            self?.resultsSubject.send(results.result)
-        } onFailure: { error in
-            defer { self.loadingComponent.stopLoading() }
+        do {
+            let results = try await self.searchService.nearMeSearch(limit: Self.maxNearMe)
+            self.initialResults = results.result
+            self.currentResults = results.result
+        } catch {
             Global.logger.error(error)
-        }.disposed(by: self.bag)
+        }
+        self.loadingComponent.stopLoading()
     }
 }
