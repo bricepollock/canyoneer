@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import RxSwift
 @testable import Canyoneer
 
 class MockSearchService: SearchServiceInterface {
@@ -15,19 +14,15 @@ class MockSearchService: SearchServiceInterface {
     }
     
     public var searchResults: SearchResultList?
-    func requestSearch(for searchString: String) -> Single<SearchResultList> {
-        guard let searchResults = searchResults else {
-            return Single.error(RequestError.badRequest)
-        }
-
-        return Single.just(searchResults)
+    func requestSearch(for searchString: String) async -> SearchResultList {
+        return searchResults ?? SearchResultList(searchString: "", result: [])
     }
     
-    func nearMeSearch(limit: Int) -> Single<SearchResultList> {
-        guard let searchResults = searchResults else {
-            return Single.error(RequestError.badRequest)
+    func nearMeSearch(limit: Int) async throws -> SearchResultList {
+        guard let searchResults else {
+            throw RequestError.badRequest
         }
         
-        return Single.just(searchResults)
+        return searchResults
     }
 }

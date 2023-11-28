@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+@MainActor
 class DownloadBar: UIView {
     enum Strings {
         static let download = "Downloading: "
@@ -65,8 +66,8 @@ class DownloadBar: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func update(progress: Float) {
-        self.progress.setProgress(progress, animated: progress != 0)
+    func update(progress: Double) {
+        self.progress.setProgress(Float(progress), animated: progress != 0)
     }
     
     func hide() {

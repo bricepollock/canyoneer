@@ -6,77 +6,63 @@
 //
 
 import Foundation
-import RxSwift
 import MapKit
 
 protocol RopeWikiServiceInterface {
-    func canyons() -> Single<[Canyon]>
-    func canyon(for id: String) -> Single<Canyon?>
+    func canyons() async -> [Canyon]
+    func canyon(for id: String) async throws -> Canyon
 }
 
-class RopeWikiService: RopeWikiServiceInterface {
+actor RopeWikiService: RopeWikiServiceInterface {
     private let storage = InMemoryStorage.canyons
     
-    // while each service entity should be able to act independently, this multi-caching is not supported by Storage
-    // Therefore we have to ensure we are not reading mid-writing all these canyons to the storage.
-    private static let cacheLock = NSLock()
-    
-    func canyons() -> Single<[Canyon]> {
-        Self.cacheLock.lock()
+    func canyons() async -> [Canyon] {
         
         // preference in-memory cache
         let cachedCanyons = storage.all() as [Canyon]
         guard cachedCanyons.isEmpty else {
-            Self.cacheLock.unlock()
-            return Single.just(cachedCanyons)
+            return cachedCanyons
         }
 
         // update cache
-        return loadFromDisk().do(
-            onSuccess: { canyons in
-                canyons.forEach {
-                    self.storage.set(key: $0.id, value: $0)
-                }
-                Self.cacheLock.unlock()
-            }, onError: { error in
-                assertionFailure(error.localizedDescription)
+        do {
+            let canyons = try loadFromDisk()
+            
+            // Populate cache
+            canyons.forEach {
+                self.storage.set(key: $0.id, value: $0)
             }
-        )
-    }
-    
-    func canyon(for id: String) -> Single<Canyon?> {
-        return canyons().map { canyons in
-            let found = canyons.filter { canyon in
-                return canyon.id == id
-            }.first
-            return found
+            return canyons
+        } catch {
+            assertionFailure(error.localizedDescription)
+            return []
         }
     }
     
-    func loadFromDisk() -> Single<[Canyon]> {
-        return Single.create { [weak self] single in
-            guard let self else {
-                return Disposables.create()
-            }
-            
-            do {
-                // We had to split into two files to get around githubs large file limit. We split the DB at "Uranus Canyon" which was more or less halfway.
-                let first = try self.loadFromFile(from: "ropewiki_database_pt1")
-                let second = try self.loadFromFile(from: "ropewiki_database_pt1")
-                let totalList = first + second
-                single(.success(totalList))
-                return Disposables.create()
-            } catch {
-                Global.logger.error("Serialization Error: \(String(describing: error))")
-                single(.failure(RequestError.serialization))
-                return Disposables.create()
-            }
+    func canyon(for id: String) async throws -> Canyon {
+        guard let found = await canyons().filter({ canyon in
+            return canyon.id == id
+        }).first else {
+            throw GeneralError.notFound
+        }
+        return found
+    }
+    
+    func loadFromDisk() throws -> [Canyon] {
+        do {
+            // We had to split into two files to get around githubs large file limit. We split the DB at "Uranus Canyon" which was more or less halfway.
+            let first = try self.loadFromFile(from: "ropewiki_database_pt1")
+            let second = try self.loadFromFile(from: "ropewiki_database_pt1")
+            return  first + second
+        } catch {
+            Global.logger.error("Serialization Error: \(String(describing: error))")
+            throw RequestError.serialization
         }
     }
     
     func loadFromFile(from fileName: String) throws -> [Canyon] {
         let decoder = JSONDecoder()
-        let bundle = Bundle(for: RxUIButton.self)
+        let bundle = Bundle(for: CombineUIButton.self)
         
         guard let path = bundle.path(forResource: fileName, ofType: "json") else {
             throw RequestError.serialization

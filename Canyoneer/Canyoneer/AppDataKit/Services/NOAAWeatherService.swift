@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import RxSwift
 
 // https://forecast-v3.weather.gov/documentation
 // https://www.weather.gov/documentation/services-web-api#/default/get_points__point__forecast
@@ -37,8 +36,8 @@ enum NOAARequest {
 }
 
 protocol WeatherService {
-    func requestCurrentWeatherForLocation(lat: Double, long: Double) -> Observable<WeatherDetails?>
-    func requestHistoricalWeatherForLocation(lat: Double, long: Double, date: Date) -> Observable<WeatherDetails?>
+    func requestCurrentWeatherForLocation(lat: Double, long: Double) async throws -> WeatherDetails
+    func requestHistoricalWeatherForLocation(lat: Double, long: Double, date: Date) async throws -> WeatherDetails
 }
 
 class NOAAWeatherService: NetworkService, WeatherService {
@@ -54,46 +53,41 @@ class NOAAWeatherService: NetworkService, WeatherService {
         super.init()
     }
     
-    func requestPointForLocation(lat: Double, long: Double) -> Observable<NOAAData.Point?> {
+    func requestPointForLocation(lat: Double, long: Double) async throws -> NOAAData.Point {
         let endpoint = NOAARequest.point(lat, long)
         guard let url = URL(string: endpoint.urlString) else {
             Global.logger.debug("could not create URL for NOAA points!")
-            return Observable.just(nil)
+            throw RequestError.badRequest
         }
-        return request(url: url).map { [weak self] response in
-            guard let json = response.json else { return nil }
-            return self?.weatherSerializer.pointResponse(json: json)
-        }
+        
+        let response = try await request(url: url)
+        return try self.weatherSerializer.pointResponse(json: response.json)
     }
     
-    func requestForecastForURL(url: URL) -> Observable<NOAAData.PointForecast?> {
-        return request(url: url).map { [weak self] response in
-            guard let json = response.json else { return nil }
-            return self?.weatherSerializer.pointForecast(json: json)
-        }
+    func requestForecastForURL(url: URL) async throws -> NOAAData.PointForecast {
+        let response = try await request(url: url)
+        return try weatherSerializer.pointForecast(json: response.json)
     }
     
-    func requestGridForOffice(officeID: String, lat: Double, long: Double) -> Observable<NOAAData.GridForecast?> {
+    func requestGridForOffice(officeID: String, lat: Double, long: Double) async throws -> NOAAData.GridForecast {
         let endpoint = NOAARequest.gridForecast(officeID, lat, long)
         guard let url = URL(string: endpoint.urlString) else {
             Global.logger.debug("could not create URL for NOAA forcast!")
-            return Observable.just(nil)
+            throw RequestError.badRequest
         }
-        return request(url: url).map { [weak self] response in
-            guard let json = response.json else { return nil }
-            return self?.weatherSerializer.gridForecast(json: json)
-        }
+        let response = try await request(url: url)
+        return try weatherSerializer.gridForecast(json: response.json)
     }
     
     // TODO: Get the preciptation history from stations info
     // https://api.weather.gov/stations/KMKC/observations
     // gives you precipitationLast6Hours and all sorts of max/min struff
     
-    func requestCurrentWeatherForLocation(lat: Double, long: Double) -> Observable<WeatherDetails?> {
-        return requestHistoricalWeatherForLocation(lat: lat, long: long, date: Date())
+    func requestCurrentWeatherForLocation(lat: Double, long: Double) async throws -> WeatherDetails {
+        return try await requestHistoricalWeatherForLocation(lat: lat, long: long, date: Date())
     }
     
-    func requestHistoricalWeatherForLocation(lat: Double, long: Double, date: Date) -> Observable<WeatherDetails?> {
+    func requestHistoricalWeatherForLocation(lat: Double, long: Double, date: Date) async throws -> WeatherDetails {
 
         // in parallel ask for point and point forecast
         // with result get grid forecast for more detail on 7-day
@@ -108,42 +102,15 @@ class NOAAWeatherService: NetworkService, WeatherService {
         // port algorithm: https://stackoverflow.com/questions/2056555/c-sharp-sunrise-sunset-with-latitude-longitude
         
         let coord = Coordinate(latitude: lat, longitude: long)
-        let pointRequest = requestPointForLocation(lat: lat, long: long)
+        let point = try await requestPointForLocation(lat: lat, long: long)
+        let forecast = try await requestForecastForURL(url: point.forcastURL)
+        let forcastGridResponse = try await self.request(url: point.forcastGridURL)
         
-        return pointRequest.flatMap { point -> Observable<(NOAAData.Point?, NOAAData.PointForecast?)> in
-            guard let forecastPoint = point else {
-                return Observable<(NOAAData.Point?, NOAAData.PointForecast?)>.just((nil, nil))
-                
-            }
-            return self.requestForecastForURL(url: forecastPoint.forcastURL).map { forecast in
-                return (forecastPoint, forecast)
-            }
-        }.flatMap { combined -> Observable<WeatherDetails?> in
-            let (point, forecast) = combined
-            
-            guard let foundPoint = point else {
-                Global.logger.debug("Failed point or forcast calls")
-                return Observable<WeatherDetails?>.just(nil)
-            }
-            
-            return self.request(url: foundPoint.forcastGridURL)
-                .map { [weak self] response in
-                    guard let json = response.json,
-                        let foundForecast = forecast,
-                        let gridForecast = self?.weatherSerializer.gridForecast(json: json),
-                        let weatherReponse = self?.convertToWeatherResponse(areaCoord: coord, date: date, pointForecast: foundForecast, gridForecast: gridForecast) else {
-                            return nil
-                    }
-                    return weatherReponse
-            }
-            }.do(onNext: { (response) in
-                if (response == nil) {
-                    Global.logger.debug("weather failed for \(coord.latitude), \(coord.longitude)")
-                }
-            })
+        let gridForecast = try weatherSerializer.gridForecast(json: forcastGridResponse.json)
+        return try convertToWeatherResponse(areaCoord: coord, date: date, pointForecast: forecast, gridForecast: gridForecast)
     }
     
-    private func convertToWeatherResponse(areaCoord: Coordinate, date: Date, pointForecast: NOAAData.PointForecast, gridForecast: NOAAData.GridForecast) -> WeatherDetails? {
+    private func convertToWeatherResponse(areaCoord: Coordinate, date: Date, pointForecast: NOAAData.PointForecast, gridForecast: NOAAData.GridForecast) throws -> WeatherDetails {
         var weatherPoints = [WeatherDataPoint]()
         
         for dayIndex in 0..<gridForecast.maxTemp.count {
@@ -171,32 +138,34 @@ class NOAAWeatherService: NetworkService, WeatherService {
                 ))
         }
         
-        guard let requested = weatherForDate(points: weatherPoints, onDate: date) else {
-            return nil
-        }
-        
+        let requested = try weatherForDate(points: weatherPoints, onDate: date)
         let priorDay = date.addingTimeInterval(-aDayInSeconds)
         let nextDay = date.addingTimeInterval(+aDayInSeconds)
         let dayAfter = date.addingTimeInterval(2*aDayInSeconds)
         
         return WeatherDetails(
             areaCoord: areaCoord,
-            prior: weatherForDate(points: weatherPoints, onDate: priorDay),
+            prior: try? weatherForDate(points: weatherPoints, onDate: priorDay),
             priorDate: priorDay,
             requested: requested,
             requestedDate: date,
-            next: weatherForDate(points: weatherPoints, onDate: nextDay),
+            next: try? weatherForDate(points: weatherPoints, onDate: nextDay),
             nextDate: nextDay,
-            dayAfter: weatherForDate(points: weatherPoints, onDate: dayAfter),
+            dayAfter: try? weatherForDate(points: weatherPoints, onDate: dayAfter),
             dayAfterDate: dayAfter
         )
     }
     
-    func weatherForDate(points: [WeatherDataPoint], onDate date: Date) -> WeatherDataPoint? {
-        return points.filter {
+    func weatherForDate(points: [WeatherDataPoint], onDate date: Date) throws -> WeatherDataPoint {
+        let found = points.filter({
             guard let dayDate = $0.time else { return false }
             return Calendar.current.isDate(date, inSameDayAs: dayDate)
-        }.first
+        }).first
+        
+        guard let found else {
+            throw GeneralError.notFound
+        }
+        return found
     }
     
     func averageValue(date: Date, values: [NOAAData.ValueStamp]) -> Double {

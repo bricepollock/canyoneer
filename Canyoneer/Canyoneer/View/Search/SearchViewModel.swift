@@ -6,8 +6,9 @@
 //
 
 import Foundation
-import RxSwift
+import Combine
 
+@MainActor
 class SearchViewModel: ResultsViewModel {
         
     enum Strings {
@@ -15,7 +16,7 @@ class SearchViewModel: ResultsViewModel {
     }
     
     private let searchService: SearchServiceInterface        
-    private let bag = DisposeBag()
+    private var bag = Set<AnyCancellable>()
     
     init(
         canyonService: RopeWikiServiceInterface = RopeWikiService(),
@@ -26,27 +27,16 @@ class SearchViewModel: ResultsViewModel {
     }
 
     // MARK: Actions
-    
-    public func search(query: String) {
+        
+    public func search(query: String) async {
         self.loadingComponent.startLoading(loadingType: .inline)
-        DispatchQueue.global(qos: .userInteractive).async {
-            self.searchService.requestSearch(for: query).subscribe { [weak self] results in
-                DispatchQueue.main.async {
-                    defer { self?.loadingComponent.stopLoading() }
-                    self?.initialResults = results.result
-                    self?.resultsSubject.send(results.result)
-                }
-            } onFailure: { error in
-                DispatchQueue.main.async {
-                    defer { self.loadingComponent.stopLoading() }
-                    Global.logger.error(error)
-                }
-            }.disposed(by: self.bag)
-
-        }
+        let response = await searchService.requestSearch(for: query)
+        self.loadingComponent.stopLoading()
+        self.initialResults = response.result
+        self.currentResults = response.result
     }
     
     public func clearResults() {
-        self.resultsSubject.send([])
+        currentResults = []
     }
 }

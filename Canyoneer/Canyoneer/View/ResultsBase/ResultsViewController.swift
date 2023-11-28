@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-import RxSwift
 import SwiftUI
 import Combine
 
@@ -31,14 +30,15 @@ enum SearchType: Equatable {
     }
 }
 
+@MainActor
 class ResultsViewController: ScrollableStackViewController {
     private let filterSheet = BottomSheetFilterViewController.shared
         
     private let viewModel: ResultsViewModel
     private var filteredResults: [Canyon]?
-    internal let bag = DisposeBag()
-    private var resultCancelables = [AnyCancellable]()
-    private var cancelables = [AnyCancellable]() // lifetime-bind cancelables
+    
+    private var resultCancelables = Set<AnyCancellable>()
+    private var bag = Set<AnyCancellable>() // lifetime-bind cancelables
     
     init(type: SearchType, searchResults: [SearchResult], viewModel: ResultsViewModel) {
         self.viewModel = viewModel
@@ -66,7 +66,9 @@ class ResultsViewController: ScrollableStackViewController {
         let filterButton = UIBarButtonItem(image: UIImage(systemName: "line.3.horizontal.decrease.circle"), style: .plain, target: self, action: #selector(didRequestFilters))
         self.navigationItem.rightBarButtonItems = [mapButton, filterButton]
         
-        self.viewModel.refresh()
+        Task(priority: .high) { @MainActor [weak self] in
+            await self?.viewModel.refresh()
+        }
     }
     
     func configureViews() {
@@ -75,19 +77,20 @@ class ResultsViewController: ScrollableStackViewController {
     }
     
     func bind() {
-        let titleCancelable = self.viewModel.title.sink { [weak self] title in
+        self.viewModel.$title.sink { [weak self] title in
             self?.title = title
-        }
-        cancelables.append(titleCancelable)
+        }.store(in: &bag)
         
-        let resultsCancelable = self.viewModel.results.sink { [weak self] result in
+        self.viewModel.$currentResults
+            .receive(on: DispatchQueue.main) // The CLLocation Near me doesn't respect main actor
+            .sink { [weak self] result in
             self?.renderResults(results: result)
-        }
-        cancelables.append(resultsCancelable)
+        }.store(in: &bag)
         
-        self.filterSheet.willDismiss.subscribeOnNext { [weak self] () in
+        self.filterSheet.willDismiss
+            .sink { [weak self] _ in
             self?.updateWithFilters()
-        }.disposed(by: self.bag)
+        }.store(in: &bag)
     }
     
     internal func renderResults(results: [SearchResult]) {
@@ -97,7 +100,7 @@ class ResultsViewController: ScrollableStackViewController {
         results.forEach { result in
             let resultView = CanyonItemView(result: result)
             let hostingViewController = UIHostingController(rootView: resultView)
-            let cancelable = resultView.didSelect.sink { [weak self] _ in
+            resultView.didSelect.sink { [weak self] _ in
                 let canyon = result.canyonDetails
                 let next = CanyonViewController(canyonId: canyon.id)
                 
@@ -109,8 +112,7 @@ class ResultsViewController: ScrollableStackViewController {
                 } else {
                     Global.logger.error("Cannot find navigation controller to push from")
                 }
-            }
-            self.resultCancelables.append(cancelable)
+            }.store(in: &bag)
             
             self.addChild(hostingViewController)
             self.masterStackView.addArrangedSubview(hostingViewController.view)

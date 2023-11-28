@@ -8,13 +8,14 @@
 import Foundation
 import UIKit
 import CoreLocation
-import RxSwift
+import Combine
 
 enum CanyonMapType {
     case apple
     case mapbox
 }
 
+@MainActor
 class MapViewController: UIViewController {
     enum Strings {
         static let showTopoLines = "Show Route Lines"
@@ -23,7 +24,7 @@ class MapViewController: UIViewController {
     
     private let locationService = LocationService()
     internal let mapView: CanyonMap
-    private let showLegendButton = RxUIButton()
+    private let showLegendButton = CombineUIButton()
     private let showLineOverlayStack = UIStackView()
     private let showLineOverlayTitle = UILabel()
     private let showLineOverlaySwitch = UISwitch()
@@ -32,7 +33,7 @@ class MapViewController: UIViewController {
     private var hasLoaded: Bool = false
     private var initialCanyons: [Canyon]
     private let viewModel = MapViewModel()
-    private let bag = DisposeBag()
+    private var bag = Set<AnyCancellable>()
     
     init(type: CanyonMapType, canyons: [Canyon]) {
         self.initialCanyons = canyons
@@ -41,10 +42,10 @@ class MapViewController: UIViewController {
         case .mapbox: self.mapView = MapboxMapView()
         }
         super.init(nibName: nil, bundle: nil)
-        self.mapView.didRequestCanyon.subscribeOnNext { [weak self] canyonId in
+        self.mapView.didRequestCanyon.sink { [weak self] canyonId in
             let next = CanyonViewController(canyonId: canyonId)
             self?.navigationController?.pushViewController(next, animated: true)
-        }.disposed(by: self.bag)
+        }.store(in: &bag)
     }
     
     required init?(coder: NSCoder) {
@@ -60,9 +61,9 @@ class MapViewController: UIViewController {
         let filterButton = UIBarButtonItem(image: UIImage(systemName: "line.3.horizontal.decrease.circle"), style: .plain, target: self, action: #selector(didRequestFilters))
         let isFullMapView = self.navigationController?.viewControllers.count == 1
         self.navigationItem.rightBarButtonItems = isFullMapView ? [listButton, filterButton] : []
-        self.filterSheet.willDismiss.subscribeOnNext { () in
-            self.updateWithFilters()
-        }.disposed(by: self.bag)
+        self.filterSheet.willDismiss.sink { [weak self] _ in
+            self?.updateWithFilters()
+        }.store(in: &bag)
         
         self.mapView.view.constrain.top(to: self.view)
         self.mapView.view.constrain.bottom(to: self.view, atMargin: true)
@@ -80,19 +81,23 @@ class MapViewController: UIViewController {
         guard self.hasLoaded == false else { return }
         self.hasLoaded = true
         
-        if initialCanyons.isEmpty {
-            self.viewModel.canyons().subscribe { canyons in
-                self.initialCanyons = canyons
-                self.mapView.render(canyons: canyons)
-                self.mapView.updateCamera(canyons: canyons)
-            } onFailure: { error in
+        Task(priority: .userInitiated) { @MainActor [weak self] in
+            guard let self else { return }
+            do {
+                if initialCanyons.isEmpty {
+                    let canyons = await self.viewModel.canyons()
+                    self.initialCanyons = canyons
+                    self.mapView.render(canyons: canyons)
+                    try await self.mapView.updateCamera(canyons: canyons)
+                } else {
+                    self.mapView.render(canyons: initialCanyons)
+                    try await self.mapView.updateCamera(canyons: initialCanyons)
+                }
+            } catch {
                 Global.logger.error(error)
-            }.disposed(by: self.bag)
-        } else {
-            self.mapView.render(canyons: initialCanyons)
-            self.mapView.updateCamera(canyons: initialCanyons)
+            }
+            self.renderControls()
         }
-        self.renderControls()
     }
     
     private func renderControls() {
@@ -108,10 +113,10 @@ class MapViewController: UIViewController {
         mapControlsStackView.addArrangedSubview(self.showLineOverlayStack)
         
         self.showLegendButton.configure(text: Strings.legend)
-        self.showLegendButton.didSelect.subscribeOnNext { () in
+        self.showLegendButton.didSelect.sink { () in
             let bottomSheet = MapLegendBottomSheetViewController()
             self.present(bottomSheet, animated: false)
-        }.disposed(by: self.bag)
+        }.store(in: &bag)
         
         self.showLineOverlayStack.axis = .horizontal
         self.showLineOverlayStack.spacing = .medium

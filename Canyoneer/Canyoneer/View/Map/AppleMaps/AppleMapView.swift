@@ -7,7 +7,7 @@
 
 import Foundation
 import MapKit
-import RxSwift
+import Combine
 
 class AppleMapView: NSObject, CanyonMap {
     public var locationService = LocationService()
@@ -17,18 +17,11 @@ class AppleMapView: NSObject, CanyonMap {
         return mapView
     }
     
-    public let didRequestCanyon: Observable<String>
-    private let didRequestCanyonSubject: PublishSubject<String>
+    let didRequestCanyon = PassthroughSubject<String, Never>()
     
     private var mapOverlays = [MKOverlay]()
     private var headingView: UIView?
-    private let bag = DisposeBag()
-    
-    override init() {
-        self.didRequestCanyonSubject = PublishSubject()
-        self.didRequestCanyon = self.didRequestCanyonSubject.asObservable()
-        super.init()
-    }
+    private var bag = Set<AnyCancellable>()
     
     public var visibleCanyons: [Canyon] {
         return self.mapView.visibleAnnotations().compactMap {
@@ -40,14 +33,16 @@ class AppleMapView: NSObject, CanyonMap {
         self.mapView.delegate = self
         self.mapView.showsUserLocation = true
         
-        self.locationService.didUpdateHeading.subscribeOnNext { newHeading in
+        self.locationService.$heading
+            .compactMap { $0 }
+            .sink { [weak self] newHeading in
             if newHeading.headingAccuracy < 0 { return }
             let heading = newHeading.trueHeading > 0 ? newHeading.trueHeading : newHeading.magneticHeading
-            if let headingView = self.headingView {
+            if let headingView = self?.headingView {
                 let rotation = CGFloat(heading/180 * Double.pi)
                 headingView.transform = CGAffineTransform(rotationAngle: rotation)
             }
-        }.disposed(by: self.bag)
+        }.store(in: &self.bag)
     }
     
     public func renderAnnotations(canyons: [Canyon]) {
@@ -138,7 +133,7 @@ extension AppleMapView: MKMapViewDelegate {
         guard let mkAnnotation = view.annotation, let annotation = mkAnnotation as? CanyonAnnotation else {
             return
         }
-        self.didRequestCanyonSubject.onNext(annotation.canyon.id)
+        self.didRequestCanyon.send(annotation.canyon.id)
     }
     
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {

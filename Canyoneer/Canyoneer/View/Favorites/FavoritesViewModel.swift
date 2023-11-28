@@ -8,76 +8,63 @@
 import Foundation
 import Combine
 
+@MainActor
 class FavoritesViewModel: ResultsViewModel {
     enum Strings {
         static let title = "Favorites"
     }
     
-    public var hasDownloadedAll: AnyPublisher<Bool, Never> {
-        return self.hasDownloadedAllSubject.eraseToAnyPublisher()
-    }
-    private let hasDownloadedAllSubject = PassthroughSubject<Bool, Never>()
-    
-    public var progress: AnyPublisher<Float, Never> {
-        return self.mapService.downloadProgress
-    }
+    @Published public var hasDownloadedAll: Bool?
+    @Published public var progress: Double?
+    @Published public var isDownloading: Bool = false
     
     private let downloadLoader = LoadingComponent()
     private let favoriteService = FavoriteService()
     private let mapService = MapService.shared
-    private var cancelables = [AnyCancellable]()
-    private var downloadCancelable: AnyCancellable?
     
     init() {
         super.init(type: .favorites, results: [])
+        
+        self.mapService.$downloadProgress
+            .compactMap { $0?.fractionCompleted }
+            .assign(to: &$progress)
     }
     
-    public override func refresh() {
-        super.refresh()
-        self.titleSubject.send(Strings.title)
+    public override func refresh() async {
+        await super.refresh()
+        self.title = Strings.title
         
         self.loadingComponent.startLoading(loadingType: .inline)
-        let favoriteCancelable = self.favoriteService.allFavorites().sink { [weak self] canyons in
-            defer { self?.loadingComponent.stopLoading() }
-            guard let self = self else { return }
-            let results = canyons.map {
-                return SearchResult(name: $0.name, canyonDetails: $0)
-            }
-            self.initialResults = results
-            self.resultsSubject.send(results)
-            if !canyons.isEmpty {
-                let cancelable = self.mapService.hasDownloaded(all: canyons).sink { completion in
-                    switch completion {
-                    case .failure(let error):
-                        Global.logger.error(error as Error)
-                        self.hasDownloadedAllSubject.send(false)
-                    default: break;// no-op
-                    }
-                } receiveValue: { [weak self] hasAll in
-                    self?.hasDownloadedAllSubject.send(hasAll)
-                }
-                self.cancelables.append(cancelable)
+        let favorites = self.favoriteService.allFavorites()
+        self.loadingComponent.stopLoading()
+
+        let results = favorites.map {
+            return SearchResult(name: $0.name, canyonDetails: $0)
+        }
+        self.initialResults = results
+        self.currentResults = results
+        
+        if !favorites.isEmpty {
+            do {
+                hasDownloadedAll = try await self.mapService.hasDownloaded(all: favorites)
+            } catch {
+                Global.logger.error(error)
+                hasDownloadedAll = false
             }
         }
-        self.cancelables.append(favoriteCancelable)
     }
     
-    func downloadCanyonMaps() {
-        self.downloadCancelable?.cancel()
-        self.downloadCancelable = self.mapService.downloadTiles(for: self.currentResults.compactMap { $0.canyonDetails }).sink(receiveCompletion: { completion in
-            switch completion {
-            case .failure(let error):
-                Global.logger.error(error)
-            default: break;
-            }
-            
-        }, receiveValue: { _ in
-            defer {
-                DispatchQueue.main.async {
-                    self.hasDownloadedAllSubject.send(true)
-                }
-            }
+    func downloadCanyonMaps() async {
+        guard !isDownloading else { return }
+        isDownloading = true
+        do {
+            try await self.mapService.downloadTiles(for: self.currentResults.compactMap { $0.canyonDetails })
+            hasDownloadedAll = true
             Global.logger.info("Downloaded all Canyons")
-        })
+        } catch {
+            Global.logger.error(error)
+        }
+        
+        isDownloading = false
     }
 }

@@ -6,17 +6,19 @@
 //
 
 import Foundation
-import RxSwift
 @testable import Canyoneer
 
 class MockRopeWikiService: RopeWikiServiceInterface {
     public var mockCanyons = [Canyon]()
-    func canyons() -> Single<[Canyon]> {
-        return Single.just(mockCanyons)
+    func canyons() async -> [Canyon] {
+        return mockCanyons
     }
     
     public var mockCanyon: Canyon? = nil
-    func canyon(for id: String) -> Single<Canyon?> {
-        return Single.just(mockCanyon)
+    func canyon(for id: String) async throws -> Canyon {
+        guard let mockCanyon else {
+            throw GeneralError.notFound
+        }
+        return mockCanyon
     }
 }

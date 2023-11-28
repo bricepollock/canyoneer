@@ -9,13 +9,14 @@ import Foundation
 import XCTest
 @testable import Canyoneer
 
+@MainActor
 class NearMeViewModelTests: XCTestCase {
     override func setUp() {
         super.setUp()
         UserPreferencesStorage.clearFavorites()
     }
     
-    func testNearMe() {
+    func testNearMe() async {
         // setup
         var canyon = Canyon.dummy()
         canyon.name = "Something else"
@@ -26,26 +27,12 @@ class NearMeViewModelTests: XCTestCase {
         service.searchResults = SearchResultList(searchString: "Near Me", result: searchResults)
         let viewModel = NearMeViewModel(searchService: service)
         
-        // wait
-        let expection = self.expectation(description: "results")
-        var results = [SearchResult]()
-        let cancelable = viewModel.results.sink { searchResults in
-            results = searchResults
-            expection.fulfill()
-        }
-        
-        // Create the event stream
-        viewModel.refresh()
-        waitForExpectations(timeout: 1)
-        
         // test response
-        XCTAssertEqual(results.count, 4)
-        
-        // clean up
-        cancelable.cancel()
+        await viewModel.refresh()
+        XCTAssertEqual(viewModel.currentResults.count, 4)
     }
     
-    func testTitle() {
+    func testTitle() async {
         // setup
         let canyon = Canyon.dummy()
         let canyonService = MockRopeWikiService()
@@ -53,22 +40,8 @@ class NearMeViewModelTests: XCTestCase {
         let service = MockSearchService(canyonService: canyonService)
         let viewModel = NearMeViewModel(searchService: service)
         
-        // wait
-        let expectation = self.expectation(description: "title")
-        var result = ""
-        let cancelable = viewModel.title.sink { title in
-            result = title
-            expectation.fulfill()
-        }
-        
-        // Create the event stream
-        viewModel.refresh()
-        waitForExpectations(timeout: 1)
-        
         // test
-        XCTAssertEqual(result, "Near Me (Top 100)")
-        
-        // clean up
-        cancelable.cancel()
+        await viewModel.refresh()
+        XCTAssertEqual(viewModel.title, "Near Me (Top 100)")
     }
 }

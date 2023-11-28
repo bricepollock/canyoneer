@@ -20,7 +20,6 @@ class NearMeViewController: ResultsViewController {
     }
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        self.viewModel.refresh()
+        super.viewDidLoad() // this calls refresh on the view model
     }
 }

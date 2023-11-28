@@ -8,8 +8,8 @@
 import Foundation
 import UIKit
 import CoreLocation
-import RxSwift
 import MapboxMaps
+import Combine
 
 extension Point {
     func isClose(to point: Point, proximity: Double = 2) -> Bool {
@@ -38,16 +38,9 @@ class MapboxMapView: NSObject, CanyonMap {
         return self.mapView
     }
     
-    public let didRequestCanyon: RxSwift.Observable<String>
-    private let didRequestCanyonSubject: PublishSubject<String>
+    let didRequestCanyon = PassthroughSubject<String, Never>()
     
     private var mapOverlays = [PolylineAnnotation]()
-    
-    override init() {
-        self.didRequestCanyonSubject = PublishSubject()
-        self.didRequestCanyon = self.didRequestCanyonSubject.asObservable()
-        super.init()
-    }
     
     var visibleCanyons: [Canyon] {
         fatalError("Not implemented")
@@ -198,6 +191,6 @@ extension MapboxMapView: AnnotationInteractionDelegate {
             Global.logger.error("Cannot find canyon from annotation")
             return
         }
-        self.didRequestCanyonSubject.onNext(canyon.id)
+        self.didRequestCanyon.send(canyon.id)
     }
 }

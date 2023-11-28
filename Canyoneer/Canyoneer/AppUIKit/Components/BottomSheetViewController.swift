@@ -6,12 +6,11 @@
 // https://betterprogramming.pub/how-to-present-a-bottom-sheet-view-controller-in-ios-a5a3e2047af9
 
 import UIKit
-import RxSwift
+import Combine
 
 class BottomSheetViewController: UIViewController {
     
-    public let willDismiss: Observable<Void>
-    private let willDismissSubject: PublishSubject<Void>
+    public let willDismiss = PassthroughSubject<Void, Never>()
     
     public lazy var contentStackView: UIStackView = {
         let spacer = UIView()
@@ -49,8 +48,6 @@ class BottomSheetViewController: UIViewController {
     var containerViewBottomConstraint: NSLayoutConstraint?
     
     init() {
-        self.willDismissSubject = PublishSubject()
-        self.willDismiss = self.willDismissSubject.asObservable()
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -210,7 +207,7 @@ class BottomSheetViewController: UIViewController {
     }
     
     func animateDismissView() {
-        self.willDismissSubject.onNext(())
+        self.willDismiss.send()
         
         // hide blur view
         dimmedView.alpha = maxDimmedAlpha

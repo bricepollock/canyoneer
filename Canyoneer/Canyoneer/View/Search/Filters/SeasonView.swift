@@ -7,14 +7,13 @@
 
 import Foundation
 import UIKit
-import RxSwift
+import Combine
 
 class SeasonView: UIView {
     
-    public var isSelected: Bool
+    @Published public var isSelected: Bool
     
-    public let didSelect: Observable<Void>
-    private let didSelectSubject: PublishSubject<Void>
+    public let didSelect = PassthroughSubject<Void, Never>()
     
     private let month = UILabel()
     private let size: CGFloat = 20
@@ -26,8 +25,6 @@ class SeasonView: UIView {
     
     init() {
         self.isSelected = false
-        self.didSelectSubject = PublishSubject()
-        self.didSelect = self.didSelectSubject.asObservable()
         super.init(frame: .zero)
         self.layer.cornerRadius = self.size / 2
         self.addSubview(self.month)
@@ -54,6 +51,6 @@ class SeasonView: UIView {
     
     @objc func didTap() {
         self.chooseSelection(!isSelected)
-        self.didSelectSubject.onNext(())
+        self.didSelect.send()
     }
 }

@@ -6,27 +6,23 @@
 //
 
 import Foundation
-import RxSwift
 import UIKit
+import Combine
 
 /// This component bridges the UI and view model implementations to use componententization instead of view controller or view model inheritance
-struct LoadingComponent {
+class LoadingComponent {
     public enum LoadingType {
         case inline
         case screen
     }
     
-    public let isLoading: Observable<Bool>
-    private let isLoadingSubject: PublishSubject<Bool>
+    @Published public var isLoading: Bool = false
     
     /// Add the loading component to the view hiearchy to get inline loading
     public let inlineLoader = UIView()
     private let loadingIndicator = UIActivityIndicatorView(style: .large)
     
     public init() {
-        self.isLoadingSubject = PublishSubject()
-        self.isLoading = self.isLoadingSubject.asObservable()
-        
         self.inlineLoader.isHidden = true
         self.inlineLoader.addSubview(self.loadingIndicator)
         self.loadingIndicator.constrain.centerX(on: self.inlineLoader)
@@ -42,7 +38,7 @@ struct LoadingComponent {
         case .screen:
             GlobalProgressIndicator.show()
         }
-        self.isLoadingSubject.onNext(true)
+        self.isLoading = true
     }
     
     public func stopLoading() {
@@ -50,7 +46,7 @@ struct LoadingComponent {
         self.loadingIndicator.stopAnimating()
         self.inlineLoader.isHidden = true
         GlobalProgressIndicator.dismiss()
-        self.isLoadingSubject.onNext(false)
+        self.isLoading = false
     }
     
     public func handleError(_ error: Error) {

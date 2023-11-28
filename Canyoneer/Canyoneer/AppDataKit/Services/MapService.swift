@@ -10,13 +10,9 @@ import MapboxMaps
 import UIKit
 import Combine
 
-struct MapService {
+class MapService {
     public static let shared = MapService()
-    
-    public var downloadProgress: AnyPublisher<Float, Never> {
-        return self.downloadProgressSubject.eraseToAnyPublisher()
-    }
-    private let downloadProgressSubject = PassthroughSubject<Float, Never>()
+    @Published public var downloadProgress: Progress? = nil
     
     public static let publicAccessToken = "pk.eyJ1IjoiYnJpY2Vwb2xsb2NrIiwiYSI6ImNreWRhdGNtODAyNzUyb2xoMXdmbWFvd3UifQ.-iGgCZKoYX9wKf5uAyLWHA"
     private let tileStore = TileStore.default
@@ -27,96 +23,76 @@ struct MapService {
         self.offlineManager = OfflineManager(resourceOptions: ResourceOptions(accessToken: Self.publicAccessToken, tileStore: tileStore))
     }
     
-    func hasDownloaded(all canyons: [Canyon]) -> AnyPublisher<Bool, Error> {
-        let ids = canyons.map { $0.id }
-        let subject = PassthroughSubject<Bool, Error>()
-        
-        self.tileStore.allTileRegions { result in
-            switch result {
-            case let .success(regions):
-                let regionIds = regions.map { $0.id }
-                if Set(ids).intersection(regionIds).count == ids.count {
-                    subject.send(true)
-                } else {
-                    subject.send(false)
+    func hasDownloaded(all canyons: [Canyon]) async throws -> Bool {
+        let canyonIds = canyons.map { $0.id }
+        return try await withCheckedThrowingContinuation { continuation in
+            self.tileStore.allTileRegions { result in
+                switch result {
+                case let .success(regions):
+                    let regionIds = regions.map { $0.id }
+                    if Set(canyonIds).intersection(regionIds).count == canyonIds.count {
+                        continuation.resume(returning: true)
+                    } else {
+                        continuation.resume(returning: false)
+                    }
+                case let .failure(error):
+                    Global.logger.error(error)
+                    continuation.resume(throwing: error)
                 }
-            case let .failure(error):
-                Global.logger.error(error)
-                subject.send(completion: .failure(error))
             }
         }
-        return subject.eraseToAnyPublisher()
     }
         
-    func downloadTile(for canyon: Canyon) -> AnyPublisher<Void, Error> {
+    func downloadTile(for canyon: Canyon) async throws {
         let id = canyon.id
         let options = TilesetDescriptorOptions(styleURI: .outdoors, zoomRange: 8...16)
         let tilesetDescriptor = offlineManager.createTilesetDescriptor(for: options)
         
-        let publisher = PassthroughSubject<Void, Error>()
         guard let tileRegionLoadOptions = TileRegionLoadOptions(
             geometry: .point(Point(LocationCoordinate2D(latitude: canyon.coordinate.latitude, longitude: canyon.coordinate.longitude))),
             descriptors: [tilesetDescriptor],
             acceptExpired: true
         ) else {
             Global.logger.error("Could not create tile region!")
-            publisher.send(completion: .failure(RequestError.noResponse))
-            return publisher.eraseToAnyPublisher()
+            throw RequestError.noResponse
         }
         
-        _ = tileStore.loadTileRegion(
-            forId: id,
-            loadOptions: tileRegionLoadOptions) { _ in
-                // progress callback
-        } completion: { result in
-            switch result {
-            case let .success(tileRegion):
-                _ = tileRegion // removes warning, may want this object in future
-                Global.logger.info("Finished downloading tile for \(id)")
-                publisher.send(())
-            case let .failure(error):
-                // Handle error occurred during the tile region download
-                if case TileRegionError.canceled = error {
-                    Global.logger.debug("The tile request was canceled")
-                } else {
-                    Global.logger.error(error)
+        try await withCheckedThrowingContinuation { continuation in
+            _ = tileStore.loadTileRegion(
+                forId: id,
+                loadOptions: tileRegionLoadOptions) { _ in
+                    // progress callback
+            } completion: { result in
+                switch result {
+                case let .success(tileRegion):
+                    _ = tileRegion // removes warning, may want this object in future
+                    Global.logger.info("Finished downloading tile for \(id)")
+                    continuation.resume()
+                case let .failure(error):
+                    // Handle error occurred during the tile region download
+                    if case TileRegionError.canceled = error {
+                        Global.logger.debug("The tile request was canceled")
+                    } else {
+                        Global.logger.error(error)
+                    }
+                    continuation.resume(throwing: error)
                 }
-                publisher.send(completion: .failure(error))
             }
         }
-        return publisher.eraseToAnyPublisher()
     }
     
-    func downloadTiles(for canyons: [Canyon]) -> AnyPublisher<Void, Error> {
-        let totalDownloads = Float(canyons.count)
-        var downloaded: Float = 0
-        self.downloadProgressSubject.send(0)
-        let publishers = canyons.map {
-            self.downloadTile(for: $0)
-                .handleEvents(receiveOutput: { _ in
-                    downloaded += 1
-                    let downloadPercentage = downloaded / totalDownloads
-                    DispatchQueue.main.async {
-                        self.downloadProgressSubject.send(downloadPercentage)
-                    }
-                })
+    func downloadTiles(for canyons: [Canyon]) async throws {
+        self.downloadProgress = Progress()
+        try await withThrowingTaskGroup(of: Void.self) { group in
+            canyons.forEach { canyon in
+                downloadProgress?.totalUnitCount += 1
+                _ = group.addTaskUnlessCancelled { [weak self] in
+                    guard let self else { return }
+                    try await self.downloadTile(for: canyon)
+                    self.downloadProgress?.completedUnitCount += 1
+                }
+            }
+            try await group.waitForAll()
         }
-        
-        return ZipCollection(publishers)
-            .map { _ in return () }
-            .handleEvents(receiveOutput: { _ in
-                DispatchQueue.main.async {
-                    self.downloadProgressSubject.send(1)
-                }
-            }, receiveCompletion: { completion in
-                switch completion {
-                case .failure(let error):
-                    Global.logger.error(error)
-                    DispatchQueue.main.async {
-                        self.downloadProgressSubject.send(1)
-                    }
-                default: break;
-                }
-            }).eraseToAnyPublisher()
     }
 }

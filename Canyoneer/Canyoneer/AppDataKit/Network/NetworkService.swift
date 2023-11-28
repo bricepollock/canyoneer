@@ -7,17 +7,14 @@
 //
 
 import Foundation
-import RxSwift
 
 struct Response {
-    let json: NSDictionary?
-    let httpResponse: HTTPURLResponse?
-    let error: Error?
+    let json: NSDictionary
+    let httpResponse: HTTPURLResponse
 }
 
 class NetworkService {
     private let defaultSession: URLSession
-    private var dataTasks: [String: URLSessionDataTask] = [:]
     
     init(additionalHeaders: [String: String] = [:]) {
         let config = URLSessionConfiguration.default
@@ -25,55 +22,26 @@ class NetworkService {
         defaultSession = URLSession(configuration: config)
     }
     
-    internal func cancelPriorTaskIfExists(key: String) {
-        if let priorTask = dataTasks[key] {
-            priorTask.cancel()
+    internal func request(url: URL) async throws -> Response {
+        let (data, response) = try await self.defaultSession.data(from: url)
+        
+        guard let httpResponse = response as? HTTPURLResponse else {
+            Global.logger.debug("Response not HTTPURLResponse!?!??")
+            throw RequestError.badResponse
         }
-    }
-    
-    internal func request(url: URL) -> Observable<Response> {
-        return Observable.create { subscriber in
-            let taskKey = url.absoluteString
-            // all threads request the same url and therefore we cancel everything. Its a race condition
-            //self.cancelPriorTaskIfExists(key: taskKey)
-            let task = self.defaultSession.dataTask(with: url) { [weak self] (data, response, error) in
-                defer { self?.dataTasks[taskKey] = nil }
-                
-                if response == nil {
-                    Global.logger.debug("nil network response to \(url) with error: \(String(describing: error))")
-                    subscriber.onNext(Response(json: nil, httpResponse: nil, error: error))
-                    return
-                }
-                
-                guard let httpResponse = response as? HTTPURLResponse else {
-                    Global.logger.debug("Response not HTTPURLResponse!?!??")
-                    subscriber.onNext(Response(json: nil,httpResponse: nil,error: error))
-                    return
-                }
-                
-                guard networkResponseHasError(url: url, data: data, response: httpResponse, error: error) == false else {
-                    Global.logger.debug("Network Response Error: \(String(describing: error))")
-                    subscriber.onNext(Response(json: nil, httpResponse: httpResponse, error: error))
-                    return
-                }
-                
-                guard let data = data, let json = try? JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary else {
-                    Global.logger.debug("Unable to serialize response")
-                    subscriber.onNext(Response(json: nil,httpResponse: httpResponse,error: error))
-                    return
-                }
-                //            self.printDebugMessage(response)
-                
-                subscriber.onNext(Response(json: json, httpResponse: httpResponse, error: error))
-            }
-            
-            task.resume()
-            self.dataTasks[taskKey] = task
-            return Disposables.create()
-            }.catch({ (error) -> Observable<Response> in
-                Global.logger.debug("Network Error! \(String(describing: error))")
-                return Observable.just(Response(json: nil, httpResponse: nil, error: error))
-            })
+        
+        guard httpResponse.statusCode < 300 && httpResponse.statusCode >= 200 else {
+            Global.logger.debug("Unknown error for \(url) with code: \(httpResponse.statusCode) and data: \(data.base64EncodedString()))")
+            throw RequestError.httpStatusCodeError
+        }
+        
+        guard let json = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary else {
+            Global.logger.debug("Unable to serialize response")
+            throw RequestError.serialization
+        }
+        //            self.printDebugMessage(response)
+        
+        return Response(json: json, httpResponse: httpResponse)
     }
 //
 //    private func printDebugMessage(alamoFireResponse: Response<AnyObject, NSError>) {

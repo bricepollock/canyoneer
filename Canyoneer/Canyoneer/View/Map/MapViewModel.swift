@@ -6,12 +6,11 @@
 //
 
 import Foundation
-import RxSwift
 
 class MapViewModel {
     private let service = RopeWikiService()
     
-    func canyons() -> Single<[Canyon]> {
-        return service.canyons()
+    func canyons() async -> [Canyon] {
+        return await service.canyons()
     }
 }

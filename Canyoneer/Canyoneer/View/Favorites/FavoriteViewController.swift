@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 import Combine
 
+@MainActor
 class FavoriteViewController: ResultsViewController {
     enum Strings {
         static let addFavorites = "Add favorites to this list"
@@ -20,7 +21,7 @@ class FavoriteViewController: ResultsViewController {
     private let emptyStateView = UILabel()
     private let viewModel = FavoritesViewModel()
     
-    private var cancelables = [AnyCancellable]()
+    private var bag = Set<AnyCancellable>()
 
     init() {
         super.init(type: .favorites, searchResults: [], viewModel: viewModel)
@@ -42,7 +43,9 @@ class FavoriteViewController: ResultsViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         // We need to refresh the data on appear because you could have un-favorited an item and otherwise that item would still show in your favorite list.
-        self.viewModel.refresh()
+        Task(priority: .high) { @MainActor [weak self] in
+            await self?.viewModel.refresh()
+        }
     }
     
     override func configureViews() {
@@ -64,38 +67,46 @@ class FavoriteViewController: ResultsViewController {
         self.emptyStateView.textColor = ColorPalette.GrayScale.gray
         self.emptyStateView.isHidden = true
     }
-    
+        
     override func bind() {
         super.bind()
         
-        let resultCancelable = self.viewModel.results.sink { results in
+        self.viewModel.$currentResults.sink { results in
             self.emptyStateView.isHidden = !results.isEmpty
-        }
-        self.cancelables.append(resultCancelable)
+        }.store(in: &bag)
         
-        let downloadCancelable = self.viewModel.hasDownloadedAll.sink { [weak self] haveAll in
+        self.viewModel.$hasDownloadedAll
+            .compactMap { $0 }
+            .sink { [weak self] haveAll in
             self?.downloadButton.image = haveAll ? UIImage(systemName: "arrow.down.circle.fill")! : UIImage(systemName: "arrow.down.circle")!
-        }
-        self.cancelables.append(downloadCancelable)
+        }.store(in: &bag)
         
-        let progressCancelable = self.viewModel.progress.sink { [weak self] percentage in
+        self.viewModel.$isDownloading
+            .receive(on: DispatchQueue.main) // For some reason the @MainActor is not being respected
+            .sink { [weak self] isDownloading in
             guard let self = self else { return }
-            guard percentage < 1 else {
-                self.progressView.update(progress: percentage)
-                UIView.animate(withDuration: DesignSystem.animation) {
+                
+            UIView.animate(withDuration: DesignSystem.animation) {
+                if isDownloading {
+                    self.progressView.show()
+                } else {
                     self.progressView.hide()
                 }
-                return
             }
-            self.progressView.update(progress: percentage)
-            UIView.animate(withDuration: DesignSystem.animation) {
-               self.progressView.show()
-            }
-        }
-        self.cancelables.append(progressCancelable)
+        }.store(in: &bag)
+        
+        self.viewModel.$progress
+            .compactMap { $0 }
+            .receive(on: DispatchQueue.main) // For some reason the @MainActor is not being respected
+            .sink { [weak self] percentage in
+                guard let self = self else { return }
+                self.progressView.update(progress: percentage)
+        }.store(in: &bag)
     }
     
     @objc func didRequestDownloads() {
-        self.viewModel.downloadCanyonMaps()
+        Task(priority: .userInitiated) { @MainActor [weak self] in
+            await self?.viewModel.downloadCanyonMaps()
+        }
     }
 }

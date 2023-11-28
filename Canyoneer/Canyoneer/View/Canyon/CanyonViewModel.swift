@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import RxSwift
+import Combine
 
 struct DayWeatherDetails {
     let temp: String
@@ -48,6 +48,7 @@ extension WeatherDataPoint {
     }
 }
 
+@MainActor
 class CanyonViewModel {
     enum Strings {
         static func sunsetTimes(sunset: Date, sunrise: Date) -> String {
@@ -67,22 +68,13 @@ class CanyonViewModel {
         }
     }
     
-    // Rx
-    public let canyonObservable: Observable<Canyon>
-    private let canyonSubject: PublishSubject<Canyon>
-    
-    public let isFavorite: Observable<Bool>
-    private let isFavoriteSubject: PublishSubject<Bool>
-    
-    public let forecast: Observable<ThreeDayForecast>
-    private let forecastSubject: PublishSubject<ThreeDayForecast>
-    
-    public let shareGPXFile: Observable<URL>
-    private let shareGPXFileSubject: PublishSubject<URL>
+    @Published public var canyon: Canyon?
+    @Published public var isFavorite: Bool?
+    @Published public var forecast: ThreeDayForecast?
+    @Published public var shareGPXFile: URL?
     
     // state
     public let gpxLoader = LoadingComponent()
-    public var canyon: Canyon?
     private let canyonId: String
     
     // objects
@@ -91,70 +83,48 @@ class CanyonViewModel {
     private let weatherService: WeatherService = NOAAWeatherService()
     private let gpxService = GPXService()
     private let solarService = SolarService()
-    private let bag = DisposeBag()
     
     init(canyonId: String, service: RopeWikiServiceInterface = RopeWikiService()) {
         self.canyonId = canyonId
         self.service = service
-        
-        self.canyonSubject = PublishSubject()
-        self.canyonObservable = self.canyonSubject.asObservable()
-        
-        self.isFavoriteSubject = PublishSubject()
-        self.isFavorite = self.isFavoriteSubject.asObservable()
-        
-        self.forecastSubject = PublishSubject()
-        self.forecast = self.forecastSubject.asObservable()
-        
-        self.shareGPXFileSubject = PublishSubject()
-        self.shareGPXFile = self.shareGPXFileSubject.asObservable()
     }
     
     // MARK: Actions
-    public func refresh() {
-        self.service.canyon(for: self.canyonId).subscribe { [weak self] canyon in
-            guard let self = self else { return }
-            guard let canyon = canyon else { return }
+    public func refresh() async {
+        do {
+            let canyon = try await service.canyon(for: self.canyonId)
             self.canyon = canyon
-            self.canyonSubject.onNext(canyon)
             
-            let isFavorite = self.favoriteService.isFavorite(canyon: canyon)
-            self.isFavoriteSubject.onNext(isFavorite)
+            isFavorite = self.favoriteService.isFavorite(canyon: canyon)
             
-            let weatherRequest = self.weatherService.requestCurrentWeatherForLocation(
-                lat: canyon.coordinate.latitude,
-                long: canyon.coordinate.longitude
-            )
-            let solarRequest = self.solarService.sunTimes(for: canyon.coordinate.asCLObject).asObservable()
-            Observable.zip(weatherRequest, solarRequest)
-                .subscribeOnNext({ tuple in
-                let (weather, solar) = tuple
-                guard let details = weather else {
-                    DispatchQueue.main.async {
-                        let data = ThreeDayForecast(
-                            today: nil,
-                            tomorrow: nil,
-                            dayAfterTomorrow: nil,
-                            sunsetDetails: Strings.sunsetTimes(sunset: solar.sunset, sunrise: solar.sunrise)
-                        )
-                        self.forecastSubject.onNext(data)
-                    }
-                    return
+            do {
+                let solar = try self.solarService.sunTimes(for: canyon.coordinate.asCLObject)
+                do {
+                    let weather = try await self.weatherService.requestCurrentWeatherForLocation(
+                        lat: canyon.coordinate.latitude,
+                        long: canyon.coordinate.longitude
+                    )
+                    forecast = ThreeDayForecast(
+                        today: weather.requested.dayDetails,
+                        tomorrow: weather.next?.dayDetails,
+                        dayAfterTomorrow: weather.dayAfter?.dayDetails,
+                        sunsetDetails: Strings.sunsetTimes(sunset: solar.sunset, sunrise: solar.sunrise)
+                    )
+                } catch {
+                    Global.logger.error(error)
+                    forecast = ThreeDayForecast(
+                        today: nil,
+                        tomorrow: nil,
+                        dayAfterTomorrow: nil,
+                        sunsetDetails: Strings.sunsetTimes(sunset: solar.sunset, sunrise: solar.sunrise)
+                    )
                 }
-                let forecast = ThreeDayForecast(
-                    today: details.requested.dayDetails,
-                    tomorrow: details.next?.dayDetails,
-                    dayAfterTomorrow: details.dayAfter?.dayDetails,
-                    sunsetDetails: Strings.sunsetTimes(sunset: solar.sunset, sunrise: solar.sunrise)
-                )
-                DispatchQueue.main.async {
-                    self.forecastSubject.onNext(forecast)
-                }
-                }).disposed(by: self.bag)
-            
-        } onFailure: { error in
+            } catch {
+                Global.logger.error(error)
+            }
+        } catch {
             Global.logger.error(error)
-        }.disposed(by: self.bag)
+        }
     }
     
     public func toggleFavorite() {
@@ -162,7 +132,7 @@ class CanyonViewModel {
         
         let isFavorited = favoriteService.isFavorite(canyon: canyon)
         favoriteService.setFavorite(canyon: canyon, to: !isFavorited)
-        self.isFavoriteSubject.onNext(!isFavorited)
+        isFavorite = !isFavorited
     }
     
     public func requestDownloadGPX() {
@@ -174,6 +144,6 @@ class CanyonViewModel {
             Global.logger.error("Could not create GPX file!")
             return
         }
-        self.shareGPXFileSubject.onNext(url)                
+        shareGPXFile = url
     }
 }

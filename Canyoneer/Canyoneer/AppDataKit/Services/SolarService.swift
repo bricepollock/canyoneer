@@ -7,7 +7,6 @@
 
 import Foundation
 import Solar
-import RxSwift
 import CoreLocation
 
 struct SunTime {
@@ -16,13 +15,13 @@ struct SunTime {
 }
 
 class SolarService {
-    func sunTimes(for coordinate: CLLocationCoordinate2D) -> Single<SunTime> {
+    func sunTimes(for coordinate: CLLocationCoordinate2D) throws -> SunTime {
         guard let result = Solar(for: Date(), coordinate: coordinate) else {
-            return Single.error(RequestError.noResponse)
+            throw RequestError.noResponse
         }
         guard let sunrise = result.sunrise, let sunset = result.sunset else {
-            return Single.error(RequestError.noResponse)
+            throw RequestError.noResponse
         }
-        return Single.just(SunTime(sunrise: sunrise, sunset: sunset))
+        return SunTime(sunrise: sunrise, sunset: sunset)
     }
 }

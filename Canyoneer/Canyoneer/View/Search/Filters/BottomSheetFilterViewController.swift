@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-import RxSwift
+import Combine
 
 class BottomSheetFilterViewController: BottomSheetViewController {
     // we want a global filter configuration across screens: favorites, map, search results
@@ -34,7 +34,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
         static let season = CanyonDetailView.Strings.season
     }
     
-    private let resetButton = RxUIButton()
+    private let resetButton = CombineUIButton()
     private let maxRapFilter = SpreadFilter()
     private let numRapFilter = SpreadFilter()
     private let starFitler = MultiSelectFilter()
@@ -46,7 +46,7 @@ class BottomSheetFilterViewController: BottomSheetViewController {
 
     // FIXME: Still figuring out how to communicate filters
     public let viewModel = FilterViewModel()
-    private let bag = DisposeBag()
+    private var bag = Set<AnyCancellable>()
     
     override init() {
         super.init()
@@ -88,9 +88,9 @@ class BottomSheetFilterViewController: BottomSheetViewController {
     private func configureViews() {
         let saveButton = ContainedButton()
         saveButton.configure(text: Strings.save)
-        saveButton.didSelect.subscribeOnNext { () in
-            self.animateDismissView()
-        }.disposed(by: self.bag)
+        saveButton.didSelect.sink { [weak self] _ in
+            self?.animateDismissView()
+        }.store(in: &bag)
         
         let headerStackView = UIStackView()
         headerStackView.axis = .horizontal
@@ -113,12 +113,13 @@ class BottomSheetFilterViewController: BottomSheetViewController {
     }
     
     private func bind() {
-        self.viewModel.state.subscribeOnNext { [weak self] state in
+        self.viewModel.$currentState.sink { [weak self] state in
             self?.configure(with: state)
-        }.disposed(by: self.bag)
-        self.resetButton.didSelect.subscribeOnNext { [weak self] () in
+        }.store(in: &bag)
+        self.resetButton.didSelect
+            .sink { [weak self] _ in
             self?.viewModel.reset()
-        }.disposed(by: self.bag)
+        }.store(in: &bag)
     }
     
     private func configure(with state: FilterState) {
