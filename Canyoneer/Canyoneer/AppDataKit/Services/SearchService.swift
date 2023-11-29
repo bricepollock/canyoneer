@@ -10,12 +10,12 @@ import CoreLocation
 
 protocol SearchServiceInterface {
     init(canyonService: RopeWikiServiceInterface)
-    func requestSearch(for searchString: String) async -> SearchResultList
-    func nearMeSearch(limit: Int) async throws -> SearchResultList
+    func requestSearch(for searchString: String) async -> QueryResultList
+    func nearMeSearch(limit: Int) async throws -> QueryResultList
 }
 
 struct SearchService: SearchServiceInterface {
-    private static let maxSearchResults = 100
+    private static let maxQueryResults = 100
     
     private let ropeWikiService: RopeWikiServiceInterface
     private let locationService = LocationService()
@@ -24,23 +24,23 @@ struct SearchService: SearchServiceInterface {
         self.ropeWikiService = canyonService
     }
     
-    func requestSearch(for searchString: String) async -> SearchResultList {
+    func requestSearch(for searchString: String) async -> QueryResultList {
         let canyons = await self.ropeWikiService.canyons()
-        var results = [SearchResult]()
+        var results = [QueryResult]()
         canyons.filter { canyon in
             return canyon.name.lowercased().contains(searchString.lowercased())
         }.sorted(by: { lhs, rhs in
             return lhs.quality > rhs.quality
         })
-        .prefix(Self.maxSearchResults)
+        .prefix(Self.maxQueryResults)
         .forEach { canyon in
-            results.append(SearchResult(name: canyon.name, canyonDetails: canyon))
+            results.append(QueryResult(name: canyon.name, canyonDetails: canyon))
         }
         
-        return SearchResultList(searchString: searchString, result: results)
+        return QueryResultList(searchString: searchString, results: results)
     }
     
-    func nearMeSearch(limit: Int) async throws -> SearchResultList {
+    func nearMeSearch(limit: Int) async throws -> QueryResultList {
         guard locationService.isLocationEnabled() else {
             throw RequestError.badRequest
         }
@@ -58,10 +58,10 @@ struct SearchService: SearchServiceInterface {
             return lhs.quality > rhs.quality
         })
         .map { canyon in
-            return SearchResult(name: canyon.name, canyonDetails: canyon)
+            return QueryResult(name: canyon.name, canyonDetails: canyon)
         }
         
         
-        return SearchResultList(searchString: "Closest \(limit)", result: results)
+        return QueryResultList(searchString: "Closest \(results.count)", results: results)
     }
 }

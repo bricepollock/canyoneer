@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import UIKit
+import SwiftUI
 
 enum TopoLineType: String, CaseIterable, Equatable {
     case driving
@@ -31,7 +31,7 @@ enum TopoLineType: String, CaseIterable, Equatable {
         }
     }
     
-    var color: UIColor {
+    var color: Color {
         switch self {
         case .driving: return ColorPalette.Color.action
         case .approach: return ColorPalette.Color.green

@@ -15,8 +15,8 @@ struct SunTime {
 }
 
 class SolarService {
-    func sunTimes(for coordinate: CLLocationCoordinate2D) throws -> SunTime {
-        guard let result = Solar(for: Date(), coordinate: coordinate) else {
+    func sunTimes(for coordinate: Coordinate) throws -> SunTime {
+        guard let result = Solar(for: Date(), coordinate: coordinate.asCLObject) else {
             throw RequestError.noResponse
         }
         guard let sunrise = result.sunrise, let sunset = result.sunset else {

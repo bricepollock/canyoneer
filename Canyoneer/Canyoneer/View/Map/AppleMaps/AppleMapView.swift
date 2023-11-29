@@ -7,21 +7,32 @@
 
 import Foundation
 import MapKit
+import SwiftUI
+import UIKit
 import Combine
 
-class AppleMapView: NSObject, CanyonMap {
-    public var locationService = LocationService()
-    
-    private let mapView = MKMapView()
-    public var view: UIView {
-        return mapView
-    }
+class AppleMapViewOwner: NSObject, CanyonMap {
+    public let view: CanyonMapViewType
+    private let mapView: MKMapView
     
     let didRequestCanyon = PassthroughSubject<String, Never>()
-    
+
+    public let locationService: LocationService
     private var mapOverlays = [MKOverlay]()
     private var headingView: UIView?
     private var bag = Set<AnyCancellable>()
+    
+    init(locationService: LocationService = LocationService()) {
+        let mapView = MKMapView()
+        mapView.showsUserLocation = true
+        self.mapView = mapView
+        self.view = .apple(AnyUIKitView(view: mapView))
+        self.locationService = locationService
+        super.init()
+        // -- init -- //
+        
+        mapView.delegate = self
+    }
     
     public var visibleCanyons: [Canyon] {
         return self.mapView.visibleAnnotations().compactMap {
@@ -30,9 +41,6 @@ class AppleMapView: NSObject, CanyonMap {
     }
     
     public func initialize() {
-        self.mapView.delegate = self
-        self.mapView.showsUserLocation = true
-        
         self.locationService.$heading
             .compactMap { $0 }
             .sink { [weak self] newHeading in
@@ -54,6 +62,12 @@ class AppleMapView: NSObject, CanyonMap {
     
     public func removeAnnotations() {
         self.mapView.removeAnnotations(self.mapView.annotations)
+    }
+    
+    public func deselectCanyons() {
+        self.mapView.selectedAnnotations.forEach {
+            self.mapView.deselectAnnotation($0, animated: false)
+        }
     }
     
     public func renderPolylines(canyons: [Canyon]) {
@@ -120,7 +134,7 @@ class AppleMapView: NSObject, CanyonMap {
     }
 }
 
-extension AppleMapView: MKMapViewDelegate {
+extension AppleMapViewOwner: MKMapViewDelegate {
  
     func mapViewDidChangeVisibleRegion(_ mapView: MKMapView) {
         let defaultCenter = CLLocationCoordinate2D(latitude: 37.13284, longitude: -95.78558)
@@ -141,8 +155,8 @@ extension AppleMapView: MKMapViewDelegate {
             let image = UIImage(systemName: "location.north.fill")!
             let headingView = UIImageView(image: image)
             self.headingView = headingView
-            headingView.constrain.height(20)
-            headingView.constrain.aspect(1)
+            headingView.heightAnchor.constraint(equalToConstant: 20).isActive = true
+            headingView.widthAnchor.constraint(equalTo: headingView.heightAnchor).isActive = true
             
             let annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "userLocation")
             annotationView.insertSubview(headingView, at: 0)
@@ -155,7 +169,7 @@ extension AppleMapView: MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
         if let layerMultiPolyline = overlay as? TopoLineLayer {
             let renderer = MKMultiPolylineRenderer(multiPolyline: layerMultiPolyline)
-            renderer.strokeColor = layerMultiPolyline.type.color
+            renderer.strokeColor = UIColor(layerMultiPolyline.type.color)
             renderer.lineWidth = 3
             return renderer
         }

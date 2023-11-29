@@ -8,17 +8,16 @@
 import Foundation
 import MapboxMaps
 import UIKit
-import Combine
 
+@MainActor
 class MapService {
-    public static let shared = MapService()
     @Published public var downloadProgress: Progress? = nil
     
     public static let publicAccessToken = "pk.eyJ1IjoiYnJpY2Vwb2xsb2NrIiwiYSI6ImNreWRhdGNtODAyNzUyb2xoMXdmbWFvd3UifQ.-iGgCZKoYX9wKf5uAyLWHA"
     private let tileStore = TileStore.default
     private let offlineManager: OfflineManager
     
-    private init() {
+    init() {
         self.tileStore.setOptionForKey(TileStoreOptions.mapboxAccessToken, value: Self.publicAccessToken as Any)
         self.offlineManager = OfflineManager(resourceOptions: ResourceOptions(accessToken: Self.publicAccessToken, tileStore: tileStore))
     }
@@ -89,7 +88,7 @@ class MapService {
                 _ = group.addTaskUnlessCancelled { [weak self] in
                     guard let self else { return }
                     try await self.downloadTile(for: canyon)
-                    self.downloadProgress?.completedUnitCount += 1
+                    await self.downloadProgress?.completedUnitCount += 1
                 }
             }
             try await group.waitForAll()

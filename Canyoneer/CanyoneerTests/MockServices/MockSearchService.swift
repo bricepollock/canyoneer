@@ -13,16 +13,16 @@ class MockSearchService: SearchServiceInterface {
         // no-op
     }
     
-    public var searchResults: SearchResultList?
-    func requestSearch(for searchString: String) async -> SearchResultList {
-        return searchResults ?? SearchResultList(searchString: "", result: [])
+    public var queryResults: QueryResultList?
+    func requestSearch(for searchString: String) async -> QueryResultList {
+        return queryResults ?? QueryResultList(searchString: "", results: [])
     }
     
-    func nearMeSearch(limit: Int) async throws -> SearchResultList {
-        guard let searchResults else {
+    func nearMeSearch(limit: Int) async throws -> QueryResultList {
+        guard let queryResults else {
             throw RequestError.badRequest
         }
         
-        return searchResults
+        return queryResults
     }
 }

@@ -5,121 +5,65 @@
 //  Created by Brice Pollock on 1/12/22.
 //
 
-import Foundation
-import Combine
-
-struct DayWeatherDetails {
-    let temp: String
-    let precip: String
-    let dayOfWeek: String
-}
-
-struct ThreeDayForecast {
-    let today: DayWeatherDetails?
-    let tomorrow: DayWeatherDetails?
-    let dayAfterTomorrow: DayWeatherDetails?
-    let sunsetDetails: String
-}
-
-extension WeatherDataPoint {
-    enum Strings {
-        static func temp(max: Double, min: Double) -> String {
-            return "\(Int(min)) - \(Int(max)) °F"
-        }
-        static func precip(chance: Double) -> String {
-            let percentage = chance * 100
-            return "\(String(Int(percentage)))% Moisture"
-        }
-    }
-    
-    func dayDetails(timezone: TimeZone = .current) -> DayWeatherDetails? {
-        guard let max = self.temperatureMax, let min = self.temperatureMin, let precip = self.precipProbability, let date = self.time else {
-            return nil
-        }
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "EEEE"
-        dateFormatter.timeZone = timezone
-        let dayOfWeek = dateFormatter.string(from: date).capitalized
-        
-        return DayWeatherDetails(
-            temp: Strings.temp(max: max, min: min),
-            precip: Strings.precip(chance: precip),
-            dayOfWeek: dayOfWeek
-        )
-    }
-}
+import SwiftUI
 
 @MainActor
-class CanyonViewModel {
-    enum Strings {
-        static func sunsetTimes(sunset: Date, sunrise: Date, in timezone: TimeZone = .current) -> String {
-            let formatter = DateFormatter()
-            formatter.timeZone = timezone
-            formatter.dateFormat = "h:mm a"
-                        
-            let sunsetTime = formatter.string(from: sunset)
-            let sunriseTime = formatter.string(from: sunrise)
-            
-            let time = sunset.timeIntervalSince(sunrise) / 60 / 60
-            let hours = Int(time.rounded(.toNearestOrEven))
-            return "Daylight: \(sunriseTime) - \(sunsetTime) (\(hours) hours)"
-        }
-    }
-    
+class CanyonViewModel: NSObject, ObservableObject {
+    @Published public var isLoading: Bool = false
     @Published public var canyon: Canyon?
-    @Published public var isFavorite: Bool?
-    @Published public var forecast: ThreeDayForecast?
-    @Published public var shareGPXFile: URL?
+    @Published public var detailViewModel: CanyonDetailViewModel?
+    @Published public var isFavorite: Bool = false
+    
+    @Published public var showGPXShareSheet: Bool = false
+    public var gpxFileURL: URL?
     
     // state
-    public let gpxLoader = LoadingComponent()
     private let canyonId: String
     
     // objects
-    private let service: RopeWikiServiceInterface
-    private let favoriteService = FavoriteService()
-    private let weatherService: WeatherService = NOAAWeatherService()
-    private let gpxService = GPXService()
-    private let solarService = SolarService()
+    public var mapViewModel: MapViewModel?
+    private let canyonService: RopeWikiServiceInterface
+    private let filterViewModel: CanyonFilterViewModel
+    private let favoriteService: FavoriteService
+    private let weatherViewModel: WeatherViewModel
+    private let gpxService: GPXService
     
-    init(canyonId: String, service: RopeWikiServiceInterface = RopeWikiService()) {
+    init(
+        canyonId: String,
+        canyonService: RopeWikiServiceInterface,
+        filterViewModel: CanyonFilterViewModel,
+        favoriteService: FavoriteService,
+        weatherViewModel: WeatherViewModel,
+        gpxService: GPXService = GPXService()
+    ) {
         self.canyonId = canyonId
-        self.service = service
+        self.canyonService = canyonService
+        self.filterViewModel = filterViewModel
+        self.favoriteService = favoriteService
+        self.weatherViewModel = weatherViewModel
+        self.gpxService = gpxService
     }
     
     // MARK: Actions
     public func refresh() async {
+        isLoading = true
+        defer { isLoading = false}
         do {
-            let canyon = try await service.canyon(for: self.canyonId)
+            let canyon = try await canyonService.canyon(for: self.canyonId)
             self.canyon = canyon
             
             isFavorite = self.favoriteService.isFavorite(canyon: canyon)
             
-            do {
-                let solar = try self.solarService.sunTimes(for: canyon.coordinate.asCLObject)
-                do {
-                    let weather = try await self.weatherService.requestCurrentWeatherForLocation(
-                        lat: canyon.coordinate.latitude,
-                        long: canyon.coordinate.longitude
-                    )
-                    forecast = ThreeDayForecast(
-                        today: weather.requested.dayDetails(),
-                        tomorrow: weather.next?.dayDetails(),
-                        dayAfterTomorrow: weather.dayAfter?.dayDetails(),
-                        sunsetDetails: Strings.sunsetTimes(sunset: solar.sunset, sunrise: solar.sunrise)
-                    )
-                } catch {
-                    Global.logger.error(error)
-                    forecast = ThreeDayForecast(
-                        today: nil,
-                        tomorrow: nil,
-                        dayAfterTomorrow: nil,
-                        sunsetDetails: Strings.sunsetTimes(sunset: solar.sunset, sunrise: solar.sunrise)
-                    )
-                }
-            } catch {
-                Global.logger.error(error)
-            }
+            detailViewModel = CanyonDetailViewModel(canyon: canyon, weatherViewModel: weatherViewModel)
+            self.mapViewModel = MapViewModel(
+                type: .mapbox,
+                allCanyons: [canyon],
+                applyFilters: false,
+                filterViewModel: filterViewModel,
+                weatherViewModel: weatherViewModel,
+                canyonService: canyonService,
+                favoriteService: favoriteService
+            )
         } catch {
             Global.logger.error(error)
         }
@@ -134,14 +78,15 @@ class CanyonViewModel {
     }
     
     public func requestDownloadGPX() {
-        defer { gpxLoader.stopLoading() }
         guard let canyon = canyon else { return }
+        isLoading = true
+        defer { isLoading = false}
 
-        gpxLoader.startLoading(loadingType: .screen)
         guard let url = gpxService.gpxFileUrl(from: canyon) else {
             Global.logger.error("Could not create GPX file!")
             return
         }
-        shareGPXFile = url
+        gpxFileURL = url
+        showGPXShareSheet = true
     }
 }

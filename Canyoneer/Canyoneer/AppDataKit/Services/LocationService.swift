@@ -18,7 +18,7 @@ class LocationService: NSObject, CLLocationManagerDelegate {
     private let locationManager = CLLocationManager()
     
     func isLocationEnabled() -> Bool {
-        return CLLocationManager.locationServicesEnabled()
+        return locationManager.authorizationStatus != .denied
     }
     
     func getCurrentLocation() async throws -> CLLocationCoordinate2D {

@@ -23,6 +23,87 @@ struct CoordinateFeature: Codable {
     }
 }
 
+enum TechnicalGrade: Int, CaseIterable, Codable {
+    case one
+    case two
+    case three
+    case four
+    
+    var text: String {
+        switch self {
+        case .one: return "1"
+        case .two: return "2"
+        case .three: return "3"
+        case .four: return "4"
+        }
+    }
+    
+    init?(text: String) {
+        guard let found = TechnicalGrade.allCases.first(where: { $0.text == text }) else {
+            return nil
+        }
+        self = found
+    }
+    
+    init?(data: Int?) {
+        guard let data else { return nil }
+        guard let found = TechnicalGrade(rawValue: data) else {
+            return nil
+        }
+        self = found
+    }
+}
+
+enum WaterGrade: String, CaseIterable, Codable {
+    case a = "A"
+    case b = "B"
+    case c = "C"
+    
+    var text: String {
+        self.rawValue
+    }
+    
+    init?(data: String?) {
+        guard let data else { return nil }
+        guard let found = WaterGrade(rawValue: data) else {
+            return nil
+        }
+        self = found
+    }
+}
+
+enum TimeGrade: String, CaseIterable, Codable {
+    case one = "I"
+    case two = "II"
+    case three = "III"
+    case four = "IV"
+    case five = "V"
+    case six = "VI"
+    
+    var text: String {
+        self.rawValue
+    }
+    
+    var number: Int {
+        switch self {
+        case .one: return 1
+        case .two: return 2
+        case .three: return 3
+        case .four: return 4
+        case .five: return 5
+        case .six: return 6
+        }
+    }
+    
+    init?(data: String?) {
+        guard let data else { return nil }
+        guard let found = TimeGrade(rawValue: data) else {
+            return nil
+        }
+        self = found
+    }
+}
+
 struct Canyon: Codable {
     internal enum CodingKeys: String, CodingKey {
         case id
@@ -56,10 +137,10 @@ struct Canyon: Codable {
     var requiresShuttle: Bool?
     var requiresPermit: Bool?
     var ropeWikiURL: URL?
-    var technicalDifficulty: Int?
+    var technicalDifficulty: TechnicalGrade?
     var risk: Risk?
-    var timeGrade: String?
-    var waterDifficulty: String?
+    var timeGrade: TimeGrade?
+    var waterDifficulty: WaterGrade?
     var quality: Float // 1-5 stars
     var vehicleAccessibility: Vehicle?
     var description: String // HTML
@@ -78,15 +159,21 @@ struct Canyon: Codable {
             requiresShuttle: false,
             requiresPermit: false,
             ropeWikiURL: URL(string: "http://ropewiki.com/Moonflower_Canyon"),
-            technicalDifficulty: 3,
+            technicalDifficulty: .three,
             risk: nil,
-            timeGrade: "II",
-            waterDifficulty: "A",
+            timeGrade: .two,
+            waterDifficulty: .a,
             quality: 4.3,
             vehicleAccessibility: Vehicle.passenger,
             description: "<b>This is a canyon</b>",
             geoWaypoints: [],
             geoLines: []
         )
+    }
+}
+
+extension Canyon: Identifiable, Equatable {
+    static func == (lhs: Canyon, rhs: Canyon) -> Bool {
+        lhs.id == rhs.id
     }
 }

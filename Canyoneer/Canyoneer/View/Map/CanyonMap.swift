@@ -6,16 +6,14 @@
 //
 
 import Foundation
-import UIKit
+import SwiftUI
 import CoreLocation
 import Combine
 
-@MainActor
 protocol CanyonMap {
-    var locationService: LocationService { get }
+    var view: CanyonMapViewType { get }
     
-    /// the map view
-    var view: UIView { get }
+    var locationService: LocationService { get }
     
     /// When the map requests to view a canyon. Supplies the canyon id
     var didRequestCanyon: PassthroughSubject<String, Never> { get }
@@ -31,6 +29,7 @@ protocol CanyonMap {
     /// Render canyon annotations on map
     func renderAnnotations(canyons: [Canyon])
     func removeAnnotations()
+    func deselectCanyons()
     
     /// Render polylines for topo lines
     func renderPolylines(canyons: [Canyon])
