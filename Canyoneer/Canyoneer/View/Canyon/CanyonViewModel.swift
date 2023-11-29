@@ -32,12 +32,13 @@ extension WeatherDataPoint {
         }
     }
     
-    var dayDetails: DayWeatherDetails? {
+    func dayDetails(timezone: TimeZone = .current) -> DayWeatherDetails? {
         guard let max = self.temperatureMax, let min = self.temperatureMin, let precip = self.precipProbability, let date = self.time else {
             return nil
         }
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "EEEE"
+        dateFormatter.timeZone = timezone
         let dayOfWeek = dateFormatter.string(from: date).capitalized
         
         return DayWeatherDetails(
@@ -51,17 +52,14 @@ extension WeatherDataPoint {
 @MainActor
 class CanyonViewModel {
     enum Strings {
-        static func sunsetTimes(sunset: Date, sunrise: Date) -> String {
-            let sunsetTime = DateFormatter.localizedString(
-                from: sunset,
-                dateStyle: .none,
-                timeStyle: .short
-            )
-            let sunriseTime = DateFormatter.localizedString(
-                from: sunrise,
-                dateStyle: .none,
-                timeStyle: .short
-            )
+        static func sunsetTimes(sunset: Date, sunrise: Date, in timezone: TimeZone = .current) -> String {
+            let formatter = DateFormatter()
+            formatter.timeZone = timezone
+            formatter.dateFormat = "h:mm a"
+                        
+            let sunsetTime = formatter.string(from: sunset)
+            let sunriseTime = formatter.string(from: sunrise)
+            
             let time = sunset.timeIntervalSince(sunrise) / 60 / 60
             let hours = Int(time.rounded(.toNearestOrEven))
             return "Daylight: \(sunriseTime) - \(sunsetTime) (\(hours) hours)"
@@ -105,9 +103,9 @@ class CanyonViewModel {
                         long: canyon.coordinate.longitude
                     )
                     forecast = ThreeDayForecast(
-                        today: weather.requested.dayDetails,
-                        tomorrow: weather.next?.dayDetails,
-                        dayAfterTomorrow: weather.dayAfter?.dayDetails,
+                        today: weather.requested.dayDetails(),
+                        tomorrow: weather.next?.dayDetails(),
+                        dayAfterTomorrow: weather.dayAfter?.dayDetails(),
                         sunsetDetails: Strings.sunsetTimes(sunset: solar.sunset, sunrise: solar.sunrise)
                     )
                 } catch {
