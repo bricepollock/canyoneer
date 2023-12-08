@@ -23,7 +23,7 @@ struct CoordinateFeature: Codable {
     }
 }
 
-enum TechnicalGrade: Int, CaseIterable, Codable {
+enum TechnicalGrade: Int, CaseIterable, Codable, Equatable {
     case one
     case two
     case three
@@ -54,7 +54,7 @@ enum TechnicalGrade: Int, CaseIterable, Codable {
     }
 }
 
-enum WaterGrade: String, CaseIterable, Codable {
+enum WaterGrade: String, CaseIterable, Codable, Equatable {
     case a = "A"
     case b = "B"
     case c = "C"
@@ -72,7 +72,7 @@ enum WaterGrade: String, CaseIterable, Codable {
     }
 }
 
-enum TimeGrade: String, CaseIterable, Codable {
+enum TimeGrade: String, CaseIterable, Codable, Equatable {
     case one = "I"
     case two = "II"
     case three = "III"

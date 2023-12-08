@@ -27,8 +27,7 @@ struct CanyonDetailView: View {
             directions
             htmlDescription
         }
-        .padding(.vertical, Grid.small)
-        .navigationBarTitleDisplayMode(.inline)
+        .padding(.vertical, Grid.small)        
     }
     
     @ViewBuilder

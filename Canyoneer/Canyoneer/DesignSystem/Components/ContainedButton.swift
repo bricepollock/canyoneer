@@ -8,29 +8,16 @@
 import Foundation
 import SwiftUI
 
-struct ContainedButtonStyle: ButtonStyle {
-    let background = ColorPalette.Color.action
-    let textColor = ColorPalette.GrayScale.white
-    let selectionColor = ColorPalette.Color.actionDark
-    let disabledColor = ColorPalette.Color.actionLight
-    
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .frame(height: 48)
-            .frame(minWidth: 232)
-            .background(configuration.isPressed ? selectionColor : background)
-            .foregroundStyle(textColor)
-            .clipShape(RoundedRectangle(cornerRadius: 8))
-    }
-}
-
 /// A blue button with white text
 struct ContainedButton: View {
+    private static let background = ColorPalette.Color.action
+    private static let textColor = ColorPalette.GrayScale.white
+    private static let disabledColor = ColorPalette.Color.actionLight
+    
     @Environment(\.isEnabled) var isEnabled
     
     let title: String
     let action: () -> Void
-    private let style = ContainedButtonStyle()
     
     @ViewBuilder
     var body: some View {
@@ -40,13 +27,14 @@ struct ContainedButton: View {
                 Text(title)
                     .font(FontBook.Body.regular)
                     .padding(Grid.small)
+                    .foregroundStyle(Self.textColor)
                 Spacer()
             }
+            .frame(height: 48)
+            .frame(minWidth: 232)
+            .frame(maxWidth: .infinity)
+            .background(isEnabled ? Self.background :  Self.disabledColor)
+            .clipShape(RoundedRectangle(cornerRadius: 8))
         })
-        .frame(maxWidth: .infinity)
-        .buttonStyle(style)
-        // All other styling done via ButtonStyle
-        .background(isEnabled ? style.background :  style.disabledColor)
-        .clipShape(RoundedRectangle(cornerRadius: 8))
     }
 }

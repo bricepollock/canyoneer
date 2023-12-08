@@ -9,16 +9,22 @@ import Foundation
 import SwiftUI
 import Combine
 
+extension Month: Identifiable {
+    var id: String {
+        self.rawValue
+    }
+}
+
 @MainActor
 class BestSeasonsViewModel: ObservableObject {
     let isUserInteractionEnabled: Bool
         
     @Published private(set) var isAnySelected: Bool
     @Published private(set) var selections: Set<Month>
-    private(set) var topRow: [SeasonViewModel] = []
-    private(set) var bottomRow: [SeasonViewModel] = []
+    private(set) var topRow: [Month] = []
+    private(set) var bottomRow: [Month] = []
     
-    private var options: [SeasonViewModel] = []
+    private var options: [Month] = []
     
     private var bag = Set<AnyCancellable>()
     
@@ -33,21 +39,8 @@ class BestSeasonsViewModel: ObservableObject {
         
         // -- init -- //
         
-        self.options = allOptions.map { month in
-            let seasonViewModel = SeasonViewModel(
-                month: month,
-                isSelected: selections.contains(month),
-                isUserInteractionEnabled: isUserInteractionEnabled
-            )
-            seasonViewModel.$isSelected.sink { [weak self] isSelected in
-                if isSelected {
-                    self?.selections.insert(month)
-                } else {
-                    self?.selections.remove(month)
-                }
-            }.store(in: &bag)
-            return seasonViewModel
-        }
+        self.options = allOptions
+        
         // show two rows of months because we cannot cramp them all visually into one line
         let mid = options.count / 2
         self.topRow = Array(options.prefix(mid))
@@ -58,10 +51,21 @@ class BestSeasonsViewModel: ObservableObject {
         }.store(in: &bag)
     }
     
+    func toggle(for month: Month) {
+        let isSelected = !isSelected(month)
+        if isSelected {
+            selections.insert(month)
+        } else {
+            selections.remove(month)
+        }
+    }
+    
+    func isSelected(_ month: Month) -> Bool {
+        selections.contains(month)
+    }
+    
     func toggleAllSelection() {
         let areAllSelected = !isAnySelected
-        options.forEach {
-            $0.update(to: areAllSelected)
-        }
+        selections = areAllSelected ? Set(options) : []
     }
 }

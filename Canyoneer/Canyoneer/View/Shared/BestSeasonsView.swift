@@ -27,16 +27,31 @@ struct BestSeasonsView: View {
             VStack(alignment: .center) {
                 HStack(spacing: 20) {
                     ForEach(viewModel.topRow) {
-                        SeasonView(viewModel: $0)
+                        monthView(for: $0)
                     }
                 }
                 HStack(spacing: 20) {
                     ForEach(viewModel.bottomRow) {
-                        SeasonView(viewModel: $0)
+                        monthView(for: $0)
                     }
                 }
             }
         }
+    }
+    
+    @ViewBuilder
+    func monthView(for month: Month) -> some View {
+        Button(action: {
+            viewModel.toggle(for: month)
+        }, label: {
+            Text(month.short)
+                .font(FontBook.Body.regular)
+                .padding(.vertical, Grid.xSmall)
+                .padding(.horizontal, Grid.small)
+                .foregroundColor(viewModel.isSelected(month) ? ColorPalette.GrayScale.white : ColorPalette.GrayScale.black)
+                .background(viewModel.isSelected(month) ? ColorPalette.Color.action : ColorPalette.GrayScale.white)
+                .clipShape(RoundedRectangle(cornerRadius: 10))
+        })
     }
     
     private enum Strings {

@@ -20,7 +20,6 @@ class FavoritesViewModelTests: XCTestCase {
         
         service = MockRopeWikiService()
         viewModel = FavoriteListViewModel(
-            filterViewModel: CanyonFilterViewModel(initialState: .default),
             weatherViewModel: WeatherViewModel(),
             mapService: MapService(),
             canyonService: service,

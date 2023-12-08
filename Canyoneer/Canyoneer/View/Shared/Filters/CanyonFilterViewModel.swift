@@ -100,63 +100,98 @@ class CanyonFilterViewModel: ObservableObject {
             }.assign(to: &$currentState)
     }
     
-    func reset(to state: FilterState) {
-        self.maxRap = state.maxRap
-        self.numRaps = state.numRaps
-        self.stars = state.stars
-        self.technicality = state.technicality
-        self.water = state.water
-        self.time = state.time
-        self.shuttleRequired = state.shuttleRequired
-        self.seasons = state.seasons
+    func reset() {
+        let resetState = FilterState.default
+        
+        if self.maxRap != resetState.maxRap {
+            self.maxRap = resetState.maxRap
+        }
+        
+        if self.numRaps != resetState.numRaps {
+            self.numRaps = resetState.numRaps
+        }
+        
+        if self.stars != resetState.stars {
+            self.stars = resetState.stars
+        }
+        
+        if self.technicality != resetState.technicality {
+            self.technicality = resetState.technicality
+        }
+        
+        if self.water != resetState.water {
+            self.water = resetState.water
+        }
+        
+        if self.shuttleRequired != resetState.shuttleRequired {
+            self.shuttleRequired = resetState.shuttleRequired
+        }
+        
+        if self.seasons != resetState.seasons {
+            self.seasons = resetState.seasons
+        }
     }
     
-    func filter(results: [QueryResult]) -> [QueryResult] {
+    func filter(results: [QueryResult], with state: FilterState) -> [QueryResult] {
         let canyons = results.compactMap { $0.canyonDetails }
-        return self.filter(canyons: canyons).map {
+        return Self.filter(canyons: canyons, given: state).map {
             return QueryResult(name: $0.name, canyonDetails: $0)
         }
     }
     
-    func filter(canyons: [Canyon]) -> [Canyon] {
+    static func filter(canyons: [Canyon], given state: FilterState) -> [Canyon] {
+        // Used to compare if we should apply a filter at all
+        let defaultFilter = FilterState.default
         return canyons.filter { canyon in
             // quality
-            guard currentState.stars.contains(Int(canyon.quality)) else {
+            guard state.stars.contains(Int(canyon.quality)) else {
                 return false
             }
             
             // num raps
-            guard let numRaps = canyon.numRaps else { return false }
-            guard numRaps >= self.numRaps.min && numRaps <= self.numRaps.max else {
-                return false
+            if state.numRaps != defaultFilter.numRaps {
+                guard let numRaps = canyon.numRaps else {
+                    return false
+                }
+                guard numRaps >= state.numRaps.min && numRaps <= state.numRaps.max else {
+                    return false
+                }
             }
             
             // max rap
-            guard let maxRap = canyon.maxRapLength else { return false }
-            guard maxRap >= self.maxRap.min && maxRap <= self.maxRap.max else {
-                return false
+            if state.maxRap != defaultFilter.maxRap {
+                guard let maxRap = canyon.maxRapLength else { return false }
+                guard maxRap >= state.maxRap.min && maxRap <= state.maxRap.max else {
+                    return false
+                }
             }
             
             // technical
-            guard let technicalRating = canyon.technicalDifficulty else { return false }
-            guard self.technicality.contains(technicalRating) else {
-                return false
+            if state.technicality != defaultFilter.technicality {
+                guard let technicalRating = canyon.technicalDifficulty else { return false }
+                guard state.technicality.contains(technicalRating) else {
+                    return false
+                }
             }
             
             // water
-            guard let waterDifficulty = canyon.waterDifficulty else { return false }
-            guard self.water.contains(waterDifficulty) else {
-                return false
+            if state.water != defaultFilter.water {
+                guard let waterDifficulty = canyon.waterDifficulty else { return false }
+                guard state.water.contains(waterDifficulty) else {
+                    return false
+                }
             }
             
             // Time
-            guard let time = canyon.timeGrade else { return false}
-            guard self.time.contains(time) else {
-                return false
+            if state.time != defaultFilter.time {
+                guard let time = canyon.timeGrade else { return false}
+                guard state.time.contains(time) else {
+                    return false
+                }
             }
             
             // Shuttle (bypass any)
-            if let filterRequireShuttle = self.shuttleRequired {
+            if let filterRequireShuttle = state.shuttleRequired, state.shuttleRequired != defaultFilter.shuttleRequired {
                 // Don't count canyons without shuttle information
                 if let requireShuttle = canyon.requiresShuttle {
                     guard requireShuttle == filterRequireShuttle else {
@@ -167,14 +202,14 @@ class CanyonFilterViewModel: ObservableObject {
                     return false
                 }
             }
-
             
             // Season, if any seasons match up
-            let bestSeasonsInitials = canyon.bestSeasons.map { $0.short }
-            let filterBestSeasons = self.seasons.map { $0.short }
-            guard Set(bestSeasonsInitials).intersection(filterBestSeasons).count > 0 else {
-                return false
+            if state.seasons != defaultFilter.seasons {
+                guard Set(canyon.bestSeasons).intersection(state.seasons).count > 0 else {
+                    return false
+                }
             }
+
             
             // end
             return true

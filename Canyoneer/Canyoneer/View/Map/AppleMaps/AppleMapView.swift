@@ -40,6 +40,12 @@ class AppleMapViewOwner: NSObject, CanyonMap {
         }
     }
     
+    public var currentCanyons: [Canyon] {
+        return self.mapView.annotations.compactMap {
+            return ($0 as? CanyonAnnotation)?.canyon
+        }
+    }
+    
     public func initialize() {
         self.locationService.$heading
             .compactMap { $0 }
@@ -53,11 +59,20 @@ class AppleMapViewOwner: NSObject, CanyonMap {
         }.store(in: &self.bag)
     }
     
-    public func renderAnnotations(canyons: [Canyon]) {
+    public func addAnnotations(for canyons: [Canyon]) {
         canyons.forEach { canyon in
             let annotation = CanyonAnnotation(canyon: canyon)
             self.mapView.addAnnotation(annotation)
         }
+    }
+    
+    public func removeAnnotations(for canyonMap: [String: Canyon]) {
+        let annotationsToRemove = self.mapView.annotations
+            .compactMap { $0 as? CanyonAnnotation }
+            .filter { annotation in
+                canyonMap[annotation.canyon.id] != nil
+            }
+        self.mapView.removeAnnotations(annotationsToRemove)
     }
     
     public func removeAnnotations() {
@@ -114,12 +129,7 @@ class AppleMapViewOwner: NSObject, CanyonMap {
     }
     
     public func renderWaypoints(canyon: Canyon) {
-        let waypoints = canyon.geoWaypoints.map { feature in
-            return WaypointAnnotation(feature: feature)
-        }
-        waypoints.forEach { annotation in
-            self.mapView.addAnnotation(annotation)
-        }
+        addAnnotations(for: [canyon])
     }
     
     public func focusCameraOn(canyon: Canyon) {

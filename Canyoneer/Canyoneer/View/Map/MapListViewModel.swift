@@ -19,6 +19,7 @@ class MapListViewModel: ResultsViewModel {
     init(
         canyonsOnMap: [Canyon],
         filterViewModel: CanyonFilterViewModel,
+        filterSheetViewModel: CanyonFilterSheetViewModel,
         weatherViewModel: WeatherViewModel,
         canyonService: RopeWikiServiceInterface,
         favoriteService: FavoriteService
@@ -31,6 +32,7 @@ class MapListViewModel: ResultsViewModel {
         super.init(
             applyFilters: true,
             filterViewModel: filterViewModel,
+            filterSheetViewModel: filterSheetViewModel,
             weatherViewModel: weatherViewModel,
             canyonService: canyonService,
             favoriteService: favoriteService

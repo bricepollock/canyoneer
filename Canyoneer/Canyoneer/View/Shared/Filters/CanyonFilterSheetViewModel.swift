@@ -19,18 +19,17 @@ enum FilterType: Identifiable {
 
 @MainActor
 class CanyonFilterSheetViewModel: ObservableObject {
-    private(set) var filters: [FilterType]
+    @Published private(set) var filters: [FilterType]?
     
     private let filterViewModel: CanyonFilterViewModel
-    private let filterWhenPresented: FilterState
     
     init(filterViewModel: CanyonFilterViewModel) {
         self.filterViewModel = filterViewModel
-        self.filterWhenPresented = filterViewModel.currentState
-        self.filters = []
-        
-        // --- init --- //
-        
+    }
+    
+    // Need to do this in appear because the ViewModel is re-created on each modification of state when modifying filter which causes a view-refresh and which in turn regenerates all the view-objeccts in the destination closures. This strategy doesn't make sense as a UI-framework, but maybe I don't understand SwiftUI navigation well yet. This ensures we aren't generating new filter components and reseting state every time we modify state.
+    public func refresh() {
+        let filterWhenPresented = filterViewModel.currentState
         filters = [
             starFilter(for: filterWhenPresented),
             numRaps(for: filterWhenPresented),
@@ -44,24 +43,25 @@ class CanyonFilterSheetViewModel: ObservableObject {
     }
     
     public func reset() {
-        self.filterViewModel.reset(to: filterWhenPresented)
+        self.filterViewModel.reset()
+        self.refresh()
     }
     
     // MARK: Filters
     
     private func starFilter(for currentState: FilterState) -> FilterType {
         let selectedStars = Set(currentState.stars.map {
-            PickerChoice(text: String($0))
+            String($0)
         })
         let choices = (1...5).map {
-            PickerChoice(text: String($0))
+            String($0)
         }
         let selectionViewModel =  MultiSelectViewModel(selections: selectedStars, choices: choices)
         selectionViewModel.$selections
             .dropFirst() // Ignore initialization
             .map { list in
                 Set(list.compactMap { choice in
-                    Int(choice.text)
+                    Int(choice)
                 })
             }
             .assign(to: &filterViewModel.$stars)
@@ -72,7 +72,7 @@ class CanyonFilterSheetViewModel: ObservableObject {
         let numRaps = SpreadFilterViewModel(
             name: Strings.numRap,
             spreadData: ComparisonPickerData(
-                current: filterWhenPresented.numRaps,
+                current: currentState.numRaps,
                 limits: FilterState.default.numRaps,
                 increments: FilterState.numRapsIncrement
             ),
@@ -88,7 +88,7 @@ class CanyonFilterSheetViewModel: ObservableObject {
         let maxRap = SpreadFilterViewModel(
             name: Strings.maxRap,
             spreadData: ComparisonPickerData(
-                current: filterWhenPresented.maxRap,
+                current: currentState.maxRap,
                 limits: FilterState.default.maxRap,
                 increments: FilterState.maxRapIncrement
             ),
@@ -102,22 +102,22 @@ class CanyonFilterSheetViewModel: ObservableObject {
     
     private func technicality(for currentState: FilterState) -> FilterType {
         let technicality = MultiSelectViewModel(
-            selections: Set(filterWhenPresented.technicality.map {
-                PickerChoice(text: $0.text)
+            selections: Set(currentState.technicality.map {
+                $0.text
             }),
             choices: FilterState.default.technicality
                 .sorted(by: { lhs, rhs in
                     lhs.rawValue < rhs.rawValue
                 })
                 .map {
-                    PickerChoice(text: $0.text)
+                    $0.text
                 }
         )
         technicality.$selections
             .dropFirst() // Ignore initialization
             .map { list in
                 Set(list.compactMap { choice in
-                    TechnicalGrade(text: choice.text)
+                    TechnicalGrade(text: choice)
                 })
             }
             .assign(to: &filterViewModel.$technicality)
@@ -126,22 +126,22 @@ class CanyonFilterSheetViewModel: ObservableObject {
     
     private func water(for currentState: FilterState) -> FilterType {
         let water = MultiSelectViewModel(
-            selections: Set(filterWhenPresented.water.map {
-                PickerChoice(text: $0.text)
+            selections: Set(currentState.water.map {
+                $0.text
             }),
             choices: FilterState.default.water
                 .sorted(by: { lhs, rhs in
                     lhs.rawValue < rhs.rawValue
                 })
                 .map {
-                    PickerChoice(text: $0.text)
+                    $0.text
                 }
         )
         water.$selections
             .dropFirst() // Ignore initialization
             .map { list in
                 Set(list.compactMap { choice in
-                    WaterGrade(rawValue: choice.text)
+                    WaterGrade(rawValue: choice)
                 })
             }
             .assign(to: &filterViewModel.$water)
@@ -150,22 +150,22 @@ class CanyonFilterSheetViewModel: ObservableObject {
     
     private func time(for currentState: FilterState) -> FilterType {
         let time = MultiSelectViewModel(
-            selections: Set(filterWhenPresented.time.map {
-                PickerChoice(text: $0.text)
+            selections: Set(currentState.time.map {
+                $0.text
             }),
             choices: FilterState.default.time
                 .sorted(by: { lhs, rhs in
                     lhs.number < rhs.number
                 })
                 .map {
-                    PickerChoice(text: $0.text)
+                    $0.text
                 }
         )
         time.$selections
             .dropFirst() // Ignore initialization
             .map { list in
                 Set(list.compactMap { choice in
-                    TimeGrade(rawValue: choice.text)
+                    TimeGrade(rawValue: choice)
                 })
             }
             .assign(to: &filterViewModel.$time)
@@ -173,11 +173,11 @@ class CanyonFilterSheetViewModel: ObservableObject {
     }
     
     private func shuttle(for currentState: FilterState) -> FilterType {
-        let shuttle = SingleSelectViewModel(selection: filterWhenPresented.shuttleRequired )
+        let shuttle = SingleSelectViewModel(selection: currentState.shuttleRequired )
         shuttle.$selection
             .dropFirst() // Ignore initialization
             .map { choice in
-                BoolChoice(text: choice.text)?.value
+                BoolChoice(text: choice)?.value
             }
             .assign(to: &filterViewModel.$shuttleRequired)
                 
@@ -185,7 +185,7 @@ class CanyonFilterSheetViewModel: ObservableObject {
     }
     
     private func season(for currentState: FilterState) -> FilterType {
-        let season = BestSeasonsViewModel(selections: filterWhenPresented.seasons, isUserInteractionEnabled: true)
+        let season = BestSeasonsViewModel(selections: currentState.seasons, isUserInteractionEnabled: true)
         season.$selections
             .dropFirst() // Ignore initialization
             .assign(to: &filterViewModel.$seasons)

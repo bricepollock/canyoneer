@@ -56,13 +56,13 @@ class MainTabViewModel: ObservableObject {
             type: .apple,
             allCanyons: allCanyons,
             applyFilters: true,
+            showOverlays: true,
             filterViewModel: filterViewModel,
             weatherViewModel: weatherViewModel,
             canyonService: canyonService,
             favoriteService: favoriteService
         )
         favoriteViewModel = FavoriteListViewModel(
-            filterViewModel: filterViewModel,
             weatherViewModel: weatherViewModel,
             mapService: mapService, 
             canyonService: canyonService,

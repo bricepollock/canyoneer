@@ -17,23 +17,52 @@ class CanyonFilterViewModelTests: XCTestCase {
         let third = Canyon.dummy()
         let canyons = [first, second, third]
         
-        let viewModel = CanyonFilterViewModel(initialState: .default)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
         XCTAssertEqual(result.count, 3)
+    }
+    
+    func testDefaultFilter_fromSource() async {
+        let service = RopeWikiService()
+        let allCanyons = await service.canyons()
+        XCTAssertEqual(allCanyons.count, 2262)
+        
+        let openFilterResults = CanyonFilterViewModel.filter(canyons: allCanyons, given: .default)
+        XCTAssertEqual(allCanyons.count, openFilterResults.count)
     }
     
     // MARK: NumRaps
     
-    func testFilter_numRaps_high() {
+    func testFilter_numRaps_default_miss() {
         let first = Canyon.dummy()
         let second = Canyon.dummy()
         var third = Canyon.dummy()
-        third.numRaps = 100
+        third.numRaps = 1000
         let canyons = [first, second, third]
         
-        let viewModel = CanyonFilterViewModel(initialState: .default)
-        let result = viewModel.filter(canyons: canyons)
-        XCTAssertEqual(result.count, 2)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 3)
+    }
+    
+    func testFilter_numRaps_default_nil() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.numRaps = nil
+        let canyons = [first, second, third]
+        
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 3)
+    }
+    
+    func testFilter_numRaps_default_found() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.numRaps = 12
+        let canyons = [first, second, third]
+        
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 3)
     }
     
     func testFilter_numRaps_low() {
@@ -44,8 +73,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(numRaps: Bounds(min: 2, max: 20))
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 2)
     }
     
@@ -56,8 +84,8 @@ class CanyonFilterViewModelTests: XCTestCase {
         third.numRaps = nil
         let canyons = [first, second, third]
         
-        let viewModel = CanyonFilterViewModel(initialState: .default)
-        let result = viewModel.filter(canyons: canyons)
+        let state = FilterState(numRaps: Bounds(min: 2, max: 20))
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 2)
     }
     
@@ -68,22 +96,55 @@ class CanyonFilterViewModelTests: XCTestCase {
         third.numRaps = 12
         let canyons = [first, second, third]
         
-        let viewModel = CanyonFilterViewModel(initialState: .default)
-        let result = viewModel.filter(canyons: canyons)
+        let state = FilterState(numRaps: Bounds(min: 2, max: 12))
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 3)
     }
     
     // MARK: Max Rap
     
-    func testFilter_maxRap_high() {
+    func testFilter_maxRap_default_miss() {
         let first = Canyon.dummy()
         let second = Canyon.dummy()
         var third = Canyon.dummy()
         third.maxRapLength = 1000
         let canyons = [first, second, third]
         
-        let viewModel = CanyonFilterViewModel(initialState: .default)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 3)
+    }
+    
+    func testFilter_maxRap_default_found() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.maxRapLength = 200
+        let canyons = [first, second, third]
+        
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 3)
+    }
+    
+    func testFilter_maxRaps_default_nil() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.maxRapLength = nil
+        let canyons = [first, second, third]
+        
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 3)
+    }
+    
+    func testFilter_maxRap_high() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.maxRapLength = 400
+        let canyons = [first, second, third]
+        
+        let state = FilterState(maxRap: Bounds(min: 20, max: 300))
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 2)
     }
     
@@ -95,8 +156,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(maxRap: Bounds(min: 20, max: 300))
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 2)
     }
     
@@ -107,8 +167,8 @@ class CanyonFilterViewModelTests: XCTestCase {
         third.maxRapLength = 200
         let canyons = [first, second, third]
         
-        let viewModel = CanyonFilterViewModel(initialState: .default)
-        let result = viewModel.filter(canyons: canyons)
+        let state = FilterState(maxRap: Bounds(min: 20, max: 300))
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 3)
     }
     
@@ -119,12 +179,34 @@ class CanyonFilterViewModelTests: XCTestCase {
         third.maxRapLength = nil
         let canyons = [first, second, third]
         
-        let viewModel = CanyonFilterViewModel(initialState: .default)
-        let result = viewModel.filter(canyons: canyons)
+        let state = FilterState(maxRap: Bounds(min: 20, max: 300))
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 2)
     }
     
     // MARK: Stars
+    
+    func testFilter_stars_default_half() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.quality = 3.5
+        let canyons = [first, second, third]
+        
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 3)
+    }
+    
+    func testFilter_stars_default_zero() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.quality = 0
+        let canyons = [first, second, third]
+        
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 2)
+    }
     
     func testFilter_stars_one() {
         let first = Canyon.dummy()
@@ -134,8 +216,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(stars: [3])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 0)
     }
     
@@ -147,8 +228,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(stars: [3,4])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 2)
     }
     
@@ -160,9 +240,20 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(stars: [3])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 1) // just the third
+    }
+    
+    func testFilter_stars_zero() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.quality = 0
+        let canyons = [first, second, third]
+        
+        let state = FilterState(stars: [3])
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
+        XCTAssertEqual(result.count, 0)
     }
     
     func testFilter_stars_match() {
@@ -173,12 +264,33 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(stars: [3,4])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 3)
     }
     
     // MARK: Technicality
+    
+    func testFilter_technicality_default_found() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.technicalDifficulty = .two
+        let canyons = [first, second, third]
+        
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 3)
+    }
+    
+    func testFilter_technicality_default_nil() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.technicalDifficulty = nil
+        let canyons = [first, second, third]
+        
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 3)
+    }
     
     func testFilter_technicality_one() {
         let first = Canyon.dummy()
@@ -188,8 +300,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(technicality: [.three])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 2)
     }
     
@@ -201,8 +312,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(technicality: [.three, .four])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 3)
     }
     
@@ -214,8 +324,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(technicality: [.three, .four])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 3)
     }
     
@@ -227,12 +336,33 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(technicality: [.three])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 2)
     }
     
     // MARK: Water
+    
+    func testFilter_water_default_found() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.waterDifficulty = .c
+        let canyons = [first, second, third]
+        
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 3)
+    }
+    
+    func testFilter_water_default_nil() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.waterDifficulty = nil
+        let canyons = [first, second, third]
+        
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 3)
+    }
     
     func testFilter_water_nil() {
         let first = Canyon.dummy()
@@ -241,8 +371,8 @@ class CanyonFilterViewModelTests: XCTestCase {
         third.waterDifficulty = nil
         let canyons = [first, second, third]
         
-        let viewModel = CanyonFilterViewModel(initialState: .default)
-        let result = viewModel.filter(canyons: canyons)
+        let state = FilterState(water: [.a])
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 2)
     }
     
@@ -250,13 +380,12 @@ class CanyonFilterViewModelTests: XCTestCase {
         let first = Canyon.dummy()
         let second = Canyon.dummy()
         var third = Canyon.dummy()
-        third.waterDifficulty = .a
+        third.waterDifficulty = .b
         let canyons = [first, second, third]
         
         let state = FilterState(water: [.b])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
-        XCTAssertEqual(result.count, 0)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
+        XCTAssertEqual(result.count, 1)
     }
     
     func testFilter_water_match() {
@@ -267,8 +396,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(water: [.a, .b])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 3)
     }
     
@@ -282,8 +410,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(time: [.three, .four])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 0)
     }
     
@@ -295,8 +422,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(time: [.three, .four])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 0)
     }
     
@@ -308,12 +434,33 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(time: [.three, .four])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 1)
     }
     
     // MARK: Shuttle
+    
+    func testFilter_shuttle_default_nil() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.requiresShuttle = nil
+        let canyons = [first, second, third]
+        
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 3)
+    }
+    
+    func testFilter_shuttle_default_yes() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.requiresShuttle = true
+        let canyons = [first, second, third]
+        
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 3)
+    }
     
     func testFilter_shuttle_nil() {
         let first = Canyon.dummy()
@@ -323,8 +470,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(shuttleRequired: false)
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 3)
     }
     
@@ -336,8 +482,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(shuttleRequired: nil)
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 3)
     }
     
@@ -349,8 +494,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(shuttleRequired: nil)
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 3)
     }
     
@@ -362,8 +506,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(shuttleRequired: true)
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 1) // the third
     }
     
@@ -375,12 +518,33 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(shuttleRequired: false)
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 2)
     }
     
     // MARK: Seasons
+    
+    func testFilter_seasons_default_empty() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.bestSeasons = []
+        let canyons = [first, second, third]
+        
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 3)
+    }
+    
+    func testFilter_seasons_default_one() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        var third = Canyon.dummy()
+        third.bestSeasons = [.january]
+        let canyons = [first, second, third]
+        
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: .default)
+        XCTAssertEqual(result.count, 3)
+    }
     
     func testFilter_seasons_miss() {
         let first = Canyon.dummy()
@@ -390,8 +554,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(seasons: [.april])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 2)
     }
     
@@ -403,8 +566,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(seasons: [.february, .april])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 3)
     }
     
@@ -416,8 +578,7 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(seasons: [.february, .april])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 3)
     }
     
@@ -429,8 +590,18 @@ class CanyonFilterViewModelTests: XCTestCase {
         let canyons = [first, second, third]
         
         let state = FilterState(seasons: [.february, .april])
-        let viewModel = CanyonFilterViewModel(initialState: state)
-        let result = viewModel.filter(canyons: canyons)
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
         XCTAssertEqual(result.count, 2)
+    }
+    
+    func testFilter_seasons_none() {
+        let first = Canyon.dummy()
+        let second = Canyon.dummy()
+        let third = Canyon.dummy()
+        let canyons = [first, second, third]
+        
+        let state = FilterState(seasons: [])
+        let result = CanyonFilterViewModel.filter(canyons: canyons, given: state)
+        XCTAssertEqual(result.count, 0)
     }
 }

@@ -52,9 +52,8 @@ struct SpreadFilter: View {
                 showPicker = true
             }
         }
-        // FIXME: Needs animation?
         .sheet(isPresented: $showPicker) {
             MultiPickerView(viewModel: viewModel.comparisonPicker.pickerViewModel)
-        }.presentationDetents([.medium])
+        }
     }
 }

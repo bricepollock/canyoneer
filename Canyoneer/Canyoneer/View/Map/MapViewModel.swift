@@ -27,9 +27,9 @@ class MapViewModel: ObservableObject {
     
     @Published var showCanyonDetails: Bool = false
     var showCanyonWithID: String?
-    
-    public let filterSheetViewModel: CanyonFilterSheetViewModel
+        
     public let filterViewModel: CanyonFilterViewModel
+    public let filterSheetViewModel: CanyonFilterSheetViewModel
     
     public let weatherViewModel: WeatherViewModel
     public let canyonService: RopeWikiServiceInterface
@@ -44,6 +44,7 @@ class MapViewModel: ObservableObject {
         type: CanyonMapType,
         allCanyons: [Canyon],
         applyFilters: Bool,
+        showOverlays: Bool = false,
         filterViewModel: CanyonFilterViewModel,
         weatherViewModel: WeatherViewModel,
         canyonService: RopeWikiServiceInterface,
@@ -57,15 +58,14 @@ class MapViewModel: ObservableObject {
         self.locationService = locationService
         self.filterViewModel = filterViewModel
         self.filterSheetViewModel = CanyonFilterSheetViewModel(filterViewModel: filterViewModel)
+        self.showOverlays = showOverlays
         
         self.canyons = allCanyons
         switch type {
         case .apple:
             canyonMapViewOwner = AppleMapViewOwner()
-            showOverlays = true
         case .mapbox:
             canyonMapViewOwner = MapboxMapViewOwner()
-            showOverlays = false
         }
         self.mapView = canyonMapViewOwner.view
         self.canyonMapViewOwner.initialize()
@@ -91,8 +91,8 @@ class MapViewModel: ObservableObject {
         
         if applyFilters {
             // Update based upon state
-            filterViewModel.$currentState.map { _ in
-                filterViewModel.filter(canyons: allCanyons)
+            filterViewModel.$currentState.map { newState in
+                CanyonFilterViewModel.filter(canyons: allCanyons, given: newState)
             }.assign(to: &$canyons)
         }
     }

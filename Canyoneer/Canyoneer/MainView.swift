@@ -8,6 +8,9 @@ struct MainView: View {
     @ObservedObject var viewModel = MainViewModel()
     
     var body: some View {
+        #if TEST
+        return EmptyView()
+        #endif
         if viewModel.isLoadingApp {
             launchView
             .task { // may need to switch to onappear

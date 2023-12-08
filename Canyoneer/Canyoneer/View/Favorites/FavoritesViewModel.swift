@@ -14,11 +14,10 @@ class FavoriteListViewModel: ResultsViewModel {
     @Published public var progress: Double
     @Published public var isDownloading: Bool = false
     
-    public var mapViewModel: MapViewModel?
+    @Published public var mapViewModel: MapViewModel?
     private let mapService: MapService
     
     init(
-        filterViewModel: CanyonFilterViewModel,
         weatherViewModel: WeatherViewModel,
         mapService: MapService,
         canyonService: RopeWikiServiceInterface,
@@ -28,9 +27,14 @@ class FavoriteListViewModel: ResultsViewModel {
         self.progress = 0
 
         self.mapService = mapService
+        
+        // Favorites has its own filter disconnected from map
+        let filterViewModel = CanyonFilterViewModel(initialState: .default)
+        
         super.init(
-            applyFilters: false,
+            applyFilters: true,
             filterViewModel: filterViewModel,
+            filterSheetViewModel: CanyonFilterSheetViewModel(filterViewModel: filterViewModel),
             weatherViewModel: weatherViewModel,
             canyonService: canyonService,
             favoriteService: favoriteService
@@ -38,8 +42,12 @@ class FavoriteListViewModel: ResultsViewModel {
         
         self.title = Strings.title
         
-        self.mapService.$downloadProgress
-            .compactMap { $0?.fractionCompleted }
+        self.mapService.$downloadPercentage
+            .compactMap { $0 }
+            .map {
+                Global.logger.debug("Downloading percent: \($0)")
+                return $0
+            }
             .assign(to: &$progress)
     }
     

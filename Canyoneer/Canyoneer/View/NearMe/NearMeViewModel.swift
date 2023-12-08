@@ -15,7 +15,7 @@ class NearMeViewModel: ResultsViewModel {
     private let searchService: SearchServiceInterface
     
     init(
-        filerViewModel: CanyonFilterViewModel,
+        filterViewModel: CanyonFilterViewModel,
         weatherViewModel: WeatherViewModel,
         canyonService: RopeWikiServiceInterface,
         favoriteService: FavoriteService,
@@ -24,7 +24,8 @@ class NearMeViewModel: ResultsViewModel {
         self.searchService = searchService
         super.init(
             applyFilters: true,
-            filterViewModel: filerViewModel,
+            filterViewModel: filterViewModel,
+            filterSheetViewModel: CanyonFilterSheetViewModel(filterViewModel: filterViewModel),
             weatherViewModel: weatherViewModel,
             canyonService: canyonService,
             favoriteService: favoriteService

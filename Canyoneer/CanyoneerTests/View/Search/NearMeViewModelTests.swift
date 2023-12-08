@@ -26,7 +26,7 @@ class NearMeViewModelTests: XCTestCase {
         }
         service.queryResults = QueryResultList(searchString: "Any Title", results: queryResults)
         let viewModel = NearMeViewModel(
-            filerViewModel: CanyonFilterViewModel(initialState: .default),
+            filterViewModel: CanyonFilterViewModel(initialState: .default),
             weatherViewModel: WeatherViewModel(),
             canyonService: MockRopeWikiService(),
             favoriteService: FavoriteService(),

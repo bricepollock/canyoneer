@@ -11,7 +11,8 @@ import UIKit
 
 @MainActor
 class MapService {
-    @Published public var downloadProgress: Progress? = nil
+    /// Percentage of progress complete
+    @Published public var downloadPercentage: Double? = nil
     
     public static let publicAccessToken = "pk.eyJ1IjoiYnJpY2Vwb2xsb2NrIiwiYSI6ImNreWRhdGNtODAyNzUyb2xoMXdmbWFvd3UifQ.-iGgCZKoYX9wKf5uAyLWHA"
     private let tileStore = TileStore.default
@@ -81,17 +82,19 @@ class MapService {
     }
     
     func downloadTiles(for canyons: [Canyon]) async throws {
-        self.downloadProgress = Progress()
+        let downloadProgress = Progress()
         try await withThrowingTaskGroup(of: Void.self) { group in
             canyons.forEach { canyon in
-                downloadProgress?.totalUnitCount += 1
+                downloadProgress.totalUnitCount += 1
                 _ = group.addTaskUnlessCancelled { [weak self] in
                     guard let self else { return }
                     try await self.downloadTile(for: canyon)
-                    await self.downloadProgress?.completedUnitCount += 1
                 }
             }
-            try await group.waitForAll()
+            for try await _ in group {
+                downloadProgress.completedUnitCount += 1
+                downloadPercentage = downloadProgress.fractionCompleted
+            }
         }
     }
 }

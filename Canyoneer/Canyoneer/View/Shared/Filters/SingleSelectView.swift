@@ -42,10 +42,10 @@ enum BoolChoice: CaseIterable {
 
 @MainActor
 class SingleSelectViewModel: ObservableObject {
-    let choices: [PickerChoice]
-    @Published var selection: PickerChoice
+    let choices: [String]
+    @Published var selection: String
     
-    init(selection: PickerChoice, choices: [PickerChoice]) {
+    init(selection: String, choices: [String]) {
         self.selection = selection
         self.choices = choices
     }
@@ -53,8 +53,8 @@ class SingleSelectViewModel: ObservableObject {
     convenience init(selection: Bool?) {
         let initial = BoolChoice(selection)
         self.init(
-            selection: PickerChoice(text: initial.text),
-            choices: BoolChoice.allCases.map { PickerChoice(text: $0.text) }
+            selection: initial.text,
+            choices: BoolChoice.allCases.map { $0.text }
         )
     }
 }
@@ -65,20 +65,20 @@ struct SingleSelectView: View {
     @ViewBuilder
     var body: some View {
         HStack(spacing: 0) {
-            ForEach(viewModel.choices) { choice in
-                if choice.id != viewModel.choices.first?.id {
+            ForEach(viewModel.choices, id: \.self) { choice in
+                if choice != viewModel.choices.first {
                     Divider()
                 }
                     
                 Button {
                     viewModel.selection = choice
                 } label: {
-                    Text(choice.text)
+                    Text(choice)
                         .font(FontBook.Body.regular)
-                        .foregroundColor(choice.id == viewModel.selection.id ? ColorPalette.GrayScale.white : ColorPalette.GrayScale.black )
+                        .foregroundColor(choice == viewModel.selection ? ColorPalette.GrayScale.white : ColorPalette.GrayScale.black )
                         .padding(.vertical, 4)
                         .padding(.horizontal, 8)
-                        .background(choice.id == viewModel.selection.id ? ColorPalette.Color.action : Color.clear )
+                        .background(choice == viewModel.selection ? ColorPalette.Color.action : Color.clear )
                         .clipShape(RoundedRectangle(cornerRadius: 4))
                 }
                 .background(.clear)

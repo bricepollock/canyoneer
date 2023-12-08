@@ -21,16 +21,23 @@ struct CanyonFilterSheetView: View {
                     viewModel.reset()
                 }
             }
-            ForEach(viewModel.filters) { filter in
-                filterView(for: filter)
+            if let filters = viewModel.filters {
+                ForEach(filters) { filter in
+                    filterView(for: filter)
+                }
+            } else {
+                LargeProgressView()
             }
-            ContainedButton(title: Strings.save) {
+            ContainedButton(title: Strings.dismiss) {
                 dismiss()
             }
             Spacer()
         }
         .padding(Grid.medium)
         .presentationDetents([.height(550)])
+        .onAppear {
+            viewModel.refresh()
+        }
     }
 
     @ViewBuilder
@@ -58,7 +65,7 @@ struct CanyonFilterSheetView: View {
     }
     
     private enum Strings {
-        static let save = "Save"
+        static let dismiss = "Dismiss"
         static let reset = "Reset All"
     }
 }

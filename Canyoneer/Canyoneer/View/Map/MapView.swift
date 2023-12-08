@@ -81,6 +81,7 @@ struct MapView: View {
                     viewModel: MapListViewModel(
                         canyonsOnMap: viewModel.canyonMapViewOwner.visibleCanyons,
                         filterViewModel: viewModel.filterViewModel,
+                        filterSheetViewModel: viewModel.filterSheetViewModel,
                         weatherViewModel: viewModel.weatherViewModel,
                         canyonService: viewModel.canyonService,
                         favoriteService: viewModel.favoriteService
@@ -114,11 +115,7 @@ struct MapView: View {
             MapLegendView()
         }
         .sheet(isPresented: $showFilters) {
-            CanyonFilterSheetView(
-                viewModel: CanyonFilterSheetViewModel(
-                    filterViewModel: self.viewModel.filterViewModel
-                )
-            )
+            CanyonFilterSheetView(viewModel: self.viewModel.filterSheetViewModel)
         }
     }
 }

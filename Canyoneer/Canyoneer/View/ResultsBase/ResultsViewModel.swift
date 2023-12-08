@@ -34,6 +34,7 @@ import Combine
     init(
         applyFilters: Bool,
         filterViewModel: CanyonFilterViewModel,
+        filterSheetViewModel: CanyonFilterSheetViewModel,
         weatherViewModel: WeatherViewModel,
         canyonService: RopeWikiServiceInterface,
         favoriteService: FavoriteService
@@ -42,7 +43,7 @@ import Combine
         self.unfilteredResults = []
         self.results = []
         self.filterViewModel = filterViewModel
-        self.filterSheetViewModel = CanyonFilterSheetViewModel(filterViewModel: filterViewModel)
+        self.filterSheetViewModel = filterSheetViewModel
         self.weatherViewModel = weatherViewModel
         self.canyonService = canyonService
         self.favoriteService = favoriteService
@@ -53,16 +54,18 @@ import Combine
             guard applyFilters else {
                 return unfiltered
             }
-            return filterViewModel.filter(results: unfiltered)
+            return filterViewModel.filter(results: unfiltered, with: filterViewModel.currentState)
         }.assign(to: &$results)
         
         // Update results when filters change
         if applyFilters {
             filterViewModel.$currentState
                 .dropFirst() // only care about updates
-                .compactMap { [weak self] _ in
+                .compactMap { [weak self] state in
                     guard let self else { return nil }
-                    return self.filterViewModel.filter(results: self.unfilteredResults)
+                    let filtered = self.filterViewModel.filter(results: self.unfilteredResults, with: state)
+                    Global.logger.debug("Filtered Favorites: \(filtered.count)/\(unfilteredResults.count)")
+                    return filtered
                 }
                 .assign(to: &$results)
             

@@ -26,7 +26,7 @@ class SearchViewModel: ResultsViewModel {
     ) {
         self.searchService = searchService
         self.nearMeViewModel = NearMeViewModel(
-            filerViewModel: filterViewModel,
+            filterViewModel: filterViewModel,
             weatherViewModel: weatherViewModel,
             canyonService: canyonService,
             favoriteService: favoriteService,
@@ -36,6 +36,7 @@ class SearchViewModel: ResultsViewModel {
         super.init(
             applyFilters: true,
             filterViewModel: filterViewModel,
+            filterSheetViewModel: CanyonFilterSheetViewModel(filterViewModel: filterViewModel),
             weatherViewModel: weatherViewModel,
             canyonService: canyonService,
             favoriteService: favoriteService

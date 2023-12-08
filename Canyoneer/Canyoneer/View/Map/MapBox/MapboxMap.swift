@@ -48,7 +48,11 @@ class MapboxMapViewOwner: NSObject, CanyonMap {
     }
     
     var visibleCanyons: [Canyon] {
-        Global.logger.error("Not implemented -- visibleCanyons")
+        Global.logger.error("Not implemented because only supports one canyon right now")
+        return []
+    }
+    var currentCanyons: [Canyon] {
+        Global.logger.error("Not implemented because only supports one canyon right now")
         return []
     }
     
@@ -63,7 +67,7 @@ class MapboxMapViewOwner: NSObject, CanyonMap {
         }
     }
     
-    func renderAnnotations(canyons: [Canyon]) {
+    func addAnnotations(for canyons: [Canyon]) {
         let annotationManager = self.mapView.annotations.makePointAnnotationManager()
         annotationManager.annotations = canyons.map {
             let point = Point($0.coordinate.asCLObject)
@@ -77,13 +81,21 @@ class MapboxMapViewOwner: NSObject, CanyonMap {
         }
     }
     
+    func removeAnnotations(for canyonMap: [String : Canyon]) {
+        let annotationManager = self.mapView.annotations.makePointAnnotationManager()
+        annotationManager.annotations = annotationManager.annotations.filter {
+            guard let canyon = $0.userInfo?["canyon"] as? Canyon else { return true }
+            return canyonMap[canyon.id] == nil
+        }
+    }
+    
     func removeAnnotations() {
         let annotationManager = self.mapView.annotations.makePointAnnotationManager()
         annotationManager.annotations = []
     }
     
     public func deselectCanyons() {
-        Global.logger.error("Not implemented -- deselectCanyons")
+        Global.logger.error("Not implemented because doesn't support canyon sele")
     }
     
     func renderPolylines(canyons: [Canyon]) {

@@ -35,8 +35,8 @@ struct FavoriteListView: View {
             }
             .overlay(alignment: .top) {
                 if viewModel.isDownloading {
-                    // FIXME: Some sort of animation?
                     DownloadBar(progress: $viewModel.progress)
+                        .padding(Grid.medium)
                     Spacer()
                 }
             }

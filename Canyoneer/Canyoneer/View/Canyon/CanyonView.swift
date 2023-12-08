@@ -26,6 +26,7 @@ struct CanyonView: View {
 
             }
         }
+        .navigationBarTitleDisplayMode(.inline)
         .task {
             await viewModel.refresh()
         }

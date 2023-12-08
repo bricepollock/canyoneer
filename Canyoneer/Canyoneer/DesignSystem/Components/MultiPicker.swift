@@ -2,19 +2,6 @@
 
 import SwiftUI
 
-// FIXME: Make this a protocol / generic probably. Conversions are annoying
-struct PickerChoice: Hashable, Identifiable {
-    var id: String {
-        text
-    }
-    
-    let text: String
-    
-    func hash(into hasher: inout Hasher) {
-      hasher.combine(text)
-    }
-}
-
 @MainActor
 class MultiPickerViewModel: ObservableObject {
     enum Component {
@@ -24,19 +11,20 @@ class MultiPickerViewModel: ObservableObject {
         var choices: [String] {
             switch self {
             case .spread(let max, let min, let step):
-                return Array(stride(from: min, to: max, by: step)).map { String($0) }
+                let end = max + step // we want to include the max
+                return Array(stride(from: min, to: end, by: step)).map { String($0) }
             case .contains(let list):
                 return list
             }
         }
     }
     
-    let leftChoices: [PickerChoice]
-    let rightChoices: [PickerChoice]
+    let leftChoices: [String]
+    let rightChoices: [String]
     let seperator: String
     
-    @Published var leftValue: PickerChoice
-    @Published var rightValue: PickerChoice
+    @Published var leftValue: String
+    @Published var rightValue: String
     
     init(
         left: Component,
@@ -45,11 +33,11 @@ class MultiPickerViewModel: ObservableObject {
         currentLeft: String,
         currentRight: String
     ) {
-        leftChoices = left.choices.map { PickerChoice(text: $0) }
+        leftChoices = left.choices
         self.seperator = seperator
-        rightChoices = right.choices.map { PickerChoice(text: $0) }
-        leftValue = PickerChoice(text: currentLeft)
-        rightValue = PickerChoice(text: currentRight)
+        rightChoices = right.choices
+        leftValue = currentLeft
+        rightValue = currentRight
     }
 }
 
@@ -66,33 +54,29 @@ struct MultiPickerView: View {
                     dismiss()
                 }
             }
-            HStack {
-                Picker(selection: $viewModel.leftValue) {
-                    ForEach(viewModel.leftChoices) {
-                        Text($0.text)
+            HStack(alignment: .center) {
+                Picker("", selection: $viewModel.leftValue) {
+                    ForEach(viewModel.leftChoices, id: \.self) {
+                        Text($0)
                             .font(FontBook.Body.regular)
                     }
-                } label: {
-                    Text("Left --")
                 }
                 .pickerStyle(.wheel)
                 
                 Text(viewModel.seperator)
-                    .font(FontBook.Heading.emphasis)
+                    .font(FontBook.Heading.regular)
                 
-                
-                Picker(selection: $viewModel.rightValue) {
-                    ForEach(viewModel.rightChoices) {
-                        Text($0.text)
+                Picker("", selection: $viewModel.rightValue) {
+                    ForEach(viewModel.rightChoices, id: \.self) {
+                        Text($0)
                             .font(FontBook.Body.regular)
                     }
-                } label: {
-                    Text("Right --")
                 }
                 .pickerStyle(.wheel)
-
             }
         }
+        .padding(Grid.medium)
+        .presentationDetents([.height(280)])
     }
     
     private enum Strings {
