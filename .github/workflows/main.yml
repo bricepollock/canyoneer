@@ -8,6 +8,10 @@ on:
 jobs:
   test:
     runs-on: macOS-latest
+    steps:
+        - uses: maxim-lobanov/setup-xcode@v1
+          with:
+            xcode-version: latest-stable
     
     steps:
       - uses: actions/checkout@v4 #checkout working dir
