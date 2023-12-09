@@ -70,7 +70,7 @@ class MainTabViewModel: ObservableObject {
         )
         
         searchViewModel = SearchViewModel(
-            searchService: SearchService(),
+            searchService: SearchService(canyonService: canyonService),
             filterViewModel: filterViewModel,
             weatherViewModel: weatherViewModel,
             canyonService: canyonService,

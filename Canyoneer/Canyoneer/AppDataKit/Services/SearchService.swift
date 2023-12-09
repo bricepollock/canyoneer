@@ -20,21 +20,20 @@ struct SearchService: SearchServiceInterface {
     private let ropeWikiService: RopeWikiServiceInterface
     private let locationService = LocationService()
     
-    init(canyonService: RopeWikiServiceInterface = RopeWikiService()) {
+    init(canyonService: RopeWikiServiceInterface) {
         self.ropeWikiService = canyonService
     }
     
     func requestSearch(for searchString: String) async -> QueryResultList {
         let canyons = await self.ropeWikiService.canyons()
-        var results = [QueryResult]()
-        canyons.filter { canyon in
+        let results = canyons.filter { canyon in
             return canyon.name.lowercased().contains(searchString.lowercased())
         }.sorted(by: { lhs, rhs in
             return lhs.quality > rhs.quality
         })
         .prefix(Self.maxQueryResults)
-        .forEach { canyon in
-            results.append(QueryResult(name: canyon.name, canyonDetails: canyon))
+        .map { canyon in
+            QueryResult(name: canyon.name, canyonDetails: canyon)
         }
         
         return QueryResultList(searchString: searchString, results: results)

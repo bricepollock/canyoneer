@@ -32,6 +32,7 @@ actor RopeWikiService: RopeWikiServiceInterface {
             canyons.forEach {
                 self.storage.set(key: $0.id, value: $0)
             }
+            Global.logger.debug("Loaded \(canyons.count) canyons into memory")
             return canyons
         } catch {
             assertionFailure(error.localizedDescription)
@@ -52,7 +53,7 @@ actor RopeWikiService: RopeWikiServiceInterface {
         do {
             // We had to split into two files to get around githubs large file limit. We split the DB at "Uranus Canyon" which was more or less halfway.
             let first = try self.loadFromFile(from: "ropewiki_database_pt1")
-            let second = try self.loadFromFile(from: "ropewiki_database_pt1")
+            let second = try self.loadFromFile(from: "ropewiki_database_pt2")
             return  first + second
         } catch {
             Global.logger.error("Serialization Error: \(String(describing: error))")

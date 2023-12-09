@@ -19,7 +19,7 @@ class NearMeViewModel: ResultsViewModel {
         weatherViewModel: WeatherViewModel,
         canyonService: RopeWikiServiceInterface,
         favoriteService: FavoriteService,
-        searchService: SearchServiceInterface = SearchService()
+        searchService: SearchServiceInterface
     ) {
         self.searchService = searchService
         super.init(
