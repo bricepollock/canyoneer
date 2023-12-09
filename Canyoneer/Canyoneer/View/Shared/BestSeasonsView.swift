@@ -42,6 +42,7 @@ struct BestSeasonsView: View {
     @ViewBuilder
     func monthView(for month: Month) -> some View {
         Button(action: {
+            guard viewModel.isUserInteractionEnabled else { return }
             viewModel.toggle(for: month)
         }, label: {
             Text(month.short)
