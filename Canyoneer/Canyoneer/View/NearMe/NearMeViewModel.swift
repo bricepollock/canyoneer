@@ -9,31 +9,48 @@ import Foundation
 
 @MainActor
 class NearMeViewModel: ResultsViewModel {
-    
-    enum Strings {
-        static func nearMe(limit: Int) -> String {
-            return "Near Me (Top \(limit))"
-        }
-    }
     private static let maxNearMe = 100
     
+    public var mapViewModel: MapViewModel?
     private let searchService: SearchServiceInterface
     
-    init(searchService: SearchServiceInterface = SearchService()) {
+    init(
+        filterViewModel: CanyonFilterViewModel,
+        weatherViewModel: WeatherViewModel,
+        canyonService: RopeWikiServiceInterface,
+        favoriteService: FavoriteService,
+        searchService: SearchServiceInterface
+    ) {
         self.searchService = searchService
-        super.init(type: .nearMe, results: [])
+        super.init(
+            applyFilters: true,
+            filterViewModel: filterViewModel,
+            filterSheetViewModel: CanyonFilterSheetViewModel(filterViewModel: filterViewModel),
+            weatherViewModel: weatherViewModel,
+            canyonService: canyonService,
+            favoriteService: favoriteService
+        )
     }
     
-    override func refresh() async {
-        self.title = Strings.nearMe(limit: Self.maxNearMe)
-        
+    func refresh() async {
+        isLoading = true
+        defer { isLoading = false }
         do {
-            let results = try await self.searchService.nearMeSearch(limit: Self.maxNearMe)
-            self.initialResults = results.result
-            self.currentResults = results.result
+            let resultList = try await self.searchService.nearMeSearch(limit: Self.maxNearMe)
+            title = resultList.searchString
+            self.updateResults(to: resultList.results)
+            
+            self.mapViewModel = MapViewModel(
+                type: .apple,
+                allCanyons: self.results.map { $0.canyonDetails },
+                applyFilters: true,
+                filterViewModel: filterViewModel,
+                weatherViewModel: weatherViewModel,
+                canyonService: canyonService,
+                favoriteService: favoriteService
+            )
         } catch {
             Global.logger.error(error)
         }
-        self.loadingComponent.stopLoading()
     }
 }

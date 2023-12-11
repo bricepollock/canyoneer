@@ -32,6 +32,7 @@ actor RopeWikiService: RopeWikiServiceInterface {
             canyons.forEach {
                 self.storage.set(key: $0.id, value: $0)
             }
+            Global.logger.debug("Loaded \(canyons.count) canyons into memory")
             return canyons
         } catch {
             assertionFailure(error.localizedDescription)
@@ -52,7 +53,7 @@ actor RopeWikiService: RopeWikiServiceInterface {
         do {
             // We had to split into two files to get around githubs large file limit. We split the DB at "Uranus Canyon" which was more or less halfway.
             let first = try self.loadFromFile(from: "ropewiki_database_pt1")
-            let second = try self.loadFromFile(from: "ropewiki_database_pt1")
+            let second = try self.loadFromFile(from: "ropewiki_database_pt2")
             return  first + second
         } catch {
             Global.logger.error("Serialization Error: \(String(describing: error))")
@@ -62,7 +63,7 @@ actor RopeWikiService: RopeWikiServiceInterface {
     
     func loadFromFile(from fileName: String) throws -> [Canyon] {
         let decoder = JSONDecoder()
-        let bundle = Bundle(for: CombineUIButton.self)
+        let bundle = Bundle(for: RopeWikiService.self)
         
         guard let path = bundle.path(forResource: fileName, ofType: "json") else {
             throw RequestError.serialization
@@ -70,7 +71,7 @@ actor RopeWikiService: RopeWikiServiceInterface {
 
         let jsonData = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
         let canyonDataList = try decoder.decode([CanyonDataPoint].self, from: jsonData)
-        return canyonDataList.compactMap { data in
+        return canyonDataList.compactMap { data -> Canyon? in
             guard let latitude = data.latitude, let longitude = data.longitude else {
                 return nil
             }
@@ -100,10 +101,10 @@ actor RopeWikiService: RopeWikiServiceInterface {
                 requiresShuttle: data.requiresShuttle,
                 requiresPermit: data.requiresPermits,
                 ropeWikiURL: URL(string: data.urlString),
-                technicalDifficulty: data.technicalDifficulty,
+                technicalDifficulty: TechnicalGrade(data: data.technicalDifficulty),
                 risk: data.risk,
-                timeGrade: data.timeRatingString,
-                waterDifficulty: data.waterDifficulty,
+                timeGrade: TimeGrade(data: data.timeRatingString),
+                waterDifficulty: WaterGrade(data: data.waterDifficulty),
                 quality: data.quality,
                 vehicleAccessibility: data.vehicleAccessibility,
                 description: data.htmlDescription ?? "",

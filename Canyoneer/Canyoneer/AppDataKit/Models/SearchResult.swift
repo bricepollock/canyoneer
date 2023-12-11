@@ -1,5 +1,5 @@
 //
-//  SearchResult.swift
+//  QueryResult.swift
 //  Canyoneer
 //
 //  Created by Brice Pollock on 1/6/22.
@@ -7,14 +7,20 @@
 
 import Foundation
 
-struct SearchResult {
+/// A result list item for a canyon from a query (map, search, etc.)
+struct QueryResult: Identifiable {
     let name: String
     let canyonDetails: Canyon
+    
+    var id: String {
+        canyonDetails.id
+    }
 }
 
-struct SearchResultList {
+/// Full result list for a query (map, search, etc.)
+struct QueryResultList {
     let searchString: String
-    let result: [SearchResult]
+    let results: [QueryResult]
 }
 
 

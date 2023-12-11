@@ -6,32 +6,77 @@
 //
 
 import Foundation
+import SwiftUI
 import Combine
 
-class ResultsViewModel {
-    @Published public var title: String?
-    // used for what to show
-    @Published public var currentResults: [SearchResult] = []
-    // used for base of the filtering
+/// A base-class for result views that manages state
+@MainActor class ResultsViewModel: NSObject, ObservableObject {
+    /// Title of view
+    /// Can change depending upon results
+    @Published public var title: String
     
-    public var initialResults: [SearchResult] = []
+    /// Results shown in view, possibly filtered
+    /// - Warning: Will update automatically when filters change if applied
+    @Published public private(set) var results: [QueryResult]
     
-    public let loadingComponent = LoadingComponent()
+    /// Keeps a copy of unfiltered results so we can apply different filter treatments to the same result-set
+    @Published private var unfilteredResults: [QueryResult]
     
-    public let type: SearchType
+    /// Whether view is processing query
+    @Published var isLoading: Bool = false
     
-    // views that pass no search results are expected to use the refresh method to populate
-    init(type: SearchType, results: [SearchResult]) {
-        self.type = type
+    public let canyonService: RopeWikiServiceInterface
+    public let favoriteService: FavoriteService
+    public let weatherViewModel: WeatherViewModel
+    public let filterSheetViewModel: CanyonFilterSheetViewModel
+    public let filterViewModel: CanyonFilterViewModel
+
+    init(
+        applyFilters: Bool,
+        filterViewModel: CanyonFilterViewModel,
+        filterSheetViewModel: CanyonFilterSheetViewModel,
+        weatherViewModel: WeatherViewModel,
+        canyonService: RopeWikiServiceInterface,
+        favoriteService: FavoriteService
+    ) {
+        self.title = ""
+        self.unfilteredResults = []
+        self.results = []
+        self.filterViewModel = filterViewModel
+        self.filterSheetViewModel = filterSheetViewModel
+        self.weatherViewModel = weatherViewModel
+        self.canyonService = canyonService
+        self.favoriteService = favoriteService
         
-        self.initialResults = results
-        self.currentResults = self.initialResults
+        super.init()
+        
+        $unfilteredResults.map { unfiltered in
+            guard applyFilters else {
+                return unfiltered
+            }
+            return filterViewModel.filter(results: unfiltered, with: filterViewModel.currentState)
+        }.assign(to: &$results)
+        
+        // Update results when filters change
+        if applyFilters {
+            filterViewModel.$currentState
+                .dropFirst() // only care about updates
+                .compactMap { [weak self] state in
+                    guard let self else { return nil }
+                    let filtered = self.filterViewModel.filter(results: self.unfilteredResults, with: state)
+                    Global.logger.debug("Filtered Favorites: \(filtered.count)/\(unfilteredResults.count)")
+                    return filtered
+                }
+                .assign(to: &$results)
+            
+        }
     }
     
-    // refresh the view if it has logic to do so. No-op for some results pages
-    open func refresh() async { }
+    func updateResults(to new: [QueryResult]) {
+        unfilteredResults = new
+    }
     
-    func updateFromFilter(with filtered: [SearchResult]) {
-        self.currentResults = filtered
+    func clear() {
+        unfilteredResults = []
     }
 }

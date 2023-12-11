@@ -11,29 +11,37 @@ import XCTest
 
 @MainActor
 class FavoritesViewModelTests: XCTestCase {
+    var service: MockRopeWikiService!
+    var viewModel: FavoriteListViewModel!
     
     override func setUp() {
         super.setUp()
         UserPreferencesStorage.clearFavorites()
+        
+        service = MockRopeWikiService()
+        viewModel = FavoriteListViewModel(
+            weatherViewModel: WeatherViewModel(),
+            mapService: MapService(),
+            canyonService: service,
+            favoriteService: FavoriteService()
+        )
+        
     }
     
     func testReturnsFavorites() async {
         // setup
         let canyon = Canyon.dummy()
-        let viewModel = FavoritesViewModel()
         UserPreferencesStorage.addFavorite(canyon: canyon)
         
         // test
         await viewModel.refresh()
-        XCTAssertEqual(viewModel.currentResults.count, 1)
+        XCTAssertEqual(viewModel.results.count, 1)
     }
     
     func testTitle() async {
         // setup
         let canyon = Canyon.dummy()
-        let service = MockRopeWikiService()
         service.mockCanyons = [canyon, Canyon.dummy(), Canyon.dummy(), Canyon.dummy()]
-        let viewModel = FavoritesViewModel()
         
         // test
         await viewModel.refresh()

@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 import CoreLocation
 import MapboxMaps
 import Combine
@@ -22,28 +23,37 @@ extension Point {
     }
 }
 
-class MapboxMapView: NSObject, CanyonMap {
-    public var locationService = LocationService()
-    
-    private var mapView: MapView!
-    public var view: UIView {
-        if self.mapView == nil {
-            let myResourceOptions = ResourceOptions(accessToken: MapService.publicAccessToken)
-            let myMapInitOptions = MapInitOptions(
-                resourceOptions: myResourceOptions,
-                styleURI: StyleURI.outdoors
-            )
-            self.mapView = MapView(frame: UIScreen.main.bounds, mapInitOptions: myMapInitOptions)
-        }
-        return self.mapView
-    }
+class MapboxMapViewOwner: NSObject, CanyonMap {
+    public let view: CanyonMapViewType
+    private let mapView: MapboxMaps.MapView
     
     let didRequestCanyon = PassthroughSubject<String, Never>()
     
+    public let locationService: LocationService
     private var mapOverlays = [PolylineAnnotation]()
     
+    init(
+        locationService: LocationService = LocationService()
+    ) {        
+        let myResourceOptions = ResourceOptions(accessToken: MapService.publicAccessToken)
+        let myMapInitOptions = MapInitOptions(
+            resourceOptions: myResourceOptions,
+            styleURI: StyleURI.outdoors
+        )
+        let mapboxMapView = MapboxMaps.MapView(frame: UIScreen.main.bounds, mapInitOptions: myMapInitOptions)
+        self.mapView = mapboxMapView
+        self.view = .mapbox(AnyUIKitView(view: mapboxMapView))
+        
+        self.locationService = locationService
+    }
+    
     var visibleCanyons: [Canyon] {
-        fatalError("Not implemented")
+        Global.logger.error("Not implemented because only supports one canyon right now")
+        return []
+    }
+    var currentCanyons: [Canyon] {
+        Global.logger.error("Not implemented because only supports one canyon right now")
+        return []
     }
     
     func initialize() {
@@ -57,12 +67,12 @@ class MapboxMapView: NSObject, CanyonMap {
         }
     }
     
-    func renderAnnotations(canyons: [Canyon]) {
+    func addAnnotations(for canyons: [Canyon]) {
         let annotationManager = self.mapView.annotations.makePointAnnotationManager()
         annotationManager.annotations = canyons.map {
             let point = Point($0.coordinate.asCLObject)
             var annotation = PointAnnotation(point: point)
-            let image = UIImage(systemName: "pin.fill")!.withTintColor(ColorPalette.Color.warning, renderingMode: .alwaysOriginal)
+            let image = UIImage(systemName: "pin.fill")!.withTintColor(UIColor(ColorPalette.Color.warning), renderingMode: .alwaysOriginal)
             annotation.image = .init(image: image, name: "red_pin")
             annotation.textField = $0.name
             annotation.iconAnchor = .bottom
@@ -71,9 +81,21 @@ class MapboxMapView: NSObject, CanyonMap {
         }
     }
     
+    func removeAnnotations(for canyonMap: [String : Canyon]) {
+        let annotationManager = self.mapView.annotations.makePointAnnotationManager()
+        annotationManager.annotations = annotationManager.annotations.filter {
+            guard let canyon = $0.userInfo?["canyon"] as? Canyon else { return true }
+            return canyonMap[canyon.id] == nil
+        }
+    }
+    
     func removeAnnotations() {
         let annotationManager = self.mapView.annotations.makePointAnnotationManager()
         annotationManager.annotations = []
+    }
+    
+    public func deselectCanyons() {
+        Global.logger.error("Not implemented because doesn't support canyon sele")
     }
     
     func renderPolylines(canyons: [Canyon]) {
@@ -88,7 +110,7 @@ class MapboxMapView: NSObject, CanyonMap {
                 } else {
                     geoColor = nil
                 }
-                let color = type == .unknown ? geoColor ?? type.color : type.color
+                let color = type == .unknown ? geoColor ?? UIColor(type.color) : UIColor(type.color)
                 overlay.lineColor = StyleColor(color)
                 overlay.lineWidth = 3
                 overlay.lineOpacity = 0.5
@@ -130,7 +152,7 @@ class MapboxMapView: NSObject, CanyonMap {
             }
             
             var annotation = PointAnnotation(point: point)
-            let image = UIImage(systemName: "pin.fill")!.withTintColor(ColorPalette.Color.warning, renderingMode: .alwaysOriginal)
+            let image = UIImage(systemName: "pin.fill")!.withTintColor(UIColor(ColorPalette.Color.warning), renderingMode: .alwaysOriginal)
             annotation.image = .init(image: image, name: "red_pin")
             annotation.textField = feature.name
             annotation.iconAnchor = .bottom
@@ -141,7 +163,7 @@ class MapboxMapView: NSObject, CanyonMap {
         if waypoints.isEmpty {
             let point = Point(canyon.coordinate.asCLObject)
             var annotation = PointAnnotation(point: point)
-            let image = UIImage(systemName: "pin.fill")!.withTintColor(ColorPalette.Color.warning, renderingMode: .alwaysOriginal)
+            let image = UIImage(systemName: "pin.fill")!.withTintColor(UIColor(ColorPalette.Color.warning), renderingMode: .alwaysOriginal)
             annotation.image = .init(image: image, name: "red_pin")
             annotation.textField = canyon.name
             annotation.iconAnchor = .bottom
@@ -185,7 +207,7 @@ class MapboxMapView: NSObject, CanyonMap {
     }
 }
 
-extension MapboxMapView: AnnotationInteractionDelegate {
+extension MapboxMapViewOwner: AnnotationInteractionDelegate {
     public func annotationManager(_ manager: AnnotationManager, didDetectTappedAnnotations annotations: [Annotation]) {
         guard let first = annotations.first, let canyon = first.userInfo?["canyon"] as? Canyon else {
             Global.logger.error("Cannot find canyon from annotation")

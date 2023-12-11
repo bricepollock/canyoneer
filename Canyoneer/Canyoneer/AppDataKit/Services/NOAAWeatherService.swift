@@ -113,7 +113,9 @@ class NOAAWeatherService: NetworkService, WeatherService {
     private func convertToWeatherResponse(areaCoord: Coordinate, date: Date, pointForecast: NOAAData.PointForecast, gridForecast: NOAAData.GridForecast) throws -> WeatherDetails {
         var weatherPoints = [WeatherDataPoint]()
         
-        for dayIndex in 0..<gridForecast.maxTemp.count {
+        // Rarely these can be different sizes and we can get out of range 
+        let totalDaysCount = min(gridForecast.minTemp.count, gridForecast.maxTemp.count)
+        for dayIndex in 0..<totalDaysCount {
             guard let date = gridForecast.maxTemp[dayIndex].date else { continue }
             weatherPoints.append( WeatherDataPoint(
                 time: date,
