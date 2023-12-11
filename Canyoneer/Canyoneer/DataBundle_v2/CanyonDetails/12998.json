@@ -1,0 +1,600 @@
+{
+  "url": "https://ropewiki.com/Aguila",
+  "latitude": 27.797,
+  "longitude": -15.5486,
+  "id": 12998,
+  "name": "Aguila",
+  "quality": 3,
+  "months": [
+    "Mar",
+    "Apr",
+    "May",
+    "Dec",
+    "Jan",
+    "Feb",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov"
+  ],
+  "technicalRating": 3,
+  "waterRating": "B",
+  "timeRating": "II",
+  "permit": "No",
+  "rappelCountMin": 1,
+  "rappelCountMax": 5,
+  "rappelLongestMeters": 35,
+  "vehicle": "Passenger",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>One of the only decent canyons on Gran Canaria. Probably not worth\nbringing your canyoneering gear to the island just for this one, but if\nyou have rope and a harness, it's worth doing. Water in spring can be\nvery cold. If done outside of spring, the few pools will still likely\nhave water, with at least one mandatory swim.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>The road to the canyon is rough. A low-clearance passenger car will\nnot make it any farther than the point on the GPS track above marked\n'Parking'.</p>\n<p>Follow the GPS track from the parking area to the slope. Go down the\nsteep slope. While there may be some loose rocks, you should not be on\nany cliffs or any exposed area. Once on the canyon bottom, walk a few\nminutes downcanyon until arriving at the first pool, which starts the\ncanyon.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>Once in the canyon, you'll quickly encounter small pools and four\noptional rappels up to 4 meters off of bolts. If flowing, enjoy the\nwater. If not flowing, there will be at least one mandatory swim, even\nafter months without rain.</p>\n<p>After a picturesque pool, you'll quickly reach the big rappel.\nDownclimb into a large pool, and on the lip of the pool you will have to\nrig the final rappel off bolts on the left. The rappel is about 35\nmeters. All too soon, the canyon ends.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>From the final, big rappel, walk 20 minutes down canyon and exit up\ngully on canyon right. From the gully, use your GPS to navigate pack to\nthe car. There is no marked trail, but no bushwhacking either.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>No permits required, but the road to the canyon is private land.\nPlease kindly ask the owners for permission to cross their land. They\nclose the gate at dark, so make sure you are out on time.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/23400\">Descente-Canyon.com</a>\n: Aguila</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barrancoscanarios.com/barrancos/gran-canaria1/sector-sur/barranco-del-aguila\">BarrancosCanarios.com</a>\n: Barranco del Aguila</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p><a\nhref=\"https://www.LukasEddy.com/Canyons-of-the-Canary-Islands\">https://www.LukasEddy.com/Canyons-of-the-Canary-Islands</a></p>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.548203444977846,
+            27.802897073696357,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Start"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.547302237318947,
+            27.800484337392202,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Finish"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.553787484955137,
+            27.795253406584155,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -15.548197384632662,
+              27.80289508277541,
+              0
+            ],
+            [
+              -15.547934528149202,
+              27.802797807449828,
+              0
+            ],
+            [
+              -15.5477360446821,
+              27.802382606910346,
+              0
+            ],
+            [
+              -15.547580476559236,
+              27.802240252074434,
+              0
+            ],
+            [
+              -15.547486245632173,
+              27.801972784595883,
+              0
+            ],
+            [
+              -15.547352135181429,
+              27.80181619367553,
+              0
+            ],
+            [
+              -15.547290444374086,
+              27.801493520764456,
+              0
+            ],
+            [
+              -15.54730921983719,
+              27.80121118118127,
+              0
+            ],
+            [
+              -15.547285079956056,
+              27.8008742708027,
+              0
+            ],
+            [
+              -15.54732531309128,
+              27.8007319139908,
+              0
+            ],
+            [
+              -15.547301173210146,
+              27.800485161741697,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Descent",
+          "stroke": "#FF0000",
+          "stroke-opacity": 1,
+          "stroke-width": 5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -15.553780528098288,
+              27.79524496088511,
+              0
+            ],
+            [
+              -15.55377,
+              27.79527,
+              0
+            ],
+            [
+              -15.55396,
+              27.79561,
+              0
+            ],
+            [
+              -15.55397,
+              27.79572,
+              0
+            ],
+            [
+              -15.553946773158515,
+              27.795771983883327,
+              0
+            ],
+            [
+              -15.553946773158515,
+              27.795771983883327,
+              0
+            ],
+            [
+              -15.55376,
+              27.79619,
+              0
+            ],
+            [
+              -15.55369,
+              27.79688,
+              0
+            ],
+            [
+              -15.55345,
+              27.79749,
+              0
+            ],
+            [
+              -15.55328,
+              27.79772,
+              0
+            ],
+            [
+              -15.55314,
+              27.79778,
+              0
+            ],
+            [
+              -15.55314,
+              27.79778,
+              0
+            ],
+            [
+              -15.55314,
+              27.79778,
+              0
+            ],
+            [
+              -15.55276,
+              27.79814,
+              0
+            ],
+            [
+              -15.55265,
+              27.7987,
+              0
+            ],
+            [
+              -15.55265,
+              27.7987,
+              0
+            ],
+            [
+              -15.55265,
+              27.7987,
+              0
+            ],
+            [
+              -15.55242,
+              27.79962,
+              0
+            ],
+            [
+              -15.55242,
+              27.8,
+              0
+            ],
+            [
+              -15.55237,
+              27.80021,
+              0
+            ],
+            [
+              -15.55237,
+              27.80021,
+              0
+            ],
+            [
+              -15.55231,
+              27.80046,
+              0
+            ],
+            [
+              -15.55215,
+              27.80075,
+              0
+            ],
+            [
+              -15.55222,
+              27.801,
+              0
+            ],
+            [
+              -15.5522,
+              27.80114,
+              0
+            ],
+            [
+              -15.5522,
+              27.80114,
+              0
+            ],
+            [
+              -15.55205,
+              27.80153,
+              0
+            ],
+            [
+              -15.55196,
+              27.80165,
+              0
+            ],
+            [
+              -15.55161,
+              27.80192,
+              0
+            ],
+            [
+              -15.55159832827581,
+              27.80194334344838,
+              0
+            ],
+            [
+              -15.55043399333954,
+              27.802051079971427,
+              0
+            ],
+            [
+              -15.549366474151611,
+              27.801958549066974,
+              0
+            ],
+            [
+              -15.548982918262483,
+              27.802091413930743,
+              0
+            ],
+            [
+              -15.549012422561647,
+              27.802293083502825,
+              0
+            ],
+            [
+              -15.549141168594362,
+              27.802494752700596,
+              0
+            ],
+            [
+              -15.54894804954529,
+              27.80286724658763,
+              0
+            ],
+            [
+              -15.54917871952057,
+              27.802981129814118,
+              0
+            ],
+            [
+              -15.54909020662308,
+              27.803104503174804,
+              0
+            ],
+            [
+              -15.548950731754305,
+              27.803092640357754,
+              0
+            ],
+            [
+              -15.54820775985718,
+              27.80290046254101,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Approach",
+          "stroke": "#F0F000",
+          "stroke-opacity": 1,
+          "stroke-width": 5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -15.547289729456681,
+              27.80048957688074,
+              0
+            ],
+            [
+              -15.546399236063737,
+              27.799336477259757,
+              0
+            ],
+            [
+              -15.546625256538393,
+              27.798805333463307,
+              0
+            ],
+            [
+              -15.545611381530763,
+              27.797481382709876,
+              0
+            ],
+            [
+              -15.545766949653627,
+              27.797025826032918,
+              0
+            ],
+            [
+              -15.545053482055666,
+              27.79620961554468,
+              0
+            ],
+            [
+              -15.544602870941164,
+              27.79546932631272,
+              0
+            ],
+            [
+              -15.54421663284302,
+              27.79499003380053,
+              0
+            ],
+            [
+              -15.543857216835024,
+              27.79480021439956,
+              0
+            ],
+            [
+              -15.543841123580934,
+              27.79437786504307,
+              0
+            ],
+            [
+              -15.543256402015688,
+              27.793969750622708,
+              0
+            ],
+            [
+              -15.542832612991335,
+              27.79316775386739,
+              0
+            ],
+            [
+              -15.543004274368288,
+              27.792894883799757,
+              0
+            ],
+            [
+              -15.543064624071123,
+              27.79256862521113,
+              0
+            ],
+            [
+              -15.543233603239061,
+              27.792243552043473,
+              0
+            ],
+            [
+              -15.543468296527864,
+              27.7920881335067,
+              0
+            ],
+            [
+              -15.544254183769228,
+              27.792351514407684,
+              0
+            ],
+            [
+              -15.544635057449343,
+              27.792299312838374,
+              0
+            ],
+            [
+              -15.544822812080385,
+              27.792114234345192,
+              0
+            ],
+            [
+              -15.545332431793215,
+              27.791763058902195,
+              0
+            ],
+            [
+              -15.546855926513674,
+              27.791933901151303,
+              0
+            ],
+            [
+              -15.54768204689026,
+              27.791668146425568,
+              0
+            ],
+            [
+              -15.547708024470031,
+              27.7916577330105,
+              0
+            ],
+            [
+              -15.54771,
+              27.79169,
+              0
+            ],
+            [
+              -15.54777,
+              27.79208,
+              0
+            ],
+            [
+              -15.548,
+              27.79257,
+              0
+            ],
+            [
+              -15.54801,
+              27.79267,
+              0
+            ],
+            [
+              -15.54785,
+              27.793,
+              0
+            ],
+            [
+              -15.54783,
+              27.79309,
+              0
+            ],
+            [
+              -15.54794,
+              27.79324,
+              0
+            ],
+            [
+              -15.54794,
+              27.79324,
+              0
+            ],
+            [
+              -15.54836,
+              27.7935,
+              0
+            ],
+            [
+              -15.54857,
+              27.7937,
+              0
+            ],
+            [
+              -15.54873,
+              27.79375,
+              0
+            ],
+            [
+              -15.54892393844329,
+              27.79367411104393,
+              0
+            ],
+            [
+              -15.549581050872805,
+              27.79420228111979,
+              0
+            ],
+            [
+              -15.551115274429323,
+              27.79517985287001,
+              0
+            ],
+            [
+              -15.551539063453676,
+              27.795236798526208,
+              0
+            ],
+            [
+              -15.551839470863344,
+              27.79552152635969,
+              0
+            ],
+            [
+              -15.552837252616884,
+              27.79596285302758,
+              0
+            ],
+            [
+              -15.552837254536623,
+              27.795958179219518,
+              0
+            ],
+            [
+              -15.55285,
+              27.79596,
+              0
+            ],
+            [
+              -15.552983245230688,
+              27.79586482483522,
+              0
+            ],
+            [
+              -15.553239583969118,
+              27.795341198818434,
+              0
+            ],
+            [
+              -15.553797483444216,
+              27.795255780404986,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "stroke": "#00CD00",
+          "stroke-opacity": 1,
+          "stroke-width": 5
+        }
+      }
+    ]
+  }
+}

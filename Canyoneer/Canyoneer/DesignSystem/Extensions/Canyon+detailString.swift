@@ -1,6 +1,6 @@
 //  Created by Brice Pollock for Canyoneer on 12/2/23
 
-extension Canyon {
+extension CanyonPreview {
     /// A String containing all the technical details for the canyon
     var technicalSummary: String {
         var summary = ""
@@ -18,11 +18,11 @@ extension Canyon {
         if let risk = risk {
             summary.append(" \(risk.rawValue)")
         }
-        if let num = numRaps {
+        if let num = maxRaps {
             summary.append(" \(num)r")
         }
         if let max = maxRapLength {
-            summary.append(" ↧\(max)ft")
+            summary.append(" ↧\(Int(max.converted(to: .feet).value.rounded()))ft")
         }
         return summary
     }

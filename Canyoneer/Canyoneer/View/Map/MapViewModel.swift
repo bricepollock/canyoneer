@@ -20,7 +20,7 @@ enum CanyonMapViewType {
 
 @MainActor
 class MapViewModel: ObservableObject {
-    @Published var canyons: [Canyon] = []
+    @Published var canyons: [CanyonIndex] = []
     public let mapView: CanyonMapViewType
     public let canyonMapViewOwner: any CanyonMap
     public let showOverlays: Bool
@@ -35,14 +35,14 @@ class MapViewModel: ObservableObject {
     public let canyonService: RopeWikiServiceInterface
     public let favoriteService: FavoriteService
     
-    private let allCanyons: [Canyon]
+    private let allCanyons: [CanyonIndex]
     private let locationService: LocationService
     private var bag = Set<AnyCancellable>()
     
     /// - Parameter applyFilters: Whether to apply filers to the canyons provided and when filters are updated
     init(
         type: CanyonMapType,
-        allCanyons: [Canyon],
+        allCanyons: [CanyonIndex],
         applyFilters: Bool,
         showOverlays: Bool = false,
         filterViewModel: CanyonFilterViewModel,

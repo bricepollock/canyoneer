@@ -1,0 +1,443 @@
+{
+  "url": "https://ropewiki.com/Ecouges_(Full)",
+  "latitude": 45.1775,
+  "longitude": 5.4983,
+  "id": 30385,
+  "name": "Ecouges (Full)",
+  "quality": 4.5,
+  "months": [
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep"
+  ],
+  "technicalRating": 4,
+  "waterRating": "C2",
+  "timeRating": "III",
+  "riskRating": "R",
+  "permit": "No",
+  "rappelCountMin": 0,
+  "rappelCountMax": 0,
+  "rappelLongestMeters": 70,
+  "shuttleSeconds": 210,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_ecouges.htm\">CicaRudeClan.com</a> :\nCanyon des Ecouges</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=3109687\">Wikiloc.com</a> :\nCanyon LES ECOUGES</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.497402,
+            45.178679,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-7717fadc",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by bellino at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.489237,
+            45.180418,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-368f2f16",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by bellino at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.497262,
+            45.178853,
+            0
+          ]
+        },
+        "properties": {
+          "name": "start canyon",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-18cbb2f7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by bellino at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.495192,
+            45.179329,
+            0
+          ]
+        },
+        "properties": {
+          "name": "the big one (70m)",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-18cbb2f7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by bellino at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.487692,
+            45.179178,
+            0
+          ]
+        },
+        "properties": {
+          "name": "end of the canyon",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-18cbb2f7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by bellino at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.49657,
+            45.179292,
+            0
+          ]
+        },
+        "properties": {
+          "name": "start of technical area",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-18cbb2f7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by bellino at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.492772,
+            45.178819,
+            0
+          ]
+        },
+        "properties": {
+          "name": "start of fun area",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-18cbb2f7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by bellino at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              5.497402,
+              45.178679,
+              0
+            ],
+            [
+              5.497402,
+              45.178679,
+              0
+            ],
+            [
+              5.497347,
+              45.178753,
+              0
+            ],
+            [
+              5.497297,
+              45.178804,
+              0
+            ],
+            [
+              5.49722,
+              45.178841,
+              0
+            ],
+            [
+              5.497158,
+              45.178891,
+              0
+            ],
+            [
+              5.497093,
+              45.178939,
+              0
+            ],
+            [
+              5.497171,
+              45.178935,
+              0
+            ],
+            [
+              5.497237,
+              45.178908,
+              0
+            ],
+            [
+              5.497371,
+              45.178861,
+              0
+            ],
+            [
+              5.497485,
+              45.178833,
+              0
+            ],
+            [
+              5.49749,
+              45.17891,
+              0
+            ],
+            [
+              5.497449,
+              45.178989,
+              0
+            ],
+            [
+              5.497364,
+              45.179018,
+              0
+            ],
+            [
+              5.497296,
+              45.179063,
+              0
+            ],
+            [
+              5.497134,
+              45.17919,
+              0
+            ],
+            [
+              5.496855,
+              45.17929,
+              0
+            ],
+            [
+              5.496554,
+              45.179311,
+              0
+            ],
+            [
+              5.496318,
+              45.179333,
+              0
+            ],
+            [
+              5.495755,
+              45.179388,
+              0
+            ],
+            [
+              5.495254,
+              45.179409,
+              0
+            ],
+            [
+              5.494891,
+              45.179367,
+              0
+            ],
+            [
+              5.494752,
+              45.179288,
+              0
+            ],
+            [
+              5.494615,
+              45.179163,
+              0
+            ],
+            [
+              5.494578,
+              45.179052,
+              0
+            ],
+            [
+              5.494521,
+              45.179002,
+              0
+            ],
+            [
+              5.494194,
+              45.17894,
+              0
+            ],
+            [
+              5.493781,
+              45.178724,
+              0
+            ],
+            [
+              5.493405,
+              45.178672,
+              0
+            ],
+            [
+              5.492933,
+              45.178808,
+              0
+            ],
+            [
+              5.492536,
+              45.178887,
+              0
+            ],
+            [
+              5.492032,
+              45.179016,
+              0
+            ],
+            [
+              5.491356,
+              45.179125,
+              0
+            ],
+            [
+              5.490895,
+              45.179144,
+              0
+            ],
+            [
+              5.490171,
+              45.179019,
+              0
+            ],
+            [
+              5.489345,
+              45.179061,
+              0
+            ],
+            [
+              5.489001,
+              45.179152,
+              0
+            ],
+            [
+              5.488347,
+              45.178887,
+              0
+            ],
+            [
+              5.488041,
+              45.178929,
+              0
+            ],
+            [
+              5.487826,
+              45.179004,
+              0
+            ],
+            [
+              5.487574,
+              45.179231,
+              0
+            ],
+            [
+              5.487928,
+              45.179382,
+              0
+            ],
+            [
+              5.487682,
+              45.179466,
+              0
+            ],
+            [
+              5.488036,
+              45.179761,
+              0
+            ],
+            [
+              5.487746,
+              45.179965,
+              0
+            ],
+            [
+              5.4881,
+              45.180139,
+              0
+            ],
+            [
+              5.488905,
+              45.180252,
+              0
+            ],
+            [
+              5.489237,
+              45.180418,
+              0
+            ],
+            [
+              5.489237,
+              45.180418,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Track",
+          "description": " (Data by bellino at wikiloc.com)",
+          "stroke": "#FF00FF",
+          "stroke-opacity": 1,
+          "stroke-width": 3
+        }
+      }
+    ]
+  }
+}

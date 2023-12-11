@@ -1,0 +1,719 @@
+{
+  "url": "https://ropewiki.com/Gabieto",
+  "latitude": 42.6873,
+  "longitude": -0.1009,
+  "id": 29049,
+  "name": "Gabieto",
+  "quality": 4.5,
+  "months": [
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct"
+  ],
+  "permit": "No",
+  "rappelCountMin": 4,
+  "rappelCountMax": 4,
+  "rappelLongestMeters": 52,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://latrencanous.com/barrancos/gabieto/topo.pdf\">Latrencanous.com</a>\n: Gabieto</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://guara.info/guara-base-de-datos/descenso-de-barrancos/pirineo/barranco-o-grau-de-gabieto\">Guara.info</a>\n: Barranco o Grau de Gabieto</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://altopirineo.com/barranco-de-gabieto\">Altopirineo.com</a> :\nBarranco de Gabieto</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=1949688\">Wikiloc.com</a> :\nARAGON VALLE de Otal Barranco Gabieto desde el camping Bujaruelo</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=1949696\">Wikiloc.com</a> :\nARAGON OTAL canyon Gabieto acceso San Nicolas de Bujaruelo</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.124008,
+            42.677031,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "65d8c16d",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by arroil at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.100392,
+            42.687166,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "2651b99d",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by arroil at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.106142,
+            42.689973,
+            0
+          ]
+        },
+        "properties": {
+          "name": "camino canyon",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "441535bc",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by arroil at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.099914,
+            42.68705,
+            0
+          ]
+        },
+        "properties": {
+          "name": "entrada canyon",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "441535bc",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by arroil at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.122531,
+            42.677324,
+            0
+          ]
+        },
+        "properties": {
+          "name": "puente Abetos",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "441535bc",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by arroil at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.106216,
+            42.695005,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Puente San Nicolas",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "441535bc",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by arroil at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.106409,
+            42.688947,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Faixa Guasa",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "441535bc",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by arroil at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.122819,
+            42.670263,
+            0
+          ]
+        },
+        "properties": {
+          "name": "faixa Guasa",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "441535bc",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by arroil at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.124005,
+            42.677003,
+            0
+          ]
+        },
+        "properties": {
+          "name": "camping Valle de Bujaruelo",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "441535bc",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by arroil at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -0.124008,
+              42.677031,
+              0
+            ],
+            [
+              -0.124008,
+              42.677026,
+              0
+            ],
+            [
+              -0.12365,
+              42.677388,
+              0
+            ],
+            [
+              -0.123341,
+              42.677453,
+              0
+            ],
+            [
+              -0.122926,
+              42.67764,
+              0
+            ],
+            [
+              -0.122714,
+              42.67749,
+              0
+            ],
+            [
+              -0.122487,
+              42.677578,
+              0
+            ],
+            [
+              -0.122511,
+              42.677411,
+              0
+            ],
+            [
+              -0.122409,
+              42.677218,
+              0
+            ],
+            [
+              -0.122307,
+              42.677123,
+              0
+            ],
+            [
+              -0.122306,
+              42.67729,
+              0
+            ],
+            [
+              -0.12212,
+              42.677511,
+              0
+            ],
+            [
+              -0.121891,
+              42.67777,
+              0
+            ],
+            [
+              -0.121397,
+              42.678046,
+              0
+            ],
+            [
+              -0.121062,
+              42.678456,
+              0
+            ],
+            [
+              -0.120731,
+              42.678863,
+              0
+            ],
+            [
+              -0.120342,
+              42.679151,
+              0
+            ],
+            [
+              -0.119777,
+              42.679379,
+              0
+            ],
+            [
+              -0.119262,
+              42.679661,
+              0
+            ],
+            [
+              -0.11869,
+              42.679918,
+              0
+            ],
+            [
+              -0.118132,
+              42.680034,
+              0
+            ],
+            [
+              -0.117617,
+              42.680226,
+              0
+            ],
+            [
+              -0.117145,
+              42.680448,
+              0
+            ],
+            [
+              -0.116825,
+              42.680407,
+              0
+            ],
+            [
+              -0.116589,
+              42.68062,
+              0
+            ],
+            [
+              -0.116077,
+              42.681048,
+              0
+            ],
+            [
+              -0.115713,
+              42.681328,
+              0
+            ],
+            [
+              -0.115522,
+              42.681701,
+              0
+            ],
+            [
+              -0.115105,
+              42.682119,
+              0
+            ],
+            [
+              -0.114726,
+              42.682464,
+              0
+            ],
+            [
+              -0.114469,
+              42.6826,
+              0
+            ],
+            [
+              -0.11391,
+              42.682807,
+              0
+            ],
+            [
+              -0.11339,
+              42.683061,
+              0
+            ],
+            [
+              -0.112892,
+              42.683219,
+              0
+            ],
+            [
+              -0.112336,
+              42.683452,
+              0
+            ],
+            [
+              -0.111764,
+              42.683611,
+              0
+            ],
+            [
+              -0.111173,
+              42.683809,
+              0
+            ],
+            [
+              -0.110689,
+              42.684,
+              0
+            ],
+            [
+              -0.110298,
+              42.684331,
+              0
+            ],
+            [
+              -0.110001,
+              42.684592,
+              0
+            ],
+            [
+              -0.109825,
+              42.684779,
+              0
+            ],
+            [
+              -0.109645,
+              42.684967,
+              0
+            ],
+            [
+              -0.109351,
+              42.685231,
+              0
+            ],
+            [
+              -0.108907,
+              42.685296,
+              0
+            ],
+            [
+              -0.108644,
+              42.685453,
+              0
+            ],
+            [
+              -0.108383,
+              42.685525,
+              0
+            ],
+            [
+              -0.108386,
+              42.685537,
+              0
+            ],
+            [
+              -0.108271,
+              42.685617,
+              0
+            ],
+            [
+              -0.107976,
+              42.685817,
+              0
+            ],
+            [
+              -0.107765,
+              42.686052,
+              0
+            ],
+            [
+              -0.107707,
+              42.686173,
+              0
+            ],
+            [
+              -0.107285,
+              42.686337,
+              0
+            ],
+            [
+              -0.107118,
+              42.686574,
+              0
+            ],
+            [
+              -0.10715,
+              42.686877,
+              0
+            ],
+            [
+              -0.107069,
+              42.686769,
+              0
+            ],
+            [
+              -0.106999,
+              42.687033,
+              0
+            ],
+            [
+              -0.107167,
+              42.687384,
+              0
+            ],
+            [
+              -0.107155,
+              42.687846,
+              0
+            ],
+            [
+              -0.107061,
+              42.688129,
+              0
+            ],
+            [
+              -0.106777,
+              42.688446,
+              0
+            ],
+            [
+              -0.106579,
+              42.688756,
+              0
+            ],
+            [
+              -0.106497,
+              42.689064,
+              0
+            ],
+            [
+              -0.106152,
+              42.689068,
+              0
+            ],
+            [
+              -0.106,
+              42.689126,
+              0
+            ],
+            [
+              -0.106121,
+              42.689308,
+              0
+            ],
+            [
+              -0.106175,
+              42.689714,
+              0
+            ],
+            [
+              -0.105985,
+              42.689987,
+              0
+            ],
+            [
+              -0.105649,
+              42.689779,
+              0
+            ],
+            [
+              -0.105109,
+              42.689838,
+              0
+            ],
+            [
+              -0.104676,
+              42.689596,
+              0
+            ],
+            [
+              -0.104322,
+              42.689219,
+              0
+            ],
+            [
+              -0.10405,
+              42.689081,
+              0
+            ],
+            [
+              -0.103774,
+              42.68901,
+              0
+            ],
+            [
+              -0.103533,
+              42.688924,
+              0
+            ],
+            [
+              -0.103288,
+              42.688939,
+              0
+            ],
+            [
+              -0.10326,
+              42.688769,
+              0
+            ],
+            [
+              -0.103193,
+              42.688446,
+              0
+            ],
+            [
+              -0.102931,
+              42.688467,
+              0
+            ],
+            [
+              -0.102702,
+              42.68845,
+              0
+            ],
+            [
+              -0.102526,
+              42.688479,
+              0
+            ],
+            [
+              -0.102245,
+              42.688636,
+              0
+            ],
+            [
+              -0.1022,
+              42.688467,
+              0
+            ],
+            [
+              -0.101966,
+              42.688402,
+              0
+            ],
+            [
+              -0.101676,
+              42.688351,
+              0
+            ],
+            [
+              -0.101331,
+              42.688298,
+              0
+            ],
+            [
+              -0.10109,
+              42.687911,
+              0
+            ],
+            [
+              -0.100678,
+              42.687618,
+              0
+            ],
+            [
+              -0.100576,
+              42.687522,
+              0
+            ],
+            [
+              -0.100544,
+              42.687585,
+              0
+            ],
+            [
+              -0.100536,
+              42.687458,
+              0
+            ],
+            [
+              -0.100453,
+              42.687355,
+              0
+            ],
+            [
+              -0.100121,
+              42.687189,
+              0
+            ],
+            [
+              -0.100028,
+              42.687087,
+              0
+            ],
+            [
+              -0.100277,
+              42.687133,
+              0
+            ],
+            [
+              -0.100392,
+              42.687166,
+              0
+            ],
+            [
+              -0.100392,
+              42.687166,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Track",
+          "description": " (Data by arroil at wikiloc.com)",
+          "stroke": "#FF00FF",
+          "stroke-opacity": 1,
+          "stroke-width": 3
+        }
+      }
+    ]
+  }
+}

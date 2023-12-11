@@ -34,13 +34,13 @@ class AppleMapViewOwner: NSObject, CanyonMap {
         mapView.delegate = self
     }
     
-    public var visibleCanyons: [Canyon] {
+    public var visibleCanyons: [CanyonIndex] {
         return self.mapView.visibleAnnotations().compactMap {
             return ($0 as? CanyonAnnotation)?.canyon
         }
     }
     
-    public var currentCanyons: [Canyon] {
+    public var currentCanyons: [CanyonIndex] {
         return self.mapView.annotations.compactMap {
             return ($0 as? CanyonAnnotation)?.canyon
         }
@@ -59,14 +59,14 @@ class AppleMapViewOwner: NSObject, CanyonMap {
         }.store(in: &self.bag)
     }
     
-    public func addAnnotations(for canyons: [Canyon]) {
+    public func addAnnotations(for canyons: [CanyonIndex]) {
         canyons.forEach { canyon in
             let annotation = CanyonAnnotation(canyon: canyon)
             self.mapView.addAnnotation(annotation)
         }
     }
     
-    public func removeAnnotations(for canyonMap: [String: Canyon]) {
+    public func removeAnnotations(for canyonMap: [String: CanyonIndex]) {
         let annotationsToRemove = self.mapView.annotations
             .compactMap { $0 as? CanyonAnnotation }
             .filter { annotation in
@@ -129,7 +129,7 @@ class AppleMapViewOwner: NSObject, CanyonMap {
     }
     
     public func renderWaypoints(canyon: Canyon) {
-        addAnnotations(for: [canyon])
+        addAnnotations(for: [canyon.index])
     }
     
     public func focusCameraOn(canyon: Canyon) {
@@ -164,6 +164,8 @@ extension AppleMapViewOwner: MKMapViewDelegate {
         guard annotation.title != "My Location" else {
             let image = UIImage(systemName: "location.north.fill")!
             let headingView = UIImageView(image: image)
+            headingView.translatesAutoresizingMaskIntoConstraints = false
+            
             self.headingView = headingView
             headingView.heightAnchor.constraint(equalToConstant: 20).isActive = true
             headingView.widthAnchor.constraint(equalTo: headingView.heightAnchor).isActive = true

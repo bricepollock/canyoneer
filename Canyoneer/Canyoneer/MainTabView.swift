@@ -42,7 +42,7 @@ class MainTabViewModel: ObservableObject {
     let searchViewModel: SearchViewModel
     
     init(
-        allCanyons: [Canyon],
+        allCanyons: [CanyonIndex],
         canyonService: RopeWikiService,
         filterViewModel: CanyonFilterViewModel,
         weatherViewModel: WeatherViewModel,

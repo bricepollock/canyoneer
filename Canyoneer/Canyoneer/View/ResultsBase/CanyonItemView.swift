@@ -30,7 +30,7 @@ struct CanyonItemView: View {
 
 struct CanyonItemView_Previews: PreviewProvider {
     static var previews: some View {
-        let result = QueryResult(name: "Moonflower Canyon with a long name", canyonDetails: Canyon.dummy())
+        let result = QueryResult(name: "Moonflower Canyon with a long name", canyonDetails: CanyonIndex(data: RopeWikiCanyonIndex()))
         CanyonItemView(result: result)
     }
 }

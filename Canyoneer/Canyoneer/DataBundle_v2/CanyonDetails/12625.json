@@ -1,0 +1,66 @@
+{
+  "url": "https://ropewiki.com/Gentalwasser",
+  "latitude": 46.7574,
+  "longitude": 8.3125,
+  "id": 12625,
+  "name": "Gentalwasser",
+  "quality": 3.7,
+  "months": [
+    "Sep"
+  ],
+  "technicalRating": 3,
+  "waterRating": "C2",
+  "permit": "No",
+  "rappelLongestMeters": 25,
+  "shuttleSeconds": 180,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/23048\">Descente-Canyon.com</a>\n: Gentalwasser</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://schlucht.ch/schluchten-der-schweiz-navbar.html?cid=175\">Schlucht.ch</a>\n: Gentalwasser</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_in_the_Swiss_Alps_Book?id=Gental\">Canyoning\nin the Swiss Alps Book by Association Openbach</a> : Gental</li>\n</ul>\n<p><a\nhref=\"https://www.descente-canyon.com/forums/viewtopic.php?f=16&amp;t=15189\">https://www.descente-canyon.com/forums/viewtopic.php?f=16&amp;t=15189</a>\n<a\nhref=\"http://www.aventurecanyon.com/gental-photos.html\">http://www.aventurecanyon.com/gental-photos.html</a></p>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p>Picture credit : Timo Stammwitz</p>\n<h2 id=\"background\">Background</h2>\n<h2 id=\"background_1\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.3234,
+            46.76614,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": "Départ partie 1 (Data by bernotom on 14 oct 2013)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.30154,
+            46.748631,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Descent",
+          "styleUrl": "#point_interne",
+          "styleHash": "406ab760",
+          "styleMapHash": {
+            "normal": "#point_interne0",
+            "highlight": "#point_interne1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_interne.png",
+          "description": "Départ partie 3 (Data by bernotom on 14 oct 2013)"
+        }
+      }
+    ]
+  }
+}

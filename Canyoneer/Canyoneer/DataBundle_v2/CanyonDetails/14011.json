@@ -1,0 +1,70 @@
+{
+  "url": "https://ropewiki.com/Angouire",
+  "latitude": 43.8311,
+  "longitude": 6.2584,
+  "id": 14011,
+  "name": "Angouire",
+  "quality": 4,
+  "months": [
+    "Mar",
+    "Apr",
+    "May"
+  ],
+  "technicalRating": 3,
+  "waterRating": "B",
+  "timeRating": "III",
+  "permit": "Yes",
+  "rappelCountMin": 1,
+  "rappelCountMax": 1,
+  "rappelLongestMeters": 20,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/277\">Descente-Canyon.com</a>\n: Angouire</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/ValdAnguireCanyon\">Canyon.Carto.net</a>\n: Val d'Angouire</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_angou.htm\">CicaRudeClan.com</a> :\nVal d'Angouire</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://altisud.com/canyoning/france/alpes-de-haute-provence/vallee-du-verdon/val-d-angouire-canyoning__i_4mxvn8mp3h4v__al_descente-canyon-fiche.html\">Altisud.com</a>\n: Val d'Angouire</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.258448,
+            43.831085,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by antilolo on 23 déc 2007)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.23524,
+            43.831978,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by Streicher Wolfgang on 13 juil 2011)"
+        }
+      }
+    ]
+  }
+}

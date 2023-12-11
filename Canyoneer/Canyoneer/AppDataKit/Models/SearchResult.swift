@@ -10,7 +10,7 @@ import Foundation
 /// A result list item for a canyon from a query (map, search, etc.)
 struct QueryResult: Identifiable {
     let name: String
-    let canyonDetails: Canyon
+    let canyonDetails: CanyonIndex
     
     var id: String {
         canyonDetails.id

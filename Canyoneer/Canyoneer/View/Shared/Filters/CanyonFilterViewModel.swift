@@ -18,7 +18,7 @@ struct FilterState {
     let seasons: Set<Month>
     
     public static let `default` = FilterState(
-        maxRap: Bounds(min: 0, max: FilterState.maxRapLimit),
+        maxRap: Bounds(min: 0, max: Int(FilterState.maxRapLimit.converted(to: .meters).value.rounded())),
         numRaps: Bounds(min: 0, max: FilterState.numRapsLimit),
         stars: [1,2,3,4,5],
         technicality: Set(TechnicalGrade.allCases),
@@ -28,8 +28,8 @@ struct FilterState {
         seasons: Set(Month.allCases)
     )
     
-    private static let maxRapLimit: Int = 600  // In FT
-    public static let maxRapIncrement: Int = 10  // In FT
+    private static let maxRapLimit = Measurement(value: 600, unit: UnitLength.feet)
+    public static let maxRapIncrement = Measurement(value: 10, unit: UnitLength.feet)
     private static let numRapsLimit: Int = 50
     public static let numRapsIncrement: Int = 1
     
@@ -139,29 +139,33 @@ class CanyonFilterViewModel: ObservableObject {
         }
     }
     
-    static func filter(canyons: [Canyon], given state: FilterState) -> [Canyon] {
+    static func filter<T: CanyonPreview>(canyons: [T], given state: FilterState) -> [T] {
         // Used to compare if we should apply a filter at all
         let defaultFilter = FilterState.default
         return canyons.filter { canyon in
             // quality
-            guard state.stars.contains(Int(canyon.quality)) else {
-                return false
+            if state.stars != defaultFilter.stars {
+                guard state.stars.contains(Int(canyon.quality)) else {
+                    return false
+                }
             }
             
             // num raps
             if state.numRaps != defaultFilter.numRaps {
-                guard let numRaps = canyon.numRaps else {
+                // If there is a min, there will be a max.
+                guard let min = canyon.minRaps, let max = canyon.maxRaps else {
                     return false
                 }
-                guard numRaps >= state.numRaps.min && numRaps <= state.numRaps.max else {
+                guard min >= state.numRaps.min && max <= state.numRaps.max else {
                     return false
                 }
             }
             
             // max rap
             if state.maxRap != defaultFilter.maxRap {
-                guard let maxRap = canyon.maxRapLength else { return false }
-                guard maxRap >= state.maxRap.min && maxRap <= state.maxRap.max else {
+                // We show in imperial units
+                guard let maxRap = canyon.maxRapLength?.converted(to: .feet).value else { return false }
+                guard maxRap >= Double(state.maxRap.min) && maxRap <= Double(state.maxRap.max) else {
                     return false
                 }
             }
@@ -177,10 +181,21 @@ class CanyonFilterViewModel: ObservableObject {
             // water
             if state.water != defaultFilter.water {
                 guard let waterDifficulty = canyon.waterDifficulty else { return false }
-                guard state.water.contains(waterDifficulty) else {
+                
+                let consolidatedCanyonGrade: WaterGrade
+                switch waterDifficulty {
+                case .a, .b:
+                    consolidatedCanyonGrade = waterDifficulty
+                case .c, .c1, .c2, .c3, .c4:
+                    consolidatedCanyonGrade = .c
+                }
+                
+                guard state.water.contains(consolidatedCanyonGrade) else {
                     return false
                 }
             }
+            
+            // TODO: Risk Filter?
             
             // Time
             if state.time != defaultFilter.time {
@@ -192,13 +207,7 @@ class CanyonFilterViewModel: ObservableObject {
             
             // Shuttle (bypass any)
             if let filterRequireShuttle = state.shuttleRequired, state.shuttleRequired != defaultFilter.shuttleRequired {
-                // Don't count canyons without shuttle information
-                if let requireShuttle = canyon.requiresShuttle {
-                    guard requireShuttle == filterRequireShuttle else {
-                        return false
-                    }
-                // if there is no shuttle information then consider this false
-                } else if filterRequireShuttle {
+                guard canyon.requiresShuttle == filterRequireShuttle else {
                     return false
                 }
             }

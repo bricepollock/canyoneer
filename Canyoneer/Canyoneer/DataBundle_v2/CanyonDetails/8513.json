@@ -1,0 +1,141 @@
+{
+  "url": "https://ropewiki.com/Panther_Creek",
+  "latitude": 45.867,
+  "longitude": -121.8268,
+  "id": 8513,
+  "name": "Panther Creek",
+  "months": [
+    "Jul",
+    "Aug",
+    "Sep"
+  ],
+  "permit": "No",
+  "vehicle": "Passenger",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>Panther Creek is a beautiful \"show waterfall\" along FR-65. See \"Red\nTape\" below.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>Look for a large gravel quarry / pullout on the south side of FR-65.\nA maintained trail leads down on the north side of the road, although\nit's easy to miss. It's located right along the road about 50ft west of\nthe parking area. There may or may not be a sign indicating the way to\nthe falls. The Forest Service seems to have an ongoing war with the\nlocals -- as soon as a new sign goes up, it promptly disappears.</p>\n<p>The maintained trail switchbacks down to the top of a beautiful\nviewing platform overlooking the main falls.</p>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>Please resist the temptation to run Panther Creek Falls. The area\nabove and below the falls has been closed to entry after a hiker fell to\nher death in 2018.</p>\n<p>Unlike other parts of the country, canyoning is not widely known or\nrecognized in the Pacific Northwest. Individuals climbing, rappelling,\nor slack-lining around such \"show waterfalls\" are far more likely to\ngarner negative reactions from the general public at large. Negative\nreactions can lead to complaints and more rules for canyoneers by the\nlocal authorities.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><a\nhref=\"http://www.waterfallsnorthwest.com/nws/falls.php?num=5248\">Waterfalls\nNorthwest</a></li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -121.82644844055176,
+              45.867294307961366,
+              0
+            ],
+            [
+              -121.82715654373169,
+              45.86712995163465,
+              0
+            ],
+            [
+              -121.82780027389526,
+              45.86721212985876,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Approach",
+          "stroke": "#00CD00",
+          "stroke-opacity": 1,
+          "stroke-width": 5,
+          "fill": "#00CD00",
+          "fill-opacity": 0.26666666666666666
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -121.82806849479675,
+              45.86712248088098,
+              0
+            ],
+            [
+              -121.82776808738708,
+              45.867189717627866,
+              0
+            ],
+            [
+              -121.82721018791199,
+              45.8671374223873,
+              0
+            ],
+            [
+              -121.82640552520752,
+              45.86730924942151,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "stroke": "#FFAA00",
+          "stroke-opacity": 1,
+          "stroke-width": 5,
+          "fill": "#FFAA00",
+          "fill-opacity": 0.26666666666666666
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -121.8278968334198,
+              45.8672233359708,
+              0
+            ],
+            [
+              -121.8280953168869,
+              45.867118745503774,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Descent",
+          "stroke": "#FF0000",
+          "stroke-opacity": 1,
+          "stroke-width": 5,
+          "fill": "#FF0000",
+          "fill-opacity": 0.26666666666666666
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.826282338276,
+            45.8672999110095,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.827966998672,
+            45.8672028804211,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Panther Creek Falls"
+        }
+      }
+    ]
+  }
+}

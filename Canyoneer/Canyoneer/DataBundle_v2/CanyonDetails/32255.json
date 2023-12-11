@@ -1,0 +1,96 @@
+{
+  "url": "https://ropewiki.com/Yesa_(Upper)",
+  "latitude": 42.5283,
+  "longitude": 0.0345,
+  "id": 32255,
+  "name": "Yesa (Upper)",
+  "quality": 3.9,
+  "months": [
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct"
+  ],
+  "technicalRating": 3,
+  "waterRating": "C",
+  "timeRating": "II",
+  "permit": "No",
+  "rappelCountMin": 7,
+  "rappelCountMax": 7,
+  "rappelLongestMeters": 15,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21014\">Descente-Canyon.com</a>\n: Yesa [superior]</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/YesasuperiorCanyon\">Canyon.Carto.net</a>\n: Garganta del Yesa Superior</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://guara.info/guara-base-de-datos/descenso-de-barrancos/pirineo/barranco-de-yesa-superior\">Guara.info</a>\n: Barranco de Yesa superior</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://latrencanous.com/barrancos/yesa_superior/topo.pdf\">Latrencanous.com</a>\n: Yesa Superior</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://altopirineo.com/barranco-de-yesa-superior\">Altopirineo.com</a>\n: Barranco de Yesa Superior</li>\n<li><a\nhref=\"http://passport.aventure.free.fr/affichage.php3?selcny=YESA%20SUP(BARRANCO)\">http://passport.aventure.free.fr/affichage.php3?selcny=YESA%20SUP(BARRANCO)</a></li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:yesa_superior\">Wiki-Infobarrancos</a>\n: Barranco o Garganta de Yesa (http://infobarrancos.es/)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://nko-extreme.com/2009/garganta-del-rio-yesa\">NKO-Extreme.com</a>\n: Garganta del Rio Yesa</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=14420337\">Wikiloc.com</a> :\nBarranco Manatuero y Yesa Superior</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=1139341\">Wikiloc.com</a> :\nARAGON Buerba barranco Yesa superior</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.0253,
+            42.530045,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by descentecanyon1 on 20 août 2016)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.038875,
+            42.526104,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by descentecanyon1 on 20 août 2016)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.051592,
+            42.538536,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by descentecanyon1 on 20 août 2016)"
+        }
+      }
+    ]
+  }
+}

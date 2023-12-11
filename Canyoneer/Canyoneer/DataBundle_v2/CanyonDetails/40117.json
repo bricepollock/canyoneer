@@ -1,0 +1,64 @@
+{
+  "url": "https://ropewiki.com/Kamah",
+  "latitude": 23.0402,
+  "longitude": 57.5581,
+  "id": 40117,
+  "name": "Kamah",
+  "quality": 4.1,
+  "technicalRating": 4,
+  "waterRating": "C",
+  "timeRating": "IV",
+  "permit": "No",
+  "rappelLongestMeters": 60,
+  "shuttleSeconds": 4980,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/23746\">Descente-Canyon.com</a>\n: Kamah</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://climbing7.wordpress.com/2016/12/23/wadi-kamah-sayq-plateau-oman-\">Climbing7</a>\n: Wadi Kamah</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            57.53632,
+            23.020445,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "styleUrl": "#parking_aval",
+          "styleHash": "-64d43659",
+          "styleMapHash": {
+            "normal": "#parking_aval0",
+            "highlight": "#parking_aval1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "description": "Village de Kamah (Data by yd on 13 déc 2016)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            57.558083,
+            23.040237,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Approach/Exit",
+          "styleUrl": "#point_externe",
+          "styleHash": "8bde020",
+          "styleMapHash": {
+            "normal": "#point_externe0",
+            "highlight": "#point_externe1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
+          "description": "Début du 1er shunt de retour (rive droite) après la partie aquatique (Data by yd on 13 déc 2016)"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "url": "https://ropewiki.com/Asparagus_Canyon",
+  "latitude": 34.5666,
+  "longitude": -111.3942,
+  "id": 73774,
+  "name": "Asparagus Canyon",
+  "quality": 1,
+  "months": [
+    "Sep",
+    "Oct"
+  ],
+  "technicalRating": 2,
+  "waterRating": "A",
+  "timeRating": "I",
+  "permit": "No",
+  "rappelCountMin": 0,
+  "rappelCountMax": 2,
+  "rappelLongestMeters": 12.19,
+  "vehicle": "High Clearance",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>A scenic adventure into West Clear Creek.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>Walk into obvious drainage.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>Small cave.</p>\n<p>Downclimb through rabbit hole or go way around LDC.</p>\n<p><strong>R1</strong>: 30' optional or downclimb ledges center of\ncanyon.</p>\n<p><strong>R2:</strong> 40' optional or downclimb LDC then down\ncrack.</p>\n<p>Boulder hop to confluence with WCC.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>Exit up same way you came down.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.40124,
+            34.5669,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here."
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -111.40124,
+              34.5669,
+              0
+            ],
+            [
+              -111.39598,
+              34.56697,
+              0
+            ],
+            [
+              -111.39523,
+              34.56709,
+              0
+            ],
+            [
+              -111.39451,
+              34.56723,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Approach",
+          "styleUrl": "#line-00FF00-5000-nodesc",
+          "styleHash": "e3a8009",
+          "styleMapHash": {
+            "normal": "#line-00FF00-5000-nodesc",
+            "highlight": "#line-00FF00-5000-nodesc-highlight"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -111.39451,
+              34.56723,
+              0
+            ],
+            [
+              -111.39417,
+              34.56678,
+              0
+            ],
+            [
+              -111.39444,
+              34.56597,
+              0
+            ],
+            [
+              -111.3937,
+              34.56472,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Descent",
+          "styleUrl": "#line-FF0000-5000-nodesc",
+          "styleHash": "-2f93cff7",
+          "styleMapHash": {
+            "normal": "#line-FF0000-5000-nodesc",
+            "highlight": "#line-FF0000-5000-nodesc-highlight"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.39418,
+            34.56662,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "30'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.39444,
+            34.56597,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "40'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.39478,
+            34.5678,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Small Cave",
+          "description": "Cave"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -111.3937,
+              34.56472,
+              0
+            ],
+            [
+              -111.39444,
+              34.56597,
+              0
+            ],
+            [
+              -111.39417,
+              34.56678,
+              0
+            ],
+            [
+              -111.39451,
+              34.56723,
+              0
+            ],
+            [
+              -111.39451,
+              34.56723,
+              0
+            ],
+            [
+              -111.39523,
+              34.56709,
+              0
+            ],
+            [
+              -111.39598,
+              34.56697,
+              0
+            ],
+            [
+              -111.40124,
+              34.5669,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "styleUrl": "#line-FFFF00-5000-nodesc",
+          "styleHash": "14e43d49",
+          "styleMapHash": {
+            "normal": "#line-FFFF00-5000-nodesc",
+            "highlight": "#line-FFFF00-5000-nodesc-highlight"
+          }
+        }
+      }
+    ]
+  }
+}

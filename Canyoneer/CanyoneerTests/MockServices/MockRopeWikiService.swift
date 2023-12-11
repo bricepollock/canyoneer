@@ -9,8 +9,8 @@ import Foundation
 @testable import Canyoneer
 
 class MockRopeWikiService: RopeWikiServiceInterface {
-    public var mockCanyons = [Canyon]()
-    func canyons() async -> [Canyon] {
+    public var mockCanyons = [CanyonIndex]()
+    func canyons() async -> [CanyonIndex] {
         return mockCanyons
     }
     

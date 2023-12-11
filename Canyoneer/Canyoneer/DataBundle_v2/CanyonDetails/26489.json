@@ -1,0 +1,94 @@
+{
+  "url": "https://ropewiki.com/Pricotic",
+  "latitude": 46.5323,
+  "longitude": 13.2444,
+  "id": 26489,
+  "name": "Pricotic",
+  "quality": 2.2,
+  "months": [
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct"
+  ],
+  "technicalRating": 4,
+  "waterRating": "B",
+  "timeRating": "II",
+  "permit": "No",
+  "rappelLongestMeters": 60,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>Rio Pricotic is mostly a rappeling canyon, located in Val Pontebbana,\non the sunny side of the mountain Creta di Pricot. It lies near to Rio\nPricot and is similar, but much more technical.</p>\n<p><strong>Zone:</strong> Friuli – Udine – Val Pontebbana</p>\n<p><strong>Qualities:</strong> Entrance: 1080 m Exit: 770 m Height: 310\nm Length: 800 m</p>\n<p><strong>Period:</strong> April-October</p>\n<p><strong>Times:</strong> Approach: 50 min Progression: 2,5 h Return: 5\nmin</p>\n<p><strong>Shuttle:</strong> No</p>\n<p><strong>Equipment:</strong>: Sufficient– 10 mm bolts and natural\nweapons</p>\n<p><strong>Rope:</strong> 2 x 60m</p>\n<p><strong>Biggest waterfall:</strong> 60 m</p>\n<p><strong>Possible exit:</strong> Not veryfied.</p>\n<p><strong>Maps:</strong> Tabacco Number 18</p>\n<p><strong>Attraction:</strong> Local</p>\n<p><strong>Difficulty:</strong> V4 a2 III</p>\n<h2 id=\"approach\">Approach</h2>\n<p>From Chiusaforte drive towards village Pontebba. From the main road\nturn to Poontebba and drive towards Val Pontebbana (Studena Bassa).\nAfter you pass Studena Bassa you cross the bridge over Torrente\nPontebbana and drive to the sign Rio Pricotic.</p>\n<p>On the right side of the canyon follow the barely visible path, which\nbecomes more visible after 100 m. After you reach 2 ruined houses, find\nthe way down to the canyon.</p>\n<h2 id=\"descent\">Descent</h2>\n\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/PricoticCanyon\">Canyon.Carto.net</a>\n: Rio Pricotic</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/UD050\">Catastoforre\nAIC-Canyoning.it</a> : Rio Pricotic</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/23816\">Descente-Canyon.com</a>\n: Pricotic</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n\n<h2 id=\"background\">Background</h2>\n<p>The descent down from the highest waterfall goes i to the water and\nis quite dangerous in high waterlevel. The canyon was explored by\nCanyoning Cult Slovenia on 17th of April 2013.</p>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.2444,
+            46.532551,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by Streicher Wolfgang on 20 mars 2017)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.24721,
+            46.527691,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by Streicher Wolfgang on 20 mars 2017)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.250909,
+            46.526394,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by Streicher Wolfgang on 20 mars 2017)"
+        }
+      }
+    ]
+  }
+}

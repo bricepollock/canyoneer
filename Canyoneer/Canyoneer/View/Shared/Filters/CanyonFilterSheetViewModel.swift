@@ -90,7 +90,7 @@ class CanyonFilterSheetViewModel: ObservableObject {
             spreadData: ComparisonPickerData(
                 current: currentState.maxRap,
                 limits: FilterState.default.maxRap,
-                increments: FilterState.maxRapIncrement
+                increments: Int(FilterState.maxRapIncrement.converted(to: .feet).value.rounded())
             ),
             units: Strings.feet
         )

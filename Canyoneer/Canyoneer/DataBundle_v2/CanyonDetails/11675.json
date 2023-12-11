@@ -1,0 +1,94 @@
+{
+  "url": "https://ropewiki.com/Hole_in_the_Wall",
+  "latitude": -33.3762,
+  "longitude": 150.3201,
+  "id": 11675,
+  "name": "Hole in the Wall",
+  "quality": 4.4,
+  "months": [
+    "Dec",
+    "Jan",
+    "Feb",
+    "Mar"
+  ],
+  "technicalRating": 3,
+  "waterRating": "B",
+  "timeRating": "III",
+  "permit": "No",
+  "rappelCountMin": 3,
+  "rappelCountMax": 5,
+  "rappelLongestMeters": 15,
+  "vehicle": "4WD",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21635\">Descente-Canyon.com</a>\n: Hole in the wall</li>\n<li><a\nhref=\"https://ozultimate.com/canyoning/track_notes/hole-in-the-wall.htm\">OZUltimate\nHole-in-the-Wall Canyon track notes</a></li>\n<li><a href=\"http://david-noble.net/blog/?p=18920\">David Noble Blog -\nHole in the Wall Canyon 28 January 2018</a></li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"https://www.youtube.com/watch?v=NbI2tQLeaIY\">YouTube.com</a> :\nAdventures with Mallo {{#ev:youtube| NbI2tQLeaIY}}</p>\n<h2 id=\"background\">Background</h2>\n<p>Bob Sault says: “Hole in the Wall” was indeed Tony Norman’s name for\nthe canyon. Tony named it as we swam past where it meets North\nBungleboori in November 1981 – a few days after he submitted his Honours\ngeology thesis. We went back and did it from the top later that\nseason.</p>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.330048,
+            -33.375839,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by f sebille on 22 nov 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.333588,
+            -33.365158,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by f sebille on 22 nov 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.296555,
+            -33.38752,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by f sebille on 22 nov 2009)"
+        }
+      }
+    ]
+  }
+}

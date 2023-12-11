@@ -17,7 +17,7 @@ class MapListViewModel: ResultsViewModel {
     private static let maxMap = 100
     
     init(
-        canyonsOnMap: [Canyon],
+        canyonsOnMap: [CanyonIndex],
         filterViewModel: CanyonFilterViewModel,
         filterSheetViewModel: CanyonFilterSheetViewModel,
         weatherViewModel: WeatherViewModel,

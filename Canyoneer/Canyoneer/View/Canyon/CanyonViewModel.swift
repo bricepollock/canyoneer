@@ -21,9 +21,8 @@ class CanyonViewModel: NSObject, ObservableObject {
     private let canyonId: String
     
     // objects
-    public var mapViewModel: MapViewModel?
+    public var mapViewModel: CanyonDetailMapViewModel?
     private let canyonService: RopeWikiServiceInterface
-    private let filterViewModel: CanyonFilterViewModel
     private let favoriteService: FavoriteService
     private let weatherViewModel: WeatherViewModel
     private let gpxService: GPXService
@@ -31,14 +30,12 @@ class CanyonViewModel: NSObject, ObservableObject {
     init(
         canyonId: String,
         canyonService: RopeWikiServiceInterface,
-        filterViewModel: CanyonFilterViewModel,
         favoriteService: FavoriteService,
         weatherViewModel: WeatherViewModel,
         gpxService: GPXService = GPXService()
     ) {
         self.canyonId = canyonId
         self.canyonService = canyonService
-        self.filterViewModel = filterViewModel
         self.favoriteService = favoriteService
         self.weatherViewModel = weatherViewModel
         self.gpxService = gpxService
@@ -55,15 +52,7 @@ class CanyonViewModel: NSObject, ObservableObject {
             isFavorite = self.favoriteService.isFavorite(canyon: canyon)
             
             detailViewModel = CanyonDetailViewModel(canyon: canyon, weatherViewModel: weatherViewModel)
-            self.mapViewModel = MapViewModel(
-                type: .mapbox,
-                allCanyons: [canyon],
-                applyFilters: false,
-                filterViewModel: filterViewModel,
-                weatherViewModel: weatherViewModel,
-                canyonService: canyonService,
-                favoriteService: favoriteService
-            )
+            self.mapViewModel = CanyonDetailMapViewModel(type: .mapbox, canyon: canyon)
         } catch {
             Global.logger.error(error)
         }
