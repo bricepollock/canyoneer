@@ -1,0 +1,129 @@
+{
+  "url": "https://ropewiki.com/Teixidor",
+  "latitude": 42.3721,
+  "longitude": 0.8168,
+  "id": 13670,
+  "name": "Teixidor",
+  "quality": 2.6,
+  "technicalRating": 4,
+  "waterRating": "A",
+  "timeRating": "I",
+  "permit": "No",
+  "rappelLongestMeters": 35,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/22279\">Descente-Canyon.com</a>\n: Teixidor</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:lleida:teixidor\">Wiki-Infobarrancos</a>\n: Barranco de Teixidor o Sallent de Viu (http://infobarrancos.es/)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=8747172\">Wikiloc.com</a> :\nBarranc de teixidors</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.818954,
+            42.374947,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by Streicher Wolfgang on 08 déc 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.817451,
+            42.372169,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": "arrivée dans le canyon Viu de Llevata (Data by Streicher Wolfgang on 08 déc 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.809609,
+            42.370338,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by Streicher Wolfgang on 08 déc 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.81795,
+            42.371891,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Approach/Exit",
+          "styleUrl": "#point_externe",
+          "styleHash": "8bde020",
+          "styleMapHash": {
+            "normal": "#point_externe0",
+            "highlight": "#point_externe1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
+          "description": "pont  pour traverser le ruisseau Viu de Llevata (Data by Streicher Wolfgang on 08 déc 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.819876,
+            42.370918,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Descent",
+          "styleUrl": "#point_interne",
+          "styleHash": "406ab760",
+          "styleMapHash": {
+            "normal": "#point_interne0",
+            "highlight": "#point_interne1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_interne.png",
+          "description": "depart de Viu de Llevata (Data by Streicher Wolfgang on 08 déc 2009)"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "url": "https://ropewiki.com/Cannobino",
+  "latitude": 46.0678,
+  "longitude": 8.6328,
+  "id": 11873,
+  "name": "Cannobino",
+  "quality": 3.5,
+  "months": [
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep"
+  ],
+  "technicalRating": 3,
+  "waterRating": "C3",
+  "timeRating": "II",
+  "permit": "No",
+  "rappelCountMin": 0,
+  "rappelCountMax": 0,
+  "rappelLongestMeters": 10,
+  "shuttleSeconds": 360,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/22040\">Descente-Canyon.com</a>\n: Cannobino</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/CannobinoCanyon\">Canyon.Carto.net</a>\n: Gole Cannobino basso</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_anna.htm\">CicaRudeClan.com</a> :\nOrrido di Sant'Anna</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/VB008\">Catastoforre\nAIC-Canyoning.it</a> : Gole del Cannobino;basso;Orrido di Sant'\nAnna</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://openspeleo.org/openspeleo/canyons-view-45.html?page=4\">OpenSpeleo.org</a>\n: Orrido di Sant'Anna</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.6285,
+            46.066586,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": "depart deuxième (depart normal) (Data by Streicher Wolfgang on 19 sept 2010)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.602091,
+            46.07579,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": "depart 1ère partie (cela ne vaut pas la peine) (Data by Streicher Wolfgang on 19 sept 2010)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.668942,
+            46.06089,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by Streicher Wolfgang on 19 sept 2010)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.627862,
+            46.066673,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "styleUrl": "#parking_amont",
+          "styleHash": "-55e0b397",
+          "styleMapHash": {
+            "normal": "#parking_amont0",
+            "highlight": "#parking_amont1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": "pour l\\ (Data by Streicher Wolfgang on 19 sept 2010)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.601576,
+            46.075718,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "styleUrl": "#parking_amont",
+          "styleHash": "-55e0b397",
+          "styleMapHash": {
+            "normal": "#parking_amont0",
+            "highlight": "#parking_amont1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": "parking pour le 1er depart (Data by Streicher Wolfgang on 19 sept 2010)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.667971,
+            46.061207,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "styleUrl": "#parking_aval",
+          "styleHash": "-64d43659",
+          "styleMapHash": {
+            "normal": "#parking_aval0",
+            "highlight": "#parking_aval1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "description": "parking S. Anna pour 3 heures seulement ... (Data by Streicher Wolfgang on 19 sept 2010)"
+        }
+      }
+    ]
+  }
+}

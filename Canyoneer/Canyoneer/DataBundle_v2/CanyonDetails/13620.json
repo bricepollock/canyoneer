@@ -1,0 +1,90 @@
+{
+  "url": "https://ropewiki.com/Sacs",
+  "latitude": 42.6226,
+  "longitude": 0.5193,
+  "id": 13620,
+  "name": "Sacs",
+  "quality": 2.9,
+  "months": [
+    "Jun",
+    "Jul",
+    "Aug"
+  ],
+  "technicalRating": 4,
+  "waterRating": "B",
+  "timeRating": "III",
+  "permit": "No",
+  "rappelLongestMeters": 30,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21981\">Descente-Canyon.com</a>\n: Sacs</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://teamespeleocanyons.blogspot.com.es/2012/04/barranco-de-sacs-o-la-tuca-del-mont.html\">TeamEspeleoCanyons</a>\n: Barranco de Sacs o la Tuca del Mont</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:sacs\">Wiki-Infobarrancos</a>\n: Barranco de Sacs (http://infobarrancos.es/)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://WWW.barranquistas.es/2008/06/este-fin-de-semana-hemos-optado-por.html\">Barranquistas.es</a>\n: BARRANCO DE SACS</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.518031,
+            42.623981,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by casa on 24 juil 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.52597,
+            42.616245,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by casa on 24 juil 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.537257,
+            42.622101,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by casa on 24 juil 2009)"
+        }
+      }
+    ]
+  }
+}

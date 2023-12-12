@@ -1,0 +1,116 @@
+{
+  "url": "https://ropewiki.com/Lumiei",
+  "latitude": 46.4504,
+  "longitude": 12.7699,
+  "id": 12143,
+  "name": "Lumiei",
+  "quality": 3.8,
+  "months": [
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep"
+  ],
+  "technicalRating": 4,
+  "waterRating": "C1",
+  "timeRating": "II",
+  "permit": "No",
+  "rappelCountMin": 3,
+  "rappelCountMax": 3,
+  "rappelLongestMeters": 30,
+  "shuttleSeconds": 204,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21725\">Descente-Canyon.com</a>\n: Lumiei</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/LumieiCanyon\">Canyon.Carto.net</a>\n: Torrente Lumiei</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/UD021\">Catastoforre\nAIC-Canyoning.it</a> : Torrente Lumiei</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_in_the_Alps_Book?id=Lumiei\">Canyoning\nin the Alps Book by Simon Flower</a> : Lumiei</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_Nord_Italia_Book?id=Lumiei_%20_Novarza\">Canyoning\nNord Italia Book by Pascal van Duin</a> : Lumiei + Novarza</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/2588/\">Gulliver.it</a> : Torrente\nLumiei - Ampezzo (Udine)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://nko-extreme.com/2009/lumiei-y-torrente-la-foce\">NKO-Extreme.com</a>\n: Lumiei y Torrente la Foce</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.769761,
+            46.450336,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by Streicher Wolfgang on 18 fév 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.783022,
+            46.439514,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by Streicher Wolfgang on 18 fév 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.770534,
+            46.448799,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "styleUrl": "#parking_amont",
+          "styleHash": "-55e0b397",
+          "styleMapHash": {
+            "normal": "#parking_amont0",
+            "highlight": "#parking_amont1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by Streicher Wolfgang on 18 fév 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.782335,
+            46.437504,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "styleUrl": "#parking_aval",
+          "styleHash": "-64d43659",
+          "styleMapHash": {
+            "normal": "#parking_aval0",
+            "highlight": "#parking_aval1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "description": " (Data by Streicher Wolfgang on 18 fév 2008)"
+        }
+      }
+    ]
+  }
+}

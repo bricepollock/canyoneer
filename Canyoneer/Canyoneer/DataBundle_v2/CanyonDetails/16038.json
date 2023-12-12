@@ -1,0 +1,115 @@
+{
+  "url": "https://ropewiki.com/Arado",
+  "latitude": 41.7225,
+  "longitude": -8.1297,
+  "id": 16038,
+  "name": "Arado",
+  "quality": 3.8,
+  "months": [
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct"
+  ],
+  "technicalRating": 4,
+  "waterRating": "C",
+  "timeRating": "II",
+  "permit": "No",
+  "rappelLongestMeters": 50,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21210\">Descente-Canyon.com</a>\n: Arado</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/AradoCanyon\">Canyon.Carto.net</a>\n: Barranco del Arado superior</li>\n<li><img src=\"rwl_pl.png\" title=\"rwl_pl.png\" alt=\"rwl_pl.png\" /><a\nhref=\"http://canyoning.wroclaw.pl/kanion.php?id=99\">Canyoning.Wroclaw.pl</a>\n: Arado</li>\n<li><img src=\"rwl_pt.png\" title=\"rwl_pt.png\" alt=\"rwl_pt.png\" /><a\nhref=\"http://media.wix.com/ugd/7acf9c_5725b8f639c3459f99b79fcdfed6df9d.pdf\">ECDCPortugal.com</a>\n: Rio Arado Sup.</li>\n<li><img src=\"rwl_pt.png\" title=\"rwl_pt.png\" alt=\"rwl_pt.png\" /><a\nhref=\"http://media.wix.com/ugd/7acf9c_c09312eed53a45e3be3467da24a396b5.pdf\">ECDCPortugal.com</a>\n: Rio Arado Inf.</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"https://www.docuwiki.infobarrancos.es/doku.php?id=portugal:braga:arado_sup\">Wiki-Infobarrancos</a>\n: Canyon Rio Arado Superior (http://infobarrancos.es/)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://WWW.barranquistas.es/2008/03/despus-de-dos-meses-inactivo-al-fin.html\">Barranquistas.es</a>\n: CAÑONES DE PORTUGAL: ARADO Y FAFIÄO</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=2020156\">Wikiloc.com</a> :\nBarranco del Arado; en Braga (Portugal)</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=9205902\">Wikiloc.com</a> :\nCanyoning Rio Arado</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=1909178\">Wikiloc.com</a> :\nfafiao arado</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.130907,
+            41.734699,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by Streicher Wolfgang on 14 fév 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.129668,
+            41.722996,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by Streicher Wolfgang on 14 fév 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.12966,
+            41.722534,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by Streicher Wolfgang on 14 fév 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.158422,
+            41.735134,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Approach/Exit",
+          "styleUrl": "#point_externe",
+          "styleHash": "8bde020",
+          "styleMapHash": {
+            "normal": "#point_externe0",
+            "highlight": "#point_externe1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
+          "description": "depart de la piste (Data by Streicher Wolfgang on 14 fév 2008)"
+        }
+      }
+    ]
+  }
+}

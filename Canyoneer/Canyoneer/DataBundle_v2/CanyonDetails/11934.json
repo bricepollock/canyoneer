@@ -1,0 +1,206 @@
+{
+  "url": "https://ropewiki.com/Paternale",
+  "latitude": 42.5112,
+  "longitude": 11.6414,
+  "id": 11934,
+  "name": "Paternale",
+  "quality": 1.7,
+  "months": [
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov"
+  ],
+  "technicalRating": 3,
+  "waterRating": "C",
+  "timeRating": "III",
+  "permit": "No",
+  "rappelLongestMeters": 15,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/23128\">Descente-Canyon.com</a>\n: Paternale</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/VT002\">Catastoforre\nAIC-Canyoning.it</a> : Fosso della Paternale</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/PaternaleCanyon\">Canyon.Carto.net</a>\n: Fosso della Paternale</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            11.663228,
+            42.517963,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by Streicher Wolfgang on 08 mars 2014)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            11.626664,
+            42.507099,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": "au-dessus de la cascade à droite ou au-dessous de la cascade à gauche (Data by Streicher Wolfgang on 08 mars 2014)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            11.636701,
+            42.501316,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "styleUrl": "#parking_aval",
+          "styleHash": "-64d43659",
+          "styleMapHash": {
+            "normal": "#parking_aval0",
+            "highlight": "#parking_aval1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "description": "pour navette (Data by Streicher Wolfgang on 08 mars 2014)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            11.663142,
+            42.518021,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by Streicher Wolfgang on 08 mars 2014)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            11.630043,
+            42.506432,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Approach/Exit",
+          "styleUrl": "#point_externe",
+          "styleHash": "8bde020",
+          "styleMapHash": {
+            "normal": "#point_externe0",
+            "highlight": "#point_externe1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
+          "description": "retour vers parking aval (Data by Streicher Wolfgang on 08 mars 2014)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            11.6294,
+            42.508732,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Approach/Exit",
+          "styleUrl": "#point_externe",
+          "styleHash": "8bde020",
+          "styleMapHash": {
+            "normal": "#point_externe0",
+            "highlight": "#point_externe1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
+          "description": "1 : retour au rive droite (Data by Streicher Wolfgang on 08 mars 2014)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            11.634946,
+            42.512444,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Approach/Exit",
+          "styleUrl": "#point_externe",
+          "styleHash": "8bde020",
+          "styleMapHash": {
+            "normal": "#point_externe0",
+            "highlight": "#point_externe1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
+          "description": "2 : retour par la piste (Data by Streicher Wolfgang on 08 mars 2014)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            11.64722,
+            42.517769,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Approach/Exit",
+          "styleUrl": "#point_externe",
+          "styleHash": "8bde020",
+          "styleMapHash": {
+            "normal": "#point_externe0",
+            "highlight": "#point_externe1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
+          "description": "3 : retour, ensuite traverser Prades ou prendre la SP116 et les pistes. (Data by Streicher Wolfgang on 08 mars 2014)"
+        }
+      }
+    ]
+  }
+}

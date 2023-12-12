@@ -1,0 +1,225 @@
+{
+  "url": "https://ropewiki.com/Amen_(Final)",
+  "latitude": 44.0528,
+  "longitude": 6.8511,
+  "id": 14002,
+  "name": "Amen (Final)",
+  "quality": 4.3,
+  "months": [
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep"
+  ],
+  "technicalRating": 3,
+  "waterRating": "C",
+  "timeRating": "II",
+  "permit": "Yes",
+  "rappelLongestMeters": 30,
+  "shuttleSeconds": 30,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/248\">Descente-Canyon.com</a>\n: Amen (cascades finales)</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://icopro.org/canyon/view/id/418\">Icopro.org</a> : Amen (Clue\nd')</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://WWW.barranquistas.es/2010/08/clue-damen.html\">Barranquistas.es</a>\n: CLUE D'AMEN</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=7101804\">Wikiloc.com</a> :\nAmen cascades finales</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.845577,
+            44.054793,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-93",
+          "styleHash": "203f2b70",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "44.05478ºN, 6.84555ºE (WSG84)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              6.850855000000001,
+              44.053162,
+              0
+            ],
+            [
+              6.850383,
+              44.053517,
+              0
+            ],
+            [
+              6.849976,
+              44.053794,
+              0
+            ],
+            [
+              6.849332,
+              44.05385600000001,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Descent",
+          "description": "Parte Inferior<br>1h30m",
+          "stroke": "#FF0000",
+          "stroke-opacity": 0.7843137254901961,
+          "stroke-width": 5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              6.84931,
+              44.053918,
+              0
+            ],
+            [
+              6.848323,
+              44.054072,
+              0
+            ],
+            [
+              6.847551,
+              44.05455,
+              0
+            ],
+            [
+              6.846714,
+              44.054889,
+              0
+            ],
+            [
+              6.846178,
+              44.054951,
+              0
+            ],
+            [
+              6.845512,
+              44.054827,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "description": "20 min",
+          "stroke": "#FFFF00",
+          "stroke-opacity": 0.7843137254901961,
+          "stroke-width": 5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              6.8508770000000005,
+              44.053069,
+              0
+            ],
+            [
+              6.850233,
+              44.05327,
+              0
+            ],
+            [
+              6.849611,
+              44.053686000000006,
+              0
+            ],
+            [
+              6.849289,
+              44.053948000000005,
+              0
+            ],
+            [
+              6.848302,
+              44.05411800000001,
+              0
+            ],
+            [
+              6.847422000000001,
+              44.054673,
+              0
+            ],
+            [
+              6.846521,
+              44.054966,
+              0
+            ],
+            [
+              6.845534,
+              44.054843,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Approach",
+          "description": "35 min",
+          "stroke": "#00FF00",
+          "stroke-opacity": 0.7843137254901961,
+          "stroke-width": 5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.850898,
+            44.053143,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start (parte inferior)",
+          "styleUrl": "#icon-62-nodesc",
+          "styleHash": "-7c65c352",
+          "styleMapHash": {
+            "normal": "#icon-62-nodesc-normal",
+            "highlight": "#icon-62-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.84931,
+            44.053899,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#icon-124-nodesc",
+          "styleHash": "-326c401e",
+          "styleMapHash": {
+            "normal": "#icon-124-nodesc-normal",
+            "highlight": "#icon-124-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png"
+        }
+      }
+    ]
+  }
+}

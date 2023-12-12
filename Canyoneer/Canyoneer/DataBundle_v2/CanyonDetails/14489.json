@@ -1,0 +1,75 @@
+{
+  "url": "https://ropewiki.com/Cramassouri",
+  "latitude": 43.9384,
+  "longitude": 7.1807,
+  "id": 14489,
+  "name": "Cramassouri",
+  "quality": 3.9,
+  "months": [
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct"
+  ],
+  "technicalRating": 3,
+  "waterRating": "B",
+  "timeRating": "I",
+  "permit": "Yes",
+  "rappelCountMin": 5,
+  "rappelCountMax": 5,
+  "rappelLongestMeters": 10,
+  "shuttleSeconds": 30,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2151\">Descente-Canyon.com</a>\n: Cramassouri</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/CramassouriCanyon\">Canyon.Carto.net</a>\n: Cramassouri</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_cramassouri.htm\">CicaRudeClan.com</a>\n: Vallon de Cramassouri</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://altisud.com/canyoning/france/alpes-maritimes/vallee-de-la-tinee/vallon-de-cramassouri-canyoning__i_4mxvn7pr25ki__al_descente-canyon-fiche.html\">Altisud.com</a>\n: Vallon de Cramassouri</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://icopro.org/canyon/view/id/175\">Icopro.org</a> :\nCramassouri</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.180552,
+            43.938576,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": "Départ depuis l\\ (Data by Rémi Villalongue on 27 sept 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.175295,
+            43.933971,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by IP on 08 jan 2008)"
+        }
+      }
+    ]
+  }
+}

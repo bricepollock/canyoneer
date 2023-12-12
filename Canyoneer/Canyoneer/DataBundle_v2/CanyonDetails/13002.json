@@ -1,0 +1,96 @@
+{
+  "url": "https://ropewiki.com/Alborzeral",
+  "latitude": 42.2132,
+  "longitude": -0.0584,
+  "id": 13002,
+  "name": "Alborzeral",
+  "quality": 3.6,
+  "months": [
+    "Jun",
+    "Jul",
+    "Aug",
+    "Mar",
+    "Apr",
+    "May",
+    "Sep",
+    "Oct",
+    "Nov"
+  ],
+  "technicalRating": 3,
+  "waterRating": "B",
+  "timeRating": "III",
+  "permit": "Yes",
+  "rappelLongestMeters": 20,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2821\">Descente-Canyon.com</a>\n: Alborzeral</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/AlborzeralCanyon\">Canyon.Carto.net</a>\n: Barranco de Alboceral</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://guara.info/guara-base-de-datos/descenso-de-barrancos/sierra-de-guara/cuenca-del-isuala/barranco-de-lalborceral\">Guara.info</a>\n: Barranco de l'Alborceral</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barrancos.org/Alborceral.htm\">Barrancos.org</a> :\nAlborceral</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://icopro.org/canyon/view/id/122\">Icopro.org</a> :\nAlborzeral</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://teamespeleocanyons.blogspot.com.es/2012/11/barranco-alborceral-y-barranco-cautiecho_3.html\">TeamEspeleoCanyons\nBlog</a> : Barranco Alborceral y Barranco Cautiecho.</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/54592/\">Gulliver.it</a> :\nAlborzeral</li>\n<li><a\nhref=\"http://diariodeunanfibio.blogspot.com.es/2011/03/05032011-barranco-alborceral.html\">http://diariodeunanfibio.blogspot.com.es/2011/03/05032011-barranco-alborceral.html</a></li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:alborzeral\">Wiki-Infobarrancos</a>\n: Barranco de Alborceral (http://infobarrancos.es/)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://365diasdeunaguia.wordpress.com?id=Alborceral\">365DiasDeUnaGuia</a>\n: Alborceral</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=5307545\">Wikiloc.com</a> :\nBarranco de Alborceral</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=13004591\">Wikiloc.com</a> :\nBarranco Alborceral + Estrechos de Balces (Guara)</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=15527690\">Wikiloc.com</a> :\nAlborzeral -para depurar y mucho-</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.058579,
+            42.214615,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by Rémi Villalongue on 31 jan 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.050147,
+            42.210068,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": "Confluence avec Balces. Attention, descente du balces très souvent obligatoire à ce niveau. (Data by Rémi Villalongue on 31 jan 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.061283,
+            42.212929,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by Rémi Villalongue on 31 jan 2008)"
+        }
+      }
+    ]
+  }
+}

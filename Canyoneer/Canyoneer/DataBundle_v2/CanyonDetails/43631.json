@@ -1,0 +1,65 @@
+{
+  "url": "https://ropewiki.com/Couleuvre",
+  "latitude": 16.248,
+  "longitude": -61.7489,
+  "id": 43631,
+  "name": "Couleuvre",
+  "quality": 1,
+  "technicalRating": 2,
+  "waterRating": "A",
+  "timeRating": "I",
+  "permit": "No",
+  "rappelCountMin": 0,
+  "rappelCountMax": 0,
+  "shuttleSeconds": 60,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>We descended this canyon based on the information in the Guadeloupe\nCanyons guidebook. If it ever was a canyon it has grossly changed. There\nare no rappels and the approach is a hideous bushwhack through vine\nchocked jungle. The canyon itself starts dry and then gains water, but\nit is over as soon as it starts and never becomes anything more than a\ncreek.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>Drive to the end of the road and walk to a farm. Then head up to the\ncreek. There are no impassable obstacles.</p>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<p>Some beta suggests a longer descent involving a shuttle. We didn't\nsee the necessity of this.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://ankanionla-madinina.com/Files/Other/Guadeloupe/Liste%20rivieres%20et%20ravines%20de%20guadeloupe1%20.pdf?id=AG-49&amp;kmlidx=16.248:-61.7489:16.2319:-61.7446\">An\nKanion La-madinina</a> : Ravune Couleuvre [AG-49]</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.7489,
+            16.248,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#start",
+          "styleHash": "31080363",
+          "styleMapHash": {
+            "normal": "#start0",
+            "highlight": "#start1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-blank.png",
+          "description": " (Data by ankanionla-madinina.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.7446,
+            16.2319,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "68b1394a",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-blank.png",
+          "description": " (Data by ankanionla-madinina.com)"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "url": "https://ropewiki.com/Beal_Noir",
+  "latitude": 44.7081,
+  "longitude": 6.6119,
+  "id": 14125,
+  "name": "Beal Noir",
+  "quality": 2.9,
+  "technicalRating": 3,
+  "waterRating": "B",
+  "timeRating": "II",
+  "permit": "No",
+  "rappelLongestMeters": 20,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<ul>\n<li>MC + C8</li>\n<li>MC + C11</li>\n<li>C13</li>\n<li>C8</li>\n<li>MC2 + C9</li>\n<li>MC3 + C12</li>\n<li>MARCHE + DES 3</li>\n<li>Trail / Optional EXIT</li>\n<li>DES 2 + DES 2</li>\n<li>C5</li>\n<li>C14</li>\n<li>C6</li>\n<li>C9 AN</li>\n<li>DES 5</li>\n</ul>\n<h2 id=\"exit\">Exit</h2>\n<p>After the final 5m descent on the left the trail to the graveyard\nleads out of the canyon.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2256\">Descente-Canyon.com</a>\n: Beal Noir</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://latrencanous.com/barrancos/beal_noir/topo.pdf\">Latrencanous.com</a>\n: Béal Noir</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://alpes-guide.com/sources/topo/fiche.asp?pitineraire=234\">Alpes-Guide.com</a>\n: Torrent du Beal Noir</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=9142176\">Wikiloc.com</a> :\nBarranco de Beal Noir</li>\n<li><a\nhref=\"https://www.christian-balla.de/SaintCrepin\"><span>https://www.christian-balla.de/SaintCrepin</span></a></li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.613889,
+            44.710556,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by Olivier LETOUCQ on 24 déc 2007)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.611667,
+            44.707779,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by Olivier LETOUCQ on 24 déc 2007)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.610278,
+            44.705833,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by Olivier LETOUCQ on 24 déc 2007)"
+        }
+      }
+    ]
+  }
+}

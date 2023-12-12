@@ -1,0 +1,160 @@
+{
+  "url": "https://ropewiki.com/Scroa",
+  "latitude": 46.03,
+  "longitude": 12.1752,
+  "id": 12322,
+  "name": "Scroa",
+  "quality": 1.9,
+  "months": [
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep"
+  ],
+  "technicalRating": 3,
+  "waterRating": "C",
+  "timeRating": "I",
+  "permit": "No",
+  "rappelCountMin": 5,
+  "rappelCountMax": 5,
+  "rappelLongestMeters": 20,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/23031\">Descente-Canyon.com</a>\n: Scroa</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/ValdiScroaCanyon\">Canyon.Carto.net</a>\n: Val di Scroa</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/BL053\">Catastoforre\nAIC-Canyoning.it</a> : Val di Scroa</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.175341,
+            46.029598,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by Streicher Wolfgang on 19 sept 2013)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.172868,
+            46.034214,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by Streicher Wolfgang on 19 sept 2013)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.174976,
+            46.03009,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by Streicher Wolfgang on 19 sept 2013)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.17478,
+            46.030819,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Approach/Exit",
+          "styleUrl": "#point_externe",
+          "styleHash": "8bde020",
+          "styleMapHash": {
+            "normal": "#point_externe0",
+            "highlight": "#point_externe1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
+          "description": "Arrivé à la route (Data by Streicher Wolfgang on 19 sept 2013)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.174525,
+            46.033657,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Approach/Exit",
+          "styleUrl": "#point_externe",
+          "styleHash": "8bde020",
+          "styleMapHash": {
+            "normal": "#point_externe0",
+            "highlight": "#point_externe1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
+          "description": "début de la sente dans clairière vers sud-ouest. (Data by Streicher Wolfgang on 19 sept 2013)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.174515,
+            46.034901,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Approach/Exit",
+          "styleUrl": "#point_externe",
+          "styleHash": "8bde020",
+          "styleMapHash": {
+            "normal": "#point_externe0",
+            "highlight": "#point_externe1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
+          "description": "Debut sentier vers le-haut (Data by Streicher Wolfgang on 19 sept 2013)"
+        }
+      }
+    ]
+  }
+}

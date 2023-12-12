@@ -1,0 +1,115 @@
+{
+  "url": "https://ropewiki.com/Turzon",
+  "latitude": 44.8543,
+  "longitude": 4.8025,
+  "id": 15653,
+  "name": "Turzon",
+  "quality": 4.4,
+  "months": [
+    "Jun",
+    "Jul",
+    "Aug"
+  ],
+  "technicalRating": 3,
+  "waterRating": "C1",
+  "timeRating": "II",
+  "permit": "Yes",
+  "rappelCountMin": 5,
+  "rappelCountMax": 5,
+  "rappelLongestMeters": 22,
+  "shuttleSeconds": 180,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2217\">Descente-Canyon.com</a>\n: Turzon</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/TurzonCanyon\">Canyon.Carto.net</a>\n: Turzon</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://canisciolti.biz/2012/canyon/shede/le%20turzon.html\">Canisciolti.biz</a>\n: LE TURZON</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://yadugaz07.com/canyon-turzon.php\">Yadugaz07</a> :\nTurzon</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.79606,
+            44.854706,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by Rémi Villalongue on 15 jan 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.807422,
+            44.854916,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by Rémi Villalongue on 15 jan 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.795385,
+            44.85593,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "styleUrl": "#parking_amont",
+          "styleHash": "-55e0b397",
+          "styleMapHash": {
+            "normal": "#parking_amont0",
+            "highlight": "#parking_amont1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by Rémi Villalongue on 15 jan 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.811143,
+            44.851761,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "styleUrl": "#parking_aval",
+          "styleHash": "-64d43659",
+          "styleMapHash": {
+            "normal": "#parking_aval0",
+            "highlight": "#parking_aval1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "description": " (Data by Rémi Villalongue on 15 jan 2008)"
+        }
+      }
+    ]
+  }
+}

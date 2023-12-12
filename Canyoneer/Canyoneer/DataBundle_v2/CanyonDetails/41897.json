@@ -1,0 +1,150 @@
+{
+  "url": "https://ropewiki.com/Arco",
+  "latitude": 40.7392,
+  "longitude": 15.4359,
+  "id": 41897,
+  "name": "Arco",
+  "months": [
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+    "Jan",
+    "Feb"
+  ],
+  "permit": "No",
+  "rappelCountMin": 5,
+  "rappelCountMax": 5,
+  "rappelLongestMeters": 20,
+  "shuttleSeconds": 30,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://micheleangileri.com/cgi-bin/schedap.cgi?arco\">Michele\nAngileri's Canyons</a> : Vallone dell'Arco</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/PZ016\">Catastoforre\nAIC-Canyoning.it</a> : vallone dell arco</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=9188892\">Wikiloc.com</a> :\nVallone dell arco</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            15.436199,
+            40.734218,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "66e10f89",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by davidemonopoli at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            15.444546,
+            40.749793,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-1fe0f8f",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by davidemonopoli at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              15.436199,
+              40.734218,
+              0
+            ],
+            [
+              15.43577,
+              40.735308,
+              0
+            ],
+            [
+              15.435576,
+              40.737307,
+              0
+            ],
+            [
+              15.435662,
+              40.739291,
+              0
+            ],
+            [
+              15.437078,
+              40.740884,
+              0
+            ],
+            [
+              15.437722,
+              40.742673,
+              0
+            ],
+            [
+              15.438752,
+              40.744461,
+              0
+            ],
+            [
+              15.439782,
+              40.746021,
+              0
+            ],
+            [
+              15.441027,
+              40.746997,
+              0
+            ],
+            [
+              15.442572,
+              40.74833,
+              0
+            ],
+            [
+              15.44373,
+              40.749208,
+              0
+            ],
+            [
+              15.444546,
+              40.749793,
+              0
+            ],
+            [
+              15.444546,
+              40.749793,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Track",
+          "description": " (Data by davidemonopoli at wikiloc.com)",
+          "stroke": "#FF00FF",
+          "stroke-opacity": 1,
+          "stroke-width": 3
+        }
+      }
+    ]
+  }
+}

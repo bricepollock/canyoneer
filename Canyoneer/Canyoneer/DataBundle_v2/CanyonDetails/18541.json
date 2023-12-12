@@ -1,0 +1,142 @@
+{
+  "url": "https://ropewiki.com/Fern_Canyon",
+  "latitude": 41.4016,
+  "longitude": -124.065,
+  "id": 18541,
+  "name": "Fern Canyon",
+  "quality": 3,
+  "months": [
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+    "Jan",
+    "Feb"
+  ],
+  "technicalRating": 1,
+  "waterRating": "B",
+  "timeRating": "I",
+  "permit": "No",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>Popular hike-through narrows in Redwood National Park. Non-technical.\nThe park service provides bridges in the summer season.</p>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>None.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://canyonchronicles.com/fern-canyon?kmlidx=205701186783545362755.0004e400e1d8481fabc27\">CanyonChronicles.com</a>\n: Fern Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://summitpost.org/fern-canyon/182490\">SummitPost.org</a> :\nFern Canyon</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -124.065717,
+            41.400707,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#icon-93",
+          "styleHash": "6012e13e",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Lovely beach too. (Data by canyonchronicles.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -124.065607,
+              41.400602,
+              0
+            ],
+            [
+              -124.065263,
+              41.402694,
+              0
+            ],
+            [
+              -124.064105,
+              41.403403,
+              0
+            ],
+            [
+              -124.06213,
+              41.402952,
+              0
+            ],
+            [
+              -124.060156,
+              41.401761,
+              0
+            ],
+            [
+              -124.059083,
+              41.400763,
+              0
+            ],
+            [
+              -124.057968,
+              41.399443,
+              0
+            ],
+            [
+              -124.056466,
+              41.397834,
+              0
+            ],
+            [
+              -124.05462,
+              41.396739,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Line 1",
+          "styleUrl": "#line-0000FF-5000-nodesc",
+          "styleHash": "41bc1ef5",
+          "styleMapHash": {
+            "normal": "#line-0000FF-5000-nodesc-normal",
+            "highlight": "#line-0000FF-5000-nodesc-highlight"
+          },
+          "description": " (Data by canyonchronicles.com)",
+          "stroke": "#0000ff",
+          "stroke-opacity": 1,
+          "stroke-width": 5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -124.05457,
+            41.396739,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Placemark 2",
+          "styleUrl": "#icon-33",
+          "styleHash": "5dca746e",
+          "styleMapHash": {
+            "normal": "#icon-33-normal",
+            "highlight": "#icon-33-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/33-caution.png",
+          "description": "Go as far as you would like, it becomes non-interesting fairly quickly. (Data by canyonchronicles.com)"
+        }
+      }
+    ]
+  }
+}

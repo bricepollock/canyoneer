@@ -1,0 +1,124 @@
+{
+  "url": "https://ropewiki.com/Cabrielle",
+  "latitude": 43.7744,
+  "longitude": 6.2824,
+  "id": 14275,
+  "name": "Cabrielle",
+  "quality": 3.5,
+  "months": [
+    "Dec",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov"
+  ],
+  "technicalRating": 4,
+  "waterRating": "A",
+  "timeRating": "II",
+  "permit": "Yes",
+  "rappelCountMin": 6,
+  "rappelCountMax": 6,
+  "rappelLongestMeters": 60,
+  "shuttleSeconds": 30,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2918\">Descente-Canyon.com</a>\n: Cabrielle</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_cabri.htm\">CicaRudeClan.com</a> :\nRavin de Cabrielle</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.288333,
+            43.773888,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by Olivier LETOUCQ on 25 jan 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.273611,
+            43.77639,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by Olivier LETOUCQ on 25 jan 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.282222,
+            43.775833,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by Olivier LETOUCQ on 25 jan 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.285278,
+            43.771389,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Descent",
+          "styleUrl": "#point_interne",
+          "styleHash": "406ab760",
+          "styleMapHash": {
+            "normal": "#point_interne0",
+            "highlight": "#point_interne1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_interne.png",
+          "description": "arrivée de Cabrielle dans le Verdon. (Data by Olivier LETOUCQ on 25 jan 2008)"
+        }
+      }
+    ]
+  }
+}

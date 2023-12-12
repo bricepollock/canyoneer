@@ -1,0 +1,68 @@
+{
+  "url": "https://ropewiki.com/Tourte",
+  "latitude": 45.1256,
+  "longitude": 2.6836,
+  "id": 15621,
+  "name": "Tourte",
+  "quality": 2.4,
+  "months": [
+    "Jun",
+    "Jul",
+    "Aug"
+  ],
+  "technicalRating": 3,
+  "waterRating": "B",
+  "timeRating": "II",
+  "permit": "No",
+  "rappelLongestMeters": 35,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/22917\">Descente-Canyon.com</a>\n: Tourte</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.68145,
+            45.12558,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": "Passage busé en béton (Data by phil91 on 17 avr 2013)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.685771,
+            45.125713,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": "Chemin forestier (Data by phil91 on 17 avr 2013)"
+        }
+      }
+    ]
+  }
+}

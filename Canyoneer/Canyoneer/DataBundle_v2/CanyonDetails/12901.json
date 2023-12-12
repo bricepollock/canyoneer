@@ -1,0 +1,72 @@
+{
+  "url": "https://ropewiki.com/Sementina_(Lower)",
+  "latitude": 46.1922,
+  "longitude": 8.984,
+  "id": 12901,
+  "name": "Sementina (Lower)",
+  "quality": 3.5,
+  "months": [
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep"
+  ],
+  "technicalRating": 4,
+  "waterRating": "B",
+  "timeRating": "I",
+  "permit": "No",
+  "rappelCountMin": 3,
+  "rappelCountMax": 3,
+  "rappelLongestMeters": 90,
+  "shuttleSeconds": 600,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2680\">Descente-Canyon.com</a>\n: Sementina (inférieur)</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://swisscanyon.ch/canyons/descrittivi/sementina-inf.htm\">SwissCanyon.ch</a>\n: Sementina inf.</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://verticalwatercanyoning.com/profili/svizzera/sementina-3\">VerticalWaterCanyoning.com</a>\n: Sementina</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://schlucht.ch/schluchten-der-schweiz-navbar.html?cid=114\">Schlucht.ch</a>\n: Val Sementina inferiore</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<h2 id=\"background_1\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.977504,
+            46.193676,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by merminodg on 19 mai 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.990507,
+            46.190765,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by merminodg on 19 mai 2008)"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "url": "https://ropewiki.com/Cedros_(Upper)",
+  "latitude": 38.5756,
+  "longitude": -27.9021,
+  "id": 33854,
+  "name": "Cedros (Upper)",
+  "quality": 2.8,
+  "technicalRating": 3,
+  "timeRating": "I",
+  "permit": "No",
+  "rappelCountMin": 2,
+  "rappelCountMax": 2,
+  "rappelLongestMeters": 7,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li>[<a\nhref=\"http://ropewiki.com/User:Azores_Canyoning_Book?id=Cedro_Sup\">http://ropewiki.com/User:Azores_Canyoning_Book?id=Cedro_Sup</a>..\nAzores Canyoning Book by Desnivel]</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -27.9021,
+            38.5756,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#start",
+          "styleHash": "31080363",
+          "styleMapHash": {
+            "normal": "#start0",
+            "highlight": "#start1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-blank.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -27.902728,
+            38.574292,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "68b1394a",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-blank.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -27.902065,
+              38.575833,
+              0
+            ],
+            [
+              -27.902088,
+              38.575774,
+              0
+            ],
+            [
+              -27.902092,
+              38.575646,
+              0
+            ],
+            [
+              -27.902093,
+              38.575547,
+              0
+            ],
+            [
+              -27.90209,
+              38.575493,
+              0
+            ],
+            [
+              -27.902093,
+              38.575385,
+              0
+            ],
+            [
+              -27.902137,
+              38.575252,
+              0
+            ],
+            [
+              -27.902187,
+              38.575048,
+              0
+            ],
+            [
+              -27.90222,
+              38.574922,
+              0
+            ],
+            [
+              -27.902281,
+              38.574823,
+              0
+            ],
+            [
+              -27.902325,
+              38.574745,
+              0
+            ],
+            [
+              -27.902319,
+              38.574667,
+              0
+            ],
+            [
+              -27.902402,
+              38.574496,
+              0
+            ],
+            [
+              -27.902486,
+              38.574465,
+              0
+            ],
+            [
+              -27.90256,
+              38.574445,
+              0
+            ],
+            [
+              -27.902607,
+              38.574396,
+              0
+            ],
+            [
+              -27.902728,
+              38.574292,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Descent",
+          "stroke": "#FF0000",
+          "stroke-opacity": 1,
+          "stroke-width": 5
+        }
+      }
+    ]
+  }
+}

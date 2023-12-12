@@ -1,0 +1,117 @@
+{
+  "url": "https://ropewiki.com/Amen_(Upper)",
+  "latitude": 44.0567,
+  "longitude": 6.8562,
+  "id": 14003,
+  "name": "Amen (Upper)",
+  "quality": 3.5,
+  "months": [
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct"
+  ],
+  "technicalRating": 3,
+  "waterRating": "C",
+  "timeRating": "III",
+  "permit": "Yes",
+  "rappelCountMin": 8,
+  "rappelCountMax": 8,
+  "rappelLongestMeters": 15,
+  "shuttleSeconds": 240,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/256\">Descente-Canyon.com</a>\n: Amen (partie amont)</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/CluedAmenCanyon\">Canyon.Carto.net</a>\n: Clue d'Amen</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://altisud.com/canyoning/france/alpes-maritimes/vallee-du-var/clue-d-amen-canyoning__i_4mxvn7quj5hx__al_descente-canyon-fiche.html\">Altisud.com</a>\n: Clue d'Amen</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_amen.htm\">CicaRudeClan.com</a> :\nClue d'Amen</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://altisud.com/canyoning/france/alpes-maritimes/vallee-du-var/vallon-de-soccietta--amen-amont-canyoning__i_4t3ykwbyx1fn__al_descente-canyon-fiche.html\">Altisud.com</a>\n: Vallon de Soccietta / Amen amont</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://latrencanous.com/barrancos/clue_d_amen/topo.pdf\">Latrencanous.com</a>\n: Clue d'Amen</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barranquismo.net/paginas/barrancos/clue_d_amen.pdf\">Barranquismo.net</a>\n: Amen</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barrancos.org/alpes/Amen.htm\">Barrancos.org</a> : Clue\nd'Amen</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://WWW.barranquistas.es/2010/08/clue-damen.html\">Barranquistas.es</a>\n: CLUE D'AMEN</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://nko-extreme.com/2008/clue-damen\">NKO-Extreme.com</a> : Clue\nd'Amen</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.872313,
+            44.04335,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by IP on 11 jan 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.849267,
+            44.053944,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by IP on 11 jan 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.857872,
+            44.076084,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "styleUrl": "#parking_amont",
+          "styleHash": "-55e0b397",
+          "styleMapHash": {
+            "normal": "#parking_amont0",
+            "highlight": "#parking_amont1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by IP on 11 jan 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.845362,
+            44.053543,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "styleUrl": "#parking_aval",
+          "styleHash": "-64d43659",
+          "styleMapHash": {
+            "normal": "#parking_aval0",
+            "highlight": "#parking_aval1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "description": " (Data by IP on 11 jan 2008)"
+        }
+      }
+    ]
+  }
+}

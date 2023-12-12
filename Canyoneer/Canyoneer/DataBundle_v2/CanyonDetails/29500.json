@@ -1,0 +1,215 @@
+{
+  "url": "https://ropewiki.com/San_Jeronimo",
+  "latitude": 28.495,
+  "longitude": -16.4213,
+  "id": 29500,
+  "name": "San Jeronimo",
+  "permit": "No",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=12473790\">Wikiloc.com</a> :\nBarranco de San Jerónimo.</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=6260393\">Wikiloc.com</a> :\nTenerife. Barranco de San Jerónimo</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.421254,
+            28.495026,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "50ff4041",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by dperma1 at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.424366,
+            28.502919,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-4151c9e4",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by dperma1 at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.425676,
+            28.49581,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Desvío a la derecha por el paseo.",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "11bb9edd",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by dperma1 at wikiloc.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -16.421254,
+              28.495026,
+              0
+            ],
+            [
+              -16.422237,
+              28.495742,
+              0
+            ],
+            [
+              -16.423507,
+              28.495712,
+              0
+            ],
+            [
+              -16.423609,
+              28.495539,
+              0
+            ],
+            [
+              -16.423873,
+              28.495498,
+              0
+            ],
+            [
+              -16.424229,
+              28.495617,
+              0
+            ],
+            [
+              -16.424265,
+              28.495368,
+              0
+            ],
+            [
+              -16.424792,
+              28.496162,
+              0
+            ],
+            [
+              -16.4256,
+              28.49577,
+              0
+            ],
+            [
+              -16.425745,
+              28.495885,
+              0
+            ],
+            [
+              -16.42562,
+              28.496379,
+              0
+            ],
+            [
+              -16.425682,
+              28.49728,
+              0
+            ],
+            [
+              -16.425534,
+              28.497698,
+              0
+            ],
+            [
+              -16.425857,
+              28.497839,
+              0
+            ],
+            [
+              -16.426328,
+              28.498328,
+              0
+            ],
+            [
+              -16.426118,
+              28.498547,
+              0
+            ],
+            [
+              -16.425658,
+              28.498679,
+              0
+            ],
+            [
+              -16.425578,
+              28.499535,
+              0
+            ],
+            [
+              -16.424577,
+              28.499571,
+              0
+            ],
+            [
+              -16.424166,
+              28.500149,
+              0
+            ],
+            [
+              -16.424262,
+              28.50165,
+              0
+            ],
+            [
+              -16.424131,
+              28.502683,
+              0
+            ],
+            [
+              -16.424366,
+              28.502919,
+              0
+            ],
+            [
+              -16.424366,
+              28.502919,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Track",
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "stroke": "#FF00FF",
+          "stroke-opacity": 1,
+          "stroke-width": 3
+        }
+      }
+    ]
+  }
+}

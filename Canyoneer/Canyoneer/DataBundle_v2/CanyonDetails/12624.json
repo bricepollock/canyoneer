@@ -1,0 +1,107 @@
+{
+  "url": "https://ropewiki.com/Gei_(Upper)",
+  "latitude": 46.2341,
+  "longitude": 8.7553,
+  "id": 12624,
+  "name": "Gei (Upper)",
+  "quality": 3.2,
+  "technicalRating": 4,
+  "waterRating": "C1",
+  "timeRating": "III",
+  "permit": "No",
+  "rappelLongestMeters": 60,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/22113\">Descente-Canyon.com</a>\n: Gei superieur</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/GeisuperioreCanyon\">Canyon.Carto.net</a>\n: Val di Gei superiore</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.748121,
+            46.236824,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by Streicher Wolfgang on 08 sept 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.745632,
+            46.228928,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": "fin du canyon integrale ( = fin du Gei inf.) (Data by Streicher Wolfgang on 08 sept 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.745149,
+            46.228779,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by Streicher Wolfgang on 08 sept 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.747778,
+            46.230591,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Descent",
+          "styleUrl": "#point_interne",
+          "styleHash": "406ab760",
+          "styleMapHash": {
+            "normal": "#point_interne0",
+            "highlight": "#point_interne1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_interne.png",
+          "description": "possible sortie á l\\ (Data by Streicher Wolfgang on 08 sept 2009)"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "url": "https://ropewiki.com/Palmas",
+  "latitude": 27.846,
+  "longitude": -15.5105,
+  "id": 13557,
+  "name": "Palmas",
+  "quality": 2.4,
+  "months": [
+    "Dec",
+    "Jan",
+    "Feb"
+  ],
+  "technicalRating": 4,
+  "timeRating": "III",
+  "permit": "No",
+  "rappelLongestMeters": 60,
+  "shuttleSeconds": 30,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/22162\">Descente-Canyon.com</a>\n: Palmas</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/DelasPalmasCanyon\">Canyon.Carto.net</a>\n: Barranco de las Palmas</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barranquismo.net/paginas/barrancos/barranco_de_las_palmas.htm\">Barranquismo.net</a>\n: Palmas</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barrancoscanarios.com/barrancos/gran-canaria1/sector-sur/barranco-de-las-palmas\">BarrancosCanarios.com</a>\n: Barranco de Las Palmas</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.522974,
+            27.849503,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by Streicher Wolfgang on 17 sept 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.514669,
+            27.848022,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": "sans navette sortir devant la fin de canyon (Data by Streicher Wolfgang on 17 sept 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.490808,
+            27.843212,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": "avec 4x4 navette possible (Data by Streicher Wolfgang on 17 sept 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.513382,
+            27.849152,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Approach/Exit",
+          "styleUrl": "#point_externe",
+          "styleHash": "8bde020",
+          "styleMapHash": {
+            "normal": "#point_externe0",
+            "highlight": "#point_externe1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
+          "description": "piste au-dessous de \"Mojons\" (Data by Streicher Wolfgang on 17 sept 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.511816,
+            27.849842,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Approach/Exit",
+          "styleUrl": "#point_externe",
+          "styleHash": "8bde020",
+          "styleMapHash": {
+            "normal": "#point_externe0",
+            "highlight": "#point_externe1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
+          "description": "de là monter de là sans sentier, peutêtre jusqu\\ (Data by Streicher Wolfgang on 17 sept 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.522298,
+            27.850945,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Approach/Exit",
+          "styleUrl": "#point_externe",
+          "styleHash": "8bde020",
+          "styleMapHash": {
+            "normal": "#point_externe0",
+            "highlight": "#point_externe1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
+          "description": "parking amont pour 4x4 (Data by Streicher Wolfgang on 17 sept 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.503769,
+            27.838165,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Approach/Exit",
+          "styleUrl": "#point_externe",
+          "styleHash": "8bde020",
+          "styleMapHash": {
+            "normal": "#point_externe0",
+            "highlight": "#point_externe1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
+          "description": "parking aval pour 4x4 (Data by Streicher Wolfgang on 17 sept 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.504391,
+            27.839039,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint Descent",
+          "styleUrl": "#point_interne",
+          "styleHash": "406ab760",
+          "styleMapHash": {
+            "normal": "#point_interne0",
+            "highlight": "#point_interne1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_interne.png",
+          "description": "fin du canyon pour 4x4 - acces (Data by Streicher Wolfgang on 17 sept 2009)"
+        }
+      }
+    ]
+  }
+}

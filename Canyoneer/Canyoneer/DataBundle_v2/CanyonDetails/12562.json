@@ -1,0 +1,93 @@
+{
+  "url": "https://ropewiki.com/Bondasca",
+  "latitude": 46.3315,
+  "longitude": 9.5599,
+  "id": 12562,
+  "name": "Bondasca",
+  "quality": 4.1,
+  "months": [
+    "May",
+    "Jun",
+    "Jul"
+  ],
+  "technicalRating": 4,
+  "waterRating": "C1",
+  "timeRating": "II",
+  "permit": "Closed",
+  "rappelCountMin": 5,
+  "rappelCountMax": 5,
+  "rappelLongestMeters": 30,
+  "shuttleSeconds": 30,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<p>After the massive massive rocky landslide in the Pizzo Cengalo\n(August 25th, 2017), presumably by melting permafrost that severely\naffects many of the Alps mountains; The canyon of Bondasca is presumed\nto have disappeared between tons of rocks and mud. The access into the\nvalley has been destroyed and <strong>it would be rash to approach the\nplace in any way</strong>. The risk of landslides remains very high. <a\nhref=\"Https://www.swissinfo.ch/eng/rock-shock_village-evacuated-after-landslide/43464358\">Https://www.swissinfo.ch/eng/rock-shock_village-evacuated-after-landslide/43464358</a></p>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2537\">Descente-Canyon.com</a>\n: Bondasca</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/BondascaCanyon\">Canyon.Carto.net</a>\n: Val Bondasca</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_bondasca.htm\">CicaRudeClan.com</a>\n: Val Bondasca</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_in_the_Alps_Book?id=Bondasca\">Canyoning\nin the Alps Book by Simon Flower</a> : Bondasca</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p>Picture credit : Matthias Holzinger</p>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.564736,
+            46.326618,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by Streicher Wolfgang on 07 oct 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.557666,
+            46.333595,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by Streicher Wolfgang on 07 oct 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.557247,
+            46.334187,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "styleUrl": "#parking_aval",
+          "styleHash": "-64d43659",
+          "styleMapHash": {
+            "normal": "#parking_aval0",
+            "highlight": "#parking_aval1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "description": " (Data by Delphine on 27 jan 2008)"
+        }
+      }
+    ]
+  }
+}

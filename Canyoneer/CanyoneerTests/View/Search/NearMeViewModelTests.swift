@@ -18,10 +18,9 @@ class NearMeViewModelTests: XCTestCase {
     
     func testNearMe() async {
         // setup
-        var canyon = Canyon.dummy()
-        canyon.name = "Something else"
+        let canyon = CanyonIndex(name: "Something else")
         let service = MockSearchService(canyonService: MockRopeWikiService())
-        let queryResults  = [canyon, Canyon.dummy(), Canyon.dummy(), Canyon.dummy()].map {
+        let queryResults  = [canyon, CanyonIndex(), CanyonIndex(), CanyonIndex()].map {
             return QueryResult(name: $0.name, canyonDetails: $0)
         }
         service.queryResults = QueryResultList(searchString: "Any Title", results: queryResults)

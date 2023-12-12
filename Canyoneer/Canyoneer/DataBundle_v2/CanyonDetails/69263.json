@@ -1,0 +1,292 @@
+{
+  "url": "https://ropewiki.com/Byous_Canyon",
+  "latitude": 33.3703,
+  "longitude": -111.2164,
+  "id": 69263,
+  "name": "Byous Canyon",
+  "quality": 2,
+  "months": [
+    "Nov",
+    "Dec",
+    "Jan",
+    "Feb"
+  ],
+  "technicalRating": 3,
+  "waterRating": "A",
+  "timeRating": "II",
+  "permit": "No",
+  "rappelCountMin": 2,
+  "rappelCountMax": 2,
+  "rappelLongestMeters": 21.34,
+  "vehicle": "High Clearance",
+  "shuttleSeconds": 30,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>A rugged Superstition Mountains canyon.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>Road to canyon is pretty easy in a high clearance vehicle. A few\nrocky spots. Good tires as lots of sharp rock.</p>\n<p>Hike down to dry creek bed. Follow creek bed a little ways up stream.\nHike up ridge to saddle north of Byous Butte. Follow light use trail on\nwest side of saddle north. Head up to saddle going west. Head down into\ncanyon. Head down canyon to first rappel. Brush is sparse and not as bad\nas most Superstition Mountain canyons.</p>\n<h2 id=\"descent\">Descent</h2>\n<p><strong>R1:</strong> 60' off of boulder pinch. Two tier rappel into\ntwo spring feed pools. Pools can be easily avoided by staying LDC while\non rappel. Pools are shin deep at most if prefer to go in.</p>\n<p>A few downclimbs. Including a 7' drop that can be partner assisted\ndown or meat anchored. Possible to use rock chock RDC for rappel.</p>\n<p><strong>R2:</strong> 70' off of large boulder. Best to go in flow, as\nthere is a large tree directly below drop LDC if attempting to avoid\ngetting wet.</p>\n<p>Continue down canyon drainage with a few boulder down climbs.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>Continue in canyon drainage to road. Brush in the canyon drainage is\nvery few. Outside canyon drainage is horrific. Follow road left or\nnorth-west back to vehicle.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>First known descent by Patrick Buttermore, Cole Anderson, Jacob\nCowan, and Erek Burek on January 30, 2022.</p>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.20494,
+            33.36457,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here."
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -111.20494,
+              33.36457,
+              0
+            ],
+            [
+              -111.20557,
+              33.36478,
+              0
+            ],
+            [
+              -111.20554,
+              33.36853,
+              0
+            ],
+            [
+              -111.2063,
+              33.36883,
+              0
+            ],
+            [
+              -111.20881,
+              33.36921,
+              0
+            ],
+            [
+              -111.21205,
+              33.36919,
+              0
+            ],
+            [
+              -111.21248,
+              33.37062,
+              0
+            ],
+            [
+              -111.21398,
+              33.3712,
+              0
+            ],
+            [
+              -111.21567,
+              33.37107,
+              0
+            ],
+            [
+              -111.21635,
+              33.37028,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Approach",
+          "styleUrl": "#line-00FF00-5000-nodesc",
+          "styleHash": "e3a8009",
+          "styleMapHash": {
+            "normal": "#line-00FF00-5000-nodesc",
+            "highlight": "#line-00FF00-5000-nodesc-highlight"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -111.21635,
+              33.37028,
+              0
+            ],
+            [
+              -111.21634,
+              33.3694,
+              0
+            ],
+            [
+              -111.21655,
+              33.36862,
+              0
+            ],
+            [
+              -111.21653,
+              33.36812,
+              0
+            ],
+            [
+              -111.21612,
+              33.36765,
+              0
+            ],
+            [
+              -111.21539,
+              33.36695,
+              0
+            ],
+            [
+              -111.21557,
+              33.36643,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Descent",
+          "styleUrl": "#line-FF0000-5000-nodesc",
+          "styleHash": "-2f93cff7",
+          "styleMapHash": {
+            "normal": "#line-FF0000-5000-nodesc",
+            "highlight": "#line-FF0000-5000-nodesc-highlight"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.21635,
+            33.37028,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "60'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.21634,
+            33.3694,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "70'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -111.21557,
+              33.36643,
+              0
+            ],
+            [
+              -111.21606,
+              33.36534,
+              0
+            ],
+            [
+              -111.21587,
+              33.36408,
+              0
+            ],
+            [
+              -111.2146,
+              33.36141,
+              0
+            ],
+            [
+              -111.2126,
+              33.36036,
+              0
+            ],
+            [
+              -111.21044,
+              33.35887,
+              0
+            ],
+            [
+              -111.20949,
+              33.3579,
+              0
+            ],
+            [
+              -111.20904,
+              33.35785,
+              0
+            ],
+            [
+              -111.20821,
+              33.35872,
+              0
+            ],
+            [
+              -111.20821,
+              33.35865,
+              0
+            ],
+            [
+              -111.20743,
+              33.36123,
+              0
+            ],
+            [
+              -111.20621,
+              33.36195,
+              0
+            ],
+            [
+              -111.2061,
+              33.3627,
+              0
+            ],
+            [
+              -111.20567,
+              33.36304,
+              0
+            ],
+            [
+              -111.20494,
+              33.36457,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "styleUrl": "#line-FFFF00-5000-nodesc",
+          "styleHash": "14e43d49",
+          "styleMapHash": {
+            "normal": "#line-FFFF00-5000-nodesc",
+            "highlight": "#line-FFFF00-5000-nodesc-highlight"
+          }
+        }
+      }
+    ]
+  }
+}

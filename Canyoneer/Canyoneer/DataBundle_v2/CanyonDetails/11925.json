@@ -1,0 +1,90 @@
+{
+  "url": "https://ropewiki.com/Fogare_(Lower)",
+  "latitude": 46.206,
+  "longitude": 12.1225,
+  "id": 11925,
+  "name": "Fogare (Lower)",
+  "quality": 4.2,
+  "months": [
+    "Jul",
+    "Aug",
+    "Sep"
+  ],
+  "technicalRating": 4,
+  "waterRating": "C1",
+  "timeRating": "II",
+  "permit": "Yes",
+  "rappelLongestMeters": 30,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/23065\">Descente-Canyon.com</a>\n: Fogarè inf</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_in_the_Alps_Book?id=Fogare_Inferiore\">Canyoning\nin the Alps Book by Simon Flower</a> : Fogare (Lower)</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_Nord_Italia_Book?id=Fogare\">Canyoning\nNord Italia Book by Pascal van Duin</a> : Fogare</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://altisud.com/canyoning/italie/les-dolomites-de-belluno/val-delle-cordevole/val-fogare-inferieur__i_582gwfe3n23__al_descente-canyon-fiche.html\">Altisud.com</a>\n: Val Fogarè inférieur</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p>{{#ev:youtube|t98AxXA66cg}}</p>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://WWW.barranquistas.es/2015/11/val-fogare-inferior.html\">Barranquistas.es</a>\n: VAL FOGARÈ INFERIOR</li>\n<li><a\nhref=\"https://www.christian-balla.de/Fogare\"><span>https://www.christian-balla.de/Fogare</span></a>\n: Val Fogarè inf</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.11586,
+            46.208023,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": "depart partie inf. (Data by Streicher Wolfgang on 17 nov 2013)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.12322,
+            46.205231,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by Streicher Wolfgang on 17 nov 2013)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.128423,
+            46.204807,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by Streicher Wolfgang on 17 nov 2013)"
+        }
+      }
+    ]
+  }
+}

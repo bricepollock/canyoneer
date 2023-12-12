@@ -1,0 +1,110 @@
+{
+  "url": "https://ropewiki.com/Lajinhas",
+  "latitude": 32.7827,
+  "longitude": -17.1226,
+  "id": 29033,
+  "name": "Lajinhas",
+  "quality": 3.8,
+  "technicalRating": 3,
+  "waterRating": "A",
+  "timeRating": "III",
+  "permit": "No",
+  "rappelCountMin": 1,
+  "rappelCountMax": 1,
+  "rappelLongestMeters": 30,
+  "shuttleSeconds": 1620,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barrancos.org/Madeira/Lajinhas.htm\">Barrancos.org</a> :\nLajinhas</li>\n<li><img src=\"rwl_pt.png\" title=\"rwl_pt.png\" alt=\"rwl_pt.png\" /><a\nhref=\"http://canyoning.camadeira.com/canyons/ribeira-das-lajinhas\">CaMadeira.com</a>\n: Ribeira das Lajinhas</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barrancoscanarios.com/barrancos/madeira/ribeira-das-laginhas\">BarrancosCanarios.com</a>\n: Ribeira das Laginhas</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/23915\">Descente-Canyon.com</a>\n: Lajinhas</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -17.122568,
+            32.78257,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by IP on 12 juin 2017)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -17.116066,
+            32.788002,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by IP on 12 juin 2017)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -17.127043,
+            32.782639,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "styleUrl": "#parking_amont",
+          "styleHash": "-55e0b397",
+          "styleMapHash": {
+            "normal": "#parking_amont0",
+            "highlight": "#parking_amont1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by IP on 12 juin 2017)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -17.113974,
+            32.796749,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "styleUrl": "#parking_aval",
+          "styleHash": "-64d43659",
+          "styleMapHash": {
+            "normal": "#parking_aval0",
+            "highlight": "#parking_aval1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "description": " (Data by IP on 12 juin 2017)"
+        }
+      }
+    ]
+  }
+}

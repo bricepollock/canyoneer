@@ -14,17 +14,17 @@ struct StarQualityViewModel {
         var id: String {
             String(quality)
         }
-        let quality: Float
+        let quality: Double
         let image: UIImage
     }
     
     public let images: [ImageStar]
     
-    init(quality: Float) {
+    init(quality: Double) {
         images = Self.stars(quality: quality)
     }
     
-    internal static func stars(quality: Float) -> [ImageStar] {
+    internal static func stars(quality: Double) -> [ImageStar] {
         var images = [ImageStar]()
         var remainingQuality = quality
         while remainingQuality > 0 {

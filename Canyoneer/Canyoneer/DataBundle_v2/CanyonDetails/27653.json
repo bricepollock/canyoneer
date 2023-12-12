@@ -1,0 +1,85 @@
+{
+  "url": "https://ropewiki.com/Dala",
+  "latitude": 46.4036,
+  "longitude": 7.6789,
+  "id": 27653,
+  "name": "Dala",
+  "quality": 3.6,
+  "technicalRating": 3,
+  "waterRating": "C",
+  "timeRating": "III",
+  "permit": "No",
+  "rappelLongestMeters": 20,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<p>Update 2021 : there are big snowbridges over Dala I and II, headlamp\nneeded.</p>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://swestcanyon.ch/www_swisscanyon_ch_fichiers/lista-ch-west.htm?Dala%20I%20Dala%20II%20Dala%20III%20Dala%20IV\">SwestCanyon.ch</a>\n: Dala I Dala II Dala III Dala IV</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_in_the_Swiss_Alps_Book?id=Dala\">Canyoning\nin the Swiss Alps Book by Association Openbach</a> : Dala</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/DalaCanyon\">Canyon.Carto.net</a>\n: Dala amont (I+II)</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/23865\">Descente-Canyon.com</a>\n: Dala amont (I+II)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.67889,
+            46.403728,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by bernotom on 24 avr 2017)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.65324,
+            46.3899,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": "arrivée Dala amont (Data by Streicher Wolfgang on 03 mai 2017)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.632241,
+            46.382305,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": "parking payant (Data by Streicher Wolfgang on 03 mai 2017)"
+        }
+      }
+    ]
+  }
+}

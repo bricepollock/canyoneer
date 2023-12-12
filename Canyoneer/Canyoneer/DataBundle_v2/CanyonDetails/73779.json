@@ -1,0 +1,263 @@
+{
+  "url": "https://ropewiki.com/Dickenson_Canyon",
+  "latitude": 34.4288,
+  "longitude": -111.4058,
+  "id": 73779,
+  "name": "Dickenson Canyon",
+  "quality": 1.5,
+  "months": [
+    "May",
+    "Sep",
+    "Oct"
+  ],
+  "technicalRating": 3,
+  "waterRating": "A",
+  "timeRating": "II",
+  "permit": "No",
+  "rappelCountMin": 1,
+  "rappelCountMax": 3,
+  "rappelLongestMeters": 38.1,
+  "vehicle": "High Clearance",
+  "shuttleSeconds": 300,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>A rugged Mogollon Rim canyon. Drops fast with scenic boulder hopping\nthrough rarely visited area.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>Hike down obvious drainage.</p>\n<h2 id=\"descent\">Descent</h2>\n<p><strong>R1:</strong> 30' optional or downclimb RDC.</p>\n<p><strong>R2:</strong> 125' off of tree RDC. Very scenic rappel through\nmossy layers. Free hanging for about 100ft. Continue down after first\nledge.</p>\n<p><strong>R3:</strong> 35' off of large log or downclimb LDC down steep\nledges.</p>\n<p>A few large boulder downclimbs until canyon opens up.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>Continue down in drainage over boulders to confluence with Pine\nCreek. Continue down to Pine Creek trail. Follow Pine Creek switchback\ntrail up to exit vehicle.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>First known descent by Melissa Gibbons, Jacob Cowan, and Erek Burek\non Oct 2, 2022.</p>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4021,
+            34.42635,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start Park",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here."
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.41772,
+            34.451,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Park",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here."
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -111.4021,
+              34.42635,
+              0
+            ],
+            [
+              -111.40581,
+              34.42882,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Approach",
+          "styleUrl": "#line-00FF00-5000-nodesc",
+          "styleHash": "e3a8009",
+          "styleMapHash": {
+            "normal": "#line-00FF00-5000-nodesc",
+            "highlight": "#line-00FF00-5000-nodesc-highlight"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -111.40581,
+              34.42882,
+              0
+            ],
+            [
+              -111.40601,
+              34.42884,
+              0
+            ],
+            [
+              -111.40602,
+              34.42908,
+              0
+            ],
+            [
+              -111.40609,
+              34.42935,
+              0
+            ],
+            [
+              -111.40668,
+              34.42968,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Descent",
+          "styleUrl": "#line-FF0000-5000-nodesc",
+          "styleHash": "-2f93cff7",
+          "styleMapHash": {
+            "normal": "#line-FF0000-5000-nodesc",
+            "highlight": "#line-FF0000-5000-nodesc-highlight"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.40581,
+            34.42882,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "30'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.40602,
+            34.42908,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "125'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.40609,
+            34.42935,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "35'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -111.40668,
+              34.42968,
+              0
+            ],
+            [
+              -111.40971,
+              34.435,
+              0
+            ],
+            [
+              -111.41564,
+              34.43827,
+              0
+            ],
+            [
+              -111.41628,
+              34.43914,
+              0
+            ],
+            [
+              -111.4181,
+              34.43904,
+              0
+            ],
+            [
+              -111.42186,
+              34.44089,
+              0
+            ],
+            [
+              -111.42141,
+              34.44146,
+              0
+            ],
+            [
+              -111.42051,
+              34.44119,
+              0
+            ],
+            [
+              -111.41924,
+              34.4441,
+              0
+            ],
+            [
+              -111.41768,
+              34.44654,
+              0
+            ],
+            [
+              -111.41821,
+              34.44951,
+              0
+            ],
+            [
+              -111.41772,
+              34.451,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "styleUrl": "#line-FFFF00-5000-nodesc",
+          "styleHash": "14e43d49",
+          "styleMapHash": {
+            "normal": "#line-FFFF00-5000-nodesc",
+            "highlight": "#line-FFFF00-5000-nodesc-highlight"
+          }
+        }
+      }
+    ]
+  }
+}

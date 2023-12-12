@@ -19,21 +19,23 @@ protocol CanyonMap {
     var didRequestCanyon: PassthroughSubject<String, Never> { get }
     
     /// Canyons visible in the mapview
-    var visibleCanyons: [Canyon] { get }
-    var currentCanyons: [Canyon] { get }
+    var visibleCanyons: [CanyonIndex] { get }
+    var currentCanyons: [CanyonIndex] { get }
     
     /// Setup things like delegates, current location, etc.
     func initialize()
     
-    // MARK: Render Methods
+    // MARK: Annotation Render Methods
 
     /// Add canyon annotations on map
-    func addAnnotations(for canyons: [Canyon])
+    func addAnnotations(for canyons: [CanyonIndex])
     /// Remove canyon annotations on map
-    func removeAnnotations(for canyonMap: [String: Canyon])
+    func removeAnnotations(for canyonMap: [String: CanyonIndex])
     /// Remove all canyon annotations on map
     func removeAnnotations()
     func deselectCanyons()
+    
+    // MARK: Geometry Render Methods
     
     /// Render polylines for topo lines
     func renderPolylines(canyons: [Canyon])
@@ -61,20 +63,22 @@ extension CanyonMap {
         self.focusCameraOn(location: center)
     }
     
+    // MARK: Render details of a group of canyons
+    
     /// Complexity: 4*n, could maybe do an optimization of patching only on screen and otherwise group update
-    public func render(canyons updated: [Canyon]) {
+    public func render(canyons updated: [CanyonIndex]) {
         Global.logger.debug("Rendering canyons: \(updated.count)")
         
-        var updatedMap = [String: Canyon]()
+        var updatedMap = [String: CanyonIndex]()
         updated.forEach { updatedMap[$0.id] = $0}
         
         let current = currentCanyons
-        var currentMap = [String: Canyon]()
+        var currentMap = [String: CanyonIndex]()
         current.forEach { currentMap[$0.id] = $0}
         
         
-        var removed = [String: Canyon]()
-        var added = [Canyon]()
+        var removed = [String: CanyonIndex]()
+        var added = [CanyonIndex]()
         updated
             .filter { currentMap[$0.id] == nil }
             .forEach {
@@ -86,23 +90,17 @@ extension CanyonMap {
                 removed[$0.id] = $0
             }
                 
-        self.removePolylines()
-        self.renderPolylines(canyons: updated)
+        // FIXME: We dropped support of TOPO lines on map to migrate to index file, when we address [ISSUE-6] we can use the mapbox tiles and avoid loading all KLM into memory which should allow us to put topo lines back on the map
+//        self.removePolylines()
+//        self.renderPolylines(canyons: updated)
         
-        // render waypoints if only showing one canyon
-        if updated.count == 1 {
-            self.renderWaypoints(canyon: updated[0])
-        } else {
-            self.removeAnnotations(for: removed)
-            self.addAnnotations(for: added)
-        }
+        self.removeAnnotations(for: removed)
+        self.addAnnotations(for: added)
     }
     
-    public func updateCamera(canyons: [Canyon]) async throws {
+    public func updateCamera(canyons: [CanyonIndex]) async throws {
         // center location
-        if canyons.count == 1 {
-            self.focusCameraOn(canyon: canyons[0])
-        } else if canyons.isEmpty == false && canyons.count < 100 {
+        if canyons.isEmpty == false && canyons.count < 100 {
             self.focusCameraOn(location: canyons[0].coordinate.asCLObject)
         } else if let lastViewed = UserDefaults.standard.lastViewCoordinate {
             self.focusCameraOn(location: lastViewed)
@@ -110,5 +108,17 @@ extension CanyonMap {
             let location = try await self.locationService.getCurrentLocation()
             self.focusCameraOn(location: location)
         }
+    }
+    
+    // MARK: Render details of a single canyon
+    
+    public func render(canyon: Canyon) {
+        self.removePolylines()
+        self.renderPolylines(canyons: [canyon])
+        self.renderWaypoints(canyon: canyon)
+    }
+    
+    public func updateCamera(to canyon: Canyon) async throws {
+        self.focusCameraOn(canyon: canyon)
     }
 }

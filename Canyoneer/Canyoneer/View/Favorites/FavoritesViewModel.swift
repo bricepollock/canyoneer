@@ -17,6 +17,8 @@ class FavoriteListViewModel: ResultsViewModel {
     @Published public var mapViewModel: MapViewModel?
     private let mapService: MapService
     
+    private var favorites: [Canyon] = []
+    
     init(
         weatherViewModel: WeatherViewModel,
         mapService: MapService,
@@ -54,10 +56,10 @@ class FavoriteListViewModel: ResultsViewModel {
     public func refresh() async {
         isLoading = true
         defer { isLoading = false }
-        let favorites = self.favoriteService.allFavorites()
+        favorites = self.favoriteService.allFavorites()
 
         let results = favorites.map {
-            return QueryResult(name: $0.name, canyonDetails: $0)
+            return QueryResult(name: $0.name, canyonDetails: $0.index)
         }
         self.updateResults(to: results)
         
@@ -86,7 +88,7 @@ class FavoriteListViewModel: ResultsViewModel {
         isDownloading = true
         let startTime = Date()
         do {
-            try await self.mapService.downloadTiles(for: self.results.compactMap { $0.canyonDetails })
+            try await self.mapService.downloadTiles(for: self.favorites.compactMap { $0 })
             
             // We don't want to flash UI so we show download for a minimum amount of time
             let timeSinceShown = startTime.timeIntervalSinceNow // a negative number

@@ -94,7 +94,6 @@ struct MapView: View {
                         viewModel: CanyonViewModel(
                             canyonId: canyonID,
                             canyonService: viewModel.canyonService,
-                            filterViewModel: viewModel.filterViewModel,
                             favoriteService: viewModel.favoriteService,
                             weatherViewModel: viewModel.weatherViewModel
                         )
@@ -105,11 +104,13 @@ struct MapView: View {
             }
         }
         .onChange(of: showTopoLines) { showTopoLines in
-            if showTopoLines {
-                viewModel.canyonMapViewOwner.renderPolylinesFromCache()
-            } else {
-                viewModel.canyonMapViewOwner.removePolylines()
-            }
+            // FIXME: We dropped support of TOPO lines on map to migrate to index file, when we address [ISSUE-6] we can use the mapbox tiles and avoid loading all KLM into memory which should allow us to put topo lines back on the map
+            self.showTopoLines  = false
+//            if showTopoLines {
+//                viewModel.canyonMapViewOwner.renderPolylinesFromCache()
+//            } else {
+//                viewModel.canyonMapViewOwner.removePolylines()
+//            }
         }
         .sheet(isPresented: $showLegend) {
             MapLegendView()

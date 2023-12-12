@@ -1,0 +1,162 @@
+{
+  "url": "https://ropewiki.com/No_Bueno_Canyon",
+  "latitude": 34.5555,
+  "longitude": -111.4698,
+  "id": 73184,
+  "name": "No Bueno Canyon",
+  "quality": 1,
+  "months": [
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep"
+  ],
+  "technicalRating": 2,
+  "waterRating": "A",
+  "timeRating": "I",
+  "permit": "No",
+  "rappelCountMin": 0,
+  "rappelCountMax": 1,
+  "rappelLongestMeters": 12.19,
+  "vehicle": "4WD - High Clearance",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>Easy canyon with a few downclimbs. More fun way to reach West Clear\nCreek than taking Calloway trail.</p>\n<p>Use FR-9693V to access. Also possible to access FR-9693V by going\ndown FR-142B which eventually meets up with FR-9693V. Road is pretty\nrough in spots with medium sized boulders, down trees, and rutted out\nroad.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>Follow FR-9693V towards canyon. Leave FR-9693V and head towards main\ncanyon or Bueno Tank. Canyon has a few down trees to hike through.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>Continue the a few down trees, overall not very brushy. A few fun\ndownclimbs.</p>\n<p><strong>R1:</strong> 40' optional off of tree. Also possible to\nbypass downclimbing RDC.</p>\n<p>A few more good downclimbs before reaching West Clear Creek. A of the\ncouple downclimbs would be challenging to upclimb back up canyon.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>Go downstream of West Clear Creek about 1000' to Calloway trail LDC.\nA couple of deep swims in West Clear Creek to get to trail head. Follow\nCalloway trail up to road. Follow road back to vehicle.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>Unlikely first descent, but first known beta gathering descent done\nby Melissa Gibbons and Erek Burek on Sept 4, 2022.</p>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4746,
+            34.5411,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here."
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -111.4746,
+              34.5411,
+              0
+            ],
+            [
+              -111.47278,
+              34.55116,
+              0
+            ],
+            [
+              -111.4698,
+              34.5555,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Approach",
+          "styleUrl": "#line-00FF00-5000-nodesc",
+          "styleHash": "e3a8009",
+          "styleMapHash": {
+            "normal": "#line-00FF00-5000-nodesc",
+            "highlight": "#line-00FF00-5000-nodesc-highlight"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -111.4698,
+              34.5555,
+              0
+            ],
+            [
+              -111.47029,
+              34.55679,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Descent",
+          "styleUrl": "#line-FF0000-5000-nodesc",
+          "styleHash": "-2f93cff7",
+          "styleMapHash": {
+            "normal": "#line-FF0000-5000-nodesc",
+            "highlight": "#line-FF0000-5000-nodesc-highlight"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4698,
+            34.5555,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "40'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -111.47029,
+              34.55679,
+              0
+            ],
+            [
+              -111.47445,
+              34.55814,
+              0
+            ],
+            [
+              -111.47655,
+              34.55637,
+              0
+            ],
+            [
+              -111.4746,
+              34.5411,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "styleUrl": "#line-FFFF00-5000-nodesc",
+          "styleHash": "14e43d49",
+          "styleMapHash": {
+            "normal": "#line-FFFF00-5000-nodesc",
+            "highlight": "#line-FFFF00-5000-nodesc-highlight"
+          }
+        }
+      }
+    ]
+  }
+}

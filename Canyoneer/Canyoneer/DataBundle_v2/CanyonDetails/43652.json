@@ -1,0 +1,61 @@
+{
+  "url": "https://ropewiki.com/Bois_Cledelin",
+  "latitude": 14.7893,
+  "longitude": -61.0705,
+  "id": 43652,
+  "name": "Bois Cledelin",
+  "permit": "No",
+  "rappelCountMin": 1,
+  "rappelCountMax": 1,
+  "rappelLongestMeters": 20,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://ankanionla-madinina.com/Files/Other/Divers/Liste%20rivieres%20et%20ravines.pdf?id=MJ-30&amp;kmlidx=14.7893:-61.0705:14.7949:-61.073\">An\nKanion La-madinina</a> : Ravine Bois Cledelin [MJ-30]</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.0705,
+            14.7893,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#start",
+          "styleHash": "31080363",
+          "styleMapHash": {
+            "normal": "#start0",
+            "highlight": "#start1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-blank.png",
+          "description": " (Data by ankanionla-madinina.com)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.073,
+            14.7949,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "68b1394a",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-blank.png",
+          "description": " (Data by ankanionla-madinina.com)"
+        }
+      }
+    ]
+  }
+}

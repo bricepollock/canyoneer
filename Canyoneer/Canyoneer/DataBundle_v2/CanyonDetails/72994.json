@@ -1,0 +1,386 @@
+{
+  "url": "https://ropewiki.com/Moonshine_Creek",
+  "latitude": 32.6832,
+  "longitude": -109.8998,
+  "id": 72994,
+  "name": "Moonshine Creek",
+  "quality": 4,
+  "months": [
+    "Jul",
+    "Aug",
+    "Sep"
+  ],
+  "technicalRating": 3,
+  "waterRating": "C1",
+  "timeRating": "III",
+  "permit": "No",
+  "rappelCountMin": 8,
+  "rappelCountMax": 9,
+  "rappelLongestMeters": 94.49,
+  "vehicle": "Passenger",
+  "shuttleSeconds": 30,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>A rugged Pinaleno Mountains canyon.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>Walk up or drive up FR-4998 about quart mile to end of road along\nside Moonshine Creek. Walk over hill and down to first big rappel.</p>\n<h2 id=\"descent\">Descent</h2>\n<p><strong>R1:</strong> 310' off of large tree LDC. Recommend leaving\nrope to go back and get after finishing canyon. Rappel is all on rock to\nlarge ledge pool next to house size boulder.</p>\n<p><strong>R2:</strong> 150' off of large boulder to stay in water flow.\nAlso possible to rappel 40' RDC out of flow to area that can be\ndownclimbed. Starts with about 30' drop followed by rest being low angle\nwalk down.</p>\n<p><strong>R3:</strong> 90' off of large tree RDC. Drops about 50' into\npool, then 40's down to next pool. Not deep enough to slide.</p>\n<p><strong>R4:</strong> Optional 150' off of large tree RDC. Possible to\ndownclimb LDC and avoid falls.</p>\n<p><strong>R5:</strong> 150' off of large tree RDC.</p>\n<p><strong>R6:</strong> 30' off of large log or boulder directly after\nR5. Goes through narrow water flow which can be stemmed over while on\nrappel.</p>\n<p><strong>R7:</strong> 80' off of small tree directly in water\nflow.</p>\n<p><strong>R8:</strong> 60' off of large tree LDC.</p>\n<p><strong>R9:</strong> 50' off of large log directly in water flow.\nRappel goes down narrow flow drop.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>At confluence with Post Creek, head up gully just before confluence\nLDC. Head up traversing a little right to meet up with Grant Creek Trail\n#305. Follow trail to road. Follow road back to vehicle. Don't forget to\nget rope on R1, if left it.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>Unlikely a first descent, but first known beta gathering descent by\nJacob Cowan and Erek Burek on August 27, 2022.</p>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.89494,
+            32.68639,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here."
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -109.89494,
+              32.68639,
+              0
+            ],
+            [
+              -109.90004,
+              32.68498,
+              0
+            ],
+            [
+              -109.89982,
+              32.68317,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Approach",
+          "styleUrl": "#line-00FF00-5000-nodesc",
+          "styleHash": "e3a8009",
+          "styleMapHash": {
+            "normal": "#line-00FF00-5000-nodesc",
+            "highlight": "#line-00FF00-5000-nodesc-highlight"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -109.89982,
+              32.68317,
+              0
+            ],
+            [
+              -109.9005,
+              32.68267,
+              0
+            ],
+            [
+              -109.90128,
+              32.68159,
+              0
+            ],
+            [
+              -109.90429,
+              32.68064,
+              0
+            ],
+            [
+              -109.90457,
+              32.68059,
+              0
+            ],
+            [
+              -109.90513,
+              32.68058,
+              0
+            ],
+            [
+              -109.90524,
+              32.68056,
+              0
+            ],
+            [
+              -109.90551,
+              32.6806,
+              0
+            ],
+            [
+              -109.90631,
+              32.68069,
+              0
+            ],
+            [
+              -109.90716,
+              32.68078,
+              0
+            ],
+            [
+              -109.90791,
+              32.68062,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Descent",
+          "styleUrl": "#line-FF0000-5000-nodesc",
+          "styleHash": "-2f93cff7",
+          "styleMapHash": {
+            "normal": "#line-FF0000-5000-nodesc",
+            "highlight": "#line-FF0000-5000-nodesc-highlight"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.89982,
+            32.68317,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "310'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.9005,
+            32.68267,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "150'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.90429,
+            32.68064,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "90'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.90457,
+            32.68059,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "description": "150'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.90513,
+            32.68058,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "description": "150'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.90524,
+            32.68056,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6",
+          "description": "30'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.90551,
+            32.6806,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R7",
+          "description": "80'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.90631,
+            32.68069,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R8",
+          "description": "60'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.90716,
+            32.68078,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R9",
+          "description": "50'"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -109.90791,
+              32.68062,
+              0
+            ],
+            [
+              -109.90705,
+              32.67989,
+              0
+            ],
+            [
+              -109.90593,
+              32.67753,
+              0
+            ],
+            [
+              -109.90589,
+              32.67748,
+              0
+            ],
+            [
+              -109.9032,
+              32.67834,
+              0
+            ],
+            [
+              -109.90305,
+              32.67699,
+              0
+            ],
+            [
+              -109.90131,
+              32.67968,
+              0
+            ],
+            [
+              -109.90081,
+              32.67809,
+              0
+            ],
+            [
+              -109.90155,
+              32.67754,
+              0
+            ],
+            [
+              -109.89995,
+              32.67748,
+              0
+            ],
+            [
+              -109.89796,
+              32.67666,
+              0
+            ],
+            [
+              -109.89827,
+              32.68041,
+              0
+            ],
+            [
+              -109.89681,
+              32.68375,
+              0
+            ],
+            [
+              -109.8948,
+              32.68608,
+              0
+            ],
+            [
+              -109.89485,
+              32.68646,
+              0
+            ],
+            [
+              -109.89494,
+              32.68639,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "styleUrl": "#line-FFFF00-5000-nodesc",
+          "styleHash": "14e43d49",
+          "styleMapHash": {
+            "normal": "#line-FFFF00-5000-nodesc",
+            "highlight": "#line-FFFF00-5000-nodesc-highlight"
+          }
+        }
+      }
+    ]
+  }
+}

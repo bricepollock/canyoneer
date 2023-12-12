@@ -1,0 +1,72 @@
+{
+  "url": "https://ropewiki.com/Duranus",
+  "latitude": 43.8903,
+  "longitude": 7.2602,
+  "id": 14552,
+  "name": "Duranus",
+  "quality": 2.4,
+  "months": [
+    "Apr",
+    "May",
+    "Jun",
+    "Jul"
+  ],
+  "technicalRating": 3,
+  "waterRating": "C",
+  "timeRating": "I",
+  "permit": "Yes",
+  "rappelCountMin": 6,
+  "rappelCountMax": 6,
+  "rappelLongestMeters": 15,
+  "shuttleSeconds": 30,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2476\">Descente-Canyon.com</a>\n: Duranus</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/DuranusIICanyon\">Canyon.Carto.net</a>\n: Duranus inf.</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_duranus.htm\">CicaRudeClan.com</a> :\nClue de Duranus</li>\n<li><img src=\"rwl_pl.png\" title=\"rwl_pl.png\" alt=\"rwl_pl.png\" /><a\nhref=\"http://canyoning.wroclaw.pl/kanion.php?id=35\">Canyoning.Wroclaw.pl</a>\n: Duranus</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://teamespeleocanyons.blogspot.com.es/2012/05/vallon-de-duranus-acceso-2-min-acceso.html\">TeamEspeleoCanyons</a>\n: Vallon de Duranus</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://WWW.barranquistas.es/2010/08/vallon-de-duranus.html\">Barranquistas.es</a>\n: VALLON DE DURANUS</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.26546,
+            43.890369,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by jc06 on 30 jan 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.255,
+            43.890278,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": "Sortie obligatoire (Data by Funky on 14 oct 2010)"
+        }
+      }
+    ]
+  }
+}

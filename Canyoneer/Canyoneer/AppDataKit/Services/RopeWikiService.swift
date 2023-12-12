@@ -8,109 +8,112 @@
 import Foundation
 import MapKit
 
+/// See https://github.com/CanyoneerApp/api for API documentation
 protocol RopeWikiServiceInterface {
-    func canyons() async -> [Canyon]
+    /// Get all canyons from index
+    func canyons() async -> [CanyonIndex]
+    
+    /// Get detail canyon information
     func canyon(for id: String) async throws -> Canyon
 }
 
 actor RopeWikiService: RopeWikiServiceInterface {
-    private let storage = InMemoryStorage.canyons
+    private var previews = [String: CanyonIndex]()
+    private var canyons = [String: Canyon]()
     
-    func canyons() async -> [Canyon] {
+    private var isLoaded: Bool = false
+    
+    func canyons() async -> [CanyonIndex] {
         
         // preference in-memory cache
-        let cachedCanyons = storage.all() as [Canyon]
-        guard cachedCanyons.isEmpty else {
-            return cachedCanyons
+        let cachedPreviews = Array(previews.values)
+        guard cachedPreviews.isEmpty else {
+            return cachedPreviews
         }
 
         // update cache
         do {
-            let canyons = try loadFromDisk()
+            let index = try loadIndex()
             
-            // Populate cache
-            canyons.forEach {
-                self.storage.set(key: $0.id, value: $0)
+            
+            index.filter {
+                // Don't show closed canyons
+                !$0.isClosed
+            }.forEach {
+                // Populate cache
+                self.previews[$0.id] = $0
             }
-            Global.logger.debug("Loaded \(canyons.count) canyons into memory")
-            return canyons
+            isLoaded = true
+            Global.logger.debug("Loaded \(index.count) canyons into memory")
+            return index
         } catch {
             assertionFailure(error.localizedDescription)
             return []
         }
     }
     
-    func canyon(for id: String) async throws -> Canyon {
-        guard let found = await canyons().filter({ canyon in
-            return canyon.id == id
-        }).first else {
+    func preview(for id: String) async throws -> CanyonIndex {
+        let preview: CanyonIndex?
+        if isLoaded {
+            preview = previews[id]
+        } else {
+            preview = await canyons().filter({ canyon in
+                return canyon.id == id
+            }).first
+        }
+
+        guard let preview else {
             throw GeneralError.notFound
         }
-        return found
+        return preview
     }
     
-    func loadFromDisk() throws -> [Canyon] {
+    func canyon(for id: String) async throws -> Canyon {
+        if let cached = canyons[id] {
+            return cached
+        }
+        
+        
+        let data = try loadCanyonFromFile(from: id)
+        let canyon = Canyon(data: data)
+        canyons[id] = canyon
+        return canyon
+    }
+    
+    internal func loadIndex() throws -> [CanyonIndex] {
         do {
-            // We had to split into two files to get around githubs large file limit. We split the DB at "Uranus Canyon" which was more or less halfway.
-            let first = try self.loadFromFile(from: "ropewiki_database_pt1")
-            let second = try self.loadFromFile(from: "ropewiki_database_pt2")
-            return  first + second
+            return try self.loadIndexFromFile().map {
+                CanyonIndex(data: $0)
+            }
         } catch {
             Global.logger.error("Serialization Error: \(String(describing: error))")
             throw RequestError.serialization
         }
     }
     
-    func loadFromFile(from fileName: String) throws -> [Canyon] {
+    internal func loadIndexFromFile() throws -> [RopeWikiCanyonIndex] {
         let decoder = JSONDecoder()
         let bundle = Bundle(for: RopeWikiService.self)
         
-        guard let path = bundle.path(forResource: fileName, ofType: "json") else {
+        guard let path = bundle.path(forResource: "index", ofType: "json") else {
+            Global.logger.error("Failed to find index file!")
             throw RequestError.serialization
         }
 
         let jsonData = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-        let canyonDataList = try decoder.decode([CanyonDataPoint].self, from: jsonData)
-        return canyonDataList.compactMap { data -> Canyon? in
-            guard let latitude = data.latitude, let longitude = data.longitude else {
-                return nil
-            }
-            // We are just not going to show closed canyons
-            guard !data.isClosed else { return nil }
-            
-            let features = data.geoJson?.features ?? []
-            let geoFeatures: [CoordinateFeature] = features.compactMap {
-                return CoordinateFeature(
-                    name: $0.properties.name,
-                    type: $0.geometry.type,
-                    hexColor: $0.properties.color,
-                    coordinates: $0.geometry.coordinates
-                )
-            }
-            let waypoints = geoFeatures.filter { $0.type == .waypoint }
-            let lines = GPXService.simplify(features: geoFeatures.filter { $0.type == .line })
-            return Canyon(
-                id: "\(data.name)_\(latitude)_\(longitude)",
-                bestSeasons: data.bestSeasons,
-                coordinate: Coordinate(latitude: latitude, longitude: longitude),
-                
-                isRestricted: data.isRestricted,
-                maxRapLength: data.rappelMaxLength,
-                name: data.name,
-                numRaps: data.numRappels,
-                requiresShuttle: data.requiresShuttle,
-                requiresPermit: data.requiresPermits,
-                ropeWikiURL: URL(string: data.urlString),
-                technicalDifficulty: TechnicalGrade(data: data.technicalDifficulty),
-                risk: data.risk,
-                timeGrade: TimeGrade(data: data.timeRatingString),
-                waterDifficulty: WaterGrade(data: data.waterDifficulty),
-                quality: data.quality,
-                vehicleAccessibility: data.vehicleAccessibility,
-                description: data.htmlDescription ?? "",
-                geoWaypoints: waypoints,
-                geoLines: lines
-            )
+        return try decoder.decode([RopeWikiCanyonIndex].self, from: jsonData)
+    }
+    
+    internal func loadCanyonFromFile(from fileName: String) throws -> RopeWikiCanyon {
+        let decoder = JSONDecoder()
+        let bundle = Bundle(for: RopeWikiService.self)
+        
+        guard let path = bundle.path(forResource: fileName, ofType: "json", inDirectory: "CanyonDetails") else {
+            Global.logger.error("Failed to find canyon details directory")
+            throw RequestError.serialization
         }
+
+        let jsonData = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+        return try decoder.decode(RopeWikiCanyon.self, from: jsonData)
     }
 }

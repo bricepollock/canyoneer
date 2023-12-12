@@ -10,9 +10,9 @@ import MapKit
 import CoreLocation
 
 class CanyonAnnotation: MKPointAnnotation {
-    public let canyon: Canyon
+    public let canyon: CanyonIndex
     
-    init(canyon: Canyon) {
+    init(canyon: CanyonIndex) {
         self.canyon = canyon
         super.init()
         self.title = canyon.name

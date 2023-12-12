@@ -19,13 +19,12 @@ class CanyonViewModelTests: XCTestCase {
     
     func testInitialFavorite_true() async throws {
         // setup
-        let canyon = Canyon.dummy()
+        let canyon = Canyon()
         let service = MockRopeWikiService()
         service.mockCanyon = canyon
         let viewModel = CanyonViewModel(
             canyonId: canyon.id,
             canyonService: service,
-            filterViewModel: CanyonFilterViewModel(initialState: .default),
             favoriteService: FavoriteService(),
             weatherViewModel: WeatherViewModel()
         )
@@ -40,13 +39,12 @@ class CanyonViewModelTests: XCTestCase {
     
     func testToggleFavorite() async throws {
         // setup
-        let canyon = Canyon.dummy()
+        let canyon = Canyon()
         let service = MockRopeWikiService()
         service.mockCanyon = canyon
         let viewModel = CanyonViewModel(
             canyonId: canyon.id,
             canyonService: service,
-            filterViewModel: CanyonFilterViewModel(initialState: .default),
             favoriteService: FavoriteService(),
             weatherViewModel: WeatherViewModel()
         )
@@ -64,13 +62,12 @@ class CanyonViewModelTests: XCTestCase {
     
     func testCanyon_found() async {
         // setup
-        let canyon = Canyon.dummy()
+        let canyon = Canyon()
         let service = MockRopeWikiService()
         service.mockCanyon = canyon
         let viewModel = CanyonViewModel(
             canyonId: canyon.id,
             canyonService: service,
-            filterViewModel: CanyonFilterViewModel(initialState: .default),
             favoriteService: FavoriteService(),
             weatherViewModel: WeatherViewModel()
         )
@@ -82,13 +79,12 @@ class CanyonViewModelTests: XCTestCase {
     
     func testCanyon_notFound() async throws {
         // setup
-        let canyon = Canyon.dummy()
+        let canyon = Canyon()
         let service = MockRopeWikiService()
         service.mockCanyon = nil
         let viewModel = CanyonViewModel(
             canyonId: canyon.id,
             canyonService: service,
-            filterViewModel: CanyonFilterViewModel(initialState: .default),
             favoriteService: FavoriteService(),
             weatherViewModel: WeatherViewModel()
         )

@@ -1,0 +1,219 @@
+{
+  "url": "https://ropewiki.com/Vrsnik",
+  "latitude": 46.3376,
+  "longitude": 13.6857,
+  "id": 18311,
+  "name": "Vrsnik",
+  "quality": 3,
+  "months": [
+    "Dec",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov"
+  ],
+  "technicalRating": 3,
+  "waterRating": "C2",
+  "timeRating": "I",
+  "permit": "No",
+  "rappelLongestMeters": 15,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2699\">Descente-Canyon.com</a>\n: Vrsnik</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/VrsnikCanyon\">Canyon.Carto.net</a>\n: Vrsnik</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barrancos.org/Eslovenia/Vrsnik.htm\">Barrancos.org</a> :\nVrsnik</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://canyonguides.org/guide-book/canyon-locations-map?id=Versnick\">UK\nCanyonGuides.org</a> : Versnick</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.685725,
+            46.337636,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-93-nodesc",
+          "styleHash": "711bfc1",
+          "styleMapHash": {
+            "normal": "#icon-93-nodesc-normal",
+            "highlight": "#icon-93-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              13.685558,
+              46.337548,
+              0
+            ],
+            [
+              13.685182,
+              46.337707,
+              0
+            ],
+            [
+              13.684613,
+              46.337863,
+              0
+            ],
+            [
+              13.684259,
+              46.338067,
+              0
+            ],
+            [
+              13.68383,
+              46.338459,
+              0
+            ],
+            [
+              13.683653,
+              46.338752,
+              0
+            ],
+            [
+              13.683433,
+              46.338989,
+              0
+            ],
+            [
+              13.683465,
+              46.33938100000001,
+              0
+            ],
+            [
+              13.683648,
+              46.339589,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Descent",
+          "stroke": "#FF0000",
+          "stroke-opacity": 0.7843137254901961,
+          "stroke-width": 5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.685612,
+            46.33752100000001,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#icon-62-nodesc",
+          "styleHash": "-7c65c352",
+          "styleMapHash": {
+            "normal": "#icon-62-nodesc-normal",
+            "highlight": "#icon-62-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.683611000000003,
+            46.339588,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#icon-124-nodesc",
+          "styleHash": "-326c401e",
+          "styleMapHash": {
+            "normal": "#icon-124-nodesc-normal",
+            "highlight": "#icon-124-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              13.683712,
+              46.339615,
+              0
+            ],
+            [
+              13.684163,
+              46.339904,
+              0
+            ],
+            [
+              13.684624,
+              46.340122,
+              0
+            ],
+            [
+              13.684898,
+              46.339607,
+              0
+            ],
+            [
+              13.684967,
+              46.33908100000001,
+              0
+            ],
+            [
+              13.684807,
+              46.33873,
+              0
+            ],
+            [
+              13.684887,
+              46.338163,
+              0
+            ],
+            [
+              13.68501,
+              46.337896,
+              0
+            ],
+            [
+              13.685418,
+              46.337863,
+              0
+            ],
+            [
+              13.685724000000002,
+              46.337611,
+              0
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "stroke": "#FFFF00",
+          "stroke-opacity": 0.7843137254901961,
+          "stroke-width": 5
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "url": "https://ropewiki.com/Bataillere",
+  "latitude": 43.9013,
+  "longitude": 7.197,
+  "id": 14111,
+  "name": "Bataillere",
+  "quality": 2.9,
+  "months": [
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+    "Jan",
+    "Feb"
+  ],
+  "technicalRating": 3,
+  "waterRating": "A",
+  "timeRating": "II",
+  "permit": "Yes",
+  "rappelLongestMeters": 30,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<div>\n<p><b>Village plus proche:</b> Plan du Var</p>\n</div>\n<div>\n<p><b>Hauteur du rappel plus long:</b> 30 m</p>\n</div>\n<div>\n<p><b>Information sur le débit:</b> Canyon sec ( sauf après une periode\nde très fortes pluies)</p>\n</div>\n<div>\n<p><b>Cordes:</b> 2 X 30 m + corde de secours</p>\n</div>\n<div>\n<p><b>Combinaison néoprène:</b> Non</p>\n</div>\n<div>\n<p><b>Matériel d'installation:</b> Il est conseillé de porter du\nmatériel d’installation de remplacement</p>\n</div>\n<div>\n<p><b>Période conseillée:</b> Toute l’année</p>\n</div>\n<div>\n<p><b>Temps d'approche:</b> 50 m</p>\n</div>\n<div>\n<p><b>Temps de parcours:</b> 3h30m</p>\n</div>\n<div>\n<p><b>Temps de retour:</b> 2 m</p>\n</div>\n<div>\n<p><b>Zone ou massif:</b> VALLEE DE LA TINEE</p>\n</div>\n<div>\n<p><b>Longueur:</b> 1.500 m</p>\n</div>\n<div>\n<p><b>Dénivelle:</b> 360 m</p>\n</div>\n<div>\n<p><b>Espèces menacées:</b> Dans tous les habitats vivent des animaux et\ndes plantes qui devons respecter</p>\n</div>\n<h2 id=\"approach\">Approach</h2>\n<div>\n<p><b>Navette voiture:</b> Oui</p>\n</div>\n<p>Parking aval: environ 4 km après Plan du Var, sur la N202, et juste\navant deux petits tunnels ( filet de protection) se garer à droite. Le\ncanyon arrive entre les deux tunnels Parking amont : continuer sur\nquelques centaines de mètres et se garer à la balise 106 ( même parking\nque pour le canyon de La Balma), prendre le sentier qui monte jusqu’au\nhameau de Reveston. A la balise 107 prendre à droite, passer par des\nruines. Un peu plus loin le sentier coupe le lit du canyon sec. Point de\ndépart.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>Succession de rappels sans problème ou tout se passse à la fin</p>\n<h2 id=\"exit\">Exit</h2>\n<p>Après le dernier rappel passer sous la N 202 et remonter sur la route\nou on retrouve la voiture.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2294\">Descente-Canyon.com</a>\n: Bataillère</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barranquismo.net/paginas/barrancos/vallon_de_bataillere.htm\">Barranquismo.net</a>\n: Bataillere</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<div style=\"display:none\" class=\"barranquismonet\">\n<p>2-Dec-2003 Philip Van Den Berge</p>\n</div>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.204456,
+            43.901062,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by IP on 08 jan 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.190552,
+            43.897644,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by IP on 08 jan 2008)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.195959,
+            43.90519,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "styleUrl": "#parking_amont",
+          "styleHash": "-55e0b397",
+          "styleMapHash": {
+            "normal": "#parking_amont0",
+            "highlight": "#parking_amont1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by IP on 08 jan 2008)"
+        }
+      }
+    ]
+  }
+}

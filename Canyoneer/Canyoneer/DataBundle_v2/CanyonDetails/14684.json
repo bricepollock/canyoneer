@@ -1,0 +1,72 @@
+{
+  "url": "https://ropewiki.com/Four_a_Chaux",
+  "latitude": 46.2998,
+  "longitude": 5.5669,
+  "id": 14684,
+  "name": "Four a Chaux",
+  "quality": 2.3,
+  "months": [
+    "Mar",
+    "Apr",
+    "May",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Jun",
+    "Jul",
+    "Aug"
+  ],
+  "permit": "No",
+  "rappelLongestMeters": 20,
+  "shuttleSeconds": 240,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21346\">Descente-Canyon.com</a>\n: Four à chaux</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.565632,
+            46.301182,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "styleUrl": "#parking_amont",
+          "styleHash": "-55e0b397",
+          "styleMapHash": {
+            "normal": "#parking_amont0",
+            "highlight": "#parking_amont1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": "Facultatif. Peut se faire sans navette en utilisant le parking aval (Data by Rémi Villalongue on 21 déc 2007)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.568235,
+            46.298359,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "styleUrl": "#parking_aval",
+          "styleHash": "-64d43659",
+          "styleMapHash": {
+            "normal": "#parking_aval0",
+            "highlight": "#parking_aval1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "description": " (Data by Rémi Villalongue on 21 déc 2007)"
+        }
+      }
+    ]
+  }
+}

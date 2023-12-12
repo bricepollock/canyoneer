@@ -22,15 +22,22 @@ extension DataTableViewModel {
         let value: String
     }
     init(canyon: Canyon) {
+        let isMetric = Locale.current.measurementSystem != .us
+        let longestRapInt: Int?
+        if let longestRap = canyon.maxRapLength?.converted(to: isMetric ? .meters : .feet).value.rounded() {
+            longestRapInt = Int(longestRap)
+        } else {
+            longestRapInt = nil
+        }
         let dataList = [
-            RowData(title: Strings.numRaps, value: Strings.intValue(int: canyon.numRaps)),
-            RowData(title: Strings.longestRap, value: Strings.intValue(int: canyon.maxRapLength)),
+            RowData(title: Strings.numRaps, value: Strings.intValue(int: canyon.maxRaps)),
+            RowData(title: Strings.longestRap, value: Strings.intValue(int: longestRapInt)),
             RowData(title: Strings.difficulty, value: Strings.stringValue(string: canyon.technicalDifficulty?.text)),
             RowData(title: Strings.risk, value: Strings.stringValue(string: canyon.risk?.rawValue)),
             RowData(title: Strings.water, value: Strings.stringValue(string: canyon.waterDifficulty?.text)),
             RowData(title: Strings.time, value: Strings.stringValue(string: canyon.timeGrade?.text)),
             RowData(title: Strings.restricted, value: Strings.boolValue(bool: canyon.isRestricted)),
-            RowData(title: Strings.permits, value: Strings.boolValue(bool: canyon.requiresPermit)),
+            RowData(title: Strings.permits, value: Strings.boolValue(bool: canyon.requiresPermits)),
             RowData(title: Strings.shuttle, value: Strings.boolValue(bool: canyon.requiresShuttle)),
             RowData(title: Strings.vehicle, value: Strings.stringValue(string: canyon.vehicleAccessibility?.rawValue))
         ]

@@ -28,23 +28,14 @@ class FavoritesViewModelTests: XCTestCase {
         
     }
     
-    func testReturnsFavorites() async {
+    func testRefresh() async {
         // setup
-        let canyon = Canyon.dummy()
+        let canyon = Canyon()
         UserPreferencesStorage.addFavorite(canyon: canyon)
         
         // test
         await viewModel.refresh()
         XCTAssertEqual(viewModel.results.count, 1)
-    }
-    
-    func testTitle() async {
-        // setup
-        let canyon = Canyon.dummy()
-        service.mockCanyons = [canyon, Canyon.dummy(), Canyon.dummy(), Canyon.dummy()]
-        
-        // test
-        await viewModel.refresh()
         XCTAssertEqual(viewModel.title, "Favorites")
     }
 }

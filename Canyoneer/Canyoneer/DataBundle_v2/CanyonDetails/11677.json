@@ -1,0 +1,91 @@
+{
+  "url": "https://ropewiki.com/Twister_Canyon",
+  "latitude": -33.2876,
+  "longitude": 150.2864,
+  "id": 11677,
+  "name": "Twister Canyon",
+  "quality": 3.2,
+  "months": [
+    "Dec",
+    "Jan",
+    "Feb",
+    "Mar"
+  ],
+  "technicalRating": 3,
+  "waterRating": "B",
+  "timeRating": "I",
+  "permit": "No",
+  "rappelLongestMeters": 10,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21663\">Descente-Canyon.com</a>\n: Twister Canyon</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>Named by \"Wollemi Pine\" Dave Noble because of the twisting nature of\nthe canyon.</p>\n<p>Has been incorrectly known as Sheep Dip canyon, perpetuated by that\nname being used in Rick Jamieson's guidebook. Sheep Dip canyon is upper\nRocky Creek, but there was a misunderstanding by \"SUBW\" Dave Noble and\n\"Wollemi Pine\" Dave Noble when discussing Sheep Dip canyon. \"Wollemi\nPine\" Dave Noble made the first recorded descent of Twister, but\npresumed it was the Sheep Dip canyon that \"SUBW\" Dave Noble had spoken\nabout.</p>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.285873,
+            -33.287975,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by f sebille on 22 nov 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.288162,
+            -33.289322,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by f sebille on 22 nov 2009)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.285248,
+            -33.285446,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by f sebille on 22 nov 2009)"
+        }
+      }
+    ]
+  }
+}

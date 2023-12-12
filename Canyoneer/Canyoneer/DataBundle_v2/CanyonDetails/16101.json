@@ -1,0 +1,66 @@
+{
+  "url": "https://ropewiki.com/Abelheira",
+  "latitude": 32.7753,
+  "longitude": -16.8726,
+  "id": 16101,
+  "name": "Abelheira",
+  "quality": 3.1,
+  "technicalRating": 4,
+  "waterRating": "B",
+  "timeRating": "II",
+  "permit": "No",
+  "rappelCountMin": 8,
+  "rappelCountMax": 8,
+  "rappelLongestMeters": 150,
+  "shuttleSeconds": 240,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/22758\">Descente-Canyon.com</a>\n: Abelheira</li>\n<li><img src=\"rwl_pt.png\" title=\"rwl_pt.png\" alt=\"rwl_pt.png\" /><a\nhref=\"http://canyoning.camadeira.com/canyons/abelheiro\">CaMadeira.com</a>\n: Ribeira da Abelheira</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.883051,
+            32.775906,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by IP on 20 juin 2012)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.872555,
+            32.775253,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by bernotom on 22 juin 2012)"
+        }
+      }
+    ]
+  }
+}

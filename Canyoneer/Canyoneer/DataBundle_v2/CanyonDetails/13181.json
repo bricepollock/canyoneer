@@ -1,0 +1,102 @@
+{
+  "url": "https://ropewiki.com/Gordo",
+  "latitude": 42.5416,
+  "longitude": 0.5167,
+  "id": 13181,
+  "name": "Gordo",
+  "quality": 3.2,
+  "months": [
+    "Dec",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov"
+  ],
+  "technicalRating": 3,
+  "waterRating": "B",
+  "timeRating": "II",
+  "permit": "No",
+  "rappelCountMin": 6,
+  "rappelCountMax": 6,
+  "rappelLongestMeters": 24,
+  "shuttleSeconds": 30,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>La salida y final del trayecto parte desde el pueblo de Liri. Cabe la\nposibilidad de aproximarse al puente románico (Ermita del Puy) en un\nvehículo, ahorrándonos 30 min de aproximación. Nosotros dejamos el\nvehículo al final de la pista que lleva a la Ermita Virgen del Puy.</p>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=13999919\">Wikiloc.com</a> :\nBarranco Gordo o Racuans (en Liri)</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=13816303\">Wikiloc.com</a> :\n#Barrancos Gordo y Chico (Liri)</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=12644041\">Wikiloc.com</a> :\nbarranco gordo y chico (Liri)</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=7147794\">Wikiloc.com</a> :\nLirí</li>\n</ul>\n<h2 id=\"descent\">Descent</h2>\n<p>- Aproximación Gordo: desde el parking de la Ermita: 10-15 min. -\nDescenso: 3h30min. - Nº de rápeles: 6. - Rápel máximo: 24m.</p>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/23502\">Descente-Canyon.com</a>\n: Gordo</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://guara.info/guara-base-de-datos/descenso-de-barrancos/pirineo/barranco-gordo\">Guara.info</a>\n: Barranco Gordo</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barranquismo.net/paginas/barrancos/barranco_de_liri.htm\">Barranquismo.net</a>\n: Liri;Gordo</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:huesca:gordo\">Wiki-Infobarrancos</a>\n: Barranco Gordo o Racuans (http://infobarrancos.es/)</li>\n</ul>\n<h2 id=\"trip_reports_and_media_1\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.516583,
+            42.54137,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#depart",
+          "styleHash": "-79a39e26",
+          "styleMapHash": {
+            "normal": "#depart0",
+            "highlight": "#depart1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
+          "description": " (Data by ben_graus on 02 sept 2015)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.509553,
+            42.536232,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#arrivee",
+          "styleHash": "3908b860",
+          "styleMapHash": {
+            "normal": "#arrivee0",
+            "highlight": "#arrivee1"
+          },
+          "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
+          "description": " (Data by ben_graus on 02 sept 2015)"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.506158,
+            42.536964,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#parking",
+          "styleHash": "-16f2cca1",
+          "styleMapHash": {
+            "normal": "#parking0",
+            "highlight": "#parking1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by ben_graus on 02 sept 2015)"
+        }
+      }
+    ]
+  }
+}
