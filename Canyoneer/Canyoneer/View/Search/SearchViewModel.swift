@@ -21,7 +21,7 @@ class SearchViewModel: ResultsViewModel {
         searchService: SearchServiceInterface,
         filterViewModel: CanyonFilterViewModel,
         weatherViewModel: WeatherViewModel,
-        canyonService: RopeWikiServiceInterface,
+        canyonService: CanyonAPIServing,
         favoriteService: FavoriteService
     ) {
         self.searchService = searchService

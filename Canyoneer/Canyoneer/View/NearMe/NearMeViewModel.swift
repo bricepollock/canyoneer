@@ -17,7 +17,7 @@ class NearMeViewModel: ResultsViewModel {
     init(
         filterViewModel: CanyonFilterViewModel,
         weatherViewModel: WeatherViewModel,
-        canyonService: RopeWikiServiceInterface,
+        canyonService: CanyonAPIServing,
         favoriteService: FavoriteService,
         searchService: SearchServiceInterface
     ) {

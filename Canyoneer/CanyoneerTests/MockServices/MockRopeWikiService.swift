@@ -1,5 +1,5 @@
 //
-//  MockRopeWikiService.swift
+//  MockCanyonAPIService.swift
 //  CanyoneerTests
 //
 //  Created by Brice Pollock on 1/12/22.
@@ -8,7 +8,7 @@
 import Foundation
 @testable import Canyoneer
 
-class MockRopeWikiService: RopeWikiServiceInterface {
+class MockCanyonAPIService: CanyonAPIServing {
     public var mockCanyons = [CanyonIndex]()
     func canyons() async -> [CanyonIndex] {
         return mockCanyons

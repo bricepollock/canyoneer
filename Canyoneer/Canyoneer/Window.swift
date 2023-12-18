@@ -4,9 +4,15 @@ import SwiftUI
 
 @main
 struct Canyoneer: App {
+    @ObservedObject var viewModel = MainViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            MainView()
+            MainView(viewModel: viewModel)
+        }
+        // NOTE: BGTask only works on device and not on simulator
+        .backgroundTask(.appRefresh(MainViewModel.appUpdateTaskKey)) {
+            await viewModel.updateAppFromServer()
         }
     }
 }

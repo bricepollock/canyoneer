@@ -22,7 +22,7 @@ class FavoriteListViewModel: ResultsViewModel {
     init(
         weatherViewModel: WeatherViewModel,
         mapService: MapService,
-        canyonService: RopeWikiServiceInterface,
+        canyonService: CanyonAPIServing,
         favoriteService: FavoriteService
     ) {
         self.hasDownloadedAll = false
@@ -56,7 +56,7 @@ class FavoriteListViewModel: ResultsViewModel {
     public func refresh() async {
         isLoading = true
         defer { isLoading = false }
-        favorites = self.favoriteService.allFavorites()
+        favorites = await self.favoriteService.allFavorites()
 
         let results = favorites.map {
             return QueryResult(name: $0.name, canyonDetails: $0.index)

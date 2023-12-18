@@ -18,6 +18,7 @@ protocol CanyonIndexData: Codable {
     var shuttleInSeconds: Double? { get }
     var latitude: Double { get }
     var longitude: Double { get }
+    var version: String { get }
 }
 
 extension CanyonIndexData {

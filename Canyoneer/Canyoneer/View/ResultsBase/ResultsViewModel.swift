@@ -25,7 +25,7 @@ import Combine
     /// Whether view is processing query
     @Published var isLoading: Bool = false
     
-    public let canyonService: RopeWikiServiceInterface
+    public let canyonService: CanyonAPIServing
     public let favoriteService: FavoriteService
     public let weatherViewModel: WeatherViewModel
     public let filterSheetViewModel: CanyonFilterSheetViewModel
@@ -36,7 +36,7 @@ import Combine
         filterViewModel: CanyonFilterViewModel,
         filterSheetViewModel: CanyonFilterSheetViewModel,
         weatherViewModel: WeatherViewModel,
-        canyonService: RopeWikiServiceInterface,
+        canyonService: CanyonAPIServing,
         favoriteService: FavoriteService
     ) {
         self.title = ""

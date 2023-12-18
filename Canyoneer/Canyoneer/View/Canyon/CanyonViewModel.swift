@@ -22,14 +22,14 @@ class CanyonViewModel: NSObject, ObservableObject {
     
     // objects
     public var mapViewModel: CanyonDetailMapViewModel?
-    private let canyonService: RopeWikiServiceInterface
+    private let canyonService: CanyonAPIServing
     private let favoriteService: FavoriteService
     private let weatherViewModel: WeatherViewModel
     private let gpxService: GPXService
     
     init(
         canyonId: String,
-        canyonService: RopeWikiServiceInterface,
+        canyonService: CanyonAPIServing,
         favoriteService: FavoriteService,
         weatherViewModel: WeatherViewModel,
         gpxService: GPXService = GPXService()

@@ -20,9 +20,9 @@ struct CanyonIndex: CanyonPreview {
     let shuttleDuration: Measurement<UnitDuration>?
     let quality: Double
     let vehicleAccessibility: Vehicle?
-    
-    /// This data in its codable form
-    let asCodable: Codable
+
+    /// Hash representation for the object. Used to determine if it is stale.
+    let version: String
     
     init(data: CanyonIndexData) {
         self.id = String(data.id)
@@ -53,8 +53,7 @@ struct CanyonIndex: CanyonPreview {
         
         self.quality = data.quality ?? 0
         self.vehicleAccessibility = data.vehicleAccessibility
-        
-        asCodable = data
+        self.version = data.version
     }
     
     /// - Warning: Should only be used in previews and testing, not properly configured for codable
@@ -73,7 +72,8 @@ struct CanyonIndex: CanyonPreview {
         permit: Permit? = nil,
         shuttleDuration: Measurement<UnitDuration>? = nil,
         quality: Double = 4.3,
-        vehicleAccessibility: Vehicle? = .passenger
+        vehicleAccessibility: Vehicle? = .passenger,
+        version: String = UUID().uuidString
     ) {
         self.id = id
         self.name = name
@@ -90,9 +90,7 @@ struct CanyonIndex: CanyonPreview {
         self.shuttleDuration = shuttleDuration
         self.quality = quality
         self.vehicleAccessibility = vehicleAccessibility
-        
-        // Basic opt-out since this is supposed to be used for non-production
-        self.asCodable = ""
+        self.version = version
     }
 }
 

@@ -20,7 +20,7 @@ class CanyonViewModelTests: XCTestCase {
     func testInitialFavorite_true() async throws {
         // setup
         let canyon = Canyon()
-        let service = MockRopeWikiService()
+        let service = MockCanyonAPIService()
         service.mockCanyon = canyon
         let viewModel = CanyonViewModel(
             canyonId: canyon.id,
@@ -40,7 +40,7 @@ class CanyonViewModelTests: XCTestCase {
     func testToggleFavorite() async throws {
         // setup
         let canyon = Canyon()
-        let service = MockRopeWikiService()
+        let service = MockCanyonAPIService()
         service.mockCanyon = canyon
         let viewModel = CanyonViewModel(
             canyonId: canyon.id,
@@ -63,7 +63,7 @@ class CanyonViewModelTests: XCTestCase {
     func testCanyon_found() async {
         // setup
         let canyon = Canyon()
-        let service = MockRopeWikiService()
+        let service = MockCanyonAPIService()
         service.mockCanyon = canyon
         let viewModel = CanyonViewModel(
             canyonId: canyon.id,
@@ -80,7 +80,7 @@ class CanyonViewModelTests: XCTestCase {
     func testCanyon_notFound() async throws {
         // setup
         let canyon = Canyon()
-        let service = MockRopeWikiService()
+        let service = MockCanyonAPIService()
         service.mockCanyon = nil
         let viewModel = CanyonViewModel(
             canyonId: canyon.id,

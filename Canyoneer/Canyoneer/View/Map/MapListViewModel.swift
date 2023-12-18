@@ -21,7 +21,7 @@ class MapListViewModel: ResultsViewModel {
         filterViewModel: CanyonFilterViewModel,
         filterSheetViewModel: CanyonFilterSheetViewModel,
         weatherViewModel: WeatherViewModel,
-        canyonService: RopeWikiServiceInterface,
+        canyonService: CanyonAPIServing,
         favoriteService: FavoriteService
     ) {
         let results = canyonsOnMap.map {

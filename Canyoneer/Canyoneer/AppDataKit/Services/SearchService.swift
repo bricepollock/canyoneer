@@ -9,7 +9,7 @@ import Foundation
 import CoreLocation
 
 protocol SearchServiceInterface {
-    init(canyonService: RopeWikiServiceInterface)
+    init(canyonService: CanyonAPIServing)
     func requestSearch(for searchString: String) async -> QueryResultList
     func nearMeSearch(limit: Int) async throws -> QueryResultList
 }
@@ -17,15 +17,15 @@ protocol SearchServiceInterface {
 struct SearchService: SearchServiceInterface {
     private static let maxQueryResults = 100
     
-    private let ropeWikiService: RopeWikiServiceInterface
+    private let CanyonAPIService: CanyonAPIServing
     private let locationService = LocationService()
     
-    init(canyonService: RopeWikiServiceInterface) {
-        self.ropeWikiService = canyonService
+    init(canyonService: CanyonAPIServing) {
+        self.CanyonAPIService = canyonService
     }
     
     func requestSearch(for searchString: String) async -> QueryResultList {
-        let canyons = await self.ropeWikiService.canyons()
+        let canyons = await self.CanyonAPIService.canyons()
         let results = canyons.filter { canyon in
             return canyon.name.lowercased().contains(searchString.lowercased())
         }.sorted(by: { lhs, rhs in
@@ -44,7 +44,7 @@ struct SearchService: SearchServiceInterface {
             throw RequestError.badRequest
         }
         
-        let canyons = await ropeWikiService.canyons()
+        let canyons = await CanyonAPIService.canyons()
         let currentLocation = try await locationService.getCurrentLocation()
             
         let results = canyons.sorted { lhs, rhs in

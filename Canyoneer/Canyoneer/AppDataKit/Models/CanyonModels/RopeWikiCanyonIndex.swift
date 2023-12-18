@@ -20,6 +20,7 @@ class RopeWikiCanyonIndex: CanyonIndexData, Codable {
         case shuttleInSeconds = "shuttleSeconds"
         case latitude = "latitude"
         case longitude = "longitude"
+        case version = "version"
     }
     
     let id: Int
@@ -38,6 +39,7 @@ class RopeWikiCanyonIndex: CanyonIndexData, Codable {
     let shuttleInSeconds: Double?
     let latitude: Double
     let longitude: Double
+    let version: String
     
     /// - Warning: Should only be used in previews and testing, not properly configured for codable
     init(
@@ -55,7 +57,8 @@ class RopeWikiCanyonIndex: CanyonIndexData, Codable {
         permit: Permit? = nil,
         shuttleDuration: Measurement<UnitDuration>? = nil,
         quality: Double = 4.3,
-        vehicleAccessibility: Vehicle? = .passenger
+        vehicleAccessibility: Vehicle? = .passenger,
+        version: String = UUID().uuidString
     ) {
         guard let mappedID = Int(id) else {
             fatalError("ID Translation error")
@@ -76,5 +79,6 @@ class RopeWikiCanyonIndex: CanyonIndexData, Codable {
         self.vehicleString = vehicleAccessibility?.rawValue
         self.latitude = coordinate.latitude
         self.longitude = coordinate.longitude
+        self.version = version
     }
 }

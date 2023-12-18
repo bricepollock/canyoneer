@@ -17,9 +17,6 @@ struct Canyon {
     let geoWaypoints: [CoordinateFeature]
     let geoLines: [CoordinateFeature]
     
-    /// This data in its codable form
-    let asCodable: RopeWikiCanyon
-    
     init(data: RopeWikiCanyon) {
         let index = CanyonIndex(data: data)
         self.id = index.id
@@ -38,8 +35,6 @@ struct Canyon {
         }
         self.geoWaypoints = geoFeatures.filter { $0.type == .waypoint }
         self.geoLines = GPXService.simplify(features: geoFeatures.filter { $0.type == .line })
-        
-        self.asCodable = data
     }
     
     init(legacy: LegacyCanyon) {
@@ -88,7 +83,7 @@ struct Canyon {
     
     /// - Warning: Should only be used in previews and testing, not properly configured for codable
     init(
-        id: String = "101",
+        id: String = "Moonflower Canyon_1_1",
         name: String = "Moonflower Canyon",
         coordinate: Coordinate = Coordinate(latitude: 1, longitude: 1),
         technicalDifficulty: TechnicalGrade? = .three,
@@ -130,28 +125,6 @@ struct Canyon {
         self.description = description
         self.geoWaypoints = geoWaypoints
         self.geoLines = geoLines
-        
-        self.asCodable = RopeWikiCanyon(
-            id: id,
-            name: name,
-            coordinate: coordinate,
-            technicalDifficulty: technicalDifficulty,
-            risk: risk,
-            timeGrade: timeGrade,
-            waterDifficulty: waterDifficulty,
-            minRaps: minRaps,
-            maxRaps: maxRaps,
-            maxRapLength: maxRapLength,
-            bestSeasons: bestSeasons,
-            permit: permit,
-            shuttleDuration: shuttleDuration,
-            quality: quality,
-            vehicleAccessibility: vehicleAccessibility,
-            url: url,
-            description: description,
-            geoWaypoints: geoWaypoints,
-            geoLines: geoLines
-        )
     }
 }
 
@@ -170,6 +143,7 @@ extension Canyon: CanyonPreview {
     var shuttleDuration: Measurement<UnitDuration>? { index.shuttleDuration }
     var quality: Double { index.quality }
     var vehicleAccessibility: Vehicle? { index.vehicleAccessibility }
+    var version: String { index.version }
 }
 
 extension Canyon: Identifiable, Equatable {

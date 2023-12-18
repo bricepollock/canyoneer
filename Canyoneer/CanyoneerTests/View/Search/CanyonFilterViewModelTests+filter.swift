@@ -22,7 +22,7 @@ class CanyonFilterViewModelTests: XCTestCase {
     }
     
     func testDefaultFilter_fromSource() async {
-        let service = RopeWikiService()
+        let service = CanyonAPIService()
         let allCanyons = await service.canyons()
         XCTAssertEqual(allCanyons.count, 10635)
         

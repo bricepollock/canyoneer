@@ -43,7 +43,7 @@ class MainTabViewModel: ObservableObject {
     
     init(
         allCanyons: [CanyonIndex],
-        canyonService: RopeWikiService,
+        canyonService: CanyonAPIService,
         filterViewModel: CanyonFilterViewModel,
         weatherViewModel: WeatherViewModel,
         mapService: MapService,
@@ -75,7 +75,7 @@ class MainTabViewModel: ObservableObject {
             weatherViewModel: weatherViewModel,
             canyonService: canyonService,
             favoriteService: favoriteService
-        )
+        )        
     }
     
 }

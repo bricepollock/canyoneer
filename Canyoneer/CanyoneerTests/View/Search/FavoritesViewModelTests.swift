@@ -11,14 +11,14 @@ import XCTest
 
 @MainActor
 class FavoritesViewModelTests: XCTestCase {
-    var service: MockRopeWikiService!
+    var service: MockCanyonAPIService!
     var viewModel: FavoriteListViewModel!
     
     override func setUp() {
         super.setUp()
         UserPreferencesStorage.clearFavorites()
         
-        service = MockRopeWikiService()
+        service = MockCanyonAPIService()
         viewModel = FavoriteListViewModel(
             weatherViewModel: WeatherViewModel(),
             mapService: MapService(),
