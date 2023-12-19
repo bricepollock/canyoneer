@@ -40,7 +40,8 @@
             "highlight": "#icon-93-highlight"
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "44.05478ºN, 6.84555ºE (WSG84)"
+          "description": "44.05478ºN, 6.84555ºE (WSG84)",
+          "elevationMeters": 838
         }
       },
       {
@@ -51,22 +52,22 @@
             [
               6.850855000000001,
               44.053162,
-              0
+              683.5
             ],
             [
               6.850383,
               44.053517,
-              0
+              709.2000122070312
             ],
             [
               6.849976,
               44.053794,
-              0
+              732.5999755859375
             ],
             [
               6.849332,
               44.05385600000001,
-              0
+              758
             ]
           ]
         },
@@ -75,7 +76,11 @@
           "description": "Parte Inferior<br>1h30m",
           "stroke": "#FF0000",
           "stroke-opacity": 0.7843137254901961,
-          "stroke-width": 5
+          "stroke-width": 5,
+          "lengthMeters": 151.318290910338,
+          "ascentMeters": 74.5,
+          "descentMeters": 0,
+          "changeMeters": 74.5
         }
       },
       {
@@ -86,32 +91,32 @@
             [
               6.84931,
               44.053918,
-              0
+              758
             ],
             [
               6.848323,
               44.054072,
-              0
+              795.5999755859375
             ],
             [
               6.847551,
               44.05455,
-              0
+              832.9000244140625
             ],
             [
               6.846714,
               44.054889,
-              0
+              842.0999755859375
             ],
             [
               6.846178,
               44.054951,
-              0
+              843.7000122070312
             ],
             [
               6.845512,
               44.054827,
-              0
+              832.7999877929688
             ]
           ]
         },
@@ -120,7 +125,11 @@
           "description": "20 min",
           "stroke": "#FFFF00",
           "stroke-opacity": 0.7843137254901961,
-          "stroke-width": 5
+          "stroke-width": 5,
+          "lengthMeters": 337.28617651172107,
+          "ascentMeters": 85.70001220703125,
+          "descentMeters": 10.9000244140625,
+          "changeMeters": 74.79998779296875
         }
       },
       {
@@ -131,42 +140,42 @@
             [
               6.8508770000000005,
               44.053069,
-              0
+              683.5
             ],
             [
               6.850233,
               44.05327,
-              0
+              718.2000122070312
             ],
             [
               6.849611,
               44.053686000000006,
-              0
+              755.9000244140625
             ],
             [
               6.849289,
               44.053948000000005,
-              0
+              758
             ],
             [
               6.848302,
               44.05411800000001,
-              0
+              795.5999755859375
             ],
             [
               6.847422000000001,
               44.054673,
-              0
+              832.9000244140625
             ],
             [
               6.846521,
               44.054966,
-              0
+              845.5
             ],
             [
               6.845534,
               44.054843,
-              0
+              837.7999877929688
             ]
           ]
         },
@@ -175,7 +184,11 @@
           "description": "35 min",
           "stroke": "#00FF00",
           "stroke-opacity": 0.7843137254901961,
-          "stroke-width": 5
+          "stroke-width": 5,
+          "lengthMeters": 496.6327144583847,
+          "ascentMeters": 162,
+          "descentMeters": 7.70001220703125,
+          "changeMeters": 154.29998779296875
         }
       },
       {
@@ -196,7 +209,8 @@
             "normal": "#icon-62-nodesc-normal",
             "highlight": "#icon-62-nodesc-highlight"
           },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png"
+          "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png",
+          "elevationMeters": 684
         }
       },
       {
@@ -217,9 +231,11 @@
             "normal": "#icon-124-nodesc-normal",
             "highlight": "#icon-124-nodesc-highlight"
           },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png"
+          "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png",
+          "elevationMeters": 758
         }
       }
     ]
-  }
+  },
+  "version": "a957b5b46bc88f012022ae6674c5ed5c"
 }

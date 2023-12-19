@@ -40,7 +40,8 @@
             "highlight": "#icon-93-highlight"
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here."
+          "description": "Park vehicle here.",
+          "elevationMeters": 2017
         }
       },
       {
@@ -51,22 +52,22 @@
             [
               -111.40124,
               34.5669,
-              0
+              2016.9000244140625
             ],
             [
               -111.39598,
               34.56697,
-              0
+              1957.800048828125
             ],
             [
               -111.39523,
               34.56709,
-              0
+              1906.5
             ],
             [
               -111.39451,
               34.56723,
-              0
+              1875.4000244140625
             ]
           ]
         },
@@ -77,7 +78,11 @@
           "styleMapHash": {
             "normal": "#line-00FF00-5000-nodesc",
             "highlight": "#line-00FF00-5000-nodesc-highlight"
-          }
+          },
+          "lengthMeters": 619.3933531057487,
+          "ascentMeters": 0,
+          "descentMeters": 141.5,
+          "changeMeters": -141.5
         }
       },
       {
@@ -88,22 +93,22 @@
             [
               -111.39451,
               34.56723,
-              0
+              1875.4000244140625
             ],
             [
               -111.39417,
               34.56678,
-              0
+              1920.4000244140625
             ],
             [
               -111.39444,
               34.56597,
-              0
+              1957.4000244140625
             ],
             [
               -111.3937,
               34.56472,
-              0
+              2012.9000244140625
             ]
           ]
         },
@@ -114,7 +119,11 @@
           "styleMapHash": {
             "normal": "#line-FF0000-5000-nodesc",
             "highlight": "#line-FF0000-5000-nodesc-highlight"
-          }
+          },
+          "lengthMeters": 306.9622020073449,
+          "ascentMeters": 137.5,
+          "descentMeters": 0,
+          "changeMeters": 137.5
         }
       },
       {
@@ -129,7 +138,8 @@
         },
         "properties": {
           "name": "R1",
-          "description": "30'"
+          "description": "30'",
+          "elevationMeters": 1920
         }
       },
       {
@@ -144,7 +154,8 @@
         },
         "properties": {
           "name": "R2",
-          "description": "40'"
+          "description": "40'",
+          "elevationMeters": 1957
         }
       },
       {
@@ -159,7 +170,8 @@
         },
         "properties": {
           "name": "Small Cave",
-          "description": "Cave"
+          "description": "Cave",
+          "elevationMeters": 1839
         }
       },
       {
@@ -170,42 +182,42 @@
             [
               -111.3937,
               34.56472,
-              0
+              2012.9000244140625
             ],
             [
               -111.39444,
               34.56597,
-              0
+              1957.4000244140625
             ],
             [
               -111.39417,
               34.56678,
-              0
+              1920.4000244140625
             ],
             [
               -111.39451,
               34.56723,
-              0
+              1875.4000244140625
             ],
             [
               -111.39451,
               34.56723,
-              0
+              1875.4000244140625
             ],
             [
               -111.39523,
               34.56709,
-              0
+              1906.5
             ],
             [
               -111.39598,
               34.56697,
-              0
+              1957.800048828125
             ],
             [
               -111.40124,
               34.5669,
-              0
+              2016.9000244140625
             ]
           ]
         },
@@ -216,9 +228,14 @@
           "styleMapHash": {
             "normal": "#line-FFFF00-5000-nodesc",
             "highlight": "#line-FFFF00-5000-nodesc-highlight"
-          }
+          },
+          "lengthMeters": 926.3555551130936,
+          "ascentMeters": 141.5,
+          "descentMeters": 137.5,
+          "changeMeters": 4
         }
       }
     ]
-  }
+  },
+  "version": "158c55c02d85f659d34e186ceadce70a"
 }

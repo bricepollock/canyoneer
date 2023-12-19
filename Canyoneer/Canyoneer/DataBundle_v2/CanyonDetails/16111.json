@@ -35,7 +35,8 @@
             "normal": "#start0",
             "highlight": "#start1"
           },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-blank.png"
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-blank.png",
+          "elevationMeters": 0
         }
       },
       {
@@ -56,7 +57,8 @@
             "normal": "#end0",
             "highlight": "#end1"
           },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-blank.png"
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-blank.png",
+          "elevationMeters": 0
         }
       },
       {
@@ -195,9 +197,14 @@
           "name": "Descent",
           "stroke": "#FF0000",
           "stroke-opacity": 1,
-          "stroke-width": 5
+          "stroke-width": 5,
+          "lengthMeters": 918.598623571311,
+          "ascentMeters": 0,
+          "descentMeters": 0,
+          "changeMeters": 0
         }
       }
     ]
-  }
+  },
+  "version": "c1f933da2b174a46b134499757ed1d88"
 }

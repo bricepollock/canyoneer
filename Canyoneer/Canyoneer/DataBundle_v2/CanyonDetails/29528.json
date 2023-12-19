@@ -28,7 +28,8 @@
             "highlight": "#begin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by dperma1 at wikiloc.com)"
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "elevationMeters": 0
         }
       },
       {
@@ -50,7 +51,8 @@
             "highlight": "#end1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by dperma1 at wikiloc.com)"
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "elevationMeters": 65
         }
       },
       {
@@ -72,7 +74,8 @@
             "highlight": "#yellowmarker1"
           },
           "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by dperma1 at wikiloc.com)"
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "elevationMeters": 0
         }
       },
       {
@@ -218,62 +221,62 @@
             [
               -16.874415,
               28.357834,
-              0
+              59.70000076293945
             ],
             [
               -16.873998,
               28.35744,
-              0
+              64.19999694824219
             ],
             [
               -16.873749,
               28.357741,
-              0
+              62.099998474121094
             ],
             [
               -16.873494,
               28.357676,
-              0
+              63.70000076293945
             ],
             [
               -16.872853,
               28.357862,
-              0
+              67.69999694824219
             ],
             [
               -16.87234,
               28.357758,
-              0
+              69.30000305175781
             ],
             [
               -16.870965,
               28.359197,
-              0
+              70.9000015258789
             ],
             [
               -16.870703,
               28.359967,
-              0
+              67.69999694824219
             ],
             [
               -16.870811,
               28.36045,
-              0
+              68.4000015258789
             ],
             [
               -16.870731,
               28.361056,
-              0
+              65.0999984741211
             ],
             [
               -16.870829,
               28.361045,
-              0
+              65.0999984741211
             ],
             [
               -16.870829,
               28.361045,
-              0
+              65.0999984741211
             ]
           ]
         },
@@ -282,9 +285,14 @@
           "description": " (Data by dperma1 at wikiloc.com)",
           "stroke": "#FF00FF",
           "stroke-opacity": 1,
-          "stroke-width": 3
+          "stroke-width": 3,
+          "lengthMeters": 2674.154267367323,
+          "ascentMeters": 73.70000457763672,
+          "descentMeters": 8.600006103515625,
+          "changeMeters": 65.0999984741211
         }
       }
     ]
-  }
+  },
+  "version": "49d7fad7a4b136e51a0b02b4d1b90be9"
 }

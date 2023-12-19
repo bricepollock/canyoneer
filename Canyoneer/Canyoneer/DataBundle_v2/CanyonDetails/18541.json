@@ -46,7 +46,8 @@
             "highlight": "#icon-93-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Lovely beach too. (Data by canyonchronicles.com)"
+          "description": "Lovely beach too. (Data by canyonchronicles.com)",
+          "elevationMeters": 157
         }
       },
       {
@@ -57,47 +58,47 @@
             [
               -124.065607,
               41.400602,
-              0
+              157.1999969482422
             ],
             [
               -124.065263,
               41.402694,
-              0
+              110.80000305175781
             ],
             [
               -124.064105,
               41.403403,
-              0
+              113.5999984741211
             ],
             [
               -124.06213,
               41.402952,
-              0
+              120.5
             ],
             [
               -124.060156,
               41.401761,
-              0
+              147.39999389648438
             ],
             [
               -124.059083,
               41.400763,
-              0
+              165.5
             ],
             [
               -124.057968,
               41.399443,
-              0
+              130.89999389648438
             ],
             [
               -124.056466,
               41.397834,
-              0
+              193.60000610351562
             ],
             [
               -124.05462,
               41.396739,
-              0
+              201.39999389648438
             ]
           ]
         },
@@ -112,7 +113,11 @@
           "description": " (Data by canyonchronicles.com)",
           "stroke": "#0000ff",
           "stroke-opacity": 1,
-          "stroke-width": 5
+          "stroke-width": 5,
+          "lengthMeters": 1473.5834789645546,
+          "ascentMeters": 125.19999694824219,
+          "descentMeters": 81,
+          "changeMeters": 44.19999694824219
         }
       },
       {
@@ -134,9 +139,11 @@
             "highlight": "#icon-33-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/33-caution.png",
-          "description": "Go as far as you would like, it becomes non-interesting fairly quickly. (Data by canyonchronicles.com)"
+          "description": "Go as far as you would like, it becomes non-interesting fairly quickly. (Data by canyonchronicles.com)",
+          "elevationMeters": 201
         }
       }
     ]
-  }
+  },
+  "version": "560d5e6daa2707aca6f15f2b6a816aaf"
 }

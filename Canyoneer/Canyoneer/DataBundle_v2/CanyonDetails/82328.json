@@ -30,7 +30,8 @@
           ]
         },
         "properties": {
-          "name": "Major Creek Falls"
+          "name": "Major Creek Falls",
+          "elevationMeters": 594
         }
       },
       {
@@ -44,7 +45,8 @@
           ]
         },
         "properties": {
-          "name": "Columbia Land Trust"
+          "name": "Columbia Land Trust",
+          "elevationMeters": 586
         }
       },
       {
@@ -58,7 +60,8 @@
           ]
         },
         "properties": {
-          "name": "private"
+          "name": "private",
+          "elevationMeters": 589
         }
       },
       {
@@ -72,7 +75,8 @@
           ]
         },
         "properties": {
-          "name": "private"
+          "name": "private",
+          "elevationMeters": 617
         }
       },
       {
@@ -86,7 +90,8 @@
           ]
         },
         "properties": {
-          "name": "private"
+          "name": "private",
+          "elevationMeters": 575
         }
       },
       {
@@ -100,7 +105,8 @@
           ]
         },
         "properties": {
-          "name": "private"
+          "name": "private",
+          "elevationMeters": 634
         }
       },
       {
@@ -114,7 +120,8 @@
           ]
         },
         "properties": {
-          "name": "35ft"
+          "name": "35ft",
+          "elevationMeters": 605
         }
       },
       {
@@ -128,7 +135,8 @@
           ]
         },
         "properties": {
-          "name": "25ft"
+          "name": "25ft",
+          "elevationMeters": 614
         }
       },
       {
@@ -1149,64 +1157,68 @@
             [
               -121.406307220459,
               45.781464151424316,
-              0
+              594.4000244140625
             ],
             [
               -121.4061999320984,
               45.781075072649166,
-              0
+              592.2999877929688
             ],
             [
               -121.40572786331178,
               45.78084312054906,
-              0
+              594.0999755859375
             ],
             [
               -121.4051377773285,
               45.780401660660324,
-              0
+              596.4000244140625
             ],
             [
               -121.40511631965639,
               45.779937749892085,
-              0
+              596.5
             ],
             [
               -121.40529870986938,
               45.77951873039668,
-              0
+              596
             ],
             [
               -121.4058029651642,
               45.779077260021786,
-              0
+              592.9000244140625
             ],
             [
               -121.40622138977052,
               45.77877795608451,
-              0
+              595.2000122070312
             ],
             [
               -121.40617847442628,
               45.77842627190525,
-              0
+              599
             ],
             [
               -121.4062535762787,
               45.77813444717897,
-              0
+              601.4000244140625
             ],
             [
               -121.406307220459,
               45.77802220649295,
-              0
+              604.5999755859375
             ]
           ]
         },
         "properties": {
           "stroke": "#FF0000",
           "stroke-opacity": 1,
-          "stroke-width": 2
+          "stroke-width": 2,
+          "lengthMeters": 450.86461259384737,
+          "ascentMeters": 15.89996337890625,
+          "descentMeters": 5.70001220703125,
+          "changeMeters": 10.199951171875
         }
       },
       {
@@ -1935,5 +1947,6 @@
         }
       }
     ]
-  }
+  },
+  "version": "7f3e4af6d2f43ba03c1e8ea5c2826e31"
 }
