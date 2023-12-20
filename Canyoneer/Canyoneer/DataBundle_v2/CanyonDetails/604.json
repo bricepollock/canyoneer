@@ -33,7 +33,8 @@
             "highlight": "#dot1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "description": "The Grotto shuttle stop on the Zion - Floor of the Valley road. (Data by bluugnome.com)"
+          "description": "The Grotto shuttle stop on the Zion - Floor of the Valley road. (Data by bluugnome.com)",
+          "elevationMeters": 1344
         }
       },
       {
@@ -55,7 +56,8 @@
             "highlight": "#dot1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "description": "4600 ft (Data by bluugnome.com)"
+          "description": "4600 ft (Data by bluugnome.com)",
+          "elevationMeters": 1903
         }
       },
       {
@@ -66,87 +68,87 @@
             [
               -112.95121,
               37.25908,
-              0
+              1344.300048828125
             ],
             [
               -112.95152,
               37.25998,
-              0
+              1382.5
             ],
             [
               -112.95128,
               37.27534,
-              0
+              1871.5999755859375
             ],
             [
               -112.95085,
               37.27492,
-              0
+              1909.5999755859375
             ],
             [
               -112.95582,
               37.28598,
-              0
+              1847.199951171875
             ],
             [
               -112.96999,
               37.28253,
-              0
+              2102.39990234375
             ],
             [
               -112.9706,
               37.27785,
-              0
+              2070
             ],
             [
               -112.96934,
               37.27176,
-              0
+              2164.199951171875
             ],
             [
               -112.96956,
               37.27289,
-              0
+              2154.800048828125
             ],
             [
               -112.9687,
               37.27389,
-              0
+              2037.5
             ],
             [
               -112.96839,
               37.27799,
-              0
+              2182.699951171875
             ],
             [
               -112.9683,
               37.27898,
-              0
+              2212.300048828125
             ],
             [
               -112.96809,
               37.27951,
-              0
+              2216.199951171875
             ],
             [
               -112.96343,
               37.27497,
-              0
+              2058.300048828125
             ],
             [
               -112.96092,
               37.27193,
-              0
+              2134.699951171875
             ],
             [
               -112.95956,
               37.27258,
-              0
+              2145.89990234375
             ],
             [
               -112.96018,
               37.25805,
-              0
+              1902.5
             ]
           ]
         },
@@ -155,9 +157,14 @@
           "description": " (Data by bluugnome.com)",
           "stroke": "#00FF00",
           "stroke-opacity": 1,
-          "stroke-width": 3
+          "stroke-width": 3,
+          "lengthMeters": 9402.682496036125,
+          "ascentMeters": 1180.9996337890625,
+          "descentMeters": 622.7996826171875,
+          "changeMeters": 558.199951171875
         }
       }
     ]
-  }
+  },
+  "version": "8bc193594700cedda52af3d9046af606"
 }

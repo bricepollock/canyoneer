@@ -29,7 +29,8 @@
           ]
         },
         "properties": {
-          "name": "Parking"
+          "name": "Parking",
+          "elevationMeters": 0
         }
       },
       {
@@ -43,7 +44,8 @@
           ]
         },
         "properties": {
-          "name": "Shuttle Parking"
+          "name": "Shuttle Parking",
+          "elevationMeters": 0
         }
       },
       {
@@ -404,7 +406,7 @@
             [
               -121.49058,
               35.98962,
-              0
+              0.10000000149011612
             ],
             [
               -121.4905,
@@ -434,22 +436,22 @@
             [
               -121.48912,
               35.98955,
-              0
+              0.10000000149011612
             ],
             [
               -121.48897,
               35.98953,
-              0
+              0.10000000149011612
             ],
             [
               -121.48883,
               35.98957,
-              0
+              0.10000000149011612
             ],
             [
               -121.48878,
               35.98961,
-              0
+              0.10000000149011612
             ],
             [
               -121.48865,
@@ -1292,7 +1294,11 @@
           "name": "Approach",
           "stroke": "#00CD00",
           "stroke-opacity": 1,
-          "stroke-width": 2
+          "stroke-width": 2,
+          "lengthMeters": 6850.621112883725,
+          "ascentMeters": 0.20000000298023224,
+          "descentMeters": 0.20000000298023224,
+          "changeMeters": 0
         }
       },
       {
@@ -1563,17 +1569,17 @@
             [
               -121.48118,
               35.98959,
-              0
+              0.10000000149011612
             ],
             [
               -121.48128,
               35.98954,
-              0
+              0.10000000149011612
             ],
             [
               -121.4813,
               35.98948,
-              0
+              0.10000000149011612
             ],
             [
               -121.48147,
@@ -1956,7 +1962,11 @@
           "name": "Exit",
           "stroke": "#F0F000",
           "stroke-opacity": 1,
-          "stroke-width": 2
+          "stroke-width": 2,
+          "lengthMeters": 2757.7832463282093,
+          "ascentMeters": 0.10000000149011612,
+          "descentMeters": 0.10000000149011612,
+          "changeMeters": 0
         }
       },
       {
@@ -2035,7 +2045,11 @@
           "name": "Alternate Approach",
           "stroke": "#00CD00",
           "stroke-opacity": 1,
-          "stroke-width": 1
+          "stroke-width": 1,
+          "lengthMeters": 164.56794991219638,
+          "ascentMeters": 0,
+          "descentMeters": 0,
+          "changeMeters": 0
         }
       },
       {
@@ -2104,9 +2118,14 @@
           "name": "Descent",
           "stroke": "#FF0000",
           "stroke-opacity": 1,
-          "stroke-width": 2
+          "stroke-width": 2,
+          "lengthMeters": 506.53260682377623,
+          "ascentMeters": 0,
+          "descentMeters": 0,
+          "changeMeters": 0
         }
       }
     ]
-  }
+  },
+  "version": "d0ccd5147750e68a01008d10f47c92f9"
 }

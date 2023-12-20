@@ -46,7 +46,8 @@
             "normal": "#icon-93-nodesc-normal",
             "highlight": "#icon-93-nodesc-highlight"
           },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png"
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "elevationMeters": 768
         }
       },
       {
@@ -57,47 +58,47 @@
             [
               13.685558,
               46.337548,
-              0
+              767.9000244140625
             ],
             [
               13.685182,
               46.337707,
-              0
+              765.4000244140625
             ],
             [
               13.684613,
               46.337863,
-              0
+              748
             ],
             [
               13.684259,
               46.338067,
-              0
+              738.7999877929688
             ],
             [
               13.68383,
               46.338459,
-              0
+              733.2000122070312
             ],
             [
               13.683653,
               46.338752,
-              0
+              708
             ],
             [
               13.683433,
               46.338989,
-              0
+              687.5999755859375
             ],
             [
               13.683465,
               46.33938100000001,
-              0
+              691.7000122070312
             ],
             [
               13.683648,
               46.339589,
-              0
+              723.2999877929688
             ]
           ]
         },
@@ -105,7 +106,11 @@
           "name": "Descent",
           "stroke": "#FF0000",
           "stroke-opacity": 0.7843137254901961,
-          "stroke-width": 5
+          "stroke-width": 5,
+          "lengthMeters": 308.19985191847854,
+          "ascentMeters": 35.70001220703125,
+          "descentMeters": 80.300048828125,
+          "changeMeters": -44.60003662109375
         }
       },
       {
@@ -126,7 +131,8 @@
             "normal": "#icon-62-nodesc-normal",
             "highlight": "#icon-62-nodesc-highlight"
           },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png"
+          "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png",
+          "elevationMeters": 768
         }
       },
       {
@@ -147,7 +153,8 @@
             "normal": "#icon-124-nodesc-normal",
             "highlight": "#icon-124-nodesc-highlight"
           },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png"
+          "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png",
+          "elevationMeters": 723
         }
       },
       {
@@ -158,52 +165,52 @@
             [
               13.683712,
               46.339615,
-              0
+              723.2999877929688
             ],
             [
               13.684163,
               46.339904,
-              0
+              786
             ],
             [
               13.684624,
               46.340122,
-              0
+              824.4000244140625
             ],
             [
               13.684898,
               46.339607,
-              0
+              829.2000122070312
             ],
             [
               13.684967,
               46.33908100000001,
-              0
+              804.0999755859375
             ],
             [
               13.684807,
               46.33873,
-              0
+              776.2000122070312
             ],
             [
               13.684887,
               46.338163,
-              0
+              783
             ],
             [
               13.68501,
               46.337896,
-              0
+              765.4000244140625
             ],
             [
               13.685418,
               46.337863,
-              0
+              780.7000122070312
             ],
             [
               13.685724000000002,
               46.337611,
-              0
+              767.9000244140625
             ]
           ]
         },
@@ -211,9 +218,14 @@
           "name": "Exit",
           "stroke": "#FFFF00",
           "stroke-opacity": 0.7843137254901961,
-          "stroke-width": 5
+          "stroke-width": 5,
+          "lengthMeters": 413.38576828355184,
+          "ascentMeters": 128,
+          "descentMeters": 83.39996337890625,
+          "changeMeters": 44.60003662109375
         }
       }
     ]
-  }
+  },
+  "version": "9d276db58414fe4bd5264590dbb5e695"
 }

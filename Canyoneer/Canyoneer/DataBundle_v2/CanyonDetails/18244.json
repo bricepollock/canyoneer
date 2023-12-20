@@ -40,7 +40,8 @@
             "highlight": "#depart1"
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
-          "description": "dans le lit vers le-haut (Data by Streicher Wolfgang on 01 avr 2012)"
+          "description": "dans le lit vers le-haut (Data by Streicher Wolfgang on 01 avr 2012)",
+          "elevationMeters": 123
         }
       },
       {
@@ -62,7 +63,8 @@
             "highlight": "#arrivee1"
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
-          "description": "fin de l\\ (Data by Streicher Wolfgang on 01 avr 2012)"
+          "description": "fin de l\\ (Data by Streicher Wolfgang on 01 avr 2012)",
+          "elevationMeters": -383
         }
       },
       {
@@ -84,9 +86,11 @@
             "highlight": "#parking1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
-          "description": " (Data by Streicher Wolfgang on 01 avr 2012)"
+          "description": " (Data by Streicher Wolfgang on 01 avr 2012)",
+          "elevationMeters": 167
         }
       }
     ]
-  }
+  },
+  "version": "6afd8db1fdce2a9f6c41baf80b18b891"
 }

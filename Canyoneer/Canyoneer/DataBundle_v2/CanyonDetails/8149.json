@@ -30,7 +30,8 @@
         },
         "properties": {
           "name": "Camp",
-          "description": "Homestake Dry Camp"
+          "description": "Homestake Dry Camp",
+          "elevationMeters": 1202
         }
       },
       {
@@ -45,7 +46,8 @@
         },
         "properties": {
           "name": "Parking",
-          "description": "Lippincott Mine Parking"
+          "description": "Lippincott Mine Parking",
+          "elevationMeters": 1204
         }
       },
       {
@@ -59,7 +61,8 @@
           ]
         },
         "properties": {
-          "name": "Mine"
+          "name": "Mine",
+          "elevationMeters": 1298
         }
       },
       {
@@ -73,9 +76,11 @@
           ]
         },
         "properties": {
-          "name": "Shaft"
+          "name": "Shaft",
+          "elevationMeters": 1292
         }
       }
     ]
-  }
+  },
+  "version": "dbf781e31f39689e372c59cff1359931"
 }

@@ -43,7 +43,8 @@
             "highlight": "#icon-93-highlight"
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here."
+          "description": "Park vehicle here.",
+          "elevationMeters": 1988
         }
       },
       {
@@ -54,17 +55,17 @@
             [
               -111.4746,
               34.5411,
-              0
+              1987.800048828125
             ],
             [
               -111.47278,
               34.55116,
-              0
+              1948.800048828125
             ],
             [
               -111.4698,
               34.5555,
-              0
+              1955.9000244140625
             ]
           ]
         },
@@ -75,7 +76,11 @@
           "styleMapHash": {
             "normal": "#line-00FF00-5000-nodesc",
             "highlight": "#line-00FF00-5000-nodesc-highlight"
-          }
+          },
+          "lengthMeters": 1685.3826377085493,
+          "ascentMeters": 7.0999755859375,
+          "descentMeters": 39,
+          "changeMeters": -31.9000244140625
         }
       },
       {
@@ -86,12 +91,12 @@
             [
               -111.4698,
               34.5555,
-              0
+              1955.9000244140625
             ],
             [
               -111.47029,
               34.55679,
-              0
+              1926.5999755859375
             ]
           ]
         },
@@ -102,7 +107,11 @@
           "styleMapHash": {
             "normal": "#line-FF0000-5000-nodesc",
             "highlight": "#line-FF0000-5000-nodesc-highlight"
-          }
+          },
+          "lengthMeters": 150.29660876812497,
+          "ascentMeters": 0,
+          "descentMeters": 29.300048828125,
+          "changeMeters": -29.300048828125
         }
       },
       {
@@ -117,7 +126,8 @@
         },
         "properties": {
           "name": "R1",
-          "description": "40'"
+          "description": "40'",
+          "elevationMeters": 1956
         }
       },
       {
@@ -128,22 +138,22 @@
             [
               -111.47029,
               34.55679,
-              0
+              1926.5999755859375
             ],
             [
               -111.47445,
               34.55814,
-              0
+              1928
             ],
             [
               -111.47655,
               34.55637,
-              0
+              1921
             ],
             [
               -111.4746,
               34.5411,
-              0
+              1987.800048828125
             ]
           ]
         },
@@ -154,9 +164,14 @@
           "styleMapHash": {
             "normal": "#line-FFFF00-5000-nodesc",
             "highlight": "#line-FFFF00-5000-nodesc-highlight"
-          }
+          },
+          "lengthMeters": 2391.949533316957,
+          "ascentMeters": 68.2000732421875,
+          "descentMeters": 7,
+          "changeMeters": 61.2000732421875
         }
       }
     ]
-  }
+  },
+  "version": "e60f5769a38386fbb124b435446ea355"
 }

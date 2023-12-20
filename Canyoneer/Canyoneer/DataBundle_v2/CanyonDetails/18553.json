@@ -409,7 +409,11 @@
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
-          "fill-opacity": 0.26666666666666666
+          "fill-opacity": 0.26666666666666666,
+          "lengthMeters": 2156.456974651092,
+          "ascentMeters": 0,
+          "descentMeters": 0,
+          "changeMeters": 0
         }
       },
       {
@@ -423,7 +427,8 @@
           ]
         },
         "properties": {
-          "name": "DropIn"
+          "name": "DropIn",
+          "elevationMeters": 0
         }
       },
       {
@@ -437,7 +442,8 @@
           ]
         },
         "properties": {
-          "name": "R1"
+          "name": "R1",
+          "elevationMeters": 0
         }
       },
       {
@@ -451,9 +457,11 @@
           ]
         },
         "properties": {
-          "name": "R2"
+          "name": "R2",
+          "elevationMeters": 0
         }
       }
     ]
-  }
+  },
+  "version": "55fc968a618e3139d37b8579ff9623da"
 }

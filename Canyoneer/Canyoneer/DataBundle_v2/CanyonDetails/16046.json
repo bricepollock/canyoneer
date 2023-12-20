@@ -28,7 +28,8 @@
             "highlight": "#begin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by André Campos at wikiloc.com)"
+          "description": " (Data by André Campos at wikiloc.com)",
+          "elevationMeters": 562
         }
       },
       {
@@ -50,7 +51,8 @@
             "highlight": "#end1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by André Campos at wikiloc.com)"
+          "description": " (Data by André Campos at wikiloc.com)",
+          "elevationMeters": 635
         }
       },
       {
@@ -72,7 +74,8 @@
             "highlight": "#yellowmarker1"
           },
           "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by André Campos at wikiloc.com)"
+          "description": " (Data by André Campos at wikiloc.com)",
+          "elevationMeters": 562
         }
       },
       {
@@ -83,92 +86,92 @@
             [
               -8.018574,
               41.069969,
-              0
+              562.0999755859375
             ],
             [
               -8.019381,
               41.070291,
-              0
+              557.9000244140625
             ],
             [
               -8.019639,
               41.070705,
-              0
+              581
             ],
             [
               -8.019778,
               41.070932,
-              0
+              592.5
             ],
             [
               -8.020695,
               41.071144,
-              0
+              604.2000122070312
             ],
             [
               -8.020881,
               41.071362,
-              0
+              616.0999755859375
             ],
             [
               -8.020838,
               41.071631,
-              0
+              628.5
             ],
             [
               -8.020687,
               41.071985,
-              0
+              639.7000122070312
             ],
             [
               -8.020693,
               41.072381,
-              0
+              664.2000122070312
             ],
             [
               -8.02054,
               41.072776,
-              0
+              674.7000122070312
             ],
             [
               -8.020478,
               41.073289,
-              0
+              687.2999877929688
             ],
             [
               -8.020618,
               41.073771,
-              0
+              684
             ],
             [
               -8.021036,
               41.07412,
-              0
+              679.5999755859375
             ],
             [
               -8.021307,
               41.074403,
-              0
+              670.7999877929688
             ],
             [
               -8.021961,
               41.07459,
-              0
+              661.0999755859375
             ],
             [
               -8.022718,
               41.074905,
-              0
+              647.4000244140625
             ],
             [
               -8.023244,
               41.07519,
-              0
+              635.0999755859375
             ],
             [
               -8.023244,
               41.07519,
-              0
+              635.0999755859375
             ]
           ]
         },
@@ -177,9 +180,14 @@
           "description": " (Data by André Campos at wikiloc.com)",
           "stroke": "#FF00FF",
           "stroke-opacity": 1,
-          "stroke-width": 3
+          "stroke-width": 3,
+          "lengthMeters": 814.3545230426486,
+          "ascentMeters": 129.39996337890625,
+          "descentMeters": 56.39996337890625,
+          "changeMeters": 73
         }
       }
     ]
-  }
+  },
+  "version": "be3a346dc29353d4595f44a83f347aa0"
 }

@@ -43,7 +43,8 @@
             "highlight": "#icon-93-highlight"
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "43.8813194N, 6.9387694E (WSG84)"
+          "description": "43.8813194N, 6.9387694E (WSG84)",
+          "elevationMeters": 958
         }
       },
       {
@@ -64,7 +65,8 @@
             "normal": "#icon-93-nodesc-normal",
             "highlight": "#icon-93-nodesc-highlight"
           },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png"
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "elevationMeters": 935
         }
       },
       {
@@ -75,117 +77,117 @@
             [
               6.949883,
               43.867258,
-              0
+              933.7000122070312
             ],
             [
               6.949604,
               43.867784,
-              0
+              920.7000122070312
             ],
             [
               6.949389,
               43.868402,
-              0
+              916.9000244140625
             ],
             [
               6.950355,
               43.868882,
-              0
+              961.7999877929688
             ],
             [
               6.950612,
               43.869563,
-              0
+              981.7000122070312
             ],
             [
               6.950462,
               43.87029,
-              0
+              953.7000122070312
             ],
             [
               6.950161,
               43.870723,
-              0
+              928.5999755859375
             ],
             [
               6.950097,
               43.871481,
-              0
+              935.9000244140625
             ],
             [
               6.949196000000001,
               43.871914,
-              0
+              897.7999877929688
             ],
             [
               6.948531,
               43.871821,
-              0
+              848.7999877929688
             ],
             [
               6.9479940000000004,
               43.871945,
-              0
+              819.0999755859375
             ],
             [
               6.947479000000001,
               43.872393,
-              0
+              789.4000244140625
             ],
             [
               6.947479000000001,
               43.873074,
-              0
+              790
             ],
             [
               6.947672,
               43.873708,
-              0
+              807.2000122070312
             ],
             [
               6.945977,
               43.875642,
-              0
+              734.7000122070312
             ],
             [
               6.946127,
               43.876106,
-              0
+              747
             ],
             [
               6.945784000000001,
               43.87644600000001,
-              0
+              731.9000244140625
             ],
             [
               6.944797,
               43.87657,
-              0
+              705
             ],
             [
               6.94454,
               43.877065,
-              0
+              694
             ],
             [
               6.942351,
               43.877343,
-              0
+              1022
             ],
             [
               6.941729,
               43.877606,
-              0
+              1043.5
             ],
             [
               6.939712,
               43.877621,
-              0
+              913
             ],
             [
               6.935999,
               43.87991100000001,
-              0
+              862.5
             ]
           ]
         },
@@ -193,7 +195,11 @@
           "name": "Descent",
           "stroke": "#FF0000",
           "stroke-opacity": 0.7843137254901961,
-          "stroke-width": 5
+          "stroke-width": 5,
+          "lengthMeters": 2207.384929688313,
+          "ascentMeters": 451.70001220703125,
+          "descentMeters": 522.9000244140625,
+          "changeMeters": -71.20001220703125
         }
       },
       {
@@ -214,7 +220,8 @@
             "normal": "#icon-124-nodesc-normal",
             "highlight": "#icon-124-nodesc-highlight"
           },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png"
+          "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png",
+          "elevationMeters": 920
         }
       },
       {
@@ -235,9 +242,11 @@
             "normal": "#icon-62-nodesc-normal",
             "highlight": "#icon-62-nodesc-highlight"
           },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png"
+          "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png",
+          "elevationMeters": 863
         }
       }
     ]
-  }
+  },
+  "version": "68a4c2017a55b3cb53e1638e0958688e"
 }

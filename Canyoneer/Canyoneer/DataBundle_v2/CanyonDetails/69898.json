@@ -43,7 +43,8 @@
           ]
         },
         "properties": {
-          "name": "R1"
+          "name": "R1",
+          "elevationMeters": 0
         }
       },
       {
@@ -57,7 +58,8 @@
           ]
         },
         "properties": {
-          "name": "Parking"
+          "name": "Parking",
+          "elevationMeters": 0
         }
       },
       {
@@ -178,7 +180,7 @@
             [
               -121.4939038135263,
               35.98965371712478,
-              0
+              0.10000000149011612
             ],
             [
               -121.49383675830093,
@@ -196,7 +198,11 @@
           "name": "Exit",
           "stroke": "#F0F000",
           "stroke-opacity": 1,
-          "stroke-width": 2
+          "stroke-width": 2,
+          "lengthMeters": 1484.308602860688,
+          "ascentMeters": 0.10000000149011612,
+          "descentMeters": 0.10000000149011612,
+          "changeMeters": 0
         }
       },
       {
@@ -942,12 +948,12 @@
             [
               -121.4906462213755,
               35.989507186295945,
-              0
+              0.10000000149011612
             ],
             [
               -121.49061154657271,
               35.989640810464195,
-              0
+              0.10000000149011612
             ],
             [
               -121.49053836885594,
@@ -997,12 +1003,12 @@
             [
               -121.48912950724512,
               35.98962986992184,
-              0
+              0.10000000149011612
             ],
             [
               -121.48896109945625,
               35.989626083088964,
-              0
+              0.10000000149011612
             ],
             [
               -121.48880458086629,
@@ -2350,7 +2356,11 @@
           "name": "Approach",
           "stroke": "#00CD00",
           "stroke-opacity": 1,
-          "stroke-width": 2
+          "stroke-width": 2,
+          "lengthMeters": 6298.9169242289645,
+          "ascentMeters": 0.20000000298023224,
+          "descentMeters": 0.20000000298023224,
+          "changeMeters": 0
         }
       },
       {
@@ -2424,9 +2434,14 @@
           "name": "Descent",
           "stroke": "#0000FF",
           "stroke-opacity": 1,
-          "stroke-width": 2
+          "stroke-width": 2,
+          "lengthMeters": 294.25020245049666,
+          "ascentMeters": 0,
+          "descentMeters": 0,
+          "changeMeters": 0
         }
       }
     ]
-  }
+  },
+  "version": "08d8e63942f53f47699383a8a0b357c5"
 }

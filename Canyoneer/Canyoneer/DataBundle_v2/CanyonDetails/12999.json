@@ -30,7 +30,8 @@
             "highlight": "#begin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by dperma1 at wikiloc.com)"
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "elevationMeters": 0
         }
       },
       {
@@ -52,7 +53,8 @@
             "highlight": "#end1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by dperma1 at wikiloc.com)"
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "elevationMeters": 65
         }
       },
       {
@@ -74,7 +76,8 @@
             "highlight": "#yellowmarker1"
           },
           "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by dperma1 at wikiloc.com)"
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "elevationMeters": 0
         }
       },
       {
@@ -240,37 +243,37 @@
             [
               -16.874403,
               28.362607,
-              0
+              40.400001525878906
             ],
             [
               -16.872443,
               28.361328,
-              0
+              54.099998474121094
             ],
             [
               -16.871811,
               28.361163,
-              0
+              56.29999923706055
             ],
             [
               -16.871189,
               28.361319,
-              0
+              61.5
             ],
             [
               -16.870769,
               28.361155,
-              0
+              65.0999984741211
             ],
             [
               -16.870752,
               28.360998,
-              0
+              65.0999984741211
             ],
             [
               -16.870752,
               28.360998,
-              0
+              65.0999984741211
             ]
           ]
         },
@@ -279,9 +282,14 @@
           "description": " (Data by dperma1 at wikiloc.com)",
           "stroke": "#FF00FF",
           "stroke-opacity": 1,
-          "stroke-width": 3
+          "stroke-width": 3,
+          "lengthMeters": 2949.5095505529016,
+          "ascentMeters": 65.0999984741211,
+          "descentMeters": 0,
+          "changeMeters": 65.0999984741211
         }
       }
     ]
-  }
+  },
+  "version": "777f67beaa5c0afee29ac925a9916320"
 }

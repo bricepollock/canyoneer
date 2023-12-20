@@ -42,7 +42,8 @@
           ]
         },
         "properties": {
-          "name": "Parking"
+          "name": "Parking",
+          "elevationMeters": 0
         }
       },
       {
@@ -56,7 +57,8 @@
           ]
         },
         "properties": {
-          "name": "Canyon Start"
+          "name": "Canyon Start",
+          "elevationMeters": 0
         }
       },
       {
@@ -70,7 +72,8 @@
           ]
         },
         "properties": {
-          "name": "Canyon Finish"
+          "name": "Canyon Finish",
+          "elevationMeters": 0
         }
       },
       {
@@ -84,7 +87,8 @@
           ]
         },
         "properties": {
-          "name": "Approximate Turnoff for Agathe (Canyon-left)"
+          "name": "Approximate Turnoff for Agathe (Canyon-left)",
+          "elevationMeters": 0
         }
       },
       {
@@ -203,7 +207,11 @@
           "name": "Approach",
           "stroke": "#00CD00",
           "stroke-opacity": 1,
-          "stroke-width": 5
+          "stroke-width": 5,
+          "lengthMeters": 813.2333794857013,
+          "ascentMeters": 0,
+          "descentMeters": 0,
+          "changeMeters": 0
         }
       },
       {
@@ -322,7 +330,11 @@
           "name": "Descent",
           "stroke": "#FF0000",
           "stroke-opacity": 1,
-          "stroke-width": 5
+          "stroke-width": 5,
+          "lengthMeters": 362.9084086368716,
+          "ascentMeters": 0,
+          "descentMeters": 0,
+          "changeMeters": 0
         }
       },
       {
@@ -416,9 +428,14 @@
           "name": "Exit",
           "stroke": "#F0F000",
           "stroke-opacity": 1,
-          "stroke-width": 5
+          "stroke-width": 5,
+          "lengthMeters": 342.8014223525747,
+          "ascentMeters": 0,
+          "descentMeters": 0,
+          "changeMeters": 0
         }
       }
     ]
-  }
+  },
+  "version": "93229862f37f3818c4ec87b0fa1d00f3"
 }

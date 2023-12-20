@@ -4,17 +4,37 @@ An app built for rendering canyoneering locations within North America
 ## Setup
 
 ### MapBox
+This project uses MapBox for map rendering. In order to develop this project you will need to create [a free MapBox account][https://account.mapbox.com/auth/signup].
 
-This project uses MapBox. In order to develop this project you will need to create a free MapBox account.
+Then follow [Mapbox's instructions][https://docs.mapbox.com/ios/maps/guides/install/] to configure your secret private token on your computer so you can load the Swift Package Manager dependency for Mapbox's iOS SDK.
 
-1. Go to <https://account.mapbox.com/auth/signup>. You'll need to provide a credit card, but you will not be charged.
-2. Create a secret token with all permissions.
+In 2023, this looked something like this:
+
+1. Create an account
+2. Create a secret token with all public scope permissions and [MAP:READ, OFFLINE:READ, DOWNLOADS:READ] secret scopes
 3. Add a .netrc to your home directory (not the project directory)
-4. Add the following to the file, replace variable with your token id:
+4. Populate .netrc file with your mapbox token id information:
+
+```
 machine api.mapbox.com
 login mapbox
 password YOUR_SECRET_MAPBOX_ACCESS_TOKEN
+```
 
 ### Xcode
-1. Install Xcode
-2. Open Xcode, and open canyoneer/Canyoneer/Canyoneer.xcodeproj
+Xcode is used as the IDE for native development in Swift for iOS. You will need an Apple Developer account and to download Xcode from the OSX App Store or "Software Downloads".
+
+Xcode is used to open Canyoneer.xcodeproj
+
+## Development
+
+### Dependencies
+This is primarily a SwiftUI App using modern structured concurency (async-await). All dependencies are managed through Swift Package Manager (SPM)
+
+### API
+The Canyoneer app primarily renders cayons originating from [Ropewiki][ropewiki.com] under a Creative Commons license. This app's sister project does all the work of making that wiki-based data structured, accessible and bundled so it can be used to update our app data in real time. The API is documented on [github][https://github.com/CanyoneerApp/api].
+
+### Updating the Bundle
+One of the main goals for this project was an offline-first experience to search for and view canyons. Therefore we bundle most canyons with the app and then update from server throughout the app lifetime. The data bundled with the app becomes stale over time so 1-2 times a year, a new app version should be published with updated bundled canyon data for First Time User Experience.
+
+To update the bundle, follow the instructions at the [API README][https://github.com/CanyoneerApp/api] to pull down the zip archive for the current version. Replace the `index.json` file and `CanyonDetails` directory with the contents of that zip. Then submit a pull request with @brice-pollock as the reviewer.

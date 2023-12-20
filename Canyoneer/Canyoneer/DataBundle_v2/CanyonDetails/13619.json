@@ -38,7 +38,8 @@
             "normal": "#icon-93-nodesc-normal",
             "highlight": "#icon-93-nodesc-highlight"
           },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png"
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "elevationMeters": 935
         }
       },
       {
@@ -59,7 +60,8 @@
             "normal": "#icon-61-nodesc-normal",
             "highlight": "#icon-61-nodesc-highlight"
           },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/61-green-dot.png"
+          "icon": "http://www.gstatic.com/mapspro/images/stock/61-green-dot.png",
+          "elevationMeters": 885
         }
       },
       {
@@ -80,7 +82,8 @@
             "normal": "#icon-123-nodesc-normal",
             "highlight": "#icon-123-nodesc-highlight"
           },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/123-red-dot.png"
+          "icon": "http://www.gstatic.com/mapspro/images/stock/123-red-dot.png",
+          "elevationMeters": 928
         }
       },
       {
@@ -91,17 +94,17 @@
             [
               2.4738,
               42.01569,
-              0
+              884.5999755859375
             ],
             [
               2.473993,
               42.01463,
-              0
+              909.5
             ],
             [
               2.47438,
               42.013898,
-              0
+              928.0999755859375
             ]
           ]
         },
@@ -109,7 +112,11 @@
           "name": "Descent",
           "stroke": "#FF0000",
           "stroke-opacity": 0.7843137254901961,
-          "stroke-width": 5
+          "stroke-width": 5,
+          "lengthMeters": 206.38940038160453,
+          "ascentMeters": 43.5,
+          "descentMeters": 0,
+          "changeMeters": 43.5
         }
       },
       {
@@ -120,32 +127,32 @@
             [
               2.473165,
               42.014935,
-              0
+              935.2000122070312
             ],
             [
               2.473232,
               42.015377,
-              0
+              917.2999877929688
             ],
             [
               2.4732,
               42.015618,
-              0
+              917.2999877929688
             ],
             [
               2.473517,
               42.015857,
-              0
+              896.2000122070312
             ],
             [
               2.473742,
               42.015913,
-              0
+              877
             ],
             [
               2.473785,
               42.015716000000005,
-              0
+              884.5999755859375
             ]
           ]
         },
@@ -153,7 +160,11 @@
           "name": "Approach",
           "stroke": "#00FF00",
           "stroke-opacity": 0.7843137254901961,
-          "stroke-width": 5
+          "stroke-width": 5,
+          "lengthMeters": 155.49281068436133,
+          "ascentMeters": 7.5999755859375,
+          "descentMeters": 58.20001220703125,
+          "changeMeters": -50.60003662109375
         }
       },
       {
@@ -164,97 +175,97 @@
             [
               2.474411,
               42.013832,
-              0
+              942.0999755859375
             ],
             [
               2.474754,
               42.014406,
-              0
+              899.5
             ],
             [
               2.475205,
               42.014183,
-              0
+              902.5
             ],
             [
               2.478424,
               42.01441400000001,
-              0
+              847.4000244140625
             ],
             [
               2.478864,
               42.014845,
-              0
+              817.4000244140625
             ],
             [
               2.478907,
               42.01569,
-              0
+              801.2999877929688
             ],
             [
               2.478746,
               42.016447,
-              0
+              817.5999755859375
             ],
             [
               2.47851,
               42.017125,
-              0
+              832.5999755859375
             ],
             [
               2.478316,
               42.017069,
-              0
+              833.2000122070312
             ],
             [
               2.477952,
               42.016622,
-              0
+              817.0999755859375
             ],
             [
               2.47793,
               42.016343,
-              0
+              806
             ],
             [
               2.477136,
               42.016375,
-              0
+              804.9000244140625
             ],
             [
               2.476493,
               42.01616,
-              0
+              816.0999755859375
             ],
             [
               2.4757420000000003,
               42.01565,
-              0
+              840.0999755859375
             ],
             [
               2.475302,
               42.015164,
-              0
+              867.0999755859375
             ],
             [
               2.47483,
               42.015482,
-              0
+              866.7999877929688
             ],
             [
               2.473692,
               42.015993,
-              0
+              877
             ],
             [
               2.473188,
               42.015666,
-              0
+              910.0999755859375
             ],
             [
               2.47312,
               42.01497700000001,
-              0
+              935.2000122070312
             ]
           ]
         },
@@ -262,9 +273,14 @@
           "name": "Exit",
           "stroke": "#FFFF00",
           "stroke-opacity": 0.7843137254901961,
-          "stroke-width": 5
+          "stroke-width": 5,
+          "lengthMeters": 1373.1128317323255,
+          "ascentMeters": 165.5,
+          "descentMeters": 172.39996337890625,
+          "changeMeters": -6.89996337890625
         }
       }
     ]
-  }
+  },
+  "version": "b71e5f4e34cdef9b4493734164f5d965"
 }
