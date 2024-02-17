@@ -2,30 +2,36 @@
 
 import Foundation
 import SwiftUI
-import BackgroundTasks
+import Combine
+
+struct UpdateBannerData {
+    let text: String
+    let background: Color
+}
 
 @MainActor
 class MainViewModel: ObservableObject {
-    static internal let appUpdateTaskKey = "index_update"
-    
     @Published var isLoadingApp: Bool = true
-    @Published var isUpdatingApp: Bool = false
-    @Published var didUpdateFail: Bool = false
+    @Published var updateBanner: UpdateBannerData?
     
     var tabViewModel: MainTabViewModel?
     
     // Top-level app dependencies
-    private let canyonService: CanyonAPIService
+    private let canyonManager: CanyonDataManaging
     private let filterViewModel: CanyonFilterViewModel
     private let weatherViewModel: WeatherViewModel
     private let mapService: MapService
-    private let favoriteService: FavoriteService
+    private let favoriteService: FavoriteServing
+    private let updateManager: UpdateManager
+    
+    private var bag = Set<AnyCancellable>()
     
     init() {
-        canyonService = CanyonAPIService()
+        updateManager = UpdateManager.shared
+        canyonManager = updateManager.canyonManager
         weatherViewModel =  WeatherViewModel()
         mapService =  MapService()
-        favoriteService =  FavoriteService(service: canyonService)
+        favoriteService =  FavoriteService(canyonManager: canyonManager)
         
         // Right now we reset filter state on load
         filterViewModel = CanyonFilterViewModel(initialState: .default)
@@ -35,63 +41,59 @@ class MainViewModel: ObservableObject {
         isLoadingApp = true
         
         // load the canyon data
-        let allCanyons = await canyonService.canyons()
+        let allCanyons = await canyonManager.canyons()
         
         // Load favorites
         await favoriteService.start()
         
         tabViewModel = MainTabViewModel(
             allCanyons: allCanyons,
-            canyonService: canyonService,
+            canyonManager: canyonManager,
             filterViewModel: filterViewModel,
             weatherViewModel: weatherViewModel,
             mapService: mapService,
             favoriteService: favoriteService
         )
-        scheduleBackgroundUpdate()
         isLoadingApp = false
-    }
         
-    func scheduleBackgroundUpdate() {
-        let request = BGAppRefreshTaskRequest(identifier: Self.appUpdateTaskKey)
-        request.earliestBeginDate = Date()
-        do {
-            try BGTaskScheduler.shared.submit(request)
-            Global.logger.debug("Scheduled background update")
-        } catch(let error) {
-            Global.logger.error("Background task scheduling error: \(error)")
-        }
+        // Update banner according to state
+        updateManager.$isUpdatingDatabase
+            .dropFirst()
+            .sink { [weak self] isUpdating in
+                guard let self else { return }
+                if isUpdating {
+                    self.updateBanner = UpdateBannerData(text: Strings.updating, background: ColorPalette.Color.action)
+                // Is we were just updating...
+                } else if updateManager.isUpdatingDatabase {
+                    if self.updateManager.updateFailure == nil {
+                        self.updateBanner = UpdateBannerData(text: Strings.success, background: ColorPalette.Color.green)
+                    } else {
+                        self.updateBanner = UpdateBannerData(text: Strings.failed, background: ColorPalette.Color.warning)
+                    }
+                    
+                    Task(priority: .userInitiated) {
+                        await self.delayDismissBanner()
+                    }
+                } else {
+                    self.updateBanner = nil
+                }
+            }.store(in: &bag)
     }
-    
-    func updateAppFromServer() async {
-        // Update from server
+
+    /// Delay dismiss so there is some time for the user to look at the banner with the status befor dismissal
+    func delayDismissBanner() async {
         do {
-            // index_update
-            Global.logger.debug("Checking for update")
-            let newData = try await canyonService.canyonsRequiringUpdate()
-            guard let newData, newData.requiredUpdates.isEmpty == false else {
-                Global.logger.debug("No updates required")
-                return
-            }
-            
-            let start = Date()
-            Global.logger.debug("Starting update for \(newData.requiredUpdates.count) canyons")
-            
-            isUpdatingApp = true
-            try await canyonService.updateCanyons(from: newData)
-            isUpdatingApp = false
-            
-            let updateDuration = Measurement(value: start.timeIntervalSince1970, unit: UnitDuration.seconds)
-            Global.logger.debug("Update for \(newData.requiredUpdates.count) canyons took \(updateDuration)")
+            try await Task.sleep(for: .seconds(4))
         } catch {
-            Global.logger.error("Update failed with: \(error)")
-            didUpdateFail = true
-            do {
-                try await Task.sleep(for: .seconds(1))
-            } catch {
-                Global.logger.error("Failed to sleep with: \(error)")
-            }
-            isUpdatingApp = false
+            Global.logger.error("Failed to sleep with: \(error)")
         }
+        updateBanner = nil
+    }
+            
+    private enum Strings {
+        static let updating = "Updating..."
+        static let success = "Success!"
+        static let failed = "Update Failed"
     }
 }
+

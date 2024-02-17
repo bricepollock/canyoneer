@@ -83,7 +83,7 @@ struct Canyon {
     
     /// - Warning: Should only be used in previews and testing, not properly configured for codable
     init(
-        id: String = "Moonflower Canyon_1_1",
+        id: String = "Moonflower Canyon_1.0_1.0",
         name: String = "Moonflower Canyon",
         coordinate: Coordinate = Coordinate(latitude: 1, longitude: 1),
         technicalDifficulty: TechnicalGrade? = .three,
@@ -103,6 +103,11 @@ struct Canyon {
         geoWaypoints: [CoordinateFeature] = [],
         geoLines: [CoordinateFeature] = []
     ) {
+        #if TEST
+        // All-good to use
+        #else
+        fatalError("Should not be using this outside of testing")
+        #endif
         self.id = id
         self.index = CanyonIndex(
             id: id,

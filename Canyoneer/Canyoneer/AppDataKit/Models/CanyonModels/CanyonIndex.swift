@@ -75,6 +75,11 @@ struct CanyonIndex: CanyonPreview {
         vehicleAccessibility: Vehicle? = .passenger,
         version: String = UUID().uuidString
     ) {
+        #if TEST
+        // All-good to use
+        #else
+        fatalError("Should not be using this outside of testing")
+        #endif
         self.id = id
         self.name = name
         self.coordinate = coordinate

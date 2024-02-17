@@ -11,15 +11,17 @@ import XCTest
 
 @MainActor
 class NearMeViewModelTests: XCTestCase {
+    var favorite: MockFavoriteService!
     override func setUp() {
         super.setUp()
-        UserPreferencesStorage.clearFavorites()
+        favorite = MockFavoriteService()
     }
     
     func testNearMe() async {
         // setup
         let canyon = CanyonIndex(name: "Something else")
-        let service = MockSearchService(canyonService: MockCanyonAPIService())
+        let manager = MockCanyonDataManager()
+        let service = MockSearchService(canyonManager: manager)
         let queryResults  = [canyon, CanyonIndex(), CanyonIndex(), CanyonIndex()].map {
             return QueryResult(name: $0.name, canyonDetails: $0)
         }
@@ -27,8 +29,8 @@ class NearMeViewModelTests: XCTestCase {
         let viewModel = NearMeViewModel(
             filterViewModel: CanyonFilterViewModel(initialState: .default),
             weatherViewModel: WeatherViewModel(),
-            canyonService: MockCanyonAPIService(),
-            favoriteService: FavoriteService(),
+            canyonManager: manager,
+            favoriteService: favorite,
             searchService: service
         )
         

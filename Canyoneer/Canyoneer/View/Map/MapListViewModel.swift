@@ -21,8 +21,8 @@ class MapListViewModel: ResultsViewModel {
         filterViewModel: CanyonFilterViewModel,
         filterSheetViewModel: CanyonFilterSheetViewModel,
         weatherViewModel: WeatherViewModel,
-        canyonService: CanyonAPIServing,
-        favoriteService: FavoriteService
+        canyonManager: CanyonDataManaging,
+        favoriteService: FavoriteServing
     ) {
         let results = canyonsOnMap.map {
             return QueryResult(name: $0.name, canyonDetails: $0)
@@ -34,7 +34,7 @@ class MapListViewModel: ResultsViewModel {
             filterViewModel: filterViewModel,
             filterSheetViewModel: filterSheetViewModel,
             weatherViewModel: weatherViewModel,
-            canyonService: canyonService,
+            canyonManager: canyonManager,
             favoriteService: favoriteService
         )
         

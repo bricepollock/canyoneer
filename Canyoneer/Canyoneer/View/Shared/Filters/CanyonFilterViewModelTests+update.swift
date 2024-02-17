@@ -10,12 +10,7 @@ import XCTest
 @testable import Canyoneer
 
 @MainActor
-class CanyonFilterViewModelUpdateTests: XCTestCase {
-    override func setUp() {
-        super.setUp()
-        UserPreferencesStorage.clearFavorites()
-    }
-    
+class CanyonFilterViewModelUpdateTests: XCTestCase {    
     func testStateReset() {
         // setup
         let viewModel = CanyonFilterViewModel(initialState: .default)

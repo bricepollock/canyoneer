@@ -42,7 +42,7 @@ extension CanyonIndexData {
     
     var bestMonths: [Month] {
         monthStringList?.compactMap {
-            return Month(rawValue: $0)
+            return Month(short: $0)
         } ?? []
     }
     

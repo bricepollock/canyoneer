@@ -9,7 +9,7 @@ import Foundation
 @testable import Canyoneer
 
 class MockSearchService: SearchServiceInterface {
-    required init(canyonService: CanyonAPIServing) {
+    required init(canyonManager: CanyonDataManaging) {
         // no-op
     }
     

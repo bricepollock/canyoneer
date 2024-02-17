@@ -1,14 +1,9 @@
-//
-//  MockCanyonAPIService.swift
-//  CanyoneerTests
-//
-//  Created by Brice Pollock on 1/12/22.
-//
+//  Created by Brice Pollock for Canyoneer on 2/18/24
 
 import Foundation
 @testable import Canyoneer
 
-class MockCanyonAPIService: CanyonAPIServing {
+class MockCanyonDataManager: CanyonDataManaging {
     public var mockCanyons = [CanyonIndex]()
     func canyons() async -> [CanyonIndex] {
         return mockCanyons

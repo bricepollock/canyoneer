@@ -17,8 +17,8 @@ class NearMeViewModel: ResultsViewModel {
     init(
         filterViewModel: CanyonFilterViewModel,
         weatherViewModel: WeatherViewModel,
-        canyonService: CanyonAPIServing,
-        favoriteService: FavoriteService,
+        canyonManager: CanyonDataManaging,
+        favoriteService: FavoriteServing,
         searchService: SearchServiceInterface
     ) {
         self.searchService = searchService
@@ -27,7 +27,7 @@ class NearMeViewModel: ResultsViewModel {
             filterViewModel: filterViewModel,
             filterSheetViewModel: CanyonFilterSheetViewModel(filterViewModel: filterViewModel),
             weatherViewModel: weatherViewModel,
-            canyonService: canyonService,
+            canyonManager: canyonManager,
             favoriteService: favoriteService
         )
     }
@@ -46,7 +46,7 @@ class NearMeViewModel: ResultsViewModel {
                 applyFilters: true,
                 filterViewModel: filterViewModel,
                 weatherViewModel: weatherViewModel,
-                canyonService: canyonService,
+                canyonManager: canyonManager,
                 favoriteService: favoriteService
             )
         } catch {

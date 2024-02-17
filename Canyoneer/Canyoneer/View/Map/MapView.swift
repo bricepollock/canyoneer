@@ -83,7 +83,7 @@ struct MapView: View {
                         filterViewModel: viewModel.filterViewModel,
                         filterSheetViewModel: viewModel.filterSheetViewModel,
                         weatherViewModel: viewModel.weatherViewModel,
-                        canyonService: viewModel.canyonService,
+                        canyonManager: viewModel.canyonManager,
                         favoriteService: viewModel.favoriteService
                     )
                 )
@@ -93,7 +93,7 @@ struct MapView: View {
                     CanyonView(
                         viewModel: CanyonViewModel(
                             canyonId: canyonID,
-                            canyonService: viewModel.canyonService,
+                            canyonManager: viewModel.canyonManager,
                             favoriteService: viewModel.favoriteService,
                             weatherViewModel: viewModel.weatherViewModel
                         )

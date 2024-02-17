@@ -7,15 +7,24 @@
 
 import Foundation
 
-class FavoriteService {
-    private let service: CanyonAPIServing
-    
-    init(service: CanyonAPIServing) {
-        self.service = service
-    }
-    
+protocol FavoriteServing {
     /// Does a migration if needed and warms the cache
     /// - Note: Maybe should move the serial loading of canyons into memory to TaskGroup for the service.canyon call, but we warm the cache here so hopefully there is limited latency after the first load.
+    func start() async
+        
+    func allFavorites() async -> [Canyon]
+    
+    func isFavorite(canyon: Canyon) -> Bool
+    func setFavorite(canyon: Canyon, to isFavorite: Bool)
+}
+
+class FavoriteService: FavoriteServing {
+    private let canyonManager: CanyonDataManaging
+    
+    init(canyonManager: CanyonDataManaging) {
+        self.canyonManager = canyonManager
+    }
+    
     func start() async {
         await migrateIfNeeded()
         _ = await allFavorites()
@@ -27,7 +36,7 @@ class FavoriteService {
                 _ = group.addTaskUnlessCancelled { [weak self] in
                     guard let self else { return nil }
                     do {
-                        return try await service.canyon(for: id)
+                        return try await canyonManager.canyon(for: id)
                     } catch {
                         Global.logger.error("Could not find favorite for: \(id)")
                         return nil
@@ -58,7 +67,7 @@ class FavoriteService {
     
     private func migrateIfNeeded() async {
         guard UserPreferencesStorage.favoritesNeedMigration else { return }
-        let allCanyons = await service.canyons()
+        let allCanyons = await canyonManager.canyons()
         UserPreferencesStorage.migrateFavoritesIfNeeded(given: allCanyons)
     }
 }

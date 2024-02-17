@@ -22,20 +22,20 @@ class CanyonViewModel: NSObject, ObservableObject {
     
     // objects
     public var mapViewModel: CanyonDetailMapViewModel?
-    private let canyonService: CanyonAPIServing
-    private let favoriteService: FavoriteService
+    private let canyonManager: CanyonDataManaging
+    private let favoriteService: FavoriteServing
     private let weatherViewModel: WeatherViewModel
     private let gpxService: GPXService
     
     init(
         canyonId: String,
-        canyonService: CanyonAPIServing,
-        favoriteService: FavoriteService,
+        canyonManager: CanyonDataManaging,
+        favoriteService: FavoriteServing,
         weatherViewModel: WeatherViewModel,
         gpxService: GPXService = GPXService()
     ) {
         self.canyonId = canyonId
-        self.canyonService = canyonService
+        self.canyonManager = canyonManager
         self.favoriteService = favoriteService
         self.weatherViewModel = weatherViewModel
         self.gpxService = gpxService
@@ -46,7 +46,7 @@ class CanyonViewModel: NSObject, ObservableObject {
         isLoading = true
         defer { isLoading = false}
         do {
-            let canyon = try await canyonService.canyon(for: self.canyonId)
+            let canyon = try await canyonManager.canyon(for: self.canyonId)
             self.canyon = canyon
             
             isFavorite = self.favoriteService.isFavorite(canyon: canyon)

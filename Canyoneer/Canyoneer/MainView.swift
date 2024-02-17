@@ -17,17 +17,17 @@ struct MainView: View {
                 await viewModel.loadApp()
             }
         } else if let tabViewModel = viewModel.tabViewModel {
-            if viewModel.isUpdatingApp {
+            if let banner = viewModel.updateBanner {
                 HStack(alignment: .center, spacing: Grid.small) {
                     ProgressView()
-                        .foregroundColor(ColorPalette.GrayScale.white)
-                    Text(viewModel.didUpdateFail ? Strings.failedUpdate : Strings.updatingFromServer)
-                        .font(FontBook.Body.regular)
+                        .tint(ColorPalette.GrayScale.white)
+                    Text(banner.text)
+                        .font(FontBook.Body.emphasis)
                         .foregroundColor(ColorPalette.GrayScale.white)
                     Spacer()
                 }
                 .padding(Grid.small)
-                .background(viewModel.didUpdateFail ? ColorPalette.Color.canyonRed : ColorPalette.Color.action)
+                .background(banner.background)
             }
             MainTabView(viewModel: tabViewModel)
         } else {
@@ -48,11 +48,5 @@ struct MainView: View {
                 .looping()
         }
         .ignoresSafeArea()
-    }
-                            
-                            
-    private enum Strings {
-        static let updatingFromServer = "Updating..."
-        static let failedUpdate = "Update Failed"
     }
 }

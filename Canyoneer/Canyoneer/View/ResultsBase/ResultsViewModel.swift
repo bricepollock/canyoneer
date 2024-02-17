@@ -25,8 +25,8 @@ import Combine
     /// Whether view is processing query
     @Published var isLoading: Bool = false
     
-    public let canyonService: CanyonAPIServing
-    public let favoriteService: FavoriteService
+    public let canyonManager: CanyonDataManaging
+    public let favoriteService: FavoriteServing
     public let weatherViewModel: WeatherViewModel
     public let filterSheetViewModel: CanyonFilterSheetViewModel
     public let filterViewModel: CanyonFilterViewModel
@@ -36,8 +36,8 @@ import Combine
         filterViewModel: CanyonFilterViewModel,
         filterSheetViewModel: CanyonFilterSheetViewModel,
         weatherViewModel: WeatherViewModel,
-        canyonService: CanyonAPIServing,
-        favoriteService: FavoriteService
+        canyonManager: CanyonDataManaging,
+        favoriteService: FavoriteServing
     ) {
         self.title = ""
         self.unfilteredResults = []
@@ -45,7 +45,7 @@ import Combine
         self.filterViewModel = filterViewModel
         self.filterSheetViewModel = filterSheetViewModel
         self.weatherViewModel = weatherViewModel
-        self.canyonService = canyonService
+        self.canyonManager = canyonManager
         self.favoriteService = favoriteService
         
         super.init()
