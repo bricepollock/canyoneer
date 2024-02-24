@@ -18,8 +18,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 8,
+  "rappelCountMax": 22,
   "rappelLongestMeters": 18.29,
   "vehicle": "Passenger",
   "shuttleSeconds": 1200,
@@ -8891,7 +8891,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#FF9500",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#000000",
@@ -8937,7 +8937,7 @@
             "highlight": "#style3"
           },
           "icon": "http://caltopo.com/icon.png?cfg=nps-parking",
-          "stroke": "#FF9500",
+          "stroke": "#FF3B30",
           "elevationMeters": 1166
         }
       },
@@ -8983,7 +8983,7 @@
             "highlight": "#style0"
           },
           "icon": "http://caltopo.com/icon.png?cfg=nps-parking",
-          "stroke": "#FF9500",
+          "stroke": "#FF3B30",
           "elevationMeters": 1149
         }
       },
@@ -9005,5 +9005,5 @@
       }
     ]
   },
-  "version": "345c70b4bc1275cdf7ceb55022037581"
+  "version": "e5bb98648a98d8cd05eb196d2965ce7c"
 }

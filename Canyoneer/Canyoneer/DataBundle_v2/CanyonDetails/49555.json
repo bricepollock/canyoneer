@@ -14,8 +14,8 @@
   "timeRating": "III",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 9,
+  "rappelCountMax": 12,
   "rappelLongestMeters": 45.72,
   "vehicle": "Passenger",
   "shuttleSeconds": 900,
@@ -472,7 +472,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#FF9500",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3875.845159860141,
@@ -2239,7 +2239,7 @@
         },
         "properties": {
           "name": "Drive",
-          "stroke": "#AF52DE",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 12882.800154292398,
@@ -2276,7 +2276,7 @@
         },
         "properties": {
           "name": "Parking Exit",
-          "stroke": "#AF52DE",
+          "stroke": "#34C759",
           "elevationMeters": 1457
         }
       },
@@ -2292,7 +2292,7 @@
         },
         "properties": {
           "name": "Parking Approach",
-          "stroke": "#FF9500",
+          "stroke": "#FF2D55",
           "elevationMeters": 1573
         }
       },
@@ -2388,11 +2388,11 @@
         },
         "properties": {
           "name": "Road Closure",
-          "stroke": "#AF52DE",
+          "stroke": "#34C759",
           "elevationMeters": 542
         }
       }
     ]
   },
-  "version": "671fb1ca39243ffcc1d5e6783be1ce20"
+  "version": "1d2da7b28c00d4f0db3a9f4a26aa85a3"
 }

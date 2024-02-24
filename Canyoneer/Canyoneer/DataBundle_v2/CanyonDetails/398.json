@@ -9,8 +9,8 @@
   "waterRating": "A",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 12,
+  "rappelCountMax": 12,
   "rappelLongestMeters": 24.38,
   "vehicle": "Passenger",
   "shuttleSeconds": 240,
@@ -1923,7 +1923,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#AF52DE",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1877.9468481769459,
@@ -1944,7 +1944,7 @@
         },
         "properties": {
           "name": "Shuttle Park",
-          "stroke": "#AF52DE",
+          "stroke": "#FF2D55",
           "elevationMeters": 1014
         }
       },
@@ -2046,5 +2046,5 @@
       }
     ]
   },
-  "version": "59e6296e63f878dd25cad57468c93acd"
+  "version": "044912af016993a0bc5b6624e8987f8b"
 }

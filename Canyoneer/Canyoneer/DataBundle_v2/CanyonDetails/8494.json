@@ -24,8 +24,8 @@
   "timeRating": "III",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 12,
+  "rappelCountMax": 12,
   "rappelLongestMeters": 75,
   "vehicle": "High Clearance",
   "shuttleSeconds": 3600,
@@ -759,7 +759,7 @@
             "highlight": "#sh_ylw-pushpin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#FF2D55",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6488.207240141611,
@@ -862,5 +862,5 @@
       }
     ]
   },
-  "version": "2b1ec546acd59f9f841dcd71ddc1749c"
+  "version": "12e546b7e93ddb241fec2c4366ce63de"
 }

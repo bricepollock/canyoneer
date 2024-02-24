@@ -15,8 +15,8 @@
   "waterRating": "B",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 8,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 48.77,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -7336,7 +7336,7 @@
         "properties": {
           "name": "IMM Road Shuttle 1 hr 15 min",
           "description": "1 hr 15 min drive from Call O' The Canyon Trail head on 89A to IMM Parking. Oct 2019 : well graded dirt road",
-          "stroke": "#FFCC00",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 45308.20795835046,
@@ -7358,7 +7358,7 @@
         "properties": {
           "name": "IMM Parking",
           "description": "Parking for sneak route",
-          "stroke": "#FFCC00",
+          "stroke": "#5AC8FA",
           "elevationMeters": 2022
         }
       },
@@ -7561,5 +7561,5 @@
       }
     ]
   },
-  "version": "a29eff286188f4cbd8878874d08b0f81"
+  "version": "e0b4040dd14d0cc99c5f9e79f0a00bc3"
 }

@@ -15,8 +15,8 @@
   "waterRating": "C1",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 7,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 39.62,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -1282,7 +1282,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#34C759",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5592.309036063906,
@@ -1303,7 +1303,7 @@
         },
         "properties": {
           "name": "Lower Parking",
-          "stroke": "#34C759",
+          "stroke": "#FF9500",
           "elevationMeters": 636
         }
       },
@@ -1325,5 +1325,5 @@
       }
     ]
   },
-  "version": "8cd64e40c007a4b1f52abd203596a8d1"
+  "version": "105ca0b0143469b61eb8db0f0d9c17c2"
 }

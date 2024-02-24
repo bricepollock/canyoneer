@@ -24,8 +24,8 @@
   "timeRating": "III",
   "riskRating": "R",
   "permit": "Yes",
-  "rappelCountMin": 4,
-  "rappelCountMax": 4,
+  "rappelCountMin": 14,
+  "rappelCountMax": 14,
   "rappelLongestMeters": 97.54,
   "vehicle": "Passenger",
   "shuttleSeconds": 2700,
@@ -5677,7 +5677,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#34C759",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#000000",
@@ -5700,7 +5700,7 @@
         },
         "properties": {
           "name": "Parking Exit",
-          "stroke": "#34C759",
+          "stroke": "#007AFF",
           "elevationMeters": 965
         }
       },
@@ -5716,11 +5716,11 @@
         },
         "properties": {
           "name": "Parking Start",
-          "stroke": "#34C759",
+          "stroke": "#007AFF",
           "elevationMeters": 1394
         }
       }
     ]
   },
-  "version": "2e1b400d017b5d74ce98146f3746a7c5"
+  "version": "f4cda43efb67671a3d59636f92fbc57c"
 }

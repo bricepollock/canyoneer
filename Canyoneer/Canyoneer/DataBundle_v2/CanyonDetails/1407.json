@@ -16,8 +16,8 @@
   "waterRating": "A",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 16,
+  "rappelCountMax": 22,
   "rappelLongestMeters": 32,
   "vehicle": "Passenger",
   "shuttleSeconds": 4200,
@@ -2843,7 +2843,7 @@
             "normal": "#dir_route00",
             "highlight": "#dir_route7"
           },
-          "stroke": "#AF52DE",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 3,
           "lengthMeters": 71175.91494898334,
@@ -3244,5 +3244,5 @@
       }
     ]
   },
-  "version": "99713d205b2c7111d4e6b582eb720f6a"
+  "version": "ab2392fa6bf7d63cfdb55ec005e12b6f"
 }

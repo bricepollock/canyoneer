@@ -16,8 +16,8 @@
   "timeRating": "IV",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 3,
-  "rappelCountMax": 3,
+  "rappelCountMin": 10,
+  "rappelCountMax": 13,
   "rappelLongestMeters": 54.86,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -234,7 +234,7 @@
         },
         "properties": {
           "name": "Dirt Road",
-          "stroke": "#FF9500",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#000000",
@@ -519,7 +519,7 @@
         },
         "properties": {
           "name": "Dirt Road",
-          "stroke": "#5856D6",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#000000",
@@ -1293,5 +1293,5 @@
       }
     ]
   },
-  "version": "14c301b0ac37b51c2f1bb80caf957c23"
+  "version": "a55503bbe8ad4f8b72c9a0839de5a885"
 }

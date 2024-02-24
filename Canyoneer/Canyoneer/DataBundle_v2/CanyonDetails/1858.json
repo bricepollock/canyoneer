@@ -14,8 +14,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "Closed",
-  "rappelCountMin": 6,
-  "rappelCountMax": 6,
+  "rappelCountMin": 5,
+  "rappelCountMax": 16,
   "rappelLongestMeters": 27.43,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -617,7 +617,7 @@
         },
         "properties": {
           "name": "Lower Shuttle",
-          "stroke": "#FFCC00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1729.4805411665502,
@@ -2140,7 +2140,7 @@
         },
         "properties": {
           "name": "Upper Shuttle (4WD)",
-          "stroke": "#FFCC00",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 10909.593936603991,
@@ -4873,7 +4873,7 @@
         },
         "properties": {
           "name": "Upper Shuttle (2WD)",
-          "stroke": "#FFCC00",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 29394.64937980078,
@@ -5205,7 +5205,7 @@
         },
         "properties": {
           "name": "Pothole Checkpoint",
-          "stroke": "#FFCC00",
+          "stroke": "#34C759",
           "elevationMeters": 926
         }
       },
@@ -5285,7 +5285,7 @@
         },
         "properties": {
           "name": "Very Bad Road",
-          "stroke": "#FFCC00",
+          "stroke": "#5856D6",
           "elevationMeters": 1194
         }
       },
@@ -5317,7 +5317,7 @@
         },
         "properties": {
           "name": "Parking / Campsite",
-          "stroke": "#FFCC00",
+          "stroke": "#34C759",
           "elevationMeters": 1044
         }
       },
@@ -5349,11 +5349,11 @@
         },
         "properties": {
           "name": "Start of East Fork",
-          "stroke": "#FFCC00",
+          "stroke": "#5856D6",
           "elevationMeters": 1235
         }
       }
     ]
   },
-  "version": "dcab8d6dea6739a05fe54963a1c022ad"
+  "version": "109cecebe224e34d2c3d6f9ad4d80c01"
 }

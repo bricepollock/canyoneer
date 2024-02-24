@@ -15,8 +15,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "Closed",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 6,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 27.43,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -1584,7 +1584,7 @@
         },
         "properties": {
           "name": "4WD Shuttle",
-          "stroke": "#FFCC00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 8741.699701563397,
@@ -4467,7 +4467,7 @@
         },
         "properties": {
           "name": "2WD Shuttle",
-          "stroke": "#AF52DE",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 30999.971552616735,
@@ -4520,7 +4520,7 @@
         },
         "properties": {
           "name": "Lower Parking",
-          "stroke": "#FFCC00",
+          "stroke": "#FF9500",
           "elevationMeters": 1125
         }
       },
@@ -4664,7 +4664,7 @@
         },
         "properties": {
           "name": "Parking Spot",
-          "stroke": "#AF52DE",
+          "stroke": "#5AC8FA",
           "elevationMeters": 1044
         }
       },
@@ -4686,5 +4686,5 @@
       }
     ]
   },
-  "version": "31ea499d22b97541c1ff1257b110e3c5"
+  "version": "0af26925a186bd91c0304cd20b29fad5"
 }

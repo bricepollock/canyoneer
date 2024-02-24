@@ -13,8 +13,8 @@
   "waterRating": "C",
   "timeRating": "V",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 7,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 65.53,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -3287,7 +3287,7 @@
         },
         "properties": {
           "name": "Drive in",
-          "stroke": "#AF52DE",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#000000",
@@ -4230,7 +4230,7 @@
             "normal": "#style2",
             "highlight": "#style4"
           },
-          "stroke": "#007AFF",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00cd00",
@@ -4888,5 +4888,5 @@
       }
     ]
   },
-  "version": "d03b507c6db1867211bf8966595e774c"
+  "version": "d664b42f7b8ab6581e4bc10b9370ae05"
 }

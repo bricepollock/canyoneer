@@ -13,8 +13,8 @@
   "waterRating": "C2",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 5,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 36.58,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -1081,7 +1081,7 @@
         },
         "properties": {
           "name": "Road Shuttle",
-          "stroke": "#AF52DE",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#000000",
@@ -1104,7 +1104,7 @@
         },
         "properties": {
           "name": "Checkpoint",
-          "stroke": "#AF52DE",
+          "stroke": "#5856D6",
           "elevationMeters": 675
         }
       },
@@ -1120,7 +1120,7 @@
         },
         "properties": {
           "name": "Parking Approach",
-          "stroke": "#AF52DE",
+          "stroke": "#5856D6",
           "elevationMeters": 809
         }
       },
@@ -1270,5 +1270,5 @@
       }
     ]
   },
-  "version": "7c6568ea876228708d6cc4a6357c510d"
+  "version": "65814610e7eecf450ba9d96ae923374c"
 }

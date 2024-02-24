@@ -16,8 +16,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 8,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 59.44,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -599,7 +599,7 @@
         },
         "properties": {
           "name": "Road",
-          "stroke": "#AF52DE",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#000000",
@@ -638,11 +638,11 @@
         },
         "properties": {
           "name": "Campsite",
-          "stroke": "#AF52DE",
+          "stroke": "#FF3B30",
           "elevationMeters": 1165
         }
       }
     ]
   },
-  "version": "db416b98d97b11db9662f8ad8c3f4192"
+  "version": "57dcb01d892fdb471b91c8e6afee3f92"
 }

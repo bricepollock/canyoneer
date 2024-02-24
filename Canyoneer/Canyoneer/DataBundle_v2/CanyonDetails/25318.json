@@ -16,8 +16,8 @@
   "waterRating": "A",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 51.82,
   "vehicle": "Passenger",
   "shuttleSeconds": 1200,
@@ -1539,7 +1539,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#AF52DE",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#000000",
@@ -1562,7 +1562,7 @@
         },
         "properties": {
           "name": "20 Mule Exit",
-          "stroke": "#AF52DE",
+          "stroke": "#FF2D55",
           "elevationMeters": 772
         }
       },
@@ -1594,7 +1594,7 @@
         },
         "properties": {
           "name": "Parking Exit",
-          "stroke": "#AF52DE",
+          "stroke": "#FF2D55",
           "elevationMeters": 149
         }
       },
@@ -1648,5 +1648,5 @@
       }
     ]
   },
-  "version": "5d6eaccf8d56d199f27af0fcd23b58b3"
+  "version": "9b1063b7751163cf51522ec5cc631a59"
 }

@@ -16,8 +16,8 @@
   "timeRating": "IV",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 3,
-  "rappelCountMax": 3,
+  "rappelCountMin": 12,
+  "rappelCountMax": 13,
   "rappelLongestMeters": 60.96,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -2009,7 +2009,7 @@
         },
         "properties": {
           "name": "Road Shuttle",
-          "stroke": "#007AFF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#000000",
@@ -2564,7 +2564,7 @@
         },
         "properties": {
           "name": "Road Start",
-          "stroke": "#007AFF",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#000000",
@@ -2810,7 +2810,7 @@
         },
         "properties": {
           "name": "ParkStart",
-          "stroke": "#007AFF",
+          "stroke": "#FFCC00",
           "elevationMeters": 1186
         }
       },
@@ -2848,5 +2848,5 @@
       }
     ]
   },
-  "version": "4be1029a4c4d9b77ec2e1d78fc8d4407"
+  "version": "66677a66ddc9a4ed3971c55f99461573"
 }

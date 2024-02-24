@@ -16,8 +16,8 @@
   "waterRating": "C1",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 10,
+  "rappelCountMax": 12,
   "rappelLongestMeters": 21.34,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -878,7 +878,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF9500",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#000000",
@@ -1190,7 +1190,7 @@
         },
         "properties": {
           "name": "Lower Parking",
-          "stroke": "#FF9500",
+          "stroke": "#5856D6",
           "elevationMeters": 567
         }
       },
@@ -1228,5 +1228,5 @@
       }
     ]
   },
-  "version": "b405da8a3e0f19919fcf24332929cda7"
+  "version": "48014b2935d8659178aefa40d96846c9"
 }

@@ -23,8 +23,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 3,
-  "rappelCountMax": 3,
+  "rappelCountMin": 11,
+  "rappelCountMax": 13,
   "rappelLongestMeters": 25,
   "vehicle": "Passenger",
   "shuttleSeconds": 1200,
@@ -2120,7 +2120,7 @@
         },
         "properties": {
           "name": "Shuttle (or hitchhike)",
-          "stroke": "#FFCC00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6199.790680794785,
@@ -2189,11 +2189,11 @@
         },
         "properties": {
           "name": "Parking (Lower)",
-          "stroke": "#FFCC00",
+          "stroke": "#FF9500",
           "elevationMeters": 828
         }
       }
     ]
   },
-  "version": "db544853b85cbe5d52c885d12c4fe00e"
+  "version": "f2d5eeaae6a1f11671879fef6f5a7c59"
 }

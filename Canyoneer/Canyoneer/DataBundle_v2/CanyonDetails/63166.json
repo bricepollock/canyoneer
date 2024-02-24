@@ -13,8 +13,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 7,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 36.58,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -136,7 +136,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#007AFF",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1063.355639817728,
@@ -1094,7 +1094,7 @@
         },
         "properties": {
           "name": "Shuttle (optional)",
-          "stroke": "#007AFF",
+          "stroke": "#FFCC00",
           "elevationMeters": 957
         }
       },
@@ -1142,7 +1142,7 @@
         },
         "properties": {
           "name": "Giant Stump Camp",
-          "stroke": "#007AFF",
+          "stroke": "#FFCC00",
           "elevationMeters": 818
         }
       },
@@ -1180,5 +1180,5 @@
       }
     ]
   },
-  "version": "5874223b086351e21d90e2a703f96513"
+  "version": "be161f6a372abb556ef8bfb817a87361"
 }

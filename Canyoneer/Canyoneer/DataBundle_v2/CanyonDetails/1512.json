@@ -17,8 +17,8 @@
   "waterRating": "A",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 4,
-  "rappelCountMax": 4,
+  "rappelCountMin": 14,
+  "rappelCountMax": 14,
   "rappelLongestMeters": 82.3,
   "vehicle": "Passenger",
   "shuttleSeconds": 3600,
@@ -855,7 +855,7 @@
         },
         "properties": {
           "name": "Shuttle Route",
-          "stroke": "#AF52DE",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#000000",
@@ -2188,7 +2188,7 @@
         },
         "properties": {
           "name": "Parking Approach",
-          "stroke": "#AF52DE",
+          "stroke": "#5AC8FA",
           "elevationMeters": 306
         }
       },
@@ -2242,5 +2242,5 @@
       }
     ]
   },
-  "version": "8d0ff040eb9ee63bff9efc38421d330b"
+  "version": "de465cb3bd114520fda6a09357fd856c"
 }

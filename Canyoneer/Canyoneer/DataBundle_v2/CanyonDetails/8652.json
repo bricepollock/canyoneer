@@ -20,8 +20,8 @@
   "waterRating": "B",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 32,
   "vehicle": "High Clearance",
   "shuttleSeconds": 3000,
@@ -535,7 +535,7 @@
             "highlight": "#s_ylw-pushpin_hl0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#FF9500",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5920.6795860288175,
@@ -1573,7 +1573,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "stroke": "#FF9500",
+          "stroke": "#FF2D55",
           "elevationMeters": 1077
         }
       },
@@ -1596,7 +1596,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "stroke": "#FF9500",
+          "stroke": "#FF2D55",
           "elevationMeters": 977
         }
       },
@@ -1648,5 +1648,5 @@
       }
     ]
   },
-  "version": "a790b9a275ab5d0a940853a602dcd8e0"
+  "version": "2ee359fd1cb006a4f7b6b8fe30076a39"
 }

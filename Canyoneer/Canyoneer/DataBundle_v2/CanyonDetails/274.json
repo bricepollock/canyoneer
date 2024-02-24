@@ -17,8 +17,8 @@
   "waterRating": "A",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 4,
-  "rappelCountMax": 4,
+  "rappelCountMin": 24,
+  "rappelCountMax": 24,
   "rappelLongestMeters": 56.39,
   "vehicle": "Passenger",
   "shuttleSeconds": 3600,
@@ -1746,7 +1746,7 @@
             "normal": "#dir_route10",
             "highlight": "#dir_route00"
           },
-          "stroke": "#AF52DE",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 3,
           "lengthMeters": 61637.120517704454,
@@ -2747,7 +2747,7 @@
             "highlight": "#sh_bus"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/bus.png",
-          "stroke": "#AF52DE",
+          "stroke": "#FFCC00",
           "elevationMeters": 1345
         }
       },
@@ -2770,7 +2770,7 @@
             "highlight": "#sh_parking_lot"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "stroke": "#AF52DE",
+          "stroke": "#FFCC00",
           "elevationMeters": -83
         }
       },
@@ -2868,5 +2868,5 @@
       }
     ]
   },
-  "version": "7b574a4b7d84498dcd4fce624498125d"
+  "version": "f0c298341b657d5baced214ec46e44c6"
 }

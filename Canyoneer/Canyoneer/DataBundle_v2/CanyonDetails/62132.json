@@ -16,8 +16,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 7,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 45.72,
   "vehicle": "Passenger",
   "shuttleSeconds": 60,
@@ -434,7 +434,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#5856D6",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3402.3683205349803,
@@ -612,11 +612,11 @@
         },
         "properties": {
           "name": "Upper Parking",
-          "stroke": "#5856D6",
+          "stroke": "#34C759",
           "elevationMeters": 319
         }
       }
     ]
   },
-  "version": "7a40501e439e9d8365a5f76f81d6a4f9"
+  "version": "8e98f6e25247bfcdf27286872be769ad"
 }

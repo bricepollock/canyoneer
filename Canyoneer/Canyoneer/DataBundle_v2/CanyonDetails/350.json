@@ -16,8 +16,8 @@
   "timeRating": "IV",
   "riskRating": "R",
   "permit": "Yes",
-  "rappelCountMin": 6,
-  "rappelCountMax": 6,
+  "rappelCountMin": 20,
+  "rappelCountMax": 46,
   "rappelLongestMeters": 51.82,
   "vehicle": "Passenger",
   "shuttleSeconds": 60,
@@ -60,7 +60,7 @@
         "properties": {
           "name": "Imlay (1) - Drive to Upper Trailhead",
           "description": " (Data by bluugnome.com)",
-          "stroke": "#FF9500",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 27836.922532154793,
@@ -1325,5 +1325,5 @@
       }
     ]
   },
-  "version": "61532599bf1d0c8596b8136f826c3dde"
+  "version": "264e7981ee20bf223c31c55be930e1ba"
 }

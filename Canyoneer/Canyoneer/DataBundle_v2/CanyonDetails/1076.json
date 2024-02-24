@@ -14,8 +14,8 @@
   "waterRating": "C",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 6,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 36.58,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -107,7 +107,7 @@
         },
         "properties": {
           "name": "Dirt Road",
-          "stroke": "#FF3B30",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#000000",
@@ -883,5 +883,5 @@
       }
     ]
   },
-  "version": "ce07347d285dcb8c2d16bd26cf3f4562"
+  "version": "afee2da8160c507a7fbb41baaca428a4"
 }

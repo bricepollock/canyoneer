@@ -20,8 +20,8 @@
   "waterRating": "B",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 8,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 60.96,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -393,7 +393,7 @@
         },
         "properties": {
           "name": "Road",
-          "stroke": "#5856D6",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 37407.45561116723,
@@ -1986,7 +1986,7 @@
         "properties": {
           "name": "Turnoff",
           "description": "Turn off from highway 160 to Lovell Canyon road.",
-          "stroke": "#5856D6",
+          "stroke": "#FF9500",
           "elevationMeters": 1433
         }
       },
@@ -2003,7 +2003,7 @@
         "properties": {
           "name": "pk-Old-Bill-Tp",
           "description": "This is where to park for starting the route to Old Bill Canyon. This is a point on the Rainbow Springs road where the wash begins to get a lot more narrow and the road rougher.",
-          "stroke": "#5856D6",
+          "stroke": "#FF9500",
           "elevationMeters": 1696
         }
       },
@@ -2020,7 +2020,7 @@
         "properties": {
           "name": "Parking Approach",
           "description": "This is where to park for starting the route to Old Bill Canyon. This is a point on the Rainbow Springs road where the wash begins to get a lot more narrow and the road rougher.",
-          "stroke": "#5856D6",
+          "stroke": "#FF9500",
           "elevationMeters": 1696
         }
       },
@@ -2230,5 +2230,5 @@
       }
     ]
   },
-  "version": "8443f3a01e710a446707ae276a7f7f0f"
+  "version": "533bfd159af348a81f32eaab74b64113"
 }

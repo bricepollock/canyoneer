@@ -17,8 +17,8 @@
   "waterRating": "B",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 1,
-  "rappelCountMax": 1,
+  "rappelCountMin": 11,
+  "rappelCountMax": 11,
   "rappelLongestMeters": 30.48,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -4460,7 +4460,7 @@
         "properties": {
           "name": "Shuttle Road",
           "description": "High clearance under usual, dry conditions. May require 4x4 when wet.",
-          "stroke": "#34C759",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 27844.06545993438,
@@ -4482,7 +4482,7 @@
         "properties": {
           "name": "Park",
           "description": "Park vehicle here.",
-          "stroke": "#34C759",
+          "stroke": "#FF2D55",
           "elevationMeters": 1783
         }
       },
@@ -4588,5 +4588,5 @@
       }
     ]
   },
-  "version": "d0680c6dcf96efbff8bc6f331d686d73"
+  "version": "f320e25d63a10beae908e9d00ade6405"
 }

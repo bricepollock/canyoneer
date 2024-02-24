@@ -30,7 +30,7 @@ class CanyonDataManagerTests: XCTestCase {
     
     func testIndexFromBundle() async throws {
         let index = try await manager.loadIndexFromFile()
-        XCTAssertEqual(index.count, 10635)
+        XCTAssertEqual(index.count, 10751)
     }
     
     func testReadWriteIndex() async throws {
@@ -85,7 +85,7 @@ class CanyonDataManagerTests: XCTestCase {
         XCTAssertEqual(canyon.rappelLongestMeters, 30.48)
         XCTAssertTrue(canyon.htmlDescription?.contains("SCOTTY'S CANYON WITH RICK KENT") ?? false)
         XCTAssertNil(canyon.vehicleAccessibility)
-        XCTAssertEqual(canyon.version, "d428d51485d00ceaacf4631440fb242a")
+        XCTAssertEqual(canyon.version, "ca61c07d1fcbbfa32da0e97165344293")
         
         // Test Translation
         XCTAssertEqual(canyon.technicalRating, .three)
@@ -117,7 +117,7 @@ class CanyonDataManagerTests: XCTestCase {
         XCTAssertEqual(canyon.rappelLongestMeters, 33.53)
         XCTAssertTrue(canyon.htmlDescription?.contains("One of the most coveted canyons in Zion") ?? false)
         XCTAssertEqual(canyon.vehicleString, "Passenger")
-        XCTAssertEqual(canyon.version, "4329f0805a337fb51a1ea3dd331f6f3f")
+        XCTAssertEqual(canyon.version, "37354cc4509c77aaafb93a42a51b97ff")
         
         // Test Translation
         XCTAssertEqual(canyon.technicalRating, .three)
@@ -150,7 +150,7 @@ class CanyonDataManagerTests: XCTestCase {
         XCTAssertEqual(canyon.rappelLongestMeters, 32)
         XCTAssertEqual(canyon.shuttleInSeconds, 4200)
         XCTAssertEqual(canyon.vehicleString, "Passenger")
-        XCTAssertEqual(canyon.version, "0316f4c10d782751fd986f9d6242d781")
+        XCTAssertEqual(canyon.version, "ab2392fa6bf7d63cfdb55ec005e12b6f")
         
         // Test Translation
         XCTAssertEqual(canyon.technicalRating, .three)

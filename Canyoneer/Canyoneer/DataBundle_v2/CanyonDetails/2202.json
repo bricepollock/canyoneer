@@ -13,8 +13,8 @@
   "waterRating": "C1",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 20,
+  "rappelCountMax": 20,
   "rappelLongestMeters": 25.91,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -5905,7 +5905,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#FF3B30",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 8459.292570316815,
@@ -6456,5 +6456,5 @@
       }
     ]
   },
-  "version": "1b4e1be7d750540a012f4a76eb8dd756"
+  "version": "d01d7df2f2deb16587c1ae3f047ce974"
 }

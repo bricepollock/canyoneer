@@ -14,8 +14,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 8,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 60.96,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -2439,7 +2439,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#5856D6",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 14864.358773106813,
@@ -2843,7 +2843,7 @@
         },
         "properties": {
           "name": "Checkpoint",
-          "stroke": "#5856D6",
+          "stroke": "#FFCC00",
           "elevationMeters": 1210
         }
       },
@@ -2875,11 +2875,11 @@
         },
         "properties": {
           "name": "Upper Parking",
-          "stroke": "#5856D6",
+          "stroke": "#FFCC00",
           "elevationMeters": 1290
         }
       }
     ]
   },
-  "version": "ad7fad7d8913915dab17f95800e7bdc0"
+  "version": "ec548c67ab92dc37a9edace3bd6e77ab"
 }
