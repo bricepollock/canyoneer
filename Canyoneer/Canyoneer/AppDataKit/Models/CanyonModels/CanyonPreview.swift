@@ -22,6 +22,7 @@ protocol CanyonPreview: Identifiable, Equatable {
     /// Otherwise 1 -> 5
     var quality: Double { get }
     var vehicleAccessibility: Vehicle? { get }
+    var version: String { get }
 }
 
 extension CanyonPreview {

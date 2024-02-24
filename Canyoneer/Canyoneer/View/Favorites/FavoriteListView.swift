@@ -1,9 +1,4 @@
-//
-//  FavoriteViewController.swift
-//  Canyoneer
-//
 //  Created by Brice Pollock on 1/18/22.
-//
 
 import Foundation
 import SwiftUI
@@ -12,6 +7,7 @@ struct FavoriteListView: View {
     @ObservedObject var viewModel: FavoriteListViewModel
     @State var showFilters: Bool = false
     @State var showOnMap: Bool = false
+    @State var showProfile: Bool = false
         
     var body: some View {
         NavigationStack {
@@ -42,6 +38,26 @@ struct FavoriteListView: View {
             }
             .navigationTitle(Strings.favorites)
             .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button(action: {
+                        showProfile = true
+                    }, label: {
+                        ZStack {
+                            Image(uiImage: UIImage(imageLiteralResourceName: "icon_app"))
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: Constants.profileButtonSize, height: Constants.profileButtonSize)
+                                .cornerRadius(0.5 * Constants.profileButtonSize)
+                            
+                            if viewModel.badgeProfile {
+                                Circle()
+                                    .fill(ColorPalette.Color.warning)
+                                    .frame(width: Constants.badgeSize, height: Constants.badgeSize)
+                                    .position(x: Constants.profileButtonSize - 0.15*Constants.profileButtonSize, y: Constants.profileButtonSize - 0.15*Constants.profileButtonSize)
+                            }
+                        }
+                    })
+                }
                 ToolbarItemGroup(placement: .primaryAction) {
                     ImageButton(image: viewModel.hasDownloadedAll ? UIImage(systemName: "arrow.down.circle.fill")! : UIImage(systemName: "arrow.down.circle")!) {
                         Task(priority: .userInitiated) { @MainActor in
@@ -56,6 +72,10 @@ struct FavoriteListView: View {
                     }
                 }
             }
+            .navigationDestination(isPresented: $showProfile) {
+                ProfileView(viewModel: viewModel.profileViewModel)
+                    .navigationBarTitleDisplayMode(.large)
+            }
             .navigationDestination(isPresented: $showOnMap) {
                 if let mapViewModel = viewModel.mapViewModel {
                     MapView(viewModel: mapViewModel)
@@ -67,6 +87,11 @@ struct FavoriteListView: View {
                 CanyonFilterSheetView(viewModel: viewModel.filterSheetViewModel)
             }
         }
+    }
+    
+    private enum Constants {
+        static let profileButtonSize: CGFloat = 24
+        static let badgeSize: CGFloat = 12
     }
     
     private enum Strings {

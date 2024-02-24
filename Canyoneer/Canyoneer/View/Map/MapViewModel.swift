@@ -32,8 +32,8 @@ class MapViewModel: ObservableObject {
     public let filterSheetViewModel: CanyonFilterSheetViewModel
     
     public let weatherViewModel: WeatherViewModel
-    public let canyonService: RopeWikiServiceInterface
-    public let favoriteService: FavoriteService
+    public let canyonManager: CanyonDataManaging
+    public let favoriteService: FavoriteServing
     
     private let allCanyons: [CanyonIndex]
     private let locationService: LocationService
@@ -47,13 +47,13 @@ class MapViewModel: ObservableObject {
         showOverlays: Bool = false,
         filterViewModel: CanyonFilterViewModel,
         weatherViewModel: WeatherViewModel,
-        canyonService: RopeWikiServiceInterface,
-        favoriteService: FavoriteService,
+        canyonManager: CanyonDataManaging,
+        favoriteService: FavoriteServing,
         locationService: LocationService = LocationService()
     ) {
         self.allCanyons = allCanyons
         self.weatherViewModel = weatherViewModel
-        self.canyonService = canyonService
+        self.canyonManager = canyonManager
         self.favoriteService = favoriteService
         self.locationService = locationService
         self.filterViewModel = filterViewModel

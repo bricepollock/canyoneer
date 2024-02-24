@@ -3,10 +3,10 @@
 import Foundation
 
 enum TechnicalGrade: Int, CaseIterable, Codable, Equatable {
-    case one
-    case two
-    case three
-    case four
+    case one = 1
+    case two = 2
+    case three = 3
+    case four = 4
     
     var text: String {
         switch self {

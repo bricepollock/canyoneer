@@ -18,6 +18,7 @@ protocol CanyonIndexData: Codable {
     var shuttleInSeconds: Double? { get }
     var latitude: Double { get }
     var longitude: Double { get }
+    var version: String { get }
 }
 
 extension CanyonIndexData {
@@ -41,7 +42,7 @@ extension CanyonIndexData {
     
     var bestMonths: [Month] {
         monthStringList?.compactMap {
-            return Month(rawValue: $0)
+            return Month(short: $0)
         } ?? []
     }
     

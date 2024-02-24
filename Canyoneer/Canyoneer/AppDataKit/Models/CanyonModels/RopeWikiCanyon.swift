@@ -5,25 +5,6 @@ import Foundation
 /// Fully typed version of Canyon detail representation
 class RopeWikiCanyon: RopeWikiCanyonIndex {
     internal enum CodingKeys: String, CodingKey {
-        // Copied from RopeWikiCanyonIndex
-        case id = "id"
-        case name = "name"
-        case quality = "quality"
-        case monthStringList = "months"
-        case technicalRatingString = "technicalRating"
-        case waterRatingString = "waterRating"
-        case timeRatingString = "timeRating"
-        case riskRatingString = "riskRating"
-        case permitString = "permit"
-        case rappelCountMin = "rappelCountMin"
-        case rappelCountMax = "rappelCountMax"
-        case rappelLongestMeters = "rappelLongestMeters"
-        case vehicleString = "vehicle"
-        case shuttleInSeconds = "shuttleSeconds"
-        case latitude = "latitude"
-        case longitude = "longitude"
-        
-        // Extension
         case urlString = "url"
         case htmlDescription = "description"
         case geoJson = "geojson"
@@ -38,31 +19,20 @@ class RopeWikiCanyon: RopeWikiCanyonIndex {
         self.urlString = try container.decode(String.self, forKey: CodingKeys.urlString)
         self.htmlDescription = try? container.decode(String.self, forKey: CodingKeys.htmlDescription)
         self.geoJson = try? container.decode(GeoJson.self, forKey: CodingKeys.geoJson)
+        // RopeWikiCanyonIndex
         try super.init(from: decoder)
     }
     
     override func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         
-        try container.encode(id, forKey: .id)
-        try container.encode(name, forKey: .name)
-        try container.encode(quality, forKey: .quality)
-        try container.encode(monthStringList, forKey: .monthStringList)
-        try container.encode(technicalRatingRaw, forKey: .technicalRatingString)
-        try container.encode(waterRatingString, forKey: .waterRatingString)
-        try container.encode(timeRatingString, forKey: .timeRatingString)
-        try container.encode(riskRatingString, forKey: .riskRatingString)
-        try container.encode(permitString, forKey: .permitString)
-        try container.encode(rappelCountMin, forKey: .rappelCountMin)
-        try container.encode(rappelCountMax, forKey: .rappelCountMax)
-        try container.encode(rappelLongestMeters, forKey: .rappelLongestMeters)
-        try container.encode(vehicleString, forKey: .vehicleString)
-        try container.encode(shuttleInSeconds, forKey: .shuttleInSeconds)
-        try container.encode(latitude, forKey: .latitude)
-        try container.encode(longitude, forKey: .longitude)
+        // Added for RopeWikiCanyon
         try container.encode(urlString, forKey: .urlString)
         try container.encode(htmlDescription, forKey: .htmlDescription)
         try container.encode(geoJson, forKey: .geoJson)
+        
+        // RopeWikiCanyonIndex
+        try super.encode(to: encoder)
     }
         
     /// - Warning: Should only be used in previews and testing, not properly configured for codable
@@ -87,6 +57,11 @@ class RopeWikiCanyon: RopeWikiCanyonIndex {
         geoWaypoints: [CoordinateFeature] = [],
         geoLines: [CoordinateFeature] = []
     ) {
+        #if TEST
+        // All-good to use
+        #else
+        fatalError("Should not be using this outside of testing")
+        #endif
         self.urlString = url?.absoluteString ?? ""
         self.htmlDescription = description
         self.geoJson = nil

@@ -43,11 +43,11 @@ class MainTabViewModel: ObservableObject {
     
     init(
         allCanyons: [CanyonIndex],
-        canyonService: RopeWikiService,
+        canyonManager: CanyonDataManaging,
         filterViewModel: CanyonFilterViewModel,
         weatherViewModel: WeatherViewModel,
         mapService: MapService,
-        favoriteService: FavoriteService
+        favoriteService: FavoriteServing
     ) {
         self.tabs = AppTab.allCases.sorted { $0.index < $1.index }
         self.currentTab = .favorites
@@ -59,23 +59,23 @@ class MainTabViewModel: ObservableObject {
             showOverlays: true,
             filterViewModel: filterViewModel,
             weatherViewModel: weatherViewModel,
-            canyonService: canyonService,
+            canyonManager: canyonManager,
             favoriteService: favoriteService
         )
         favoriteViewModel = FavoriteListViewModel(
             weatherViewModel: weatherViewModel,
             mapService: mapService, 
-            canyonService: canyonService,
+            canyonManager: canyonManager,
             favoriteService: favoriteService
         )
         
         searchViewModel = SearchViewModel(
-            searchService: SearchService(canyonService: canyonService),
+            searchService: SearchService(canyonManager: canyonManager),
             filterViewModel: filterViewModel,
             weatherViewModel: weatherViewModel,
-            canyonService: canyonService,
+            canyonManager: canyonManager,
             favoriteService: favoriteService
-        )
+        )        
     }
     
 }

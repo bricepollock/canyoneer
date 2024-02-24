@@ -21,14 +21,14 @@ class SearchViewModel: ResultsViewModel {
         searchService: SearchServiceInterface,
         filterViewModel: CanyonFilterViewModel,
         weatherViewModel: WeatherViewModel,
-        canyonService: RopeWikiServiceInterface,
-        favoriteService: FavoriteService
+        canyonManager: CanyonDataManaging,
+        favoriteService: FavoriteServing
     ) {
         self.searchService = searchService
         self.nearMeViewModel = NearMeViewModel(
             filterViewModel: filterViewModel,
             weatherViewModel: weatherViewModel,
-            canyonService: canyonService,
+            canyonManager: canyonManager,
             favoriteService: favoriteService,
             searchService: searchService
         )
@@ -38,7 +38,7 @@ class SearchViewModel: ResultsViewModel {
             filterViewModel: filterViewModel,
             filterSheetViewModel: CanyonFilterSheetViewModel(filterViewModel: filterViewModel),
             weatherViewModel: weatherViewModel,
-            canyonService: canyonService,
+            canyonManager: canyonManager,
             favoriteService: favoriteService
         )
 

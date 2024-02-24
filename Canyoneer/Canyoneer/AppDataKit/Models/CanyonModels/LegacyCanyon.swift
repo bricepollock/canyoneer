@@ -53,7 +53,7 @@ struct LegacyCanyon: Codable {
     
     static func dummy() -> LegacyCanyon {
         return LegacyCanyon(
-            id: "102",
+            id: "Moonflower Canyon_1.0_1.0",
             bestSeasons: [.march, .april, .may, .june, .july, .august, .september],
             coordinate: Coordinate(latitude: 1, longitude: 1),
             isRestricted: false,

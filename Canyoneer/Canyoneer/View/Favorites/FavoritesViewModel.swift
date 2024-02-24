@@ -14,7 +14,9 @@ class FavoriteListViewModel: ResultsViewModel {
     @Published public var progress: Double
     @Published public var isDownloading: Bool = false
     
+    @Published public var badgeProfile: Bool = false
     @Published public var mapViewModel: MapViewModel?
+    public let profileViewModel: ProfileViewModel
     private let mapService: MapService
     
     private var favorites: [Canyon] = []
@@ -22,13 +24,15 @@ class FavoriteListViewModel: ResultsViewModel {
     init(
         weatherViewModel: WeatherViewModel,
         mapService: MapService,
-        canyonService: RopeWikiServiceInterface,
-        favoriteService: FavoriteService
+        canyonManager: CanyonDataManaging,
+        favoriteService: FavoriteServing,
+        updateManager: UpdateManager = UpdateManager.shared
     ) {
         self.hasDownloadedAll = false
         self.progress = 0
 
         self.mapService = mapService
+        self.profileViewModel = ProfileViewModel(updateManager: updateManager)
         
         // Favorites has its own filter disconnected from map
         let filterViewModel = CanyonFilterViewModel(initialState: .default)
@@ -38,7 +42,7 @@ class FavoriteListViewModel: ResultsViewModel {
             filterViewModel: filterViewModel,
             filterSheetViewModel: CanyonFilterSheetViewModel(filterViewModel: filterViewModel),
             weatherViewModel: weatherViewModel,
-            canyonService: canyonService,
+            canyonManager: canyonManager,
             favoriteService: favoriteService
         )
         
@@ -51,12 +55,14 @@ class FavoriteListViewModel: ResultsViewModel {
                 return $0
             }
             .assign(to: &$progress)
+        
+        updateManager.$serverHasDatabaseUpdate.assign(to: &$badgeProfile)
     }
     
     public func refresh() async {
         isLoading = true
         defer { isLoading = false }
-        favorites = self.favoriteService.allFavorites()
+        favorites = await self.favoriteService.allFavorites()
 
         let results = favorites.map {
             return QueryResult(name: $0.name, canyonDetails: $0.index)
@@ -69,7 +75,7 @@ class FavoriteListViewModel: ResultsViewModel {
             applyFilters: false,
             filterViewModel: filterViewModel,
             weatherViewModel: weatherViewModel,
-            canyonService: canyonService,
+            canyonManager: canyonManager,
             favoriteService: favoriteService
         )
         
@@ -83,6 +89,9 @@ class FavoriteListViewModel: ResultsViewModel {
         }
     }
     
+    /// Downloads further details for canyons
+    /// * The topo map tile data for each canyon
+    // TODO: Download images for the canyon
     func downloadCanyonMaps() async {
         guard !isDownloading else { return }
         isDownloading = true

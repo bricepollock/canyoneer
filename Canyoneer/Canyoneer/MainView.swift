@@ -5,7 +5,7 @@ import SwiftUI
 import Lottie
 
 struct MainView: View {
-    @ObservedObject var viewModel = MainViewModel()
+    @ObservedObject var viewModel: MainViewModel
     
     var body: some View {
         #if TEST
@@ -17,6 +17,18 @@ struct MainView: View {
                 await viewModel.loadApp()
             }
         } else if let tabViewModel = viewModel.tabViewModel {
+            if let banner = viewModel.updateBanner {
+                HStack(alignment: .center, spacing: Grid.small) {
+                    ProgressView()
+                        .tint(ColorPalette.GrayScale.white)
+                    Text(banner.text)
+                        .font(FontBook.Body.emphasis)
+                        .foregroundColor(ColorPalette.GrayScale.white)
+                    Spacer()
+                }
+                .padding(Grid.small)
+                .background(banner.background)
+            }
             MainTabView(viewModel: tabViewModel)
         } else {
             EmptyView()
