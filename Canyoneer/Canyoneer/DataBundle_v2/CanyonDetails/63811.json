@@ -4,7 +4,7 @@
   "longitude": -111.8815,
   "id": 63811,
   "name": "Sun Bear",
-  "quality": 3.7,
+  "quality": 3.6,
   "months": [
     "Oct",
     "Nov",
@@ -28,150 +28,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.881906,
-            34.908911,
-            0
-          ]
-        },
-        "properties": {
-          "name": "r2 sb",
-          "description": "Location: 34.908911, -111.881906<br/>\nElevation: 0.9 mi<br/>\nTime Created: 3/5/21 9:41:51 AM<br/>",
-          "elevationMeters": 1682
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.882216,
-            34.907742,
-            0
-          ]
-        },
-        "properties": {
-          "name": "r4 sb",
-          "description": "Location: 34.907742, -111.882216<br/>\nElevation: 0.9 mi<br/>\nTime Created: 3/5/21 10:41:48 AM<br/>",
-          "elevationMeters": 1628
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.879134,
-            34.899153,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "description": "(Start)",
-          "elevationMeters": 1608
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.879076,
-            34.899089,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "description": "(End)",
-          "elevationMeters": 1608
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.881566,
-            34.909592,
-            0
-          ]
-        },
-        "properties": {
-          "name": "r1sb",
-          "description": "Location: 34.909592, -111.881566<br/>\nElevation: 0.9 mi<br/>\nTime Created: 3/17/21 11:01:46 AM<br/>",
-          "elevationMeters": 1742
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.887074,
-            34.902171,
-            0
-          ]
-        },
-        "properties": {
-          "name": "jeep rd sb",
-          "description": "Location: 34.902171, -111.887074<br/>\nElevation: 0.8 mi<br/>\nTime Created: 3/17/21 1:01:48 PM<br/>",
-          "elevationMeters": 1379
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.881407,
-            34.909712,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "description": "(Start)",
-          "elevationMeters": 1742
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.867295,
-            34.895576,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "description": "(End)",
-          "elevationMeters": 1553
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.879102335,
-            34.898874286,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start/ End PARKING",
-          "description": "Start/ End PARKING",
-          "elevationMeters": 1595
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -3626,7 +3482,7 @@
         },
         "properties": {
           "name": "easy approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 3260.9931889318786,
@@ -3913,7 +3769,7 @@
           ]
         },
         "properties": {
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2096.2347531051846,
@@ -4030,7 +3886,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 252.43738248396537,
@@ -4118,7 +3974,7 @@
         },
         "properties": {
           "name": "4th class loop approach",
-          "stroke": "#009AFF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 568.2217397764553,
@@ -4191,7 +4047,7 @@
         },
         "properties": {
           "name": "Option3Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 510.8008496180576,
@@ -4199,8 +4055,161 @@
           "descentMeters": 95,
           "changeMeters": -90.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.881906,
+            34.908911,
+            0
+          ]
+        },
+        "properties": {
+          "name": "r2 sb",
+          "description": "Location: 34.908911, -111.881906<br/>\nElevation: 0.9 mi<br/>\nTime Created: 3/5/21 9:41:51 AM<br/>",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1682
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.882216,
+            34.907742,
+            0
+          ]
+        },
+        "properties": {
+          "name": "r4 sb",
+          "description": "Location: 34.907742, -111.882216<br/>\nElevation: 0.9 mi<br/>\nTime Created: 3/5/21 10:41:48 AM<br/>",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1628
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.879134,
+            34.899153,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "description": "(Start)",
+          "stroke": "#34C759",
+          "elevationMeters": 1608
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.879076,
+            34.899089,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "description": "(End)",
+          "stroke": "#007AFF",
+          "elevationMeters": 1608
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.881566,
+            34.909592,
+            0
+          ]
+        },
+        "properties": {
+          "name": "r1sb",
+          "description": "Location: 34.909592, -111.881566<br/>\nElevation: 0.9 mi<br/>\nTime Created: 3/17/21 11:01:46 AM<br/>",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1742
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.887074,
+            34.902171,
+            0
+          ]
+        },
+        "properties": {
+          "name": "jeep rd sb",
+          "description": "Location: 34.902171, -111.887074<br/>\nElevation: 0.8 mi<br/>\nTime Created: 3/17/21 1:01:48 PM<br/>",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1379
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.881407,
+            34.909712,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "description": "(Start)",
+          "stroke": "#34C759",
+          "elevationMeters": 1742
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.867295,
+            34.895576,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "description": "(End)",
+          "stroke": "#34C759",
+          "elevationMeters": 1553
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.879102335,
+            34.898874286,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start/ End PARKING",
+          "description": "Start/ End PARKING",
+          "stroke": "#007AFF",
+          "elevationMeters": 1595
+        }
       }
     ]
   },
-  "version": "518a6dc3f06ae5a5c2dac60372c2a5d8"
+  "version": "b5fc1aa335256d4e93e287fd2267c32b"
 }

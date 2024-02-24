@@ -23,8 +23,8 @@
   "waterRating": "A",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 36.58,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -261,7 +261,7 @@
         },
         "properties": {
           "name": "Approach A",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -371,7 +371,7 @@
         },
         "properties": {
           "name": "Approach B",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -851,7 +851,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -1036,7 +1036,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -1381,7 +1381,7 @@
         },
         "properties": {
           "name": "Extension",
-          "stroke": "#980000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#980000",
@@ -7421,7 +7421,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#000000",
@@ -7443,6 +7443,7 @@
           ]
         },
         "properties": {
+          "stroke": "#34C759",
           "elevationMeters": 979
         }
       },
@@ -7457,10 +7458,11 @@
           ]
         },
         "properties": {
+          "stroke": "#FFCC00",
           "elevationMeters": 863
         }
       }
     ]
   },
-  "version": "a68264abdf54b5353e289c9795291b15"
+  "version": "3dc75f6d089805c5a37a817eee8444df"
 }

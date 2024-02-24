@@ -33,28 +33,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.1829206,
-            38.2819728,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1689
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -172,7 +150,7 @@
             "normal": "#line-A52714-6000-nodesc-normal",
             "highlight": "#line-A52714-6000-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 289.1695776750991,
@@ -316,7 +294,7 @@
             "normal": "#line-097138-6000-nodesc-normal",
             "highlight": "#line-097138-6000-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 1039.3748056521033,
@@ -435,35 +413,13 @@
             "normal": "#line-FFEA00-6000-nodesc-normal",
             "highlight": "#line-FFEA00-6000-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 298.66293292462973,
           "ascentMeters": 62.900146484375,
           "descentMeters": 0.60009765625,
           "changeMeters": 62.300048828125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.17961,
-            38.280601,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead / Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1636
         }
       },
       {
@@ -621,13 +577,59 @@
             "normal": "#line-673AB7-3000-nodesc-normal",
             "highlight": "#line-673AB7-3000-nodesc-highlight"
           },
-          "stroke": "#673ab7",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 587.8503266870382,
           "ascentMeters": 300.099853515625,
           "descentMeters": 191.2998046875,
           "changeMeters": 108.800048828125
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.1829206,
+            38.2819728,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1689
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.17961,
+            38.280601,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead / Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1636
         }
       },
       {
@@ -649,6 +651,7 @@
             "highlight": "#icon-1391-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1391-rec-spa.png",
+          "stroke": "#34C759",
           "elevationMeters": 1679
         }
       },
@@ -671,6 +674,7 @@
             "highlight": "#icon-1391-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1391-rec-spa.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 1631
         }
       },
@@ -693,6 +697,7 @@
             "highlight": "#icon-1644-0288D1-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1538
         }
       },
@@ -715,10 +720,11 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1689
         }
       }
     ]
   },
-  "version": "606208a3a74f842d835c02e082949e9f"
+  "version": "a35026eb0ac144949d83caadd4a1e649"
 }

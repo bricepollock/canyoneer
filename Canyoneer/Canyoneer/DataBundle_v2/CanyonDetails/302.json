@@ -21,8 +21,8 @@
   "waterRating": "A",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 1,
-  "rappelCountMax": 1,
+  "rappelCountMin": 4,
+  "rappelCountMax": 11,
   "rappelLongestMeters": 36.58,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -794,7 +794,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -979,7 +979,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -1099,7 +1099,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -1122,6 +1122,7 @@
         },
         "properties": {
           "name": "Park",
+          "stroke": "#34C759",
           "elevationMeters": 1704
         }
       },
@@ -1137,6 +1138,7 @@
         },
         "properties": {
           "name": "Drop In",
+          "stroke": "#34C759",
           "elevationMeters": 2076
         }
       },
@@ -1152,10 +1154,11 @@
         },
         "properties": {
           "name": "Up and Over RDC",
+          "stroke": "#FF3B30",
           "elevationMeters": 1908
         }
       }
     ]
   },
-  "version": "0aec7d077e96ca32ce5800263896e682"
+  "version": "ac722e760706b5f1c1297ff83d584e78"
 }

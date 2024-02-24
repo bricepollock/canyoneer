@@ -30,54 +30,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.72919,
-            35.015,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 55’",
-          "description": "Off tree ldc",
-          "elevationMeters": 2109
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.73087,
-            35.01442,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 45’",
-          "description": "Off rock pinch",
-          "elevationMeters": 2109
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.73379,
-            35.01455,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - 45’",
-          "description": "Off boulder",
-          "elevationMeters": 2095
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -439,7 +391,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1560.208848741828,
@@ -712,7 +664,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 711.6904793557933,
@@ -880,7 +832,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 276.77047144721814,
@@ -888,8 +840,59 @@
           "descentMeters": 49.9000244140625,
           "changeMeters": -5.10009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.72919,
+            35.015,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 55’",
+          "description": "Off tree ldc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2109
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.73087,
+            35.01442,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 45’",
+          "description": "Off rock pinch",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2109
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.73379,
+            35.01455,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - 45’",
+          "description": "Off boulder",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2095
+        }
       }
     ]
   },
-  "version": "4ccc745f4c8bca19a33f2e72b4418982"
+  "version": "f829827047b3f1530b45831c91389afb"
 }

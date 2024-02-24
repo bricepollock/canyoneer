@@ -26,81 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.29105073213579,
-            38.47471844740067,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 30'",
-          "elevationMeters": 2112
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.2916126549244,
-            38.475006126989726,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 60'",
-          "elevationMeters": 2104
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.29175078868867,
-            38.475048123913986,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 35'",
-          "elevationMeters": 2098
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.2918446660042,
-            38.475075421901664,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4: 65'",
-          "elevationMeters": 2098
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.29191440343858,
-            38.47509852019084,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5: 70'",
-          "elevationMeters": 2087
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2388,7 +2313,7 @@
         "properties": {
           "name": "Pleiades Canyon Return",
           "description": "Return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1557.0609292456647,
@@ -3386,7 +3311,7 @@
         },
         "properties": {
           "name": "Pleiades Canyon Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 819.2544254291158,
@@ -3924,7 +3849,7 @@
         },
         "properties": {
           "name": "Pleiades Canyon Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 395.9270827256774,
@@ -3932,8 +3857,88 @@
           "descentMeters": 51.89990234375,
           "changeMeters": -16.10009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.29105073213579,
+            38.47471844740067,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 30'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2112
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.2916126549244,
+            38.475006126989726,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 60'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2104
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.29175078868867,
+            38.475048123913986,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 35'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2098
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.2918446660042,
+            38.475075421901664,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4: 65'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2098
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.29191440343858,
+            38.47509852019084,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5: 70'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2087
+        }
       }
     ]
   },
-  "version": "30ba2564e1464868bbdab05d4a0f7cc1"
+  "version": "1915d348f5d6b539cc4f5ed4dc81e2db"
 }

@@ -30,28 +30,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.4590469,
-            38.3968632,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#icon-1644-097138-nodesc",
-          "styleHash": "4a201df4",
-          "styleMapHash": {
-            "normal": "#icon-1644-097138-nodesc-normal",
-            "highlight": "#icon-1644-097138-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1572
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -944,7 +922,7 @@
             "normal": "#line-097138-4488-nodesc-normal",
             "highlight": "#line-097138-4488-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4.488,
           "lengthMeters": 1546.09476682729,
@@ -1008,35 +986,13 @@
             "normal": "#line-097138-4294-nodesc-normal",
             "highlight": "#line-097138-4294-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4.294,
           "lengthMeters": 89.20119216196191,
           "ascentMeters": 1.2999267578125,
           "descentMeters": 0,
           "changeMeters": 1.2999267578125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.4494645,
-            38.3954596,
-            0
-          ]
-        },
-        "properties": {
-          "name": "West Fork",
-          "styleUrl": "#icon-1596-A52714-nodesc",
-          "styleHash": "48515bb0",
-          "styleMapHash": {
-            "normal": "#icon-1596-A52714-nodesc-normal",
-            "highlight": "#icon-1596-A52714-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1544
         }
       },
       {
@@ -1204,7 +1160,7 @@
             "normal": "#line-A52714-5000-nodesc-normal",
             "highlight": "#line-A52714-5000-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1744.2636204548294,
@@ -1373,7 +1329,7 @@
             "normal": "#line-FFD600-5650-nodesc-normal",
             "highlight": "#line-FFD600-5650-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 905.9339948799924,
@@ -1542,13 +1498,59 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1381.9606612113093,
           "ascentMeters": 46.8001708984375,
           "descentMeters": 37.6002197265625,
           "changeMeters": 9.199951171875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.4590469,
+            38.3968632,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#icon-1644-097138-nodesc",
+          "styleHash": "4a201df4",
+          "styleMapHash": {
+            "normal": "#icon-1644-097138-nodesc-normal",
+            "highlight": "#icon-1644-097138-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1572
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.4494645,
+            38.3954596,
+            0
+          ]
+        },
+        "properties": {
+          "name": "West Fork",
+          "styleUrl": "#icon-1596-A52714-nodesc",
+          "styleHash": "48515bb0",
+          "styleMapHash": {
+            "normal": "#icon-1596-A52714-nodesc-normal",
+            "highlight": "#icon-1596-A52714-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1544
         }
       },
       {
@@ -1570,10 +1572,11 @@
             "highlight": "#icon-1644-FFD600-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 1572
         }
       }
     ]
   },
-  "version": "0b8d2bcbad12f9791ebb871395f879ab"
+  "version": "56a1af4199cf96077ebcff1ed1cb632a"
 }

@@ -23,8 +23,8 @@
   "waterRating": "B",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 1,
-  "rappelCountMax": 1,
+  "rappelCountMin": 11,
+  "rappelCountMax": 11,
   "rappelLongestMeters": 35,
   "vehicle": "Passenger",
   "shuttleSeconds": 480,
@@ -32,66 +32,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.1051,
-            14.6544,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Finish",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.10979527235032,
-            14.659131438297754,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking (Upper)",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.10525697469712,
-            14.643935171303625,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking (Lower)",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.10777,
-            14.65807,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Start",
-          "elevationMeters": 0
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -211,7 +151,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 455.8449590354996,
@@ -354,7 +294,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 560.1678942934783,
@@ -652,7 +592,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1349.2899363081112,
@@ -1790,7 +1730,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6693.708923475235,
@@ -1798,8 +1738,72 @@
           "descentMeters": 377.799991607666,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.1051,
+            14.6544,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Finish",
+          "stroke": "#FF3B30",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.10979527235032,
+            14.659131438297754,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking (Upper)",
+          "stroke": "#5856D6",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.10525697469712,
+            14.643935171303625,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking (Lower)",
+          "stroke": "#5856D6",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.10777,
+            14.65807,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Start",
+          "stroke": "#34C759",
+          "elevationMeters": 0
+        }
       }
     ]
   },
-  "version": "0acbdfd6365ef7eebd6f2a652f4855c1"
+  "version": "cd60f64fa7fd522250de0041510177f1"
 }

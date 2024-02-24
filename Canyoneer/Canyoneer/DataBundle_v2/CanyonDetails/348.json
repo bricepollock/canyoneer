@@ -20,98 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.9512,
-            37.2591,
-            0
-          ]
-        },
-        "properties": {
-          "name": "wBusStpGrotto",
-          "styleUrl": "#dot",
-          "styleHash": "-56beb8bb",
-          "styleMapHash": {
-            "normal": "#dot0",
-            "highlight": "#dot1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "description": "The Grotto shuttle stop on the Zion - Floor of the Valley road. (Data by bluugnome.com)",
-          "elevationMeters": 1344
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.9603,
-            37.2723,
-            0
-          ]
-        },
-        "properties": {
-          "name": "dHookR1",
-          "styleUrl": "#dot",
-          "styleHash": "-56beb8bb",
-          "styleMapHash": {
-            "normal": "#dot0",
-            "highlight": "#dot1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "description": "Rap 1 - Hook Canyon. Anchored from a large pine and drops about 120 feet. (Data by bluugnome.com)",
-          "elevationMeters": 2129
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.9603,
-            37.2755,
-            0
-          ]
-        },
-        "properties": {
-          "name": "dHookR2",
-          "styleUrl": "#dot",
-          "styleHash": "-56beb8bb",
-          "styleMapHash": {
-            "normal": "#dot0",
-            "highlight": "#dot1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "description": "Rap 2 - Hook Canyon. Anchored from a pine and drops about 70 feet. (Data by bluugnome.com)",
-          "elevationMeters": 2083
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.9587,
-            37.2788,
-            0
-          ]
-        },
-        "properties": {
-          "name": "yHookBt",
-          "styleUrl": "#dot",
-          "styleHash": "-56beb8bb",
-          "styleMapHash": {
-            "normal": "#dot0",
-            "highlight": "#dot1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "description": "Bottom exit of Hook Canyon. This is where the canyon gets obviously wider on the way down and a side drainage joins in from LDC. (Data by bluugnome.com)",
-          "elevationMeters": 2009
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -209,7 +117,7 @@
         "properties": {
           "name": "Hook (1) - Approach",
           "description": " (Data by bluugnome.com)",
-          "stroke": "#00FF00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 7692.78818323699,
@@ -243,7 +151,7 @@
         "properties": {
           "name": "Hook (2) - The Canyon;",
           "description": " (Data by bluugnome.com)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 743.747446444904,
@@ -297,7 +205,7 @@
         "properties": {
           "name": "Hook (3) - Exit",
           "description": " (Data by bluugnome.com)",
-          "stroke": "#FFFF00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3531.6295826583705,
@@ -305,8 +213,104 @@
           "descentMeters": 664.89990234375,
           "changeMeters": -664.89990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.9512,
+            37.2591,
+            0
+          ]
+        },
+        "properties": {
+          "name": "wBusStpGrotto",
+          "styleUrl": "#dot",
+          "styleHash": "-56beb8bb",
+          "styleMapHash": {
+            "normal": "#dot0",
+            "highlight": "#dot1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "description": "The Grotto shuttle stop on the Zion - Floor of the Valley road. (Data by bluugnome.com)",
+          "stroke": "#34C759",
+          "elevationMeters": 1344
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.9603,
+            37.2723,
+            0
+          ]
+        },
+        "properties": {
+          "name": "dHookR1",
+          "styleUrl": "#dot",
+          "styleHash": "-56beb8bb",
+          "styleMapHash": {
+            "normal": "#dot0",
+            "highlight": "#dot1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "description": "Rap 1 - Hook Canyon. Anchored from a large pine and drops about 120 feet. (Data by bluugnome.com)",
+          "stroke": "#34C759",
+          "elevationMeters": 2129
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.9603,
+            37.2755,
+            0
+          ]
+        },
+        "properties": {
+          "name": "dHookR2",
+          "styleUrl": "#dot",
+          "styleHash": "-56beb8bb",
+          "styleMapHash": {
+            "normal": "#dot0",
+            "highlight": "#dot1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "description": "Rap 2 - Hook Canyon. Anchored from a pine and drops about 70 feet. (Data by bluugnome.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2083
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.9587,
+            37.2788,
+            0
+          ]
+        },
+        "properties": {
+          "name": "yHookBt",
+          "styleUrl": "#dot",
+          "styleHash": "-56beb8bb",
+          "styleMapHash": {
+            "normal": "#dot0",
+            "highlight": "#dot1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "description": "Bottom exit of Hook Canyon. This is where the canyon gets obviously wider on the way down and a side drainage joins in from LDC. (Data by bluugnome.com)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2009
+        }
       }
     ]
   },
-  "version": "14f588ac44420493f337711f569285b5"
+  "version": "f9fa59cb849878c3d5901ffcd04c1228"
 }

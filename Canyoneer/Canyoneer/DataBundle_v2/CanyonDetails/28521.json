@@ -28,75 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.255014,
-            40.870975,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-7df6c3a",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Eva Mendizalea at wikiloc.com)",
-          "elevationMeters": 637
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.267187,
-            40.86693,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-27f08730",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Eva Mendizalea at wikiloc.com)",
-          "elevationMeters": 732
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.255014,
-            40.870974,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parquing",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "1e22be1b",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Eva Mendizalea at wikiloc.com)",
-          "elevationMeters": 637
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1344,7 +1275,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Eva Mendizalea at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2732.3190269722695,
@@ -1352,8 +1283,80 @@
           "descentMeters": 664.5999145507812,
           "changeMeters": 95.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.255014,
+            40.870975,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "7ca1fdd",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Eva Mendizalea at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 637
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.267187,
+            40.86693,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-328d3a06",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Eva Mendizalea at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 732
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.255014,
+            40.870974,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parquing",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-3139ce05",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Eva Mendizalea at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 637
+        }
       }
     ]
   },
-  "version": "3904bd50aecdf487a1f5db61bc4a3c11"
+  "version": "4edb24ac97fb1aa2a9e17d3a23cd7342"
 }

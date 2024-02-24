@@ -22,121 +22,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -5.161768,
-            40.234076,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "65d8c16d",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Rubén_Burbia at wikiloc.com)",
-          "elevationMeters": 1394
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -5.161835,
-            40.234085,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "351690a3",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Rubén_Burbia at wikiloc.com)",
-          "elevationMeters": 1394
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -5.161886,
-            40.234058,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Aparcamiento",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "66057125",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Rubén_Burbia at wikiloc.com)",
-          "elevationMeters": 1378
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -5.175003,
-            40.255918,
-            0
-          ]
-        },
-        "properties": {
-          "name": "ENTRADA",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "66057125",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Rubén_Burbia at wikiloc.com)",
-          "elevationMeters": 1827
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -5.171064,
-            40.250854,
-            0
-          ]
-        },
-        "properties": {
-          "name": "SALIDA",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "66057125",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Rubén_Burbia at wikiloc.com)",
-          "elevationMeters": 1840
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -654,7 +539,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Rubén_Burbia at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 7249.200193355533,
@@ -662,8 +547,128 @@
           "descentMeters": 827.4002685546875,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.161768,
+            40.234076,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-48be55bd",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Rubén_Burbia at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1394
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.161835,
+            40.234085,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-4a1e7fd",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Rubén_Burbia at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1394
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.161886,
+            40.234058,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Aparcamiento",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "15b9ad5e",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Rubén_Burbia at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1378
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.175003,
+            40.255918,
+            0
+          ]
+        },
+        "properties": {
+          "name": "ENTRADA",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "15b9ad5e",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Rubén_Burbia at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1827
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.171064,
+            40.250854,
+            0
+          ]
+        },
+        "properties": {
+          "name": "SALIDA",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "15b9ad5e",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Rubén_Burbia at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1840
+        }
       }
     ]
   },
-  "version": "40d0a0e6684cd25a57b18c75089d9c9e"
+  "version": "15db0398c902e393f49443e823425266"
 }

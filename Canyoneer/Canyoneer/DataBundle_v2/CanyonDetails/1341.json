@@ -167,7 +167,7 @@
             "normal": "#dir_route0",
             "highlight": "#dir_route1"
           },
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 2853.3926219047003,
@@ -176,28 +176,6 @@
           "changeMeters": -2
         },
         "id": "22.4"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -72.13588731973721,
-            41.63507489216318,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#m_ylw-pushpin0",
-          "styleHash": "f1ac54d",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin0",
-            "highlight": "#s_ylw-pushpin_hl0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 117
-        }
       },
       {
         "type": "Feature",
@@ -405,13 +383,36 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 1272.8870346172255,
           "ascentMeters": 21.29999542236328,
           "descentMeters": 19.29999542236328,
           "changeMeters": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.13588731973721,
+            41.63507489216318,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#m_ylw-pushpin0",
+          "styleHash": "f1ac54d",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin0",
+            "highlight": "#s_ylw-pushpin_hl0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 117
         }
       },
       {
@@ -433,10 +434,11 @@
             "highlight": "#sh_open-diamond"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 115
         }
       }
     ]
   },
-  "version": "4f9bd42e8c98a1ef8efc184756272106"
+  "version": "6a23d5b940dbe5886aa02e50e1035d27"
 }

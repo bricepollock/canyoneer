@@ -28,29 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.433682,
-            34.545661,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-93-nodesc",
-          "styleHash": "3c3b2013",
-          "styleMapHash": {
-            "normal": "#icon-93-nodesc-normal",
-            "highlight": "#icon-93-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": " (Data by canyonchronicles.com)",
-          "elevationMeters": 2043
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1059,13 +1036,37 @@
             "highlight": "#line-0000FF-5000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#0000ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 38161.1471249387,
           "ascentMeters": 2305.000244140625,
           "descentMeters": 2500.3001708984375,
           "changeMeters": -195.2999267578125
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.433682,
+            34.545661,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-93-nodesc",
+          "styleHash": "3c3b2013",
+          "styleMapHash": {
+            "normal": "#icon-93-nodesc-normal",
+            "highlight": "#icon-93-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": " (Data by canyonchronicles.com)",
+          "stroke": "#5856D6",
+          "elevationMeters": 2043
         }
       },
       {
@@ -1088,10 +1089,11 @@
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
           "description": " (Data by canyonchronicles.com)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1864
         }
       }
     ]
   },
-  "version": "989365ccb7b3bef339bccf29cf44d0e4"
+  "version": "d9be42d48be206376f42551fb452fe17"
 }

@@ -11,8 +11,8 @@
     "May"
   ],
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 20,
+  "rappelCountMax": 20,
   "rappelLongestMeters": 60,
   "shuttleSeconds": 30,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21397\">Descente-Canyon.com</a>\n: Cavalli</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/RI024\">Catastoforre\nAIC-Canyoning.it</a> : Fosso dei Cavalli ramo destro;Fosso della\nTana</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/RI009\">Catastoforre\nAIC-Canyoning.it</a> : Fosso dei Cavalli ramo sinistro</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/RI044\">Catastoforre\nAIC-Canyoning.it</a> : Fosso di Costa dei Cavalli</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://canisciolti.biz/2012/canyon/shede/fosso%20dei%20cavalli.html\">Canisciolti.biz</a>\n: FOSSO DEI CAVALLI</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/2478/\">Gulliver.it</a> : FOSSO DEI\nCAVALLI (ramo Sx)</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://micheleangileri.com/cgi-bin/schedap.cgi?cavalli\">Michele\nAngileri's Canyons</a> : Fosso dei Cavalli</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://micheleangileri.com/cgi-bin/schedap.cgi?cavallidx\">Michele\nAngileri's Canyons</a> : Fosso del Cavalli: ramo destro</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -39,6 +39,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 834
         }
       },
@@ -62,6 +63,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 739
         }
       },
@@ -85,6 +87,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1171
         }
       },
@@ -108,10 +111,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": " (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 873
         }
       }
     ]
   },
-  "version": "dfb4a36ec9d4bae3968a580d4d5da31e"
+  "version": "4d50e7916c53a97e5b89f54c07d3ab80"
 }

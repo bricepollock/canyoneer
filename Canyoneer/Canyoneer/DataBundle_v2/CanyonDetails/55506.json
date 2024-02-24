@@ -13,36 +13,14 @@
   "waterRating": "C",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 4,
-  "rappelCountMax": 4,
+  "rappelCountMin": 12,
+  "rappelCountMax": 14,
   "rappelLongestMeters": 16,
   "vehicle": "Passenger",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<p>Park in the church parking lot and follow the trail the canyon\nstart</p>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p>Highlight Video: {{#ev:youtube|8EO8yKK5UMg}}</p>\n<p>Trip Video: {{#ev:youtube|qFWqnj0Z_ec}}</p>\n<p>{{#ev:youtube|HVkpA5k8rWg}}</p>\n<h2 id=\"background\">Background</h2>\n<p>These canyons were discovered by David Ov and Pascal von Duin</p>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            20.42479550518983,
-            40.26635725221404,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#msn_red-circle",
-          "styleHash": "-55b7952f",
-          "styleMapHash": {
-            "normal": "#sn_red-circle",
-            "highlight": "#sh_red-circle"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "elevationMeters": 1083
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -182,7 +160,7 @@
             "normal": "#style4",
             "highlight": "#style1"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill-opacity": 0,
@@ -256,7 +234,7 @@
             "normal": "#style2",
             "highlight": "#style"
           },
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill-opacity": 0,
@@ -264,28 +242,6 @@
           "ascentMeters": 15.800048828125,
           "descentMeters": 218.9000244140625,
           "changeMeters": -203.0999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            20.41733866681294,
-            40.25107998592389,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#msn_parking_lot",
-          "styleHash": "-33c06c2d",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 800
         }
       },
       {
@@ -392,7 +348,7 @@
             "normal": "#style0",
             "highlight": "#style3"
           },
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill-opacity": 0,
@@ -401,8 +357,54 @@
           "descentMeters": 96.29998779296875,
           "changeMeters": 283.2999267578125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            20.42479550518983,
+            40.26635725221404,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#msn_red-circle",
+          "styleHash": "-55b7952f",
+          "styleMapHash": {
+            "normal": "#sn_red-circle",
+            "highlight": "#sh_red-circle"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1083
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            20.41733866681294,
+            40.25107998592389,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#msn_parking_lot",
+          "styleHash": "-33c06c2d",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 800
+        }
       }
     ]
   },
-  "version": "07dfbbbd038603e301aae4258100c8b5"
+  "version": "e719f984a040860dc3262ffbb36cde96"
 }

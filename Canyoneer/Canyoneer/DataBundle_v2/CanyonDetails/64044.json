@@ -4,7 +4,7 @@
   "longitude": -111.9092,
   "id": 64044,
   "name": "Contigo",
-  "quality": 2.8,
+  "quality": 3,
   "months": [
     "Sep",
     "Oct",
@@ -28,37 +28,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.90996766090394,
-            34.92771082602879,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Dc",
-          "elevationMeters": 1391
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.90917037427427,
-            34.92814679174475,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 60’",
-          "description": "Off bolts",
-          "elevationMeters": 1393
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -248,7 +217,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1024.395165505186,
@@ -291,7 +260,7 @@
         },
         "properties": {
           "name": "Approach (alt)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 1,
           "lengthMeters": 96.95095920351646,
@@ -369,7 +338,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 156.26062471075292,
@@ -432,7 +401,7 @@
         },
         "properties": {
           "name": "Descent (alt)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 1,
           "lengthMeters": 92.61123741675583,
@@ -740,7 +709,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1344.4912757795003,
@@ -748,8 +717,41 @@
           "descentMeters": 52.89990234375,
           "changeMeters": 1.39990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.90996766090394,
+            34.92771082602879,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Dc",
+          "stroke": "#34C759",
+          "elevationMeters": 1391
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.90917037427427,
+            34.92814679174475,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 60’",
+          "description": "Off bolts",
+          "stroke": "#34C759",
+          "elevationMeters": 1393
+        }
       }
     ]
   },
-  "version": "a97c1b1ba77098bb8267a39f5c198135"
+  "version": "6e07c3df7264a87420ffd3b72f01fb08"
 }

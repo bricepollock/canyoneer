@@ -26,29 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.421924,
-            34.092829,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#icon-161",
-          "styleHash": "53d356d8",
-          "styleMapHash": {
-            "normal": "#icon-161-normal",
-            "highlight": "#icon-161-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/161-grn-pushpin.png",
-          "description": "Mediocre camping here.  Trail is well maintained and climbs and contours high above Barnhardt Creek. (Data by canyonchronicles.com)",
-          "elevationMeters": 1079
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -357,7 +334,7 @@
             "highlight": "#line-0000FF-5000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#0000ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2605.572337992573,
@@ -612,59 +589,13 @@
             "highlight": "#line-0000FF-4000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#0000ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2669.3704148962797,
           "ascentMeters": 735.499755859375,
           "descentMeters": 592.599853515625,
           "changeMeters": 142.89990234375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.459517,
-            34.087382,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave Trail",
-          "styleUrl": "#icon-33",
-          "styleHash": "5dca746e",
-          "styleMapHash": {
-            "normal": "#icon-33-normal",
-            "highlight": "#icon-33-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/33-caution.png",
-          "description": "Drop into small, washy uninteresting drainage and take it down into Barnhardt Creek.  Easy all the way. (Data by canyonchronicles.com)",
-          "elevationMeters": 1363
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.460869,
-            34.092758,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Confluence",
-          "styleUrl": "#icon-123",
-          "styleHash": "-6b37ad69",
-          "styleMapHash": {
-            "normal": "#icon-123-normal",
-            "highlight": "#icon-123-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/123-red-dot.png",
-          "description": "With Barnhardt Creek. (Data by canyonchronicles.com)",
-          "elevationMeters": 1698
         }
       },
       {
@@ -743,36 +674,13 @@
             "highlight": "#line-FF0000-4000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 672.9422282189455,
           "ascentMeters": 370.5999755859375,
           "descentMeters": 52.5999755859375,
           "changeMeters": 318
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.4346,
-            34.093575,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit",
-          "styleUrl": "#icon-33",
-          "styleHash": "5dca746e",
-          "styleMapHash": {
-            "normal": "#icon-33-normal",
-            "highlight": "#icon-33-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/33-caution.png",
-          "description": "An unpleasant but relatively short scramble back up to the trail.  Not much instruction here, just go up until you reach the trail. (Data by canyonchronicles.com)",
-          "elevationMeters": 1131
         }
       },
       {
@@ -956,7 +864,7 @@
             "highlight": "#line-FF0000-4000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3116.3908585625995,
@@ -1051,7 +959,7 @@
             "highlight": "#line-33CC00-4000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#33cc00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1392.8390831108466,
@@ -1059,8 +967,104 @@
           "descentMeters": 81.699951171875,
           "changeMeters": -51.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.421924,
+            34.092829,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#icon-161",
+          "styleHash": "53d356d8",
+          "styleMapHash": {
+            "normal": "#icon-161-normal",
+            "highlight": "#icon-161-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/161-grn-pushpin.png",
+          "description": "Mediocre camping here.  Trail is well maintained and climbs and contours high above Barnhardt Creek. (Data by canyonchronicles.com)",
+          "stroke": "#34C759",
+          "elevationMeters": 1079
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.459517,
+            34.087382,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave Trail",
+          "styleUrl": "#icon-33",
+          "styleHash": "5dca746e",
+          "styleMapHash": {
+            "normal": "#icon-33-normal",
+            "highlight": "#icon-33-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/33-caution.png",
+          "description": "Drop into small, washy uninteresting drainage and take it down into Barnhardt Creek.  Easy all the way. (Data by canyonchronicles.com)",
+          "stroke": "#5856D6",
+          "elevationMeters": 1363
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.460869,
+            34.092758,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Confluence",
+          "styleUrl": "#icon-123",
+          "styleHash": "-6b37ad69",
+          "styleMapHash": {
+            "normal": "#icon-123-normal",
+            "highlight": "#icon-123-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/123-red-dot.png",
+          "description": "With Barnhardt Creek. (Data by canyonchronicles.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1698
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4346,
+            34.093575,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "styleUrl": "#icon-33",
+          "styleHash": "5dca746e",
+          "styleMapHash": {
+            "normal": "#icon-33-normal",
+            "highlight": "#icon-33-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/33-caution.png",
+          "description": "An unpleasant but relatively short scramble back up to the trail.  Not much instruction here, just go up until you reach the trail. (Data by canyonchronicles.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1131
+        }
       }
     ]
   },
-  "version": "2aaeae3f3368cc315b4238e05c308e99"
+  "version": "03af51328a9eac3db7da917c9d01291a"
 }

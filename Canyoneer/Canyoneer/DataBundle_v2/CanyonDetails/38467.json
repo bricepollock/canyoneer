@@ -23,8 +23,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 24.38,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>One of the first canyoneering routes set up on the Island. A Maui\nclassic with many jumps, interesting volcanic features, numerous shorter\nrappels and generally good flow all year. 4 notable jumps from 30 to 50\nfeet, 3 waterslides from 8 to 20 feet, 4 mandatory rappels up to 80\nfeet, and several small jumps in the range of 5 to 15 feet.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>From Kahului take the Hana Highway (360) east, park in the small\nturn-off on the right (SW) side of the road at 20.811012, -156.114658.\nWalk up the steep and slippery road/trail, around the locked gate, and\ncontinue uphill. The road/trail follows an irrigation canal, then an\nwhite pvc irrigation pipe, followed by a short but often intense\nbushwhack to the drop-in.</p>\n<h2 id=\"descent\">Descent</h2>\n\n<h2 id=\"exit\">Exit</h2>\n<p>The route described in this beta ends at the footbridge across Hanawi\nStream, 20.807176, -156.113584 When you encounter the bridge, climb up\nit on the canyon-right side, cross it and return to your vehicle. If you\nwish to continue downstream of the bridge, consult the beta for <a\nhref=\"Emerald_Canyon_(Lower)\" title=\"wikilink\">Emerald Canyon\n(Lower)</a> Lower Emerald will require a short car shuttle or walk.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>Do not enter the irrigation canals. Do NOT leave any valuables in\nyour vehicle parked along Hana Hwy.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<p>www.808canyons.com</p>\n<p>Facebook group: 808canyons</p>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>One of first routes set up on Maui, first known descent was around\n2007-2008(?) by the ATS crew, who did much of the early exploration on\nthe Island.</p>\n<p>The short bushwhack section \"trail\" described above is maintained by\na small group of local canyoneers and it is flagged with neon blazes.\nDon't expect there to be an obvious trail when you run the route, the\nvegetation in the area grows fast and aggressively and it can be\ndifficult to ascertain. Take a few minutes and knock back some of the\nbrush along the trail as you hike.</p>\n<p>The waterflow in this canyon generally flows at a sporty/medium rate\nall year. Be sure to consult the weather forecast prior to entering this\ncanyon and avoid it if rain is forecasted or imminent. This canyon has\ndangerously strong flows during and after storms. Several links to\nstream gauges and weather info can be found here: <a\nhref=\"http://www.808canyons.com/links.html\">1</a></p>\n",
   "geojson": {
@@ -139,7 +139,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#00CD00",
@@ -259,7 +259,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#FF0000",
@@ -319,7 +319,7 @@
         },
         "properties": {
           "name": "exit",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#000000",
@@ -342,6 +342,7 @@
         },
         "properties": {
           "name": "bushwhack s/se",
+          "stroke": "#34C759",
           "elevationMeters": 95
         }
       },
@@ -357,6 +358,7 @@
         },
         "properties": {
           "name": "Clearing at end of trail",
+          "stroke": "#34C759",
           "elevationMeters": 134
         }
       },
@@ -372,6 +374,7 @@
         },
         "properties": {
           "name": "Drop-in",
+          "stroke": "#FF3B30",
           "elevationMeters": 102
         }
       },
@@ -387,6 +390,7 @@
         },
         "properties": {
           "name": "exit at foot bridge",
+          "stroke": "#FF3B30",
           "elevationMeters": 182
         }
       },
@@ -402,6 +406,7 @@
         },
         "properties": {
           "name": "fork left",
+          "stroke": "#34C759",
           "elevationMeters": 252
         }
       },
@@ -417,6 +422,7 @@
         },
         "properties": {
           "name": "fork right",
+          "stroke": "#AF52DE",
           "elevationMeters": 246
         }
       },
@@ -432,10 +438,11 @@
         },
         "properties": {
           "name": "Parking",
+          "stroke": "#AF52DE",
           "elevationMeters": 258
         }
       }
     ]
   },
-  "version": "16096990ee18017db31f271e8d7fd738"
+  "version": "8859d508e4137695e4f09f533a132813"
 }

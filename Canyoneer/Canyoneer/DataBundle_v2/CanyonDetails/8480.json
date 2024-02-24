@@ -35,72 +35,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -104.0697148883779,
-            20.27848442322718,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - Salto Seco",
-          "styleUrl": "#msn_placemark_circle3",
-          "styleHash": "47a52b41",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle6",
-            "highlight": "#sh_placemark_circle_highlight"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 1944
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -104.0703782008507,
-            20.27689152276767,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "styleUrl": "#msn_placemark_circle3",
-          "styleHash": "47a52b41",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle6",
-            "highlight": "#sh_placemark_circle_highlight"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 1993
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -104.0705587534122,
-            20.2765824980866,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6",
-          "styleUrl": "#msn_placemark_circle3",
-          "styleHash": "47a52b41",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle6",
-            "highlight": "#sh_placemark_circle_highlight"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 1992
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -219,7 +153,7 @@
             "highlight": "#sh_ylw-pushpin25"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 523.9155906669796,
@@ -284,7 +218,7 @@
             "highlight": "#sh_ylw-pushpin24"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 205.81984994065053,
@@ -414,7 +348,7 @@
             "highlight": "#sh_ylw-pushpin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 571.109610501062,
@@ -594,7 +528,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "lengthMeters": 1939.297027925696,
           "ascentMeters": 257.39990234375,
@@ -908,15 +842,84 @@
             "highlight": "#sh_ylw-pushpin14"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "lengthMeters": 1983.1304979255603,
           "ascentMeters": 443,
           "descentMeters": 239.800048828125,
           "changeMeters": 203.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.0697148883779,
+            20.27848442322718,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - Salto Seco",
+          "styleUrl": "#msn_placemark_circle3",
+          "styleHash": "47a52b41",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle6",
+            "highlight": "#sh_placemark_circle_highlight"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1944
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.0703782008507,
+            20.27689152276767,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "styleUrl": "#msn_placemark_circle3",
+          "styleHash": "47a52b41",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle6",
+            "highlight": "#sh_placemark_circle_highlight"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1993
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.0705587534122,
+            20.2765824980866,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6",
+          "styleUrl": "#msn_placemark_circle3",
+          "styleHash": "47a52b41",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle6",
+            "highlight": "#sh_placemark_circle_highlight"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1992
+        }
       }
     ]
   },
-  "version": "c9e861d007649d585c9e44e0e149a9a7"
+  "version": "24383cb33d020e62d32f7d373021a72f"
 }

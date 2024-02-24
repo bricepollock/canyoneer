@@ -27,28 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.4214720047255,
-            36.49471697109379,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Mecca Road - turn West - go 5.75 mi",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 697
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -925,7 +903,7 @@
         },
         "properties": {
           "name": "exit down - 3.7 mi",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 5937.624143122411,
@@ -2298,7 +2276,7 @@
         },
         "properties": {
           "name": "down cyn Fossil Snail 001",
-          "stroke": "#fe01fe",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1136.0617547251818,
@@ -3741,7 +3719,7 @@
         },
         "properties": {
           "name": "Deep Six Cyn - down - 1.0 mi 001",
-          "stroke": "#fe01fe",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1679.2501462743733,
@@ -4724,7 +4702,7 @@
         },
         "properties": {
           "name": "Burial Pall Up Ridge - 0.9 mi",
-          "stroke": "#00ffff",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1227.2580660406304,
@@ -5757,7 +5735,7 @@
         },
         "properties": {
           "name": "Burial Pall Canyon - 0.9 mi",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1293.427260694556,
@@ -6006,7 +5984,7 @@
             "normal": "#style00",
             "highlight": "#style000"
           },
-          "stroke": "#55ff7f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 737.2486193059204,
@@ -6210,13 +6188,36 @@
             "normal": "#style",
             "highlight": "#style0"
           },
-          "stroke": "#ffaa00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1802.661236549301,
           "ascentMeters": 4.50006103515625,
           "descentMeters": 0.10003662109375,
           "changeMeters": 4.4000244140625
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.4214720047255,
+            36.49471697109379,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Mecca Road - turn West - go 5.75 mi",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 697
         }
       },
       {
@@ -6232,6 +6233,7 @@
         "properties": {
           "name": "2880 Deep Six",
           "description": "2880 ft height",
+          "stroke": "#FF3B30",
           "elevationMeters": 1360
         }
       },
@@ -6247,6 +6249,7 @@
         },
         "properties": {
           "name": "3600 ft height",
+          "stroke": "#34C759",
           "elevationMeters": 1203
         }
       },
@@ -6263,6 +6266,7 @@
         "properties": {
           "name": "4722",
           "description": "4720 ft height",
+          "stroke": "#FF3B30",
           "elevationMeters": 1304
         }
       },
@@ -6278,6 +6282,7 @@
         },
         "properties": {
           "name": "CAR parking",
+          "stroke": "#34C759",
           "elevationMeters": 710
         }
       },
@@ -6293,6 +6298,7 @@
         },
         "properties": {
           "name": "Dc 11",
+          "stroke": "#FF3B30",
           "elevationMeters": 1208
         }
       },
@@ -6308,6 +6314,7 @@
         },
         "properties": {
           "name": "Dc 22",
+          "stroke": "#FF3B30",
           "elevationMeters": 1264
         }
       },
@@ -6324,6 +6331,7 @@
         "properties": {
           "name": "Fossil Snail 2900",
           "description": "Intermittent Stream",
+          "stroke": "#AF52DE",
           "elevationMeters": 1368
         }
       },
@@ -6339,6 +6347,7 @@
         },
         "properties": {
           "name": "mouth Burial Pall",
+          "stroke": "#FF3B30",
           "elevationMeters": 1314
         }
       },
@@ -6354,6 +6363,7 @@
         },
         "properties": {
           "name": "R 1 40",
+          "stroke": "#FF3B30",
           "elevationMeters": 1208
         }
       },
@@ -6376,6 +6386,7 @@
             "highlight": "#style1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1223
         }
       },
@@ -6391,6 +6402,7 @@
         },
         "properties": {
           "name": "R 4 dc 20",
+          "stroke": "#FF3B30",
           "elevationMeters": 1238
         }
       },
@@ -6406,6 +6418,7 @@
         },
         "properties": {
           "name": "R 5 50",
+          "stroke": "#FF3B30",
           "elevationMeters": 1325
         }
       },
@@ -6421,6 +6434,7 @@
         },
         "properties": {
           "name": "R 6 60",
+          "stroke": "#FF3B30",
           "elevationMeters": 1341
         }
       },
@@ -6436,6 +6450,7 @@
         },
         "properties": {
           "name": "R 7 15",
+          "stroke": "#FF3B30",
           "elevationMeters": 1331
         }
       },
@@ -6451,6 +6466,7 @@
         },
         "properties": {
           "name": "S Casada Rd - Mecca Rd",
+          "stroke": "#FF3B30",
           "elevationMeters": 705
         }
       },
@@ -6466,6 +6482,7 @@
         },
         "properties": {
           "name": "start up ridge 5",
+          "stroke": "#5AC8FA",
           "elevationMeters": 699
         }
       },
@@ -6481,10 +6498,11 @@
         },
         "properties": {
           "name": "\\cyn narrows",
+          "stroke": "#FF3B30",
           "elevationMeters": 1203
         }
       }
     ]
   },
-  "version": "675eb9ac518e5a7fd99ff7881add1ea2"
+  "version": "8c05388ab888595c89d628efadea3f60"
 }

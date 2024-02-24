@@ -27,70 +27,9 @@
   "rappelCountMax": 5,
   "rappelLongestMeters": 30.48,
   "vehicle": "Passenger",
-  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>A fun run in south/west Cebu with some nice drops and a few\njumps.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>Hike the road to the jump-off point then up a trail to the\ndrop-in.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>All anchors are in place and solid. The action starts pretty quick\nonce your in the watercourse with a big drop down into a gorge followed\nby a handful of raps and jumps before reaching a hot springs.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>Exit the river heading west near the hot springs through a village to\nthe road and your ride.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p><a\nhref=\"https://www.facebook.com/media/set/?set=a.4221331691220572&amp;type=3\">https://www.facebook.com/media/set/?set=a.4221331691220572&amp;type=3</a></p>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            123.34204673767091,
-            9.677962700879144,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trail ",
-          "elevationMeters": 129
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            123.34552288055421,
-            9.68143450039152,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-in",
-          "elevationMeters": 75
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            123.33925724029542,
-            9.683466756624798,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking or Drop off",
-          "elevationMeters": 182
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            123.34384918212892,
-            9.682789339246913,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Hot Springs",
-          "elevationMeters": 71
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -834,7 +773,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 712.8600200555933,
@@ -1356,7 +1295,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 422.85620661026286,
@@ -2773,7 +2712,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1294.6864083752052,
@@ -3430,7 +3369,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 580.9460860663281,
@@ -3438,8 +3377,72 @@
           "descentMeters": 7.70001220703125,
           "changeMeters": 102
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            123.34204673767091,
+            9.677962700879144,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trail ",
+          "stroke": "#34C759",
+          "elevationMeters": 129
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            123.34552288055421,
+            9.68143450039152,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-in",
+          "stroke": "#34C759",
+          "elevationMeters": 75
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            123.33925724029542,
+            9.683466756624798,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking or Drop off",
+          "stroke": "#34C759",
+          "elevationMeters": 182
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            123.34384918212892,
+            9.682789339246913,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Hot Springs",
+          "stroke": "#FF3B30",
+          "elevationMeters": 71
+        }
       }
     ]
   },
-  "version": "8b2a07ac1f4e30200e6d506bda48bf71"
+  "version": "717116cd4b529423d342003bd80640a9"
 }

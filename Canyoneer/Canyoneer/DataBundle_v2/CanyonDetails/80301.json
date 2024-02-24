@@ -28,132 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6563199796961,
-            40.50684851988805,
-            2303.360378678473
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#__managed_style_03CDB9868B2AD3BF1D4C",
-          "styleMapHash": {
-            "normal": "#__managed_style_1F6695E1862AD3BF1D4C",
-            "highlight": "#__managed_style_20DE803B7C2AD3BF1D4C"
-          },
-          "elevationMeters": 2938
-        },
-        "id": "043403C6BF2AD3BEBD8A"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6712001717525,
-            40.52087999400973,
-            2735.262152917776
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#__managed_style_065BAA95C42AD3BF8335",
-          "styleMapHash": {
-            "normal": "#__managed_style_170784720A2AD3BF8335",
-            "highlight": "#__managed_style_2D87630AFE2AD3BF8335"
-          },
-          "elevationMeters": 2912
-        },
-        "id": "0099F7FB102AD3BF8334"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6710275804762,
-            40.52076419798199,
-            2730.252940504348
-          ]
-        },
-        "properties": {
-          "name": "r1: 120'",
-          "styleUrl": "#__managed_style_065BAA95C42AD3BF8335",
-          "styleMapHash": {
-            "normal": "#__managed_style_170784720A2AD3BF8335",
-            "highlight": "#__managed_style_2D87630AFE2AD3BF8335"
-          },
-          "elevationMeters": 2913
-        },
-        "id": "04270FD0F52AD3BFFC84"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6686269507679,
-            40.51843432959335,
-            2608.310874046832
-          ]
-        },
-        "properties": {
-          "name": "r3: 30'",
-          "styleUrl": "#__managed_style_065BAA95C42AD3BF8335",
-          "styleMapHash": {
-            "normal": "#__managed_style_170784720A2AD3BF8335",
-            "highlight": "#__managed_style_2D87630AFE2AD3BF8335"
-          },
-          "elevationMeters": 2922
-        },
-        "id": "04C9D681BF2AD3C06329"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6707607040214,
-            40.52072065759378,
-            2711.2659341812
-          ]
-        },
-        "properties": {
-          "name": "r2: 30'",
-          "styleUrl": "#__managed_style_065BAA95C42AD3BF8335",
-          "styleMapHash": {
-            "normal": "#__managed_style_170784720A2AD3BF8335",
-            "highlight": "#__managed_style_2D87630AFE2AD3BF8335"
-          },
-          "elevationMeters": 2919
-        },
-        "id": "0B9B37E9A72AD3C0ED30"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6666219773957,
-            40.51699597271868,
-            2535.86992015655
-          ]
-        },
-        "properties": {
-          "name": "Downclimbs",
-          "styleUrl": "#__managed_style_065BAA95C42AD3BF8335",
-          "styleMapHash": {
-            "normal": "#__managed_style_170784720A2AD3BF8335",
-            "highlight": "#__managed_style_2D87630AFE2AD3BF8335"
-          },
-          "elevationMeters": 3051
-        },
-        "id": "0798AB93ED2AD3C181A3"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1130,6 +1004,7 @@
             "normal": "#__managed_style_132DA05AB72AD3CAD3C7",
             "highlight": "#__managed_style_2097CEA4DD2AD3CAD3C7"
           },
+          "stroke": "#FFCC00",
           "lengthMeters": 3580.3739821671275,
           "ascentMeters": 802.19970703125,
           "descentMeters": 820.69970703125,
@@ -1426,14 +1301,147 @@
             "normal": "#__managed_style_1BCCC9EF6B2AD3CAA4D7",
             "highlight": "#__managed_style_2E52C072092AD3CAA4D7"
           },
+          "stroke": "#FF9500",
           "lengthMeters": 776.2323873753899,
           "ascentMeters": 278.500244140625,
           "descentMeters": 126.600341796875,
           "changeMeters": 151.89990234375
         },
         "id": "0047FC25932AD3CA5A1D"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6563199796961,
+            40.50684851988805,
+            2303.360378678473
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#__managed_style_03CDB9868B2AD3BF1D4C",
+          "styleMapHash": {
+            "normal": "#__managed_style_1F6695E1862AD3BF1D4C",
+            "highlight": "#__managed_style_20DE803B7C2AD3BF1D4C"
+          },
+          "stroke": "#FF3B30",
+          "elevationMeters": 2938
+        },
+        "id": "043403C6BF2AD3BEBD8A"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6712001717525,
+            40.52087999400973,
+            2735.262152917776
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#__managed_style_065BAA95C42AD3BF8335",
+          "styleMapHash": {
+            "normal": "#__managed_style_170784720A2AD3BF8335",
+            "highlight": "#__managed_style_2D87630AFE2AD3BF8335"
+          },
+          "stroke": "#FF9500",
+          "elevationMeters": 2912
+        },
+        "id": "0099F7FB102AD3BF8334"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6710275804762,
+            40.52076419798199,
+            2730.252940504348
+          ]
+        },
+        "properties": {
+          "name": "r1: 120'",
+          "styleUrl": "#__managed_style_065BAA95C42AD3BF8335",
+          "styleMapHash": {
+            "normal": "#__managed_style_170784720A2AD3BF8335",
+            "highlight": "#__managed_style_2D87630AFE2AD3BF8335"
+          },
+          "stroke": "#FF9500",
+          "elevationMeters": 2913
+        },
+        "id": "04270FD0F52AD3BFFC84"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6686269507679,
+            40.51843432959335,
+            2608.310874046832
+          ]
+        },
+        "properties": {
+          "name": "r3: 30'",
+          "styleUrl": "#__managed_style_065BAA95C42AD3BF8335",
+          "styleMapHash": {
+            "normal": "#__managed_style_170784720A2AD3BF8335",
+            "highlight": "#__managed_style_2D87630AFE2AD3BF8335"
+          },
+          "stroke": "#FF9500",
+          "elevationMeters": 2922
+        },
+        "id": "04C9D681BF2AD3C06329"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6707607040214,
+            40.52072065759378,
+            2711.2659341812
+          ]
+        },
+        "properties": {
+          "name": "r2: 30'",
+          "styleUrl": "#__managed_style_065BAA95C42AD3BF8335",
+          "styleMapHash": {
+            "normal": "#__managed_style_170784720A2AD3BF8335",
+            "highlight": "#__managed_style_2D87630AFE2AD3BF8335"
+          },
+          "stroke": "#FF9500",
+          "elevationMeters": 2919
+        },
+        "id": "0B9B37E9A72AD3C0ED30"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6666219773957,
+            40.51699597271868,
+            2535.86992015655
+          ]
+        },
+        "properties": {
+          "name": "Downclimbs",
+          "styleUrl": "#__managed_style_065BAA95C42AD3BF8335",
+          "styleMapHash": {
+            "normal": "#__managed_style_170784720A2AD3BF8335",
+            "highlight": "#__managed_style_2D87630AFE2AD3BF8335"
+          },
+          "stroke": "#FF9500",
+          "elevationMeters": 3051
+        },
+        "id": "0798AB93ED2AD3C181A3"
       }
     ]
   },
-  "version": "9acc13c511b4674e75b8e83c02860106"
+  "version": "1427e2a7dfb9cc122064471214963753"
 }

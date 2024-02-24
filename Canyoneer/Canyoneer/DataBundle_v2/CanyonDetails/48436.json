@@ -26,81 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.8623471260071,
-            45.30300302586218,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Trailhead",
-          "elevationMeters": 691
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.77669882774354,
-            45.3025577979163,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Trailhead",
-          "elevationMeters": 1157
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.8387222290039,
-            45.2914033196613,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Wind Creek Falls",
-          "elevationMeters": 1090
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.82799339294435,
-            45.28838413907205,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1248
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.8463182449341,
-            45.29297323005408,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "elevationMeters": 1174
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -752,7 +677,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 8658.321386123554,
@@ -1790,7 +1715,7 @@
         },
         "properties": {
           "name": "Approach (Trail)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4621.14608545208,
@@ -1893,7 +1818,7 @@
         },
         "properties": {
           "name": "Approach (Bushwhack)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1554.6624752600023,
@@ -2056,7 +1981,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2916.8627307583106,
@@ -2114,7 +2039,7 @@
         },
         "properties": {
           "name": "Exit Bushwhack",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 449.74064316254237,
@@ -2122,8 +2047,88 @@
           "descentMeters": 8.79998779296875,
           "changeMeters": 1.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.8623471260071,
+            45.30300302586218,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 691
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.77669882774354,
+            45.3025577979163,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 1157
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.8387222290039,
+            45.2914033196613,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Wind Creek Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1090
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.82799339294435,
+            45.28838413907205,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1248
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.8463182449341,
+            45.29297323005408,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1174
+        }
       }
     ]
   },
-  "version": "72166590c70954c50d9d937d2066db18"
+  "version": "8709721244ae26b4366f0b1ce23a9caf"
 }

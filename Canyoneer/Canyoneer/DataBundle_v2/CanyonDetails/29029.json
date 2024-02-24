@@ -13,98 +13,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.589339,
-            42.67331,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "50ff4041",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Swift Wild at wikiloc.com)",
-          "elevationMeters": 1474
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.582805,
-            42.667685,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "433315e",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Swift Wild at wikiloc.com)",
-          "elevationMeters": 2019
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.582629,
-            42.667755,
-            0
-          ]
-        },
-        "properties": {
-          "name": "parking 2",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "21f6ad7d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Swift Wild at wikiloc.com)",
-          "elevationMeters": 2019
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.589328,
-            42.673321,
-            0
-          ]
-        },
-        "properties": {
-          "name": "parking1",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "21f6ad7d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Swift Wild at wikiloc.com)",
-          "elevationMeters": 1474
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -772,7 +680,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Swift Wild at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1924.4728497034207,
@@ -780,8 +688,104 @@
           "descentMeters": 246.3997802734375,
           "changeMeters": 544.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.589339,
+            42.67331,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "7ca1fdd",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Swift Wild at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1474
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.582805,
+            42.667685,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "1ac6355d",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Swift Wild at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2019
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.582629,
+            42.667755,
+            0
+          ]
+        },
+        "properties": {
+          "name": "parking 2",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "6496a9dc",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Swift Wild at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2019
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.589328,
+            42.673321,
+            0
+          ]
+        },
+        "properties": {
+          "name": "parking1",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "6496a9dc",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Swift Wild at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1474
+        }
       }
     ]
   },
-  "version": "a14ab7b3140fffb82edf450dceb07e34"
+  "version": "cc18878a2c668c5fac6925d66a514956"
 }

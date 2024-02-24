@@ -17,8 +17,8 @@
   "waterRating": "B",
   "timeRating": "IV",
   "permit": "Yes",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 50,
+  "rappelCountMax": 50,
   "rappelLongestMeters": 25,
   "shuttleSeconds": 300,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21119\">Descente-Canyon.com</a>\n: Serviera</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/CH001\">Catastoforre\nAIC-Canyoning.it</a> : Val Serviera</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://canisciolti.biz/2012/canyon/shede/val%20serviera.html\">Canisciolti.biz</a>\n: VAL SERVIERA</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/ServieraCanyon\">Canyon.Carto.net</a>\n: Val Serviera</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/2262/\">Gulliver.it</a> :\nVALSERVIERA</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -45,6 +45,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 10 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1874
         }
       },
@@ -68,6 +69,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 10 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 429
         }
       },
@@ -91,6 +93,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": "pour approche (Data by Streicher Wolfgang on 10 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 660
         }
       },
@@ -114,10 +117,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Streicher Wolfgang on 10 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 429
         }
       }
     ]
   },
-  "version": "4a324c3965a61ebd0d7c339915332cbf"
+  "version": "47229e4ab39854671d6816cd8a6368a7"
 }

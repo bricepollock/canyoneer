@@ -16,59 +16,14 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "Yes",
-  "rappelCountMin": 8,
-  "rappelCountMax": 8,
+  "rappelCountMin": 18,
+  "rappelCountMax": 18,
   "rappelLongestMeters": 17,
   "shuttleSeconds": 30,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2224\">Descente-Canyon.com</a>\n: Riolan</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://canyonchronicles.com/canyoning-france-clue-du-riolan?kmlidxna\">CanyonChronicles.com</a>\n: Clue Du Riolan</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/RiolanCanyon\">Canyon.Carto.net</a>\n: Clue du Riolan</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_riolan.htm\">CicaRudeClan.com</a> :\nClue du Riolan</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://altisud.com/canyoning/france/alpes-maritimes/vallee-de-l-esteron/clue-du-riolan-amont-canyoning__i_4mxvn8lc2d3y__al_descente-canyon-fiche.html\">Altisud.com</a>\n: Clue du riolan amont</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://altisud.com/canyoning/france/alpes-maritimes/vallee-de-l-esteron/clue-riolan-aval-canyoning__i_4mxvn7ondaba__al_descente-canyon-fiche.html\">Altisud.com</a>\n: Clue Riolan aval</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barrancos.org/alpes/Rioulan.htm\">Barrancos.org</a> : Clue\ndu Rioulan</li>\n<li><img src=\"rwl_pl.png\" title=\"rwl_pl.png\" alt=\"rwl_pl.png\" /><a\nhref=\"http://canyoning.wroclaw.pl/kanion.php?id=37\">Canyoning.Wroclaw.pl</a>\n: Riolan</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://icopro.org/canyon/view/id/99\">Icopro.org</a> : Clue du\nRiolan</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://WWW.barranquistas.es/2010/08/clue-de-riolan.html\">Barranquistas.es</a>\n: CLUE DE RIOLAN</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=7101706\">Wikiloc.com</a> :\nClue du Riolan</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=14840059\">Wikiloc.com</a> :\nCanyon du Riolan</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            6.938612,
-            43.881388,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-93",
-          "styleHash": "203f2b70",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "43.8813194N, 6.9387694E (WSG84)",
-          "elevationMeters": 958
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            6.95022,
-            43.867138,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-93-nodesc",
-          "styleHash": "711bfc1",
-          "styleMapHash": {
-            "normal": "#icon-93-nodesc-normal",
-            "highlight": "#icon-93-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "elevationMeters": 935
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -193,13 +148,60 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 2207.384929688313,
           "ascentMeters": 451.70001220703125,
           "descentMeters": 522.9000244140625,
           "changeMeters": -71.20001220703125
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.938612,
+            43.881388,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-93",
+          "styleHash": "203f2b70",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "43.8813194N, 6.9387694E (WSG84)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 958
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.95022,
+            43.867138,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-93-nodesc",
+          "styleHash": "711bfc1",
+          "styleMapHash": {
+            "normal": "#icon-93-nodesc-normal",
+            "highlight": "#icon-93-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 935
         }
       },
       {
@@ -221,6 +223,7 @@
             "highlight": "#icon-124-nodesc-highlight"
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 920
         }
       },
@@ -243,10 +246,11 @@
             "highlight": "#icon-62-nodesc-highlight"
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 863
         }
       }
     ]
   },
-  "version": "68a4c2017a55b3cb53e1638e0958688e"
+  "version": "abecc2a1fa19297c4ea77d571bb2224b"
 }

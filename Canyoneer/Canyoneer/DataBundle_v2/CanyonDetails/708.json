@@ -26,36 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.4219404893538,
-            34.092800303791314,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 1079
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.36960983276367,
-            34.03694288740955,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle",
-          "elevationMeters": 1188
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1637,7 +1607,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 7467.049847186478,
@@ -1800,7 +1770,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 398.70112448823915,
@@ -3163,7 +3133,7 @@
         },
         "properties": {
           "name": "Exit (Off Trail)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4954.79628261485,
@@ -3351,7 +3321,7 @@
         },
         "properties": {
           "name": "Lower Narrows",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 858.449408030972,
@@ -4109,7 +4079,7 @@
         },
         "properties": {
           "name": "Exit (On Trail)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4948.556398670309,
@@ -4117,8 +4087,40 @@
           "descentMeters": 460.69989013671875,
           "changeMeters": 59.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4219404893538,
+            34.092800303791314,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#34C759",
+          "elevationMeters": 1079
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.36960983276367,
+            34.03694288740955,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1188
+        }
       }
     ]
   },
-  "version": "70853e7feb30056f389e13aa3414e8e7"
+  "version": "440577907430cf79386a0421ef593a64"
 }

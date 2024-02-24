@@ -35,85 +35,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.93549162149431,
-            33.73143790885874,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 1371
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.93559220433237,
-            33.730849013142446,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 105’",
-          "description": "Off tree ldc",
-          "elevationMeters": 1368
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.93565456569196,
-            33.730732460386164,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 70’",
-          "description": "Off deadman",
-          "elevationMeters": 1368
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.935941,
-            33.729893,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - 35’",
-          "description": "Off boulder rdc",
-          "elevationMeters": 1352
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.93576,
-            33.7284,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4 - 80’",
-          "description": "Off tree ldc",
-          "elevationMeters": 1344
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -165,7 +86,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 64.41657933189552,
@@ -408,7 +329,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 272.429557985391,
@@ -1476,7 +1397,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1322.4976412848584,
@@ -1559,7 +1480,7 @@
         },
         "properties": {
           "name": "Exit (w/ R4)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 87.52396048009076,
@@ -1567,8 +1488,92 @@
           "descentMeters": 0.4000244140625,
           "changeMeters": 27.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.93549162149431,
+            33.73143790885874,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1371
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.93559220433237,
+            33.730849013142446,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 105’",
+          "description": "Off tree ldc",
+          "stroke": "#34C759",
+          "elevationMeters": 1368
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.93565456569196,
+            33.730732460386164,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 70’",
+          "description": "Off deadman",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1368
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.935941,
+            33.729893,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - 35’",
+          "description": "Off boulder rdc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1352
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.93576,
+            33.7284,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4 - 80’",
+          "description": "Off tree ldc",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1344
+        }
       }
     ]
   },
-  "version": "e037b992930729a6a5376251d9946a91"
+  "version": "30f96b18e60b246d36147f37cad9426f"
 }

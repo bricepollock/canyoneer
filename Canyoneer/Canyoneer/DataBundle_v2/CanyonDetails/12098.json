@@ -14,8 +14,8 @@
   "waterRating": "C1",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 20,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -272,7 +272,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -512,7 +512,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -622,7 +622,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -645,6 +645,7 @@
         },
         "properties": {
           "name": "End (Dam)",
+          "stroke": "#FFCC00",
           "elevationMeters": 459
         }
       },
@@ -660,6 +661,7 @@
         },
         "properties": {
           "name": "Parking Approach",
+          "stroke": "#34C759",
           "elevationMeters": 377
         }
       },
@@ -675,6 +677,7 @@
         },
         "properties": {
           "name": "Parking Exit",
+          "stroke": "#FFCC00",
           "elevationMeters": 503
         }
       },
@@ -690,10 +693,11 @@
         },
         "properties": {
           "name": "Start Lower",
+          "stroke": "#FF3B30",
           "elevationMeters": 592
         }
       }
     ]
   },
-  "version": "6b641a2e854f8b3f8fc73066f153ea7e"
+  "version": "e2fe4d1d778f138eab9c5a8fe40404a6"
 }

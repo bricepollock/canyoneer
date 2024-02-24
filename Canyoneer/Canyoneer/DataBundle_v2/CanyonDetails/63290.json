@@ -21,36 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.12148439884187,
-            21.417880427588305,
-            0
-          ]
-        },
-        "properties": {
-          "name": "better potential drop-in",
-          "elevationMeters": 250
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.11703059077266,
-            21.42093919699506,
-            0
-          ]
-        },
-        "properties": {
-          "name": "approach shuttle",
-          "elevationMeters": 394
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -313,7 +283,7 @@
         "properties": {
           "name": "Approach",
           "description": "El Cora",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 446.83945423677636,
@@ -926,7 +896,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 1812.2111175907269,
@@ -1229,7 +1199,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 1544.3353858979208,
@@ -1342,7 +1312,7 @@
         },
         "properties": {
           "name": "shuttle",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 615.5168358089534,
@@ -1350,8 +1320,40 @@
           "descentMeters": 40.5,
           "changeMeters": 143.80001831054688
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.12148439884187,
+            21.417880427588305,
+            0
+          ]
+        },
+        "properties": {
+          "name": "better potential drop-in",
+          "stroke": "#FFCC00",
+          "elevationMeters": 250
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.11703059077266,
+            21.42093919699506,
+            0
+          ]
+        },
+        "properties": {
+          "name": "approach shuttle",
+          "stroke": "#34C759",
+          "elevationMeters": 394
+        }
       }
     ]
   },
-  "version": "830089e10d8d480a2878a1830cd394ed"
+  "version": "5822e5ab0e8d04f1555abf015fbb28fb"
 }

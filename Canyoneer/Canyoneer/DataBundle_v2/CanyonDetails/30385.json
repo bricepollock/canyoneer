@@ -16,175 +16,14 @@
   "timeRating": "III",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 20,
+  "rappelCountMax": 20,
   "rappelLongestMeters": 70,
   "shuttleSeconds": 210,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_ecouges.htm\">CicaRudeClan.com</a> :\nCanyon des Ecouges</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=3109687\">Wikiloc.com</a> :\nCanyon LES ECOUGES</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            5.497402,
-            45.178679,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-7717fadc",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by bellino at wikiloc.com)",
-          "elevationMeters": 929
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            5.489237,
-            45.180418,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-368f2f16",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by bellino at wikiloc.com)",
-          "elevationMeters": 951
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            5.497262,
-            45.178853,
-            0
-          ]
-        },
-        "properties": {
-          "name": "start canyon",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-18cbb2f7",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by bellino at wikiloc.com)",
-          "elevationMeters": 937
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            5.495192,
-            45.179329,
-            0
-          ]
-        },
-        "properties": {
-          "name": "the big one (70m)",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-18cbb2f7",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by bellino at wikiloc.com)",
-          "elevationMeters": 979
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            5.487692,
-            45.179178,
-            0
-          ]
-        },
-        "properties": {
-          "name": "end of the canyon",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-18cbb2f7",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by bellino at wikiloc.com)",
-          "elevationMeters": 1140
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            5.49657,
-            45.179292,
-            0
-          ]
-        },
-        "properties": {
-          "name": "start of technical area",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-18cbb2f7",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by bellino at wikiloc.com)",
-          "elevationMeters": 940
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            5.492772,
-            45.178819,
-            0
-          ]
-        },
-        "properties": {
-          "name": "start of fun area",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-18cbb2f7",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by bellino at wikiloc.com)",
-          "elevationMeters": 1029
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -440,7 +279,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by bellino at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1201.4798803847907,
@@ -448,8 +287,176 @@
           "descentMeters": 211.79998779296875,
           "changeMeters": 22.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.497402,
+            45.178679,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "6ec4a1c5",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by bellino at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 929
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.489237,
+            45.180418,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-2c485300",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by bellino at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 951
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.497262,
+            45.178853,
+            0
+          ]
+        },
+        "properties": {
+          "name": "start canyon",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "15b9ad5e",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by bellino at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 937
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.495192,
+            45.179329,
+            0
+          ]
+        },
+        "properties": {
+          "name": "the big one (70m)",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "15b9ad5e",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by bellino at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 979
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.487692,
+            45.179178,
+            0
+          ]
+        },
+        "properties": {
+          "name": "end of the canyon",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "15b9ad5e",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by bellino at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1140
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.49657,
+            45.179292,
+            0
+          ]
+        },
+        "properties": {
+          "name": "start of technical area",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "15b9ad5e",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by bellino at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 940
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.492772,
+            45.178819,
+            0
+          ]
+        },
+        "properties": {
+          "name": "start of fun area",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "15b9ad5e",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by bellino at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1029
+        }
       }
     ]
   },
-  "version": "72beae3a0913cf32e0076162f76b51c0"
+  "version": "43f64ba6a636266b13f4788734a859f3"
 }

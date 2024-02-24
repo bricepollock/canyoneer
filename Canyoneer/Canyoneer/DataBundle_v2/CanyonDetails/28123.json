@@ -16,8 +16,8 @@
   "timeRating": "III",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 12,
+  "rappelCountMax": 12,
   "rappelLongestMeters": 45,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_garga.htm\">CicaRudeClan.com</a> :\nRio Eschio - Aschlbach</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/BZ007\">Catastoforre\nAIC-Canyoning.it</a> : Rio Eschio;Aschlbach;Forra di Gargazzone</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_Nord_Italia_Book?id=Rio_Eschio\">Canyoning\nNord Italia Book by Pascal van Duin</a> : Rio Eschio</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/AschlbachCanyon\">Canyon.Carto.net</a>\n: Forra di Gargazzone</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/23837?kmlidxna\">Descente-Canyon.com</a>\n: Gargazzone</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -43,6 +43,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
           "description": "\n\t\t\t\t<table style='margin:0px' cellspacing='0'>\n\t\t\t\t<tr bgcolor='#eeeeee'><th align='left'>Flussname</th><td>Aschlbach, Torrente Eschio</td></tr>\n\t\t\t\t<tr bgcolor='#dddddd'><th align='left'>Schluchtname</th><td>Forra di Gargazzone</td></tr>\n\t\t\t\t<tr bgcolor='#eeeeee'><th align='left'>Aliasname</th><td></td></tr>\n\t\t\t\t<tr bgcolor='#dddddd'><th align='left'>subj. Bewertung</th><td>0.0 von 7</td></tr>\n\t\t\t\t<tr bgcolor='#eeeeee'><th align='left'>Absicherung</th><td>xx</td></tr>\n\t\t\t\t<tr bgcolor='#dddddd'><th align='left'>Hhendiff.</th><td>270 m</td></tr>\n\t\t\t\t<tr bgcolor='#eeeeee'><th align='left'>Gesamtzeit</th><td>5h 10min</td></tr>\n\t\t\t\t<tr bgcolor='#dddddd'><th align='left'>max. Abseillnge</th><td>45 m</td></tr>\n\t\t\t\t<tr bgcolor='#dddddd'><th align='left'>Bewertung AIC</th><td>v4,a5,III</td></tr>\n\t\t\t\t</table>\n\t\t\t<br/>\n\t\t\t<a href='http:/canyon.carto.net/cwiki/bin/view/Canyons/AschlbachCanyon' target='_parent'>Forra di Gargazzone</a> auf <a href=\"http://canyon.carto.net/\" target=\"_top\">http://canyon.carto.net/</a>\n\t\t\t<br/>\n\t\t\t (Data by canyon.carto.net)",
+          "stroke": "#FF3B30",
           "elevationMeters": 267
         }
       },
@@ -66,10 +67,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png",
           "description": "\n\t\t\t<a href='http:/canyon.carto.net/cwiki/bin/view/Canyons/AschlbachCanyon' target='_parent'>Aschlbach</a> auf <a href=\"http://canyon.carto.net/\" target=\"_top\">http://canyon.carto.net/</a>\n\t\t\t<br/>\n\t\t\t (Data by canyon.carto.net)",
+          "stroke": "#FF3B30",
           "elevationMeters": 470
         }
       }
     ]
   },
-  "version": "81a241322719579677cbc193a8779261"
+  "version": "3b44dd7509ed2bf0806c5e4631c4747d"
 }

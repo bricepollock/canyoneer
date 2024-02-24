@@ -9,8 +9,8 @@
   "waterRating": "C",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 25,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -18,50 +18,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.684153,
-            -16.238011,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#sh_red-circle0",
-          "styleHash": "275f0c32",
-          "styleMapHash": {
-            "normal": "#sh_red-circle3",
-            "highlight": "#sh_red-circle2"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "elevationMeters": 2262
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.675981,
-            -16.222953,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#sh_green-circle2",
-          "styleHash": "-1e1da02f",
-          "styleMapHash": {
-            "normal": "#sh_green-circle0",
-            "highlight": "#sh_green-circle4"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
-          "elevationMeters": 2169
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -6838,7 +6794,7 @@
             "highlight": "#sh_ylw-pushpin00"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2322.8768775976782,
@@ -7208,7 +7164,7 @@
             "highlight": "#sh_ylw-pushpin10"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 488.71994327993514,
@@ -8248,7 +8204,7 @@
             "highlight": "#sh_ylw-pushpin23"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1807.711959443356,
@@ -8256,8 +8212,54 @@
           "descentMeters": 342.2003173828125,
           "changeMeters": 1.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.684153,
+            -16.238011,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#sh_red-circle0",
+          "styleHash": "275f0c32",
+          "styleMapHash": {
+            "normal": "#sh_red-circle3",
+            "highlight": "#sh_red-circle2"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2262
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.675981,
+            -16.222953,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#sh_green-circle2",
+          "styleHash": "-1e1da02f",
+          "styleMapHash": {
+            "normal": "#sh_green-circle0",
+            "highlight": "#sh_green-circle4"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+          "stroke": "#34C759",
+          "elevationMeters": 2169
+        }
       }
     ]
   },
-  "version": "21da5e91393481bdb3d5ead555e86d27"
+  "version": "71767a72135cf18d545b99be6d4b606a"
 }

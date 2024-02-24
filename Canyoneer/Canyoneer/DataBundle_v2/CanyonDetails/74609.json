@@ -28,66 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.34520184993745,
-            38.253462815268946,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 30'",
-          "elevationMeters": 1756
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.34533327817918,
-            38.25333011926912,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 60'",
-          "elevationMeters": 1754
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.345516,
-            38.253243,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 120'",
-          "elevationMeters": 1751
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.33227360248567,
-            38.26571403516509,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1969
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -164,7 +104,7 @@
         },
         "properties": {
           "name": "Mel Slot Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 473.31452179968636,
@@ -897,7 +837,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3159.5744348956505,
@@ -1440,7 +1380,7 @@
         },
         "properties": {
           "name": "Return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 3161.245381493996,
@@ -1448,8 +1388,72 @@
           "descentMeters": 210.2998046875,
           "changeMeters": 245.7000732421875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.34520184993745,
+            38.253462815268946,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 30'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1756
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.34533327817918,
+            38.25333011926912,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 60'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1754
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.345516,
+            38.253243,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 120'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1751
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.33227360248567,
+            38.26571403516509,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1969
+        }
       }
     ]
   },
-  "version": "abbb8e4adb48ffceef15a07c51ff360a"
+  "version": "551d75ee17af5f62a40c60d09ac5279f"
 }

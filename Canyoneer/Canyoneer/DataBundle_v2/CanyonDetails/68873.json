@@ -31,53 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.946058,
-            33.725047,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 110’",
-          "description": "Off tree",
-          "elevationMeters": 1399
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.94663,
-            33.72421,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 100’",
-          "description": "Off bush RDC",
-          "elevationMeters": 698
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9547793865204,
-            33.73336071445743,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 1584
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -629,7 +582,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1756.3680863153318,
@@ -792,7 +745,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 288.2270979799303,
@@ -1540,7 +1493,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1912.8192600438592,
@@ -1548,8 +1501,58 @@
           "descentMeters": 116.0999755859375,
           "changeMeters": 880.8999633789062
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.946058,
+            33.725047,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 110’",
+          "description": "Off tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1399
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.94663,
+            33.72421,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 100’",
+          "description": "Off bush RDC",
+          "stroke": "#FF3B30",
+          "elevationMeters": 698
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9547793865204,
+            33.73336071445743,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#34C759",
+          "elevationMeters": 1584
+        }
       }
     ]
   },
-  "version": "e2d55d9bbea73c0af63ff6762552df92"
+  "version": "dffd2a198f03e54cfa571dbfa818a060"
 }

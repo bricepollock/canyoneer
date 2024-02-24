@@ -13,8 +13,8 @@
   "waterRating": "C2",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 5,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 36.58,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -66,7 +66,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -696,7 +696,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -726,7 +726,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -1081,7 +1081,7 @@
         },
         "properties": {
           "name": "Road Shuttle",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#000000",
@@ -1104,6 +1104,7 @@
         },
         "properties": {
           "name": "Checkpoint",
+          "stroke": "#5856D6",
           "elevationMeters": 675
         }
       },
@@ -1119,6 +1120,7 @@
         },
         "properties": {
           "name": "Parking Approach",
+          "stroke": "#5856D6",
           "elevationMeters": 809
         }
       },
@@ -1134,6 +1136,7 @@
         },
         "properties": {
           "name": "Parking Exit",
+          "stroke": "#FFCC00",
           "elevationMeters": 698
         }
       },
@@ -1149,6 +1152,7 @@
         },
         "properties": {
           "name": "R10 - 25 ft",
+          "stroke": "#FF3B30",
           "elevationMeters": 650
         }
       },
@@ -1164,6 +1168,7 @@
         },
         "properties": {
           "name": "R1 - 20 ft",
+          "stroke": "#FF3B30",
           "elevationMeters": 875
         }
       },
@@ -1179,6 +1184,7 @@
         },
         "properties": {
           "name": "R2 - 15 ft",
+          "stroke": "#FF3B30",
           "elevationMeters": 834
         }
       },
@@ -1194,6 +1200,7 @@
         },
         "properties": {
           "name": "R3 - 30 ft",
+          "stroke": "#FF3B30",
           "elevationMeters": 773
         }
       },
@@ -1209,6 +1216,7 @@
         },
         "properties": {
           "name": "R4 - 130 ft",
+          "stroke": "#FF3B30",
           "elevationMeters": 773
         }
       },
@@ -1224,6 +1232,7 @@
         },
         "properties": {
           "name": "R6 - 30 ft",
+          "stroke": "#FF3B30",
           "elevationMeters": 701
         }
       },
@@ -1239,6 +1248,7 @@
         },
         "properties": {
           "name": "R7 - 20 ft",
+          "stroke": "#FF3B30",
           "elevationMeters": 696
         }
       },
@@ -1254,10 +1264,11 @@
         },
         "properties": {
           "name": "R8 - 70 ft",
+          "stroke": "#FF3B30",
           "elevationMeters": 675
         }
       }
     ]
   },
-  "version": "d4f74821240dce74f896afaa43dc60c6"
+  "version": "65814610e7eecf450ba9d96ae923374c"
 }

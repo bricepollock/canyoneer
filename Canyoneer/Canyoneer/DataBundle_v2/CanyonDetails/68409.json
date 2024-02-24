@@ -32,36 +32,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.865089,
-            34.893521,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "elevationMeters": 1546
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.88043230580662,
-            34.91330004847993,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Full Sunbear",
-          "elevationMeters": 1658
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -9228,7 +9198,7 @@
         },
         "properties": {
           "name": "sbt",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 4,
           "lengthMeters": 8396.133713292427,
@@ -9760,7 +9730,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3121.5946379517763,
@@ -9917,7 +9887,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 589.0295324070213,
@@ -10009,7 +9979,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 331.2107817539577,
@@ -10166,7 +10136,7 @@
           ]
         },
         "properties": {
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1871.579652651465,
@@ -10174,8 +10144,40 @@
           "descentMeters": 494.2000732421875,
           "changeMeters": 23.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.865089,
+            34.893521,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1546
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.88043230580662,
+            34.91330004847993,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Full Sunbear",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1658
+        }
       }
     ]
   },
-  "version": "c286fe3a6292e0d7b312deb5ec296904"
+  "version": "b6883a1c8d8f5c5ef21e5d709e6611d2"
 }

@@ -29,28 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.5040335,
-            38.0592135,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#icon-1644-0288D1-nodesc",
-          "styleHash": "-2ff614cc",
-          "styleMapHash": {
-            "normal": "#icon-1644-0288D1-nodesc-normal",
-            "highlight": "#icon-1644-0288D1-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1510
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -128,7 +106,7 @@
             "normal": "#line-0F9D58-4488-nodesc-normal",
             "highlight": "#line-0F9D58-4488-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4.488,
           "lengthMeters": 495.82702049550767,
@@ -747,7 +725,7 @@
             "normal": "#line-FF5252-4681-nodesc-normal",
             "highlight": "#line-FF5252-4681-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4.681,
           "lengthMeters": 1540.5965521736628,
@@ -1061,7 +1039,7 @@
             "normal": "#line-FFEA00-4875-nodesc-normal",
             "highlight": "#line-FFEA00-4875-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4.875,
           "lengthMeters": 1001.4156420483524,
@@ -1515,7 +1493,7 @@
             "normal": "#line-FFEA00-4681-nodesc-normal",
             "highlight": "#line-FFEA00-4681-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4.681,
           "lengthMeters": 1890.7222365327643,
@@ -1644,13 +1622,36 @@
             "normal": "#line-000000-4100-nodesc-normal",
             "highlight": "#line-000000-4100-nodesc-highlight"
           },
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4.1,
           "lengthMeters": 2445.572302277659,
           "ascentMeters": 240,
           "descentMeters": 227.7000732421875,
           "changeMeters": 12.2999267578125
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.5040335,
+            38.0592135,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#icon-1644-0288D1-nodesc",
+          "styleHash": "-2ff614cc",
+          "styleMapHash": {
+            "normal": "#icon-1644-0288D1-nodesc-normal",
+            "highlight": "#icon-1644-0288D1-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1510
         }
       },
       {
@@ -1672,10 +1673,11 @@
             "highlight": "#icon-1644-FFEA00-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 1497
         }
       }
     ]
   },
-  "version": "a0ecba3c85231c99e4c3388e71ae5870"
+  "version": "16296115f1902275d5ed859b123e7883"
 }

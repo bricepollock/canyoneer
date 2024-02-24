@@ -28,75 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.25673,
-            38.69457,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-d129815",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by TRIKINEITOR at wikiloc.com)",
-          "elevationMeters": 495
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.25677,
-            38.69457,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "50aabe9b",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by TRIKINEITOR at wikiloc.com)",
-          "elevationMeters": 495
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.256774,
-            38.694548,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Empezando",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-5bcf043",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by TRIKINEITOR at wikiloc.com)",
-          "elevationMeters": 495
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -294,7 +225,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by TRIKINEITOR at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2197.9809440660997,
@@ -302,8 +233,80 @@
           "descentMeters": 240,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.25673,
+            38.69457,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "2b6e4ea8",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by TRIKINEITOR at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 495
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.25677,
+            38.69457,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "1466415d",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by TRIKINEITOR at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 495
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.256774,
+            38.694548,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Empezando",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-6412c303",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by TRIKINEITOR at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 495
+        }
       }
     ]
   },
-  "version": "e6cf92b3b5bf04a49d03c59e00d7e1b6"
+  "version": "9c2b4645af1c41715a25a49e6c9458d7"
 }

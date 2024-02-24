@@ -35,36 +35,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.1278814673424,
-            21.465335322184785,
-            0
-          ]
-        },
-        "properties": {
-          "name": "upper parking",
-          "elevationMeters": 379
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.13763129711153,
-            21.453123553409156,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit shuttle",
-          "elevationMeters": 448
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -136,7 +106,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 476.1983899819727,
@@ -259,7 +229,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 1373.7075117715633,
@@ -1052,7 +1022,7 @@
         },
         "properties": {
           "name": "shuttle",
-          "stroke": "#000000",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 5069.529863000876,
@@ -1120,7 +1090,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 1032.0231318624024,
@@ -1128,8 +1098,40 @@
           "descentMeters": 0,
           "changeMeters": 48.100006103515625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.1278814673424,
+            21.465335322184785,
+            0
+          ]
+        },
+        "properties": {
+          "name": "upper parking",
+          "stroke": "#34C759",
+          "elevationMeters": 379
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.13763129711153,
+            21.453123553409156,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit shuttle",
+          "stroke": "#FFCC00",
+          "elevationMeters": 448
+        }
       }
     ]
   },
-  "version": "398dd269d6170ecf21f4072e21c98873"
+  "version": "f32c9df6fdce298fdfd80ae4943388ce"
 }

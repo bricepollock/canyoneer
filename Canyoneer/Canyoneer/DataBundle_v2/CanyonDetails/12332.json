@@ -14,8 +14,8 @@
   "waterRating": "C1",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 25,
+  "rappelCountMax": 25,
   "rappelLongestMeters": 50,
   "shuttleSeconds": 30,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2527\">Descente-Canyon.com</a>\n: Simon</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/RioSimonCanyon\">Canyon.Carto.net</a>\n: Rio Simon</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_simon.htm\">CicaRudeClan.com</a> :\nRio Simon</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://altisud.com/canyoning/italie/dolomites-du-frioul/bassin-du-fiume-de-fella/rio-simon-inferieur-cotation-v3-a3-4__i_id5ro1j6bfl__al_descente-canyon-fiche.html\">Altisud.com</a>\n: Rio Simon inférieur; cotation V3-A3-4</li>\n<li><img src=\"rwl_pl.png\" title=\"rwl_pl.png\" alt=\"rwl_pl.png\" /><a\nhref=\"http://canyoning.wroclaw.pl/kanion.php?id=80\">Canyoning.Wroclaw.pl</a>\n: Simon inf.</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/UD013\">Catastoforre\nAIC-Canyoning.it</a> : Rio Simon</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://WWW.canyoneast.it/target.php?w=1920&amp;lng=it&amp;target=Rio%20Simon\">Canyoneast.it</a>\n: SIMON</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://altisud.com/canyoning/italie/dolomites-du-frioul/bassin-du-fiume-de-fella/simon-inferieur-cotation-v3-a3-4__i_id5ro1j6bfl__al_descente-canyon-fiche.html\">Altisud.com</a>\n: Simon inférieur; cotation V3-A3-4</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_in_the_Alps_Book?id=Simon_Inferiore\">Canyoning\nin the Alps Book by Simon Flower</a> : Simon (Lower)</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_Nord_Italia_Book?id=Rio_Simon\">Canyoning\nNord Italia Book by Pascal van Duin</a> : Rio Simon</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/2580/\">Gulliver.it</a> : Rio Simon -\nResiutta (Udine)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://nko-extreme.com/2009/rio-simon\">NKO-Extreme.com</a> : Rio\nSimon</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
@@ -42,6 +42,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": "depart inferieur (Data by Streicher Wolfgang on 18 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 325
         }
       },
@@ -65,6 +66,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": "depart sup. (Data by Streicher Wolfgang on 01 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 695
         }
       },
@@ -88,6 +90,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 18 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 427
         }
       },
@@ -111,10 +114,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": "parking sur le pont  Rio Simon deconseillée (Data by Streicher Wolfgang on 18 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 795
         }
       }
     ]
   },
-  "version": "eb1b16c4c54bf2324e17873b9200794e"
+  "version": "268f894a7e076c34e954290619dffb23"
 }

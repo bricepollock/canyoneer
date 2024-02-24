@@ -24,28 +24,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8064344,
-            40.5470943,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rocky Mouth Trail Head",
-          "styleUrl": "#icon-1899-0288D1-nodesc",
-          "styleHash": "8e57c38",
-          "styleMapHash": {
-            "normal": "#icon-1899-0288D1-nodesc-normal",
-            "highlight": "#icon-1899-0288D1-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1404
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -228,7 +206,7 @@
             "normal": "#line-097138-4100-nodesc-normal",
             "highlight": "#line-097138-4100-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4.1,
           "lengthMeters": 563.86484761428,
@@ -292,7 +270,7 @@
             "normal": "#line-097138-4294-nodesc-normal",
             "highlight": "#line-097138-4294-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4.294,
           "lengthMeters": 152.4691970543224,
@@ -341,13 +319,36 @@
             "normal": "#line-A52714-4294-nodesc-normal",
             "highlight": "#line-A52714-4294-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4.294,
           "lengthMeters": 60.37434322018496,
           "ascentMeters": 0,
           "descentMeters": 24.5,
           "changeMeters": -24.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8064344,
+            40.5470943,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rocky Mouth Trail Head",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "styleHash": "8e57c38",
+          "styleMapHash": {
+            "normal": "#icon-1899-0288D1-nodesc-normal",
+            "highlight": "#icon-1899-0288D1-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1404
         }
       },
       {
@@ -369,6 +370,7 @@
             "highlight": "#icon-1899-0288D1-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
           "elevationMeters": 1470
         }
       },
@@ -391,10 +393,11 @@
             "highlight": "#icon-1899-0288D1-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1461
         }
       }
     ]
   },
-  "version": "b730156b773a6afb3c228ea3eacced18"
+  "version": "1fcfe1e9af1b663211646360e47475ef"
 }

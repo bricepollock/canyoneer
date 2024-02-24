@@ -8,60 +8,14 @@
   "technicalRating": 3,
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 15,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 20,
   "shuttleSeconds": 30,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p><a\nhref=\"https://www.wikiloc.com/canyoneering-trails/akhaia-rouskio-pharaggi-bilibinas-49911811\">https://www.wikiloc.com/canyoneering-trails/akhaia-rouskio-pharaggi-bilibinas-49911811</a></p>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            22.110678,
-            38.123543,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-74b61b96",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by nkilos at wikiloc.com)",
-          "elevationMeters": 1206
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            22.110618,
-            38.123559,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "2bcf9c4",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by nkilos at wikiloc.com)",
-          "elevationMeters": 1191
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -247,7 +201,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by nkilos at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2838.4073099212796,
@@ -255,8 +209,56 @@
           "descentMeters": 313.5999755859375,
           "changeMeters": -14.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.110678,
+            38.123543,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "5f7807ff",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by nkilos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1206
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.110618,
+            38.123559,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-65662f04",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by nkilos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1191
+        }
       }
     ]
   },
-  "version": "14424ccfc4cef861a83928a144f62dc4"
+  "version": "665f8d42180c53b9abfc80257dce91e5"
 }

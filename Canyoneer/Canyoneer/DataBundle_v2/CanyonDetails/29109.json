@@ -29,75 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.500986,
-            39.539429,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-2806243",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by David el Peri at wikiloc.com)",
-          "elevationMeters": 728
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.50195,
-            39.534497,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-1fe0f8f",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by David el Peri at wikiloc.com)",
-          "elevationMeters": 753
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.474907,
-            39.518658,
-            0
-          ]
-        },
-        "properties": {
-          "name": "cruce coche",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-64210b8e",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by David el Peri at wikiloc.com)",
-          "elevationMeters": 851
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -795,7 +726,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by David el Peri at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 11535.063377139753,
@@ -803,8 +734,80 @@
           "descentMeters": 561.199951171875,
           "changeMeters": 25.20001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.500986,
+            39.539429,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "68a708",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by David el Peri at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 728
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.50195,
+            39.534497,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "587cbc7e",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by David el Peri at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 753
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.474907,
+            39.518658,
+            0
+          ]
+        },
+        "properties": {
+          "name": "cruce coche",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "3d601861",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by David el Peri at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 851
+        }
       }
     ]
   },
-  "version": "315757534f9dcb614fcf5f49ef865f42"
+  "version": "50b54a99ef9192ffc5ffb569f66d6bdf"
 }

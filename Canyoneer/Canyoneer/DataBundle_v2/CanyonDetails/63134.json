@@ -31,101 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91157698631288,
-            34.92841012930842,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rockfall!!",
-          "elevationMeters": 1402
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91430747509004,
-            34.929463471110836,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "60ft from tree on nose of ridge.",
-          "elevationMeters": 1415
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91442012786867,
-            34.92941289342107,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "description": "100ft from tree on nose of ridge.",
-          "elevationMeters": 1415
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91491633653644,
-            34.929111625666415,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": "50ft from tree into slot.",
-          "elevationMeters": 1414
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91542327404024,
-            34.92904785351809,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "description": "90ft from tree down to small ledge for big rappel. max 3 people at ledge and must remain tied in.",
-          "elevationMeters": 1415
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91557615995409,
-            34.92894229950849,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "description": "210ft entirely free hanging after first 5 ft",
-          "elevationMeters": 1415
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -523,7 +428,7 @@
         "properties": {
           "name": "End of the Rope ",
           "description": "AKA K's Krack",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1806.3732457314484,
@@ -632,7 +537,7 @@
         "properties": {
           "name": "End of the Rope ",
           "description": "AKA K's Krack",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 515.2536172337061,
@@ -776,7 +681,7 @@
         "properties": {
           "name": "End of the Rope ",
           "description": "AKA K's Krack",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 283.3262364469347,
@@ -930,7 +835,7 @@
         "properties": {
           "name": "Alternate Approach",
           "description": "avoids rock fall in main gully.",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 401.80136243336716,
@@ -938,8 +843,109 @@
           "descentMeters": 15.39990234375,
           "changeMeters": -0.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91157698631288,
+            34.92841012930842,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rockfall!!",
+          "stroke": "#34C759",
+          "elevationMeters": 1402
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91430747509004,
+            34.929463471110836,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "60ft from tree on nose of ridge.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1415
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91442012786867,
+            34.92941289342107,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "100ft from tree on nose of ridge.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1415
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91491633653644,
+            34.929111625666415,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "50ft from tree into slot.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1414
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91542327404024,
+            34.92904785351809,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "description": "90ft from tree down to small ledge for big rappel. max 3 people at ledge and must remain tied in.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1415
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91557615995409,
+            34.92894229950849,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "description": "210ft entirely free hanging after first 5 ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1415
+        }
       }
     ]
   },
-  "version": "b636dc1173c3e1ab2b21552a06e2961d"
+  "version": "063a31500b1dfac6b42f648835866a70"
 }

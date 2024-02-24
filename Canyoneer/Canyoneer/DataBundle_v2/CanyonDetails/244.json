@@ -4,7 +4,7 @@
   "longitude": -116.749,
   "id": 244,
   "name": "Bad Canyon",
-  "quality": 3.5,
+  "quality": 3.6,
   "months": [
     "Nov",
     "Dec",
@@ -16,8 +16,8 @@
   "waterRating": "A",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 1,
-  "rappelCountMax": 1,
+  "rappelCountMin": 11,
+  "rappelCountMax": 11,
   "rappelLongestMeters": 60.96,
   "vehicle": "Passenger",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<p>Waypoints in the KML map contain detailed descriptions of all the\nrappels (courtesy of Bluugnome.com).</p>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://bluugnome.com/cyn_route/dv/dv_bad/dv_bad.aspx\">BluuGnome.com</a>\n: Bad Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://brennen.caltech.edu/swhikes/badcyn.htm\">Chris Brennen's\nAdventure Hikes (Southwest)</a> : Bad Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://ropewiki.com/User:Super_Amazing_Map?id=Bad_Canyon_-_California_(Death_Valley)\">Super\nAmazing Map</a> : Bad Canyon</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>First canyoneering descent by Mark Duttweiler, John Perry, Randi\nPoer, Scott Smith, Bob Greer, Ted Wring and Chris Brennen on Nov.15,\n2003.</p>\n",
@@ -93,7 +93,7 @@
         },
         "properties": {
           "name": "Shortcut Approach?",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#00CD00",
@@ -177,7 +177,7 @@
             [
               -116.71690464019775,
               36.237350601595494,
-              1474.0999755859375
+              1473.199951171875
             ],
             [
               -116.71690464019775,
@@ -278,14 +278,14 @@
         },
         "properties": {
           "name": "Approach from top",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#00CD00",
           "fill-opacity": 0.26666666666666666,
           "lengthMeters": 4449.0318364550085,
-          "ascentMeters": 1557.6999740600586,
-          "descentMeters": 1557.9999694824219,
+          "ascentMeters": 1556.799949645996,
+          "descentMeters": 1557.0999450683594,
           "changeMeters": -0.29999542236328125
         }
       },
@@ -553,7 +553,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -723,7 +723,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -933,7 +933,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -956,6 +956,7 @@
         },
         "properties": {
           "name": "Park",
+          "stroke": "#FFCC00",
           "elevationMeters": 421
         }
       },
@@ -971,6 +972,7 @@
         },
         "properties": {
           "name": "Canyon End",
+          "stroke": "#FFCC00",
           "elevationMeters": -84
         }
       },
@@ -986,6 +988,7 @@
         },
         "properties": {
           "name": "Parking Badwater",
+          "stroke": "#FF3B30",
           "elevationMeters": -84
         }
       },
@@ -1001,6 +1004,7 @@
         },
         "properties": {
           "name": "Parking Start from top",
+          "stroke": "#34C759",
           "elevationMeters": -83
         }
       },
@@ -1017,6 +1021,7 @@
         "properties": {
           "name": "Dante'sPeak",
           "description": "700 Feet",
+          "stroke": "#34C759",
           "elevationMeters": -84
         }
       },
@@ -1033,6 +1038,7 @@
         "properties": {
           "name": "R1-2",
           "description": "Raps 1 - 2 in Bad Canyon. Rap 1 anchored from large rock pile in the wash and drops about 90 feet. Rap 2 anchored from large rock embedded in the wash and drops about 30 feet.",
+          "stroke": "#FF3B30",
           "elevationMeters": -84
         }
       },
@@ -1049,6 +1055,7 @@
         "properties": {
           "name": "R3-4",
           "description": "Raps 3 - 4 in Bad Canyon. Rap 3 anchored from large rock down a rock slope about 150 feet LDC of drop and drops about 180 feet. Alternately a cairn anchor may be placed in the water course for a 170 foot drop. Rap 4 anchored from small rock feature and drops about 50 feet.",
+          "stroke": "#FF3B30",
           "elevationMeters": -84
         }
       },
@@ -1065,6 +1072,7 @@
         "properties": {
           "name": "R5",
           "description": "Rap 5 in Bad Canyon. Anchored from cairn anchor and drops about 110 feet. Possible to climb around LDC.",
+          "stroke": "#FF3B30",
           "elevationMeters": -83
         }
       },
@@ -1081,6 +1089,7 @@
         "properties": {
           "name": "R6",
           "description": "Rap 6 in Bad Canyon. Anchored from large rock in wash and drops about 50 feet. This rap has a potential rope stick point at the top.",
+          "stroke": "#FF3B30",
           "elevationMeters": -83
         }
       },
@@ -1097,6 +1106,7 @@
         "properties": {
           "name": "R7",
           "description": "Rap 7 in Bad Canyon. Anchored from a rock embedded in the wash and drops about 20 feet. It is faster and simpler to down climb around this rap RDC!",
+          "stroke": "#FF3B30",
           "elevationMeters": -83
         }
       },
@@ -1113,6 +1123,7 @@
         "properties": {
           "name": "R8",
           "description": "Rap 8 in Bad Canyon. Anchored from a single piton in the rock LDC and is easy to miss if no webbing is attached. The drop is about 25 feet down a sloped wall then 30 feet vertical.",
+          "stroke": "#FF3B30",
           "elevationMeters": -83
         }
       },
@@ -1129,6 +1140,7 @@
         "properties": {
           "name": "R9",
           "description": "Rap 9 in Bad Canyon. Anchored from rock pile in the wash and drops about 150 feet.",
+          "stroke": "#FF3B30",
           "elevationMeters": -83
         }
       },
@@ -1145,6 +1157,7 @@
         "properties": {
           "name": "R10",
           "description": "Rap 10 in Bad Canyon. Anchored from small cairn anchor and drops about 35 feet.",
+          "stroke": "#FF3B30",
           "elevationMeters": -83
         }
       },
@@ -1161,6 +1174,7 @@
         "properties": {
           "name": "R11",
           "description": "Rap 11 in Bad Canyon. Anchored from cairn anchor and drops over 2 stages of 15 feet then 40 feet.",
+          "stroke": "#FF3B30",
           "elevationMeters": -84
         }
       },
@@ -1176,10 +1190,11 @@
         },
         "properties": {
           "name": "Canyon Start",
+          "stroke": "#34C759",
           "elevationMeters": -84
         }
       }
     ]
   },
-  "version": "50fb6e9e99871784d7ecc93181f4e89d"
+  "version": "0646e5dce1e73f22c7bf09284805b124"
 }

@@ -16,8 +16,8 @@
   "timeRating": "III",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 15,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 65,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2684\">Descente-Canyon.com</a>\n: Salto</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/SaltoCanyon\">Canyon.Carto.net</a>\n: Valle del Salto</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://swisscanyon.ch/canyons/descrittivi/valle-salto.htm\">SwissCanyon.ch</a>\n: Valle del Salto</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://altisud.com/canyoning/suisse/suisse-italienne/bassin-du-tessin/val-maggia-canyoning__i_4mxvn8t4vh10__al_descente-canyon-fiche.html\">Altisud.com</a>\n: Val Maggia</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://verticalwatercanyoning.com/profili/svizzera/valle-del-salto\">VerticalWaterCanyoning.com</a>\n: Riale del Salto</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_in_the_Alps_Book?id=Salto\">Canyoning\nin the Alps Book by Simon Flower</a> : Salto</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://schlucht.ch/schluchten-der-schweiz-navbar.html?cid=97\">Schlucht.ch</a>\n: Valle del Salto</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://verticalwatercanyoning.com/profili/svizzera/Valle-del-salto\">VerticalWaterCanyoning.com</a>\n: Riale del Salto</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://WWW.barranquistas.es/2013/09/maggia-valle-del-salto.html\">Barranquistas.es</a>\n: MAGGIA - VALLE DEL SALTO</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -43,6 +43,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by merminodg on 19 mai 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 364
         }
       },
@@ -66,10 +67,11 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by merminodg on 19 mai 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 535
         }
       }
     ]
   },
-  "version": "ec59f358e6347391d73c50e29a7b8e00"
+  "version": "dd6e8c1d15a318f78a2c90f5de0fa98a"
 }

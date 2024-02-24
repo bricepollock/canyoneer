@@ -15,8 +15,8 @@
   "timeRating": "I",
   "riskRating": "R",
   "permit": "Yes",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 15,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 60,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21434\">Descente-Canyon.com</a>\n: Mus</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/ValDelMusCanyon\">Canyon.Carto.net</a>\n: Val del Mus inf.</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/BL016\">Catastoforre\nAIC-Canyoning.it</a> : Val del Mus</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/BL016B\">Catastoforre\nAIC-Canyoning.it</a> : Val del Mus;parte superiore</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_in_the_Alps_Book?id=Mus_Inferiore\">Canyoning\nin the Alps Book by Simon Flower</a> : Mus (Lower)</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_in_the_Alps_Book?id=Mus_Superiore\">Canyoning\nin the Alps Book by Simon Flower</a> : Mus (Upper)</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_Nord_Italia_Book?id=Mus\">Canyoning\nNord Italia Book by Pascal van Duin</a> : Mus</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/2242/\">Gulliver.it</a> : VAL DEL MUS\n- AGORDO (Belluno)</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/ValdeMussupCanyon\">Canyon.Carto.net</a>\n: Val del Mus sup.</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -42,6 +42,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": "pour l\\ (Data by Streicher Wolfgang on 11 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1760
         }
       },
@@ -65,6 +66,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": "pour la partie inf. (Data by Streicher Wolfgang on 11 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1555
         }
       },
@@ -88,10 +90,11 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 11 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1876
         }
       }
     ]
   },
-  "version": "82f239d22bd174ad1adc5eeabeeb253f"
+  "version": "a028a92f9a3eef4e860cd0e01373a186"
 }

@@ -14,8 +14,8 @@
   "waterRating": "C",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 4,
-  "rappelCountMax": 4,
+  "rappelCountMin": 14,
+  "rappelCountMax": 14,
   "rappelLongestMeters": 22,
   "vehicle": "Passenger",
   "shuttleSeconds": 2700,
@@ -277,7 +277,7 @@
         },
         "properties": {
           "name": "Boston Main Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#00CD00",
@@ -412,7 +412,7 @@
         },
         "properties": {
           "name": "Descent (Short)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -532,7 +532,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -687,7 +687,7 @@
         },
         "properties": {
           "name": "Approach (Full)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#00CD00",
@@ -787,7 +787,7 @@
         },
         "properties": {
           "name": "Descent (Full)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#FF0000",
@@ -1142,7 +1142,7 @@
         },
         "properties": {
           "name": "Shuttle Route",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#000000",
@@ -1192,7 +1192,7 @@
         },
         "properties": {
           "name": "Approach (Shuttle)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -1427,7 +1427,7 @@
         },
         "properties": {
           "name": "Approach (Short)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#00CD00",
@@ -1450,6 +1450,7 @@
         },
         "properties": {
           "name": "Exit Bridge",
+          "stroke": "#FFCC00",
           "elevationMeters": 171
         }
       },
@@ -1465,6 +1466,7 @@
         },
         "properties": {
           "name": "Rappel in Midpoint",
+          "stroke": "#FF3B30",
           "elevationMeters": 294
         }
       },
@@ -1480,6 +1482,7 @@
         },
         "properties": {
           "name": "Dam Gate (closed)",
+          "stroke": "#FFCC00",
           "elevationMeters": 137
         }
       },
@@ -1495,6 +1498,7 @@
         },
         "properties": {
           "name": "Parking Shuttle",
+          "stroke": "#FF3B30",
           "elevationMeters": 535
         }
       },
@@ -1510,10 +1514,11 @@
         },
         "properties": {
           "name": "Parking",
+          "stroke": "#FF3B30",
           "elevationMeters": 137
         }
       }
     ]
   },
-  "version": "c6d99752ea33a1802e166abea80a27f9"
+  "version": "7233c7ebabb6d0a1cc484d7799a2b31a"
 }

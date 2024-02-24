@@ -29,52 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.410551,
-            34.545661,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 2053
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.398265,
-            34.538652,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Alt Park",
-          "description": "Alt start for Short Exit.",
-          "elevationMeters": 2071
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.43357515335084,
-            34.54566983343943,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle",
-          "elevationMeters": 2039
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -112,7 +66,7 @@
         "properties": {
           "name": "Alt Approach",
           "description": "Drop into Shamrock from east side. Steep going down.",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1075.733113611653,
@@ -241,7 +195,7 @@
         "properties": {
           "name": "Short Exit",
           "description": "Exit up Clover Creek to Four Boulders climb out.",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2305.563659811737,
@@ -374,7 +328,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 358.545146343512,
@@ -572,7 +526,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 692.0534491373356,
@@ -1076,7 +1030,7 @@
         "properties": {
           "name": "Longer Exit",
           "description": "Steep and brushy",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3834.1658516251955,
@@ -2055,7 +2009,7 @@
         "properties": {
           "name": "Longest Exit",
           "description": "Long creek walk. Mostly along social trail. Most scenic exit option. Exit to rim via Point Trail.",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 4829.249197605423,
@@ -2614,7 +2568,7 @@
         "properties": {
           "name": "Shuttle Road",
           "description": "Optional 20-30min shuttle for Longest Exit.",
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 8752.142030158073,
@@ -2622,8 +2576,57 @@
           "descentMeters": 253.099609375,
           "changeMeters": 13.89990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.410551,
+            34.545661,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2053
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.398265,
+            34.538652,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Alt Park",
+          "description": "Alt start for Short Exit.",
+          "stroke": "#34C759",
+          "elevationMeters": 2071
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.43357515335084,
+            34.54566983343943,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2039
+        }
       }
     ]
   },
-  "version": "a4dfd26ce61c98966edd4b1b9990d80e"
+  "version": "afbe3063f00971c519a494333eb345f9"
 }

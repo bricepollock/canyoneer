@@ -14,75 +14,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.881612,
-            42.423436,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-7df6c3a",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by karibungo at wikiloc.com)",
-          "elevationMeters": 1363
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.88173,
-            42.423697,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-1fe0f8f",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by karibungo at wikiloc.com)",
-          "elevationMeters": 1756
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.887813,
-            42.437031,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Camino aproximacion",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-279089fd",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by karibungo at wikiloc.com)",
-          "elevationMeters": 2343
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -620,7 +551,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by karibungo at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 8968.644160340884,
@@ -628,8 +559,80 @@
           "descentMeters": 1521.7001953125,
           "changeMeters": 393.800048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.881612,
+            42.423436,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "15f4f803",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by karibungo at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1363
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.88173,
+            42.423697,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "343e383f",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by karibungo at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1756
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.887813,
+            42.437031,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Camino aproximacion",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "7f7d2cdf",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by karibungo at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2343
+        }
       }
     ]
   },
-  "version": "0714357ddcfd9e3c68b5e123c57de150"
+  "version": "4cafe13ad4e10ab1a355c579f0a20a05"
 }

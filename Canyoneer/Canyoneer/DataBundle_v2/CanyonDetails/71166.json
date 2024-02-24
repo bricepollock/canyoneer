@@ -27,111 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.39824065090062,
-            39.0311381910959,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Smith Camp Parking",
-          "elevationMeters": 1389
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.403683334589,
-            39.030231678705114,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bypass CR",
-          "elevationMeters": 1391
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.40986555,
-            39.03165444,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bypass CR",
-          "elevationMeters": 1403
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.40483132004738,
-            39.030711941564945,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bypass CL",
-          "elevationMeters": 1390
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.40870416,
-            39.0319703,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bypass CR",
-          "elevationMeters": 1401
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.40934296,
-            39.03182201,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bypass CL",
-          "elevationMeters": 1401
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.33293555866864,
-            39.00867352057699,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Junction Smith Camp & Buckmaster Roads",
-          "elevationMeters": 1365
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -318,7 +213,7 @@
         },
         "properties": {
           "name": "Saunter alt approach?",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 679.4311915674849,
@@ -1201,7 +1096,7 @@
         },
         "properties": {
           "name": "South Four Corners Mine Rd",
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 7724.422279661754,
@@ -1499,7 +1394,7 @@
         },
         "properties": {
           "name": "Smith Camp Rd",
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6917.458995869674,
@@ -1652,7 +1547,7 @@
         },
         "properties": {
           "name": "West Smith Camp Rd",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 443.09462452460417,
@@ -2160,7 +2055,7 @@
         },
         "properties": {
           "name": "Saunter descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 976.9988908129033,
@@ -3108,7 +3003,7 @@
         },
         "properties": {
           "name": "Saunter approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2341.5368036995687,
@@ -3321,7 +3216,7 @@
         },
         "properties": {
           "name": "Saunter return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 484.29016266402687,
@@ -3484,7 +3379,7 @@
         },
         "properties": {
           "name": "S Buckmaster Rd",
-          "stroke": "#000000",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3864.087497409375,
@@ -3617,7 +3512,7 @@
         },
         "properties": {
           "name": "Smith Camp Rd / N Buckmaster Rd",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3624.236453382339,
@@ -3625,8 +3520,120 @@
           "descentMeters": 114.7999267578125,
           "changeMeters": -38.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.39824065090062,
+            39.0311381910959,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Smith Camp Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1389
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.403683334589,
+            39.030231678705114,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bypass CR",
+          "stroke": "#5856D6",
+          "elevationMeters": 1391
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.40986555,
+            39.03165444,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bypass CR",
+          "stroke": "#5856D6",
+          "elevationMeters": 1403
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.40483132004738,
+            39.030711941564945,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bypass CL",
+          "stroke": "#5856D6",
+          "elevationMeters": 1390
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.40870416,
+            39.0319703,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bypass CR",
+          "stroke": "#5856D6",
+          "elevationMeters": 1401
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.40934296,
+            39.03182201,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bypass CL",
+          "stroke": "#5856D6",
+          "elevationMeters": 1401
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.33293555866864,
+            39.00867352057699,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Junction Smith Camp & Buckmaster Roads",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1365
+        }
       }
     ]
   },
-  "version": "1ee97fdecb090a36337c278819e11e85"
+  "version": "0ce05687a4d04e852c714b4c81eee788"
 }

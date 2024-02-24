@@ -14,8 +14,8 @@
   "waterRating": "C",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 3,
-  "rappelCountMax": 3,
+  "rappelCountMin": 13,
+  "rappelCountMax": 13,
   "rappelLongestMeters": 60.96,
   "vehicle": "Passenger",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>The first descent of Bozoo Creek occured on February 10, 2018 with\nHaruka James Clay Lipcomb, Barry Specht, Doug Hecker, Jake Huddleston,\nand Tiffanie Lin. We started the day at 32F and ended the day at 32F and\nlikely were slightly hypothermic. Freezefest I occurred and we decided\nto name this creek Bozoo Creek since we felt like a bunch of bozos for\nrunning it during the Winter and the next creek over is Yozoo Creek.</p>\n",
@@ -116,7 +116,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -196,7 +196,7 @@
         },
         "properties": {
           "name": "Approach - shortcut",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#00CD00",
@@ -246,7 +246,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -269,10 +269,11 @@
         },
         "properties": {
           "name": "Park",
+          "stroke": "#FF3B30",
           "elevationMeters": 1013
         }
       }
     ]
   },
-  "version": "bd993fa952042de64894e8d65de800ef"
+  "version": "061adccf3b131e4dd81c943c3c5a8816"
 }

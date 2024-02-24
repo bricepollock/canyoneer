@@ -23,36 +23,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.92013764230923,
-            48.510518429056106,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking & Exit",
-          "elevationMeters": 928
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.91914700852664,
-            48.50669953650468,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-in",
-          "elevationMeters": 1044
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -284,7 +254,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1238.1761992881952,
@@ -352,7 +322,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 445.67023846981544,
@@ -360,8 +330,40 @@
           "descentMeters": 116.2999267578125,
           "changeMeters": -116.2999267578125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.92013764230923,
+            48.510518429056106,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking & Exit",
+          "stroke": "#FF3B30",
+          "elevationMeters": 928
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.91914700852664,
+            48.50669953650468,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-in",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1044
+        }
       }
     ]
   },
-  "version": "3f18058b4af5e93bde078838ae0a2920"
+  "version": "5e74dc640bf5821f379278a68acd9682"
 }

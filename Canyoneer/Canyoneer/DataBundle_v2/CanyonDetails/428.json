@@ -21,81 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.253,
-            34.24967,
-            0
-          ]
-        },
-        "properties": {
-          "name": "34.2497, -118.2530",
-          "elevationMeters": 1402
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2328,
-            34.25617,
-            0
-          ]
-        },
-        "properties": {
-          "name": "34.25617, -118.2328",
-          "elevationMeters": 924
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.229,
-            34.2635,
-            0
-          ]
-        },
-        "properties": {
-          "name": "34.2635, -118.229",
-          "elevationMeters": 705
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2177,
-            34.2575,
-            0
-          ]
-        },
-        "properties": {
-          "name": "34.2575, -118.2177",
-          "elevationMeters": 612
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2227,
-            34.242,
-            0
-          ]
-        },
-        "properties": {
-          "name": "34.242, -118.2227",
-          "elevationMeters": 778
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1732,7 +1657,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6751.666711342867,
@@ -1875,7 +1800,7 @@
         },
         "properties": {
           "name": "Sutton Canyon",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2272.0402328378655,
@@ -1883,8 +1808,88 @@
           "descentMeters": 82.29998779296875,
           "changeMeters": 147.70001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.253,
+            34.24967,
+            0
+          ]
+        },
+        "properties": {
+          "name": "34.2497, -118.2530",
+          "stroke": "#34C759",
+          "elevationMeters": 1402
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2328,
+            34.25617,
+            0
+          ]
+        },
+        "properties": {
+          "name": "34.25617, -118.2328",
+          "stroke": "#FF3B30",
+          "elevationMeters": 924
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.229,
+            34.2635,
+            0
+          ]
+        },
+        "properties": {
+          "name": "34.2635, -118.229",
+          "stroke": "#34C759",
+          "elevationMeters": 705
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2177,
+            34.2575,
+            0
+          ]
+        },
+        "properties": {
+          "name": "34.2575, -118.2177",
+          "stroke": "#34C759",
+          "elevationMeters": 612
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2227,
+            34.242,
+            0
+          ]
+        },
+        "properties": {
+          "name": "34.242, -118.2227",
+          "stroke": "#FF3B30",
+          "elevationMeters": 778
+        }
       }
     ]
   },
-  "version": "c3f8c8eb9eb690c8eae4bbcf55985ac0"
+  "version": "8d39d36a40decb7e1180fc6bea545622"
 }

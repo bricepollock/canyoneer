@@ -26,81 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.22856521606447,
-            44.583941858795626,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gorge Begins",
-          "elevationMeters": 852
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.23992977387,
-            44.58355589315824,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 717
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.2414461215529,
-            44.58551135664303,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Minniece Creek",
-          "elevationMeters": 713
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.2131607741018,
-            44.58698953430044,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 1028
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.22625851631166,
-            44.584492031358366,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shortcut Parking",
-          "elevationMeters": 969
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -117,7 +42,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 66.18059242952936,
@@ -290,7 +215,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2488.6129558854764,
@@ -323,7 +248,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 83.64240155527656,
@@ -571,7 +496,7 @@
         },
         "properties": {
           "name": "Shuttle Drive",
-          "stroke": "#0b0404",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 3148.8159810310376,
@@ -634,7 +559,7 @@
         },
         "properties": {
           "name": "Helser Direct Route",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 87.31556171732763,
@@ -642,8 +567,88 @@
           "descentMeters": 35.5,
           "changeMeters": -28.79998779296875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.22856521606447,
+            44.583941858795626,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gorge Begins",
+          "stroke": "#FF3B30",
+          "elevationMeters": 852
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.23992977387,
+            44.58355589315824,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#5856D6",
+          "elevationMeters": 717
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.2414461215529,
+            44.58551135664303,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Minniece Creek",
+          "stroke": "#5856D6",
+          "elevationMeters": 713
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.2131607741018,
+            44.58698953430044,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#5856D6",
+          "elevationMeters": 1028
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.22625851631166,
+            44.584492031358366,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shortcut Parking",
+          "stroke": "#5856D6",
+          "elevationMeters": 969
+        }
       }
     ]
   },
-  "version": "6867dc139d7802dd39799275ae7693df"
+  "version": "376230fa728c9a06dd03f35727952311"
 }

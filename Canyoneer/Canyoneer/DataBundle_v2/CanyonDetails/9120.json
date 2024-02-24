@@ -17,8 +17,8 @@
   "waterRating": "C",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 10,
+  "rappelCountMax": 12,
   "rappelLongestMeters": 37,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -527,35 +527,13 @@
             "highlight": "#sh_ylw-pushpin2"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1834.777842936253,
           "ascentMeters": 89.60009765625,
           "descentMeters": 76.2000732421875,
           "changeMeters": 13.4000244140625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.5483433604069,
-            20.87501041850166,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Approach",
-          "styleUrl": "#msn_parking_lot0",
-          "styleHash": "7f7dce89",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot0",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 1659
         }
       },
       {
@@ -854,35 +832,13 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2701.078483721153,
           "ascentMeters": 319.2000732421875,
           "descentMeters": 453.7000732421875,
           "changeMeters": -134.5
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.5732053092303,
-            20.88016273869211,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Exit",
-          "styleUrl": "#msn_parking_lot0",
-          "styleHash": "7f7dce89",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot0",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 1480
         }
       },
       {
@@ -1041,57 +997,13 @@
             "highlight": "#sh_ylw-pushpin24"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3090.048469545152,
           "ascentMeters": 265.2000732421875,
           "descentMeters": 89.5,
           "changeMeters": 175.7000732421875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.5559114356996,
-            20.86698676984033,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#msn_placemark_circle",
-          "styleHash": "-7069adcd",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle",
-            "highlight": "#sh_placemark_circle_highlight"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 1673
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.5629976105929,
-            20.87384642053745,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cascada - Plan de Limon",
-          "styleUrl": "#msn_placemark_circle",
-          "styleHash": "-7069adcd",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle",
-            "highlight": "#sh_placemark_circle_highlight"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 1618
         }
       },
       {
@@ -1465,7 +1377,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1507.0172698464612,
@@ -1473,8 +1385,100 @@
           "descentMeters": 77.39990234375,
           "changeMeters": -55
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.5483433604069,
+            20.87501041850166,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "styleUrl": "#msn_parking_lot0",
+          "styleHash": "7f7dce89",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot0",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1659
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.5732053092303,
+            20.88016273869211,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "styleUrl": "#msn_parking_lot0",
+          "styleHash": "7f7dce89",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot0",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1480
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.5559114356996,
+            20.86698676984033,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#msn_placemark_circle",
+          "styleHash": "-7069adcd",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle",
+            "highlight": "#sh_placemark_circle_highlight"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1673
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.5629976105929,
+            20.87384642053745,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cascada - Plan de Limon",
+          "styleUrl": "#msn_placemark_circle",
+          "styleHash": "-7069adcd",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle",
+            "highlight": "#sh_placemark_circle_highlight"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1618
+        }
       }
     ]
   },
-  "version": "da48c2d4a8142f2b5803d71daf026fc3"
+  "version": "e821c7231462c1a50e83831fadc8d02b"
 }

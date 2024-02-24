@@ -29,50 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.90263,
-            38.53002,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1401
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9513496,
-            38.5310854,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Final Rappel",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1716
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -410,7 +366,7 @@
             "normal": "#line-097138-6038-nodesc-normal",
             "highlight": "#line-097138-6038-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6.038,
           "lengthMeters": 2829.4347523154383,
@@ -1789,7 +1745,7 @@
             "normal": "#line-097138-5844-nodesc-normal",
             "highlight": "#line-097138-5844-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 4071.9003198587347,
@@ -2328,7 +2284,7 @@
             "normal": "#line-A52714-5456-nodesc-normal",
             "highlight": "#line-A52714-5456-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 1574.633670392881,
@@ -2517,7 +2473,7 @@
             "normal": "#line-FF5252-5844-nodesc-normal",
             "highlight": "#line-FF5252-5844-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 603.3516596112612,
@@ -2611,7 +2567,7 @@
             "normal": "#line-F57C00-3519-nodesc-normal",
             "highlight": "#line-F57C00-3519-nodesc-highlight"
           },
-          "stroke": "#f57c00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 3.519,
           "lengthMeters": 113.23191895301449,
@@ -3180,7 +3136,7 @@
             "normal": "#line-FFD600-5456-nodesc-normal",
             "highlight": "#line-FFD600-5456-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 2030.0071286583934,
@@ -3188,8 +3144,54 @@
           "descentMeters": 128.300048828125,
           "changeMeters": -96.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.90263,
+            38.53002,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1401
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9513496,
+            38.5310854,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Final Rappel",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1716
+        }
       }
     ]
   },
-  "version": "01d85fd8c5fd54ae4de7af632c687028"
+  "version": "d98d48aa0a366d7ce4f83a9a4dd4928a"
 }

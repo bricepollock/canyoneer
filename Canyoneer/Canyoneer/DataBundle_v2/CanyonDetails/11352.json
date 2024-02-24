@@ -26,81 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.67791858621786,
-            33.76435573099908,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 620
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.66050568529317,
-            33.78812212212138,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Creek Bed intersection with sign",
-          "elevationMeters": 333
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.65753388404848,
-            33.799773641848226,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lock MTB to pole",
-          "elevationMeters": 353
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.65511989593507,
-            33.798017266442756,
-            0
-          ]
-        },
-        "properties": {
-          "name": "100 Foot Waterfall R1",
-          "elevationMeters": 315
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.65588968992235,
-            33.7981732910973,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Optional rappel R0",
-          "elevationMeters": 313
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -582,7 +507,7 @@
         },
         "properties": {
           "name": "Approach and Exit MTB",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 7579.612209161998,
@@ -655,7 +580,7 @@
         },
         "properties": {
           "name": "Canyon Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 138.60102038922446,
@@ -808,7 +733,7 @@
         },
         "properties": {
           "name": "Approach and Exit on Foot",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1376.4624153722134,
@@ -1026,7 +951,7 @@
         },
         "properties": {
           "name": "Approach and Exit on Foot or MTB",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3977.9440263269025,
@@ -1069,7 +994,7 @@
         },
         "properties": {
           "name": "Right Hand trail and bonus rappel",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 43.507431553067825,
@@ -1252,7 +1177,7 @@
         },
         "properties": {
           "name": "Full Hike around (MTB exit, Foot approach)",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 340.31083166464396,
@@ -1300,7 +1225,7 @@
         },
         "properties": {
           "name": "Side trail around R1",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 48.250016845672455,
@@ -1308,8 +1233,88 @@
           "descentMeters": 3.5,
           "changeMeters": -3.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.67791858621786,
+            33.76435573099908,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#34C759",
+          "elevationMeters": 620
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.66050568529317,
+            33.78812212212138,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Creek Bed intersection with sign",
+          "stroke": "#FF9500",
+          "elevationMeters": 333
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.65753388404848,
+            33.799773641848226,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lock MTB to pole",
+          "stroke": "#34C759",
+          "elevationMeters": 353
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.65511989593507,
+            33.798017266442756,
+            0
+          ]
+        },
+        "properties": {
+          "name": "100 Foot Waterfall R1",
+          "stroke": "#FF9500",
+          "elevationMeters": 315
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.65588968992235,
+            33.7981732910973,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Optional rappel R0",
+          "stroke": "#FF3B30",
+          "elevationMeters": 313
+        }
       }
     ]
   },
-  "version": "6fb6314e10af93f78c1c21a15293a8fd"
+  "version": "1382e9f6aa0a2bef1388ff42aa5b6598"
 }

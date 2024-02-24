@@ -31,66 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.30770349502565,
-            35.22206318462106,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 602
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.2987261414528,
-            35.22032448221785,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 (180 ft)",
-          "elevationMeters": 665
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.29901045560838,
-            35.21987857081122,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Abandoned Railroad Bridge",
-          "elevationMeters": 658
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.29862689971925,
-            35.219896100544226,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R0 (15 ft)",
-          "elevationMeters": 666
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -3672,7 +3612,7 @@
         },
         "properties": {
           "name": "Melrose Falls Exploration",
-          "stroke": "#5E7A8C",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 4392.859079106706,
@@ -3895,7 +3835,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 904.4210141042652,
@@ -3943,7 +3883,7 @@
         },
         "properties": {
           "name": "Upper Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 111.83790042514411,
@@ -3981,7 +3921,7 @@
         },
         "properties": {
           "name": "Upper Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 59.575158268646724,
@@ -4009,7 +3949,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 57.37179685993587,
@@ -4242,7 +4182,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 982.736423253211,
@@ -4250,8 +4190,72 @@
           "descentMeters": 138.2000732421875,
           "changeMeters": -48.60003662109375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.30770349502565,
+            35.22206318462106,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 602
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.2987261414528,
+            35.22032448221785,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 (180 ft)",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 665
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.29901045560838,
+            35.21987857081122,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Abandoned Railroad Bridge",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 658
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.29862689971925,
+            35.219896100544226,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R0 (15 ft)",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 666
+        }
       }
     ]
   },
-  "version": "6c666d8d21b9acf4c2e714bc81e73133"
+  "version": "1a7b0d9282e6accdb72fd0ce37e6e40e"
 }

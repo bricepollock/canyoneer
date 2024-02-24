@@ -15,8 +15,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 25,
+  "rappelCountMax": 25,
   "rappelLongestMeters": 25,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/22804\">Descente-Canyon.com</a>\n: Pedena</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/PedenaCanyon\">Canyon.Carto.net</a>\n: Valle Pedena</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/SO031\">Catastoforre\nAIC-Canyoning.it</a> : Valle Pedena</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -42,6 +42,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by IP on 20 août 2012)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1561
         }
       },
@@ -65,6 +66,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by IP on 20 août 2012)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1147
         }
       },
@@ -88,10 +90,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by IP on 19 août 2012)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1439
         }
       }
     ]
   },
-  "version": "fbfc669d91ca4d1683c8e5c47aa81c51"
+  "version": "d6e8eae201e71589eec9c87a9b5511e6"
 }

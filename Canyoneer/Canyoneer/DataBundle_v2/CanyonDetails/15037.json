@@ -17,29 +17,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.448012,
-            42.716971,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-93",
-          "styleHash": "203f2b70",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "42.716971N, 1.448012E",
-          "elevationMeters": 1045
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -96,7 +73,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00FF00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 549.7662433973082,
@@ -169,13 +146,37 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 517.3769044171667,
           "ascentMeters": 63.60009765625,
           "descentMeters": 143.800048828125,
           "changeMeters": -80.199951171875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.448012,
+            42.716971,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-93",
+          "styleHash": "203f2b70",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "42.716971N, 1.448012E",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1045
         }
       },
       {
@@ -198,10 +199,11 @@
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png",
           "description": "42.717247N, 1.441827E",
+          "stroke": "#34C759",
           "elevationMeters": 1124
         }
       }
     ]
   },
-  "version": "8c82aac40212b6c197fe199746fa6e70"
+  "version": "bf8eb5d4d140b29790ce92889f2a6c71"
 }

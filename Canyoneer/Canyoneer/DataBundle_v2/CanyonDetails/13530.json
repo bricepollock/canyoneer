@@ -32,98 +32,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.016365,
-            39.80978,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-2c768df1",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Casiaventurilla at wikiloc.com)",
-          "elevationMeters": 725
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.01641,
-            39.80987,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "351690a3",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Casiaventurilla at wikiloc.com)",
-          "elevationMeters": 718
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.016319,
-            39.809837,
-            0
-          ]
-        },
-        "properties": {
-          "name": "aparcamiento",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "75ec7cd1",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Casiaventurilla at wikiloc.com)",
-          "elevationMeters": 725
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.00361,
-            39.80909,
-            0
-          ]
-        },
-        "properties": {
-          "name": "inicio Rambla (1er Rapel)",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "75ec7cd1",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Casiaventurilla at wikiloc.com)",
-          "elevationMeters": 832
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1606,7 +1514,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Casiaventurilla at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3710.8868011793484,
@@ -1614,8 +1522,104 @@
           "descentMeters": 310.79998779296875,
           "changeMeters": -6.89996337890625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.016365,
+            39.80978,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-73c2e36",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Casiaventurilla at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 725
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.01641,
+            39.80987,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "3f04b99c",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Casiaventurilla at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 718
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.016319,
+            39.809837,
+            0
+          ]
+        },
+        "properties": {
+          "name": "aparcamiento",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "18b1ba9a",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Casiaventurilla at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 725
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.00361,
+            39.80909,
+            0
+          ]
+        },
+        "properties": {
+          "name": "inicio Rambla (1er Rapel)",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "18b1ba9a",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Casiaventurilla at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 832
+        }
       }
     ]
   },
-  "version": "d82abec5cf4598542c14179c08d39d3c"
+  "version": "c97ebf3f0c0193e1cb5c29cf61f7b060"
 }

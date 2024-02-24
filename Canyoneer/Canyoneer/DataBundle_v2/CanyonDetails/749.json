@@ -33,28 +33,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.2575773,
-            37.572573,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Egypt 1 - 3A I",
-          "styleUrl": "#icon-1596-FF5252-nodesc",
-          "styleHash": "-4058c370",
-          "styleMapHash": {
-            "normal": "#icon-1596-FF5252-nodesc-normal",
-            "highlight": "#icon-1596-FF5252-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1604
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -297,7 +275,7 @@
             "normal": "#line-FF5252-5263-nodesc-normal",
             "highlight": "#line-FF5252-5263-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 1387.6659981263747,
@@ -486,7 +464,7 @@
             "normal": "#line-FFEA00-5650-nodesc-normal",
             "highlight": "#line-FFEA00-5650-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 1435.300521730423,
@@ -494,8 +472,31 @@
           "descentMeters": 67.89990234375,
           "changeMeters": 3.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.2575773,
+            37.572573,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Egypt 1 - 3A I",
+          "styleUrl": "#icon-1596-FF5252-nodesc",
+          "styleHash": "-4058c370",
+          "styleMapHash": {
+            "normal": "#icon-1596-FF5252-nodesc-normal",
+            "highlight": "#icon-1596-FF5252-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1604
+        }
       }
     ]
   },
-  "version": "0dbf2fdffd293de9204eeb8ce88894be"
+  "version": "d28e8a64a1b262d58f8c67b2ac699b0d"
 }

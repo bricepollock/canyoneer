@@ -25,81 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.9839500188828,
-            40.36180356491879,
-            0
-          ]
-        },
-        "properties": {
-          "name": "dispersed camping further on Blue Mountain Road",
-          "elevationMeters": 2260
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.84108628,
-            40.46091936,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 65'",
-          "elevationMeters": 1859
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.841245621443,
-            40.4611582919119,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 100'",
-          "elevationMeters": 1859
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.83596971631,
-            40.4620745815893,
-            0
-          ]
-        },
-        "properties": {
-          "name": "bypass CR",
-          "elevationMeters": 1843
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.83709370924271,
-            40.45963094219918,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1842
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -256,7 +181,7 @@
         },
         "properties": {
           "name": "Approach West Serviceberry Canyon",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 430.88152444404255,
@@ -619,7 +544,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 736.687350997054,
@@ -1097,7 +1022,7 @@
         },
         "properties": {
           "name": "Return (approx Bull Canyon Trail)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1257.2191199515032,
@@ -3751,7 +3676,7 @@
         "properties": {
           "name": "Yampa Bench Road",
           "description": "easily negotiable from Harper's Corner with 4WD HC in dry conditions ",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 18181.66246983954,
@@ -4680,7 +4605,7 @@
         "properties": {
           "name": "Sand Canyon",
           "description": "easily passable with 4WD HC in dry conditions",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 11997.669420344959,
@@ -7273,7 +7198,7 @@
         },
         "properties": {
           "name": "Harper's Corner Road",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 40945.00136971964,
@@ -7281,8 +7206,88 @@
           "descentMeters": 4147.1009521484375,
           "changeMeters": -520.60009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.9839500188828,
+            40.36180356491879,
+            0
+          ]
+        },
+        "properties": {
+          "name": "dispersed camping further on Blue Mountain Road",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2260
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.84108628,
+            40.46091936,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 65'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1859
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.841245621443,
+            40.4611582919119,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 100'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1859
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.83596971631,
+            40.4620745815893,
+            0
+          ]
+        },
+        "properties": {
+          "name": "bypass CR",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1843
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.83709370924271,
+            40.45963094219918,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1842
+        }
       }
     ]
   },
-  "version": "edc772252c0def4cdfd52602b667fa18"
+  "version": "bcd0071fcb8eb08e3a4a1d4bbcac86cd"
 }

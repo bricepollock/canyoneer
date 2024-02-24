@@ -24,51 +24,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.53125437301635,
-            47.450738234719886,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Original Drop-in",
-          "elevationMeters": 281
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.53278079362674,
-            47.45313273469556,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Final Rappel",
-          "elevationMeters": 265
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.53201,
-            47.45170999999999,
-            0
-          ]
-        },
-        "properties": {
-          "name": "First rap [Jul/17/2021]",
-          "elevationMeters": 269
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -105,7 +60,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 176.4662487732694,
@@ -143,7 +98,7 @@
         },
         "properties": {
           "name": "Original Descent",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 85.61821383177816,
@@ -186,7 +141,7 @@
         },
         "properties": {
           "name": "Short-cut approach [Jul/17/2021]",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 119.83106171489956,
@@ -244,7 +199,7 @@
         },
         "properties": {
           "name": "Original Approach",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 237.53354068665857,
@@ -302,7 +257,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 208.48617539705242,
@@ -310,8 +265,56 @@
           "descentMeters": 4.499969482421875,
           "changeMeters": -4.199981689453125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.53125437301635,
+            47.450738234719886,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Original Drop-in",
+          "stroke": "#34C759",
+          "elevationMeters": 281
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.53278079362674,
+            47.45313273469556,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Final Rappel",
+          "stroke": "#34C759",
+          "elevationMeters": 265
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.53201,
+            47.45170999999999,
+            0
+          ]
+        },
+        "properties": {
+          "name": "First rap [Jul/17/2021]",
+          "stroke": "#34C759",
+          "elevationMeters": 269
+        }
       }
     ]
   },
-  "version": "8da4b1c42234d004be8e81914ba19119"
+  "version": "2374ab99572fe24a275f2b1b2b1f5deb"
 }

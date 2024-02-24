@@ -26,141 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.56775736808778,
-            44.92627539324323,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Abiqua Falls",
-          "elevationMeters": 736
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.559871673584,
-            44.92265189719817,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Abiqua Falls",
-          "elevationMeters": 737
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.56795585155488,
-            44.93147854648687,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gate",
-          "elevationMeters": 668
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.54890680313112,
-            44.93108357912309,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Uppermost Parking (2WD)",
-          "elevationMeters": 454
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.56261825561525,
-            44.929594831569354,
-            0
-          ]
-        },
-        "properties": {
-          "name": "More Parking",
-          "elevationMeters": 696
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.56797194480897,
-            44.93130384971866,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lowest Parking (4WD)",
-          "elevationMeters": 668
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.56081044673921,
-            44.92348752452848,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start Approach",
-          "elevationMeters": 737
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.5581979751587,
-            44.915510586108276,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Homestead Falls",
-          "elevationMeters": 705
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.55882024765016,
-            44.92391293013681,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rough Section",
-          "elevationMeters": 714
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -342,7 +207,7 @@
         },
         "properties": {
           "name": "Exit Trail",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 546.6942254662362,
@@ -1045,7 +910,7 @@
         },
         "properties": {
           "name": "Abiqua Road",
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3968.1517867124207,
@@ -1113,7 +978,7 @@
         },
         "properties": {
           "name": "Approach Trail",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 243.98843937928922,
@@ -1216,7 +1081,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 872.327286265048,
@@ -1224,8 +1089,152 @@
           "descentMeters": 10.4000244140625,
           "changeMeters": 0.79998779296875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.56775736808778,
+            44.92627539324323,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Abiqua Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 736
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.559871673584,
+            44.92265189719817,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Abiqua Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 737
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.56795585155488,
+            44.93147854648687,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gate",
+          "stroke": "#FF3B30",
+          "elevationMeters": 668
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.54890680313112,
+            44.93108357912309,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Uppermost Parking (2WD)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 454
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.56261825561525,
+            44.929594831569354,
+            0
+          ]
+        },
+        "properties": {
+          "name": "More Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 696
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.56797194480897,
+            44.93130384971866,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lowest Parking (4WD)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 668
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.56081044673921,
+            44.92348752452848,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start Approach",
+          "stroke": "#34C759",
+          "elevationMeters": 737
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.5581979751587,
+            44.915510586108276,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Homestead Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 705
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.55882024765016,
+            44.92391293013681,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rough Section",
+          "stroke": "#FFCC00",
+          "elevationMeters": 714
+        }
       }
     ]
   },
-  "version": "260822de80f0e06eb3d8a2f7b2b51662"
+  "version": "b37a12eecee00131de53fbb70a74a04a"
 }

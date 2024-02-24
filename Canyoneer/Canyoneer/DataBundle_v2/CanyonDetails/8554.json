@@ -23,80 +23,14 @@
   "waterRating": "B",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 22,
+  "rappelCountMax": 22,
   "rappelLongestMeters": 97,
   "vehicle": "Passenger",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>This canyon is located about 1 hour NE of Guadalajara and is a\ntributary to the beautiful Rio Verde. The entrance rappel is the only\nbig one at 97m, then followed by a series of 21 more short rappels,\ndownclimbs, jumps and slides. It has yet to be done with any water flow,\nso unknown how nice (or not) it is.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>From Guadalajara one takes the autopista to the turn off into\nZapotlanejo, and then follows the free road to the north, turning off to\nget to the town of La Purisima. One skips this town on the right, and\nthen at the top of the hill leave on the left and follow the dirt roads\nto the parking area.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>R1 is the only really challenging rappel at 97m, and needing a short\nrappel off trees to get to the anchors just over the edge. The rest are\nmainly done off trees. See details in map below.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>One follows a narrow trail that is close to arroyo at the bottom on\nthe west side, and then after crossing over the arroyo just above R21,\nmoves away onto a very steep ridge (which literally has steps cut into\nthe rock in one place), and which eventually finds the one breach in the\nupper cliff band to gain the farm fields above. Follow around the edge\nof the fields, before finding the road and getting back to the car. A\ngood 2 hour hike back up.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>Access and exit are across private lands, so one should ask\npermission of the landowner(s) before going in.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://jaliscovertical.weebly.com/pajaritos.html\">JaliscoVertical.Weebly.com</a>\n: PAJARITOS</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p>For a video of the exploration trip see: <a\nhref=\"http://youtu.be/FfDTjX5J-MY\">http://youtu.be/FfDTjX5J-MY</a></p>\n<h2 id=\"background\">Background</h2>\n<p>This canyon was first descended by Fatima Delgado, Alberto Cortes,\nDaniel Matakanes y Chris Lloyd on 16 Mar. 2012.</p>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.0733357232693,
-            20.74192305987163,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#m_ylw-pushpin0",
-          "styleHash": "27d6ffc",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 1741
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.0830791871187,
-            20.74199835860816,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - Drop In",
-          "styleUrl": "#msn_placemark_circle",
-          "styleHash": "-4e83398a",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle",
-            "highlight": "#sh_placemark_circle_highlight"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 1677
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.0846231240477,
-            20.7596165697187,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rio Verde",
-          "styleUrl": "#msn_placemark_circle",
-          "styleHash": "-4e83398a",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle",
-            "highlight": "#sh_placemark_circle_highlight"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 1735
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -178,7 +112,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1275.9536551848937,
@@ -368,7 +302,7 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2214.155901985746,
@@ -543,13 +477,82 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2720.9043108255205,
           "ascentMeters": 44,
           "descentMeters": 37.2999267578125,
           "changeMeters": 6.7000732421875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.0733357232693,
+            20.74192305987163,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#m_ylw-pushpin0",
+          "styleHash": "27d6ffc",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1741
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.0830791871187,
+            20.74199835860816,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - Drop In",
+          "styleUrl": "#msn_placemark_circle",
+          "styleHash": "-4e83398a",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle",
+            "highlight": "#sh_placemark_circle_highlight"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1677
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.0846231240477,
+            20.7596165697187,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rio Verde",
+          "styleUrl": "#msn_placemark_circle",
+          "styleHash": "-4e83398a",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle",
+            "highlight": "#sh_placemark_circle_highlight"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1735
         }
       },
       {
@@ -571,6 +574,7 @@
             "highlight": "#sh_placemark_circle_highlight"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1738
         }
       },
@@ -593,10 +597,11 @@
             "highlight": "#sh_placemark_circle_highlight"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1742
         }
       }
     ]
   },
-  "version": "5941e4c308a7f1281cef7784dee0b4cb"
+  "version": "0889b2a511e46f164a8b161641b26dfb"
 }

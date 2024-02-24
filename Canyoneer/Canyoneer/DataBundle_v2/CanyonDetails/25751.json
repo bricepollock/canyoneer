@@ -27,36 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.5042297,
-            38.8667865,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "elevationMeters": 1434
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.5032599,
-            38.8645192,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Hottest Pool",
-          "elevationMeters": 1434
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -133,7 +103,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 264.04630783192636,
@@ -141,8 +111,40 @@
           "descentMeters": 0.2999267578125,
           "changeMeters": -0.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.5042297,
+            38.8667865,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 1434
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.5032599,
+            38.8645192,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Hottest Pool",
+          "stroke": "#34C759",
+          "elevationMeters": 1434
+        }
       }
     ]
   },
-  "version": "bb54f01b802584139f1e1383733ca7b2"
+  "version": "96120462fa3c69196c045946fc91be13"
 }

@@ -9,80 +9,14 @@
   "waterRating": "C",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 15,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 50,
   "shuttleSeconds": 30,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>A canyon along the Death Road! This is a surprisingly lush canyon,\nparticularly at the start, after a hike up a dry and in some places\nburned hillside. It finishes right at the Death Road. You'll need\npermission to drive up the death road, so it's best to hire a taxi to\ntake you (and wait for you), or contact El Vagante canyoning in Coroico\nfor them to obtain permission for you. Watch out for the hordes of\nbicyclists descending the Death Road!</p>\n<p>The best time to descend this canyon is in the spring when there is\nmore water, but even in Sep 2023 we had enough flow to make this\nenjoyable.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>From the starting coordinate, hike steeply up the hillside to the top\nof a field, and then on the east side of the field find a farmer's trail\ncontouring along the hillside for about a half hour, until it drops into\nthe deep crevice of this canyon.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>Number of rappels and max height are approximate as I don't remember\nthe exact numbers.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>Exit right at the Death Road.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>Permission required to descend. Please see <a href=\"Coroico\"\ntitle=\"wikilink\"><strong>Coroico</strong></a> region page for more\ninformation.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.78426654643172,
-            -16.23049266637754,
-            1983
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#sh_ylw-pushpin22",
-          "styleHash": "-59e714a1",
-          "styleMapHash": {
-            "normal": "#sh_ylw-pushpin25",
-            "highlight": "#sh_ylw-pushpin24"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "elevationMeters": 3145
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.79404164553321,
-            -16.22848831988434,
-            1791.3
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#msn_P1",
-          "styleHash": "-4c9667e8",
-          "styleMapHash": {
-            "normal": "#sn_P",
-            "highlight": "#sh_P3"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
-          "elevationMeters": 2911
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.7850571684635,
-            -16.22640455127872,
-            1749.9
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#msn_S3",
-          "styleHash": "1d81d9f6",
-          "styleMapHash": {
-            "normal": "#sn_S3",
-            "highlight": "#sh_S"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
-          "elevationMeters": 2887
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -4259,7 +4193,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1430.3324180460193,
@@ -4774,7 +4708,7 @@
             "highlight": "#sh_ylw-pushpin14"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 541.0775324492319,
@@ -5519,7 +5453,7 @@
             "highlight": "#sh_ylw-pushpin7"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1048.1498986282552,
@@ -5527,8 +5461,77 @@
           "descentMeters": 207,
           "changeMeters": 24.10009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.78426654643172,
+            -16.23049266637754,
+            1983
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#sh_ylw-pushpin22",
+          "styleHash": "-59e714a1",
+          "styleMapHash": {
+            "normal": "#sh_ylw-pushpin25",
+            "highlight": "#sh_ylw-pushpin24"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#34C759",
+          "elevationMeters": 3145
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.79404164553321,
+            -16.22848831988434,
+            1791.3
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#msn_P1",
+          "styleHash": "-4c9667e8",
+          "styleMapHash": {
+            "normal": "#sn_P",
+            "highlight": "#sh_P3"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2911
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.7850571684635,
+            -16.22640455127872,
+            1749.9
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#msn_S3",
+          "styleHash": "1d81d9f6",
+          "styleMapHash": {
+            "normal": "#sn_S3",
+            "highlight": "#sh_S"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2887
+        }
       }
     ]
   },
-  "version": "40cc4c59dc92f1e8dcbad1b3569d0bca"
+  "version": "1a895c07c45b2565f855526443c6580b"
 }

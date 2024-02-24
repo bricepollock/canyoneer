@@ -31,28 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.4335996,
-            38.7966775,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Winter Camp / Reapeter Jr Trailhead",
-          "styleUrl": "#icon-1644-097138-nodesc",
-          "styleHash": "4a201df4",
-          "styleMapHash": {
-            "normal": "#icon-1644-097138-nodesc-normal",
-            "highlight": "#icon-1644-097138-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1460
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -395,7 +373,7 @@
             "normal": "#line-097138-5000-nodesc-normal",
             "highlight": "#line-097138-5000-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1072.4334879989221,
@@ -604,57 +582,13 @@
             "normal": "#line-A52714-5000-nodesc-normal",
             "highlight": "#line-A52714-5000-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 563.6147634641057,
           "ascentMeters": 57.7999267578125,
           "descentMeters": 1.89990234375,
           "changeMeters": 55.9000244140625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.4246745,
-            38.8000695,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rappel",
-          "styleUrl": "#icon-1772-A52714-nodesc",
-          "styleHash": "d5b62f0",
-          "styleMapHash": {
-            "normal": "#icon-1772-A52714-nodesc-normal",
-            "highlight": "#icon-1772-A52714-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1452
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.4220426,
-            38.8040168,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit",
-          "styleUrl": "#icon-1899-FFD600-nodesc",
-          "styleHash": "-feb55e8",
-          "styleMapHash": {
-            "normal": "#icon-1899-FFD600-nodesc-normal",
-            "highlight": "#icon-1899-FFD600-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1507
         }
       },
       {
@@ -1002,7 +936,7 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 666.4070811048651,
@@ -1010,8 +944,77 @@
           "descentMeters": 62.699951171875,
           "changeMeters": -55.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.4335996,
+            38.7966775,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Winter Camp / Reapeter Jr Trailhead",
+          "styleUrl": "#icon-1644-097138-nodesc",
+          "styleHash": "4a201df4",
+          "styleMapHash": {
+            "normal": "#icon-1644-097138-nodesc-normal",
+            "highlight": "#icon-1644-097138-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1460
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.4246745,
+            38.8000695,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rappel",
+          "styleUrl": "#icon-1772-A52714-nodesc",
+          "styleHash": "d5b62f0",
+          "styleMapHash": {
+            "normal": "#icon-1772-A52714-nodesc-normal",
+            "highlight": "#icon-1772-A52714-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1452
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.4220426,
+            38.8040168,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "styleUrl": "#icon-1899-FFD600-nodesc",
+          "styleHash": "-feb55e8",
+          "styleMapHash": {
+            "normal": "#icon-1899-FFD600-nodesc-normal",
+            "highlight": "#icon-1899-FFD600-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1507
+        }
       }
     ]
   },
-  "version": "27e3f09e25b77a2eac5ee9bb6e6d0fb6"
+  "version": "8ad9d0ead8170c70ad784aa50492a23e"
 }

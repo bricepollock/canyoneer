@@ -17,8 +17,8 @@
   "waterRating": "A",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 7,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 18.29,
   "vehicle": "Passenger",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>Two nice slot canyons in central Nevada.</p>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><a\nhref=\"https://www.facebook.com/media/set/?set=a.262453227161138.62171.179244358815359&amp;type=3\">Las\nVegas Slots Facebook Beta</a></li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Las_Vegas_Slots_Book?id=Beehive%20Canyons\">Las\nVegas Slots Book by Rick Ianiello</a> : Beehive Canyons</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -99,7 +99,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -164,7 +164,7 @@
         },
         "properties": {
           "name": "Approach South Beehive",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#00CD00",
@@ -234,7 +234,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -309,7 +309,7 @@
         },
         "properties": {
           "name": "Descent North Behive",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -379,7 +379,7 @@
         },
         "properties": {
           "name": "Descent South Behive",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#FF0000",
@@ -409,7 +409,7 @@
         },
         "properties": {
           "name": "Skinny Drop",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#FFAA00",
@@ -432,6 +432,7 @@
         },
         "properties": {
           "name": "Parking",
+          "stroke": "#FFCC00",
           "elevationMeters": 1650
         }
       },
@@ -447,10 +448,11 @@
         },
         "properties": {
           "name": "Beehive",
+          "stroke": "#FF3B30",
           "elevationMeters": 1608
         }
       }
     ]
   },
-  "version": "434ccc18b650504d4b9bc45ab68e9184"
+  "version": "29f08995a8ea9105d08082deb17a8c3f"
 }

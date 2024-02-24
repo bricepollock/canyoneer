@@ -26,51 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.59159999999997,
-            38.0906,
-            0
-          ]
-        },
-        "properties": {
-          "name": "hunters camp = drop into Oben",
-          "elevationMeters": 3330
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.5918210693789,
-            38.07709865967798,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6: 270' Roostertail Falls",
-          "elevationMeters": 2671
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.60897848221366,
-            38.0944512702076,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 2862
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1777,7 +1732,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5292.010722219348,
@@ -1865,7 +1820,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2394.024522334556,
@@ -3313,7 +3268,7 @@
         },
         "properties": {
           "name": "Drive 4WD HC",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 20172.84215739531,
@@ -4436,7 +4391,7 @@
         },
         "properties": {
           "name": "Return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2569.238471158866,
@@ -4444,8 +4399,56 @@
           "descentMeters": 660.7001953125,
           "changeMeters": 187.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.59159999999997,
+            38.0906,
+            0
+          ]
+        },
+        "properties": {
+          "name": "hunters camp = drop into Oben",
+          "stroke": "#34C759",
+          "elevationMeters": 3330
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.5918210693789,
+            38.07709865967798,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6: 270' Roostertail Falls",
+          "stroke": "#5856D6",
+          "elevationMeters": 2671
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.60897848221366,
+            38.0944512702076,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 2862
+        }
       }
     ]
   },
-  "version": "878a8374a7f65bd1b7abe5e3134da3cb"
+  "version": "c148061296d0287627ff648e74693172"
 }

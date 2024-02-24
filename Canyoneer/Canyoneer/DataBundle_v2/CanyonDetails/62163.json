@@ -30,37 +30,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.877346,
-            34.918347,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In",
-          "description": "Off tree",
-          "elevationMeters": 1576
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.87495,
-            34.9231,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End of Technical Section",
-          "elevationMeters": 1585
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -4612,7 +4581,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#DCEE0E",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 4794.516774058479,
@@ -9815,7 +9784,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 4666.600806498455,
@@ -10063,7 +10032,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2225.499349564502,
@@ -10126,7 +10095,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 581.8565336857281,
@@ -10134,8 +10103,41 @@
           "descentMeters": 53.199951171875,
           "changeMeters": 29.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.877346,
+            34.918347,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In",
+          "description": "Off tree",
+          "stroke": "#34C759",
+          "elevationMeters": 1576
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.87495,
+            34.9231,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End of Technical Section",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1585
+        }
       }
     ]
   },
-  "version": "b198a3f31e65c8e6704d8ff40b1c4980"
+  "version": "57e255bd85eb3deda7165d02312c4db6"
 }

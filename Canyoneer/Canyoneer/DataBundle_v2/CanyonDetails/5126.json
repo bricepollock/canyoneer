@@ -26,141 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.08344207242203,
-            39.42084662852962,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 120'",
-          "elevationMeters": 3344
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.0836667705002,
-            39.42094262368601,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 70'",
-          "elevationMeters": 3353
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.05072764184867,
-            39.43700804620447,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3252
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.08239003900911,
-            39.421070052217225,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5: 120'",
-          "elevationMeters": 3316
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.08405434970285,
-            39.42103172008193,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 80'",
-          "elevationMeters": 4015
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.08175781162413,
-            39.4210884709388,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6: 80' rope Continental Falls",
-          "elevationMeters": 3333
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.07284109994634,
-            39.42589718412076,
-            0
-          ]
-        },
-        "properties": {
-          "name": "4x4 Parking, end of road ",
-          "elevationMeters": 3345
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.0828550340072,
-            39.42084004589246,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4: 100'",
-          "elevationMeters": 3326
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.08163266008903,
-            39.42112125328586,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Continental Falls",
-          "elevationMeters": 3333
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -397,7 +262,7 @@
         },
         "properties": {
           "name": "4x4 road",
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2365.2774675009478,
@@ -835,7 +700,7 @@
         },
         "properties": {
           "name": "Spruce Creek Road",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1981.2869052450978,
@@ -1408,7 +1273,7 @@
         },
         "properties": {
           "name": "Spruce Creek Trail from 2WD parking",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3042.839457076962,
@@ -1451,7 +1316,7 @@
         },
         "properties": {
           "name": "shortcut?",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 28.410058174805876,
@@ -1514,7 +1379,7 @@
         },
         "properties": {
           "name": "Spruce return approx",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 98.67690295224045,
@@ -1662,7 +1527,7 @@
         },
         "properties": {
           "name": "Spruce descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 400.07760196775126,
@@ -2235,7 +2100,7 @@
         },
         "properties": {
           "name": "approach Spruce Creek Trail to Mohawk Lake",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1915.0872442715859,
@@ -2243,8 +2108,152 @@
           "descentMeters": 851.30029296875,
           "changeMeters": -591.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.08344207242203,
+            39.42084662852962,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 120'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3344
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.0836667705002,
+            39.42094262368601,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 70'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3353
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.05072764184867,
+            39.43700804620447,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3252
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.08239003900911,
+            39.421070052217225,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5: 120'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3316
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.08405434970285,
+            39.42103172008193,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 80'",
+          "stroke": "#5856D6",
+          "elevationMeters": 4015
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.08175781162413,
+            39.4210884709388,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6: 80' rope Continental Falls",
+          "stroke": "#5856D6",
+          "elevationMeters": 3333
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.07284109994634,
+            39.42589718412076,
+            0
+          ]
+        },
+        "properties": {
+          "name": "4x4 Parking, end of road ",
+          "stroke": "#34C759",
+          "elevationMeters": 3345
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.0828550340072,
+            39.42084004589246,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4: 100'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3326
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.08163266008903,
+            39.42112125328586,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Continental Falls",
+          "stroke": "#5856D6",
+          "elevationMeters": 3333
+        }
       }
     ]
   },
-  "version": "9da7f585be2057a2cd98a8b871f9da48"
+  "version": "b6781cf4eafd02f5e8cb443cb3736849"
 }

@@ -25,111 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.12269306182863,
-            45.618585072131154,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gable Falls",
-          "elevationMeters": 319
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.11738228797914,
-            45.61321188882271,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 234
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.12228268384935,
-            45.620729323828094,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Middle Falls",
-          "elevationMeters": 400
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.12191790342332,
-            45.62183049558525,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Falls",
-          "elevationMeters": 468
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.12012887001039,
-            45.62114390721552,
-            0
-          ]
-        },
-        "properties": {
-          "name": "LeaveTrail",
-          "elevationMeters": 418
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.1172857284546,
-            45.616483888562804,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Old Homestead Site",
-          "elevationMeters": 270
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.12054729461671,
-            45.60980460363063,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Checkpoint",
-          "elevationMeters": 238
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -216,7 +111,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 428.34633081857044,
@@ -294,7 +189,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 430.0230930150985,
@@ -797,7 +692,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1925.397315457715,
@@ -805,8 +700,120 @@
           "descentMeters": 38.89997863769531,
           "changeMeters": 254.40000915527344
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.12269306182863,
+            45.618585072131154,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gable Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 319
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.11738228797914,
+            45.61321188882271,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 234
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.12228268384935,
+            45.620729323828094,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Middle Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 400
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.12191790342332,
+            45.62183049558525,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 468
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.12012887001039,
+            45.62114390721552,
+            0
+          ]
+        },
+        "properties": {
+          "name": "LeaveTrail",
+          "stroke": "#34C759",
+          "elevationMeters": 418
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.1172857284546,
+            45.616483888562804,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Old Homestead Site",
+          "stroke": "#34C759",
+          "elevationMeters": 270
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.12054729461671,
+            45.60980460363063,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Checkpoint",
+          "stroke": "#FF3B30",
+          "elevationMeters": 238
+        }
       }
     ]
   },
-  "version": "981f171f141ed8e1e07de37223952c04"
+  "version": "307dba78f42b62047da962694489ca64"
 }

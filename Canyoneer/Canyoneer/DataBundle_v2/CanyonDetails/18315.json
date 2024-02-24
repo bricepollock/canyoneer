@@ -14,8 +14,8 @@
   "waterRating": "C",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 12,
+  "rappelCountMax": 12,
   "rappelLongestMeters": 20,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2703\">Descente-Canyon.com</a>\n: Susec</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/SusecPotokCanyon\">Canyon.Carto.net</a>\n: Susec</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barrancos.org/Eslovenia/Susec.htm\">Barrancos.org</a> :\nSusec</li>\n<li><img src=\"rwl_pl.png\" title=\"rwl_pl.png\" alt=\"rwl_pl.png\" /><a\nhref=\"http://canyoning.wroclaw.pl/kanion.php?id=26\">Canyoning.Wroclaw.pl</a>\n: Susec</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://canisciolti.biz/2012/canyon/shede/susec.html\">Canisciolti.biz</a>\n: SUSEC</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://canyonguides.org/guide-book/canyon-locations-map?id=Susec\">UK\nCanyonGuides.org</a> : Susec</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://icopro.org/canyon/view/id/282\">Icopro.org</a> : sussec</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=18403886\">Wikiloc.com</a> :\nCanyon Sušec</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -41,6 +41,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 24 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 579
         }
       },
@@ -64,6 +65,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 24 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 719
         }
       },
@@ -87,10 +89,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Streicher Wolfgang on 24 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 740
         }
       }
     ]
   },
-  "version": "65e5a63da38de8f4cb4ab0d814f3b10d"
+  "version": "d44fec289cc946473f19d34e2949ea7a"
 }

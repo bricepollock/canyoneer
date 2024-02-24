@@ -27,81 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.6526734828949,
-            46.58503951431974,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-In",
-          "elevationMeters": 342
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.6551009927791,
-            46.58636876779943,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 422
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.6574048995972,
-            46.58877415683671,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End Lower Section",
-          "elevationMeters": 459
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.6639699722146,
-            46.58960129351827,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Parking",
-          "elevationMeters": 425
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.6580539941788,
-            46.5892017993831,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R15",
-          "elevationMeters": 453
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -188,7 +113,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 567.6055034231584,
@@ -266,7 +191,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 245.26348031627344,
@@ -360,7 +285,7 @@
             "normal": "#style",
             "highlight": "#style0"
           },
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 362.3752429069632,
@@ -498,7 +423,7 @@
         },
         "properties": {
           "name": "Shuttle Exit",
-          "stroke": "#a200ff",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 665.5720264947471,
@@ -766,7 +691,7 @@
         },
         "properties": {
           "name": "Shuttle (Optional)",
-          "stroke": "#000000",
+          "stroke": "#FF9500",
           "stroke-opacity": 0.7019607843137254,
           "stroke-width": 5,
           "lengthMeters": 2539.5286419260287,
@@ -774,8 +699,88 @@
           "descentMeters": 183.5,
           "changeMeters": 1.300018310546875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.6526734828949,
+            46.58503951431974,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-In",
+          "stroke": "#FF3B30",
+          "elevationMeters": 342
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.6551009927791,
+            46.58636876779943,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 422
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.6574048995972,
+            46.58877415683671,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End Lower Section",
+          "stroke": "#FF3B30",
+          "elevationMeters": 459
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.6639699722146,
+            46.58960129351827,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 425
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.6580539941788,
+            46.5892017993831,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R15",
+          "stroke": "#AF52DE",
+          "elevationMeters": 453
+        }
       }
     ]
   },
-  "version": "fdb2d452d4edf046105b5ca90844252c"
+  "version": "67ad2b38f6a1e809ad0a5d28a2574bd4"
 }

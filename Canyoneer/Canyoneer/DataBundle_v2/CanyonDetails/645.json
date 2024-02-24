@@ -15,8 +15,8 @@
   "waterRating": "B",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 8,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 48.77,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -24,207 +24,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.792,
-            34.9964,
-            0
-          ]
-        },
-        "properties": {
-          "name": "IMM Parking",
-          "description": "Parking for sneak route",
-          "elevationMeters": 2022
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7875,
-            35.0028,
-            0
-          ]
-        },
-        "properties": {
-          "name": "IMM RP1 40ft",
-          "elevationMeters": 2116
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7876,
-            35.003,
-            0
-          ]
-        },
-        "properties": {
-          "name": "IMM RP2 60ft",
-          "elevationMeters": 2116
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7876,
-            35.003,
-            0
-          ]
-        },
-        "properties": {
-          "name": "IMM RP3 10ft",
-          "description": "Optional slide into pool",
-          "elevationMeters": 2116
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7876,
-            35.0046,
-            0
-          ]
-        },
-        "properties": {
-          "name": "IMM RP4 150ft",
-          "elevationMeters": 2097
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7875,
-            35.0045,
-            0
-          ]
-        },
-        "properties": {
-          "name": "IMM RP5 40ft",
-          "elevationMeters": 2097
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7874,
-            35.0048,
-            0
-          ]
-        },
-        "properties": {
-          "name": "IMM RP6 80ft",
-          "elevationMeters": 2094
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7871,
-            35.005,
-            0
-          ]
-        },
-        "properties": {
-          "name": "IMM RP7 180ft",
-          "elevationMeters": 2084
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7867,
-            35.0053,
-            0
-          ]
-        },
-        "properties": {
-          "name": "IMM RP8 105ft",
-          "description": "A 200ft rope will work on this if you wedge yourself in before quite reaching the bottom of the rappel and pull your rope from there.",
-          "elevationMeters": 2076
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7867,
-            35.0053,
-            0
-          ]
-        },
-        "properties": {
-          "name": "IMM RP9 20ft",
-          "elevationMeters": 2076
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7878,
-            35.0042,
-            0
-          ]
-        },
-        "properties": {
-          "name": "IMM SLD1 10ft",
-          "description": "Into shallow pool",
-          "elevationMeters": 2105
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7867,
-            35.0055,
-            0
-          ]
-        },
-        "properties": {
-          "name": "IMM Sneak Exit Start",
-          "description": "From the last rappel go ~200yards down the drainage. There are two small cairns and faint use trail may be visible. As you proceed up the canyon will fork, stay to the right (north). Very loose dirt and some poison ivy. Staying to the rocks in canyon bottom may be helpful.",
-          "elevationMeters": 2076
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7916,
-            35.008,
-            0
-          ]
-        },
-        "properties": {
-          "name": "IMM Sneak Exit Top",
-          "description": "From here head south up a short hill then pickup a faint old road that will take you all the way back to the parking area",
-          "elevationMeters": 2102
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -1024,7 +823,7 @@
         },
         "properties": {
           "name": "IMM Approach 0.7mi",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1144.888623317311,
@@ -1412,7 +1211,7 @@
         },
         "properties": {
           "name": "IMM Decent 0.3mi",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 440.5095480910885,
@@ -2390,7 +2189,7 @@
         },
         "properties": {
           "name": "IMM Exit Oak Creek 5.8mi",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 9274.829657969874,
@@ -3753,7 +3552,7 @@
         },
         "properties": {
           "name": "IMM Sneak Exit 1.4mi",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2209.850460678316,
@@ -7537,7 +7336,7 @@
         "properties": {
           "name": "IMM Road Shuttle 1 hr 15 min",
           "description": "1 hr 15 min drive from Call O' The Canyon Trail head on 89A to IMM Parking. Oct 2019 : well graded dirt road",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 45308.20795835046,
@@ -7545,8 +7344,222 @@
           "descentMeters": 3103.9996337890625,
           "changeMeters": 395.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.792,
+            34.9964,
+            0
+          ]
+        },
+        "properties": {
+          "name": "IMM Parking",
+          "description": "Parking for sneak route",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 2022
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7875,
+            35.0028,
+            0
+          ]
+        },
+        "properties": {
+          "name": "IMM RP1 40ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2116
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7876,
+            35.003,
+            0
+          ]
+        },
+        "properties": {
+          "name": "IMM RP2 60ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2116
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7876,
+            35.003,
+            0
+          ]
+        },
+        "properties": {
+          "name": "IMM RP3 10ft",
+          "description": "Optional slide into pool",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2116
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7876,
+            35.0046,
+            0
+          ]
+        },
+        "properties": {
+          "name": "IMM RP4 150ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2097
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7875,
+            35.0045,
+            0
+          ]
+        },
+        "properties": {
+          "name": "IMM RP5 40ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2097
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7874,
+            35.0048,
+            0
+          ]
+        },
+        "properties": {
+          "name": "IMM RP6 80ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2094
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7871,
+            35.005,
+            0
+          ]
+        },
+        "properties": {
+          "name": "IMM RP7 180ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2084
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7867,
+            35.0053,
+            0
+          ]
+        },
+        "properties": {
+          "name": "IMM RP8 105ft",
+          "description": "A 200ft rope will work on this if you wedge yourself in before quite reaching the bottom of the rappel and pull your rope from there.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2076
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7867,
+            35.0053,
+            0
+          ]
+        },
+        "properties": {
+          "name": "IMM RP9 20ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2076
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7878,
+            35.0042,
+            0
+          ]
+        },
+        "properties": {
+          "name": "IMM SLD1 10ft",
+          "description": "Into shallow pool",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2105
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7867,
+            35.0055,
+            0
+          ]
+        },
+        "properties": {
+          "name": "IMM Sneak Exit Start",
+          "description": "From the last rappel go ~200yards down the drainage. There are two small cairns and faint use trail may be visible. As you proceed up the canyon will fork, stay to the right (north). Very loose dirt and some poison ivy. Staying to the rocks in canyon bottom may be helpful.",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2076
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7916,
+            35.008,
+            0
+          ]
+        },
+        "properties": {
+          "name": "IMM Sneak Exit Top",
+          "description": "From here head south up a short hill then pickup a faint old road that will take you all the way back to the parking area",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2102
+        }
       }
     ]
   },
-  "version": "4ad03eda419179ac70c1914510e1b692"
+  "version": "e0b4040dd14d0cc99c5f9e79f0a00bc3"
 }

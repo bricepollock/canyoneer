@@ -25,96 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.9078730094148,
-            46.09276846528323,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 361
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.90704882144922,
-            46.09997988420578,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Speed Trailhead",
-          "elevationMeters": 401
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.90747894725604,
-            46.094438591172036,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 (Big Creek Falls)",
-          "elevationMeters": 352
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.91218300000003,
-            46.094978,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 (Corkscrew Falls)",
-          "elevationMeters": 477
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.91366095966339,
-            46.09482344275623,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R7 (Cave Falls)",
-          "elevationMeters": 513
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.91718215373834,
-            46.10374127999147,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trail",
-          "elevationMeters": 705
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -231,7 +141,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 252.93631121123136,
@@ -444,7 +354,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 562.6206682775285,
@@ -697,7 +607,7 @@
         },
         "properties": {
           "name": "Descent to Lewis River",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 654.9542226451684,
@@ -875,7 +785,7 @@
         },
         "properties": {
           "name": "Lewis River Trail (upstream)",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1003.577087913601,
@@ -1208,7 +1118,7 @@
         },
         "properties": {
           "name": "River Bushwhack",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 887.636274249674,
@@ -1686,7 +1596,7 @@
         },
         "properties": {
           "name": "Speed Trail",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1373.583334059302,
@@ -2509,7 +2419,7 @@
         },
         "properties": {
           "name": "Lewis River Trail (downstream)",
-          "stroke": "#009AFF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6107.8182622376025,
@@ -2517,8 +2427,104 @@
           "descentMeters": 938.5000610351562,
           "changeMeters": -234.79998779296875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.9078730094148,
+            46.09276846528323,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 361
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.90704882144922,
+            46.09997988420578,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Speed Trailhead",
+          "stroke": "#AF52DE",
+          "elevationMeters": 401
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.90747894725604,
+            46.094438591172036,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 (Big Creek Falls)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 352
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.91218300000003,
+            46.094978,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 (Corkscrew Falls)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 477
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.91366095966339,
+            46.09482344275623,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R7 (Cave Falls)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 513
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.91718215373834,
+            46.10374127999147,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trail",
+          "stroke": "#AF52DE",
+          "elevationMeters": 705
+        }
       }
     ]
   },
-  "version": "6b2b1ee3f46fd16792cfd56d8e4a0f8a"
+  "version": "2e955771c97c1f64ed0f9c57085d193c"
 }

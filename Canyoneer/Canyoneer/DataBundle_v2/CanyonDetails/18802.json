@@ -26,29 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.4246,
-            33.3897,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#icon-93",
-          "styleHash": "265cc677",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here.",
-          "elevationMeters": 1183
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -251,6 +228,7 @@
             "normal": "#line-00FF00-5000-nodesc",
             "highlight": "#line-00FF00-5000-nodesc-highlight"
           },
+          "stroke": "#FF3B30",
           "lengthMeters": 4133.366418445864,
           "ascentMeters": 332.50006103515625,
           "descentMeters": 793.9000854492188,
@@ -363,100 +341,11 @@
             "highlight": "#line-FF0000-5000-nodesc-highlight"
           },
           "description": " (Data by Erek)",
+          "stroke": "#FFCC00",
           "lengthMeters": 663.9398870158831,
           "ascentMeters": 111.29998779296875,
           "descentMeters": 37.9000244140625,
           "changeMeters": 73.39996337890625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.4024,
-            33.4046,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 721
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.4019,
-            33.4041,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "elevationMeters": 696
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.4003,
-            33.4033,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "elevationMeters": 685
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.4006,
-            33.4031,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "elevationMeters": 688
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.4009,
-            33.4026,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "elevationMeters": 710
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.4015,
-            33.4007,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6",
-          "elevationMeters": 779
         }
       },
       {
@@ -830,13 +719,134 @@
             "highlight": "#line-FFFF00-5000-nodesc-highlight"
           },
           "description": " (Data by Erek)",
+          "stroke": "#34C759",
           "lengthMeters": 4368.14803313987,
           "ascentMeters": 909.000244140625,
           "descentMeters": 521.0001831054688,
           "changeMeters": 388.00006103515625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4246,
+            33.3897,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1183
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4024,
+            33.4046,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 721
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4019,
+            33.4041,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "stroke": "#FFCC00",
+          "elevationMeters": 696
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4003,
+            33.4033,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "stroke": "#FFCC00",
+          "elevationMeters": 685
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4006,
+            33.4031,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "stroke": "#FFCC00",
+          "elevationMeters": 688
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4009,
+            33.4026,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "stroke": "#FFCC00",
+          "elevationMeters": 710
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4015,
+            33.4007,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6",
+          "stroke": "#FFCC00",
+          "elevationMeters": 779
+        }
       }
     ]
   },
-  "version": "52462b105a1b87e195561f4763adbc6c"
+  "version": "ca394eee5ac64494a77dc17bc92fa66c"
 }

@@ -15,8 +15,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 12,
+  "rappelCountMax": 12,
   "rappelLongestMeters": 30.48,
   "vehicle": "Passenger",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>A nice canyon near the city of Vancouver.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>The approach, descent and exit are described in the Beta Sites listed\nbelow.</p>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><a\nhref=\"http://web.archive.org/web/20180924234635/bccanyoneers.com/2013/02/15/goldie-creek-standard-lower-route-beta/\">BC\nCanyoneers</a></li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"https://web.archive.org/web/20210527212206/www.canyoneeringnorthwest.com/GoldieCreek/Goldie_Creek.php\">CanyoneeringNorthwest.com\n(archive.org)</a> : Goldie Creek</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://canyoncollective.com/betabase/goldie-creek-standard-lower-route.37\">CanyonCollective.com</a>\n: Goldie Creek - Standard (lower) Route</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>Original Tracks and Waypoints by Kevin Swanson</p>\n",
@@ -682,7 +682,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -1487,7 +1487,7 @@
         },
         "properties": {
           "name": "Descent (Lower)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -1722,7 +1722,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -1917,7 +1917,7 @@
         },
         "properties": {
           "name": "Exit w/o Shuttle",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#F0F000",
@@ -1940,6 +1940,7 @@
         },
         "properties": {
           "name": "Parking Exit",
+          "stroke": "#FFCC00",
           "elevationMeters": 79
         }
       },
@@ -1955,6 +1956,7 @@
         },
         "properties": {
           "name": "Parking Approach",
+          "stroke": "#FFCC00",
           "elevationMeters": 223
         }
       },
@@ -1970,6 +1972,7 @@
         },
         "properties": {
           "name": "Drop-in",
+          "stroke": "#FF3B30",
           "elevationMeters": 292
         }
       },
@@ -1985,10 +1988,11 @@
         },
         "properties": {
           "name": "Exit At Bridge",
+          "stroke": "#FFCC00",
           "elevationMeters": 89
         }
       }
     ]
   },
-  "version": "848efd326d0e675dc1a2009c4e62321d"
+  "version": "e9802ff9d3662417ba01efbf5b7bc4c6"
 }

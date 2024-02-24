@@ -35,159 +35,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.416121,
-            35.85815,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Exit",
-          "description": "\n",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.41224,
-            35.861376,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.400017,
-            35.866435,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Downclimb",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.396802,
-            35.868795,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4b",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.396691,
-            35.868905,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4a",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.396074,
-            35.869977,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.395925,
-            35.870227,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.394474,
-            35.871404,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.386049,
-            35.878187,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Approach",
-          "description": "Location: 35.878187, -121.386049<br/>\nElevation: 0.4 mi<br/>\nTime Created: 2/6/22 4:08:13 PM<br/>\n",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.39169,
-            35.87255,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In To Creek",
-          "description": "Saves a bit of creekwalking",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -309,7 +156,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 65.46758364180992,
@@ -3142,7 +2989,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 16860.33336716399,
@@ -3325,7 +3172,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1011.4092405093879,
@@ -3538,7 +3385,7 @@
         },
         "properties": {
           "name": "Proposed Alt Exit",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1419.2168270598545,
@@ -5216,7 +5063,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3298.058359242779,
@@ -5224,8 +5071,171 @@
           "descentMeters": 0,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.416121,
+            35.85815,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "description": "\n",
+          "stroke": "#FFCC00",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.41224,
+            35.861376,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "stroke": "#FF3B30",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.400017,
+            35.866435,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Downclimb",
+          "stroke": "#FF3B30",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.396802,
+            35.868795,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4b",
+          "stroke": "#FF3B30",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.396691,
+            35.868905,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4a",
+          "stroke": "#FF3B30",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.396074,
+            35.869977,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "stroke": "#FF3B30",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.395925,
+            35.870227,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "stroke": "#FF3B30",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.394474,
+            35.871404,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.386049,
+            35.878187,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "description": "Location: 35.878187, -121.386049<br/>\nElevation: 0.4 mi<br/>\nTime Created: 2/6/22 4:08:13 PM<br/>\n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.39169,
+            35.87255,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In To Creek",
+          "description": "Saves a bit of creekwalking",
+          "stroke": "#34C759",
+          "elevationMeters": 0
+        }
       }
     ]
   },
-  "version": "7a96428a597525f852dcbdb971f12255"
+  "version": "7d96fe2cf0ce321b1b515a9588d7867d"
 }

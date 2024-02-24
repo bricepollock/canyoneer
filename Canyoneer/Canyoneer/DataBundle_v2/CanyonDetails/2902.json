@@ -25,113 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.57377434007134,
-            36.00761893119183,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Alternate exit parking",
-          "description": "Park the exit vehicle here if the gate on FR22S02 is closed.",
-          "elevationMeters": 1928
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.55835629627109,
-            36.01900170269528,
-            0
-          ]
-        },
-        "properties": {
-          "name": "First Falls R1",
-          "elevationMeters": 1930
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.5693213909442,
-            36.005525101381316,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gate",
-          "description": "If locked, park at the alternate shuttle location at the intesection of FR 22S02 and M-90",
-          "elevationMeters": 1928
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.562843631953,
-            36.01639400505165,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Approach",
-          "elevationMeters": 1805
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.54776157066226,
-            36.01484279622429,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking exit",
-          "elevationMeters": 1692
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.55358,
-            36.0178,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Falls R2",
-          "elevationMeters": 1915
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.5623073577881,
-            36.001305847829286,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Clay Pigeon Camp",
-          "elevationMeters": 1644
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -453,7 +346,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 587.383629587388,
@@ -996,7 +889,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1400.2477533616034,
@@ -2845,7 +2738,7 @@
         "properties": {
           "name": "Road shuttle",
           "description": "FR22S02 is gravel. M-90 is paved.",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5768.334849556846,
@@ -2853,8 +2746,122 @@
           "descentMeters": 841.800048828125,
           "changeMeters": 120.10009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.57377434007134,
+            36.00761893119183,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Alternate exit parking",
+          "description": "Park the exit vehicle here if the gate on FR22S02 is closed.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1928
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.55835629627109,
+            36.01900170269528,
+            0
+          ]
+        },
+        "properties": {
+          "name": "First Falls R1",
+          "stroke": "#34C759",
+          "elevationMeters": 1930
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.5693213909442,
+            36.005525101381316,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gate",
+          "description": "If locked, park at the alternate shuttle location at the intesection of FR 22S02 and M-90",
+          "stroke": "#5856D6",
+          "elevationMeters": 1928
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.562843631953,
+            36.01639400505165,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "stroke": "#34C759",
+          "elevationMeters": 1805
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.54776157066226,
+            36.01484279622429,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking exit",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1692
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.55358,
+            36.0178,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Falls R2",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1915
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.5623073577881,
+            36.001305847829286,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Clay Pigeon Camp",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1644
+        }
       }
     ]
   },
-  "version": "903c2b66b9b8d6f4912812e3e643f443"
+  "version": "1167986c1017821d4271a5a7eff098ed"
 }

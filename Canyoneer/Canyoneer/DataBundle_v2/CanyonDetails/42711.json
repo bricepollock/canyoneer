@@ -16,318 +16,14 @@
   "waterRating": "A",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 15,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 48.77,
   "vehicle": "Passenger",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p><a\nhref=\"https://www.facebook.com/scott.swaney/media_set?set=a.10155035517992930.1073742364.668617929&amp;type=3&amp;notif_t=like&amp;notif_id=1488309687055325\">https://www.facebook.com/scott.swaney/media_set?set=a.10155035517992930.1073742364.668617929&amp;type=3&amp;notif_t=like&amp;notif_id=1488309687055325</a></p>\n<h2 id=\"background\">Background</h2>\n<p>First descent Exploration 2-26-17 - by Scott Swaney &amp; team - see\nabove trip report</p>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1938139759,
-            35.9809669945,
-            684.996948
-          ]
-        },
-        "properties": {
-          "name": "B  8 80",
-          "description": "Latitude: 35.98096699 Longitude : -117.193814",
-          "elevationMeters": 1001
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1950244904,
-            35.9806537628,
-            0
-          ]
-        },
-        "properties": {
-          "name": "B 10 -",
-          "description": "Latitude: 35.9806537628 Longitude : -117.1950244904",
-          "elevationMeters": 1043
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1954920329,
-            35.9803210013,
-            613.238708
-          ]
-        },
-        "properties": {
-          "name": "B 11 50",
-          "description": "Latitude: 35.9803210013 Longitude : -117.1954920329",
-          "elevationMeters": 1038
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1957490221,
-            35.9800930135,
-            583.017456
-          ]
-        },
-        "properties": {
-          "name": "B 12 50'",
-          "description": "Latitude: 35.9800930135 Longitude : -117.1957490221",
-          "elevationMeters": 1030
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1958419774,
-            35.9799979627,
-            580.066528
-          ]
-        },
-        "properties": {
-          "name": "B 13 200",
-          "description": "Latitude: 35.9799979627 Longitude : -117.1958419774",
-          "elevationMeters": 1030
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1989059821,
-            35.9786240011,
-            452.30249
-          ]
-        },
-        "properties": {
-          "name": "B 14 50",
-          "description": "Latitude: 35.9786240011 Longitude : -117.1989059821",
-          "elevationMeters": 1082
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.2010507435,
-            35.9777812846,
-            0
-          ]
-        },
-        "properties": {
-          "name": "B 15 20",
-          "description": "Intermittent Stream",
-          "elevationMeters": 1046
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1842580196,
-            35.9802390262,
-            972.533875
-          ]
-        },
-        "properties": {
-          "name": "B 2 50",
-          "description": "Latitude: 35.9802390262 Longitude : -117.1842580196",
-          "elevationMeters": 1051
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1853169892,
-            35.979807023,
-            928.220947
-          ]
-        },
-        "properties": {
-          "name": "B 4 30",
-          "description": "Latitude: 35.9798070230 Longitude : -117.1853169892",
-          "elevationMeters": 1073
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1855800133,
-            35.9796809591,
-            917.8165889999999
-          ]
-        },
-        "properties": {
-          "name": "B 5 50 dc",
-          "description": "Latitude: 35.9796809591 Longitude : -117.1855800133",
-          "elevationMeters": 1073
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1893539652,
-            35.9802110307,
-            826.495667
-          ]
-        },
-        "properties": {
-          "name": "B 6 20",
-          "description": "Latitude: 35.9802110307 Longitude : -117.1893539652",
-          "elevationMeters": 1071
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1903390065,
-            35.980888959,
-            782.019165
-          ]
-        },
-        "properties": {
-          "name": "B 7 115",
-          "description": "Latitude: 35.9808889590 Longitude : -117.1903390065",
-          "elevationMeters": 1028
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1947265975,
-            35.9809062257,
-            0
-          ]
-        },
-        "properties": {
-          "name": "B 9 -",
-          "description": "Latitude: 35.9809062257 Longitude : -117.1947265975",
-          "elevationMeters": 1042
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1841150243,
-            35.9804140404,
-            978.7049559999999
-          ]
-        },
-        "properties": {
-          "name": "B dc",
-          "description": "Latitude: 35.9804140404 Longitude : -117.1841150243",
-          "elevationMeters": 1051
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.2040900216,
-            35.9799399599,
-            348.905029
-          ]
-        },
-        "properties": {
-          "name": "Camp",
-          "description": "Latitude: 35.9799399599 Longitude : -117.2040900216",
-          "elevationMeters": 1012
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1855614055,
-            35.982092768,
-            987.552
-          ]
-        },
-        "properties": {
-          "name": "fork two cyns",
-          "description": "Latitude: 35.9820927680 Longitude : -117.1855614055",
-          "elevationMeters": 987
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1837493218,
-            35.9801373538,
-            0
-          ]
-        },
-        "properties": {
-          "name": "start Donkey cyn",
-          "description": "Latitude: 35.9801373538 Longitude : -117.1837493218",
-          "elevationMeters": 1054
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.1846269909,
-            35.9816259798,
-            1014.334412
-          ]
-        },
-        "properties": {
-          "name": "Traverse So",
-          "description": "Latitude: 35.9816259798 Longitude : -117.1846269909",
-          "elevationMeters": 1008
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.2099590302,
-            35.9795379639,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Wingate Rd mine",
-          "description": "Wingate Rd and street",
-          "elevationMeters": 1094
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -1143,7 +839,7 @@
             "normal": "#path4Style0",
             "highlight": "#path4Style1"
           },
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2639.794799866147,
@@ -1262,7 +958,7 @@
             "normal": "#path3Style1",
             "highlight": "#path3Style"
           },
-          "stroke": "#55ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 297.8735391450349,
@@ -1432,7 +1128,7 @@
           "name": "mine rd - 0.3 mi",
           "styleUrl": "#path2Style",
           "styleHash": "545ffd6b",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 538.0649065168803,
@@ -2151,7 +1847,7 @@
             "normal": "#path1Style",
             "highlight": "#path1Style0"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2281.07468724182,
@@ -2845,7 +2541,7 @@
             "normal": "#path0Style",
             "highlight": "#path0Style0"
           },
-          "stroke": "#ff00ff",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2196.09628020455,
@@ -2853,8 +2549,331 @@
           "descentMeters": 439.5999755859375,
           "changeMeters": 105.29998779296875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1938139759,
+            35.9809669945,
+            684.996948
+          ]
+        },
+        "properties": {
+          "name": "B  8 80",
+          "description": "Latitude: 35.98096699 Longitude : -117.193814",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1001
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1950244904,
+            35.9806537628,
+            0
+          ]
+        },
+        "properties": {
+          "name": "B 10 -",
+          "description": "Latitude: 35.9806537628 Longitude : -117.1950244904",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1043
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1954920329,
+            35.9803210013,
+            613.238708
+          ]
+        },
+        "properties": {
+          "name": "B 11 50",
+          "description": "Latitude: 35.9803210013 Longitude : -117.1954920329",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1038
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1957490221,
+            35.9800930135,
+            583.017456
+          ]
+        },
+        "properties": {
+          "name": "B 12 50'",
+          "description": "Latitude: 35.9800930135 Longitude : -117.1957490221",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1030
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1958419774,
+            35.9799979627,
+            580.066528
+          ]
+        },
+        "properties": {
+          "name": "B 13 200",
+          "description": "Latitude: 35.9799979627 Longitude : -117.1958419774",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1030
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1989059821,
+            35.9786240011,
+            452.30249
+          ]
+        },
+        "properties": {
+          "name": "B 14 50",
+          "description": "Latitude: 35.9786240011 Longitude : -117.1989059821",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1082
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.2010507435,
+            35.9777812846,
+            0
+          ]
+        },
+        "properties": {
+          "name": "B 15 20",
+          "description": "Intermittent Stream",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1046
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1842580196,
+            35.9802390262,
+            972.533875
+          ]
+        },
+        "properties": {
+          "name": "B 2 50",
+          "description": "Latitude: 35.9802390262 Longitude : -117.1842580196",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1051
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1853169892,
+            35.979807023,
+            928.220947
+          ]
+        },
+        "properties": {
+          "name": "B 4 30",
+          "description": "Latitude: 35.9798070230 Longitude : -117.1853169892",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1073
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1855800133,
+            35.9796809591,
+            917.8165889999999
+          ]
+        },
+        "properties": {
+          "name": "B 5 50 dc",
+          "description": "Latitude: 35.9796809591 Longitude : -117.1855800133",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1073
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1893539652,
+            35.9802110307,
+            826.495667
+          ]
+        },
+        "properties": {
+          "name": "B 6 20",
+          "description": "Latitude: 35.9802110307 Longitude : -117.1893539652",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1071
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1903390065,
+            35.980888959,
+            782.019165
+          ]
+        },
+        "properties": {
+          "name": "B 7 115",
+          "description": "Latitude: 35.9808889590 Longitude : -117.1903390065",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1028
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1947265975,
+            35.9809062257,
+            0
+          ]
+        },
+        "properties": {
+          "name": "B 9 -",
+          "description": "Latitude: 35.9809062257 Longitude : -117.1947265975",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1042
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1841150243,
+            35.9804140404,
+            978.7049559999999
+          ]
+        },
+        "properties": {
+          "name": "B dc",
+          "description": "Latitude: 35.9804140404 Longitude : -117.1841150243",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1051
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.2040900216,
+            35.9799399599,
+            348.905029
+          ]
+        },
+        "properties": {
+          "name": "Camp",
+          "description": "Latitude: 35.9799399599 Longitude : -117.2040900216",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1012
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1855614055,
+            35.982092768,
+            987.552
+          ]
+        },
+        "properties": {
+          "name": "fork two cyns",
+          "description": "Latitude: 35.9820927680 Longitude : -117.1855614055",
+          "stroke": "#FFCC00",
+          "elevationMeters": 987
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1837493218,
+            35.9801373538,
+            0
+          ]
+        },
+        "properties": {
+          "name": "start Donkey cyn",
+          "description": "Latitude: 35.9801373538 Longitude : -117.1837493218",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1054
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.1846269909,
+            35.9816259798,
+            1014.334412
+          ]
+        },
+        "properties": {
+          "name": "Traverse So",
+          "description": "Latitude: 35.9816259798 Longitude : -117.1846269909",
+          "stroke": "#34C759",
+          "elevationMeters": 1008
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.2099590302,
+            35.9795379639,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Wingate Rd mine",
+          "description": "Wingate Rd and street",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1094
+        }
       }
     ]
   },
-  "version": "412e7be067e72e7fa8f73a66e2648f99"
+  "version": "7a582c6758b9a27a6f238fef7583156e"
 }

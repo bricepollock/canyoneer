@@ -29,126 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.32142469806195,
-            47.42625866812954,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Section",
-          "elevationMeters": 483
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.32942421941979,
-            47.418985955145516,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Parking",
-          "elevationMeters": 427
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.32297129568678,
-            47.4231199314263,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End Technical Section",
-          "elevationMeters": 676
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.3258833638558,
-            47.42440031047144,
-            0
-          ]
-        },
-        "properties": {
-          "name": "LeBar Horse Camp Parking",
-          "elevationMeters": 575
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.31270176514458,
-            47.43425728176347,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Approach Parking",
-          "elevationMeters": 616
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.31714030384627,
-            47.43264182661788,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Grotto Rappel",
-          "elevationMeters": 650
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.31021771266319,
-            47.44163998920255,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In 2",
-          "elevationMeters": 700
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.30999338102666,
-            47.43912651097589,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In 1",
-          "elevationMeters": 565
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -290,7 +170,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1351.253957715474,
@@ -412,7 +292,7 @@
           ]
         },
         "properties": {
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 545.6154557491082,
@@ -535,7 +415,7 @@
         },
         "properties": {
           "name": "Middle Section",
-          "stroke": "#A81B1B",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1038.6158498288487,
@@ -882,7 +762,7 @@
           ]
         },
         "properties": {
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3950.314055101852,
@@ -1005,7 +885,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 961.1529199063727,
@@ -1103,7 +983,7 @@
         },
         "properties": {
           "name": "Upper Section",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1220.6039898688614,
@@ -1160,7 +1040,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 382.7369442318619,
@@ -1197,7 +1077,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 71.45902490848096,
@@ -1205,8 +1085,136 @@
           "descentMeters": 2.9000244140625,
           "changeMeters": 10.89996337890625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.32142469806195,
+            47.42625866812954,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Section",
+          "stroke": "#FF3B30",
+          "elevationMeters": 483
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.32942421941979,
+            47.418985955145516,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Parking",
+          "stroke": "#5856D6",
+          "elevationMeters": 427
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.32297129568678,
+            47.4231199314263,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End Technical Section",
+          "stroke": "#FFCC00",
+          "elevationMeters": 676
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.3258833638558,
+            47.42440031047144,
+            0
+          ]
+        },
+        "properties": {
+          "name": "LeBar Horse Camp Parking",
+          "stroke": "#5856D6",
+          "elevationMeters": 575
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.31270176514458,
+            47.43425728176347,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Approach Parking",
+          "stroke": "#5856D6",
+          "elevationMeters": 616
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.31714030384627,
+            47.43264182661788,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Grotto Rappel",
+          "stroke": "#FF3B30",
+          "elevationMeters": 650
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.31021771266319,
+            47.44163998920255,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In 2",
+          "stroke": "#34C759",
+          "elevationMeters": 700
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.30999338102666,
+            47.43912651097589,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In 1",
+          "stroke": "#FF9500",
+          "elevationMeters": 565
+        }
       }
     ]
   },
-  "version": "508d45d422235c2dfaba02fbcd7632b4"
+  "version": "4ca9b9a5297cfd24eef35228443c5295"
 }

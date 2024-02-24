@@ -29,141 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.67020421000001,
-            36.37499653,
-            0
-          ]
-        },
-        "properties": {
-          "name": "confluence",
-          "elevationMeters": 1997
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.6382961270574,
-            36.38774757324903,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Chavez Tank Parking",
-          "elevationMeters": 2353
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.66781201027334,
-            36.37542103417218,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 50' (approx)",
-          "elevationMeters": 2043
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.67023776978021,
-            36.376046627077514,
-            0
-          ]
-        },
-        "properties": {
-          "name": "NF R1: 70'",
-          "elevationMeters": 2012
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.66903888000002,
-            36.38163178,
-            0
-          ]
-        },
-        "properties": {
-          "name": "NF R0: 60'",
-          "elevationMeters": 2049
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.67011940479279,
-            36.375214556061934,
-            0
-          ]
-        },
-        "properties": {
-          "name": "NF R2: 55'",
-          "elevationMeters": 2005
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.67772126148702,
-            36.3681349709131,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Chavez Canyon parking bottom",
-          "elevationMeters": 1973
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.66938475862581,
-            36.3749908166587,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 25' (approx)",
-          "elevationMeters": 2010
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.66989659993337,
-            36.375116657544694,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DC: 12' (approx)",
-          "elevationMeters": 2002
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1755,7 +1620,7 @@
         },
         "properties": {
           "name": "Chavez North (left) Fork alt approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4316.773469106577,
@@ -2258,7 +2123,7 @@
         },
         "properties": {
           "name": "Chavez Canyon return / approach from bottom",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1344.8893051349605,
@@ -4286,7 +4151,7 @@
         },
         "properties": {
           "name": "Chavez car shuttle option",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 54981.82686754932,
@@ -4559,7 +4424,7 @@
         },
         "properties": {
           "name": "Chavez Main (right) Fork alt approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2166.8322180599903,
@@ -4612,7 +4477,7 @@
         },
         "properties": {
           "name": "approx scramble up",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 57.9544062802888,
@@ -4725,7 +4590,7 @@
         },
         "properties": {
           "name": "Chavez Main (right) Fork descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 295.6072943502386,
@@ -4833,7 +4698,7 @@
         },
         "properties": {
           "name": "Chavez North (left) Fork descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 144.04825756940312,
@@ -4841,8 +4706,152 @@
           "descentMeters": 15.0999755859375,
           "changeMeters": -15.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.67020421000001,
+            36.37499653,
+            0
+          ]
+        },
+        "properties": {
+          "name": "confluence",
+          "stroke": "#5856D6",
+          "elevationMeters": 1997
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.6382961270574,
+            36.38774757324903,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Chavez Tank Parking",
+          "stroke": "#5856D6",
+          "elevationMeters": 2353
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.66781201027334,
+            36.37542103417218,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 50' (approx)",
+          "stroke": "#5856D6",
+          "elevationMeters": 2043
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.67023776978021,
+            36.376046627077514,
+            0
+          ]
+        },
+        "properties": {
+          "name": "NF R1: 70'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2012
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.66903888000002,
+            36.38163178,
+            0
+          ]
+        },
+        "properties": {
+          "name": "NF R0: 60'",
+          "stroke": "#34C759",
+          "elevationMeters": 2049
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.67011940479279,
+            36.375214556061934,
+            0
+          ]
+        },
+        "properties": {
+          "name": "NF R2: 55'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2005
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.67772126148702,
+            36.3681349709131,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Chavez Canyon parking bottom",
+          "stroke": "#5856D6",
+          "elevationMeters": 1973
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.66938475862581,
+            36.3749908166587,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 25' (approx)",
+          "stroke": "#5856D6",
+          "elevationMeters": 2010
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.66989659993337,
+            36.375116657544694,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DC: 12' (approx)",
+          "stroke": "#5856D6",
+          "elevationMeters": 2002
+        }
       }
     ]
   },
-  "version": "bf18bf2b7dd0c165f03666ad0fcba63c"
+  "version": "f2642ea675d8b4fbb8771aacf0e862b2"
 }

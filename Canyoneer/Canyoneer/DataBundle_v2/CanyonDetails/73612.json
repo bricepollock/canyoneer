@@ -28,94 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6138039854501,
-            40.3331052311844,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#msn_ylw-pushpin",
-          "styleHash": "-58eec27",
-          "styleMapHash": {
-            "normal": "#sn_ylw-pushpin",
-            "highlight": "#sh_ylw-pushpin"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 1773
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6093792216096,
-            40.32851676876037,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Top (full route)",
-          "styleUrl": "#msn_ylw-pushpin",
-          "styleHash": "-58eec27",
-          "styleMapHash": {
-            "normal": "#sn_ylw-pushpin",
-            "highlight": "#sh_ylw-pushpin"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 1623
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.610772120115,
-            40.32981750840224,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Top (final rappel)",
-          "styleUrl": "#msn_ylw-pushpin",
-          "styleHash": "-58eec27",
-          "styleMapHash": {
-            "normal": "#sn_ylw-pushpin",
-            "highlight": "#sh_ylw-pushpin"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 1591
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.610940735041,
-            40.3299354023575,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start of Cables",
-          "styleUrl": "#msn_ylw-pushpin",
-          "styleHash": "-58eec27",
-          "styleMapHash": {
-            "normal": "#sn_ylw-pushpin",
-            "highlight": "#sh_ylw-pushpin"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 1592
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1239,7 +1151,7 @@
             "highlight": "#101"
           },
           "icon": "file://earth/park-24",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1850.2529656630475,
@@ -1248,33 +1160,6 @@
           "changeMeters": -167.9000244140625
         },
         "id": "3"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6105203626015,
-            40.3283375765083,
-            1886
-          ]
-        },
-        "properties": {
-          "name": "tree/upclimb (5.7)",
-          "styleUrl": "#10",
-          "styleHash": "-7ee77283",
-          "styleMapHash": {
-            "normal": "#100",
-            "highlight": "#101"
-          },
-          "icon": "file://earth/park-24",
-          "stroke": "#00ff00",
-          "stroke-opacity": 1,
-          "stroke-width": 5,
-          "visibility": "0",
-          "elevationMeters": 1661
-        },
-        "id": "9"
       },
       {
         "type": "Feature",
@@ -1431,7 +1316,7 @@
             "normal": "#failed",
             "highlight": "#failed0"
           },
-          "stroke": "#ff00ff",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 163.85420308824794,
@@ -1531,7 +1416,7 @@
             "normal": "#failed2",
             "highlight": "#failed1"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 193.81224291861676,
@@ -1540,6 +1425,125 @@
           "changeMeters": -31.0999755859375
         },
         "id": "04F7D5B20924ADAFA557"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6138039854501,
+            40.3331052311844,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#msn_ylw-pushpin",
+          "styleHash": "-58eec27",
+          "styleMapHash": {
+            "normal": "#sn_ylw-pushpin",
+            "highlight": "#sh_ylw-pushpin"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1773
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6093792216096,
+            40.32851676876037,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Top (full route)",
+          "styleUrl": "#msn_ylw-pushpin",
+          "styleHash": "-58eec27",
+          "styleMapHash": {
+            "normal": "#sn_ylw-pushpin",
+            "highlight": "#sh_ylw-pushpin"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1623
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.610772120115,
+            40.32981750840224,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Top (final rappel)",
+          "styleUrl": "#msn_ylw-pushpin",
+          "styleHash": "-58eec27",
+          "styleMapHash": {
+            "normal": "#sn_ylw-pushpin",
+            "highlight": "#sh_ylw-pushpin"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1591
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.610940735041,
+            40.3299354023575,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start of Cables",
+          "styleUrl": "#msn_ylw-pushpin",
+          "styleHash": "-58eec27",
+          "styleMapHash": {
+            "normal": "#sn_ylw-pushpin",
+            "highlight": "#sh_ylw-pushpin"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1592
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6105203626015,
+            40.3283375765083,
+            1886
+          ]
+        },
+        "properties": {
+          "name": "tree/upclimb (5.7)",
+          "styleUrl": "#10",
+          "styleHash": "-7ee77283",
+          "styleMapHash": {
+            "normal": "#100",
+            "highlight": "#101"
+          },
+          "icon": "file://earth/park-24",
+          "stroke": "#34C759",
+          "stroke-opacity": 1,
+          "stroke-width": 5,
+          "visibility": "0",
+          "elevationMeters": 1661
+        },
+        "id": "9"
       },
       {
         "type": "Feature",
@@ -1559,7 +1563,7 @@
             "normal": "#failed2",
             "highlight": "#failed1"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "elevationMeters": 1603
@@ -1584,7 +1588,7 @@
             "normal": "#failed2",
             "highlight": "#failed1"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "elevationMeters": 1597
@@ -1609,7 +1613,7 @@
             "normal": "#failed2",
             "highlight": "#failed1"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "elevationMeters": 1591
@@ -1618,5 +1622,5 @@
       }
     ]
   },
-  "version": "7cfb4275041e9a3dafebd430c06179a1"
+  "version": "945a95287fc4608046c78620f80a160b"
 }

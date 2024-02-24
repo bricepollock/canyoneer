@@ -12,121 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -77.937194,
-            -1.076275,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "367f00f9",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Sergi Cardona at wikiloc.com)",
-          "elevationMeters": 590
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -77.937108,
-            -1.075883,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-3518f77c",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Sergi Cardona at wikiloc.com)",
-          "elevationMeters": 594
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -77.943165,
-            -1.074092,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cascada Final",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-3c540b2e",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Sergi Cardona at wikiloc.com)",
-          "elevationMeters": 789
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -77.942033,
-            -1.074403,
-            0
-          ]
-        },
-        "properties": {
-          "name": "cruce. Seguir hacia la derecha",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-3c540b2e",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Sergi Cardona at wikiloc.com)",
-          "elevationMeters": 768
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -77.937275,
-            -1.075674,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cabanas Pimpilala",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-3c540b2e",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Sergi Cardona at wikiloc.com)",
-          "elevationMeters": 594
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -574,7 +459,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Sergi Cardona at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1837.4826681112131,
@@ -582,8 +467,128 @@
           "descentMeters": 283.59979248046875,
           "changeMeters": 4.20001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.937194,
+            -1.076275,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "5c2cdfbe",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Sergi Cardona at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 590
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.937108,
+            -1.075883,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-69a3eed8",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Sergi Cardona at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 594
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.943165,
+            -1.074092,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cascada Final",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-16fad73c",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Sergi Cardona at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 789
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.942033,
+            -1.074403,
+            0
+          ]
+        },
+        "properties": {
+          "name": "cruce. Seguir hacia la derecha",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-16fad73c",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Sergi Cardona at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 768
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.937275,
+            -1.075674,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cabanas Pimpilala",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-16fad73c",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Sergi Cardona at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 594
+        }
       }
     ]
   },
-  "version": "7ecf32bd9c4793e1bb4a2e23e0faa4d4"
+  "version": "2e389aa4d8c35b7d947918691a01aa8c"
 }

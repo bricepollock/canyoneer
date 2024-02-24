@@ -26,126 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.2368,
-            44.6928,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Downclimb",
-          "elevationMeters": 663
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.259,
-            44.6879,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Pack Raft Exit",
-          "elevationMeters": 768
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.2582,
-            44.6883,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Pack Raft Parking",
-          "elevationMeters": 820
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.23551750183107,
-            44.69451340653476,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 546
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.2362,
-            44.6923,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 & R2",
-          "elevationMeters": 655
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.2371,
-            44.6931,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "elevationMeters": 661
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.2382,
-            44.6938,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "elevationMeters": 701
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.2288227081299,
-            44.68616911508426,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Checkpoint",
-          "elevationMeters": 473
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -257,7 +137,7 @@
         },
         "properties": {
           "name": "Logging road",
-          "stroke": "#3D2900",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1707.1693990774202,
@@ -300,7 +180,7 @@
         },
         "properties": {
           "name": "Shortcut Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 109.56949059047642,
@@ -423,7 +303,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 353.3733261491108,
@@ -511,7 +391,7 @@
         },
         "properties": {
           "name": "Swim",
-          "stroke": "#009AFF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 384.6946778095254,
@@ -564,7 +444,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 148.9016670538278,
@@ -572,8 +452,136 @@
           "descentMeters": 14.5,
           "changeMeters": 9.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.2368,
+            44.6928,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Downclimb",
+          "stroke": "#FF3B30",
+          "elevationMeters": 663
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.259,
+            44.6879,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Pack Raft Exit",
+          "stroke": "#FF3B30",
+          "elevationMeters": 768
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.2582,
+            44.6883,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Pack Raft Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 820
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.23551750183107,
+            44.69451340653476,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 546
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.2362,
+            44.6923,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 & R2",
+          "stroke": "#FF3B30",
+          "elevationMeters": 655
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.2371,
+            44.6931,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "stroke": "#FF3B30",
+          "elevationMeters": 661
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.2382,
+            44.6938,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "stroke": "#FF3B30",
+          "elevationMeters": 701
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.2288227081299,
+            44.68616911508426,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Checkpoint",
+          "stroke": "#FF3B30",
+          "elevationMeters": 473
+        }
       }
     ]
   },
-  "version": "d52e935c68b6ec7606e4eeb53de152ff"
+  "version": "1383e2555f9205165e1e1451572d0d6e"
 }

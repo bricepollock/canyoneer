@@ -23,8 +23,8 @@
   "waterRating": "C",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 25,
   "shuttleSeconds": 30,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/23462\">Descente-Canyon.com</a>\n: Ronc</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/RioRoncCanyon\">Canyon.Carto.net</a>\n: Rio Ronc</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/UD046\">Catastoforre\nAIC-Canyoning.it</a> : Rio Ronc/Ronk</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -51,6 +51,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 23 jan 2017)",
+          "stroke": "#FF3B30",
           "elevationMeters": 700
         }
       },
@@ -74,6 +75,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 23 jan 2017)",
+          "stroke": "#FF3B30",
           "elevationMeters": 789
         }
       },
@@ -97,10 +99,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Streicher Wolfgang on 23 jan 2017)",
+          "stroke": "#FF3B30",
           "elevationMeters": 738
         }
       }
     ]
   },
-  "version": "cfcca61218a792426f69f403c7cec8d5"
+  "version": "1464d7e1cf34f95ce12cc28126aa7154"
 }

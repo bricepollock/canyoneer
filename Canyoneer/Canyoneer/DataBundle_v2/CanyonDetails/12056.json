@@ -16,8 +16,8 @@
   "timeRating": "III",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 15,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 30,
   "shuttleSeconds": 1260,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2558\">Descente-Canyon.com</a>\n: Grigno</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/TorrenteGrignoCanyon\">Canyon.Carto.net</a>\n: Forra del Grigno</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_grigno.htm\">CicaRudeClan.com</a> :\nForra del Grigno</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/TN001\">Catastoforre\nAIC-Canyoning.it</a> : Torrente Grigno;Apocalypse Now</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_in_the_Alps_Book?id=Grigno\">Canyoning\nin the Alps Book by Simon Flower</a> : Grigno</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_Nord_Italia_Book?id=Grigno\">Canyoning\nNord Italia Book by Pascal van Duin</a> : Grigno</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/2525/\">Gulliver.it</a> : Apocalipse\nnow</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -44,6 +44,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1083
         }
       },
@@ -67,6 +68,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1114
         }
       },
@@ -90,6 +92,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1180
         }
       },
@@ -113,10 +116,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": " (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1116
         }
       }
     ]
   },
-  "version": "41b5ec9f9449936734156e3b33e7da70"
+  "version": "8f06d1dfec237614afe4a5fbd62352e3"
 }

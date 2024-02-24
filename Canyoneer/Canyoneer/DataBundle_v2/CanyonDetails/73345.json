@@ -26,36 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.72220706939697,
-            45.690338203108716,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gate Parking",
-          "elevationMeters": 190
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.69029951095582,
-            45.68846455227013,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Starvation Creek",
-          "elevationMeters": 370
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -242,7 +212,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 731.9252064965574,
@@ -310,7 +280,7 @@
         },
         "properties": {
           "name": "Lower Lindsey",
-          "stroke": "#009AFF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 421.1211406275801,
@@ -493,7 +463,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 836.0300015912811,
@@ -501,8 +471,40 @@
           "descentMeters": 7.3000030517578125,
           "changeMeters": 166.60000610351562
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.72220706939697,
+            45.690338203108716,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gate Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 190
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.69029951095582,
+            45.68846455227013,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Starvation Creek",
+          "stroke": "#FF3B30",
+          "elevationMeters": 370
+        }
       }
     ]
   },
-  "version": "a2a55d90e2c5ff736db1c2d49559520a"
+  "version": "12bf54b2aba712a8bf932614f0c7d7bb"
 }

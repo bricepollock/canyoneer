@@ -14,8 +14,8 @@
   "timeRating": "II",
   "riskRating": "X",
   "permit": "No",
-  "rappelCountMin": 1,
-  "rappelCountMax": 1,
+  "rappelCountMin": 11,
+  "rappelCountMax": 11,
   "rappelLongestMeters": 25,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/22801\">Descente-Canyon.com</a>\n: Cervio</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/SO019\">Catastoforre\nAIC-Canyoning.it</a> : Torrente Cervio</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -41,6 +41,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by IP on 20 août 2012)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1374
         }
       },
@@ -64,6 +65,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by IP on 20 août 2012)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1552
         }
       },
@@ -87,6 +89,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by IP on 20 août 2012)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1271
         }
       },
@@ -110,10 +113,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": " (Data by IP on 13 août 2012)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1444
         }
       }
     ]
   },
-  "version": "5cccaff7bddce7b61655f018df2cdb6b"
+  "version": "fb8747f87cd16675135056ca8524c71a"
 }

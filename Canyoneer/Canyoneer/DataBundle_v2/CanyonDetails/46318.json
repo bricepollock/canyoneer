@@ -13,75 +13,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.167102,
-            38.712989,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "53856e46",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by jvramos at wikiloc.com)",
-          "elevationMeters": 56
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.169123,
-            38.717397,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-21bf4643",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by jvramos at wikiloc.com)",
-          "elevationMeters": 15
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.167144,
-            38.712967,
-            0
-          ]
-        },
-        "properties": {
-          "name": "parking/inicio",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "394024ac",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by jvramos at wikiloc.com)",
-          "elevationMeters": 56
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -484,7 +415,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by jvramos at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 4066.3294142058985,
@@ -492,8 +423,80 @@
           "descentMeters": 192.69999599456787,
           "changeMeters": -41.60000133514404
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.167102,
+            38.712989,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "64ba7782",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by jvramos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 56
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.169123,
+            38.717397,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "33ce5eb7",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by jvramos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 15
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.167144,
+            38.712967,
+            0
+          ]
+        },
+        "properties": {
+          "name": "parking/inicio",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "1c19a15e",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by jvramos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 56
+        }
       }
     ]
   },
-  "version": "6acb6c64c6175ce6b44e9c13abd9b2ad"
+  "version": "a366b8fc9c24ca539da894b7e8651530"
 }

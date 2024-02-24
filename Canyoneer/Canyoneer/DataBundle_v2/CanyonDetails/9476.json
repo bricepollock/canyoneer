@@ -27,156 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.72061741352081,
-            36.35001286019557,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Laguna Canyon",
-          "elevationMeters": 2633
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.71984836,
-            36.35275791,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 30'",
-          "elevationMeters": 2557
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.71999732,
-            36.35299187,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 55'",
-          "elevationMeters": 2557
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.7200230783753,
-            36.35325924284312,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 100'",
-          "elevationMeters": 2570
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.73072517,
-            36.36675,
-            0
-          ]
-        },
-        "properties": {
-          "name": "40' in canyon wall. hike up CL (RUC)",
-          "elevationMeters": 2397
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.73221295,
-            36.36682669,
-            0
-          ]
-        },
-        "properties": {
-          "name": "12' upclimb",
-          "elevationMeters": 2399
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.73254492,
-            36.36685394,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gallegos escape CR (LUC)",
-          "elevationMeters": 2398
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.73291740644875,
-            36.36669465854798,
-            0
-          ]
-        },
-        "properties": {
-          "name": "15' obstacle",
-          "elevationMeters": 2401
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.73874914646149,
-            36.34926107870235,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Laguna/Gallegos Parking",
-          "elevationMeters": 2486
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.73316151179614,
-            36.36664140482186,
-            0
-          ]
-        },
-        "properties": {
-          "name": "40' rappel (not upclimbable)",
-          "elevationMeters": 2401
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -203,7 +53,7 @@
         },
         "properties": {
           "name": "Gallegos escape?",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 284.09232542527013,
@@ -1026,7 +876,7 @@
         },
         "properties": {
           "name": "Laguna approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2094.9822156729865,
@@ -1274,7 +1124,7 @@
         },
         "properties": {
           "name": "Laguna descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 434.09549269207514,
@@ -3207,7 +3057,7 @@
         },
         "properties": {
           "name": "Laguna return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4393.961191833698,
@@ -4550,7 +4400,7 @@
         },
         "properties": {
           "name": "Gallegos return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3263.8177372829427,
@@ -4743,7 +4593,7 @@
         },
         "properties": {
           "name": "Gallegos upclimb",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 261.9548681526267,
@@ -6021,7 +5871,7 @@
         },
         "properties": {
           "name": "French Mesa Rd / FR 11",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 20502.77404659885,
@@ -6029,8 +5879,168 @@
           "descentMeters": 1335.599853515625,
           "changeMeters": 91.900146484375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.72061741352081,
+            36.35001286019557,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Laguna Canyon",
+          "stroke": "#5856D6",
+          "elevationMeters": 2633
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.71984836,
+            36.35275791,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 30'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2557
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.71999732,
+            36.35299187,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 55'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2557
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.7200230783753,
+            36.35325924284312,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 100'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2570
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.73072517,
+            36.36675,
+            0
+          ]
+        },
+        "properties": {
+          "name": "40' in canyon wall. hike up CL (RUC)",
+          "stroke": "#5856D6",
+          "elevationMeters": 2397
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.73221295,
+            36.36682669,
+            0
+          ]
+        },
+        "properties": {
+          "name": "12' upclimb",
+          "stroke": "#5856D6",
+          "elevationMeters": 2399
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.73254492,
+            36.36685394,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gallegos escape CR (LUC)",
+          "stroke": "#5856D6",
+          "elevationMeters": 2398
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.73291740644875,
+            36.36669465854798,
+            0
+          ]
+        },
+        "properties": {
+          "name": "15' obstacle",
+          "stroke": "#5856D6",
+          "elevationMeters": 2401
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.73874914646149,
+            36.34926107870235,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Laguna/Gallegos Parking",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 2486
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.73316151179614,
+            36.36664140482186,
+            0
+          ]
+        },
+        "properties": {
+          "name": "40' rappel (not upclimbable)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2401
+        }
       }
     ]
   },
-  "version": "c531e4d3310778f6bd7a27e3dc910049"
+  "version": "f47e2fdb559b18b8d9904d5fed1a31e5"
 }

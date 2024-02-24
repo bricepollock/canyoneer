@@ -22,159 +22,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.17703083157541,
-            34.29750331518183,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Full Exit",
-          "elevationMeters": 772
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.169838991016,
-            34.2973232734948,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Start",
-          "elevationMeters": 934
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.171266680583,
-            34.3154499772936,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bushwack Turn Off",
-          "elevationMeters": 1348
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.179448843002,
-            34.3152259024616,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Drop-in",
-          "description": "Bushwhack / Gully approach, tons of log jams beyond",
-          "elevationMeters": 1360
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.17387253046037,
-            34.2963710162975,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Josephine",
-          "elevationMeters": 898
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.18002283573152,
-            34.31242341700188,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Top of Gorge",
-          "description": "First Rappel",
-          "elevationMeters": 1305
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.171359300613,
-            34.3097670618148,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Brennan Shortcut Turn Off",
-          "elevationMeters": 1175
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.17059755325317,
-            34.3276753391046,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bramble Drop In",
-          "description": "Brennen's original drop-in (not recommended)",
-          "elevationMeters": 1221
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.17890435457232,
-            34.30415277026575,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Last Rappel",
-          "elevationMeters": 596
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.17831560969356,
-            34.31310576990406,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bottom of Gorge",
-          "elevationMeters": 1359
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1066,7 +913,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6585.161964057055,
@@ -1214,7 +1061,7 @@
         },
         "properties": {
           "name": "Bushwack",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 842.6410286918886,
@@ -1287,7 +1134,7 @@
         },
         "properties": {
           "name": "Fox Creek Logjams",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 374.3667650034076,
@@ -1580,7 +1427,7 @@
         },
         "properties": {
           "name": "Standard Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1867.815216448709,
@@ -1758,7 +1605,7 @@
         },
         "properties": {
           "name": "Brennan Shortcut",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1316.7183178018065,
@@ -2061,7 +1908,7 @@
         },
         "properties": {
           "name": "Bramble Canyon Approach",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2593.048033326575,
@@ -2384,7 +2231,7 @@
         },
         "properties": {
           "name": "Full Approach",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2595.5119474988073,
@@ -2468,7 +2315,7 @@
         "properties": {
           "name": "Ridge Approach",
           "description": "Avoids logjams",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 450.7708060252942,
@@ -2751,7 +2598,7 @@
         },
         "properties": {
           "name": "Full Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1739.903467096698,
@@ -2875,7 +2722,7 @@
         "properties": {
           "name": "Express Exit",
           "description": "Head up gully left of webbing hanging from tree on slab face",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 519.3421536082266,
@@ -2883,8 +2730,171 @@
           "descentMeters": 99.4000244140625,
           "changeMeters": -73
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.17703083157541,
+            34.29750331518183,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Full Exit",
+          "stroke": "#FFCC00",
+          "elevationMeters": 772
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.169838991016,
+            34.2973232734948,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Start",
+          "stroke": "#34C759",
+          "elevationMeters": 934
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.171266680583,
+            34.3154499772936,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bushwack Turn Off",
+          "stroke": "#34C759",
+          "elevationMeters": 1348
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.179448843002,
+            34.3152259024616,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Drop-in",
+          "description": "Bushwhack / Gully approach, tons of log jams beyond",
+          "stroke": "#34C759",
+          "elevationMeters": 1360
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.17387253046037,
+            34.2963710162975,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Josephine",
+          "stroke": "#FF3B30",
+          "elevationMeters": 898
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.18002283573152,
+            34.31242341700188,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Top of Gorge",
+          "description": "First Rappel",
+          "stroke": "#FF9500",
+          "elevationMeters": 1305
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.171359300613,
+            34.3097670618148,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Brennan Shortcut Turn Off",
+          "stroke": "#34C759",
+          "elevationMeters": 1175
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.17059755325317,
+            34.3276753391046,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bramble Drop In",
+          "description": "Brennen's original drop-in (not recommended)",
+          "stroke": "#FF9500",
+          "elevationMeters": 1221
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.17890435457232,
+            34.30415277026575,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Last Rappel",
+          "stroke": "#FFCC00",
+          "elevationMeters": 596
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.17831560969356,
+            34.31310576990406,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bottom of Gorge",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1359
+        }
       }
     ]
   },
-  "version": "ea25c5d63540d68788f9b276912900ef"
+  "version": "385a97caf1e57258d1ee9ccc58c1c017"
 }

@@ -14,8 +14,8 @@
   "waterRating": "C1",
   "timeRating": "III",
   "permit": "Closed",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 9,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 39.62,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -23,126 +23,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.22896891712526,
-            47.40641054802797,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End of Abandoned Forest Road",
-          "elevationMeters": 1296
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.20364621281625,
-            47.39799970010548,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Approach Parking",
-          "elevationMeters": 1283
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.23820245265962,
-            47.41757812623921,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead Parking",
-          "elevationMeters": 920
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.2297,
-            47.3999,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In",
-          "elevationMeters": 1450
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.2259091752867,
-            47.41924800062957,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Approach Parking - Washout Berm",
-          "elevationMeters": 869
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.22827048956113,
-            47.41535980344842,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Keep right at fork",
-          "elevationMeters": 1022
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.2156175675816,
-            47.40192972550111,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Potential closer Upper parking depending on vegetation",
-          "elevationMeters": 1501
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.2448759829362,
-            47.4162285723055,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Approach to Mineral Creek (double day)",
-          "elevationMeters": 841
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -527,7 +407,7 @@
         },
         "properties": {
           "name": "Exit- 1.6mi",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2641.1711322346564,
@@ -585,7 +465,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 436.85492574036743,
@@ -782,7 +662,7 @@
           ]
         },
         "properties": {
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1368.3211741556272,
@@ -984,7 +864,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2515.4901658625267,
@@ -1082,7 +962,7 @@
         },
         "properties": {
           "name": "Hike or drive depending on vegetation",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1028.7049702689737,
@@ -1170,7 +1050,7 @@
         },
         "properties": {
           "name": "Upper Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1474.1828844450242,
@@ -1202,7 +1082,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 95.6426170472328,
@@ -2145,7 +2025,7 @@
         },
         "properties": {
           "name": "Upper Approach Drive",
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 7999.578439422888,
@@ -2172,10 +2052,10 @@
           ]
         },
         "properties": {
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 2,
-          "lengthMeters": 0.5205573720737111,
+          "lengthMeters": 0.520557372073711,
           "ascentMeters": 0,
           "descentMeters": 0,
           "changeMeters": 0
@@ -2310,7 +2190,7 @@
         },
         "properties": {
           "name": "Lower Approach Drive",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1506.3320657069178,
@@ -2318,8 +2198,136 @@
           "descentMeters": 102.60003662109375,
           "changeMeters": 139
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.22896891712526,
+            47.40641054802797,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End of Abandoned Forest Road",
+          "stroke": "#34C759",
+          "elevationMeters": 1296
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.20364621281625,
+            47.39799970010548,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Approach Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1283
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.23820245265962,
+            47.41757812623921,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead Parking",
+          "stroke": "#FF2D55",
+          "elevationMeters": 920
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.2297,
+            47.3999,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In",
+          "stroke": "#34C759",
+          "elevationMeters": 1450
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.2259091752867,
+            47.41924800062957,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Approach Parking - Washout Berm",
+          "stroke": "#34C759",
+          "elevationMeters": 869
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.22827048956113,
+            47.41535980344842,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Keep right at fork",
+          "stroke": "#34C759",
+          "elevationMeters": 1022
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.2156175675816,
+            47.40192972550111,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Potential closer Upper parking depending on vegetation",
+          "stroke": "#34C759",
+          "elevationMeters": 1501
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.2448759829362,
+            47.4162285723055,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Approach to Mineral Creek (double day)",
+          "stroke": "#34C759",
+          "elevationMeters": 841
+        }
       }
     ]
   },
-  "version": "470fac47b1cde81ba77e4e7491b84f64"
+  "version": "1cc29b0a36a02c55b67f198c85866387"
 }

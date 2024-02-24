@@ -17,102 +17,14 @@
   "waterRating": "B",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 1,
-  "rappelCountMax": 1,
+  "rappelCountMin": 11,
+  "rappelCountMax": 11,
   "rappelLongestMeters": 55.17,
   "vehicle": "Passenger",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>This group is best suited for groups with advanced anchoring skills.\nPlease do not drape ropes, slings, fiddlesticks, or anything else around\nthe numerous natural bridges that exist in this beautiful canyon.</p>\n<h2 id=\"getting_there\">Getting There</h2>\n<p>Access to the Parking area is via a dirt road off of I-70, but there\nisn't an actual freeway exit. Instead there is, what I'm calling, a\nshoulder exit/entrance immediately off of I-70 (one on Westbound I-70\nand another on Eastbound I-70). You just pull off to the shoulder and\nexit the freeway onto a dirt road and proceed through a gate in the\nfence. There is a culvert running under the freeway that enables access\nto either the westbound or eastbound lanes of I-70, as well as the dirt\nroads running north or south of the freeway. Not all vehicles will fit\nin this culvert so there is a dirt strip in the median that allows you\nto drive across I-70. For safety reasons, it is advised to use the\nculvert if possible. If not possible use great caution when driving\nacross the freeway. Note that U-turns are prohibited.</p>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"https://www.roadtripryan.com/go/t/utah/san-rafael-swell/buckeyes-canyon\">RoadTripRyan.com</a>\n: Buckeyes Canyon</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"https://www.smilingcricket.com/2019/05/buckeyes-canyon.html\">SmilingCricket\nBlog: May 26, 2019</a> : Buckeyes Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"https://www.stavislost.com/hikes/trail/buckeyes-canyon\">Stav is\nLost: May 21, 2023</a> : Buckeyes Canyon</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.4412,
-            38.90096,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead / Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1293
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.45231,
-            38.90794,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave The Wash",
-          "styleUrl": "#icon-61-nodesc",
-          "styleHash": "5bb3ad04",
-          "styleMapHash": {
-            "normal": "#icon-61-nodesc-normal",
-            "highlight": "#icon-61-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/61-green-dot.png",
-          "elevationMeters": 1316
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.4520367,
-            38.9130355,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1336
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.4486093,
-            38.9113032,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Alcove",
-          "styleUrl": "#icon-61-nodesc",
-          "styleHash": "5bb3ad04",
-          "styleMapHash": {
-            "normal": "#icon-61-nodesc-normal",
-            "highlight": "#icon-61-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/61-green-dot.png",
-          "elevationMeters": 1330
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -308,7 +220,7 @@
             "normal": "#line-4E342E-5456-nodesc-normal",
             "highlight": "#line-4E342E-5456-nodesc-highlight"
           },
-          "stroke": "#4e342e",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 489.43130287373737,
@@ -712,7 +624,7 @@
             "normal": "#line-FFD600-5844-nodesc-normal",
             "highlight": "#line-FFD600-5844-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 1142.4428428686942,
@@ -1256,7 +1168,7 @@
             "normal": "#line-097138-5650-nodesc-normal",
             "highlight": "#line-097138-5650-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 1878.6864923016315,
@@ -1355,7 +1267,7 @@
             "normal": "#line-A52714-5844-nodesc-normal",
             "highlight": "#line-A52714-5844-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 274.86717622303115,
@@ -1479,7 +1391,7 @@
             "normal": "#line-A52714-5650-nodesc-normal",
             "highlight": "#line-A52714-5650-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 359.31266329474045,
@@ -1653,13 +1565,105 @@
             "normal": "#line-558B2F-5456-nodesc-normal",
             "highlight": "#line-558B2F-5456-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 342.1021486594916,
           "ascentMeters": 14.2000732421875,
           "descentMeters": 24.7000732421875,
           "changeMeters": -10.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.4412,
+            38.90096,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead / Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#FF2D55",
+          "elevationMeters": 1293
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.45231,
+            38.90794,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave The Wash",
+          "styleUrl": "#icon-61-nodesc",
+          "styleHash": "5bb3ad04",
+          "styleMapHash": {
+            "normal": "#icon-61-nodesc-normal",
+            "highlight": "#icon-61-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/61-green-dot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1316
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.4520367,
+            38.9130355,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1336
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.4486093,
+            38.9113032,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Alcove",
+          "styleUrl": "#icon-61-nodesc",
+          "styleHash": "5bb3ad04",
+          "styleMapHash": {
+            "normal": "#icon-61-nodesc-normal",
+            "highlight": "#icon-61-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/61-green-dot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1330
         }
       },
       {
@@ -1681,6 +1685,7 @@
             "highlight": "#icon-1377-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1377-rec-mountain.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1321
         }
       },
@@ -1703,10 +1708,11 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1306
         }
       }
     ]
   },
-  "version": "75a722449a85f97b2faf334f95d4435e"
+  "version": "51b57c4bc163dcd3c0bd09acdd514d19"
 }

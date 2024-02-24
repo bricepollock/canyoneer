@@ -28,156 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86189092142742,
-            34.927733881256295,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Turn Off Boynton Trail",
-          "elevationMeters": 1700
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86615746468307,
-            34.93121071709851,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "elevationMeters": 1658
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86652693897487,
-            34.93160836553259,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "elevationMeters": 1621
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86660130151724,
-            34.93182150150115,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "elevationMeters": 1623
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86659016864725,
-            34.932220899555325,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "elevationMeters": 1601
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86308776028459,
-            34.93244732738426,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Subway",
-          "elevationMeters": 1714
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86650891067988,
-            34.932503216106745,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1618
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86653519154792,
-            34.932854242515084,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "elevationMeters": 1638
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86652258038522,
-            34.93288545218618,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Slingshot",
-          "elevationMeters": 1638
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.84856562792098,
-            34.90742646009748,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1505
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -229,7 +79,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 418.98874013109423,
@@ -382,7 +232,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 219.329791263448,
@@ -1455,7 +1305,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4197.427167728401,
@@ -1492,7 +1342,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 1,
           "lengthMeters": 50.00986482549736,
@@ -1500,8 +1350,168 @@
           "descentMeters": 0,
           "changeMeters": 52.2999267578125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86189092142742,
+            34.927733881256295,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Turn Off Boynton Trail",
+          "stroke": "#34C759",
+          "elevationMeters": 1700
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86615746468307,
+            34.93121071709851,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1658
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86652693897487,
+            34.93160836553259,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1621
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86660130151724,
+            34.93182150150115,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1623
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86659016864725,
+            34.932220899555325,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1601
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86308776028459,
+            34.93244732738426,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Subway",
+          "stroke": "#34C759",
+          "elevationMeters": 1714
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86650891067988,
+            34.932503216106745,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1618
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86653519154792,
+            34.932854242515084,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1638
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86652258038522,
+            34.93288545218618,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Slingshot",
+          "stroke": "#34C759",
+          "elevationMeters": 1638
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.84856562792098,
+            34.90742646009748,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1505
+        }
       }
     ]
   },
-  "version": "40f19ab509df7ad6848ecd031308ff02"
+  "version": "4efad2ada080dff65d3ebc0f72044d4b"
 }

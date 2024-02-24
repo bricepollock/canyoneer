@@ -28,28 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.692827,
-            37.633589,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Needleton Stop",
-          "styleUrl": "#icon-1899-0288D1-nodesc",
-          "styleHash": "-68688fa4",
-          "styleMapHash": {
-            "normal": "#icon-1899-0288D1-nodesc-normal",
-            "highlight": "#icon-1899-0288D1-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 3327
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -122,7 +100,7 @@
             "normal": "#line-880E4F-6813-nodesc-normal",
             "highlight": "#line-880E4F-6813-nodesc-highlight"
           },
-          "stroke": "#880e4f",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 6.813,
           "lengthMeters": 3076.761133832197,
@@ -336,7 +314,7 @@
             "normal": "#line-0288D1-7394-nodesc-normal",
             "highlight": "#line-0288D1-7394-nodesc-highlight"
           },
-          "stroke": "#0288d1",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 7.394,
           "lengthMeters": 812.7876320280218,
@@ -420,7 +398,7 @@
             "normal": "#line-FFD600-4488-nodesc-normal",
             "highlight": "#line-FFD600-4488-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4.488,
           "lengthMeters": 1752.5337537951723,
@@ -1395,7 +1373,7 @@
             "highlight": "#line-0288D1-5000-highlight"
           },
           "description": "Statistics computed from imported data<br><br>Monday, April 20, 2015 5:21 AM MDT<br>Distance: 5.5 miles<br>Duration: 3 hours, 9 minutes, and 0 seconds<br>Average Speed: 1.7 mph<br>Minimum Elevation: 10752 feet<br>Maximum Elevation: 11692 feet<br>Total climb: 1296 feet<br>Total descent: 413 feet",
-          "stroke": "#0288d1",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 8805.585860737838,
@@ -1403,8 +1381,31 @@
           "descentMeters": 643.400634765625,
           "changeMeters": 560.39990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.692827,
+            37.633589,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Needleton Stop",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "styleHash": "-68688fa4",
+          "styleMapHash": {
+            "normal": "#icon-1899-0288D1-nodesc-normal",
+            "highlight": "#icon-1899-0288D1-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3327
+        }
       }
     ]
   },
-  "version": "c868ba743d74485a11c666ce82cb966b"
+  "version": "963bce788a0e156b18f8979f0c2eff45"
 }

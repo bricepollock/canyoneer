@@ -32,29 +32,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.2925471,
-            38.2763362,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Smallcatraz (aka TCB) Canyon",
-          "styleUrl": "#icon-1453",
-          "styleHash": "48a3dc84",
-          "styleMapHash": {
-            "normal": "#icon-1453-normal",
-            "highlight": "#icon-1453-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "description": "Smallcatraz (aka TCB) Canyon",
-          "elevationMeters": 1758
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -417,7 +394,7 @@
             "normal": "#line-A52714-5000-nodesc-normal",
             "highlight": "#line-A52714-5000-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 755.5410691609849,
@@ -866,7 +843,7 @@
             "normal": "#line-F9A825-5000-nodesc-normal",
             "highlight": "#line-F9A825-5000-nodesc-highlight"
           },
-          "stroke": "#f9a825",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1020.9458778186605,
@@ -955,36 +932,13 @@
             "normal": "#line-097138-5000-nodesc-normal",
             "highlight": "#line-097138-5000-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 355.45659438960166,
           "ascentMeters": 38.5,
           "descentMeters": 49.5,
           "changeMeters": -11
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.3037517,
-            38.2603609,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Big Rappel into Lower TCB",
-          "styleUrl": "#icon-1125",
-          "styleHash": "7b0e9f08",
-          "styleMapHash": {
-            "normal": "#icon-1125-normal",
-            "highlight": "#icon-1125-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "description": "If you reach this point you've gone too far and need to reverse.",
-          "elevationMeters": 1706
         }
       },
       {
@@ -1487,7 +1441,7 @@
             "normal": "#line-097138-2744-nodesc-normal",
             "highlight": "#line-097138-2744-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2.744,
           "lengthMeters": 1915.9087988037734,
@@ -1616,7 +1570,7 @@
             "normal": "#line-F9A825-5844-nodesc-normal",
             "highlight": "#line-F9A825-5844-nodesc-highlight"
           },
-          "stroke": "#f9a825",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 380.49786796474564,
@@ -1720,7 +1674,7 @@
             "normal": "#line-F9A825-5650-nodesc-normal",
             "highlight": "#line-F9A825-5650-nodesc-highlight"
           },
-          "stroke": "#f9a825",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 604.8175408145951,
@@ -2254,7 +2208,7 @@
             "normal": "#line-F9A825-5263-nodesc-normal",
             "highlight": "#line-F9A825-5263-nodesc-highlight"
           },
-          "stroke": "#f9a825",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 990.6206331874209,
@@ -2378,7 +2332,7 @@
             "normal": "#line-A52714-5650-nodesc-normal",
             "highlight": "#line-A52714-5650-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 330.85150132184083,
@@ -2457,7 +2411,7 @@
             "normal": "#line-F9A825-5456-nodesc-normal",
             "highlight": "#line-F9A825-5456-nodesc-highlight"
           },
-          "stroke": "#f9a825",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 183.03133820739814,
@@ -2687,7 +2641,7 @@
             "highlight": "#line-097138-5263-highlight"
           },
           "description": "Note: The route follows a mixture of terrain.  A faded, sandy road, single track trail, the wash.  There will be lots of intermingled trails for livestock and people.  You're aiming for the rancher's watering trough and then you'll veer southeast overland.",
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 544.3315261498528,
@@ -2932,13 +2886,61 @@
             "highlight": "#line-097138-5650-highlight"
           },
           "description": "Note: The route follows a mixture of terrain. A faded, sandy road, single track trail, the wash. There will be lots of intermingled trails for livestock and people. You're aiming for the rancher's watering trough and then you'll veer southeast overland.",
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 692.6021668430911,
           "ascentMeters": 25.199951171875,
           "descentMeters": 35.9000244140625,
           "changeMeters": -10.7000732421875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.2925471,
+            38.2763362,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Smallcatraz (aka TCB) Canyon",
+          "styleUrl": "#icon-1453",
+          "styleHash": "48a3dc84",
+          "styleMapHash": {
+            "normal": "#icon-1453-normal",
+            "highlight": "#icon-1453-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "description": "Smallcatraz (aka TCB) Canyon",
+          "stroke": "#34C759",
+          "elevationMeters": 1758
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.3037517,
+            38.2603609,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Big Rappel into Lower TCB",
+          "styleUrl": "#icon-1125",
+          "styleHash": "7b0e9f08",
+          "styleMapHash": {
+            "normal": "#icon-1125-normal",
+            "highlight": "#icon-1125-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "description": "If you reach this point you've gone too far and need to reverse.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1706
         }
       },
       {
@@ -2960,10 +2962,11 @@
             "highlight": "#icon-989-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/989-biz-butcher.png",
+          "stroke": "#34C759",
           "elevationMeters": 1859
         }
       }
     ]
   },
-  "version": "4e7115d8603f791512360ae99e37eefa"
+  "version": "2955b3282d88e5e4e57a97ee805310cf"
 }

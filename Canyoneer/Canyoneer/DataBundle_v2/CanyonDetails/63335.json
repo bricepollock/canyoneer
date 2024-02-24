@@ -35,96 +35,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.867544,
-            34.900159,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "description": "take right and head east at 1st bench",
-          "elevationMeters": 1472
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.857381,
-            34.901972,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "elevationMeters": 1509
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.85775855034082,
-            34.90179589521275,
-            0
-          ]
-        },
-        "properties": {
-          "elevationMeters": 1501
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.867544,
-            34.900159,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "description": "take right and head east at 1st bench",
-          "elevationMeters": 1472
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.857381,
-            34.901972,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "elevationMeters": 1509
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86532363295555,
-            34.89363175755571,
-            0
-          ]
-        },
-        "properties": {
-          "elevationMeters": 1547
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -205,7 +115,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 381.62818743666537,
@@ -337,7 +247,7 @@
           ]
         },
         "properties": {
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1026.4203906782363,
@@ -674,7 +584,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2575.153829978174,
@@ -682,8 +592,104 @@
           "descentMeters": 178.300048828125,
           "changeMeters": 30.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.867544,
+            34.900159,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "description": "take right and head east at 1st bench",
+          "stroke": "#34C759",
+          "elevationMeters": 1472
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.857381,
+            34.901972,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1509
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.85775855034082,
+            34.90179589521275,
+            0
+          ]
+        },
+        "properties": {
+          "stroke": "#FFCC00",
+          "elevationMeters": 1501
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.867544,
+            34.900159,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "description": "take right and head east at 1st bench",
+          "stroke": "#34C759",
+          "elevationMeters": 1472
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.857381,
+            34.901972,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1509
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86532363295555,
+            34.89363175755571,
+            0
+          ]
+        },
+        "properties": {
+          "stroke": "#34C759",
+          "elevationMeters": 1547
+        }
       }
     ]
   },
-  "version": "b0a2a4edc7b35fc16c363f99fe2e1237"
+  "version": "fcda199954c98eef1f690f1f15142ea2"
 }

@@ -26,156 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.00688063218422,
-            44.59741099317454,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DropIn",
-          "elevationMeters": 1182
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.007772540836,
-            44.5955662480379,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1206
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.00280904769899,
-            44.591024932504084,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Parking",
-          "elevationMeters": 1148
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.00421988084145,
-            44.59701564505914,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1179
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.00329586863518,
-            44.59493286094018,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3a",
-          "elevationMeters": 1173
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.00317785143852,
-            44.59481444272731,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3b",
-          "elevationMeters": 1174
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.00293645262718,
-            44.59469172682468,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "elevationMeters": 1171
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.00257569551468,
-            44.59470032172123,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "elevationMeters": 1166
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.98263219574,
-            44.5827318876656,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Turnoff for NF-11",
-          "elevationMeters": 822
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.00081348419191,
-            44.592575911115134,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Creek",
-          "elevationMeters": 1141
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -247,7 +97,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 233.34851828977062,
@@ -425,7 +275,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1294.000105919503,
@@ -563,7 +413,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 504.7608290473892,
@@ -686,7 +536,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 630.9631061777335,
@@ -694,8 +544,168 @@
           "descentMeters": 45.1998291015625,
           "changeMeters": -38.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.00688063218422,
+            44.59741099317454,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DropIn",
+          "stroke": "#34C759",
+          "elevationMeters": 1182
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.007772540836,
+            44.5955662480379,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1206
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.00280904769899,
+            44.591024932504084,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1148
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.00421988084145,
+            44.59701564505914,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1179
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.00329586863518,
+            44.59493286094018,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3a",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1173
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.00317785143852,
+            44.59481444272731,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3b",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1174
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.00293645262718,
+            44.59469172682468,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1171
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.00257569551468,
+            44.59470032172123,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1166
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.98263219574,
+            44.5827318876656,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Turnoff for NF-11",
+          "stroke": "#FF3B30",
+          "elevationMeters": 822
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.00081348419191,
+            44.592575911115134,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Creek",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1141
+        }
       }
     ]
   },
-  "version": "f7785222d1d3ef95e3cf9cd5b4345c70"
+  "version": "8329cbf9f9c488cd2eeab8ce1e6cd35d"
 }

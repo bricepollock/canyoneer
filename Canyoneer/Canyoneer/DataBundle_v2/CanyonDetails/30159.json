@@ -12,144 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            35.64238,
-            33.08468,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "1e08bc7",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Alexey V at wikiloc.com)",
-          "elevationMeters": 338
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            35.635021,
-            33.06297,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "25cef0d1",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Alexey V at wikiloc.com)",
-          "elevationMeters": 108
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            35.6784,
-            33.06701,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Near enter the Canyon",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1b296abf",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Alexey V at wikiloc.com)",
-          "elevationMeters": 480
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            35.67171,
-            33.06713,
-            0
-          ]
-        },
-        "properties": {
-          "name": "10M up down ",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1b296abf",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Alexey V at wikiloc.com)",
-          "elevationMeters": 494
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            35.67175,
-            33.06721,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Water Fall",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1b296abf",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Alexey V at wikiloc.com)",
-          "elevationMeters": 494
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            35.67079,
-            33.06832,
-            0
-          ]
-        },
-        "properties": {
-          "name": "10m down - second Waterfall",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1b296abf",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Alexey V at wikiloc.com)",
-          "elevationMeters": 488
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -857,7 +719,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Alexey V at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 16134.15558172338,
@@ -865,8 +727,152 @@
           "descentMeters": 994,
           "changeMeters": -229.89998626708984
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            35.64238,
+            33.08468,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-10ed237e",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Alexey V at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 338
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            35.635021,
+            33.06297,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-2181d1a3",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Alexey V at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 108
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            35.6784,
+            33.06701,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Near enter the Canyon",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-3be5584",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Alexey V at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 480
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            35.67171,
+            33.06713,
+            0
+          ]
+        },
+        "properties": {
+          "name": "10M up down ",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-3be5584",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Alexey V at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 494
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            35.67175,
+            33.06721,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Water Fall",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-3be5584",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Alexey V at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 494
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            35.67079,
+            33.06832,
+            0
+          ]
+        },
+        "properties": {
+          "name": "10m down - second Waterfall",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-3be5584",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Alexey V at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 488
+        }
       }
     ]
   },
-  "version": "57b6ca17f0f3824af54319a88618f1c8"
+  "version": "6901abe5fa05c0abb2ab38daf51ae8b1"
 }

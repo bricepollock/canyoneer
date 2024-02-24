@@ -18,75 +18,14 @@
   "timeRating": "III",
   "riskRating": "PG",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 8,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 24.38,
   "vehicle": "4WD - High Clearance",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<p>From Red Mountain Campground, proceed down the jeep road to the 4WD\nparking point. Without a 4WD, high clearance vehicle, expect to add 1.25\nmiles and ~500 feet of vertical to the approach.</p>\n<p>Park at the end of the road. Hike down either the obvious trail or\nsave a little time and go directly down the mountain until you hit the\nobvious, wide trail. Continue on the trail until you meet the creek and\nhead downstream a few hundred feet until you meet the first rappel.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>No permanent anchors were left after the first descent, as most\nrappels had good options for ghosting.</p>\n<p>The lengths below are approximate, and depend on the anchors\nused.</p>\n<p><strong>R1:</strong> ~30ft drop. Large rock, can be downclimbed\nDCR.</p>\n<p><strong>R2:</strong> ~35ft drop. Large rock protrusion by the edge\nDCR. Rap can be placed in the flow by redirecting over a small rock\nprotrusion in the middle of the drop. This also helps keep the\nfiddlestick away from rocks.</p>\n<p><strong>R3:</strong> ~20ft drop. Large rock in the flow about 15ft\nfrom the edge.</p>\n<p><strong>R4:</strong> ~80ft drop. Large rock about 30ft from the edge.\n100ft rope is probably <strong>not</strong> enough for this drop.</p>\n<p>Here you will find a short narrow section with a couple downclimbs\nand potential jumps that would certainly turn into spicy swiftwater in\nhigher flows.</p>\n<p><strong>R5:</strong> ~30ft drop. We found that the rope would be\nlikely to get stuck around the half-submerged boulder near the drop, so\nwe climbed back up the last downclimb and anchored to a rock around\nthere, making the rope about 60ft long.</p>\n<p><strong>R6:</strong> ~50ft long, low angle. Might be possible to\ndownclimb or bypass.</p>\n<p>Here you will find another section of small pools and optional\njumps/slides followed by a nasty downclimb on extremely crumbly rock.\nThere is not much to anchor to for this downclimb - consider having a\nmeat anchor for those less confident in downclimbing, or building a\ncairn anchor with rocks from above if needed.</p>\n<p><strong>R7:</strong> ~30ft drop immediately after the nasty\ndownclimb. We used a half submerged rock on the LDC side of the\npool.</p>\n<p><strong>R8:</strong> ~35ft drop from a small rock just on the edge of\nthe drop LDC. Certainly not the most confidence-inspiring anchor, but it\nwas fairly well wedged in between other rocks.</p>\n<p><strong>R9:</strong> ~35ft from a rock near the edge.</p>\n<p>At this point the canyon starts getting overgrown with vegetation.\nAfter a couple easy downclimbs through some vegetation you will have\nreached the bottom.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>Shortly after the last rappel, look for a flat enough section to\nbegin the exit LDC. Hike up off-trail approximately 300' vert until you\nreach the ridgeline (KML in this section is approximate). Turn left and\ncontinue along the ridgeline for another 300' vert. The topo will\nflatten out and you should be able to see the extension of the trail you\ncame in on. Continue to bushwhack through it until you reach the trail.\nTurn left and follow the trail you came in on back out.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.10913980007172,
-            39.066455793786545,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "description": "30, 60, 30 prior ",
-          "elevationMeters": 969
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.107645,
-            39.066042,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In",
-          "elevationMeters": 965
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.11023,
-            39.07111,
-            0
-          ]
-        },
-        "properties": {
-          "name": "4WD parking",
-          "elevationMeters": 879
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.11188,
-            39.066113,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon End",
-          "elevationMeters": 930
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -1651,7 +1590,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 475.63092767160674,
@@ -3044,7 +2983,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 923.2297559562168,
@@ -4642,7 +4581,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1757.597861101827,
@@ -4650,8 +4589,73 @@
           "descentMeters": 287.70001220703125,
           "changeMeters": -50.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.10913980007172,
+            39.066455793786545,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "description": "30, 60, 30 prior ",
+          "stroke": "#FF3B30",
+          "elevationMeters": 969
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.107645,
+            39.066042,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In",
+          "stroke": "#34C759",
+          "elevationMeters": 965
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.11023,
+            39.07111,
+            0
+          ]
+        },
+        "properties": {
+          "name": "4WD parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 879
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.11188,
+            39.066113,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon End",
+          "stroke": "#FF3B30",
+          "elevationMeters": 930
+        }
       }
     ]
   },
-  "version": "e1b5cb0a03cf8738a2dfd4e40a0e7118"
+  "version": "9f6717519c3e508fc583cba16945df28"
 }

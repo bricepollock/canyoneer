@@ -8,60 +8,14 @@
   "technicalRating": 3,
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 15,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 25,
   "vehicle": "Passenger",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p>Wikiloc: <a\nhref=\"https://www.wikiloc.com/canyoneering-trails/korinthia-geraneia-pharaggi-gerakinas-42443149\">https://www.wikiloc.com/canyoneering-trails/korinthia-geraneia-pharaggi-gerakinas-42443149</a></p>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            23.026175,
-            38.0416,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "4bcc1466",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by nkilos at wikiloc.com)",
-          "elevationMeters": 390
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            23.02618,
-            38.041623,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-c07dd42",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by nkilos at wikiloc.com)",
-          "elevationMeters": 379
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -432,7 +386,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by nkilos at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3897.2699208051413,
@@ -440,8 +394,56 @@
           "descentMeters": 1846.8000793457031,
           "changeMeters": -10.79998779296875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            23.026175,
+            38.0416,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-7e2bb3fa",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by nkilos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 390
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            23.02618,
+            38.041623,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "343e383f",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by nkilos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 379
+        }
       }
     ]
   },
-  "version": "4f5399c3689b53e813c9281d10b1cdde"
+  "version": "5421cf9e70324809ef456330c03cff5b"
 }

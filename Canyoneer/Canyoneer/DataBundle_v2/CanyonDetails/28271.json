@@ -25,36 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.46196568012239,
-            45.99521006850154,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Checkpoint",
-          "elevationMeters": 191
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.45814621448518,
-            45.99422246816378,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 233
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -106,7 +76,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 133.26396760378725,
@@ -189,7 +159,7 @@
         },
         "properties": {
           "name": "Descent (Technical)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 358.06174190400617,
@@ -292,7 +262,7 @@
         },
         "properties": {
           "name": "Descent (Non-Technical)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 708.6306645008591,
@@ -645,7 +615,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1559.1776233113835,
@@ -653,8 +623,40 @@
           "descentMeters": 66.50001525878906,
           "changeMeters": 126.29999542236328
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.46196568012239,
+            45.99521006850154,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Checkpoint",
+          "stroke": "#FF3B30",
+          "elevationMeters": 191
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.45814621448518,
+            45.99422246816378,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 233
+        }
       }
     ]
   },
-  "version": "5a8d9b6d12c51806a1f0617e22c0fa9b"
+  "version": "95e28c40a12bbefa94250532d9277edb"
 }

@@ -20,28 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.917167791571,
-            34.48032716582519,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#msn_parking_lot",
-          "styleHash": "bdcce78",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 450
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -200,7 +178,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 1785.4780502760163,
@@ -744,7 +722,7 @@
             "normal": "#dir_route9",
             "highlight": "#dir_route0"
           },
-          "stroke": "#00d000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 3380.715978075571,
@@ -899,7 +877,7 @@
             "normal": "#dir_route14",
             "highlight": "#dir_route10"
           },
-          "stroke": "#00d000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 1855.5058991159262,
@@ -1148,7 +1126,7 @@
             "normal": "#dir_route8",
             "highlight": "#dir_route6"
           },
-          "stroke": "#00d000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 1659.8517632859023,
@@ -1277,35 +1255,13 @@
             "normal": "#dir_route7",
             "highlight": "#dir_route11"
           },
-          "stroke": "#00d000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 1082.8537714876602,
           "ascentMeters": 152.5999755859375,
           "descentMeters": 1.0999755859375,
           "changeMeters": 151.5
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.9451197047718,
-            34.49213274878717,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Camp",
-          "styleUrl": "#msn_campground",
-          "styleHash": "24a66318",
-          "styleMapHash": {
-            "normal": "#sn_campground",
-            "highlight": "#sh_campground"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/campground.png",
-          "elevationMeters": 853
         }
       },
       {
@@ -1478,7 +1434,7 @@
             "normal": "#dir_route",
             "highlight": "#dir_route13"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 1830.0761703368692,
@@ -1838,101 +1794,13 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 6832.58179787687,
           "ascentMeters": 949.2999572753906,
           "descentMeters": 1353.5999450683594,
           "changeMeters": -404.29998779296875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.9587053895998,
-            34.49433737535622,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bear Heaven Falls",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 931
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.9283827516499,
-            34.49023614541468,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Tar Creek",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 461
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.9397556664205,
-            34.48112509967468,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gully",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 564
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.9234967106005,
-            34.45361648008004,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle",
-          "styleUrl": "#msn_bus",
-          "styleHash": "4cbf46e4",
-          "styleMapHash": {
-            "normal": "#sn_bus",
-            "highlight": "#sh_bus"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/bus.png",
-          "elevationMeters": 436
         }
       },
       {
@@ -3080,7 +2948,7 @@
             "normal": "#dir_route2",
             "highlight": "#dir_route15"
           },
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 3,
           "lengthMeters": 8357.496629466237,
@@ -3089,6 +2957,144 @@
           "changeMeters": 9
         },
         "id": "22.4"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.917167791571,
+            34.48032716582519,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#msn_parking_lot",
+          "styleHash": "bdcce78",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 450
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.9451197047718,
+            34.49213274878717,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Camp",
+          "styleUrl": "#msn_campground",
+          "styleHash": "24a66318",
+          "styleMapHash": {
+            "normal": "#sn_campground",
+            "highlight": "#sh_campground"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/campground.png",
+          "stroke": "#34C759",
+          "elevationMeters": 853
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.9587053895998,
+            34.49433737535622,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bear Heaven Falls",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 931
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.9283827516499,
+            34.49023614541468,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Tar Creek",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
+          "elevationMeters": 461
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.9397556664205,
+            34.48112509967468,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gully",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
+          "elevationMeters": 564
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.9234967106005,
+            34.45361648008004,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle",
+          "styleUrl": "#msn_bus",
+          "styleHash": "4cbf46e4",
+          "styleMapHash": {
+            "normal": "#sn_bus",
+            "highlight": "#sh_bus"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/bus.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 436
+        }
       },
       {
         "type": "Feature",
@@ -3109,10 +3115,11 @@
             "highlight": "#sh_open-diamond"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 791
         }
       }
     ]
   },
-  "version": "bf6e3531f8890311efbd83cdb70304a6"
+  "version": "04a57282d7337712b62bfcded27cf4e2"
 }

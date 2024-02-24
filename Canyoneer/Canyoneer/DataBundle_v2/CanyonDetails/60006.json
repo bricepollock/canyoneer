@@ -27,21 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.12102273673673,
-            37.0405748350345,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking (bottom)",
-          "elevationMeters": 1972
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -298,7 +283,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 965.0583994471916,
@@ -571,7 +556,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1386.654500492865,
@@ -1530,7 +1515,7 @@
         "properties": {
           "name": "Shuttle",
           "description": "Could maybe be done as a long crappy road walk instead",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 6286.084540361146,
@@ -1538,8 +1523,24 @@
           "descentMeters": 756.7999267578125,
           "changeMeters": -125.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.12102273673673,
+            37.0405748350345,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking (bottom)",
+          "stroke": "#34C759",
+          "elevationMeters": 1972
+        }
       }
     ]
   },
-  "version": "b5d9990db45a7d6dca02f881766d3162"
+  "version": "6d73420da1020a1a2643cd2badc58a25"
 }

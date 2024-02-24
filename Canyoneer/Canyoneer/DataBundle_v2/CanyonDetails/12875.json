@@ -28,72 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            7.315567,
-            46.267338,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon de la Rogne",
-          "styleUrl": "#icon-22-nodesc",
-          "styleHash": "3fa0dbd5",
-          "styleMapHash": {
-            "normal": "#icon-22-nodesc-normal",
-            "highlight": "#icon-22-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png",
-          "elevationMeters": 2030
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            7.316168,
-            46.267815000000006,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Approach",
-          "styleUrl": "#icon-93-nodesc",
-          "styleHash": "711bfc1",
-          "styleMapHash": {
-            "normal": "#icon-93-nodesc-normal",
-            "highlight": "#icon-93-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "elevationMeters": 2057
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            7.320134999999999,
-            46.2646,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Exit",
-          "styleUrl": "#icon-93-nodesc",
-          "styleHash": "711bfc1",
-          "styleMapHash": {
-            "normal": "#icon-93-nodesc-normal",
-            "highlight": "#icon-93-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "elevationMeters": 1795
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -695,7 +629,7 @@
         },
         "properties": {
           "name": "Road",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3015.867498073626,
@@ -868,7 +802,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00FF00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 159.2558863836442,
@@ -941,7 +875,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 113.03801540415425,
@@ -1554,13 +1488,82 @@
         },
         "properties": {
           "name": "Road",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3015.867498073626,
           "ascentMeters": 685.80029296875,
           "descentMeters": 407.7001953125,
           "changeMeters": 278.10009765625
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.315567,
+            46.267338,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon de la Rogne",
+          "styleUrl": "#icon-22-nodesc",
+          "styleHash": "3fa0dbd5",
+          "styleMapHash": {
+            "normal": "#icon-22-nodesc-normal",
+            "highlight": "#icon-22-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 2030
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.316168,
+            46.267815000000006,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "styleUrl": "#icon-93-nodesc",
+          "styleHash": "711bfc1",
+          "styleMapHash": {
+            "normal": "#icon-93-nodesc-normal",
+            "highlight": "#icon-93-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2057
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.320134999999999,
+            46.2646,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "styleUrl": "#icon-93-nodesc",
+          "styleHash": "711bfc1",
+          "styleMapHash": {
+            "normal": "#icon-93-nodesc-normal",
+            "highlight": "#icon-93-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1795
         }
       },
       {
@@ -1582,6 +1585,7 @@
             "highlight": "#icon-ci-1-nodesc-highlight"
           },
           "icon": "images/icon-1.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 1782
         }
       },
@@ -1604,10 +1608,11 @@
             "highlight": "#icon-ci-2-nodesc-highlight"
           },
           "icon": "images/icon-2.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 2060
         }
       }
     ]
   },
-  "version": "610caaee3ae55d785ea5dc89951f512d"
+  "version": "50fab5f2508c7fb449f96c070ad2947e"
 }

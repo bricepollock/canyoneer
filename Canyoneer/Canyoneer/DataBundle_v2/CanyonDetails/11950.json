@@ -18,8 +18,8 @@
   "timeRating": "III",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 20,
+  "rappelCountMax": 20,
   "rappelLongestMeters": 50,
   "shuttleSeconds": 60,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/22128\">Descente-Canyon.com</a>\n: Pliz</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/RioPlizCanyon\">Canyon.Carto.net</a>\n: Rio Pliz</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/UD010\">Catastoforre\nAIC-Canyoning.it</a> : Rio Pliz</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/2577/\">Gulliver.it</a> : Rio Pliz -\nSaletto (Udine)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -46,6 +46,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 11 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 2064
         }
       },
@@ -69,6 +70,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 11 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 2170
         }
       },
@@ -92,6 +94,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Marie on 09 sept 2009)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1258
         }
       },
@@ -115,10 +118,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": " (Data by Marie on 09 sept 2009)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1791
         }
       }
     ]
   },
-  "version": "bcdf858d389a49b73c18d1151caaecab"
+  "version": "326ea93aa96b40b8e7fa92bab3b14ae5"
 }

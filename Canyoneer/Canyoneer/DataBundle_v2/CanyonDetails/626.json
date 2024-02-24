@@ -30,98 +30,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.841421,
-            35.054029,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Car park right around here.",
-          "styleUrl": "#icon-161-nodesc",
-          "styleHash": "-6f2ad587",
-          "styleMapHash": {
-            "normal": "#icon-161-nodesc-normal",
-            "highlight": "#icon-161-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/161-grn-pushpin.png",
-          "description": " (Data by canyonchronicles.com)",
-          "elevationMeters": 2184
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.829834,
-            35.024866,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Junction",
-          "styleUrl": "#icon-22",
-          "styleHash": "-51006ada",
-          "styleMapHash": {
-            "normal": "#icon-22-normal",
-            "highlight": "#icon-22-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png",
-          "description": "with West Fork. Go upstream. (Data by canyonchronicles.com)",
-          "elevationMeters": 2006
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.839361,
-            35.021703,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Junction",
-          "styleUrl": "#icon-22",
-          "styleHash": "-51006ada",
-          "styleMapHash": {
-            "normal": "#icon-22-normal",
-            "highlight": "#icon-22-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png",
-          "description": "Take the canyon to the right.  The one to the left will lead you to a dropoff. (Data by canyonchronicles.com)",
-          "elevationMeters": 2089
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.855927,
-            35.033229,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit",
-          "styleUrl": "#icon-161",
-          "styleHash": "53d356d8",
-          "styleMapHash": {
-            "normal": "#icon-161-normal",
-            "highlight": "#icon-161-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/161-grn-pushpin.png",
-          "description": "Park right at the bridge. (Data by canyonchronicles.com)",
-          "elevationMeters": 2183
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -175,7 +83,7 @@
             "highlight": "#line-0000FF-5000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#0000ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2181.243557015455,
@@ -290,7 +198,7 @@
             "highlight": "#line-FF0000-5000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2295.4352665189604,
@@ -415,7 +323,7 @@
             "highlight": "#line-33CC00-5000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#33cc00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3538.796223075851,
@@ -423,8 +331,104 @@
           "descentMeters": 126.199951171875,
           "changeMeters": 162.10009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.841421,
+            35.054029,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Car park right around here.",
+          "styleUrl": "#icon-161-nodesc",
+          "styleHash": "-6f2ad587",
+          "styleMapHash": {
+            "normal": "#icon-161-nodesc-normal",
+            "highlight": "#icon-161-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/161-grn-pushpin.png",
+          "description": " (Data by canyonchronicles.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2184
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.829834,
+            35.024866,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Junction",
+          "styleUrl": "#icon-22",
+          "styleHash": "-51006ada",
+          "styleMapHash": {
+            "normal": "#icon-22-normal",
+            "highlight": "#icon-22-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png",
+          "description": "with West Fork. Go upstream. (Data by canyonchronicles.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2006
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.839361,
+            35.021703,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Junction",
+          "styleUrl": "#icon-22",
+          "styleHash": "-51006ada",
+          "styleMapHash": {
+            "normal": "#icon-22-normal",
+            "highlight": "#icon-22-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png",
+          "description": "Take the canyon to the right.  The one to the left will lead you to a dropoff. (Data by canyonchronicles.com)",
+          "stroke": "#34C759",
+          "elevationMeters": 2089
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.855927,
+            35.033229,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "styleUrl": "#icon-161",
+          "styleHash": "53d356d8",
+          "styleMapHash": {
+            "normal": "#icon-161-normal",
+            "highlight": "#icon-161-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/161-grn-pushpin.png",
+          "description": "Park right at the bridge. (Data by canyonchronicles.com)",
+          "stroke": "#34C759",
+          "elevationMeters": 2183
+        }
       }
     ]
   },
-  "version": "d05b530da86c702e769c44ea880a0160"
+  "version": "40234cc62780e2110e55e4d325338c74"
 }

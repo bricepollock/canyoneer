@@ -9,8 +9,8 @@
   "waterRating": "A",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 12,
+  "rappelCountMax": 12,
   "rappelLongestMeters": 45,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/22662\">Descente-Canyon.com</a>\n: Delgado (Partie A)</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barranquismo.net/paginas/barrancos/Joao_Delgado.pdf\">Barranquismo.net</a>\n: Joao Delgado</li>\n<li><img src=\"rwl_pt.png\" title=\"rwl_pt.png\" alt=\"rwl_pt.png\" /><a\nhref=\"http://canyoning.camadeira.com/canyons/joao-delgado\">CaMadeira.com</a>\n: Ribeira do João Delgado (A)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -36,6 +36,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by bernotom on 20 juin 2012)",
+          "stroke": "#FF3B30",
           "elevationMeters": 885
         }
       },
@@ -59,6 +60,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Martiiin on 13 nov 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 999
         }
       },
@@ -82,6 +84,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Martiiin on 13 nov 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 860
         }
       },
@@ -105,10 +108,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": " (Data by Martiiin on 13 nov 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 994
         }
       }
     ]
   },
-  "version": "579eaf417a3248a8712864910803c6f6"
+  "version": "4a0a92fed45f09bd804719b57055ed66"
 }

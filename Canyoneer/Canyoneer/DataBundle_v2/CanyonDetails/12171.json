@@ -15,8 +15,8 @@
   "timeRating": "III",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 25,
+  "rappelCountMax": 25,
   "rappelLongestMeters": 60,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/23041\">Descente-Canyon.com</a>\n: Marderello (amont)</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_Nord_Italia_Book?id=Rio_Marderello\">Canyoning\nNord Italia Book by Pascal van Duin</a> : Rio Marderello</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/56771/\">Gulliver.it</a> : Marderello\n(Rio) Integrale - Novalesa (Torino)</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/63810/\">Gulliver.it</a> : Rio\nMarderello Superiore (Torino)</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://openspeleo.org/openspeleo/canyons-view-43.html?page=5\">OpenSpeleo.org</a>\n: Rio Marderello</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/MarderellosupCanyon\">Canyon.Carto.net</a>\n: Marderello (Upper)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -42,6 +42,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by johan06 on 26 sept 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1872
         }
       },
@@ -65,6 +66,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by johan06 on 26 sept 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1927
         }
       },
@@ -88,10 +90,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by johan06 on 26 sept 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1814
         }
       }
     ]
   },
-  "version": "ab05edc18e623f692ce58cc7fc4c3dcc"
+  "version": "a61754e43cf200788976b57628f35896"
 }

@@ -27,96 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.252517048,
-            44.698339974,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking - Blue Gate",
-          "elevationMeters": 755
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.279179578,
-            44.6952402874,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-In",
-          "elevationMeters": 1194
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.263987546,
-            44.6907403726,
-            0
-          ]
-        },
-        "properties": {
-          "name": "FR 610",
-          "elevationMeters": 920
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.266262059,
-            44.6910454627,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Valkyrie Falls",
-          "elevationMeters": 950
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.258537298,
-            44.6898250929,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Parking",
-          "elevationMeters": 891
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.25478649139406,
-            44.69626753790609,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Yellow Gate",
-          "elevationMeters": 932
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -358,7 +268,7 @@
         },
         "properties": {
           "name": "Shuttle (Optional)",
-          "stroke": "#000000",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3149.0761160544084,
@@ -766,7 +676,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4713.682292180142,
@@ -879,7 +789,7 @@
         },
         "properties": {
           "name": "Upper Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1325.9439436387304,
@@ -932,7 +842,7 @@
         },
         "properties": {
           "name": "Lower Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 407.8768888764258,
@@ -1110,7 +1020,7 @@
         },
         "properties": {
           "name": "Exit (no shuttle)",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1466.456728648065,
@@ -1118,8 +1028,104 @@
           "descentMeters": 505.7000732421875,
           "changeMeters": -164.60003662109375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.252517048,
+            44.698339974,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking - Blue Gate",
+          "stroke": "#AF52DE",
+          "elevationMeters": 755
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.279179578,
+            44.6952402874,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-In",
+          "stroke": "#34C759",
+          "elevationMeters": 1194
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.263987546,
+            44.6907403726,
+            0
+          ]
+        },
+        "properties": {
+          "name": "FR 610",
+          "stroke": "#AF52DE",
+          "elevationMeters": 920
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.266262059,
+            44.6910454627,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Valkyrie Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 950
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.258537298,
+            44.6898250929,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Parking",
+          "stroke": "#FF9500",
+          "elevationMeters": 891
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.25478649139406,
+            44.69626753790609,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Yellow Gate",
+          "stroke": "#AF52DE",
+          "elevationMeters": 932
+        }
       }
     ]
   },
-  "version": "a9457f829fe83b7f9e5a6458ba87a03e"
+  "version": "88754ef925db9084678d63b82e7212f9"
 }

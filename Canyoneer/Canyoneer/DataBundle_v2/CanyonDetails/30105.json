@@ -13,75 +13,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.80952,
-            41.582579,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-26c856bf",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 612
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.80967,
-            41.582605,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "26236cc7",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 642
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.809467,
-            41.582683,
-            0
-          ]
-        },
-        "properties": {
-          "name": "FOTOGRAFIES CANAL DELS POLLEGONS",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "75ec7cd1",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 624
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -949,7 +880,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Santi gavarres at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 6420.720664466309,
@@ -957,8 +888,80 @@
           "descentMeters": 1317.49951171875,
           "changeMeters": 29.29998779296875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.80952,
+            41.582579,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-1e56a49a",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 612
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.80967,
+            41.582605,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-511c185",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 642
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.809467,
+            41.582683,
+            0
+          ]
+        },
+        "properties": {
+          "name": "FOTOGRAFIES CANAL DELS POLLEGONS",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "251d1dc8",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 624
+        }
       }
     ]
   },
-  "version": "9b65e9ebcf1c2cb9bf2d4bdf13c0fed6"
+  "version": "35660f92e4b423b1e6973f7be38823cd"
 }

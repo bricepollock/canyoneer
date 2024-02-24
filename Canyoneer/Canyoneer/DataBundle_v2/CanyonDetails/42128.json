@@ -22,52 +22,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            33.066562,
-            41.71923,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "53856e46",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Sinan GÜLBİN at wikiloc.com)",
-          "elevationMeters": 1158
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            33.039184,
-            41.777853,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-76376561",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Sinan GÜLBİN at wikiloc.com)",
-          "elevationMeters": 140
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -705,7 +659,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Sinan GÜLBİN at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 9001.123546877154,
@@ -713,8 +667,56 @@
           "descentMeters": 1880.0997467041016,
           "changeMeters": -1018.3000183105469
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            33.066562,
+            41.71923,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-414d3f",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Sinan GÜLBİN at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1158
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            33.039184,
+            41.777853,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-295045c4",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Sinan GÜLBİN at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 140
+        }
       }
     ]
   },
-  "version": "ca26c773080cd3d6314551339a8c08b5"
+  "version": "0d9b24eec37d7c5f7c770486e52f347c"
 }

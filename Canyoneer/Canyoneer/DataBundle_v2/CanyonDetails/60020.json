@@ -25,22 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -120.93967298968273,
-            39.692166982245375,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "description": "Same as Sears Creek parking",
-          "elevationMeters": 1224
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -108,7 +92,7 @@
         "properties": {
           "name": "Descent (entry drainage)",
           "description": "Steep scramble, one (bypassable) rap. Flowing a little this past weekend, but will likely dry up soon.",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 176.10966515046744,
@@ -447,7 +431,7 @@
         "properties": {
           "name": "Descent + creek walk",
           "description": "There's a neat little narrows section after the entry drainage, and then at least one rappel. Couldn't see clearly from the road or scouting down the entry drainage. Might just mostly be a splashy scrambly creek walk, might have a couple more raps.",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1359.971083124607,
@@ -766,7 +750,7 @@
         "properties": {
           "name": "Approach",
           "description": "Caution, OHV road.",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1286.3514747904744,
@@ -774,8 +758,25 @@
           "descentMeters": 431.7999267578125,
           "changeMeters": 293.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.93967298968273,
+            39.692166982245375,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "description": "Same as Sears Creek parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1224
+        }
       }
     ]
   },
-  "version": "35d40bb6ed8d4a6da3e0eaf921ab51f8"
+  "version": "8e0f18bc2d8053a6db179425af61aa3b"
 }

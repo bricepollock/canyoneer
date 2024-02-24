@@ -27,161 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.83034181589393,
-            35.03121019900085,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R7 50'",
-          "elevationMeters": 2184
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8306,
-            35.03111,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6 60'",
-          "elevationMeters": 2179
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.83123,
-            35.03096,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 30'",
-          "description": "Rock pinch",
-          "elevationMeters": 2177
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.83514386416847,
-            35.03135295835516,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 2181
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.85568332650293,
-            35.033463571150996,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Park",
-          "elevationMeters": 2183
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.83186,
-            35.026518,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Easy Chimney 10 ft",
-          "description": "\n",
-          "elevationMeters": 1988
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.83081030845644,
-            35.031011067770486,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4 <80'",
-          "elevationMeters": 2179
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.83229,
-            35.03088,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 25'",
-          "description": "Off rock pinch",
-          "elevationMeters": 2177
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.83073,
-            35.03113,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5 80'",
-          "description": "Dead Tree",
-          "elevationMeters": 2180
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.834,
-            35.03028,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 15'",
-          "description": "Off dead log",
-          "elevationMeters": 2188
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -328,7 +173,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 492.05971810426996,
@@ -426,7 +271,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 202.37219693408957,
@@ -1299,7 +1144,7 @@
         },
         "properties": {
           "name": "Shuttle Exit",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4565.53353492555,
@@ -2182,7 +2027,7 @@
         },
         "properties": {
           "name": "Short Loop Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1470.3626782130427,
@@ -2190,8 +2035,173 @@
           "descentMeters": 84.4000244140625,
           "changeMeters": 162.5001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.83034181589393,
+            35.03121019900085,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R7 50'",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2184
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8306,
+            35.03111,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6 60'",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2179
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.83123,
+            35.03096,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 30'",
+          "description": "Rock pinch",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2177
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.83514386416847,
+            35.03135295835516,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2181
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.85568332650293,
+            35.033463571150996,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Park",
+          "stroke": "#FF9500",
+          "elevationMeters": 2183
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.83186,
+            35.026518,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Easy Chimney 10 ft",
+          "description": "\n",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1988
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.83081030845644,
+            35.031011067770486,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4 <80'",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2179
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.83229,
+            35.03088,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 25'",
+          "description": "Off rock pinch",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2177
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.83073,
+            35.03113,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5 80'",
+          "description": "Dead Tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2180
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.834,
+            35.03028,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 15'",
+          "description": "Off dead log",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2188
+        }
       }
     ]
   },
-  "version": "ce28679df5ea1e458149ab49460324f7"
+  "version": "4e406cdc6060b8b6034c543b46da0b0e"
 }

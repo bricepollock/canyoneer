@@ -21,8 +21,8 @@
   "timeRating": "IV",
   "riskRating": "PG",
   "permit": "No",
-  "rappelCountMin": 4,
-  "rappelCountMax": 4,
+  "rappelCountMin": 7,
+  "rappelCountMax": 14,
   "rappelLongestMeters": 30.48,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -434,7 +434,7 @@
         },
         "properties": {
           "name": "Approach Barney Springs",
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#00cd00",
@@ -723,7 +723,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#00cd00",
@@ -877,7 +877,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00cd00",
@@ -991,7 +991,7 @@
           ]
         },
         "properties": {
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#ff0000",
@@ -1570,7 +1570,7 @@
           ]
         },
         "properties": {
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#f0f000",
@@ -2235,7 +2235,7 @@
         },
         "properties": {
           "name": "Sneak Route",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#f0f000",
@@ -2640,7 +2640,7 @@
         },
         "properties": {
           "name": "Technical Section",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#ff0000",
@@ -2663,6 +2663,7 @@
         },
         "properties": {
           "name": "Barney/West Fork Confluence",
+          "stroke": "#34C759",
           "elevationMeters": 2050
         }
       },
@@ -2678,6 +2679,7 @@
         },
         "properties": {
           "name": "Car Park",
+          "stroke": "#FFCC00",
           "elevationMeters": 1997
         }
       },
@@ -2693,6 +2695,7 @@
         },
         "properties": {
           "name": "Immaculate Canyon",
+          "stroke": "#FFCC00",
           "elevationMeters": 2070
         }
       },
@@ -2707,6 +2710,7 @@
           ]
         },
         "properties": {
+          "stroke": "#FFCC00",
           "elevationMeters": 2043
         }
       },
@@ -2722,10 +2726,11 @@
         },
         "properties": {
           "name": "Sneak Route",
+          "stroke": "#FFCC00",
           "elevationMeters": 1910
         }
       }
     ]
   },
-  "version": "edf1c7fda1e3ee5d3c6395504d18abb4"
+  "version": "98f6c2581f07823bbb60439b7c5d2bff"
 }

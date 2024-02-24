@@ -25,66 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.23835335155103,
-            47.41757782645559,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "elevationMeters": 916
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.25938096832274,
-            47.4260400379507,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In",
-          "elevationMeters": 1389
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.24729444444445,
-            47.422355555555555,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Section Start",
-          "elevationMeters": 973
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.24205877244738,
-            47.42017780771182,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Creek",
-          "elevationMeters": 844
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -125,7 +65,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 94.57296544083873,
@@ -457,7 +397,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2530.7459291090595,
@@ -619,7 +559,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1475.130279256048,
@@ -671,7 +611,7 @@
           ]
         },
         "properties": {
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 409.2895783348049,
@@ -679,8 +619,72 @@
           "descentMeters": 16.5,
           "changeMeters": 64
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.23835335155103,
+            47.41757782645559,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "stroke": "#FF3B30",
+          "elevationMeters": 916
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.25938096832274,
+            47.4260400379507,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In",
+          "stroke": "#34C759",
+          "elevationMeters": 1389
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.24729444444445,
+            47.422355555555555,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Section Start",
+          "stroke": "#34C759",
+          "elevationMeters": 973
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.24205877244738,
+            47.42017780771182,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Creek",
+          "stroke": "#FFCC00",
+          "elevationMeters": 844
+        }
       }
     ]
   },
-  "version": "6614ae4030ad3bce9fb911ce870e9d78"
+  "version": "473724bb4c4e1996c8c709058abd85a1"
 }

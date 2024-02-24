@@ -25,167 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.330625,
-            40.745801,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "4bcc1466",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by joan_ramirez at wikiloc.com)",
-          "elevationMeters": 674
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.330625,
-            40.745801,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "433315e",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by joan_ramirez at wikiloc.com)",
-          "elevationMeters": 674
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.33283,
-            40.748893,
-            0
-          ]
-        },
-        "properties": {
-          "name": "entrada barranc",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "1df47145",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by joan_ramirez at wikiloc.com)",
-          "elevationMeters": 794
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.330493,
-            40.745808,
-            0
-          ]
-        },
-        "properties": {
-          "name": "parking",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "1df47145",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by joan_ramirez at wikiloc.com)",
-          "elevationMeters": 666
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.330627,
-            40.745945,
-            0
-          ]
-        },
-        "properties": {
-          "name": "pont",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "1df47145",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by joan_ramirez at wikiloc.com)",
-          "elevationMeters": 674
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.33216,
-            40.747471,
-            0
-          ]
-        },
-        "properties": {
-          "name": "raco d'en marc",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "1df47145",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by joan_ramirez at wikiloc.com)",
-          "elevationMeters": 794
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.333087,
-            40.748634,
-            0
-          ]
-        },
-        "properties": {
-          "name": "sendera",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "1df47145",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by joan_ramirez at wikiloc.com)",
-          "elevationMeters": 785
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2013,7 +1852,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by joan_ramirez at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1756.3226460344404,
@@ -2021,8 +1860,176 @@
           "descentMeters": 304.300048828125,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.330625,
+            40.745801,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-580aef83",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by joan_ramirez at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 674
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.330625,
+            40.745801,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "3b9cd2d8",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by joan_ramirez at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 674
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.33283,
+            40.748893,
+            0
+          ]
+        },
+        "properties": {
+          "name": "entrada barranc",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2d535697",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by joan_ramirez at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 794
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.330493,
+            40.745808,
+            0
+          ]
+        },
+        "properties": {
+          "name": "parking",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2d535697",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by joan_ramirez at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 666
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.330627,
+            40.745945,
+            0
+          ]
+        },
+        "properties": {
+          "name": "pont",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2d535697",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by joan_ramirez at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 674
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.33216,
+            40.747471,
+            0
+          ]
+        },
+        "properties": {
+          "name": "raco d'en marc",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2d535697",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by joan_ramirez at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 794
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.333087,
+            40.748634,
+            0
+          ]
+        },
+        "properties": {
+          "name": "sendera",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2d535697",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by joan_ramirez at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 785
+        }
       }
     ]
   },
-  "version": "d902d733df2dac17462841d96dc7a9ca"
+  "version": "cd085bcc9331f0dceb8a733c9cce1131"
 }

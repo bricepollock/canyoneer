@@ -25,21 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -120.87992906570436,
-            39.69709971140932,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking - 4WD HC",
-          "elevationMeters": 1528
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -201,7 +186,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 836.3078216235924,
@@ -349,7 +334,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1520.411513876239,
@@ -447,7 +432,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1026.6622545185485,
@@ -455,8 +440,24 @@
           "descentMeters": 253.5999755859375,
           "changeMeters": -156.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.87992906570436,
+            39.69709971140932,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking - 4WD HC",
+          "stroke": "#34C759",
+          "elevationMeters": 1528
+        }
       }
     ]
   },
-  "version": "09dd713aed1034d550d0c97b330c6bf5"
+  "version": "7642784650310293f094a45b32f939b9"
 }

@@ -35,111 +35,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.65075,
-            29.202972222222222,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon starts",
-          "elevationMeters": 793
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.64761111111112,
-            29.20138888888889,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon ends",
-          "elevationMeters": 846
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.65061111111112,
-            29.20311111111111,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Downclimb into canyon",
-          "elevationMeters": 793
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.65025,
-            29.203,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave trail to downclimb",
-          "elevationMeters": 700
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.64822222222223,
-            29.202027777777776,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Top of rock climb",
-          "elevationMeters": 841
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.64791666666667,
-            29.201916666666666,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start of rock climb",
-          "elevationMeters": 842
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.6046388745308,
-            29.198552415298526,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking at Terlingua Abajo",
-          "elevationMeters": 691
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -156,7 +51,7 @@
         },
         "properties": {
           "name": "Canyon",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 350.13927707333335,
@@ -384,7 +279,7 @@
         },
         "properties": {
           "name": "Approach/exit",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 5336.01295189489,
@@ -392,8 +287,120 @@
           "descentMeters": 338.800048828125,
           "changeMeters": -102.70001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.65075,
+            29.202972222222222,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon starts",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 793
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.64761111111112,
+            29.20138888888889,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon ends",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 846
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.65061111111112,
+            29.20311111111111,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Downclimb into canyon",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 793
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.65025,
+            29.203,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave trail to downclimb",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 700
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.64822222222223,
+            29.202027777777776,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Top of rock climb",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 841
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.64791666666667,
+            29.201916666666666,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start of rock climb",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 842
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.6046388745308,
+            29.198552415298526,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking at Terlingua Abajo",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 691
+        }
       }
     ]
   },
-  "version": "5a78c32edccd1946206493d0a28de206"
+  "version": "666fefe3dc02d196f10e6efb09de0888"
 }

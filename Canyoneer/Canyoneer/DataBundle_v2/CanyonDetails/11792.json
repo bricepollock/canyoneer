@@ -10,8 +10,8 @@
     "Jun"
   ],
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 60,
   "shuttleSeconds": 1200,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21399\">Descente-Canyon.com</a>\n: Sibilla</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/AP005\">Catastoforre\nAIC-Canyoning.it</a> : Forra della Sibilla</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://canisciolti.biz/2012/canyon/shede/forra%20della%20sibilla.html\">Canisciolti.biz</a>\n: FORRA DELLA SIBILLA</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/2212/\">Gulliver.it</a> : FORRA DELLA\nSIBILLA - MONTEMONACO (Ascoli Piceno)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -38,6 +38,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1972
         }
       },
@@ -61,6 +62,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1959
         }
       },
@@ -84,6 +86,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 835
         }
       },
@@ -107,10 +110,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": " (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 871
         }
       }
     ]
   },
-  "version": "90ecba5051057fea66a5e605b3369bfb"
+  "version": "8f4affb72c15ee203b7d7822295fc7cf"
 }

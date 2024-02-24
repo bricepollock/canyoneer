@@ -15,98 +15,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.256908,
-            38.694552,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "53856e46",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by jvramos at wikiloc.com)",
-          "elevationMeters": 502
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.251837,
-            38.695809,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-7e71e220",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by jvramos at wikiloc.com)",
-          "elevationMeters": 456
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.257144,
-            38.694379,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Abdet",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "4c4fb27b",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by jvramos at wikiloc.com)",
-          "elevationMeters": 502
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.253007,
-            38.702662,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Coche1",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "4c4fb27b",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by jvramos at wikiloc.com)",
-          "elevationMeters": 614
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1994,7 +1902,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by jvramos at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 4437.482919201772,
@@ -2002,8 +1910,104 @@
           "descentMeters": 498.400146484375,
           "changeMeters": -46
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.256908,
+            38.694552,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "15f4f803",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by jvramos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 502
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.251837,
+            38.695809,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "a0818a",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by jvramos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 456
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.257144,
+            38.694379,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Abdet",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "3889b17c",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by jvramos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 502
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.253007,
+            38.702662,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Coche1",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "3889b17c",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by jvramos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 614
+        }
       }
     ]
   },
-  "version": "a401c408852b2fbed6cd3316ae1e2204"
+  "version": "f5d08ea4884f4ca9351b63400ecef076"
 }

@@ -25,186 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.34824559563583,
-            39.193149324657554,
-            0
-          ]
-        },
-        "properties": {
-          "name": "downclimb",
-          "elevationMeters": 3207
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.30360555648804,
-            39.19866717757075,
-            0
-          ]
-        },
-        "properties": {
-          "name": "parking",
-          "elevationMeters": 2904
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.32445240020752,
-            39.19514971664735,
-            0
-          ]
-        },
-        "properties": {
-          "name": "gate",
-          "elevationMeters": 3408
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.35228235,
-            39.19198824,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 30'",
-          "elevationMeters": 3098
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.35190401,
-            39.19249631,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 35'",
-          "elevationMeters": 3081
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.35145797,
-            39.19273242,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 85'",
-          "elevationMeters": 3080
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.3512315750122,
-            39.19276955728571,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4: 120'",
-          "elevationMeters": 3080
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.34778753,
-            39.19329073,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5: 130'",
-          "elevationMeters": 3219
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.3470652192621,
-            39.193416252223436,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6: 65'",
-          "elevationMeters": 3265
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.34136775135994,
-            39.19533368194003,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R7: 130'",
-          "elevationMeters": 3321
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.35256423366067,
-            39.19185774006133,
-            0
-          ]
-        },
-        "properties": {
-          "name": "bypass CL",
-          "elevationMeters": 3112
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.34006945394513,
-            39.19670211617504,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DC CL 15'",
-          "elevationMeters": 3435
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -671,7 +491,7 @@
         },
         "properties": {
           "name": "Drive 2WD paved",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6389.869687204696,
@@ -2984,7 +2804,7 @@
         },
         "properties": {
           "name": "Lower Dutch approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6874.296732029925,
@@ -3457,7 +3277,7 @@
         },
         "properties": {
           "name": "Upper Dutch descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 635.7151787863804,
@@ -5090,7 +4910,7 @@
         },
         "properties": {
           "name": "Dutch return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 5092.444436772373,
@@ -6083,7 +5903,7 @@
         },
         "properties": {
           "name": "Upper Dutch approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1771.6812868293462,
@@ -6836,7 +6656,7 @@
         },
         "properties": {
           "name": "Lower Dutch descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1338.018962047572,
@@ -6844,8 +6664,200 @@
           "descentMeters": 225.39990234375,
           "changeMeters": 271.400146484375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.34824559563583,
+            39.193149324657554,
+            0
+          ]
+        },
+        "properties": {
+          "name": "downclimb",
+          "stroke": "#5856D6",
+          "elevationMeters": 3207
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.30360555648804,
+            39.19866717757075,
+            0
+          ]
+        },
+        "properties": {
+          "name": "parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2904
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.32445240020752,
+            39.19514971664735,
+            0
+          ]
+        },
+        "properties": {
+          "name": "gate",
+          "stroke": "#34C759",
+          "elevationMeters": 3408
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.35228235,
+            39.19198824,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 30'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3098
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.35190401,
+            39.19249631,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 35'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3081
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.35145797,
+            39.19273242,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 85'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3080
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.3512315750122,
+            39.19276955728571,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4: 120'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3080
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.34778753,
+            39.19329073,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5: 130'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3219
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.3470652192621,
+            39.193416252223436,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6: 65'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3265
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.34136775135994,
+            39.19533368194003,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R7: 130'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3321
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.35256423366067,
+            39.19185774006133,
+            0
+          ]
+        },
+        "properties": {
+          "name": "bypass CL",
+          "stroke": "#5856D6",
+          "elevationMeters": 3112
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.34006945394513,
+            39.19670211617504,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DC CL 15'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3435
+        }
       }
     ]
   },
-  "version": "566a01d411ac9eecf119d0e541acb343"
+  "version": "a5db1af33f43bf45332b83e984266196"
 }

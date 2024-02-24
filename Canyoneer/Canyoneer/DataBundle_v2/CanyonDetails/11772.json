@@ -19,8 +19,8 @@
   "timeRating": "III",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 12,
+  "rappelCountMax": 12,
   "rappelLongestMeters": 40,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21124\">Descente-Canyon.com</a>\n: Fossaceca</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_ceca.htm\">CicaRudeClan.com</a> :\nFossaceca</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/TE003\">Catastoforre\nAIC-Canyoning.it</a> : Fosso Fossaceca;Vena Rossa</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/FossacecaCanyon\">Canyon.Carto.net</a>\n: Fosso Fossaceca; Vena Rossa</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/2523/\">Gulliver.it</a> : VENA ROSSA\n- PRETARA (Teramo)</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://micheleangileri.com/cgi-bin/schedap.cgi?fossaceca\">Michele\nAngileri's Canyons</a> : Fossaceca</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -46,6 +46,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 10 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1278
         }
       },
@@ -69,6 +70,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 10 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1523
         }
       },
@@ -92,10 +94,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Streicher Wolfgang on 10 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 2201
         }
       }
     ]
   },
-  "version": "040d5fa0e70e178e869638278a95d428"
+  "version": "bfd2a4595f1ab3f77472d0038548ed8d"
 }

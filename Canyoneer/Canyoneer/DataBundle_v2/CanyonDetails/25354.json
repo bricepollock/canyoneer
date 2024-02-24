@@ -28,81 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.08875036239625,
-            36.67416727996972,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Turn NW here",
-          "elevationMeters": 1726
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.09934508800508,
-            36.69483373616908,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Turn NW here",
-          "elevationMeters": 1708
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.10111534595491,
-            36.696321988440815,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking area",
-          "elevationMeters": 1698
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.10727906227113,
-            36.700122062596094,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Entry to slot",
-          "elevationMeters": 1682
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.11068010330202,
-            36.699797332416836,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4: optional, 150 feet. Turn around here.",
-          "elevationMeters": 1683
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -235,7 +160,7 @@
         "properties": {
           "name": "Drive approach",
           "description": "High clearance required.",
-          "stroke": "#FF00DE",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2832.5739494479967,
@@ -273,7 +198,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 737.6841251828469,
@@ -411,7 +336,7 @@
         },
         "properties": {
           "name": "Slot",
-          "stroke": "#00EFFF",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 378.45885688990865,
@@ -419,8 +344,88 @@
           "descentMeters": 4,
           "changeMeters": 0.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.08875036239625,
+            36.67416727996972,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Turn NW here",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1726
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.09934508800508,
+            36.69483373616908,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Turn NW here",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1708
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.10111534595491,
+            36.696321988440815,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking area",
+          "stroke": "#5856D6",
+          "elevationMeters": 1698
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.10727906227113,
+            36.700122062596094,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Entry to slot",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1682
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.11068010330202,
+            36.699797332416836,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4: optional, 150 feet. Turn around here.",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1683
+        }
       }
     ]
   },
-  "version": "6f140881d5fab9452bc004ababcfecfb"
+  "version": "a1f223b7975c549d13fb66ae2eecd8c7"
 }

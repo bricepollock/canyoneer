@@ -4,7 +4,7 @@
   "longitude": -111.8996,
   "id": 64031,
   "name": "Fatty",
-  "quality": 2,
+  "quality": 2.5,
   "technicalRating": 3,
   "waterRating": "A",
   "timeRating": "II",
@@ -12,70 +12,10 @@
   "rappelCountMin": 4,
   "rappelCountMax": 4,
   "rappelLongestMeters": 25.91,
-  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>This is another very basic training canyon that we developed for new\ncanyoneers or those looking for a more low key day out.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>As you leave Hartwell Canyon, turning right into the side canyon that\nFatty is located in, take the large side drainage right before the\ncanyon. Hike north up this, look for rock cairn on the right. Follow\nuphill until at start of canyon.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>R1: 40’ off of tree and is an optional practice rap for beginners,\nthis can be bypassed easily.</p>\n<p>R2: 25’ off tree.</p>\n<p>R3: 60’ off of bolts.</p>\n<p>R4: 85’ from tree on canyon left.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>Hike back to Hartwell.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>PLEASE tread lightly on ALL canyons near Arche sites. I am an\nex-employee from Forest Service, Sedona Red Rock Ranger Station. I fear\ntoo many impacts in these areas can lead years later to restrictions,\ntread lightly so we retain access.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>First Descent by Garrett Bennett, Ron Paradis, and Justin Patten.</p>\n",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>This is another very basic training canyon that we developed for new\ncanyoneers or those looking for a more low key day out. GPX/KML required\nfor route-finding. BEWARE: CRYPTOBIOTIC SOIL everywhere after you\n“summit.” Do NOT step on it. Walk around or step on rocks instead.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>As you leave Hartwell Canyon, turning right into the side canyon that\nFatty is located in, take the large side drainage right before the\ncanyon. Hike north up this, about .7 miles until you see drainage split\n(it’s easy to miss so check your GPX/KML often), take this off-shoot all\nthe way up until it ends and you see a path up right to the scramble\nsections. Follow KML until you reach the mesa. Watch for CRYPTO! Follow\nthis along the rear edge until you reach the start of canyon.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>R1: 40’ off of tree and is an optional practice rap for beginners,\nthis can be bypassed easily as a down-climb</p>\n<p>R2: 25’ off tree.</p>\n<p>R3: 55’ off of bolts.</p>\n<p>R4: 85’ from tree on canyon left.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>Follow drainage out and down back to Hartwell.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>PLEASE tread lightly on ALL canyons near Arche sites. I am an\nex-employee from Forest Service, Sedona Red Rock Ranger Station. I fear\ntoo many impacts in these areas can lead years later to restrictions,\ntread lightly so we retain access.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>First Descent by Garrett Bennett, Ron Paradis, and Justin Patten.</p>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.89962640404703,
-            34.92413285089582,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1377
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8996485322714,
-            34.92401134654273,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "elevationMeters": 1377
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.89983159303668,
-            34.92340657106811,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "elevationMeters": 1380
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.90045185387137,
-            34.9228540223063,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "elevationMeters": 1380
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -775,7 +715,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1632.0645102573253,
@@ -983,7 +923,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 232.64476833843352,
@@ -1596,7 +1536,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1330.411510859672,
@@ -1604,8 +1544,72 @@
           "descentMeters": 67.60009765625,
           "changeMeters": 14.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.89962640404703,
+            34.92413285089582,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1377
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8996485322714,
+            34.92401134654273,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1377
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.89983159303668,
+            34.92340657106811,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1380
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.90045185387137,
+            34.9228540223063,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1380
+        }
       }
     ]
   },
-  "version": "4ef368e624098cb7327472ad20abb5e9"
+  "version": "f387104be944ae018d1345938dfea0a1"
 }

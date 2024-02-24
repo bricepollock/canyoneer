@@ -23,8 +23,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 25,
+  "rappelCountMax": 25,
   "rappelLongestMeters": 65,
   "shuttleSeconds": 1800,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/22144\">Descente-Canyon.com</a>\n: Seixal (supérieur)</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barrancos.org/Madeira/Seixal.htm\">Barrancos.org</a> :\nSeixal</li>\n<li><img src=\"rwl_pt.png\" title=\"rwl_pt.png\" alt=\"rwl_pt.png\" /><a\nhref=\"http://canyoning.camadeira.com/canyons/seixal-superior\">CaMadeira.com</a>\n: Ribeira do Seixal (superior)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -51,6 +51,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by IP on 16 sept 2009)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1
         }
       },
@@ -74,6 +75,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Martiiin on 06 nov 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 0
         }
       },
@@ -97,6 +99,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Arno on 01 oct 2009)",
+          "stroke": "#FF3B30",
           "elevationMeters": 860
         }
       },
@@ -120,10 +123,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": " (Data by Martiiin on 06 nov 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 0
         }
       }
     ]
   },
-  "version": "4419e1b916a2b7531887de3db52634ef"
+  "version": "660c336258e474ed75825e49750b7661"
 }

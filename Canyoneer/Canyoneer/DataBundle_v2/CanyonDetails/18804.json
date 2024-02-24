@@ -20,8 +20,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 3,
-  "rappelCountMax": 3,
+  "rappelCountMin": 13,
+  "rappelCountMax": 13,
   "rappelLongestMeters": 36.58,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -378,7 +378,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#ff0000",
@@ -443,7 +443,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#f0f000",
@@ -578,7 +578,7 @@
         },
         "properties": {
           "name": "Track",
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#00cd00",
@@ -601,6 +601,7 @@
         },
         "properties": {
           "name": "dc sl pool",
+          "stroke": "#FF3B30",
           "elevationMeters": 1672
         }
       },
@@ -616,6 +617,7 @@
         },
         "properties": {
           "name": "Parking Lower",
+          "stroke": "#FF3B30",
           "elevationMeters": 1843
         }
       },
@@ -631,6 +633,7 @@
         },
         "properties": {
           "name": "Parking Upper",
+          "stroke": "#34C759",
           "elevationMeters": 1604
         }
       },
@@ -647,6 +650,7 @@
         "properties": {
           "name": "R10-80",
           "description": "long slope, could be done dry LDC, provide assist to get on rappel from pool LDC to avoid pour over",
+          "stroke": "#FF3B30",
           "elevationMeters": 1795
         }
       },
@@ -663,6 +667,7 @@
         "properties": {
           "name": "R1-30",
           "description": "POOL",
+          "stroke": "#FF3B30",
           "elevationMeters": 1710
         }
       },
@@ -679,6 +684,7 @@
         "properties": {
           "name": "R2-30+20",
           "description": "2 STAGE",
+          "stroke": "#FF3B30",
           "elevationMeters": 1686
         }
       },
@@ -695,6 +701,7 @@
         "properties": {
           "name": "R3-40",
           "description": "POUR OVER",
+          "stroke": "#FF3B30",
           "elevationMeters": 1686
         }
       },
@@ -711,6 +718,7 @@
         "properties": {
           "name": "R4-95",
           "description": "HI FLOW",
+          "stroke": "#FF3B30",
           "elevationMeters": 1686
         }
       },
@@ -727,6 +735,7 @@
         "properties": {
           "name": "R5-50",
           "description": "slope to pool, rope exit",
+          "stroke": "#FF3B30",
           "elevationMeters": 1591
         }
       },
@@ -743,6 +752,7 @@
         "properties": {
           "name": "R6-20",
           "description": "narrow to pool",
+          "stroke": "#FF3B30",
           "elevationMeters": 1753
         }
       },
@@ -759,6 +769,7 @@
         "properties": {
           "name": "R7-20",
           "description": "tight narrow, heavy flow",
+          "stroke": "#FF3B30",
           "elevationMeters": 1779
         }
       },
@@ -775,6 +786,7 @@
         "properties": {
           "name": "R8-20+20",
           "description": "2 stage, heavy flow",
+          "stroke": "#FF3B30",
           "elevationMeters": 1794
         }
       },
@@ -791,6 +803,7 @@
         "properties": {
           "name": "R9-30",
           "description": "overhang, heavy flow, shallow pool",
+          "stroke": "#FF3B30",
           "elevationMeters": 1795
         }
       },
@@ -807,6 +820,7 @@
         "properties": {
           "name": "ropes",
           "description": "ropes LDC of slide, bypass exit after R1-5",
+          "stroke": "#FF3B30",
           "elevationMeters": 1588
         }
       },
@@ -822,10 +836,11 @@
         },
         "properties": {
           "name": "wetsuit",
+          "stroke": "#FF3B30",
           "elevationMeters": 1675
         }
       }
     ]
   },
-  "version": "9570aba857ed427cfe4f3638ab976af2"
+  "version": "44b622f4e9718aa664ad2e5b2c4d1f96"
 }

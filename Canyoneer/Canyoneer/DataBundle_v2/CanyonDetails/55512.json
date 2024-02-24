@@ -446,7 +446,7 @@
             "normal": "#style1",
             "highlight": "#style2"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill-opacity": 0,
@@ -815,7 +815,7 @@
             "normal": "#style",
             "highlight": "#style0"
           },
-          "stroke": "#ffff7f",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill-opacity": 0,
@@ -823,50 +823,6 @@
           "ascentMeters": 119.400146484375,
           "descentMeters": 259.60009765625,
           "changeMeters": -140.199951171875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            19.88677181829438,
-            40.22595497732884,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "-51788b26",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "elevationMeters": 899
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            19.89776158662626,
-            40.2361091892267,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Exit",
-          "styleUrl": "#msn_parking_lot",
-          "styleHash": "-33c06c2d",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 1216
         }
       },
       {
@@ -1979,7 +1935,7 @@
             "normal": "#dir_route1",
             "highlight": "#dir_route"
           },
-          "stroke": "#000000",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2893.3279164631153,
@@ -1988,8 +1944,54 @@
           "changeMeters": -302.5999755859375
         },
         "id": "1.4.2"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            19.88677181829438,
+            40.22595497732884,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "-51788b26",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 899
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            19.89776158662626,
+            40.2361091892267,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "styleUrl": "#msn_parking_lot",
+          "styleHash": "-33c06c2d",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1216
+        }
       }
     ]
   },
-  "version": "1534dc908853ed650960188c505f3423"
+  "version": "346b70283f66f51c7fcbdca689229a7a"
 }

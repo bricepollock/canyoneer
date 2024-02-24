@@ -14,8 +14,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "Closed",
-  "rappelCountMin": 6,
-  "rappelCountMax": 6,
+  "rappelCountMin": 5,
+  "rappelCountMax": 16,
   "rappelLongestMeters": 27.43,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -23,201 +23,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.25741226993102,
-            44.7723120004283,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Middle Entrance",
-          "elevationMeters": 1151
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.26708004687481,
-            44.760210631429345,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 906
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.25760281085928,
-            44.76677770246895,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Middle Parking",
-          "elevationMeters": 1125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.26692180852888,
-            44.76132376461153,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Pothole Checkpoint",
-          "elevationMeters": 926
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.25971199999998,
-            44.767945,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R13",
-          "elevationMeters": 1142
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.2629,
-            44.767,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R14",
-          "elevationMeters": 1061
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.26671499999998,
-            44.763757,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R15",
-          "elevationMeters": 942
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.267177,
-            44.761577,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R16",
-          "elevationMeters": 915
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.24952936172485,
-            44.75224977959884,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Very Bad Road",
-          "elevationMeters": 1194
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.25052648108255,
-            44.78000164889065,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Entrance",
-          "elevationMeters": 1277
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.26346509927589,
-            44.766275218409696,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking / Campsite",
-          "elevationMeters": 1044
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.25006580352785,
-            44.77836237835367,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 1252
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.24094629287721,
-            44.766815788708065,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start of East Fork",
-          "elevationMeters": 1235
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -267,7 +72,7 @@
         },
         "properties": {
           "name": "Middle Approach / Upper Exit",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 626.025750840267,
@@ -480,7 +285,7 @@
         },
         "properties": {
           "name": "Lower Sardine",
-          "stroke": "#D00000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1657.3820658648483,
@@ -528,7 +333,7 @@
         },
         "properties": {
           "name": "Lower Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 217.909863287016,
@@ -591,7 +396,7 @@
         },
         "properties": {
           "name": "Upper Sardine",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 929.3115767178685,
@@ -634,7 +439,7 @@
         },
         "properties": {
           "name": "Upper Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 202.68514235367923,
@@ -812,7 +617,7 @@
         },
         "properties": {
           "name": "Lower Shuttle",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1729.4805411665502,
@@ -2335,7 +2140,7 @@
         },
         "properties": {
           "name": "Upper Shuttle (4WD)",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 10909.593936603991,
@@ -5068,7 +4873,7 @@
         },
         "properties": {
           "name": "Upper Shuttle (2WD)",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 29394.64937980078,
@@ -5331,7 +5136,7 @@
         },
         "properties": {
           "name": "Upper Approach (Hiking)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2436.4679854821843,
@@ -5339,8 +5144,216 @@
           "descentMeters": 389.3001708984375,
           "changeMeters": 82.2999267578125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.25741226993102,
+            44.7723120004283,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Middle Entrance",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1151
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.26708004687481,
+            44.760210631429345,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 906
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.25760281085928,
+            44.76677770246895,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Middle Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1125
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.26692180852888,
+            44.76132376461153,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Pothole Checkpoint",
+          "stroke": "#34C759",
+          "elevationMeters": 926
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.25971199999998,
+            44.767945,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R13",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1142
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.2629,
+            44.767,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R14",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1061
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.26671499999998,
+            44.763757,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R15",
+          "stroke": "#FF3B30",
+          "elevationMeters": 942
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.267177,
+            44.761577,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R16",
+          "stroke": "#FF3B30",
+          "elevationMeters": 915
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.24952936172485,
+            44.75224977959884,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Very Bad Road",
+          "stroke": "#5856D6",
+          "elevationMeters": 1194
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.25052648108255,
+            44.78000164889065,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Entrance",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1277
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.26346509927589,
+            44.766275218409696,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking / Campsite",
+          "stroke": "#34C759",
+          "elevationMeters": 1044
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.25006580352785,
+            44.77836237835367,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1252
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.24094629287721,
+            44.766815788708065,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start of East Fork",
+          "stroke": "#5856D6",
+          "elevationMeters": 1235
+        }
       }
     ]
   },
-  "version": "ac6ac623a0c93d0fbe250ef1c8b6912e"
+  "version": "109cecebe224e34d2c3d6f9ad4d80c01"
 }

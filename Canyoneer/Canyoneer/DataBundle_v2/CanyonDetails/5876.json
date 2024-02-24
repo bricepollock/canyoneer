@@ -20,28 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.2481225069402,
-            37.57639953418578,
-            0
-          ]
-        },
-        "properties": {
-          "name": "E 1.5  Park",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "-45b61afe",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 1568
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -114,7 +92,7 @@
             "normal": "#inline1",
             "highlight": "#inline4"
           },
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill-opacity": 0,
@@ -434,7 +412,7 @@
             "normal": "#inline6",
             "highlight": "#inline5"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill-opacity": 0,
@@ -624,7 +602,7 @@
             "normal": "#inline7",
             "highlight": "#inline0"
           },
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill-opacity": 0,
@@ -633,8 +611,31 @@
           "descentMeters": 53.5999755859375,
           "changeMeters": 46.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.2481225069402,
+            37.57639953418578,
+            0
+          ]
+        },
+        "properties": {
+          "name": "E 1.5  Park",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "-45b61afe",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1568
+        }
       }
     ]
   },
-  "version": "9a1481a18ed15f3fe3934aec7478a336"
+  "version": "a6e304b7fdb9365df025f3339f3122d9"
 }

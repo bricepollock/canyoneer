@@ -14,8 +14,8 @@
   "waterRating": "C1",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 1,
-  "rappelCountMax": 1,
+  "rappelCountMin": 11,
+  "rappelCountMax": 11,
   "rappelLongestMeters": 25,
   "shuttleSeconds": 30,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2637\">Descente-Canyon.com</a>\n: Pilotera</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/PiloteraCanyon\">Canyon.Carto.net</a>\n: Val Pilotera</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_pilotera.htm\">CicaRudeClan.com</a>\n: Val Pilotera</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barranquismo.net/paginas/barrancos/val_pilotera.htm\">Barranquismo.net</a>\n: Pilotera</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://descensodebarrancos.com/barrancos/pilotera/pilotera.html\">DescensoDeBarrancos.com</a>\n: Tu Web de Barranquismo</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/SO007\">Catastoforre\nAIC-Canyoning.it</a> : Valle Pilotera</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://canisciolti.biz/2012/canyon/shede/val%20pilottera.html\">Canisciolti.biz</a>\n: VAL PILOTERA</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_in_the_Alps_Book?id=Pilotera\">Canyoning\nin the Alps Book by Simon Flower</a> : Pilotera</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_Nord_Italia_Book?id=Pilotera\">Canyoning\nNord Italia Book by Pascal van Duin</a> : Pilotera</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://verticalwatercanyoning.com/profili/italia/pilotera\">VerticalWaterCanyoning.com</a>\n: Pilotera</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/63965/\">Gulliver.it</a> : Pilotera\n(Torrente)</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://verticalwatercanyoning.com/profili/italia/Pilotera\">VerticalWaterCanyoning.com</a>\n: Pilotera</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -42,6 +42,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 701
         }
       },
@@ -65,6 +66,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 272
         }
       },
@@ -88,6 +90,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": "parking pour arrivée (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 284
         }
       },
@@ -111,6 +114,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": "pour 4x4 voiture (Alpe d\\ (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 409
         }
       },
@@ -134,6 +138,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": "parking pour approche (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 313
         }
       },
@@ -157,6 +162,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
           "description": "accés pedestre sans navette vers Alpe d\\ (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 299
         }
       },
@@ -180,10 +186,11 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
           "description": "accés pedestre avec navette (non 4X4) (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 298
         }
       }
     ]
   },
-  "version": "b28ff244654a6936230772d9f8a3b37b"
+  "version": "14e914105076d49d849f14863f8d16b3"
 }

@@ -16,8 +16,8 @@
   "timeRating": "III",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 3,
-  "rappelCountMax": 3,
+  "rappelCountMin": 13,
+  "rappelCountMax": 13,
   "rappelLongestMeters": 35,
   "shuttleSeconds": 360,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/22030\">Descente-Canyon.com</a>\n: Tralba</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/RioTrablaObenCanyon\">Canyon.Carto.net</a>\n: Rio Tralba oberer Abschnitt</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/RioTrablaUntenCanyon\">Canyon.Carto.net</a>\n: Rio Tralba od. Prealba unterer Abschnitt</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_bosca.htm\">CicaRudeClan.com</a> :\nForra Boscaioli - Rio Tralba</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/UD005\">Catastoforre\nAIC-Canyoning.it</a> : Rio Tralba;Rio Prealba;Affluente sinistro rio\nAlba;Forra dei Boscaioli</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_in_the_Alps_Book?id=Tralba_Inferiore\">Canyoning\nin the Alps Book by Simon Flower</a> : Tralba (Lower)</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_Nord_Italia_Book?id=Rio_Prealba\">Canyoning\nNord Italia Book by Pascal van Duin</a> : Rio Prealba</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -44,6 +44,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": "depart inf. (Data by Streicher Wolfgang on 01 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 354
         }
       },
@@ -67,6 +68,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": "pour Tralba integral: de Casera Crostis (sentiero 450 - 1460m) vers la-bas (entrée 1310m) (Data by Streicher Wolfgang on 11 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 862
         }
       },
@@ -90,6 +92,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": "arrivée de Rio Alba (Data by Streicher Wolfgang on 01 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 912
         }
       },
@@ -113,6 +116,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Streicher Wolfgang on 24 août 2009)",
+          "stroke": "#FF3B30",
           "elevationMeters": 760
         }
       },
@@ -136,6 +140,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": "pour Tralba integrale  (garer la voiture devant la barrière-1060m) (Data by Streicher Wolfgang on 11 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1473
         }
       },
@@ -159,6 +164,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": " (Data by Streicher Wolfgang on 24 août 2009)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1683
         }
       },
@@ -182,10 +188,11 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_interne.png",
           "description": "reunion avac Rio Alba (Data by Streicher Wolfgang on 01 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 626
         }
       }
     ]
   },
-  "version": "619c779cf50fe6a736e410ef3b34f8f8"
+  "version": "9c7e521a3c575645fcf83becf4e2e2be"
 }

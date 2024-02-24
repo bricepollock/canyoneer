@@ -34,28 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.8269223925491,
-            20.89273816142024,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#msn_placemark_circle",
-          "styleHash": "36a70dd",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle0",
-            "highlight": "#sh_placemark_circle_highlight"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 956
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -179,7 +157,7 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1045.1733099655628,
@@ -264,7 +242,7 @@
             "highlight": "#sh_ylw-pushpin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 223.02400003132024,
@@ -484,13 +462,36 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 746.466063697148,
           "ascentMeters": 139.4000244140625,
           "descentMeters": 206.199951171875,
           "changeMeters": -66.7999267578125
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.8269223925491,
+            20.89273816142024,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#msn_placemark_circle",
+          "styleHash": "36a70dd",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle0",
+            "highlight": "#sh_placemark_circle_highlight"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 956
         }
       },
       {
@@ -512,6 +513,7 @@
             "highlight": "#sh_placemark_circle_highlight0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 987
         }
       },
@@ -534,6 +536,7 @@
             "highlight": "#sh_placemark_circle_highlight0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 988
         }
       },
@@ -556,10 +559,11 @@
             "highlight": "#sh_placemark_circle_highlight0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 991
         }
       }
     ]
   },
-  "version": "b2cee84dc8b0ed7c544572491c745e72"
+  "version": "d02e1d01b72a968c08a3f3752e23cb95"
 }

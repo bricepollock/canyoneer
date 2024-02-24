@@ -24,8 +24,8 @@
   "timeRating": "III",
   "riskRating": "X",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 12,
+  "rappelCountMax": 12,
   "rappelLongestMeters": 50,
   "vehicle": "Passenger",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>Este es uno de los mejores cañones de la zona, con mas agua y mas\ntecnico que otros descensos. El cañon acaba con un gran rappel de 50 un\npoco delicado y que puede ser peligroso con caudal alto.</p>\n<p>Se puede comprobar nivel de caudal desde la carretera al final del\npueble, desde donde se ve la cascada de 50m. Pero se tiene una mejor\nvisual subiendo 5 minutos desde la carretera hasta que se llega a una\npresa de cemento (checkpoint marcado en el mapa). Si casi toda el agua\nde la cascada se canaliza a la izquierda (derecha orografica) el\ndescenso es practicable. Si hay mucha agua que baja por la derecha el\ndescenso puede ser peligroso, incluso para expertos.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>El acceso se realiza dede la finca La Cascada, y requiere pago de\nentrada. </p>\n<h2 id=\"descent\">Descent</h2>\n\n<h2 id=\"exit\">Exit</h2>\n<p>Seguir una senda a la derecha hasta la carretera.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>El propietario de la finca cobra por el acceso, en 2017 los precios\neran 5.000 para ver la cascada final y 20.000 por hacer el descenso.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -596,7 +596,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -666,7 +666,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 8,
           "fill": "#FF0000",
@@ -766,7 +766,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -789,6 +789,7 @@
         },
         "properties": {
           "name": "Checkpoint",
+          "stroke": "#FF3B30",
           "elevationMeters": 3004
         }
       },
@@ -804,6 +805,7 @@
         },
         "properties": {
           "name": "Parking",
+          "stroke": "#FFCC00",
           "elevationMeters": 3067
         }
       },
@@ -819,6 +821,7 @@
         },
         "properties": {
           "name": "Pino caido",
+          "stroke": "#34C759",
           "elevationMeters": 3121
         }
       },
@@ -834,10 +837,11 @@
         },
         "properties": {
           "name": "Valla amarilla",
+          "stroke": "#34C759",
           "elevationMeters": 3181
         }
       }
     ]
   },
-  "version": "0578479918330b42542e35b98bf83d1d"
+  "version": "df622a05522c4478c1d5ac51f019f31c"
 }

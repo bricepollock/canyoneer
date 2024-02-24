@@ -16,129 +16,14 @@
   "waterRating": "A",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 73.15,
   "vehicle": "4WD - High Clearance",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><a\nhref=\"https://www.facebook.com/scott.swaney/media_set?set=a.10153260187417930.668617929&amp;type=3\">https://www.facebook.com/scott.swaney/media_set?set=a.10153260187417930.668617929&amp;type=3</a></li>\n</ul>\n<h2 id=\"background\">Background</h2>\n<p>First Descent by Scott Swaney , and teammates - see trip report\nabove</p>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.8768072128,
-            36.6976833344,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park 5300'",
-          "styleUrl": "#point4Style",
-          "styleHash": "2afc616f",
-          "styleMapHash": {
-            "normal": "#point4_n",
-            "highlight": "#point4_h"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
-          "description": "Chloride Cliff Rd",
-          "elevationMeters": 1194
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.9040051475,
-            36.6650178004,
-            0
-          ]
-        },
-        "properties": {
-          "name": "mouth - 1300'",
-          "styleUrl": "#point3Style",
-          "styleHash": "1b44aeee",
-          "styleMapHash": {
-            "normal": "#point3_n",
-            "highlight": "#point3_h"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
-          "description": "Intermittent Stream",
-          "elevationMeters": -48
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.9786723144,
-            36.7224354297,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Hells Gate",
-          "styleUrl": "#point2Style",
-          "styleHash": "b8cfc6d",
-          "styleMapHash": {
-            "normal": "#point2_n",
-            "highlight": "#point2_h"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
-          "description": "Daylight Pass Rd",
-          "elevationMeters": 853
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.9360585511,
-            36.7517078016,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Daylight Pass Rd - turn",
-          "styleUrl": "#point1Style",
-          "styleHash": "-42ab614",
-          "styleMapHash": {
-            "normal": "#point1_n",
-            "highlight": "#point1_h"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
-          "description": "Daylight Pass Rd",
-          "elevationMeters": 1278
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.9511669315,
-            36.6406124644,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Beatty Rd - park",
-          "styleUrl": "#point0Style",
-          "styleHash": "-13e26895",
-          "styleMapHash": {
-            "normal": "#point0_n",
-            "highlight": "#point0_h"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
-          "description": "Beatty Rd",
-          "elevationMeters": 143
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -1990,7 +1875,7 @@
           "name": "7.2 mi - 4wd to start",
           "styleUrl": "#path0Style",
           "styleHash": "-7010e0fd",
-          "stroke": "#4040ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 11531.459678782785,
@@ -2910,7 +2795,7 @@
           "name": "exit to car - 3.3 mi",
           "styleUrl": "#path3Style",
           "styleHash": "-268b72d6",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 5375.255818387374,
@@ -4020,7 +3905,7 @@
           "name": "4-25-15 - Horny Toad Cyn - 3.9 mi",
           "styleUrl": "#path1Style",
           "styleHash": "585d4d7c",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 6311.159566625416,
@@ -5170,7 +5055,7 @@
           "name": "10.0 Miles - shuttle route",
           "styleUrl": "#path0Style0",
           "styleHash": "-ac92c33",
-          "stroke": "#00ffff",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 15743.896193465895,
@@ -5178,8 +5063,128 @@
           "descentMeters": 1598.7998657226562,
           "changeMeters": 1134.3999938964844
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.8768072128,
+            36.6976833344,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park 5300'",
+          "styleUrl": "#point4Style",
+          "styleHash": "2afc616f",
+          "styleMapHash": {
+            "normal": "#point4_n",
+            "highlight": "#point4_h"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
+          "description": "Chloride Cliff Rd",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1194
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.9040051475,
+            36.6650178004,
+            0
+          ]
+        },
+        "properties": {
+          "name": "mouth - 1300'",
+          "styleUrl": "#point3Style",
+          "styleHash": "1b44aeee",
+          "styleMapHash": {
+            "normal": "#point3_n",
+            "highlight": "#point3_h"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
+          "description": "Intermittent Stream",
+          "stroke": "#FF3B30",
+          "elevationMeters": -48
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.9786723144,
+            36.7224354297,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Hells Gate",
+          "styleUrl": "#point2Style",
+          "styleHash": "b8cfc6d",
+          "styleMapHash": {
+            "normal": "#point2_n",
+            "highlight": "#point2_h"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
+          "description": "Daylight Pass Rd",
+          "stroke": "#FF3B30",
+          "elevationMeters": 853
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.9360585511,
+            36.7517078016,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Daylight Pass Rd - turn",
+          "styleUrl": "#point1Style",
+          "styleHash": "-42ab614",
+          "styleMapHash": {
+            "normal": "#point1_n",
+            "highlight": "#point1_h"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
+          "description": "Daylight Pass Rd",
+          "stroke": "#5856D6",
+          "elevationMeters": 1278
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.9511669315,
+            36.6406124644,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Beatty Rd - park",
+          "styleUrl": "#point0Style",
+          "styleHash": "-13e26895",
+          "styleMapHash": {
+            "normal": "#point0_n",
+            "highlight": "#point0_h"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
+          "description": "Beatty Rd",
+          "stroke": "#FFCC00",
+          "elevationMeters": 143
+        }
       }
     ]
   },
-  "version": "e116c48e7fe90f601676ffd89e24ab15"
+  "version": "711b908aed0f6df12637e95096a8ee1a"
 }

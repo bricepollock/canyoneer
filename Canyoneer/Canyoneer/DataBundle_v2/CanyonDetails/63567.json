@@ -34,66 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.807365,
-            45.609698,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 304
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.8547992706299,
-            45.61962062649605,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Frank Crane Rd (closed?)",
-          "elevationMeters": 193
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.82239818573,
-            45.624212854503824,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Turnoff 1",
-          "elevationMeters": 105
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.8240933418274,
-            45.62188677294765,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Turnoff 2",
-          "elevationMeters": 269
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -190,7 +130,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 805.6104763100219,
@@ -303,7 +243,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 670.3531706559857,
@@ -411,7 +351,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 768.4066397765966,
@@ -709,7 +649,7 @@
         },
         "properties": {
           "name": "Drive In",
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4123.231501292396,
@@ -717,8 +657,72 @@
           "descentMeters": 868.1000213623047,
           "changeMeters": 191.00000762939453
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.807365,
+            45.609698,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 304
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.8547992706299,
+            45.61962062649605,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Frank Crane Rd (closed?)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 193
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.82239818573,
+            45.624212854503824,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Turnoff 1",
+          "stroke": "#FFCC00",
+          "elevationMeters": 105
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.8240933418274,
+            45.62188677294765,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Turnoff 2",
+          "stroke": "#FFCC00",
+          "elevationMeters": 269
+        }
       }
     ]
   },
-  "version": "85da6df6ae7a146c333325f97171aa5d"
+  "version": "a0785ec2b4f1756c4a028dcf830855eb"
 }

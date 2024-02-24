@@ -28,98 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.244514,
-            40.812978,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-9105bdd",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by joan_ramirez at wikiloc.com)",
-          "elevationMeters": 1075
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.244793,
-            40.812898,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-21bf4643",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by joan_ramirez at wikiloc.com)",
-          "elevationMeters": 1078
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.245149,
-            40.796871,
-            0
-          ]
-        },
-        "properties": {
-          "name": "capçalera",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "52da0cc2",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by joan_ramirez at wikiloc.com)",
-          "elevationMeters": 989
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.243818,
-            40.79855,
-            0
-          ]
-        },
-        "properties": {
-          "name": "carboneres",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "52da0cc2",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by joan_ramirez at wikiloc.com)",
-          "elevationMeters": 843
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -742,7 +650,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by joan_ramirez at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 5851.604070286286,
@@ -750,8 +658,104 @@
           "descentMeters": 834.6001586914062,
           "changeMeters": 3.39990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.244514,
+            40.812978,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "5f7807ff",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by joan_ramirez at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1075
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.244793,
+            40.812898,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-511c185",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by joan_ramirez at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1078
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.245149,
+            40.796871,
+            0
+          ]
+        },
+        "properties": {
+          "name": "capçalera",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-14c9bde7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by joan_ramirez at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 989
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.243818,
+            40.79855,
+            0
+          ]
+        },
+        "properties": {
+          "name": "carboneres",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-14c9bde7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by joan_ramirez at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 843
+        }
       }
     ]
   },
-  "version": "fe954975ebd5124c690db74214d574f4"
+  "version": "0689be98cbd6cecb1a5a36266d7f16ff"
 }

@@ -20,21 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -98.35440784692766,
-            20.38028897571559,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bonus Rap",
-          "elevationMeters": 1778
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -106,7 +91,7 @@
         },
         "properties": {
           "name": "Zorrillo descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1481.3778389436084,
@@ -114,8 +99,24 @@
           "descentMeters": 277.5,
           "changeMeters": -98.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -98.35440784692766,
+            20.38028897571559,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bonus Rap",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1778
+        }
       }
     ]
   },
-  "version": "40b68c33bd7997854bcb9ee881337e41"
+  "version": "0c3e6d4d38b0699208c399c212b4ad5a"
 }

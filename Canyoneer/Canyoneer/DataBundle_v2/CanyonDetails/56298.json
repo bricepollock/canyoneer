@@ -25,126 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.60903649272825,
-            38.0947697463041,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cow Creek Parking, end of road",
-          "elevationMeters": 2850
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.58135938065642,
-            38.06875044094197,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 80' tree CR around bushes next to falls",
-          "elevationMeters": 3020
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.58266034,
-            38.06783153,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 195' from large tree CL",
-          "elevationMeters": 3095
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.58303738,
-            38.06788438,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 200' from tree CL",
-          "elevationMeters": 3117
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.58389309048651,
-            38.06790525912321,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4: 110' tree CL (low angle)",
-          "elevationMeters": 3145
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.5848417,
-            38.06804495,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5: 50' tree CL",
-          "elevationMeters": 3164
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.58439868688583,
-            38.068258959802705,
-            0
-          ]
-        },
-        "properties": {
-          "name": "down climb tributary CR, bypassing the waterfall",
-          "elevationMeters": 3134
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.58527865,
-            38.06794212,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6: 250' tree CL",
-          "elevationMeters": 3194
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1906,7 +1786,7 @@
         },
         "properties": {
           "name": "CR10 to Cow Creek Road",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 19420.20631270624,
@@ -2209,7 +2089,7 @@
         },
         "properties": {
           "name": "CR12",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6566.058705406862,
@@ -5682,7 +5562,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 8113.246132139093,
@@ -6485,7 +6365,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1235.5593473497916,
@@ -8658,7 +8538,7 @@
         },
         "properties": {
           "name": "Return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4566.383186458272,
@@ -8666,8 +8546,136 @@
           "descentMeters": 1474.2001953125,
           "changeMeters": -362.60009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.60903649272825,
+            38.0947697463041,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cow Creek Parking, end of road",
+          "stroke": "#34C759",
+          "elevationMeters": 2850
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.58135938065642,
+            38.06875044094197,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 80' tree CR around bushes next to falls",
+          "stroke": "#5856D6",
+          "elevationMeters": 3020
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.58266034,
+            38.06783153,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 195' from large tree CL",
+          "stroke": "#5856D6",
+          "elevationMeters": 3095
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.58303738,
+            38.06788438,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 200' from tree CL",
+          "stroke": "#5856D6",
+          "elevationMeters": 3117
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.58389309048651,
+            38.06790525912321,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4: 110' tree CL (low angle)",
+          "stroke": "#5856D6",
+          "elevationMeters": 3145
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.5848417,
+            38.06804495,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5: 50' tree CL",
+          "stroke": "#5856D6",
+          "elevationMeters": 3164
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.58439868688583,
+            38.068258959802705,
+            0
+          ]
+        },
+        "properties": {
+          "name": "down climb tributary CR, bypassing the waterfall",
+          "stroke": "#5856D6",
+          "elevationMeters": 3134
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.58527865,
+            38.06794212,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6: 250' tree CL",
+          "stroke": "#5856D6",
+          "elevationMeters": 3194
+        }
       }
     ]
   },
-  "version": "1b060f26de9018c4599ccb43b022a3a9"
+  "version": "4be69b55a4866594a7f469cd11558238"
 }

@@ -15,8 +15,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 1,
-  "rappelCountMax": 1,
+  "rappelCountMin": 11,
+  "rappelCountMax": 11,
   "rappelLongestMeters": 60,
   "vehicle": "Passenger",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>As of June 30, 2013, Percy Creek is not really recommended as a fun\nday out! There seems to have been a major wind and/or rain event that\nhas caused a lot of trees to slide into the canyon.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>The approach, descent and exit are described in the Beta Sites listed\nbelow. The attached map was derived from interpreting their beta.</p>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><a\nhref=\"http://web.archive.org/web/20180924234635/bccanyoneers.com/2012/09/15/percy-creek/\">BC\nCanyoneers</a></li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://canyoncollective.com/betabase/percy-creek.34\">CanyonCollective.com</a>\n: Percy Creek</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"https://web.archive.org/web/20210527212206/www.canyoneeringnorthwest.com/Percy-Creek/Percy-Creek.php\">CanyoneeringNorthwest.com\n(archive.org)</a> : Percy Creek</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>Original Track and Waypoint data by Kevin Swanson</p>\n",
@@ -212,7 +212,7 @@
         },
         "properties": {
           "name": "Shuttle Road",
-          "stroke": "#000000",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#000000",
@@ -707,7 +707,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -982,7 +982,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -2052,7 +2052,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -2075,6 +2075,7 @@
         },
         "properties": {
           "name": "Parking Exit",
+          "stroke": "#007AFF",
           "elevationMeters": 283
         }
       },
@@ -2090,6 +2091,7 @@
         },
         "properties": {
           "name": "First Downclimb",
+          "stroke": "#FF3B30",
           "elevationMeters": 782
         }
       },
@@ -2105,6 +2107,7 @@
         },
         "properties": {
           "name": "Parking Approach",
+          "stroke": "#34C759",
           "elevationMeters": 997
         }
       },
@@ -2120,6 +2123,7 @@
         },
         "properties": {
           "name": "Percy Creek",
+          "stroke": "#34C759",
           "elevationMeters": 955
         }
       },
@@ -2135,6 +2139,7 @@
         },
         "properties": {
           "name": "Trail Exit",
+          "stroke": "#FF3B30",
           "elevationMeters": 264
         }
       },
@@ -2150,10 +2155,11 @@
         },
         "properties": {
           "name": "Cross Goldie Creek",
+          "stroke": "#34C759",
           "elevationMeters": 949
         }
       }
     ]
   },
-  "version": "08fd9ef34859bd34961b9135139de720"
+  "version": "0cbf798bf0520410ede20a84d5147ffc"
 }

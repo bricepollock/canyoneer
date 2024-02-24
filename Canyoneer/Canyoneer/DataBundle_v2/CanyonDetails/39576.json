@@ -13,8 +13,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 70.1,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -788,7 +788,7 @@
           "name": "Tram rail hike-up option - 0.9 mi",
           "styleUrl": "#path2Style",
           "styleHash": "-31607a57",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 1375.9461823463978,
@@ -1613,7 +1613,7 @@
           "name": "Rush Cr - 9-11-16",
           "styleUrl": "#path1Style",
           "styleHash": "585d4d7c",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 1558.670591815288,
@@ -1933,7 +1933,7 @@
           "name": "Agnew Lk trail option hike up - 1.9 mi",
           "styleUrl": "#path0Style",
           "styleHash": "42a0f5fb",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 2985.2229066300615,
@@ -1962,6 +1962,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
           "description": "Agnew Lake",
+          "stroke": "#FF3B30",
           "elevationMeters": 2761
         }
       },
@@ -1985,6 +1986,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
           "description": "falls",
+          "stroke": "#FF3B30",
           "elevationMeters": 2781
         }
       },
@@ -2008,6 +2010,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
           "description": "Hwy 158",
+          "stroke": "#FF3B30",
           "elevationMeters": 2966
         }
       },
@@ -2031,6 +2034,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
           "description": "Rush Creek Trailhead",
+          "stroke": "#FF3B30",
           "elevationMeters": 2873
         }
       },
@@ -2054,6 +2058,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
           "description": "Silver Lake",
+          "stroke": "#FF3B30",
           "elevationMeters": 2930
         }
       },
@@ -2077,6 +2082,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
           "description": "Trailer Park Campground",
+          "stroke": "#FF3B30",
           "elevationMeters": 2877
         }
       },
@@ -2100,10 +2106,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
           "description": "street",
+          "stroke": "#FF3B30",
           "elevationMeters": 2776
         }
       }
     ]
   },
-  "version": "34b0f215a2abf04a759b456551416817"
+  "version": "34571279c8987d1e67d6d8c40de4b20b"
 }

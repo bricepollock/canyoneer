@@ -12,167 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.427109,
-            28.29205,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-26c856bf",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by SENDERISMOYMONTAÑA at wikiloc.com)",
-          "elevationMeters": 417
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.448688,
-            28.299329,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "769d363c",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by SENDERISMOYMONTAÑA at wikiloc.com)",
-          "elevationMeters": 1584
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.437761,
-            28.297056,
-            0
-          ]
-        },
-        "properties": {
-          "name": "TÚNEL 1º",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-238e4dc5",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by SENDERISMOYMONTAÑA at wikiloc.com)",
-          "elevationMeters": 1458
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.442663,
-            28.296697,
-            0
-          ]
-        },
-        "properties": {
-          "name": "TÚNEL 2º1",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-238e4dc5",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by SENDERISMOYMONTAÑA at wikiloc.com)",
-          "elevationMeters": 1464
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.444482,
-            28.29665,
-            0
-          ]
-        },
-        "properties": {
-          "name": "TÚNEL 3º",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-238e4dc5",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by SENDERISMOYMONTAÑA at wikiloc.com)",
-          "elevationMeters": 1478
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.445936,
-            28.296929,
-            0
-          ]
-        },
-        "properties": {
-          "name": "TÚNEL 4º",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-238e4dc5",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by SENDERISMOYMONTAÑA at wikiloc.com)",
-          "elevationMeters": 1497
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.447892,
-            28.299854,
-            0
-          ]
-        },
-        "properties": {
-          "name": "TÚNEL 5º",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-238e4dc5",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by SENDERISMOYMONTAÑA at wikiloc.com)",
-          "elevationMeters": 1567
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2135,7 +1974,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by SENDERISMOYMONTAÑA at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3563.5221580000925,
@@ -2143,8 +1982,176 @@
           "descentMeters": 241.40011596679688,
           "changeMeters": 1166.2999572753906
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.427109,
+            28.29205,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-73c2e36",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by SENDERISMOYMONTAÑA at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 417
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.448688,
+            28.299329,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-65662f04",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by SENDERISMOYMONTAÑA at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1584
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.437761,
+            28.297056,
+            0
+          ]
+        },
+        "properties": {
+          "name": "TÚNEL 1º",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "15b9ad5e",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by SENDERISMOYMONTAÑA at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1458
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.442663,
+            28.296697,
+            0
+          ]
+        },
+        "properties": {
+          "name": "TÚNEL 2º1",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "15b9ad5e",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by SENDERISMOYMONTAÑA at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1464
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.444482,
+            28.29665,
+            0
+          ]
+        },
+        "properties": {
+          "name": "TÚNEL 3º",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "15b9ad5e",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by SENDERISMOYMONTAÑA at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1478
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.445936,
+            28.296929,
+            0
+          ]
+        },
+        "properties": {
+          "name": "TÚNEL 4º",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "15b9ad5e",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by SENDERISMOYMONTAÑA at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1497
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.447892,
+            28.299854,
+            0
+          ]
+        },
+        "properties": {
+          "name": "TÚNEL 5º",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "15b9ad5e",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by SENDERISMOYMONTAÑA at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1567
+        }
       }
     ]
   },
-  "version": "7f83db96ad2ac9243b2061940eb33ff9"
+  "version": "e153a7aab2ac1da919c4ca404e211e70"
 }

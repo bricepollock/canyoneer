@@ -25,50 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.11217880249025,
-            45.60594676659036,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Archer Falls",
-          "elevationMeters": 71
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.11159944534303,
-            45.6073278126745,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Enter Creek",
-          "elevationMeters": 88
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.11172819137575,
-            45.60045226830309,
-            0
-          ]
-        },
-        "properties": {
-          "elevationMeters": 140
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -340,7 +296,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 865.9825213425333,
@@ -398,7 +354,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 171.22677244855112,
@@ -406,8 +362,55 @@
           "descentMeters": 60.20000076293945,
           "changeMeters": -49.79999923706055
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.11217880249025,
+            45.60594676659036,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Archer Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 71
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.11159944534303,
+            45.6073278126745,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Enter Creek",
+          "stroke": "#FF3B30",
+          "elevationMeters": 88
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.11172819137575,
+            45.60045226830309,
+            0
+          ]
+        },
+        "properties": {
+          "stroke": "#FF3B30",
+          "elevationMeters": 140
+        }
       }
     ]
   },
-  "version": "8f58b259dd0b16fcba63d8b6bd2b4eda"
+  "version": "24a05cbbaeb6b78de444024cdb46a9f4"
 }

@@ -16,8 +16,8 @@
   "timeRating": "IV",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 6,
-  "rappelCountMax": 6,
+  "rappelCountMin": 24,
+  "rappelCountMax": 46,
   "rappelLongestMeters": 28,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>Described by some as Europe’s best canyon.</p>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21028\">Descente-Canyon.com</a>\n: Bares</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/BaresCanyon\">Canyon.Carto.net</a>\n: Val di Bares</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_bares.htm\">CicaRudeClan.com</a> :\nVal di Bares</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://altisud.com/canyoning/italie/la-lombardie/bassin-du-lac-de-como/val-di-bares-canyoning__i_4mxvn8nwua41__al_descente-canyon-fiche.html\">Altisud.com</a>\n: Val di Barès</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barrancos.org/lombardia/ValdiBares.htm\">Barrancos.org</a> :\nVal di Bares</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/CO012\">Catastoforre\nAIC-Canyoning.it</a> : Val di Bares</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_in_the_Alps_Book?id=Bares\">Canyoning\nin the Alps Book by Simon Flower</a> : Bares</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_Nord_Italia_Book?id=Bares\">Canyoning\nNord Italia Book by Pascal van Duin</a> : Bares</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://tntcanyoning.it/canyon-percorsi/torrente-bares\">TNTcanyoning.it</a>\n: Torrente Bares</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://verticalwatercanyoning.com/profili/italia/bares-superiore\">VerticalWaterCanyoning.com</a>\n: Bares Superiore</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://verticalwatercanyoning.com/profili/italia/bares\">VerticalWaterCanyoning.com</a>\n: Bares Inferiore</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/66151/\">Gulliver.it</a> : Bares\nCanyoning</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://WWW.barranquistas.es/2013/08/val-di-bares.html\">Barranquistas.es</a>\n: VAL DI BARES</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://nko-extreme.com/2009/val-di-bares\">NKO-Extreme.com</a> :\nVal di Bares</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -138,35 +138,13 @@
         "properties": {
           "name": "Descent",
           "description": "8h",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 3003.154585232228,
           "ascentMeters": 687.8999938964844,
           "descentMeters": 424.1000061035156,
           "changeMeters": 263.79998779296875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            9.304862,
-            46.192413,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-93-nodesc",
-          "styleHash": "711bfc1",
-          "styleMapHash": {
-            "normal": "#icon-93-nodesc-normal",
-            "highlight": "#icon-93-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "elevationMeters": 1112
         }
       },
       {
@@ -274,7 +252,7 @@
         "properties": {
           "name": "Approach",
           "description": "2h",
-          "stroke": "#00FF00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 3899.315948004628,
@@ -328,13 +306,36 @@
         "properties": {
           "name": "Exit",
           "description": "30min",
-          "stroke": "#FFFF00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 1460.4065860821781,
           "ascentMeters": 511.89996337890625,
           "descentMeters": 0,
           "changeMeters": 511.89996337890625
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.304862,
+            46.192413,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-93-nodesc",
+          "styleHash": "711bfc1",
+          "styleMapHash": {
+            "normal": "#icon-93-nodesc-normal",
+            "highlight": "#icon-93-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1112
         }
       },
       {
@@ -356,6 +357,7 @@
             "highlight": "#icon-62-nodesc-highlight"
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 852
         }
       },
@@ -378,10 +380,11 @@
             "highlight": "#icon-124-nodesc-highlight"
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 580
         }
       }
     ]
   },
-  "version": "074d90285fd8af7968fa1a2e0ccfba47"
+  "version": "b72298e410dc3c4645ae89eb47128cd5"
 }

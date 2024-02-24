@@ -26,36 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.55177140235902,
-            44.451320978895,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 420
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.55354166030885,
-            44.45346538487375,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Falls",
-          "elevationMeters": 395
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -227,7 +197,7 @@
         },
         "properties": {
           "name": "Approach (Bushwhack)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 686.526213935538,
@@ -295,7 +265,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 314.9486478314558,
@@ -428,7 +398,7 @@
         },
         "properties": {
           "name": "Alt-Approach (unexplored)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 668.5246367154461,
@@ -436,8 +406,40 @@
           "descentMeters": 36.4000244140625,
           "changeMeters": -24.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.55177140235902,
+            44.451320978895,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 420
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.55354166030885,
+            44.45346538487375,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 395
+        }
       }
     ]
   },
-  "version": "256d4d4b74eb2c6a8a30223aa9ecb2fd"
+  "version": "57403818b0d5d4735958139275e54923"
 }

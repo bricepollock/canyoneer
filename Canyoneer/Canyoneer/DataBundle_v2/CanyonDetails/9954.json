@@ -26,201 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.55057469010353,
-            37.88224103214914,
-            0
-          ]
-        },
-        "properties": {
-          "name": "old cabin foundation",
-          "elevationMeters": 3936
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.55464091897008,
-            37.88246543370495,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R0 bypass CR",
-          "elevationMeters": 3841
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.55524300244674,
-            37.88233549817194,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R000 bypass CR",
-          "elevationMeters": 3817
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.55777080865776,
-            37.8821607094915,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Miner's Cabin",
-          "elevationMeters": 3776
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.55779032,
-            37.88226799,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 MC: 55'",
-          "elevationMeters": 3790
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.55897427178299,
-            37.88236570035427,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 100' 2stage",
-          "elevationMeters": 3779
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.55969119047546,
-            37.88226101150078,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 235'",
-          "elevationMeters": 3772
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.56045045,
-            37.88207155,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4: 50'",
-          "elevationMeters": 3731
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.53740370273592,
-            37.865496847440205,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Niagara Parking Minnie Gulch",
-          "elevationMeters": 4092
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.55485024645456,
-            37.88240223793846,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R00 bypass CR",
-          "elevationMeters": 3825
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.55787886741479,
-            37.88232210855842,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 140'",
-          "elevationMeters": 3791
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.56590563792443,
-            37.88109084470109,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Niagara Parking",
-          "elevationMeters": 3637
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.56374773718952,
-            37.88246881140919,
-            0
-          ]
-        },
-        "properties": {
-          "name": "alt Parking",
-          "elevationMeters": 3702
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1232,7 +1037,7 @@
         },
         "properties": {
           "name": "Minnie Gulch HC2WD",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6855.150121725549,
@@ -4840,7 +4645,7 @@
         },
         "properties": {
           "name": "Niagara Car Shuttle Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6290.178760265046,
@@ -5128,7 +4933,7 @@
         },
         "properties": {
           "name": "Niagara Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 353.6167830124069,
@@ -5421,7 +5226,7 @@
         },
         "properties": {
           "name": "Niagara Return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 540.4884461594999,
@@ -5559,7 +5364,7 @@
         },
         "properties": {
           "name": "approx scree slope approach from bottom",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 859.7707906852396,
@@ -5567,8 +5372,216 @@
           "descentMeters": 73.89990234375,
           "changeMeters": 73.60009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.55057469010353,
+            37.88224103214914,
+            0
+          ]
+        },
+        "properties": {
+          "name": "old cabin foundation",
+          "stroke": "#34C759",
+          "elevationMeters": 3936
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.55464091897008,
+            37.88246543370495,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R0 bypass CR",
+          "stroke": "#34C759",
+          "elevationMeters": 3841
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.55524300244674,
+            37.88233549817194,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R000 bypass CR",
+          "stroke": "#34C759",
+          "elevationMeters": 3817
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.55777080865776,
+            37.8821607094915,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Miner's Cabin",
+          "stroke": "#FF9500",
+          "elevationMeters": 3776
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.55779032,
+            37.88226799,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 MC: 55'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3790
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.55897427178299,
+            37.88236570035427,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 100' 2stage",
+          "stroke": "#5856D6",
+          "elevationMeters": 3779
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.55969119047546,
+            37.88226101150078,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 235'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3772
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.56045045,
+            37.88207155,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4: 50'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3731
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.53740370273592,
+            37.865496847440205,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Niagara Parking Minnie Gulch",
+          "stroke": "#34C759",
+          "elevationMeters": 4092
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.55485024645456,
+            37.88240223793846,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R00 bypass CR",
+          "stroke": "#34C759",
+          "elevationMeters": 3825
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.55787886741479,
+            37.88232210855842,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 140'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3791
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.56590563792443,
+            37.88109084470109,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Niagara Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3637
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.56374773718952,
+            37.88246881140919,
+            0
+          ]
+        },
+        "properties": {
+          "name": "alt Parking",
+          "stroke": "#FF9500",
+          "elevationMeters": 3702
+        }
       }
     ]
   },
-  "version": "9cafe66ae47da4086eef829a800d9890"
+  "version": "6e9e9b2049102ad5f9c0b8aa6968c605"
 }

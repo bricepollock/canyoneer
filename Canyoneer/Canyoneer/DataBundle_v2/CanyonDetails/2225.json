@@ -26,111 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.17192391038134,
-            45.546330819305524,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Crashed Cars",
-          "elevationMeters": 350
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.17623000000003,
-            45.54981,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Middle Bridal Veil Falls",
-          "elevationMeters": 318
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.16936026771003,
-            45.543118285569925,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 337
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.18264999999997,
-            45.55362,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 367
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.1851134300232,
-            45.553839997351474,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bride of Hercules Falls",
-          "elevationMeters": 346
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.17199848346718,
-            45.546397623712544,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Bridal Veil Falls",
-          "elevationMeters": 350
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.18017409206499,
-            45.5547226,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bridal Veil Falls",
-          "elevationMeters": 372
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -162,7 +57,7 @@
         },
         "properties": {
           "name": "Shortcut Entrance",
-          "stroke": "#00FF44",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 160.4319011068613,
@@ -315,7 +210,7 @@
         },
         "properties": {
           "name": "Shuttle or Hike",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.7019607843137254,
           "stroke-width": 5,
           "lengthMeters": 3227.242809774954,
@@ -403,7 +298,7 @@
         },
         "properties": {
           "name": "Original Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 518.7329554506521,
@@ -561,7 +456,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 764.3760638958527,
@@ -669,7 +564,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 573.7452777024563,
@@ -677,8 +572,120 @@
           "descentMeters": 59.899993896484375,
           "changeMeters": -29.800018310546875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.17192391038134,
+            45.546330819305524,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Crashed Cars",
+          "stroke": "#FF3B30",
+          "elevationMeters": 350
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.17623000000003,
+            45.54981,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Middle Bridal Veil Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 318
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.16936026771003,
+            45.543118285569925,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 337
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.18264999999997,
+            45.55362,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 367
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.1851134300232,
+            45.553839997351474,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bride of Hercules Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 346
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.17199848346718,
+            45.546397623712544,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Bridal Veil Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 350
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.18017409206499,
+            45.5547226,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bridal Veil Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 372
+        }
       }
     ]
   },
-  "version": "a2008b065bf883726cdac8a70834ec9c"
+  "version": "80a25148d1e72a194d7a32bcd3b0c90f"
 }

@@ -35,51 +35,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.712742184582,
-            37.727593881005724,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking middle",
-          "elevationMeters": 1360
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.71212269552592,
-            37.72387919761078,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking lower",
-          "elevationMeters": 1048
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.73640267712693,
-            37.71443400735622,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking upper",
-          "elevationMeters": 569
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -136,7 +91,7 @@
         },
         "properties": {
           "name": "Cascade Creek Sneak Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 236.9490940793788,
@@ -249,7 +204,7 @@
         },
         "properties": {
           "name": "Exit Hike",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 438.1519177799161,
@@ -1012,7 +967,7 @@
         },
         "properties": {
           "name": "Shuttle Sneak",
-          "stroke": "#C0C0C0",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5876.3099939776175,
@@ -2000,7 +1955,7 @@
         },
         "properties": {
           "name": "Approach Full",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 5945.057239279352,
@@ -2103,7 +2058,7 @@
         },
         "properties": {
           "name": "Cascade Creek Upper",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1866.745201353772,
@@ -2451,7 +2406,7 @@
         },
         "properties": {
           "name": "Shuttle Upper",
-          "stroke": "#C0C0C0",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2893.103271714386,
@@ -3259,7 +3214,7 @@
         },
         "properties": {
           "name": "Non-Shuttle Approach Extra",
-          "stroke": "#009AFF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 5078.695474718781,
@@ -3267,8 +3222,56 @@
           "descentMeters": 1340.1998291015625,
           "changeMeters": -476.2999267578125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.712742184582,
+            37.727593881005724,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking middle",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1360
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.71212269552592,
+            37.72387919761078,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking lower",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1048
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.73640267712693,
+            37.71443400735622,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking upper",
+          "stroke": "#34C759",
+          "elevationMeters": 569
+        }
       }
     ]
   },
-  "version": "e00a5c783c807050f854fea134814992"
+  "version": "7739df1ab53575b87b9fbc0a28c0815f"
 }

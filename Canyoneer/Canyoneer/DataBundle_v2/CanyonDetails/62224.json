@@ -28,36 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.80861979722978,
-            48.079142502417746,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 349
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.810805,
-            48.076886,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "elevationMeters": 377
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -159,7 +129,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 377.2197619008514,
@@ -217,7 +187,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 294.6619124996356,
@@ -270,7 +240,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 39.476622453687405,
@@ -278,8 +248,40 @@
           "descentMeters": 3.800018310546875,
           "changeMeters": -1.600006103515625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.80861979722978,
+            48.079142502417746,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 349
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.810805,
+            48.076886,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "stroke": "#FF3B30",
+          "elevationMeters": 377
+        }
       }
     ]
   },
-  "version": "38169d0333a3da1610ce3938aba8d080"
+  "version": "2a8cc3eef12b524411df83cb0da5e844"
 }

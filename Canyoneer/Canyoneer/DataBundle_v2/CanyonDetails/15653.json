@@ -14,8 +14,8 @@
   "waterRating": "C1",
   "timeRating": "II",
   "permit": "Yes",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 15,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 22,
   "shuttleSeconds": 180,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2217\">Descente-Canyon.com</a>\n: Turzon</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/TurzonCanyon\">Canyon.Carto.net</a>\n: Turzon</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://canisciolti.biz/2012/canyon/shede/le%20turzon.html\">Canisciolti.biz</a>\n: LE TURZON</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://yadugaz07.com/canyon-turzon.php\">Yadugaz07</a> :\nTurzon</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -42,6 +42,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Rémi Villalongue on 15 jan 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 222
         }
       },
@@ -65,6 +66,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Rémi Villalongue on 15 jan 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 182
         }
       },
@@ -88,6 +90,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Rémi Villalongue on 15 jan 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 257
         }
       },
@@ -111,10 +114,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": " (Data by Rémi Villalongue on 15 jan 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 221
         }
       }
     ]
   },
-  "version": "a95f87a94315001d2fa16ee36a2c820a"
+  "version": "c29ea570102dd87a85fad2f2822474e2"
 }

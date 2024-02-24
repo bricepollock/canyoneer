@@ -24,21 +24,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.36289024353029,
-            44.770212980220705,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 441
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -140,7 +125,7 @@
         },
         "properties": {
           "name": "Approach (Bushwhack)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 778.3582426071295,
@@ -223,7 +208,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 560.8240028002099,
@@ -231,8 +216,24 @@
           "descentMeters": 31.399993896484375,
           "changeMeters": -24.100006103515625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.36289024353029,
+            44.770212980220705,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 441
+        }
       }
     ]
   },
-  "version": "87207a83e77614d59ef9f0c0ce55bb67"
+  "version": "f4782da903ec85c51c5fc34a58d6730e"
 }

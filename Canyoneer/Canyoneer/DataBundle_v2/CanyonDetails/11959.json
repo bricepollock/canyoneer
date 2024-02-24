@@ -17,8 +17,8 @@
   "waterRating": "B",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 6,
-  "rappelCountMax": 6,
+  "rappelCountMin": 16,
+  "rappelCountMax": 16,
   "rappelLongestMeters": 50,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/23475\">Descente-Canyon.com</a>\n: Praie</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/TO022\">Catastoforre\nAIC-Canyoning.it</a> : Rio Fassabella;o -Rio di Praie</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/51285/\">Gulliver.it</a> : Praie\n(Rio) o Fassabella - Praie (Torino)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -44,6 +44,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by PL06 on 27 juil 2015)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1268
         }
       },
@@ -67,6 +68,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by PL06 on 27 juil 2015)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1831
         }
       },
@@ -90,10 +92,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by PL06 on 27 juil 2015)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1665
         }
       }
     ]
   },
-  "version": "bda765fd660d1bdc9798f75efb01fbcd"
+  "version": "93d3f6b739e37d0450d2fcee3bbca136"
 }

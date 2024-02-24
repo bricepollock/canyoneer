@@ -25,176 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1339073,
-            34.2735761
-          ]
-        },
-        "properties": {
-          "name": "15' Waterfall",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 882
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1336713,
-            34.2731082
-          ]
-        },
-        "properties": {
-          "name": "3 Step Waterfall - Bypass on Right",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 890
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.133812,
-            34.2725372
-          ]
-        },
-        "properties": {
-          "name": "6' Drop - Bypass on Left",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 849
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.134552,
-            34.2723084
-          ]
-        },
-        "properties": {
-          "name": "4'  Drop - Bypass Left",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 862
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.134691,
-            34.2726831
-          ]
-        },
-        "properties": {
-          "name": "10' Waterfall Rappel",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 891
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1355972,
-            34.2717934
-          ]
-        },
-        "properties": {
-          "name": "10'  Waterfall Downclimb",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 923
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1371362,
-            34.2706999
-          ]
-        },
-        "properties": {
-          "name": "6' Downclimb",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 793
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1407,
-            34.2697
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 724
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1406421,
-            34.2697684
-          ]
-        },
-        "properties": {
-          "name": "Trail Head",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 701
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.140524,
-            34.2698006
-          ]
-        },
-        "properties": {
-          "name": "Easy 5th Class climbing out",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 701
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -994,7 +824,7 @@
           "styleUrl": "#track",
           "styleHash": "-567d95f2",
           "description": "Length: 2.631 km (1.635 mi)",
-          "stroke": "#cc6600",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "visibility": "1",
@@ -1003,8 +833,188 @@
           "descentMeters": 702.2001342773438,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1339073,
+            34.2735761
+          ]
+        },
+        "properties": {
+          "name": "15' Waterfall",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 882
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1336713,
+            34.2731082
+          ]
+        },
+        "properties": {
+          "name": "3 Step Waterfall - Bypass on Right",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 890
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.133812,
+            34.2725372
+          ]
+        },
+        "properties": {
+          "name": "6' Drop - Bypass on Left",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 849
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.134552,
+            34.2723084
+          ]
+        },
+        "properties": {
+          "name": "4'  Drop - Bypass Left",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 862
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.134691,
+            34.2726831
+          ]
+        },
+        "properties": {
+          "name": "10' Waterfall Rappel",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 891
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1355972,
+            34.2717934
+          ]
+        },
+        "properties": {
+          "name": "10'  Waterfall Downclimb",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 923
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1371362,
+            34.2706999
+          ]
+        },
+        "properties": {
+          "name": "6' Downclimb",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 793
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1407,
+            34.2697
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 724
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1406421,
+            34.2697684
+          ]
+        },
+        "properties": {
+          "name": "Trail Head",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 701
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.140524,
+            34.2698006
+          ]
+        },
+        "properties": {
+          "name": "Easy 5th Class climbing out",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 701
+        }
       }
     ]
   },
-  "version": "4da07a28738f2c8e5a1ec50c3d578436"
+  "version": "9f5b5b00bb7a44602fa7341f401318d0"
 }

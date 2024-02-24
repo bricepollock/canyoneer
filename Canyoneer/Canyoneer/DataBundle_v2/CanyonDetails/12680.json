@@ -28,51 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            7.03493,
-            46.206411,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon de Morcles",
-          "styleUrl": "#icon-22",
-          "styleHash": "-1ba4ed2e",
-          "styleMapHash": {
-            "normal": "#icon-22-normal",
-            "highlight": "#icon-22-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png",
-          "description": "Mapa detallado<br>Información detallada (http://www.swestcanyon.ch/Sommaire_canyons.htm)",
-          "elevationMeters": 1283
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            7.036963,
-            46.207009,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Inicio",
-          "styleUrl": "#icon-93-nodesc",
-          "styleHash": "31a1078c",
-          "styleMapHash": {
-            "normal": "#icon-93-nodesc-normal",
-            "highlight": "#icon-93-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "elevationMeters": 1377
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1346,35 +1301,13 @@
             "highlight": "#line-0000FF-5-highlight"
           },
           "description": "Combinación de vehículos",
-          "stroke": "#0000ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5765.308343967697,
           "ascentMeters": 8604.900177001953,
           "descentMeters": 7723.6002197265625,
           "changeMeters": 881.2999572753906
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            7.026803,
-            46.197899,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking final",
-          "styleUrl": "#icon-93-nodesc",
-          "styleHash": "31a1078c",
-          "styleMapHash": {
-            "normal": "#icon-93-nodesc-normal",
-            "highlight": "#icon-93-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "elevationMeters": 463
         }
       },
       {
@@ -1823,35 +1756,13 @@
             "highlight": "#line-0000FF-5-highlight"
           },
           "description": "Barranco de carácter vertical.",
-          "stroke": "#0000ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1228.000620609106,
           "ascentMeters": 963.5000915527344,
           "descentMeters": 1790.7001037597656,
           "changeMeters": -827.2000122070312
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            7.031513,
-            46.202702,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cascada de 112m",
-          "styleUrl": "#icon-16-nodesc",
-          "styleHash": "590e2765",
-          "styleMapHash": {
-            "normal": "#icon-16-nodesc-normal",
-            "highlight": "#icon-16-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/16-POI.png",
-          "elevationMeters": 1252
         }
       },
       {
@@ -1964,35 +1875,13 @@
             "normal": "#line-CC0000-5-nodesc-normal",
             "highlight": "#line-CC0000-5-nodesc-highlight"
           },
-          "stroke": "#cc0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 87.82608809579821,
           "ascentMeters": 45.699981689453125,
           "descentMeters": 32.5999755859375,
           "changeMeters": 13.100006103515625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            7.027492,
-            46.197883,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Final de la cascada de 70. Salir a pie por la izda.",
-          "styleUrl": "#icon-124-nodesc",
-          "styleHash": "6938de18",
-          "styleMapHash": {
-            "normal": "#icon-124-nodesc-normal",
-            "highlight": "#icon-124-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png",
-          "elevationMeters": 474
         }
       },
       {
@@ -2085,7 +1974,7 @@
             "normal": "#line-009900-5-nodesc-normal",
             "highlight": "#line-009900-5-nodesc-highlight"
           },
-          "stroke": "#009900",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 174.82007763605984,
@@ -3370,13 +3259,129 @@
             "highlight": "#line-1267FF-5-highlight"
           },
           "description": "Combinación de vehículos",
-          "stroke": "#1267ff",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5765.308343967697,
           "ascentMeters": 8604.900177001953,
           "descentMeters": 7723.6002197265625,
           "changeMeters": 881.2999572753906
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.03493,
+            46.206411,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon de Morcles",
+          "styleUrl": "#icon-22",
+          "styleHash": "-1ba4ed2e",
+          "styleMapHash": {
+            "normal": "#icon-22-normal",
+            "highlight": "#icon-22-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png",
+          "description": "Mapa detallado<br>Información detallada (http://www.swestcanyon.ch/Sommaire_canyons.htm)",
+          "stroke": "#5856D6",
+          "elevationMeters": 1283
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.036963,
+            46.207009,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Inicio",
+          "styleUrl": "#icon-93-nodesc",
+          "styleHash": "31a1078c",
+          "styleMapHash": {
+            "normal": "#icon-93-nodesc-normal",
+            "highlight": "#icon-93-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1377
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.026803,
+            46.197899,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking final",
+          "styleUrl": "#icon-93-nodesc",
+          "styleHash": "31a1078c",
+          "styleMapHash": {
+            "normal": "#icon-93-nodesc-normal",
+            "highlight": "#icon-93-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 463
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.031513,
+            46.202702,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cascada de 112m",
+          "styleUrl": "#icon-16-nodesc",
+          "styleHash": "590e2765",
+          "styleMapHash": {
+            "normal": "#icon-16-nodesc-normal",
+            "highlight": "#icon-16-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/16-POI.png",
+          "stroke": "#5856D6",
+          "elevationMeters": 1252
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.027492,
+            46.197883,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Final de la cascada de 70. Salir a pie por la izda.",
+          "styleUrl": "#icon-124-nodesc",
+          "styleHash": "6938de18",
+          "styleMapHash": {
+            "normal": "#icon-124-nodesc-normal",
+            "highlight": "#icon-124-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 474
         }
       },
       {
@@ -3398,6 +3403,7 @@
             "highlight": "#icon-503-DB4436-nodesc-highlight"
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#5856D6",
           "elevationMeters": 495
         }
       },
@@ -3420,10 +3426,11 @@
             "highlight": "#icon-503-DB4436-nodesc-highlight"
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#5856D6",
           "elevationMeters": 1377
         }
       }
     ]
   },
-  "version": "7bac1c2775b2572cb427da64a941e5c2"
+  "version": "0af0af57e52f83145841f2d055ce7cfa"
 }

@@ -25,159 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.15168,
-            34.25468
-          ]
-        },
-        "properties": {
-          "name": "Exit Trail - Turn Right, climbing uphill",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 939
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1527312,
-            34.2563724
-          ]
-        },
-        "properties": {
-          "name": "Lower Switzer Falls - 2 Tier 10' / 35'",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 963
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1537995,
-            34.2570038
-          ]
-        },
-        "properties": {
-          "name": "Gabrielino Trail - Keep straight",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 975
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.145708,
-            34.2662273
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 900
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1443187,
-            34.2661725
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 833
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1546605,
-            34.2591957
-          ]
-        },
-        "properties": {
-          "name": "Switzer-land Camp Ruins",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 901
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1549158,
-            34.2579213
-          ]
-        },
-        "properties": {
-          "name": "Upper Switzer Falls - 80'",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 950
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.15472,
-            34.2579324
-          ]
-        },
-        "properties": {
-          "name": "Ruins of Christ's Chapel",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 973
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1548474,
-            34.2591716
-          ]
-        },
-        "properties": {
-          "name": "Drop in",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 901
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1487,7 +1334,7 @@
           "styleUrl": "#track",
           "styleHash": "-567d95f2",
           "description": "Length: 5.16 km (3.206 mi)",
-          "stroke": "#0080ff",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "visibility": "1",
@@ -1496,8 +1343,170 @@
           "descentMeters": 1338.1000366210938,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.15168,
+            34.25468
+          ]
+        },
+        "properties": {
+          "name": "Exit Trail - Turn Right, climbing uphill",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#007AFF",
+          "elevationMeters": 939
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1527312,
+            34.2563724
+          ]
+        },
+        "properties": {
+          "name": "Lower Switzer Falls - 2 Tier 10' / 35'",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#007AFF",
+          "elevationMeters": 963
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1537995,
+            34.2570038
+          ]
+        },
+        "properties": {
+          "name": "Gabrielino Trail - Keep straight",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#007AFF",
+          "elevationMeters": 975
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.145708,
+            34.2662273
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#007AFF",
+          "elevationMeters": 900
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1443187,
+            34.2661725
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 833
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1546605,
+            34.2591957
+          ]
+        },
+        "properties": {
+          "name": "Switzer-land Camp Ruins",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#007AFF",
+          "elevationMeters": 901
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1549158,
+            34.2579213
+          ]
+        },
+        "properties": {
+          "name": "Upper Switzer Falls - 80'",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#007AFF",
+          "elevationMeters": 950
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.15472,
+            34.2579324
+          ]
+        },
+        "properties": {
+          "name": "Ruins of Christ's Chapel",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#007AFF",
+          "elevationMeters": 973
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1548474,
+            34.2591716
+          ]
+        },
+        "properties": {
+          "name": "Drop in",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#007AFF",
+          "elevationMeters": 901
+        }
       }
     ]
   },
-  "version": "1ee4279a0c5457fdd233a16e3634c08a"
+  "version": "df9e7de0eaf4162a24118090479e88bf"
 }

@@ -29,111 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.4774,
-            33.6387,
-            0
-          ]
-        },
-        "properties": {
-          "name": "1st Climb",
-          "elevationMeters": 791
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.4792,
-            33.639,
-            0
-          ]
-        },
-        "properties": {
-          "name": "2nd Climb",
-          "elevationMeters": 844
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.4721,
-            33.6378,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Creek Entry",
-          "elevationMeters": 805
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.4899,
-            33.6371,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Junction Hot Spring Canyon",
-          "elevationMeters": 593
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.4555,
-            33.6513,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 618
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.4838,
-            33.6349,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Waterfall",
-          "elevationMeters": 1009
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.4814696609974,
-            33.64409337482175,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Tanriverdi 160 foot waterfall",
-          "elevationMeters": 642
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -470,7 +365,7 @@
         },
         "properties": {
           "name": "Approach / Exit Trail",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2419.4662128671853,
@@ -693,7 +588,7 @@
         },
         "properties": {
           "name": "Descent / Ascent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2398.628650149243,
@@ -881,7 +776,7 @@
         },
         "properties": {
           "name": "Shuttle Exit Hot Spring Canyon",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3940.7905404034095,
@@ -1114,7 +1009,7 @@
         },
         "properties": {
           "name": "Shuttle Exit Road",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1571.2477993129428,
@@ -1182,7 +1077,7 @@
         },
         "properties": {
           "name": "Spur canyon to peak 2797",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 378.25472858276964,
@@ -1190,8 +1085,120 @@
           "descentMeters": 24.4000244140625,
           "changeMeters": 79.70001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.4774,
+            33.6387,
+            0
+          ]
+        },
+        "properties": {
+          "name": "1st Climb",
+          "stroke": "#FF3B30",
+          "elevationMeters": 791
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.4792,
+            33.639,
+            0
+          ]
+        },
+        "properties": {
+          "name": "2nd Climb",
+          "stroke": "#FF3B30",
+          "elevationMeters": 844
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.4721,
+            33.6378,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Creek Entry",
+          "stroke": "#FF3B30",
+          "elevationMeters": 805
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.4899,
+            33.6371,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Junction Hot Spring Canyon",
+          "stroke": "#FF3B30",
+          "elevationMeters": 593
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.4555,
+            33.6513,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 618
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.4838,
+            33.6349,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waterfall",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1009
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.4814696609974,
+            33.64409337482175,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Tanriverdi 160 foot waterfall",
+          "stroke": "#FF3B30",
+          "elevationMeters": 642
+        }
       }
     ]
   },
-  "version": "ecd47447507905cff96098c9ab68d4d1"
+  "version": "88e8ce6fd49e515e08fdc26828daef9a"
 }

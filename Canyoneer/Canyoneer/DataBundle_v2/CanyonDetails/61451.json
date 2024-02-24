@@ -22,81 +22,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.89493560791016,
-            37.929935455322266,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Phoenix Park Falls",
-          "elevationMeters": 3848
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.91518389,
-            37.90020252,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Phoenix park mill site",
-          "elevationMeters": 3183
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.91668555140498,
-            37.90410540237775,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking, beginning of rougher Jeep trail",
-          "elevationMeters": 3133
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.89795434474944,
-            37.92700723857756,
-            0
-          ]
-        },
-        "properties": {
-          "name": "4x4 road ends, turnaround and old cabin, foot trail continues",
-          "elevationMeters": 4054
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.8947984,
-            37.93005006,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 110' Aspen tree CL 150' plus any used to extend a fiddlestick toward the edgefalls probably 110'",
-          "elevationMeters": 3839
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -888,7 +813,7 @@
         },
         "properties": {
           "name": "CR 503/502",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6297.416204407641,
@@ -2281,7 +2206,7 @@
         },
         "properties": {
           "name": "approach or 4x4 drive",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3706.8577846159533,
@@ -2334,7 +2259,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 29.081171143163164,
@@ -2402,7 +2327,7 @@
         },
         "properties": {
           "name": "return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 53.82143430469432,
@@ -2785,7 +2710,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 714.8215748526284,
@@ -2793,8 +2718,88 @@
           "descentMeters": 262.10009765625,
           "changeMeters": -214.400146484375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.89493560791016,
+            37.929935455322266,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Phoenix Park Falls",
+          "stroke": "#5856D6",
+          "elevationMeters": 3848
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.91518389,
+            37.90020252,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Phoenix park mill site",
+          "stroke": "#34C759",
+          "elevationMeters": 3183
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.91668555140498,
+            37.90410540237775,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking, beginning of rougher Jeep trail",
+          "stroke": "#34C759",
+          "elevationMeters": 3133
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.89795434474944,
+            37.92700723857756,
+            0
+          ]
+        },
+        "properties": {
+          "name": "4x4 road ends, turnaround and old cabin, foot trail continues",
+          "stroke": "#34C759",
+          "elevationMeters": 4054
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.8947984,
+            37.93005006,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 110' Aspen tree CL 150' plus any used to extend a fiddlestick toward the edgefalls probably 110'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3839
+        }
       }
     ]
   },
-  "version": "04f45be77b121b43ef37ba2fe9db1782"
+  "version": "f62bdd294dfe9c5bbcfc4718c0fbd78b"
 }

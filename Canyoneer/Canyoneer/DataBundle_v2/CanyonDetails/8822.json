@@ -14,8 +14,8 @@
   "waterRating": "C",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 7,
-  "rappelCountMax": 7,
+  "rappelCountMin": 11,
+  "rappelCountMax": 17,
   "rappelLongestMeters": 42.67,
   "vehicle": "High Clearance",
   "shuttleSeconds": 3000,
@@ -23,231 +23,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.6968870162964,
-            45.650948356024564,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Warren Lake Trailhead",
-          "elevationMeters": 598
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.69027805328369,
-            45.68853949950899,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Starvation Crk Parking",
-          "elevationMeters": 370
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.703373,
-            45.668735,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Two-tier Falls",
-          "elevationMeters": 387
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70303000000001,
-            45.670657,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Warren Falls",
-          "elevationMeters": 468
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70108800000003,
-            45.662749,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 435
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70159697532655,
-            45.68600060588423,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Hole-in-the-Wall Falls",
-          "elevationMeters": 50
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70168280601503,
-            45.68426734663531,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trail bridge",
-          "elevationMeters": 55
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70072793960573,
-            45.66167947585318,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Approx Canyon Start",
-          "elevationMeters": 418
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70491218566896,
-            45.65664787908123,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Warren Lake",
-          "elevationMeters": 366
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.69950485229494,
-            45.65629542540302,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave Trail",
-          "elevationMeters": 350
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70117855072023,
-            45.675647097663685,
-            0
-          ]
-        },
-        "properties": {
-          "name": "East Tributary enters",
-          "elevationMeters": 308
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.59316062927248,
-            45.66083215962231,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Kingsley Jct",
-          "elevationMeters": 271
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.680064201355,
-            45.63318612278744,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gate",
-          "elevationMeters": 887
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.67405605316164,
-            45.64104780576824,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gate",
-          "elevationMeters": 1026
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.66959285736085,
-            45.636937063319614,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End Pavement",
-          "elevationMeters": 913
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -372,7 +147,7 @@
         },
         "properties": {
           "name": "Approach (trail)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 727.821899151923,
@@ -645,7 +420,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1166.8222445686258,
@@ -928,7 +703,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1160.169421902119,
@@ -1076,7 +851,7 @@
         },
         "properties": {
           "name": "Trail Exit",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 583.0512174752007,
@@ -1324,7 +1099,7 @@
         },
         "properties": {
           "name": "Descent  (bushwhack)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.7019607843137254,
           "stroke-width": 5,
           "lengthMeters": 1798.9586504251383,
@@ -1442,7 +1217,7 @@
         },
         "properties": {
           "name": "Approach (bushwhack)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 649.3730352873483,
@@ -5000,7 +4775,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.7019607843137254,
           "stroke-width": 5,
           "lengthMeters": 38084.62016711277,
@@ -5008,8 +4783,248 @@
           "descentMeters": 5231.499919891357,
           "changeMeters": 276.8999938964844
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.6968870162964,
+            45.650948356024564,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Warren Lake Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 598
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.69027805328369,
+            45.68853949950899,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Starvation Crk Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 370
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.703373,
+            45.668735,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Two-tier Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 387
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70303000000001,
+            45.670657,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Warren Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 468
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70108800000003,
+            45.662749,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 435
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70159697532655,
+            45.68600060588423,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Hole-in-the-Wall Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 50
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70168280601503,
+            45.68426734663531,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trail bridge",
+          "stroke": "#FF9500",
+          "elevationMeters": 55
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70072793960573,
+            45.66167947585318,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Approx Canyon Start",
+          "stroke": "#FF3B30",
+          "elevationMeters": 418
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70491218566896,
+            45.65664787908123,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Warren Lake",
+          "stroke": "#FF3B30",
+          "elevationMeters": 366
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.69950485229494,
+            45.65629542540302,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave Trail",
+          "stroke": "#34C759",
+          "elevationMeters": 350
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70117855072023,
+            45.675647097663685,
+            0
+          ]
+        },
+        "properties": {
+          "name": "East Tributary enters",
+          "stroke": "#FF3B30",
+          "elevationMeters": 308
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.59316062927248,
+            45.66083215962231,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Kingsley Jct",
+          "stroke": "#FFCC00",
+          "elevationMeters": 271
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.680064201355,
+            45.63318612278744,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gate",
+          "stroke": "#FF3B30",
+          "elevationMeters": 887
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.67405605316164,
+            45.64104780576824,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gate",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1026
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.66959285736085,
+            45.636937063319614,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End Pavement",
+          "stroke": "#FFCC00",
+          "elevationMeters": 913
+        }
       }
     ]
   },
-  "version": "e940164689d379cce944dc32ce2d6d4b"
+  "version": "7ea4370e0c1a7f4e82b5bb2079a4e1b4"
 }

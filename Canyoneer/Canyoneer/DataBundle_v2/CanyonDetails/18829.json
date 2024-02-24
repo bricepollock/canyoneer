@@ -31,29 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.735806,
-            35.025041,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#icon-93",
-          "styleHash": "6012e13e",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park right off of highway. (Data by canyonchronicles.com)",
-          "elevationMeters": 2083
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -227,13 +204,37 @@
             "highlight": "#line-0000FF-5000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#0000ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3632.6449040394687,
           "ascentMeters": 663.300048828125,
           "descentMeters": 754.300048828125,
           "changeMeters": -91
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.735806,
+            35.025041,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#icon-93",
+          "styleHash": "6012e13e",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park right off of highway. (Data by canyonchronicles.com)",
+          "stroke": "#5856D6",
+          "elevationMeters": 2083
         }
       },
       {
@@ -256,10 +257,11 @@
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/55-flag.png",
           "description": "Got pretty uninteresting at this point. (Data by canyonchronicles.com)",
+          "stroke": "#5856D6",
           "elevationMeters": 1993
         }
       }
     ]
   },
-  "version": "df886236eb9c9d4dfd35c86ee8d1f2c3"
+  "version": "ba2c76bcb3da909315c5fbd4986c0f23"
 }

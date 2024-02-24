@@ -18,8 +18,8 @@
   "waterRating": "C",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 40,
   "shuttleSeconds": 120,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21996\">Descente-Canyon.com</a>\n: Castiglione</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/CastiglioneCanyon\">Canyon.Carto.net</a>\n: Canale Castiglione</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/CS032\">Catastoforre\nAIC-Canyoning.it</a> : Canale Castiglione</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://micheleangileri.com/cgi-bin/schedap.cgi?castiglione\">Michele\nAngileri's Canyons</a> : Canale Castiglione</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -46,6 +46,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 15 nov 2010)",
+          "stroke": "#FF3B30",
           "elevationMeters": 815
         }
       },
@@ -69,6 +70,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 15 nov 2010)",
+          "stroke": "#FF3B30",
           "elevationMeters": 760
         }
       },
@@ -92,6 +94,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Streicher Wolfgang on 15 nov 2010)",
+          "stroke": "#FF3B30",
           "elevationMeters": 857
         }
       },
@@ -115,10 +118,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": " (Data by Streicher Wolfgang on 15 nov 2010)",
+          "stroke": "#FF3B30",
           "elevationMeters": 758
         }
       }
     ]
   },
-  "version": "d4cf2bd097ad3aecfafb75fd43f8d68f"
+  "version": "3a1d123f6a45e663163ae44899e01582"
 }

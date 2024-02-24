@@ -31,37 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.326563,
-            37.155044,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Exit",
-          "description": "Great campsite",
-          "elevationMeters": 1228
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.30830000000003,
-            37.1444,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Approach",
-          "elevationMeters": 1827
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -93,7 +62,7 @@
         },
         "properties": {
           "name": "Exit (Shuttle)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 196.99712929388235,
@@ -131,7 +100,7 @@
         },
         "properties": {
           "name": "Descent (Loop)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 211.63135488859194,
@@ -214,7 +183,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 106.03328202469416,
@@ -307,7 +276,7 @@
         },
         "properties": {
           "name": "Exit (Loop)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 661.288764755457,
@@ -515,7 +484,7 @@
         },
         "properties": {
           "name": "Descent (Shuttle)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1914.606970858501,
@@ -2074,7 +2043,7 @@
         "properties": {
           "name": "Shuttle (high-clearance)",
           "description": "Lower-clearance vehicles may need to take longer route to the north.",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 16496.77906607104,
@@ -2082,8 +2051,41 @@
           "descentMeters": 2304.400146484375,
           "changeMeters": 602.2000732421875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.326563,
+            37.155044,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "description": "Great campsite",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1228
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.30830000000003,
+            37.1444,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1827
+        }
       }
     ]
   },
-  "version": "48ea48e5bad582e6717fb299e4c5408a"
+  "version": "33d51357205dd2c8d6963a508ebdd14f"
 }

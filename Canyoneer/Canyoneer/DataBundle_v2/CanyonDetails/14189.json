@@ -16,8 +16,8 @@
   "waterRating": "C",
   "timeRating": "II",
   "permit": "Yes",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 20,
   "shuttleSeconds": 420,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2228\">Descente-Canyon.com</a>\n: La Bollène</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/BolleneCanyon\">Canyon.Carto.net</a>\n: Bollène</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_bolle.htm\">CicaRudeClan.com</a> :\nLa Bollène</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://altisud.com/canyoning/france/alpes-maritimes/vallee-de-la-vesubie/riou-de-la-bollene-canyoning__i_gozkblvtj15__al_descente-canyon-fiche.html\">Altisud.com</a>\n: Riou de la Bollène</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://barrancos.org/alpes/Bollene.htm\">Barrancos.org</a> : Riou\nde la Bollene</li>\n<li><img src=\"rwl_pl.png\" title=\"rwl_pl.png\" alt=\"rwl_pl.png\" /><a\nhref=\"http://canyoning.wroclaw.pl/kanion.php?id=50\">Canyoning.Wroclaw.pl</a>\n: BollÃ¨ne</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://icopro.org/canyon/view/id/119\">Icopro.org</a> :\nBollène</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://teamespeleocanyons.blogspot.com.es/2012/04/riou-de-la-bollene.html\">TeamEspeleoCanyons\nBlog</a> : Riou de la Bollène</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://openspeleo.org/openspeleo/canyons-view-24.html?page=3\">OpenSpeleo.org</a>\n: La Bollene</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://WWW.barranquistas.es/2010/05/riou-de-la-bollene.html\">Barranquistas.es</a>\n: RIOU DE LA BOLLÈNE</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=5522474\">Wikiloc.com</a> :\nLe Riou de la Bollène</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=7101864\">Wikiloc.com</a> :\nRiou de la Bollène</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
@@ -44,6 +44,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by jc06 on 27 déc 2007)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1193
         }
       },
@@ -67,6 +68,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by jc06 on 27 déc 2007)",
+          "stroke": "#FF3B30",
           "elevationMeters": 895
         }
       },
@@ -90,6 +92,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by jc06 on 27 déc 2007)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1399
         }
       },
@@ -113,10 +116,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": " (Data by jc06 on 27 déc 2007)",
+          "stroke": "#FF3B30",
           "elevationMeters": 781
         }
       }
     ]
   },
-  "version": "88e69639716709dc627052866ca5b063"
+  "version": "61bee0a7341a7856f83038550eb1c46f"
 }

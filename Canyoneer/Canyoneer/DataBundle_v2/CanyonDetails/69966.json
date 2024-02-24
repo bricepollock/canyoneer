@@ -32,66 +32,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7939379811287,
-            34.81740151073306,
-            0
-          ]
-        },
-        "properties": {
-          "description": "40 ft bolt ",
-          "elevationMeters": 1610
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.79359734058382,
-            34.817527026278675,
-            0
-          ]
-        },
-        "properties": {
-          "description": "12 ft tree (ghosted)",
-          "elevationMeters": 1624
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.79342836141588,
-            34.8176085011796,
-            0
-          ]
-        },
-        "properties": {
-          "description": "50 ft bolts",
-          "elevationMeters": 1635
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.79318964481355,
-            34.817784662852084,
-            0
-          ]
-        },
-        "properties": {
-          "description": "100ft Bolt station. ",
-          "elevationMeters": 1652
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -588,7 +528,7 @@
         },
         "properties": {
           "name": "Into and out of the Vortex ",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1642.126247524938,
@@ -1081,7 +1021,7 @@
         },
         "properties": {
           "name": "Into and out of the Vortex ",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1397.2949546969135,
@@ -1140,7 +1080,7 @@
         "properties": {
           "name": "Into and out of the Vortex Descent ",
           "description": "4 rappels \n1. 100ft bolts into alcove system. \n2. 50 ft bolts DCL\n3. 12 ft tree (ghosted) DCC\n4. 40ft bolt DCR",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 92.99682958970469,
@@ -1223,7 +1163,7 @@
         },
         "properties": {
           "name": "Into and out of the Vortex ",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 133.7512891829462,
@@ -1267,7 +1207,7 @@
         "properties": {
           "name": "Into and out of the Vortex ",
           "description": "Climb 2 pitches. \nPitch 1 - 80 ft. Mild for first 50 ft then 5.7\nPitch 2 - 30 ft 5.8\nPro: Cams 0.5 - 3 and draws for a few bolts. ",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 52.61819091467317,
@@ -1275,8 +1215,72 @@
           "descentMeters": 0,
           "changeMeters": 9.2999267578125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7939379811287,
+            34.81740151073306,
+            0
+          ]
+        },
+        "properties": {
+          "description": "40 ft bolt ",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1610
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.79359734058382,
+            34.817527026278675,
+            0
+          ]
+        },
+        "properties": {
+          "description": "12 ft tree (ghosted)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1624
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.79342836141588,
+            34.8176085011796,
+            0
+          ]
+        },
+        "properties": {
+          "description": "50 ft bolts",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1635
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.79318964481355,
+            34.817784662852084,
+            0
+          ]
+        },
+        "properties": {
+          "description": "100ft Bolt station. ",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1652
+        }
       }
     ]
   },
-  "version": "e24356ee0896bd11d61d69778e92f9a4"
+  "version": "c5cd38ac6e8fff12a93fa91191072c4e"
 }

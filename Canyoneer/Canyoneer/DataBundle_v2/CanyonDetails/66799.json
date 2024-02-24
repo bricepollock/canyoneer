@@ -29,97 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.73218548297884,
-            35.00156650780649,
-            0
-          ]
-        },
-        "properties": {
-          "name": "View",
-          "elevationMeters": 2083
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.72749161720277,
-            34.996706389480664,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1(a) - 50’",
-          "description": "Off rock pinch",
-          "elevationMeters": 1779
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.72903,
-            34.9964,
-            0
-          ]
-        },
-        "properties": {
-          "name": "View",
-          "elevationMeters": 1836
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.72682,
-            34.99761,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1(b) - 20’",
-          "elevationMeters": 1738
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.73077,
-            34.99751,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cave",
-          "elevationMeters": 1993
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.73163,
-            34.99805,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Turnoff Cave",
-          "elevationMeters": 2069
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -221,7 +130,7 @@
         },
         "properties": {
           "name": "Alt descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 437.4345350148335,
@@ -359,7 +268,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 405.37914200638295,
@@ -477,7 +386,7 @@
         },
         "properties": {
           "name": "Ridge trail",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 180.29447886587144,
@@ -785,7 +694,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 872.6559740734986,
@@ -1168,7 +1077,7 @@
         },
         "properties": {
           "name": "Turkey Tail Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2828.730202594122,
@@ -1205,7 +1114,7 @@
           ]
         },
         "properties": {
-          "stroke": "#009AFF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 150.25063902871682,
@@ -1213,8 +1122,105 @@
           "descentMeters": 92.2000732421875,
           "changeMeters": -92.2000732421875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.73218548297884,
+            35.00156650780649,
+            0
+          ]
+        },
+        "properties": {
+          "name": "View",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2083
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.72749161720277,
+            34.996706389480664,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1(a) - 50’",
+          "description": "Off rock pinch",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1779
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.72903,
+            34.9964,
+            0
+          ]
+        },
+        "properties": {
+          "name": "View",
+          "stroke": "#FF9500",
+          "elevationMeters": 1836
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.72682,
+            34.99761,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1(b) - 20’",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1738
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.73077,
+            34.99751,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cave",
+          "stroke": "#007AFF",
+          "elevationMeters": 1993
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.73163,
+            34.99805,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Turnoff Cave",
+          "stroke": "#007AFF",
+          "elevationMeters": 2069
+        }
       }
     ]
   },
-  "version": "dccbad355428e4c21efc06ab71b0f1c9"
+  "version": "0a1edd1ec76a3256a7daa2560bfdf972"
 }

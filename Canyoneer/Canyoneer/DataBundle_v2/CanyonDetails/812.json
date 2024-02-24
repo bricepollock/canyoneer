@@ -29,111 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.09139227867128,
-            36.0473206862741,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 2214
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.14138597249986,
-            36.05666267544506,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle",
-          "elevationMeters": 910
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.06326663494112,
-            36.09149669190637,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Deploy Rafts",
-          "elevationMeters": 2084
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.09096848964693,
-            36.10064272384703,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Boat Beach",
-          "elevationMeters": 2079
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.07424223423006,
-            36.08423979369771,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Enter Drainage",
-          "elevationMeters": 2113
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.12894320487976,
-            36.07707761013974,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Indian Gardens",
-          "elevationMeters": 1077
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.09487915039064,
-            36.10543637981249,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Phantom Ranch",
-          "elevationMeters": 1399
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2475,7 +2370,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 11207.080701271598,
@@ -2668,7 +2563,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 657.0735536937134,
@@ -6591,7 +6486,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 17786.979080074834,
@@ -6779,7 +6674,7 @@
         },
         "properties": {
           "name": "Spur to Phantom Ranch",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 775.4605352564823,
@@ -7402,7 +7297,7 @@
         },
         "properties": {
           "name": "Shuttle Route",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 7299.08123367822,
@@ -7410,8 +7305,120 @@
           "descentMeters": 625.7996215820312,
           "changeMeters": 1304.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.09139227867128,
+            36.0473206862741,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#34C759",
+          "elevationMeters": 2214
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.14138597249986,
+            36.05666267544506,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle",
+          "stroke": "#FFCC00",
+          "elevationMeters": 910
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.06326663494112,
+            36.09149669190637,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Deploy Rafts",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2084
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.09096848964693,
+            36.10064272384703,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Boat Beach",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2079
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.07424223423006,
+            36.08423979369771,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Enter Drainage",
+          "stroke": "#34C759",
+          "elevationMeters": 2113
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.12894320487976,
+            36.07707761013974,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Indian Gardens",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1077
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.09487915039064,
+            36.10543637981249,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Phantom Ranch",
+          "stroke": "#FF9500",
+          "elevationMeters": 1399
+        }
       }
     ]
   },
-  "version": "8f13a502df7b36b31cb806dd5a00078b"
+  "version": "2ebb824466d12a70f67b50b095a71dc7"
 }

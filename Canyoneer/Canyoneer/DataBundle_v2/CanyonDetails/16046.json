@@ -12,75 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -8.018574,
-            41.069969,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-6ed52f21",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by André Campos at wikiloc.com)",
-          "elevationMeters": 562
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -8.023244,
-            41.07519,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-587f6a7f",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by André Campos at wikiloc.com)",
-          "elevationMeters": 635
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -8.01855,
-            41.070011,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Barragem de Freigil",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-64210b8e",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by André Campos at wikiloc.com)",
-          "elevationMeters": 562
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -178,7 +109,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by André Campos at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 814.3545230426486,
@@ -186,8 +117,80 @@
           "descentMeters": 56.39996337890625,
           "changeMeters": 73
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.018574,
+            41.069969,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "6681d60a",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by André Campos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 562
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.023244,
+            41.07519,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "587cbc7e",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by André Campos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 635
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.01855,
+            41.070011,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Barragem de Freigil",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "15b9ad5e",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by André Campos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 562
+        }
       }
     ]
   },
-  "version": "be3a346dc29353d4595f44a83f347aa0"
+  "version": "89abb9fac5b575cfa05fba0a4c3a8c74"
 }

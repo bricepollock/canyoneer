@@ -31,50 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.5875046,
-            38.6655064,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1379
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.5992183,
-            38.6483186,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Dragonfly Exit Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1506
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -112,7 +68,7 @@
             "normal": "#line-0F9D58-5000-nodesc-normal",
             "highlight": "#line-0F9D58-5000-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 393.28957147313673,
@@ -306,7 +262,7 @@
             "normal": "#line-FF5252-5000-nodesc-normal",
             "highlight": "#line-FF5252-5000-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1826.5535245862593,
@@ -495,7 +451,7 @@
             "normal": "#line-FFEA00-5000-nodesc-normal",
             "highlight": "#line-FFEA00-5000-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1742.7367022049425,
@@ -574,13 +530,59 @@
             "normal": "#line-FFEA00-3131-nodesc-normal",
             "highlight": "#line-FFEA00-3131-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3.131,
           "lengthMeters": 1700.121802000742,
           "ascentMeters": 13,
           "descentMeters": 112.9000244140625,
           "changeMeters": -99.9000244140625
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.5875046,
+            38.6655064,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1379
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.5992183,
+            38.6483186,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Dragonfly Exit Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1506
         }
       },
       {
@@ -602,10 +604,11 @@
             "highlight": "#icon-1899-0288D1-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 1507
         }
       }
     ]
   },
-  "version": "5662abfb420c54652688cc16325200e0"
+  "version": "bd113ce3019e28843c252092ffb95721"
 }

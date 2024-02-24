@@ -28,52 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7125,
-            34.6349,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Passenger Trailhead",
-          "styleUrl": "#icon-93",
-          "styleHash": "265cc677",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here.",
-          "elevationMeters": 1183
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.707,
-            34.6362,
-            0
-          ]
-        },
-        "properties": {
-          "name": "High Clearance Trailhead",
-          "styleUrl": "#icon-93",
-          "styleHash": "265cc677",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here. (Data by Erek)",
-          "elevationMeters": 1475
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -107,6 +61,7 @@
             "highlight": "#line-000000-5000-nodesc-highlight"
           },
           "description": " (Data by Erek)",
+          "stroke": "#5AC8FA",
           "lengthMeters": 582.0674260286341,
           "ascentMeters": 304.4000244140625,
           "descentMeters": 12,
@@ -328,6 +283,7 @@
             "normal": "#line-00FF00-5000-nodesc",
             "highlight": "#line-00FF00-5000-nodesc-highlight"
           },
+          "stroke": "#AF52DE",
           "lengthMeters": 6804.481875809009,
           "ascentMeters": 399.1998291015625,
           "descentMeters": 254.89990234375,
@@ -370,55 +326,11 @@
             "highlight": "#line-FF0000-5000-nodesc-highlight"
           },
           "description": " (Data by Erek)",
+          "stroke": "#FF2D55",
           "lengthMeters": 218.14945570669522,
           "ascentMeters": 0,
           "descentMeters": 8.699951171875,
           "changeMeters": -8.699951171875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6783,
-            34.6308,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1619
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6782,
-            34.631,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "elevationMeters": 1618
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6784,
-            34.6317,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "elevationMeters": 1615
         }
       },
       {
@@ -582,13 +494,110 @@
             "highlight": "#line-FFFF00-5000-nodesc-highlight"
           },
           "description": " (Data by Erek)",
+          "stroke": "#FF3B30",
           "lengthMeters": 3033.5818718855076,
           "ascentMeters": 30.10009765625,
           "descentMeters": 165.7000732421875,
           "changeMeters": -135.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7125,
+            34.6349,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Passenger Trailhead",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here.",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1183
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.707,
+            34.6362,
+            0
+          ]
+        },
+        "properties": {
+          "name": "High Clearance Trailhead",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here. (Data by Erek)",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1475
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6783,
+            34.6308,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1619
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6782,
+            34.631,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "stroke": "#FF2D55",
+          "elevationMeters": 1618
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6784,
+            34.6317,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "stroke": "#FF2D55",
+          "elevationMeters": 1615
+        }
       }
     ]
   },
-  "version": "cfb4ad23c7fdb377c48686b5caa24589"
+  "version": "4cdf88f6b13491c4868127b351494c73"
 }

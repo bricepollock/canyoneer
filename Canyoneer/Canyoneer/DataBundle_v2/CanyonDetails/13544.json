@@ -33,52 +33,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            2.629952,
-            39.751015,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-d129815",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Doblevuit Grup de Muntanyisme at wikiloc.com)",
-          "elevationMeters": 206
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            2.629989,
-            39.751129,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-7e71e220",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Doblevuit Grup de Muntanyisme at wikiloc.com)",
-          "elevationMeters": 183
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -466,7 +420,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Doblevuit Grup de Muntanyisme at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 4591.719359670303,
@@ -474,8 +428,56 @@
           "descentMeters": 643.9000015258789,
           "changeMeters": -23.699996948242188
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.629952,
+            39.751015,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-580aef83",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Doblevuit Grup de Muntanyisme at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 206
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.629989,
+            39.751129,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-65662f04",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Doblevuit Grup de Muntanyisme at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 183
+        }
       }
     ]
   },
-  "version": "cb0220a7e256dd37eee2ba0dbed798e7"
+  "version": "43c9f4f717a7655cb990738daa6db294"
 }

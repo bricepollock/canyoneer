@@ -12,144 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -8.10916,
-            41.713892,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "6be5ee8e",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Julio Guijarro at wikiloc.com)",
-          "elevationMeters": 780
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -8.089596,
-            41.702743,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-587f6a7f",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Julio Guijarro at wikiloc.com)",
-          "elevationMeters": 570
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -8.107472,
-            41.718662,
-            0
-          ]
-        },
-        "properties": {
-          "name": "CabConho",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1661938d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Julio Guijarro at wikiloc.com)",
-          "elevationMeters": 780
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -8.093357,
-            41.70929,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Coches",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1661938d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Julio Guijarro at wikiloc.com)",
-          "elevationMeters": 395
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -8.089542,
-            41.702728,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Fafião",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1661938d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Julio Guijarro at wikiloc.com)",
-          "elevationMeters": 570
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -8.097402,
-            41.715239,
-            0
-          ]
-        },
-        "properties": {
-          "name": "FinConho",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1661938d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Julio Guijarro at wikiloc.com)",
-          "elevationMeters": 532
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1067,7 +929,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Julio Guijarro at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 5951.239305014093,
@@ -1075,8 +937,152 @@
           "descentMeters": 963.2999877929688,
           "changeMeters": -210.70001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.10916,
+            41.713892,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "7768b127",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Julio Guijarro at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 780
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.089596,
+            41.702743,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "c97cd3c",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Julio Guijarro at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 570
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.107472,
+            41.718662,
+            0
+          ]
+        },
+        "properties": {
+          "name": "CabConho",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "7f7d2cdf",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Julio Guijarro at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 780
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.093357,
+            41.70929,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Coches",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "7f7d2cdf",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Julio Guijarro at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 395
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.089542,
+            41.702728,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fafião",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "7f7d2cdf",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Julio Guijarro at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 570
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.097402,
+            41.715239,
+            0
+          ]
+        },
+        "properties": {
+          "name": "FinConho",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "7f7d2cdf",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Julio Guijarro at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 532
+        }
       }
     ]
   },
-  "version": "a77240be5952378dd1d920dbbaadb245"
+  "version": "21968b8333c1aca5792004e6cff78a57"
 }

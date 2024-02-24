@@ -24,8 +24,8 @@
   "timeRating": "III",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 22,
+  "rappelCountMax": 22,
   "rappelLongestMeters": 30,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>Este es uno de los mejores cañones de la zona, con una parte superior\nmuy encajada y con estrechos muy bonitos y una parte inferior con un\nrappel final espectacular.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>El acceso se realiza dede la finca La Cascada, y requiere pago de\nentrada. </p>\n<h2 id=\"descent\">Descent</h2>\n<p>La cascada final está fraccionada, pero también se puede realizar de\nuna sola tirada con cuerda de 60m. Alternativamente, tambien es posible\nevitar este cascadon completamente, via camino lateral a la izquierda\nsiguiendo unas tuberias que van a la finca.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>Salida immediata tras la cascada final.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>El propietario de la finca cobra por el acceso, en 2017 los precios\neran 5.000 para ver la cascada final y 20.000 por hacer el descenso.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -755,7 +755,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -810,7 +810,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -840,7 +840,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -863,6 +863,7 @@
         },
         "properties": {
           "name": "Escape",
+          "stroke": "#34C759",
           "elevationMeters": 3227
         }
       },
@@ -878,6 +879,7 @@
         },
         "properties": {
           "name": "Parking",
+          "stroke": "#34C759",
           "elevationMeters": 3067
         }
       },
@@ -893,6 +895,7 @@
         },
         "properties": {
           "name": "Pino caido",
+          "stroke": "#34C759",
           "elevationMeters": 3121
         }
       },
@@ -908,10 +911,11 @@
         },
         "properties": {
           "name": "Valla amarilla",
+          "stroke": "#34C759",
           "elevationMeters": 3181
         }
       }
     ]
   },
-  "version": "7da5a67839a69efeccfb310599e33bda"
+  "version": "8e9a3b6424b6106ec2e9c5ccb6330aa0"
 }

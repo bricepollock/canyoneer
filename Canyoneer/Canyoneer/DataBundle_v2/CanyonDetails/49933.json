@@ -20,96 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.88778,
-            35.27689,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4 - 50 ft",
-          "elevationMeters": 1197
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.88743,
-            35.28129,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In",
-          "elevationMeters": 1374
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.8873881621215,
-            35.277213374440976,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DC1 - 10ft",
-          "elevationMeters": 1223
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.88733,
-            35.27915,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 30ft - Chestnut Falls",
-          "elevationMeters": 1226
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.88733,
-            35.27734,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 80ft",
-          "elevationMeters": 1245
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.89223,
-            35.27401,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Hit Road",
-          "elevationMeters": 1136
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -461,7 +371,7 @@
         },
         "properties": {
           "name": "Chestnut Creek - Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2031.2572238941962,
@@ -589,7 +499,7 @@
         },
         "properties": {
           "name": "Chestnut Creek - Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1189.951019625792,
@@ -817,7 +727,7 @@
         },
         "properties": {
           "name": "Chestnut Creek - Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 966.1933758584842,
@@ -825,8 +735,104 @@
           "descentMeters": 109.7000732421875,
           "changeMeters": 50.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.88778,
+            35.27689,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4 - 50 ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1197
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.88743,
+            35.28129,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In",
+          "stroke": "#34C759",
+          "elevationMeters": 1374
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.8873881621215,
+            35.277213374440976,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DC1 - 10ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1223
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.88733,
+            35.27915,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 30ft - Chestnut Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1226
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.88733,
+            35.27734,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 80ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1245
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.89223,
+            35.27401,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Hit Road",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1136
+        }
       }
     ]
   },
-  "version": "09e5ea5393215d855fd66c8874736977"
+  "version": "175b218aa26ec5bc3cca287200c36784"
 }

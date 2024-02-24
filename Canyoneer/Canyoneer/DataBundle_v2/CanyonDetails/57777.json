@@ -19,47 +19,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -75.801664,
-            5.616202,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#sh_red-circle1",
-          "styleHash": "75db4c70",
-          "styleMapHash": {
-            "normal": "#sh_red-circle5",
-            "highlight": "#sh_red-circle"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "elevationMeters": 2621
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -75.78685998059635,
-            5.624966374677406,
-            2309.5
-          ]
-        },
-        "properties": {
-          "name": "Pozas doradas Start",
-          "styleUrl": "#sh_ylw-pushpin3",
-          "styleHash": "-7ed9dcd9",
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "Location: 5.62497, -75.78686<br>\nElevation: 7,576.96 ft<br>\nTime Created: 10/1/19, 8:18:26 AM PDT<br>",
-          "elevationMeters": 2681
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -4668,7 +4627,7 @@
             "highlight": "#sh_ylw-pushpin4"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2404.7890555193585,
@@ -5618,7 +5577,7 @@
             "highlight": "#sh_ylw-pushpin29"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffaa00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 625.1751786156752,
@@ -7273,7 +7232,7 @@
             "highlight": "#sh_ylw-pushpin10"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 794.5534805843515,
@@ -7281,8 +7240,51 @@
           "descentMeters": 32.800048828125,
           "changeMeters": 83.400146484375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.801664,
+            5.616202,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#sh_red-circle1",
+          "styleHash": "75db4c70",
+          "styleMapHash": {
+            "normal": "#sh_red-circle5",
+            "highlight": "#sh_red-circle"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#34C759",
+          "elevationMeters": 2621
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.78685998059635,
+            5.624966374677406,
+            2309.5
+          ]
+        },
+        "properties": {
+          "name": "Pozas doradas Start",
+          "styleUrl": "#sh_ylw-pushpin3",
+          "styleHash": "-7ed9dcd9",
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "Location: 5.62497, -75.78686<br>\nElevation: 7,576.96 ft<br>\nTime Created: 10/1/19, 8:18:26 AM PDT<br>",
+          "stroke": "#34C759",
+          "elevationMeters": 2681
+        }
       }
     ]
   },
-  "version": "bc8010902d397f0262bf314f12085e0b"
+  "version": "a0fd45cbb8a9fe8f76976fdec28157ce"
 }

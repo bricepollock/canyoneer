@@ -32,66 +32,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.76505532558714,
-            35.00814010067874,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1838
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74099922180177,
-            35.025112877856316,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Passenger Park",
-          "elevationMeters": 2077
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74253612035209,
-            34.99057531161578,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle",
-          "elevationMeters": 1657
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.75832685297696,
-            35.014142005099984,
-            0
-          ]
-        },
-        "properties": {
-          "name": "HC Park",
-          "elevationMeters": 1863
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -248,7 +188,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 459.117435846323,
@@ -876,7 +816,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4563.08885119407,
@@ -3934,7 +3874,7 @@
         },
         "properties": {
           "name": "Ridge Approach",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2691.0296555875207,
@@ -5052,7 +4992,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1181.5274000847726,
@@ -5060,8 +5000,72 @@
           "descentMeters": 344.2998046875,
           "changeMeters": -24.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.76505532558714,
+            35.00814010067874,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#34C759",
+          "elevationMeters": 1838
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74099922180177,
+            35.025112877856316,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Passenger Park",
+          "stroke": "#FF9500",
+          "elevationMeters": 2077
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74253612035209,
+            34.99057531161578,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1657
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.75832685297696,
+            35.014142005099984,
+            0
+          ]
+        },
+        "properties": {
+          "name": "HC Park",
+          "stroke": "#FF9500",
+          "elevationMeters": 1863
+        }
       }
     ]
   },
-  "version": "b586939855807288d4beb5746e47f95d"
+  "version": "90739b7a1f49d9643ac62ea3f1b307f8"
 }

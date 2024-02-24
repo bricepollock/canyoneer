@@ -23,51 +23,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.424468,
-            42.710444,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking 2",
-          "styleUrl": "#icon-93-nodesc",
-          "styleHash": "711bfc1",
-          "styleMapHash": {
-            "normal": "#icon-93-nodesc-normal",
-            "highlight": "#icon-93-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "elevationMeters": 1024
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.434445,
-            42.713826,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking 1",
-          "styleUrl": "#icon-93",
-          "styleHash": "203f2b70",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "42.713826N, 1.434445E<br><br>Hay que dejar el coche en este punto.<br>La circulación de vehiculos por la pista forestal está prohibida, aunque es perfectamente transitable durante toda la aproximación al inicio del barranco.",
-          "elevationMeters": 1024
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -304,36 +259,13 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00FF00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 4,
           "lengthMeters": 3174.0824443609545,
           "ascentMeters": 541.8999633789062,
           "descentMeters": 213.99993896484375,
           "changeMeters": 327.9000244140625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.4231,
-            42.703135,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking 1",
-          "styleUrl": "#icon-93",
-          "styleHash": "203f2b70",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "La circulación de vehiculos por la pista forestal está prohibida.<br>Se puede dejar el coche en este punto pero bajo el riesgo de multa si lo ven los forestales.",
-          "elevationMeters": 1352
         }
       },
       {
@@ -405,7 +337,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 4,
           "lengthMeters": 801.4000570514568,
@@ -488,13 +420,84 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#FFFF00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 4,
           "lengthMeters": 1002.451359549578,
           "ascentMeters": 174.699951171875,
           "descentMeters": 119.699951171875,
           "changeMeters": 55
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.424468,
+            42.710444,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking 2",
+          "styleUrl": "#icon-93-nodesc",
+          "styleHash": "711bfc1",
+          "styleMapHash": {
+            "normal": "#icon-93-nodesc-normal",
+            "highlight": "#icon-93-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1024
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.434445,
+            42.713826,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking 1",
+          "styleUrl": "#icon-93",
+          "styleHash": "203f2b70",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "42.713826N, 1.434445E<br><br>Hay que dejar el coche en este punto.<br>La circulación de vehiculos por la pista forestal está prohibida, aunque es perfectamente transitable durante toda la aproximación al inicio del barranco.",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1024
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.4231,
+            42.703135,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking 1",
+          "styleUrl": "#icon-93",
+          "styleHash": "203f2b70",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "La circulación de vehiculos por la pista forestal está prohibida.<br>Se puede dejar el coche en este punto pero bajo el riesgo de multa si lo ven los forestales.",
+          "stroke": "#34C759",
+          "elevationMeters": 1352
         }
       },
       {
@@ -517,6 +520,7 @@
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png",
           "description": "42.70311N, 1.422858E",
+          "stroke": "#34C759",
           "elevationMeters": 1374
         }
       },
@@ -539,10 +543,11 @@
             "highlight": "#icon-124-nodesc-highlight"
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 969
         }
       }
     ]
   },
-  "version": "fb7cb345b101af3080436263dcf4e185"
+  "version": "2f7e62eef37f92b8bcaae298614e3502"
 }

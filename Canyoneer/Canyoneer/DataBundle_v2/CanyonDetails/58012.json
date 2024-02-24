@@ -18,60 +18,14 @@
   "timeRating": "IV",
   "riskRating": "PG",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 15,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 85,
   "vehicle": "4WD",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>Color Walls, Blue water, Narrow, Mountain cloud forest</p>\n<h2 id=\"approach\">Approach</h2>\n<p>Use Wikilock Quebrada Misterio</p>\n<h2 id=\"descent\">Descent</h2>\n<p>15 rappels longest rappel 85meter</p>\n<h2 id=\"exit\">Exit</h2>\n<p>exit via Anonos River to the car</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>Go to Caida del Cielo Waterfall and ask for permision to enter their\nland</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><a\nhref=\"http://www.thewaterfalltrail.com/home/2020/1/17/quebrada-misterio\">The\nWaterfall Trail</a> : Quebrada Misterio</li>\n</ul>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"https://es.wikiloc.com/rutas-descenso-de-barrancos/quebrada-misterio-canyoning-45630572\">Wikiloc.com</a>\n: Quebrada Misterio</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p>Very good conditions 2020</p>\n<h2 id=\"background\">Background</h2>\n<p>First Descent 16 january 2020 Thewaterfalltrail team</p>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -84.288944,
-            10.216679,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "50ff4041",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by thewaterfalltrail at wikiloc.com)",
-          "elevationMeters": 1496
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -84.298582,
-            10.214759,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-587f6a7f",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by thewaterfalltrail at wikiloc.com)",
-          "elevationMeters": 1609
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -1607,7 +1561,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by thewaterfalltrail at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 16503.896794100816,
@@ -1615,8 +1569,56 @@
           "descentMeters": 2078.2996826171875,
           "changeMeters": 112.89990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.288944,
+            10.216679,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-7cc80f14",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by thewaterfalltrail at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1496
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.298582,
+            10.214759,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "1ba39e2c",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by thewaterfalltrail at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1609
+        }
       }
     ]
   },
-  "version": "df13c6ce941528b8b5112b5b20b8da04"
+  "version": "f12d0b0952030b03c6ce82ebe42dabee"
 }

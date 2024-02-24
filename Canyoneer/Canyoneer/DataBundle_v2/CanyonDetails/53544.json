@@ -28,96 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.77125263214111,
-            37.921364664668076,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking by boulder (2cars max)",
-          "elevationMeters": 3738
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.77349853515625,
-            37.92100143432617,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 65'",
-          "elevationMeters": 3795
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.77357223629951,
-            37.92168550738094,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 120'",
-          "elevationMeters": 3827
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.77436828613281,
-            37.92299270629883,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 165'",
-          "elevationMeters": 3905
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.77418673,
-            37.92343826,
-            0
-          ]
-        },
-        "properties": {
-          "name": "exit on trail",
-          "elevationMeters": 3864
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.77650135021001,
-            37.928601287293446,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower TH Parking",
-          "elevationMeters": 3756
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -214,7 +124,7 @@
         },
         "properties": {
           "name": "alt approach (4WD HC)",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 171.8328366621935,
@@ -562,7 +472,7 @@
         },
         "properties": {
           "name": "drive 4WD HC",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1868.1055691720037,
@@ -645,7 +555,7 @@
         },
         "properties": {
           "name": "Bridal Veil Trail",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 189.46577880257618,
@@ -983,7 +893,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 448.1378568069905,
@@ -1046,7 +956,7 @@
         },
         "properties": {
           "name": "bypass narrow chute in high water",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 53.344208970341704,
@@ -1474,7 +1384,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1298.7437932662529,
@@ -1522,7 +1432,7 @@
         },
         "properties": {
           "name": "exit if required",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 32.1326206280918,
@@ -1735,7 +1645,7 @@
         },
         "properties": {
           "name": "return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 737.4206320610468,
@@ -1743,8 +1653,104 @@
           "descentMeters": 289.800048828125,
           "changeMeters": -140.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.77125263214111,
+            37.921364664668076,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking by boulder (2cars max)",
+          "stroke": "#FF9500",
+          "elevationMeters": 3738
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.77349853515625,
+            37.92100143432617,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 65'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3795
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.77357223629951,
+            37.92168550738094,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 120'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3827
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.77436828613281,
+            37.92299270629883,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 165'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3905
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.77418673,
+            37.92343826,
+            0
+          ]
+        },
+        "properties": {
+          "name": "exit on trail",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3864
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.77650135021001,
+            37.928601287293446,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower TH Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 3756
+        }
       }
     ]
   },
-  "version": "86f313fd8f8d0242197fcd9ebfdd1351"
+  "version": "9d93b94fce90ba30776537ef05bfe765"
 }

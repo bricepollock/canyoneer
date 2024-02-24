@@ -19,51 +19,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.671681,
-            10.122054,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "elevationMeters": 320
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.683986,
-            10.116985,
-            0
-          ]
-        },
-        "properties": {
-          "description": "Location: 10.116985, -83.683986<br/>\nTime Created: 7/6/22 8:56:55 PM<br/>\n",
-          "elevationMeters": 1671
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.683986,
-            10.116985,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "elevationMeters": 1671
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -130,7 +85,7 @@
         },
         "properties": {
           "name": "Tech",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 858.4428014551925,
@@ -232,7 +187,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1543.0350771524104,
@@ -270,7 +225,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 232.24665501050833,
@@ -278,8 +233,56 @@
           "descentMeters": 0,
           "changeMeters": 105.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.671681,
+            10.122054,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "stroke": "#34C759",
+          "elevationMeters": 320
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.683986,
+            10.116985,
+            0
+          ]
+        },
+        "properties": {
+          "description": "Location: 10.116985, -83.683986<br/>\nTime Created: 7/6/22 8:56:55 PM<br/>\n",
+          "stroke": "#34C759",
+          "elevationMeters": 1671
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.683986,
+            10.116985,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "stroke": "#34C759",
+          "elevationMeters": 1671
+        }
       }
     ]
   },
-  "version": "f2848289370db4f918434ba19e728ae1"
+  "version": "2b279afc790b4920b2b52bf2df098377"
 }

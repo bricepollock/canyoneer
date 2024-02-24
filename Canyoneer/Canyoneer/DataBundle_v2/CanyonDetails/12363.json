@@ -10,8 +10,8 @@
   "timeRating": "II",
   "riskRating": "X",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 12,
+  "rappelCountMax": 12,
   "rappelLongestMeters": 60,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21718\">Descente-Canyon.com</a>\n: Zernone</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/ZernoneCanyon\">Canyon.Carto.net</a>\n: Torrente Zernone</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/SO040\">Catastoforre\nAIC-Canyoning.it</a> : Torrente Zernone</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -37,6 +37,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 2798
         }
       },
@@ -60,6 +61,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 2714
         }
       },
@@ -83,10 +85,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 2724
         }
       }
     ]
   },
-  "version": "f24153027b19341e143cda3a336450d6"
+  "version": "fc18afcfa77c7cb0d967dbc96c92aeba"
 }

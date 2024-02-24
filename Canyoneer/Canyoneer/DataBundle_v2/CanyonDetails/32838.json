@@ -26,156 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.6613852977749,
-            38.002490481651165,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 2815
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.646762728691,
-            37.9997643704069,
-            0
-          ]
-        },
-        "properties": {
-          "name": "rock cut for trail",
-          "elevationMeters": 3198
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.6463617384429,
-            37.99985525585307,
-            0
-          ]
-        },
-        "properties": {
-          "name": "rock cut for trail",
-          "elevationMeters": 3198
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.64654010534296,
-            37.99992394826673,
-            0
-          ]
-        },
-        "properties": {
-          "name": "bridge",
-          "elevationMeters": 3198
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.64036552,
-            37.99902027,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Grizzly Bear Mine",
-          "elevationMeters": 3083
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.63641225,
-            37.99941453,
-            0
-          ]
-        },
-        "properties": {
-          "name": "mine entrance by trail",
-          "elevationMeters": 3178
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.62842714786564,
-            38.00228587134833,
-            0
-          ]
-        },
-        "properties": {
-          "name": "game trail starts at top of meadow",
-          "elevationMeters": 3469
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.63003942232788,
-            38.003087774926875,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 90'",
-          "elevationMeters": 3509
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.62990894,
-            38.00271444,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 60'",
-          "elevationMeters": 3483
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.63021416,
-            38.0006006,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 90'",
-          "elevationMeters": 3327
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -517,7 +367,7 @@
         },
         "properties": {
           "name": "Cub Creek descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 509.00871595282564,
@@ -2635,7 +2485,7 @@
         },
         "properties": {
           "name": "Cub Creek return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4631.273012330824,
@@ -5218,7 +5068,7 @@
         },
         "properties": {
           "name": "Cub Creek approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 5470.331030159831,
@@ -5226,8 +5076,168 @@
           "descentMeters": 1266.89990234375,
           "changeMeters": 779.599853515625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.6613852977749,
+            38.002490481651165,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2815
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.646762728691,
+            37.9997643704069,
+            0
+          ]
+        },
+        "properties": {
+          "name": "rock cut for trail",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3198
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.6463617384429,
+            37.99985525585307,
+            0
+          ]
+        },
+        "properties": {
+          "name": "rock cut for trail",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3198
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.64654010534296,
+            37.99992394826673,
+            0
+          ]
+        },
+        "properties": {
+          "name": "bridge",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3198
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.64036552,
+            37.99902027,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Grizzly Bear Mine",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3083
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.63641225,
+            37.99941453,
+            0
+          ]
+        },
+        "properties": {
+          "name": "mine entrance by trail",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3178
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.62842714786564,
+            38.00228587134833,
+            0
+          ]
+        },
+        "properties": {
+          "name": "game trail starts at top of meadow",
+          "stroke": "#34C759",
+          "elevationMeters": 3469
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.63003942232788,
+            38.003087774926875,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 90'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3509
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.62990894,
+            38.00271444,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 60'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3483
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.63021416,
+            38.0006006,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 90'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3327
+        }
       }
     ]
   },
-  "version": "b47c256c706dfbc733aab55bfc8d1d60"
+  "version": "be19bfa2d80fae4cdd93666fbe2c1710"
 }

@@ -20,156 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.67763879930972,
-            35.28817307452472,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4 - 80 ft - Bolts RDC",
-          "elevationMeters": 1255
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.67748,
-            35.28798,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5 - 100 ft - Tree LDC ",
-          "elevationMeters": 1255
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.67775,
-            35.2883,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - 75 ft - Tree LDC",
-          "elevationMeters": 1265
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.67705,
-            35.28594,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cool Cave Downclimb - DCL",
-          "elevationMeters": 1258
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.67847,
-            35.28895,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 20 ft - Bolts LDC",
-          "elevationMeters": 1293
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.6786,
-            35.28933,
-            0
-          ]
-        },
-        "properties": {
-          "name": "S1 - 10 ft",
-          "elevationMeters": 1278
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.67854,
-            35.28903,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R0 - 10ft - Tree LDC",
-          "elevationMeters": 1293
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.67845,
-            35.28893,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 50 ft - Bolts - RDC",
-          "elevationMeters": 1293
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.67404222488405,
-            35.28251660360971,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1103
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.6797419190407,
-            35.29209739572262,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-In",
-          "elevationMeters": 1158
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -581,7 +431,7 @@
         },
         "properties": {
           "name": "Ledbetter Creek - Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2257.2016429898,
@@ -729,7 +579,7 @@
         },
         "properties": {
           "name": "Ledbetter Creek - Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1302.3851418510226,
@@ -737,8 +587,168 @@
           "descentMeters": 210.0001220703125,
           "changeMeters": -54.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.67763879930972,
+            35.28817307452472,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4 - 80 ft - Bolts RDC",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1255
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.67748,
+            35.28798,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5 - 100 ft - Tree LDC ",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1255
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.67775,
+            35.2883,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - 75 ft - Tree LDC",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1265
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.67705,
+            35.28594,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cool Cave Downclimb - DCL",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1258
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.67847,
+            35.28895,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 20 ft - Bolts LDC",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1293
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.6786,
+            35.28933,
+            0
+          ]
+        },
+        "properties": {
+          "name": "S1 - 10 ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1278
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.67854,
+            35.28903,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R0 - 10ft - Tree LDC",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1293
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.67845,
+            35.28893,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 50 ft - Bolts - RDC",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1293
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.67404222488405,
+            35.28251660360971,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1103
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.6797419190407,
+            35.29209739572262,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-In",
+          "stroke": "#34C759",
+          "elevationMeters": 1158
+        }
       }
     ]
   },
-  "version": "d4ffd818aefd9d80fb734f9c3e2834e1"
+  "version": "19354d0835e29fcad5cf681bc7b27805"
 }

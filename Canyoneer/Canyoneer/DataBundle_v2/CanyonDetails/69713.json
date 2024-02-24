@@ -34,116 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -71.13284289836885,
-            18.07578869309943,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Start",
-          "styleUrl": "#msn_red-stars0",
-          "styleHash": "48098a",
-          "styleMapHash": {
-            "normal": "#sn_red-stars0",
-            "highlight": "#sh_red-stars0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-stars.png",
-          "elevationMeters": 427
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -71.12910389900209,
-            18.07718854625285,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Finish",
-          "styleUrl": "#msn_red-square",
-          "styleHash": "-22a20202",
-          "styleMapHash": {
-            "normal": "#sn_red-square",
-            "highlight": "#sh_red-square"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "elevationMeters": 342
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -71.1235946416855,
-            18.08184444381826,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking - Estancia Don Armando",
-          "styleUrl": "#msn_P",
-          "styleHash": "471517f3",
-          "styleMapHash": {
-            "normal": "#sn_P",
-            "highlight": "#sh_P"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
-          "elevationMeters": 113
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -71.14218651346822,
-            18.07591225263485,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Optional road turnoff",
-          "styleUrl": "#msn_red-circle",
-          "styleHash": "-55b7952f",
-          "styleMapHash": {
-            "normal": "#sn_red-circle",
-            "highlight": "#sh_red-circle"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "elevationMeters": 273
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -71.14210475611802,
-            18.0731078469271,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Optional start",
-          "styleUrl": "#msn_red-stars",
-          "styleHash": "-7f09bc0e",
-          "styleMapHash": {
-            "normal": "#sn_red-stars",
-            "highlight": "#sh_red-stars"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-stars.png",
-          "elevationMeters": 181
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -195,7 +85,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 457.58657877192263,
@@ -283,7 +173,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 683.3997383591143,
@@ -592,7 +482,7 @@
             "normal": "#style5",
             "highlight": "#style2"
           },
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1498.8397282506162,
@@ -981,7 +871,7 @@
             "normal": "#style4",
             "highlight": "#style"
           },
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3448.3468757144406,
@@ -5495,7 +5385,7 @@
             "normal": "#style1",
             "highlight": "#style6"
           },
-          "stroke": "#ffaa00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2056.9362793416244,
@@ -6834,7 +6724,7 @@
             "normal": "#style3",
             "highlight": "#style0"
           },
-          "stroke": "#ff8282",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1148.9348919802944,
@@ -6842,8 +6732,123 @@
           "descentMeters": 26.400009155273438,
           "changeMeters": 245.8000030517578
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.13284289836885,
+            18.07578869309943,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Start",
+          "styleUrl": "#msn_red-stars0",
+          "styleHash": "48098a",
+          "styleMapHash": {
+            "normal": "#sn_red-stars0",
+            "highlight": "#sh_red-stars0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-stars.png",
+          "stroke": "#34C759",
+          "elevationMeters": 427
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.12910389900209,
+            18.07718854625285,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Finish",
+          "styleUrl": "#msn_red-square",
+          "styleHash": "-22a20202",
+          "styleMapHash": {
+            "normal": "#sn_red-square",
+            "highlight": "#sh_red-square"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 342
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.1235946416855,
+            18.08184444381826,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking - Estancia Don Armando",
+          "styleUrl": "#msn_P",
+          "styleHash": "471517f3",
+          "styleMapHash": {
+            "normal": "#sn_P",
+            "highlight": "#sh_P"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "stroke": "#5856D6",
+          "elevationMeters": 113
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.14218651346822,
+            18.07591225263485,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Optional road turnoff",
+          "styleUrl": "#msn_red-circle",
+          "styleHash": "-55b7952f",
+          "styleMapHash": {
+            "normal": "#sn_red-circle",
+            "highlight": "#sh_red-circle"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#FF9500",
+          "elevationMeters": 273
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.14210475611802,
+            18.0731078469271,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Optional start",
+          "styleUrl": "#msn_red-stars",
+          "styleHash": "-7f09bc0e",
+          "styleMapHash": {
+            "normal": "#sn_red-stars",
+            "highlight": "#sh_red-stars"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-stars.png",
+          "stroke": "#FF9500",
+          "elevationMeters": 181
+        }
       }
     ]
   },
-  "version": "bdcce5f4540639d5b840fed306076b1c"
+  "version": "f146edeeea4c194753165352e521228c"
 }

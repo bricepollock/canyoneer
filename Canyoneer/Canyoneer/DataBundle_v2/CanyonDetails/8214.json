@@ -17,7 +17,7 @@
   "rappelCountMin": 2,
   "rappelCountMax": 3,
   "vehicle": "Passenger",
-  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>NOTE:As of Dec 17, 2014, the trail leading to Fish Canyon falls is\nofficially closed due to rock slide. More information can be found <a\nhref=\"http://www.simpsoncity.com/hiking/fishcanyon.html\">here</a></p>\n<p>Fish Canyon Falls is an 80 ft three-tiered waterfall. While it is\nfrequently hiked, it is unknown whether anyone has descended this\nwaterfall. GPS routes are estimations and should be verified.</p>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>Check <a\nhref=\"http://accessduarte.com/?option=com_content&amp;view=article&amp;id=360&amp;Itemid=124\">times</a>\nfor when the park opens and closes. Vehicles will be towed after the\ngates close.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>NOTE:As of Dec 17, 2014, the trail leading to Fish Canyon falls is\nofficially closed due to rock slide. More information can be found <a\nhref=\"https://www.fs.usda.gov/recarea/angeles/recarea/?recid=42072\">here</a></p>\n<p>Fish Canyon Falls is an 80 ft three-tiered waterfall. While it is\nfrequently hiked, it is unknown whether anyone has descended this\nwaterfall. GPS routes are estimations and should be verified.</p>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>Check <a\nhref=\"http://accessduarte.com/?option=com_content&amp;view=article&amp;id=360&amp;Itemid=124\">times</a>\nfor when the park opens and closes. Vehicles will be towed after the\ngates close.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
@@ -295,7 +295,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -345,7 +345,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -525,7 +525,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -548,10 +548,11 @@
         },
         "properties": {
           "name": "Parking",
+          "stroke": "#FF3B30",
           "elevationMeters": 169
         }
       }
     ]
   },
-  "version": "bb31a88c102cf3802d53532f80092d10"
+  "version": "0e506621357f69eefa9c92684484813b"
 }

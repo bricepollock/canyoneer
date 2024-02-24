@@ -12,121 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.817217,
-            28.364984,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "53856e46",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Davidz1000 at wikiloc.com)",
-          "elevationMeters": 756
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.81721,
-            28.364989,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "175e95c1",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Davidz1000 at wikiloc.com)",
-          "elevationMeters": 756
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.812953,
-            28.349758,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Acceso Bco",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1661938d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Davidz1000 at wikiloc.com)",
-          "elevationMeters": 887
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.817322,
-            28.365262,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parkin",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1661938d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Davidz1000 at wikiloc.com)",
-          "elevationMeters": 767
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.814628,
-            28.352305,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Salida Bco",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1661938d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Davidz1000 at wikiloc.com)",
-          "elevationMeters": 756
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1874,7 +1759,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Davidz1000 at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 4099.311592980795,
@@ -1882,8 +1767,128 @@
           "descentMeters": 443.20025634765625,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.817217,
+            28.364984,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-1e56a49a",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Davidz1000 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 756
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.81721,
+            28.364989,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "61b9b0c0",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Davidz1000 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 756
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.812953,
+            28.349758,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Acceso Bco",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "3229bd7c",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Davidz1000 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 887
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.817322,
+            28.365262,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parkin",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "3229bd7c",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Davidz1000 at wikiloc.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 767
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.814628,
+            28.352305,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Salida Bco",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "3229bd7c",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Davidz1000 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 756
+        }
       }
     ]
   },
-  "version": "168222c8eb5a957918c160376a04b093"
+  "version": "b2a148c8b7b507973eedc9dabce72459"
 }

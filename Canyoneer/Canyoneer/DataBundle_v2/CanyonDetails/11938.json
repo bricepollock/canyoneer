@@ -14,8 +14,8 @@
   "waterRating": "B",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 40,
   "shuttleSeconds": 1320,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21747\">Descente-Canyon.com</a>\n: Peschio Rosso</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_pesco.htm\">CicaRudeClan.com</a> :\nForra di Pescorosso</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/IS004\">Catastoforre\nAIC-Canyoning.it</a> : Forra di Pescorosso</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/CE005\">Catastoforre\nAIC-Canyoning.it</a> : Rava delle Cupelle;Peschio Rosso</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://canisciolti.biz/2012/canyon/shede/gole%20del%20pesco%20rosso.html\">Canisciolti.biz</a>\n: GOLE DEL PESCO ROSSO</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/PescorossoCanyon\">Canyon.Carto.net</a>\n: Forra di Pesc(i)orosso</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -42,6 +42,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 852
         }
       },
@@ -65,6 +66,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 359
         }
       },
@@ -88,6 +90,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 843
         }
       },
@@ -111,10 +114,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": " (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 389
         }
       }
     ]
   },
-  "version": "429aea1e133a002b77b25812c1700a70"
+  "version": "43ab991aa31dea474e13e190f458d241"
 }

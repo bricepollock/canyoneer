@@ -23,81 +23,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.11579999999998,
-            47.3635,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Thorp",
-          "elevationMeters": 1500
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.10712779572623,
-            47.36348455282711,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park - Shuttle",
-          "elevationMeters": 1265
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.15711493970218,
-            47.37312403459491,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 1346
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.15701779484232,
-            47.37425301724537,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Check Flow",
-          "elevationMeters": 1318
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.138049212689,
-            47.364516161611874,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Potential to drop in sooner (?)",
-          "elevationMeters": 1070
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -209,7 +134,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4156.7327931916725,
@@ -217,8 +142,88 @@
           "descentMeters": 749.4000244140625,
           "changeMeters": -244.2000732421875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.11579999999998,
+            47.3635,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Thorp",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1500
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.10712779572623,
+            47.36348455282711,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park - Shuttle",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1265
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.15711493970218,
+            47.37312403459491,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1346
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.15701779484232,
+            47.37425301724537,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Check Flow",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1318
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.138049212689,
+            47.364516161611874,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Potential to drop in sooner (?)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1070
+        }
       }
     ]
   },
-  "version": "ae77b9d588dd447258b9f6f8fa1cd4b0"
+  "version": "a5a7f4345df49f33e01b993d65f1a11c"
 }

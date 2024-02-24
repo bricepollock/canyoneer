@@ -13,7 +13,7 @@
   "technicalRating": 3,
   "waterRating": "A",
   "timeRating": "III",
-  "permit": "No",
+  "permit": "Yes",
   "rappelCountMin": 3,
   "rappelCountMax": 4,
   "vehicle": "Passenger",
@@ -21,21 +21,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.81310176849367,
-            46.75369641493649,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1526
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -1380,7 +1365,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 7561.919856026256,
@@ -1428,7 +1413,7 @@
         },
         "properties": {
           "name": "Enter Creek",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 47.45863476409477,
@@ -1516,7 +1501,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 391.14270989124833,
@@ -1524,8 +1509,24 @@
           "descentMeters": 0,
           "changeMeters": 179
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.81310176849367,
+            46.75369641493649,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1526
+        }
       }
     ]
   },
-  "version": "c808b4858d7633a6c0ff9392c4c4139d"
+  "version": "61ef256f8e4bb9c1d50e1d2e2c48140b"
 }

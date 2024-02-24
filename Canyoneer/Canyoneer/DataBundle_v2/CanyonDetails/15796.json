@@ -14,8 +14,8 @@
   "timeRating": "IV",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 35,
+  "rappelCountMax": 35,
   "rappelLongestMeters": 82,
   "shuttleSeconds": 1200,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21072\">Descente-Canyon.com</a>\n: Gorgopotamos</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_gorgopotamos.htm\">CicaRudeClan.com</a>\n: Gorgopotamos</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/GorgopotamosCanyon\">Canyon.Carto.net</a>\n: Gorgopotamos</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -42,6 +42,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Thomas Lamia on 28 août 2009)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1340
         }
       },
@@ -65,6 +66,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": "la piste a une tres bonne condition (Data by Thomas Lamia on 28 août 2009)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1257
         }
       },
@@ -88,10 +90,11 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
           "description": "suivez les signes \"ΑΓΙΟ ΠΝΕΥΜΑ\" (Data by Thomas Lamia on 28 août 2009)",
+          "stroke": "#FF3B30",
           "elevationMeters": 488
         }
       }
     ]
   },
-  "version": "6ad582f88c608e277e27fbb8d138921d"
+  "version": "f22da6065571a79b1bc125734291e076"
 }

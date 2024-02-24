@@ -27,126 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.066139679565,
-            44.5878042500943,
-            0
-          ]
-        },
-        "properties": {
-          "name": "5-way intersection",
-          "elevationMeters": 1149
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.10674,
-            44.58256,
-            0
-          ]
-        },
-        "properties": {
-          "name": "FirstRappel",
-          "elevationMeters": 1238
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.10469007492067,
-            44.59477624325231,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 1016
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.1098398841532,
-            44.58821931483934,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Dead end",
-          "elevationMeters": 1257
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.10541,
-            44.59256,
-            0
-          ]
-        },
-        "properties": {
-          "name": "StartNarrows",
-          "elevationMeters": 1052
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.1071583895213,
-            44.58647684817888,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Confluence",
-          "elevationMeters": 1225
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.08539962768556,
-            44.58826668602431,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Junction",
-          "elevationMeters": 967
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.10511922836305,
-            44.58316243875203,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End of Road",
-          "elevationMeters": 1207
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -183,7 +63,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 144.20190281082495,
@@ -296,7 +176,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1479.0488672755966,
@@ -459,7 +339,7 @@
         },
         "properties": {
           "name": "Classic Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2951.2357244416617,
@@ -552,7 +432,7 @@
         },
         "properties": {
           "name": "Shortcut",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 388.0919896815642,
@@ -935,7 +815,7 @@
         },
         "properties": {
           "name": "New Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3822.5179498759694,
@@ -968,7 +848,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 90.29590178501546,
@@ -976,8 +856,136 @@
           "descentMeters": 4.79998779296875,
           "changeMeters": -2.39996337890625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.066139679565,
+            44.5878042500943,
+            0
+          ]
+        },
+        "properties": {
+          "name": "5-way intersection",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1149
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.10674,
+            44.58256,
+            0
+          ]
+        },
+        "properties": {
+          "name": "FirstRappel",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1238
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.10469007492067,
+            44.59477624325231,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1016
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.1098398841532,
+            44.58821931483934,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Dead end",
+          "stroke": "#34C759",
+          "elevationMeters": 1257
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.10541,
+            44.59256,
+            0
+          ]
+        },
+        "properties": {
+          "name": "StartNarrows",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1052
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.1071583895213,
+            44.58647684817888,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Confluence",
+          "stroke": "#34C759",
+          "elevationMeters": 1225
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.08539962768556,
+            44.58826668602431,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Junction",
+          "stroke": "#34C759",
+          "elevationMeters": 967
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.10511922836305,
+            44.58316243875203,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End of Road",
+          "stroke": "#34C759",
+          "elevationMeters": 1207
+        }
       }
     ]
   },
-  "version": "9fdb1a3a8b688fef26a62283fedc061a"
+  "version": "2a930c0fabfba80ce9947d2bfe2664e1"
 }

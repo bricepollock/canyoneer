@@ -14,8 +14,8 @@
     "Feb"
   ],
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 12,
+  "rappelCountMax": 12,
   "rappelLongestMeters": 45,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2886\">Descente-Canyon.com</a>\n: Bacu Esone</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/OG003\">Catastoforre\nAIC-Canyoning.it</a> : Bacu Esone</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -41,6 +41,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": "bras droite (second bras - Jourdan/Fiorina) rappels commencer (alt. 645m) (Data by Streicher Wolfgang on 14 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 998
         }
       },
@@ -64,6 +65,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 14 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 459
         }
       },
@@ -87,6 +89,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": "Pta.  Su Càccao (alt. 920m) (Data by Streicher Wolfgang on 14 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 817
         }
       },
@@ -110,6 +113,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": "Teletotes (alt. 185m) (Data by Streicher Wolfgang on 14 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1080
         }
       },
@@ -133,10 +137,11 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
           "description": "arrivée dans le lit (alt. 775m) (Data by Streicher Wolfgang on 14 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 958
         }
       }
     ]
   },
-  "version": "d03da651c4535acc1e307db127101b40"
+  "version": "d97dc06ffc2f1baf8f0db58e24edb02e"
 }

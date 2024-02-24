@@ -18,167 +18,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.539902,
-            42.629529,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "50d0f36b",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Lumpus at wikiloc.com)",
-          "elevationMeters": 1861
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.540007,
-            42.629458,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "4841f506",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Lumpus at wikiloc.com)",
-          "elevationMeters": 1861
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.539881,
-            42.629512,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Aparcamiento",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "66057125",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Lumpus at wikiloc.com)",
-          "elevationMeters": 1861
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.511255,
-            42.666642,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Desvío a las gorgas",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "66057125",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Lumpus at wikiloc.com)",
-          "elevationMeters": 1966
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.526006,
-            42.652824,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Desvío Batisielles",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "66057125",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Lumpus at wikiloc.com)",
-          "elevationMeters": 1717
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.511818,
-            42.666591,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Entrada a las gorgas",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "66057125",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Lumpus at wikiloc.com)",
-          "elevationMeters": 1963
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.511045,
-            42.664557,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Salida de las gorgas",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "66057125",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Lumpus at wikiloc.com)",
-          "elevationMeters": 1919
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -816,7 +655,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Lumpus at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 10933.612614540916,
@@ -824,8 +663,176 @@
           "descentMeters": 2504.89990234375,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.539902,
+            42.629529,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-54632f3b",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Lumpus at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1861
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.540007,
+            42.629458,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-295045c4",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Lumpus at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1861
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.539881,
+            42.629512,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Aparcamiento",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "59604ef7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Lumpus at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1861
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.511255,
+            42.666642,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Desvío a las gorgas",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "59604ef7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Lumpus at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1966
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.526006,
+            42.652824,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Desvío Batisielles",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "59604ef7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Lumpus at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1717
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.511818,
+            42.666591,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Entrada a las gorgas",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "59604ef7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Lumpus at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1963
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.511045,
+            42.664557,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Salida de las gorgas",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "59604ef7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Lumpus at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1919
+        }
       }
     ]
   },
-  "version": "66dc89bb756e596d6aea424601fea762"
+  "version": "d734059bde7a16d8987c395731c3b085"
 }

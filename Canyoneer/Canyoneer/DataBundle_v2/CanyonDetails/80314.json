@@ -23,86 +23,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.3831317205497,
-            47.89241975942279,
-            0
-          ]
-        },
-        "properties": {
-          "name": "River Crossing",
-          "description": "Bear Creek",
-          "elevationMeters": 1298
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.3787766651571,
-            47.879887878744064,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Section Drop-In",
-          "description": "Bear Creek",
-          "elevationMeters": 923
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.38281492385859,
-            47.887513179694785,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Section Start",
-          "description": "Bear Creek",
-          "elevationMeters": 1285
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.38174833396846,
-            47.89283731659907,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "description": "Bear Creek",
-          "elevationMeters": 1357
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.37819025678579,
-            47.88163071661582,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Vine Maple Thicket",
-          "description": "Bear Creek",
-          "elevationMeters": 1032
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -629,7 +549,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1786.6973908399136,
@@ -902,7 +822,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1526.2740340691555,
@@ -910,8 +830,93 @@
           "descentMeters": 90.800048828125,
           "changeMeters": 366.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.3831317205497,
+            47.89241975942279,
+            0
+          ]
+        },
+        "properties": {
+          "name": "River Crossing",
+          "description": "Bear Creek",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1298
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.3787766651571,
+            47.879887878744064,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Section Drop-In",
+          "description": "Bear Creek",
+          "stroke": "#FF3B30",
+          "elevationMeters": 923
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.38281492385859,
+            47.887513179694785,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Section Start",
+          "description": "Bear Creek",
+          "stroke": "#34C759",
+          "elevationMeters": 1285
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.38174833396846,
+            47.89283731659907,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "description": "Bear Creek",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1357
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.37819025678579,
+            47.88163071661582,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Vine Maple Thicket",
+          "description": "Bear Creek",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1032
+        }
       }
     ]
   },
-  "version": "71faef8dcba27573871e35413b8ad505"
+  "version": "810085b1d2479dc879c7408bc6cb2a74"
 }

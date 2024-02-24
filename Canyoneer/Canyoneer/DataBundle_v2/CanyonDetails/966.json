@@ -16,8 +16,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "Closed",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 6,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 50.29,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -264,7 +264,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -970,7 +970,7 @@
         "properties": {
           "name": "Approach",
           "description": "0h:18m:55s | 0.94 mi",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -1196,7 +1196,7 @@
         "properties": {
           "name": "Henline Falls Trail",
           "description": "0h:18m:55s | 0.94 mi",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#FFAA00",
@@ -1486,7 +1486,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -1509,6 +1509,7 @@
         },
         "properties": {
           "name": "R7 Henline Falls",
+          "stroke": "#FF3B30",
           "elevationMeters": 1250
         }
       },
@@ -1524,6 +1525,7 @@
         },
         "properties": {
           "name": "Parking Approach",
+          "stroke": "#34C759",
           "elevationMeters": 1100
         }
       },
@@ -1539,6 +1541,7 @@
         },
         "properties": {
           "name": "R2",
+          "stroke": "#FF3B30",
           "elevationMeters": 1162
         }
       },
@@ -1554,6 +1557,7 @@
         },
         "properties": {
           "name": "R1",
+          "stroke": "#34C759",
           "elevationMeters": 1151
         }
       },
@@ -1569,6 +1573,7 @@
         },
         "properties": {
           "name": "Parking Exit",
+          "stroke": "#FFCC00",
           "elevationMeters": 1370
         }
       },
@@ -1584,6 +1589,7 @@
         },
         "properties": {
           "name": "R4",
+          "stroke": "#FF3B30",
           "elevationMeters": 1271
         }
       },
@@ -1599,6 +1605,7 @@
         },
         "properties": {
           "name": "R3",
+          "stroke": "#FF3B30",
           "elevationMeters": 1254
         }
       },
@@ -1614,6 +1621,7 @@
         },
         "properties": {
           "name": "Wrong split",
+          "stroke": "#FF9500",
           "elevationMeters": 1320
         }
       },
@@ -1629,6 +1637,7 @@
         },
         "properties": {
           "name": "Wrong split",
+          "stroke": "#FF9500",
           "elevationMeters": 1238
         }
       },
@@ -1644,6 +1653,7 @@
         },
         "properties": {
           "name": "Checkpoint",
+          "stroke": "#FF9500",
           "elevationMeters": 1258
         }
       },
@@ -1659,6 +1669,7 @@
         },
         "properties": {
           "name": "R6",
+          "stroke": "#FF3B30",
           "elevationMeters": 1286
         }
       },
@@ -1674,6 +1685,7 @@
         },
         "properties": {
           "name": "R8",
+          "stroke": "#FF3B30",
           "elevationMeters": 1285
         }
       },
@@ -1689,6 +1701,7 @@
         },
         "properties": {
           "name": "Jump",
+          "stroke": "#FF3B30",
           "elevationMeters": 1306
         }
       },
@@ -1704,10 +1717,11 @@
         },
         "properties": {
           "name": "R9",
+          "stroke": "#FF3B30",
           "elevationMeters": 409
         }
       }
     ]
   },
-  "version": "4b912003a4ff69ce8bfbf566d3b7efcc"
+  "version": "654b84fc27572c1a02ef253f3eda1c86"
 }

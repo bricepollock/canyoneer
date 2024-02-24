@@ -23,8 +23,8 @@
   "waterRating": "B",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 6,
-  "rappelCountMax": 6,
+  "rappelCountMin": 16,
+  "rappelCountMax": 16,
   "rappelLongestMeters": 54,
   "vehicle": "Passenger",
   "shuttleSeconds": 3000,
@@ -32,94 +32,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -104.0568654099581,
-            20.2743578671444,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Approach",
-          "styleUrl": "#m_ylw-pushpin0",
-          "styleHash": "66a13813",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin0",
-            "highlight": "#s_ylw-pushpin_hl7"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 2173
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -104.0576373458647,
-            20.27314804976883,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#msn_placemark_circle0",
-          "styleHash": "-24190b2e",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle10",
-            "highlight": "#sh_placemark_circle_highlight10"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 2181
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -104.0596667362467,
-            20.26649393821798,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R16",
-          "styleUrl": "#msn_placemark_circle0",
-          "styleHash": "-24190b2e",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle10",
-            "highlight": "#sh_placemark_circle_highlight10"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 2284
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -104.0609251314334,
-            20.25399493795351,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking - Exit",
-          "styleUrl": "#msn_placemark_circle",
-          "styleHash": "-25a3d8e2",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle100",
-            "highlight": "#sh_placemark_circle_highlight1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 2238
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -276,7 +188,7 @@
             "highlight": "#s_ylw-pushpin_hl1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 900.688541774364,
@@ -456,7 +368,7 @@
             "highlight": "#sh_ylw-pushpin11"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1450.9247060851976,
@@ -511,7 +423,7 @@
             "highlight": "#sh_ylw-pushpin5"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#55ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 125.15816065182656,
@@ -1426,7 +1338,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#000000",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 8699.022326708451,
@@ -1551,7 +1463,7 @@
             "highlight": "#sh_ylw-pushpin14"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "lengthMeters": 322.6548291495452,
           "ascentMeters": 5.60009765625,
@@ -1880,12 +1792,104 @@
             "highlight": "#sh_ylw-pushpin14"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "lengthMeters": 748.9181436174028,
           "ascentMeters": 13,
           "descentMeters": 45.60009765625,
           "changeMeters": -32.60009765625
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.0568654099581,
+            20.2743578671444,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "styleUrl": "#m_ylw-pushpin0",
+          "styleHash": "66a13813",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin0",
+            "highlight": "#s_ylw-pushpin_hl7"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2173
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.0576373458647,
+            20.27314804976883,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#msn_placemark_circle0",
+          "styleHash": "-24190b2e",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle10",
+            "highlight": "#sh_placemark_circle_highlight10"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#34C759",
+          "elevationMeters": 2181
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.0596667362467,
+            20.26649393821798,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R16",
+          "styleUrl": "#msn_placemark_circle0",
+          "styleHash": "-24190b2e",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle10",
+            "highlight": "#sh_placemark_circle_highlight10"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2284
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.0609251314334,
+            20.25399493795351,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking - Exit",
+          "styleUrl": "#msn_placemark_circle",
+          "styleHash": "-25a3d8e2",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle100",
+            "highlight": "#sh_placemark_circle_highlight1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#007AFF",
+          "elevationMeters": 2238
         }
       },
       {
@@ -1907,10 +1911,11 @@
             "highlight": "#sh_placemark_circle_highlight"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 2203
         }
       }
     ]
   },
-  "version": "68850b6b0dd4a7f4a6ac9ec63c1f1d88"
+  "version": "a486095197acdbdda963466da73ec4f7"
 }

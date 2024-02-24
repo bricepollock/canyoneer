@@ -17,8 +17,8 @@
   "waterRating": "C",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 8,
-  "rappelCountMax": 8,
+  "rappelCountMin": 18,
+  "rappelCountMax": 18,
   "rappelLongestMeters": 30,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2638\">Descente-Canyon.com</a>\n: Acquaduro</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/AcquaduroCanyon\">Canyon.Carto.net</a>\n: Torrente Acquaduro</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/LC007\">Catastoforre\nAIC-Canyoning.it</a> : Torrente Acquaduro</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -44,6 +44,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 591
         }
       },
@@ -67,6 +68,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": "D 2 (depart med.) - 860 m alt. (Data by Streicher Wolfgang on 17 sept 2014)",
+          "stroke": "#FF3B30",
           "elevationMeters": 852
         }
       },
@@ -90,6 +92,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1003
         }
       },
@@ -113,10 +116,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1021
         }
       }
     ]
   },
-  "version": "6d8dc4b31e6a49cce0cc2a819c5bae7a"
+  "version": "41e6bb6fb896ffa8c341a5aa629268bf"
 }

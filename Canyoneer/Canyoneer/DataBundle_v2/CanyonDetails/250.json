@@ -4,7 +4,7 @@
   "longitude": -116.7358,
   "id": 250,
   "name": "Charon Canyon",
-  "quality": 4.6,
+  "quality": 4.5,
   "months": [
     "Nov",
     "Dec",
@@ -16,29 +16,14 @@
   "waterRating": "A",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 7,
-  "rappelCountMax": 7,
+  "rappelCountMin": 17,
+  "rappelCountMax": 17,
   "rappelLongestMeters": 44.2,
   "vehicle": "Passenger",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>Charon Canyon is a great choice if you're looking to spend your day\nin a beautiful, fun canyon that does not require the level of effort\ntypical of other canyons in the Black Mountains.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>The first section of the approach follows a small drainage up the\nmountain that eventually leads up to a beautiful knife edge ridge on the\nway up to the drop in point. The angle of the approach is more gentle\nthan other canyons in the area like Deimos and Coffin.</p>\n<p>On the ascent hike-up done 2-7-10, we started at minus 280' below\nsea-level and ascended up to the 3000'+ level, so we gained around 3300'\nof elevation gain. SO the gain is determined by high high you want to go\nup. Cutting into the canyon too early, means you may be missing the\nupper rappels.</p>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://bluugnome.com/cyn_route/dv/dv_charon/dv_charon-canyon.aspx\">BluuGnome.com</a>\n: Charon Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://brennen.caltech.edu/swhikes/charon.htm\">Chris Brennen's\nAdventure Hikes (Southwest)</a> : Charon Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://ropewiki.com/User:Super_Amazing_Map?id=Charon_Canyon_-_California_(Death_Valley)\">Super\nAmazing Map</a> : Charon Canyon</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p>First Known Ascent of Charon hiking up from the bottom Trip Report\ndone 12-7-10</p>\n<ul>\n<li><a\nhref=\"https://www.facebook.com/scott.swaney/media_set?set=a.322984127929.188632.668617929&amp;type=3&amp;pnref=story\">https://www.facebook.com/scott.swaney/media_set?set=a.322984127929.188632.668617929&amp;type=3&amp;pnref=story</a></li>\n</ul>\n<p><a\nhref=\"https://adamhaydock.blogspot.com/2020/02/inconcievable-canyon-death-valley.html\">EVEN-FURTHER\nCHARON</a></p>\n<h2 id=\"background\">Background</h2>\n<p>First canyoneering descent by Scott Smith, Nivalda Pinguet, Randi\nPoer, John Perry, Jeff Cheraz, Mark Duttweiler, Ira Lewis and Chris\nBrennen on Feb.21, 2009.</p>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.76441192626955,
-            36.172772336432516,
-            0
-          ]
-        },
-        "properties": {
-          "name": "parking",
-          "elevationMeters": -82
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -308,7 +293,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3409.4591721635747,
@@ -401,7 +386,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2213.215431889883,
@@ -469,7 +454,7 @@
         },
         "properties": {
           "name": "exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 603.503157181762,
@@ -477,8 +462,24 @@
           "descentMeters": 0.09999847412109375,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.76441192626955,
+            36.172772336432516,
+            0
+          ]
+        },
+        "properties": {
+          "name": "parking",
+          "stroke": "#34C759",
+          "elevationMeters": -82
+        }
       }
     ]
   },
-  "version": "e845e03f08afb4e6b6d742179fd0193f"
+  "version": "efa4897e980fede5501f4e7135c96337"
 }

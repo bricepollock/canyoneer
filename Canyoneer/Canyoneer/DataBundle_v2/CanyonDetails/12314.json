@@ -14,8 +14,8 @@
   "waterRating": "C",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 25,
+  "rappelCountMax": 25,
   "rappelLongestMeters": 35,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2603\">Descente-Canyon.com</a>\n: Sandolino</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/SandolinoCanyon\">Canyon.Carto.net</a>\n: Vajo del Sandolino</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/VR002\">Catastoforre\nAIC-Canyoning.it</a> : Vajo del Sandolino</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://canisciolti.biz/2012/canyon/shede/vajo%20del%20sandolino.html\">Canisciolti.biz</a>\n: VAJO DEL SANDOLINO</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://tntcanyoning.it/canyon-percorsi/vajo-del-sandolino\">TNTcanyoning.it</a>\n: Vajo del Sandolino</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/2631/\">Gulliver.it</a> : Vajo del\nSandolino - PAI DI SOPRA (Verona)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -41,6 +41,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by PL06 on 11 juin 2018)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1218
         }
       },
@@ -64,6 +65,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1014
         }
       },
@@ -87,10 +89,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Streicher Wolfgang on 17 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1033
         }
       }
     ]
   },
-  "version": "357f5a4e629b5413d35ea7d971aee50d"
+  "version": "249f81bddabc0b58506438c33b476e31"
 }

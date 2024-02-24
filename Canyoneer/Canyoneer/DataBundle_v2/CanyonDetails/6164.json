@@ -27,96 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.77679999999998,
-            37.814,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start of Middle Clear Creek",
-          "elevationMeters": 3465
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.78089999999997,
-            37.8262,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start of Upper Clear Creek",
-          "elevationMeters": 3538
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.77390000000003,
-            37.8066,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ice Lake Trailhead Parking",
-          "elevationMeters": 3035
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.77639999999997,
-            37.8105,
-            0
-          ]
-        },
-        "properties": {
-          "name": "No Parking",
-          "elevationMeters": 3178
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.77780000000001,
-            37.8117,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bridge",
-          "elevationMeters": 3373
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.7749,
-            37.8055,
-            0
-          ]
-        },
-        "properties": {
-          "name": "South Fork Mineral Campground",
-          "elevationMeters": 3000
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -148,7 +58,7 @@
         },
         "properties": {
           "name": "Confluence of Ice Lake Creek and Clear Creek ",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 249.88743042654397,
@@ -691,7 +601,7 @@
         },
         "properties": {
           "name": "Car Shuttle",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 7779.197313138494,
@@ -784,7 +694,7 @@
         },
         "properties": {
           "name": "return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 294.80409736392727,
@@ -817,7 +727,7 @@
         },
         "properties": {
           "name": "exit CL",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 51.57414152469779,
@@ -850,7 +760,7 @@
         },
         "properties": {
           "name": "Lower Clear Creek",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 273.69288853046356,
@@ -938,7 +848,7 @@
         },
         "properties": {
           "name": "Upper Clear Creek Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1567.622892715378,
@@ -981,7 +891,7 @@
         },
         "properties": {
           "name": "Ice Lake Creek and Clear Creek Confluence",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 249.88743042654397,
@@ -1034,7 +944,7 @@
         },
         "properties": {
           "name": "Trail to bridge",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 174.7290331918088,
@@ -1072,7 +982,7 @@
         },
         "properties": {
           "name": "Middle Clear Creek",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 266.5593001484975,
@@ -1080,8 +990,104 @@
           "descentMeters": 0,
           "changeMeters": 119.800048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.77679999999998,
+            37.814,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start of Middle Clear Creek",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3465
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.78089999999997,
+            37.8262,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start of Upper Clear Creek",
+          "stroke": "#5856D6",
+          "elevationMeters": 3538
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.77390000000003,
+            37.8066,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ice Lake Trailhead Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3035
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.77639999999997,
+            37.8105,
+            0
+          ]
+        },
+        "properties": {
+          "name": "No Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3178
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.77780000000001,
+            37.8117,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bridge",
+          "stroke": "#34C759",
+          "elevationMeters": 3373
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.7749,
+            37.8055,
+            0
+          ]
+        },
+        "properties": {
+          "name": "South Fork Mineral Campground",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3000
+        }
       }
     ]
   },
-  "version": "ac533b4f5e404f4bf6d37cfc630e03cb"
+  "version": "34cf347cbe626418d02cbb3b246917e5"
 }

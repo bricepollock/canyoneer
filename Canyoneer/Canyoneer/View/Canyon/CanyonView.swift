@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 struct CanyonView: View {
-    @ObservedObject var viewModel: CanyonViewModel
+    @StateObject var viewModel: CanyonViewModel
     
     @State var showMapDetails: Bool = false
     @State var showCanyonShareSheet: Bool = false

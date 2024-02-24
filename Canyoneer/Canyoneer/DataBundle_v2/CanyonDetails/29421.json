@@ -24,75 +24,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            27.501413,
-            38.571253,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-16d29016",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by pandernegi at wikiloc.com)",
-          "elevationMeters": 1003
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            27.502164,
-            38.588967,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-52a2a588",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by pandernegi at wikiloc.com)",
-          "elevationMeters": 1266
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            27.498747,
-            38.583335,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Çeşme",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-530debb2",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by pandernegi at wikiloc.com)",
-          "elevationMeters": 1300
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -740,7 +671,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by pandernegi at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2526.798626590926,
@@ -748,8 +679,80 @@
           "descentMeters": 136.000244140625,
           "changeMeters": 263.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            27.501413,
+            38.571253,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "5047285b",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by pandernegi at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1003
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            27.502164,
+            38.588967,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-4efd4a24",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by pandernegi at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1266
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            27.498747,
+            38.583335,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Çeşme",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "49c366b5",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by pandernegi at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1300
+        }
       }
     ]
   },
-  "version": "d1934c3b9af017ef03c3779c0a2b9f64"
+  "version": "0c7a4f9d95bf21f9e864044210833fd6"
 }

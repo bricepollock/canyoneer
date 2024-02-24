@@ -27,74 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9594156,
-            38.5666094,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Hidden Splendor Trailhead",
-          "styleUrl": "#icon-1207",
-          "styleHash": "6b505f16",
-          "styleMapHash": {
-            "normal": "#icon-1207-normal",
-            "highlight": "#icon-1207-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
-          "description": "Hidden Splendor Trailhead",
-          "elevationMeters": 1573
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9073883,
-            38.5736862,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ramp TH (4x4 or High Clearance)",
-          "styleUrl": "#icon-1207-nodesc",
-          "styleHash": "69dbb8f1",
-          "styleMapHash": {
-            "normal": "#icon-1207-nodesc-normal",
-            "highlight": "#icon-1207-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
-          "elevationMeters": 1725
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9211457,
-            38.5790242,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead (old car)",
-          "styleUrl": "#icon-1453",
-          "styleHash": "48a3dc84",
-          "styleMapHash": {
-            "normal": "#icon-1453-normal",
-            "highlight": "#icon-1453-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "description": "Trailhead (old car)",
-          "elevationMeters": 1589
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -912,7 +844,7 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2964.605552707171,
@@ -1516,7 +1448,7 @@
             "normal": "#line-4E342E-5000-nodesc-normal",
             "highlight": "#line-4E342E-5000-nodesc-highlight"
           },
-          "stroke": "#4e342e",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4780.6898069408735,
@@ -1855,7 +1787,7 @@
             "normal": "#line-4E342E-5000-nodesc-normal",
             "highlight": "#line-4E342E-5000-nodesc-highlight"
           },
-          "stroke": "#4e342e",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1437.0015396946,
@@ -2629,35 +2561,13 @@
             "normal": "#line-097138-5000-nodesc-normal",
             "highlight": "#line-097138-5000-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1422.9374910363497,
           "ascentMeters": 334.9000244140625,
           "descentMeters": 410.800048828125,
           "changeMeters": -75.9000244140625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9030745,
-            38.5689483,
-            0
-          ]
-        },
-        "properties": {
-          "name": "The Rabbit Hole Up Climb",
-          "styleUrl": "#icon-1161-nodesc",
-          "styleHash": "-b094d8a",
-          "styleMapHash": {
-            "normal": "#icon-1161-nodesc-normal",
-            "highlight": "#icon-1161-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1161-crisis-landslide.png",
-          "elevationMeters": 1752
         }
       },
       {
@@ -4120,7 +4030,7 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6031.87358284919,
@@ -4534,7 +4444,7 @@
             "normal": "#line-558B2F-5650-nodesc-normal",
             "highlight": "#line-558B2F-5650-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 1380.2377995706113,
@@ -5238,7 +5148,7 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3247.891408992415,
@@ -5367,7 +5277,7 @@
             "normal": "#line-097138-5263-nodesc-normal",
             "highlight": "#line-097138-5263-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 190.67696156797874,
@@ -5456,7 +5366,7 @@
             "normal": "#line-A52714-5263-nodesc-normal",
             "highlight": "#line-A52714-5263-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 102.54546284784632,
@@ -5975,35 +5885,13 @@
             "normal": "#line-A52714-5456-nodesc-normal",
             "highlight": "#line-A52714-5456-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 1188.3007066362397,
           "ascentMeters": 125.300048828125,
           "descentMeters": 349.199951171875,
           "changeMeters": -223.89990234375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9270522,
-            38.5717426,
-            0
-          ]
-        },
-        "properties": {
-          "name": "First Obstacle - Rappel or Downclimb",
-          "styleUrl": "#icon-1161-nodesc",
-          "styleHash": "-b094d8a",
-          "styleMapHash": {
-            "normal": "#icon-1161-nodesc-normal",
-            "highlight": "#icon-1161-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1161-crisis-landslide.png",
-          "elevationMeters": 1620
         }
       },
       {
@@ -6106,7 +5994,7 @@
             "normal": "#line-E65100-3325-nodesc-normal",
             "highlight": "#line-E65100-3325-nodesc-highlight"
           },
-          "stroke": "#e65100",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3.325,
           "lengthMeters": 441.5333424842776,
@@ -6380,7 +6268,7 @@
             "normal": "#line-FFD600-5456-nodesc-normal",
             "highlight": "#line-FFD600-5456-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 701.356924705645,
@@ -6739,7 +6627,7 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4483.176554797656,
@@ -6747,8 +6635,125 @@
           "descentMeters": 181.7999267578125,
           "changeMeters": 68.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9594156,
+            38.5666094,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Hidden Splendor Trailhead",
+          "styleUrl": "#icon-1207",
+          "styleHash": "6b505f16",
+          "styleMapHash": {
+            "normal": "#icon-1207-normal",
+            "highlight": "#icon-1207-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
+          "description": "Hidden Splendor Trailhead",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1573
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9073883,
+            38.5736862,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ramp TH (4x4 or High Clearance)",
+          "styleUrl": "#icon-1207-nodesc",
+          "styleHash": "69dbb8f1",
+          "styleMapHash": {
+            "normal": "#icon-1207-nodesc-normal",
+            "highlight": "#icon-1207-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
+          "stroke": "#FF2D55",
+          "elevationMeters": 1725
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9211457,
+            38.5790242,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead (old car)",
+          "styleUrl": "#icon-1453",
+          "styleHash": "48a3dc84",
+          "styleMapHash": {
+            "normal": "#icon-1453-normal",
+            "highlight": "#icon-1453-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "description": "Trailhead (old car)",
+          "stroke": "#34C759",
+          "elevationMeters": 1589
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9030745,
+            38.5689483,
+            0
+          ]
+        },
+        "properties": {
+          "name": "The Rabbit Hole Up Climb",
+          "styleUrl": "#icon-1161-nodesc",
+          "styleHash": "-b094d8a",
+          "styleMapHash": {
+            "normal": "#icon-1161-nodesc-normal",
+            "highlight": "#icon-1161-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1161-crisis-landslide.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1752
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9270522,
+            38.5717426,
+            0
+          ]
+        },
+        "properties": {
+          "name": "First Obstacle - Rappel or Downclimb",
+          "styleUrl": "#icon-1161-nodesc",
+          "styleHash": "-b094d8a",
+          "styleMapHash": {
+            "normal": "#icon-1161-nodesc-normal",
+            "highlight": "#icon-1161-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1161-crisis-landslide.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1620
+        }
       }
     ]
   },
-  "version": "dccd9962de9d587241de0bf929a40b96"
+  "version": "5e2b9e6d496a54ddb6637b51b721505d"
 }

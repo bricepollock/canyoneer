@@ -12,167 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.206027,
-            25.18436,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-75e70b39",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Israel Morales at wikiloc.com)",
-          "elevationMeters": 1518
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.205977,
-            25.184375,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-27f08730",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Israel Morales at wikiloc.com)",
-          "elevationMeters": 1518
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.213564,
-            25.172992,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Puerto",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "2ce79521",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Israel Morales at wikiloc.com)",
-          "elevationMeters": 1301
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.216961,
-            25.168669,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop in",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "2ce79521",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Israel Morales at wikiloc.com)",
-          "elevationMeters": 1281
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.215814,
-            25.175426,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Salida izquierda vereda",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "2ce79521",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Israel Morales at wikiloc.com)",
-          "elevationMeters": 1327
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.206035,
-            25.184347,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Estacionamiento",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "2ce79521",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Israel Morales at wikiloc.com)",
-          "elevationMeters": 1518
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.216065,
-            25.174239,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "2ce79521",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Israel Morales at wikiloc.com)",
-          "elevationMeters": 1322
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -665,7 +504,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Israel Morales at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 5671.500338518964,
@@ -673,8 +512,176 @@
           "descentMeters": 418.80029296875,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.206027,
+            25.18436,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "717c7d3e",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Israel Morales at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1518
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.205977,
+            25.184375,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "7c16657",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Israel Morales at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1518
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.213564,
+            25.172992,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Puerto",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-4c7919ca",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Israel Morales at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1301
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.216961,
+            25.168669,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop in",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-4c7919ca",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Israel Morales at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1281
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.215814,
+            25.175426,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Salida izquierda vereda",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-4c7919ca",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Israel Morales at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1327
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.206035,
+            25.184347,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Estacionamiento",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-4c7919ca",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Israel Morales at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1518
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.216065,
+            25.174239,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-4c7919ca",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Israel Morales at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1322
+        }
       }
     ]
   },
-  "version": "3e6ad2cc7e1e963c7988f42b08194736"
+  "version": "3502448dfc787e8f6ecc8dfae169b00b"
 }

@@ -20,8 +20,8 @@
   "waterRating": "B",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 8,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 60.96,
   "vehicle": "High Clearance",
   "shuttleSeconds": 30,
@@ -29,246 +29,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.56133,
-            36.01843,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Turnoff",
-          "description": "Turn off from highway 160 to Lovell Canyon road.",
-          "elevationMeters": 1433
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.51231,
-            36.05037,
-            0
-          ]
-        },
-        "properties": {
-          "name": "pk-Old-Bill-Tp",
-          "description": "This is where to park for starting the route to Old Bill Canyon. This is a point on the Rainbow Springs road where the wash begins to get a lot more narrow and the road rougher.",
-          "elevationMeters": 1696
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.51231,
-            36.05037,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Approach",
-          "description": "This is where to park for starting the route to Old Bill Canyon. This is a point on the Rainbow Springs road where the wash begins to get a lot more narrow and the road rougher.",
-          "elevationMeters": 1696
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.48998,
-            36.07211,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Start",
-          "description": "Top entry for Old Bill. This is near the top of the sandstone portion of this draiange.",
-          "elevationMeters": 1535
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.48836,
-            36.07074,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "Rap 1 - Old Bill Canyon. Anchored from a small pine tree and drops about 20 feet down a vertical wall in a narrow slot.",
-          "elevationMeters": 1540
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.48789,
-            36.07075,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "description": "Rap 2 - Old Bill CAnyon. Anchored from a choke stone and drops about 25 feet in a narrow slot. The first half is down climbale but the lower half has an overhang.",
-          "elevationMeters": 1177
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.48714,
-            36.06983,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": "Rap 3 - Old Bill Canyon. Anchored from a pinch point between a boulder and the canyon wall and drops about 150 feet down a slightly sloped wall with a pothole ledge about one third of the way down.",
-          "elevationMeters": 1183
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.48709,
-            36.06949,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "description": "Rap 4 - Old Bill Canyon. Right at the bottom of rap 3. Anchored from a choke stone in a crack about 15 feet up from the ledge on the RDC side and drops about 250 feet but can creatively be done with 220 feet.",
-          "elevationMeters": 1185
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.48699,
-            36.06921,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "description": "Rap 5 - Old Bill Canyon. Anchored from a knot chalck LDC on the learge ledge at the bottom of rap 4. Rap 5 drops about 230 feet but only the first 50 feet are mandatory.",
-          "elevationMeters": 1187
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.48665,
-            36.06869,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Junction",
-          "description": "This is where the upper portion of the Old Bill route dumps into the main canyon.",
-          "elevationMeters": 1191
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.48255,
-            36.06857,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6-7",
-          "description": "Raps 6 thru 7 - Old Bill Canyon. Rap 6 anchored from a boulder at the top of the drop and drops about 35 over two stages through a boulder pile. Down climb and lower into a hole at your feet to start the second stage. Rap 7 about 70 feet down canyon of rap 6, is anchored from a pinch point between the wall and a boulder. Rap 7 drops about 60 feet down a narrow slot to a pool that needs to be swam at the bottom.",
-          "elevationMeters": 1181
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.47875,
-            36.06641,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R8",
-          "description": "Rap 8 - Old Bill Canyon. Anchored from a pinch point between boulders and drops about 30 feet down a sloped wall. Rap 8 can be bypassed RDC.",
-          "elevationMeters": 1179
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.47797,
-            36.06563,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R9",
-          "description": "Rap 9 - Old Bill Canyon. Anchored from rock in small pothole about 15 feet back and drops about 30 feet down a sloped wall to a shallow pool.",
-          "elevationMeters": 1193
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.4733,
-            36.06539,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon End",
-          "description": "Bottom exit of Old Bill Canyon where it opens up into a pretty wide wash.",
-          "elevationMeters": 1173
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.44797,
-            36.08138,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Exit",
-          "description": "First creekTrail Head on Charleston.",
-          "elevationMeters": 1167
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -633,7 +393,7 @@
         },
         "properties": {
           "name": "Road",
-          "stroke": "#000000",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 37407.45561116723,
@@ -1046,7 +806,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2001.1408010049086,
@@ -1344,7 +1104,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 3562.8420420642124,
@@ -2122,7 +1882,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 5096.932820678502,
@@ -2204,7 +1964,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2233.6294495123484,
@@ -2212,8 +1972,263 @@
           "descentMeters": 111.0999755859375,
           "changeMeters": -57.7000732421875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.56133,
+            36.01843,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Turnoff",
+          "description": "Turn off from highway 160 to Lovell Canyon road.",
+          "stroke": "#FF9500",
+          "elevationMeters": 1433
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.51231,
+            36.05037,
+            0
+          ]
+        },
+        "properties": {
+          "name": "pk-Old-Bill-Tp",
+          "description": "This is where to park for starting the route to Old Bill Canyon. This is a point on the Rainbow Springs road where the wash begins to get a lot more narrow and the road rougher.",
+          "stroke": "#FF9500",
+          "elevationMeters": 1696
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.51231,
+            36.05037,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "description": "This is where to park for starting the route to Old Bill Canyon. This is a point on the Rainbow Springs road where the wash begins to get a lot more narrow and the road rougher.",
+          "stroke": "#FF9500",
+          "elevationMeters": 1696
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.48998,
+            36.07211,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Start",
+          "description": "Top entry for Old Bill. This is near the top of the sandstone portion of this draiange.",
+          "stroke": "#34C759",
+          "elevationMeters": 1535
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.48836,
+            36.07074,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "Rap 1 - Old Bill Canyon. Anchored from a small pine tree and drops about 20 feet down a vertical wall in a narrow slot.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1540
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.48789,
+            36.07075,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "Rap 2 - Old Bill CAnyon. Anchored from a choke stone and drops about 25 feet in a narrow slot. The first half is down climbale but the lower half has an overhang.",
+          "stroke": "#34C759",
+          "elevationMeters": 1177
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.48714,
+            36.06983,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "Rap 3 - Old Bill Canyon. Anchored from a pinch point between a boulder and the canyon wall and drops about 150 feet down a slightly sloped wall with a pothole ledge about one third of the way down.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1183
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.48709,
+            36.06949,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "description": "Rap 4 - Old Bill Canyon. Right at the bottom of rap 3. Anchored from a choke stone in a crack about 15 feet up from the ledge on the RDC side and drops about 250 feet but can creatively be done with 220 feet.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1185
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.48699,
+            36.06921,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "description": "Rap 5 - Old Bill Canyon. Anchored from a knot chalck LDC on the learge ledge at the bottom of rap 4. Rap 5 drops about 230 feet but only the first 50 feet are mandatory.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1187
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.48665,
+            36.06869,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Junction",
+          "description": "This is where the upper portion of the Old Bill route dumps into the main canyon.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1191
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.48255,
+            36.06857,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6-7",
+          "description": "Raps 6 thru 7 - Old Bill Canyon. Rap 6 anchored from a boulder at the top of the drop and drops about 35 over two stages through a boulder pile. Down climb and lower into a hole at your feet to start the second stage. Rap 7 about 70 feet down canyon of rap 6, is anchored from a pinch point between the wall and a boulder. Rap 7 drops about 60 feet down a narrow slot to a pool that needs to be swam at the bottom.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1181
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.47875,
+            36.06641,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R8",
+          "description": "Rap 8 - Old Bill Canyon. Anchored from a pinch point between boulders and drops about 30 feet down a sloped wall. Rap 8 can be bypassed RDC.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1179
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.47797,
+            36.06563,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R9",
+          "description": "Rap 9 - Old Bill Canyon. Anchored from rock in small pothole about 15 feet back and drops about 30 feet down a sloped wall to a shallow pool.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1193
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.4733,
+            36.06539,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon End",
+          "description": "Bottom exit of Old Bill Canyon where it opens up into a pretty wide wash.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1173
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.44797,
+            36.08138,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "description": "First creekTrail Head on Charleston.",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1167
+        }
       }
     ]
   },
-  "version": "79b2f2c1c373e636376c8e992e1b2d53"
+  "version": "533bfd159af348a81f32eaab74b64113"
 }

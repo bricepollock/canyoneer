@@ -18,126 +18,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.15694444444443,
-            37.599722222222226,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Mouth of Ringtail Canyon",
-          "elevationMeters": 1600
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.13527777777779,
-            37.58166666666667,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Slickrock Access Ramp",
-          "elevationMeters": 1625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.12694444444446,
-            37.602222222222224,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Head of the West Fork of Baker Canyon",
-          "elevationMeters": 1500
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.12666666666667,
-            37.59861111111111,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Escape on the east side of the canyon",
-          "elevationMeters": 1532
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.12416666666667,
-            37.596111111111114,
-            0
-          ]
-        },
-        "properties": {
-          "name": "East Baker viewpoint",
-          "elevationMeters": 1501
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.12083333333334,
-            37.598333333333336,
-            0
-          ]
-        },
-        "properties": {
-          "name": "East Baker Entrance",
-          "elevationMeters": 1487
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.12583333333333,
-            37.59444444444445,
-            0
-          ]
-        },
-        "properties": {
-          "name": "East and West Fork of Baker Canyon",
-          "elevationMeters": 1525
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.12916666666666,
-            37.585,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Mouth of Baker",
-          "elevationMeters": 1595
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -204,7 +84,7 @@
         },
         "properties": {
           "name": "Ringtail Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1750.7283369878382,
@@ -317,7 +197,7 @@
         },
         "properties": {
           "name": "Ringtail",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1407.7519991569945,
@@ -380,7 +260,7 @@
         },
         "properties": {
           "name": "Baker shortcut",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2330.1101643017705,
@@ -443,7 +323,7 @@
         },
         "properties": {
           "name": "Baker (West)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 972.0765117899977,
@@ -511,7 +391,7 @@
         },
         "properties": {
           "name": "Baker (East)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 813.3624666330563,
@@ -634,7 +514,7 @@
         },
         "properties": {
           "name": "Baker (both)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1357.0702759998144,
@@ -762,7 +642,7 @@
         },
         "properties": {
           "name": "Slickrock access",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2761.042423406158,
@@ -820,7 +700,7 @@
         },
         "properties": {
           "name": "Escape to East Baker",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 774.1150236031802,
@@ -828,8 +708,136 @@
           "descentMeters": 52.9000244140625,
           "changeMeters": -44.800048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.15694444444443,
+            37.599722222222226,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Mouth of Ringtail Canyon",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1600
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.13527777777779,
+            37.58166666666667,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Slickrock Access Ramp",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1625
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.12694444444446,
+            37.602222222222224,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Head of the West Fork of Baker Canyon",
+          "stroke": "#34C759",
+          "elevationMeters": 1500
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.12666666666667,
+            37.59861111111111,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Escape on the east side of the canyon",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1532
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.12416666666667,
+            37.596111111111114,
+            0
+          ]
+        },
+        "properties": {
+          "name": "East Baker viewpoint",
+          "stroke": "#34C759",
+          "elevationMeters": 1501
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.12083333333334,
+            37.598333333333336,
+            0
+          ]
+        },
+        "properties": {
+          "name": "East Baker Entrance",
+          "stroke": "#34C759",
+          "elevationMeters": 1487
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.12583333333333,
+            37.59444444444445,
+            0
+          ]
+        },
+        "properties": {
+          "name": "East and West Fork of Baker Canyon",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1525
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.12916666666666,
+            37.585,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Mouth of Baker",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1595
+        }
       }
     ]
   },
-  "version": "528cdd9ebfb1a9d8eb5ede0d639ec92e"
+  "version": "aca803e03da1b888c8974bac3f1b4957"
 }

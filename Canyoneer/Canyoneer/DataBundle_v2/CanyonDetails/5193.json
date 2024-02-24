@@ -26,66 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.38599999999997,
-            38.2169,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Big Blue Campground",
-          "elevationMeters": 3175
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.3854,
-            38.2067,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3070
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.4126,
-            38.165,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 220'",
-          "elevationMeters": 3529
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.41069610844397,
-            38.165304388682834,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 150'",
-          "elevationMeters": 3517
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -302,7 +242,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 8662.361102454466,
@@ -690,7 +630,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 11738.324653469781,
@@ -863,7 +803,7 @@
         },
         "properties": {
           "name": "Fall Creek",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3368.997716444431,
@@ -2081,7 +2021,7 @@
         },
         "properties": {
           "name": "FR868",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 17997.737475151087,
@@ -2204,7 +2144,7 @@
         },
         "properties": {
           "name": "return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3651.355776645019,
@@ -2212,8 +2152,72 @@
           "descentMeters": 428.2998046875,
           "changeMeters": 248.2998046875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.38599999999997,
+            38.2169,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Big Blue Campground",
+          "stroke": "#34C759",
+          "elevationMeters": 3175
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.3854,
+            38.2067,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3070
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.4126,
+            38.165,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 220'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3529
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.41069610844397,
+            38.165304388682834,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 150'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3517
+        }
       }
     ]
   },
-  "version": "ff14b2350f66d7bd624546c8d0cb5ca4"
+  "version": "7fcfc4bf9f601be82d6d65dca2808ac3"
 }

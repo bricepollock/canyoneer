@@ -16,8 +16,8 @@
   "timeRating": "III",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 25,
+  "rappelCountMax": 25,
   "rappelLongestMeters": 60,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/22979\">Descente-Canyon.com</a>\n: Soladino (supérieur)</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://swisscanyon.ch/canyons/lista-ti.htm?Soladino%20sup\">SwissCanyon.ch</a>\n: Soladino sup</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://schlucht.ch/schluchten-der-schweiz-navbar.html?cid=95\">Schlucht.ch</a>\n: Valle del Soladino</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://verticalwatercanyoning.com/profili/svizzera/soladino-superiore\">VerticalWaterCanyoning.com</a>\n: Riveo Superiore (Val Soladino)</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://verticalwatercanyoning.com/profili/svizzera/soladino-Superiore\">VerticalWaterCanyoning.com</a>\n: Riveo Superiore (Val Soladino)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p>Picture Credits : Alex Arnold</p>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -43,6 +43,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by admin on 30 août 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1508
         }
       },
@@ -66,6 +67,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
           "description": "Début du sentier de randonnée (Data by admin on 30 août 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1183
         }
       },
@@ -89,6 +91,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
           "description": "On quitte ici le sentier pour aller vers les bâtisses et le canyon (Data by admin on 30 août 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 2003
         }
       },
@@ -112,10 +115,11 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-point_externe.png",
           "description": "Le pont intermédiaire qui surplombe le canyon (Data by admin on 30 août 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1801
         }
       }
     ]
   },
-  "version": "79667fb68699b2c910da211ccc798743"
+  "version": "723e3d1e2c27587b486c46dc78b25de5"
 }

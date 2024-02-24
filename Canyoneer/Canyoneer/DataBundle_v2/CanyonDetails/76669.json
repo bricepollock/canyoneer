@@ -26,24 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.068542,
-            34.867053,
-            1096.1
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "styleUrl": "#track-start-pin",
-          "styleHash": "-32a79d36",
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
-          "elevationMeters": 1475
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -4642,7 +4624,7 @@
           "name": "Packard can",
           "styleUrl": "#track-line",
           "styleHash": "7b70f5a3",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 4,
           "fill": "#ff0000",
@@ -4660,6 +4642,25 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
+            -112.068542,
+            34.867053,
+            1096.1
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "styleUrl": "#track-start-pin",
+          "styleHash": "-32a79d36",
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1475
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
             -112.068868,
             34.864209,
             1140
@@ -4670,10 +4671,11 @@
           "styleUrl": "#track-end-pin",
           "styleHash": "43f6b3b1",
           "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1442
         }
       }
     ]
   },
-  "version": "5cd5543b8cd5c501ff9094d9886e7803"
+  "version": "ced03e1edc344f72a681324e0e3d5646"
 }

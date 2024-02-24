@@ -23,8 +23,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 3,
-  "rappelCountMax": 3,
+  "rappelCountMin": 11,
+  "rappelCountMax": 13,
   "rappelLongestMeters": 25,
   "vehicle": "Passenger",
   "shuttleSeconds": 1200,
@@ -32,66 +32,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -3.681160211563111,
-            36.84452084225325,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking (Upper)",
-          "elevationMeters": 649
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -3.6868572235107426,
-            36.84323294353598,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Start",
-          "elevationMeters": 782
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -3.6834588646888737,
-            36.832036970193,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Finish",
-          "elevationMeters": 864
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -3.683281838893891,
-            36.829796720104305,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking (Lower)",
-          "elevationMeters": 828
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -176,7 +116,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 302.5924162655208,
@@ -584,7 +524,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1105.9691529050006,
@@ -722,7 +662,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1563.6193147024017,
@@ -2180,7 +2120,7 @@
         },
         "properties": {
           "name": "Shuttle (or hitchhike)",
-          "stroke": "#000000",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6199.790680794785,
@@ -2188,8 +2128,72 @@
           "descentMeters": 843.0999145507812,
           "changeMeters": -178.79998779296875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.681160211563111,
+            36.84452084225325,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking (Upper)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 649
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.6868572235107426,
+            36.84323294353598,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Start",
+          "stroke": "#FFCC00",
+          "elevationMeters": 782
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.6834588646888737,
+            36.832036970193,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Finish",
+          "stroke": "#34C759",
+          "elevationMeters": 864
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.683281838893891,
+            36.829796720104305,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking (Lower)",
+          "stroke": "#FF9500",
+          "elevationMeters": 828
+        }
       }
     ]
   },
-  "version": "dccd07fb241c635d9ac0b5df2bcd55c2"
+  "version": "f2d5eeaae6a1f11671879fef6f5a7c59"
 }

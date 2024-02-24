@@ -29,81 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.39824065090062,
-            39.0311381910959,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Smith Camp Parking",
-          "elevationMeters": 1389
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.40693473490754,
-            39.02803809212417,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: ~150+'",
-          "elevationMeters": 1408
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.40727653,
-            39.02795118,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: ~100+'",
-          "elevationMeters": 1410
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.40614599397723,
-            39.02811622864226,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: ~150+'",
-          "elevationMeters": 1406
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.33293555866864,
-            39.00867352057699,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Junction Smith Camp & Buckmaster Roads",
-          "elevationMeters": 1365
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -610,7 +535,7 @@
         },
         "properties": {
           "name": "Thimble approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1196.4642244471672,
@@ -1493,7 +1418,7 @@
         },
         "properties": {
           "name": "South Four Corners Mine Rd",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 7724.422279661754,
@@ -1791,7 +1716,7 @@
         },
         "properties": {
           "name": "Smith Camp Rd",
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6917.458995869674,
@@ -1944,7 +1869,7 @@
         },
         "properties": {
           "name": "West Smith Camp Rd",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 443.09462452460417,
@@ -2027,7 +1952,7 @@
         },
         "properties": {
           "name": "Thimble Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 204.3723424493328,
@@ -2190,7 +2115,7 @@
         },
         "properties": {
           "name": "S Buckmaster Rd",
-          "stroke": "#000000",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3864.087497409375,
@@ -2323,7 +2248,7 @@
         },
         "properties": {
           "name": "Smith Camp Rd / N Buckmaster Rd",
-          "stroke": "#000000",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3624.236453382339,
@@ -2331,8 +2256,88 @@
           "descentMeters": 114.7999267578125,
           "changeMeters": -38.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.39824065090062,
+            39.0311381910959,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Smith Camp Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1389
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.40693473490754,
+            39.02803809212417,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: ~150+'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1408
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.40727653,
+            39.02795118,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: ~100+'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1410
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.40614599397723,
+            39.02811622864226,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: ~150+'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1406
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.33293555866864,
+            39.00867352057699,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Junction Smith Camp & Buckmaster Roads",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1365
+        }
       }
     ]
   },
-  "version": "efff01ab3ee39b7a4823c35f95c6f9fe"
+  "version": "017d6dcc732ca21b1f1cd72be7097f8b"
 }

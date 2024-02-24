@@ -25,36 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.19762325286865,
-            45.546807626712614,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 58
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.19886779785156,
-            45.54105936264924,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Parking?",
-          "elevationMeters": 211
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -146,7 +116,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 220.50374870544002,
@@ -299,7 +269,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 417.6165876501366,
@@ -417,7 +387,7 @@
         },
         "properties": {
           "name": "Shuttle Approach?",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 467.7762451542061,
@@ -505,7 +475,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 189.89166230936027,
@@ -513,8 +483,40 @@
           "descentMeters": 4.5,
           "changeMeters": 47.900001525878906
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.19762325286865,
+            45.546807626712614,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 58
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.19886779785156,
+            45.54105936264924,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Parking?",
+          "stroke": "#34C759",
+          "elevationMeters": 211
+        }
       }
     ]
   },
-  "version": "a2c2153dacc6738f9e36ec2892cc851d"
+  "version": "3c0fda306ed26caba5af406df3209bb9"
 }

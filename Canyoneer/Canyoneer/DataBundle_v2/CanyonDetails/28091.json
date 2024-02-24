@@ -25,37 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.441373,
-            34.365847,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "elevationMeters": 1751
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.443597,
-            34.365087,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 optional",
-          "description": "Location: 34.365087, -111.443597<br/>\nElevation: 1.6 km<br/>\nTime Created: 4/17/23 12:08:10 PM<br/>\nNotes: Single bolt\n",
-          "elevationMeters": 1780
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -177,7 +146,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 945.5260103455914,
@@ -365,7 +334,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1123.601978063705,
@@ -392,7 +361,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 71.94788389088491,
@@ -430,7 +399,7 @@
         },
         "properties": {
           "name": "Narrows",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 111.40155045842329,
@@ -438,8 +407,41 @@
           "descentMeters": 2.9000244140625,
           "changeMeters": 20.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.441373,
+            34.365847,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "stroke": "#34C759",
+          "elevationMeters": 1751
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.443597,
+            34.365087,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 optional",
+          "description": "Location: 34.365087, -111.443597<br/>\nElevation: 1.6 km<br/>\nTime Created: 4/17/23 12:08:10 PM<br/>\nNotes: Single bolt\n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1780
+        }
       }
     ]
   },
-  "version": "32e0f0f0e26b1dde71cfe9484fcfb54e"
+  "version": "59450fcbd9cc48c062029ac514e465b2"
 }

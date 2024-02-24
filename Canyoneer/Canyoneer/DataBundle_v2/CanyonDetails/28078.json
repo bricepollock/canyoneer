@@ -28,66 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -104.84771014599801,
-            31.906727137530197,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Devil's Hall",
-          "elevationMeters": 2340
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -104.82814041235636,
-            31.89666876469751,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1818
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -104.82948461866252,
-            31.896660876249964,
-            0
-          ]
-        },
-        "properties": {
-          "name": "trail junction",
-          "elevationMeters": 1796
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -104.84119,
-            31.90155,
-            0
-          ]
-        },
-        "properties": {
-          "name": "trail junction",
-          "elevationMeters": 2309
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -3494,7 +3434,7 @@
         },
         "properties": {
           "name": "Devil's Hall Trail (Pine Creek)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3134.7167816990172,
@@ -3502,8 +3442,72 @@
           "descentMeters": 989.4990234375,
           "changeMeters": -522.4998779296875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.84771014599801,
+            31.906727137530197,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Devil's Hall",
+          "stroke": "#34C759",
+          "elevationMeters": 2340
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.82814041235636,
+            31.89666876469751,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1818
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.82948461866252,
+            31.896660876249964,
+            0
+          ]
+        },
+        "properties": {
+          "name": "trail junction",
+          "stroke": "#34C759",
+          "elevationMeters": 1796
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.84119,
+            31.90155,
+            0
+          ]
+        },
+        "properties": {
+          "name": "trail junction",
+          "stroke": "#34C759",
+          "elevationMeters": 2309
+        }
       }
     ]
   },
-  "version": "521318f8c41388910df53ae94ec8b665"
+  "version": "b528d72a39af1e375e611731bafe70a3"
 }

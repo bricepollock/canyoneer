@@ -19,81 +19,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.8142302,
-            34.281242,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In point 1st Descent",
-          "elevationMeters": 849
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.8189724,
-            34.2707293,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Intersect Bichota Canyon",
-          "elevationMeters": 879
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.8443564,
-            34.263272,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Bichota",
-          "elevationMeters": 1620
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.8090786933899,
-            34.28688215071637,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Higher Drop In point?",
-          "elevationMeters": 886
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.8387516,
-            34.2811832,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Approach Parking",
-          "elevationMeters": 1138
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -330,7 +255,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2378.073825365387,
@@ -573,7 +498,7 @@
         },
         "properties": {
           "name": "Bichota exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3241.040533337009,
@@ -2031,7 +1956,7 @@
         },
         "properties": {
           "name": "Old Road Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 7313.078609482486,
@@ -2039,8 +1964,88 @@
           "descentMeters": 1658.7001953125,
           "changeMeters": -275.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.8142302,
+            34.281242,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In point 1st Descent",
+          "stroke": "#34C759",
+          "elevationMeters": 849
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.8189724,
+            34.2707293,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Intersect Bichota Canyon",
+          "stroke": "#FF3B30",
+          "elevationMeters": 879
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.8443564,
+            34.263272,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Bichota",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1620
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.8090786933899,
+            34.28688215071637,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Higher Drop In point?",
+          "stroke": "#FF3B30",
+          "elevationMeters": 886
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.8387516,
+            34.2811832,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Approach Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1138
+        }
       }
     ]
   },
-  "version": "55cfd5758f48ece4e57667f5a7b78260"
+  "version": "de0e4aacb677b5b95527adaada4ad60f"
 }

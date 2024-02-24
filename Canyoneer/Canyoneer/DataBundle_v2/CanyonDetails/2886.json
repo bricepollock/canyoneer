@@ -16,8 +16,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 8,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 59.44,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -444,7 +444,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -564,7 +564,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -599,7 +599,7 @@
         },
         "properties": {
           "name": "Road",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#000000",
@@ -622,6 +622,7 @@
         },
         "properties": {
           "name": "Footbridge",
+          "stroke": "#FF3B30",
           "elevationMeters": 1110
         }
       },
@@ -637,10 +638,11 @@
         },
         "properties": {
           "name": "Campsite",
+          "stroke": "#FF3B30",
           "elevationMeters": 1165
         }
       }
     ]
   },
-  "version": "89eacb8721267f2caae9c2e7c9fb2a16"
+  "version": "57dcb01d892fdb471b91c8e6afee3f92"
 }

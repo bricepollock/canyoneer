@@ -26,51 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.21658325195312,
-            39.355560302734375,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3618
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.21904435,
-            39.35688316,
-            0
-          ]
-        },
-        "properties": {
-          "name": "small cataracts",
-          "elevationMeters": 3675
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.21871709823608,
-            39.355654082391744,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 75' Tree CL",
-          "elevationMeters": 3685
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -302,7 +257,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 509.4223660669805,
@@ -390,7 +345,7 @@
         },
         "properties": {
           "name": "two track",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 326.2518333222916,
@@ -503,7 +458,7 @@
         },
         "properties": {
           "name": "return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 189.19798453520394,
@@ -711,7 +666,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 285.88205431854493,
@@ -764,7 +719,7 @@
         },
         "properties": {
           "name": "shorter approach?",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 141.45051534090288,
@@ -857,7 +812,7 @@
         },
         "properties": {
           "name": "two track",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 436.49583089708483,
@@ -865,8 +820,56 @@
           "descentMeters": 78.300048828125,
           "changeMeters": -63
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.21658325195312,
+            39.355560302734375,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 3618
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.21904435,
+            39.35688316,
+            0
+          ]
+        },
+        "properties": {
+          "name": "small cataracts",
+          "stroke": "#5856D6",
+          "elevationMeters": 3675
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.21871709823608,
+            39.355654082391744,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 75' Tree CL",
+          "stroke": "#5856D6",
+          "elevationMeters": 3685
+        }
       }
     ]
   },
-  "version": "b0e0a2f4b7c60f95cfd3f04ab2ceecc3"
+  "version": "33712d38bded80d8a04642c0aec00010"
 }

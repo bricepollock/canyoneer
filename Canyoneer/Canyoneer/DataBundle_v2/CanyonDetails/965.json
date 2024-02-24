@@ -26,171 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.88096165657045,
-            45.60446810890893,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave Trail",
-          "elevationMeters": 1231
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.8802336502185,
-            45.60448854969802,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Skoonichuk Falls",
-          "elevationMeters": 1233
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.8968430354039,
-            45.62542345311307,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Metlako Falls",
-          "elevationMeters": 1028
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.8824824380027,
-            45.60831371651913,
-            0
-          ]
-        },
-        "properties": {
-          "name": "High Bridge",
-          "elevationMeters": 1213
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.8946625900875,
-            45.62163112290704,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Punchbowl Falls",
-          "elevationMeters": 1052
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.88436269760133,
-            45.60897151342461,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Loowit Falls",
-          "elevationMeters": 1205
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.89251124858858,
-            45.6208775236716,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Punchbowl Drop-in",
-          "elevationMeters": 1115
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.92677378654481,
-            45.64083027403561,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Recommended Parking",
-          "elevationMeters": 554
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.91971421241762,
-            45.63717711496542,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Alt Parking",
-          "elevationMeters": 907
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.88543558120729,
-            45.610765268867105,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit (optional)",
-          "elevationMeters": 1196
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.90762817859651,
-            45.631100491248844,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Creek",
-          "elevationMeters": 1037
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -297,7 +132,7 @@
         },
         "properties": {
           "name": "Road Walk",
-          "stroke": "#000000",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 788.2473811079429,
@@ -590,7 +425,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1277.6762160546903,
@@ -2043,7 +1878,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5875.459006706054,
@@ -2086,7 +1921,7 @@
         },
         "properties": {
           "name": "Punchbowl Drop-In",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 56.08148864227665,
@@ -2124,7 +1959,7 @@
         },
         "properties": {
           "name": "High Bridge Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 78.70211534002468,
@@ -2547,7 +2382,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4007.931221304223,
@@ -2555,8 +2390,184 @@
           "descentMeters": 590.80029296875,
           "changeMeters": -195.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.88096165657045,
+            45.60446810890893,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave Trail",
+          "stroke": "#34C759",
+          "elevationMeters": 1231
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.8802336502185,
+            45.60448854969802,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Skoonichuk Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1233
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.8968430354039,
+            45.62542345311307,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Metlako Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1028
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.8824824380027,
+            45.60831371651913,
+            0
+          ]
+        },
+        "properties": {
+          "name": "High Bridge",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1213
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.8946625900875,
+            45.62163112290704,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Punchbowl Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1052
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.88436269760133,
+            45.60897151342461,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Loowit Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1205
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.89251124858858,
+            45.6208775236716,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Punchbowl Drop-in",
+          "stroke": "#34C759",
+          "elevationMeters": 1115
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.92677378654481,
+            45.64083027403561,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Recommended Parking",
+          "stroke": "#FF9500",
+          "elevationMeters": 554
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.91971421241762,
+            45.63717711496542,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Alt Parking",
+          "stroke": "#FF9500",
+          "elevationMeters": 907
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.88543558120729,
+            45.610765268867105,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit (optional)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1196
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.90762817859651,
+            45.631100491248844,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Creek",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1037
+        }
       }
     ]
   },
-  "version": "5ae3daaf30460c8ccdca689a618f940d"
+  "version": "2d7c0d4d2e859ee7224877127a6c0a94"
 }

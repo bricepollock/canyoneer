@@ -17,8 +17,8 @@
   "waterRating": "B",
   "timeRating": "II",
   "permit": "Yes",
-  "rappelCountMin": 3,
-  "rappelCountMax": 3,
+  "rappelCountMin": 13,
+  "rappelCountMax": 13,
   "rappelLongestMeters": 35,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2216\">Descente-Canyon.com</a>\n: Rochebonne</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://canisciolti.biz/2012/canyon/shede/rochebonne.html\">Canisciolti.biz</a>\n: ROCHEBONNE</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://yadugaz07.com/canyon-rochebonne.php\">Yadugaz07</a> :\nRochebonne</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -44,6 +44,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Rémi Villalongue on 16 jan 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1086
         }
       },
@@ -67,6 +68,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Rémi Villalongue on 16 jan 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1088
         }
       },
@@ -90,6 +92,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Rémi Villalongue on 16 jan 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1075
         }
       },
@@ -113,10 +116,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": "Facultatif (Data by Rémi Villalongue on 16 jan 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1088
         }
       }
     ]
   },
-  "version": "774ea31f1f6940296e0532234159529c"
+  "version": "62329b65ac06e59e56cdcf50cbe457c4"
 }

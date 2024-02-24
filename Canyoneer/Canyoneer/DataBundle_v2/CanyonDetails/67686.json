@@ -21,173 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.86736485362056,
-            33.838662099451554,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Pueblo Canyon TH",
-          "description": "1.5 miles from devils chasm parking",
-          "elevationMeters": 1784
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.8863,
-            33.8428,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ruins",
-          "elevationMeters": 1623
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.8876,
-            33.8423,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ruins",
-          "elevationMeters": 1662
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.889876,
-            33.840436,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Waterfall",
-          "elevationMeters": 1532
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.889651,
-            33.84067,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 30’",
-          "elevationMeters": 1554
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.88904917240144,
-            33.841082642326185,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 50’",
-          "elevationMeters": 1628
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.887382,
-            33.842002,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - 65’",
-          "elevationMeters": 1604
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.887158,
-            33.842065,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4 - 15’",
-          "elevationMeters": 1604
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.88692083954813,
-            33.84217537299775,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5 - 45’",
-          "elevationMeters": 1558
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.885105,
-            33.842519,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6 - 90’",
-          "description": "Off tree rdc",
-          "elevationMeters": 1434
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.880261,
-            33.843727,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R7 - 30’",
-          "elevationMeters": 1798
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -849,7 +682,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3171.6627586762115,
@@ -982,7 +815,7 @@
         },
         "properties": {
           "name": "Ruin spur",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 427.27515979214553,
@@ -1335,7 +1168,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1553.6666748537589,
@@ -1528,7 +1361,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1185.972346098487,
@@ -1536,8 +1369,186 @@
           "descentMeters": 479.10009765625,
           "changeMeters": -136.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.86736485362056,
+            33.838662099451554,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Pueblo Canyon TH",
+          "description": "1.5 miles from devils chasm parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1784
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.8863,
+            33.8428,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ruins",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1623
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.8876,
+            33.8423,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ruins",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1662
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.889876,
+            33.840436,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waterfall",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1532
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.889651,
+            33.84067,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 30’",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1554
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.88904917240144,
+            33.841082642326185,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 50’",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1628
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.887382,
+            33.842002,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - 65’",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1604
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.887158,
+            33.842065,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4 - 15’",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1604
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.88692083954813,
+            33.84217537299775,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5 - 45’",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1558
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.885105,
+            33.842519,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6 - 90’",
+          "description": "Off tree rdc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1434
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.880261,
+            33.843727,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R7 - 30’",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1798
+        }
       }
     ]
   },
-  "version": "e752de123bb8faf697cbeac407e7a136"
+  "version": "ae6a29980e0cc77907c69c5ad6d68bf9"
 }

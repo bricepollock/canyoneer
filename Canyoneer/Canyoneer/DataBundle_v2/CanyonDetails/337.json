@@ -32,66 +32,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.86317,
-            37.33238,
-            0
-          ]
-        },
-        "properties": {
-          "name": "4x4 Trailhead",
-          "elevationMeters": 1890
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.83336639404298,
-            37.33530966431718,
-            0
-          ]
-        },
-        "properties": {
-          "name": "2WD Trailhead",
-          "elevationMeters": 2060
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.8563153743744,
-            37.309679682894604,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Birch Hollow Trailhead",
-          "elevationMeters": 2069
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.8705257177353,
-            37.324330113371445,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Wild Wind Hollow Exit",
-          "elevationMeters": 1874
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -548,7 +488,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1717.3169420677882,
@@ -921,7 +861,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1223.9893794362943,
@@ -1294,7 +1234,7 @@
         },
         "properties": {
           "name": "Exit (to Orderville 4x4 TH)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1831.9029088288135,
@@ -2322,7 +2262,7 @@
         },
         "properties": {
           "name": "Shuttle Road",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 8618.575607472036,
@@ -3745,7 +3685,7 @@
         },
         "properties": {
           "name": "Wild Wind Hollow",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2765.674155947269,
@@ -3753,8 +3693,72 @@
           "descentMeters": 121.1995849609375,
           "changeMeters": 195
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.86317,
+            37.33238,
+            0
+          ]
+        },
+        "properties": {
+          "name": "4x4 Trailhead",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1890
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.83336639404298,
+            37.33530966431718,
+            0
+          ]
+        },
+        "properties": {
+          "name": "2WD Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 2060
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.8563153743744,
+            37.309679682894604,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Birch Hollow Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 2069
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.8705257177353,
+            37.324330113371445,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Wild Wind Hollow Exit",
+          "stroke": "#FF9500",
+          "elevationMeters": 1874
+        }
       }
     ]
   },
-  "version": "cb83c48db658fbdd233a8e2ad368abe0"
+  "version": "a3d3477299eba69b486286fa945401f1"
 }

@@ -29,50 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.406423855474,
-            20.93687865812894,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In",
-          "styleUrl": "#msn_placemark_circle",
-          "styleHash": "-4e83398a",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle",
-            "highlight": "#sh_placemark_circle_highlight0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 1663
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.405240776244,
-            20.93632106354728,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Approach",
-          "styleUrl": "#msn_placemark_circle0",
-          "styleHash": "38d5d7df",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle2",
-            "highlight": "#sh_placemark_circle_highlight"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 1660
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -121,7 +77,7 @@
             "highlight": "#sh_ylw-pushpin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 271.45935811464193,
@@ -226,7 +182,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 897.67299291081,
@@ -346,7 +302,7 @@
             "highlight": "#sh_ylw-pushpin2"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1095.6146541980202,
@@ -751,13 +707,59 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 11328.993665593407,
           "ascentMeters": 589.7999267578125,
           "descentMeters": 707.2999267578125,
           "changeMeters": -117.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.406423855474,
+            20.93687865812894,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In",
+          "styleUrl": "#msn_placemark_circle",
+          "styleHash": "-4e83398a",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle",
+            "highlight": "#sh_placemark_circle_highlight0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1663
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.405240776244,
+            20.93632106354728,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "styleUrl": "#msn_placemark_circle0",
+          "styleHash": "38d5d7df",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle2",
+            "highlight": "#sh_placemark_circle_highlight"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1660
         }
       },
       {
@@ -779,6 +781,7 @@
             "highlight": "#sh_placemark_circle_highlight2"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1545
         }
       },
@@ -801,6 +804,7 @@
             "highlight": "#sh_placemark_square_highlight"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_square.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1539
         }
       },
@@ -823,10 +827,11 @@
             "highlight": "#sh_placemark_circle_highlight1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1675
         }
       }
     ]
   },
-  "version": "42092322e68e198c370ac16ae2037f77"
+  "version": "55e3314c6a8bc1591d33703dbef9b120"
 }

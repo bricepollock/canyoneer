@@ -14,8 +14,8 @@
   "waterRating": "C",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 12,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 30.48,
   "vehicle": "Passenger",
   "shuttleSeconds": 1500,
@@ -662,7 +662,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -1257,7 +1257,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -1862,7 +1862,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -4222,7 +4222,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#000000",
@@ -4245,6 +4245,7 @@
         },
         "properties": {
           "name": "Parking",
+          "stroke": "#34C759",
           "elevationMeters": 2169
         }
       },
@@ -4260,10 +4261,11 @@
         },
         "properties": {
           "name": "Parking",
+          "stroke": "#AF52DE",
           "elevationMeters": 2190
         }
       }
     ]
   },
-  "version": "d331c2c53fc28059960acdfd168c36bd"
+  "version": "263a15f2afbd97a3a8894a12c4447a42"
 }

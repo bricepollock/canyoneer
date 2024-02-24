@@ -23,11 +23,11 @@
   "waterRating": "C1",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 12,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 45,
   "vehicle": "Passenger",
-  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>AS OF DEC. 2018 THERE ARE NO PERMANENT ANCHORS. ANYONE ATTEMPTING TO\nDESCEND THIS CANYON IS ADVISED TO BRING A HAMMER DRILL AND BE PREPARED\nTO BOLT NEW ANCHORS AT ALL OF THE DROPS. The anchors placed for the\nfirst descent in 2016 are very rusty and are displaying a variety of\nother safety issues. There are scant natural anchor options in the\ncommitment zone. Bonito cañon, sobre todo la parte final.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>The ascent up 1400’ over 2 miles is on a well worn horse trail. Other\nthan being muddy, it is easy going. The drop in from the abandoned farm\nhouse at the top out point to the creek 300 feet below is some of the\nfinest (read hardest) bush wacking in the world and makes New Zealand or\nHawaii bush wacking tame in comparison.</p>\n<h2 id=\"descent\">Descent</h2>\n\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>Primer descenso ralizado 10 Julio 2017 por Edu Gomez, Javier\nRodriguez, Elia Blesa, Edinson Rengifo, Sigfredo de la Rosa.</p>\n",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>AS OF DEC. 2018 THERE ARE NO PERMANENT ANCHORS. ANYONE ATTEMPTING TO\nDESCEND THIS CANYON IS ADVISED TO BRING A HAMMER DRILL AND BE PREPARED\nTO BOLT NEW ANCHORS AT ALL OF THE DROPS. The anchors placed for the\nfirst descent in 2016 are very rusty and are displaying a variety of\nother safety issues. There are scant natural anchor options in the\ncommitment zone. Bonito cañon, sobre todo la parte final.<br />\n<br />\nThe following description was translated from UnoDeAventuras.com by\nGoogle Translate:<br />\n<br />\nThe Salitre ravine (or ravine the cape) is an interesting descent in the\narea. It is a cannon with a jungle environment and a generous water\nflow. Crowd of medium length (less than 40 meters) rappels that happen\nwithout rest until they reach a gorgin narrow and dark. The rappels in\nit are for the water; so we must previously evaluate the flow and avoid\nstorms so as not to pass trouble. When leaving this Gorga the descent\nends; with a water conduction; being able to choose to descend the last\nwaterfall or avoid it by a path to the right.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>The ascent up 1400’ over 2 miles is on a well worn horse trail. Other\nthan being muddy, it is easy going. The drop in from the abandoned farm\nhouse at the top out point to the creek 300 feet below is some of the\nfinest (read hardest) bush wacking in the world and makes New Zealand or\nHawaii bush wacking tame in comparison.</p>\n<h2 id=\"descent\">Descent</h2>\n\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>Unknown. The activity of the descent of cannons is not regulated.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://unodeaventuras.com/descenso-del-canon-de-quebrada-salitre?kmlidx=/wp-content/uploads/2018/11/Quebrada-Salitre.kml\">UnoDeAventuras.com</a>\n: Canyoning Colombia: Quebrada Salitre</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>Primer descenso ralizado 10 Julio 2017 por Edu Gomez, Javier\nRodriguez, Elia Blesa, Edinson Rengifo, Sigfredo de la Rosa.<br />\n<br />\nFirst descent on July 10, 2017 by Elia Blesa; Edu Gómez; Edinson\nRengifo; Sigifredo de la Rosa and Javito Rodríguez.</p>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
@@ -1755,7 +1755,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -1815,7 +1815,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -2475,7 +2475,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -2498,6 +2498,7 @@
         },
         "properties": {
           "name": "End",
+          "stroke": "#FFCC00",
           "elevationMeters": 1817
         }
       },
@@ -2513,6 +2514,7 @@
         },
         "properties": {
           "name": "Parking",
+          "stroke": "#FFCC00",
           "elevationMeters": 2454
         }
       },
@@ -2528,10 +2530,11 @@
         },
         "properties": {
           "name": "Start",
+          "stroke": "#34C759",
           "elevationMeters": 2458
         }
       }
     ]
   },
-  "version": "cf0cb021b4b61861256f062f65d5eda9"
+  "version": "73672ae16c7f2da4d02e68f3c0119574"
 }

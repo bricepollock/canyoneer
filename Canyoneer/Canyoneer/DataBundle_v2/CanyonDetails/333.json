@@ -31,28 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.5793274,
-            37.8505875,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Approach Trailhead",
-          "styleUrl": "#icon-1644-0F9D58-nodesc",
-          "styleHash": "4928e134",
-          "styleMapHash": {
-            "normal": "#icon-1644-0F9D58-nodesc-normal",
-            "highlight": "#icon-1644-0F9D58-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1618
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -355,7 +333,7 @@
             "normal": "#line-0F9D58-4681-nodesc-normal",
             "highlight": "#line-0F9D58-4681-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4.681,
           "lengthMeters": 3167.792866617724,
@@ -659,7 +637,7 @@
             "normal": "#line-FF5252-4488-nodesc-normal",
             "highlight": "#line-FF5252-4488-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4.488,
           "lengthMeters": 787.7339607889292,
@@ -958,7 +936,7 @@
             "normal": "#line-FF5252-5650-nodesc-normal",
             "highlight": "#line-FF5252-5650-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 381.9907537860694,
@@ -1062,7 +1040,7 @@
             "normal": "#line-FF5252-4681-nodesc-normal",
             "highlight": "#line-FF5252-4681-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4.681,
           "lengthMeters": 135.94620579265734,
@@ -1171,7 +1149,7 @@
             "normal": "#line-FFEA00-4488-nodesc-normal",
             "highlight": "#line-FFEA00-4488-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4.488,
           "lengthMeters": 523.6841635742211,
@@ -1265,7 +1243,7 @@
             "normal": "#line-FFEA00-4294-nodesc-normal",
             "highlight": "#line-FFEA00-4294-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4.294,
           "lengthMeters": 295.9072528215976,
@@ -1594,7 +1572,7 @@
             "normal": "#line-0F9D58-4681-nodesc-normal",
             "highlight": "#line-0F9D58-4681-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4.681,
           "lengthMeters": 1163.2144129213389,
@@ -1823,7 +1801,7 @@
             "normal": "#line-0F9D58-4294-nodesc-normal",
             "highlight": "#line-0F9D58-4294-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4.294,
           "lengthMeters": 983.2667225602197,
@@ -1932,7 +1910,7 @@
             "normal": "#line-0F9D58-4681-nodesc-normal",
             "highlight": "#line-0F9D58-4681-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4.681,
           "lengthMeters": 216.07486944666556,
@@ -2036,7 +2014,7 @@
             "normal": "#line-0F9D58-4488-nodesc-normal",
             "highlight": "#line-0F9D58-4488-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4.488,
           "lengthMeters": 454.06938775832634,
@@ -2355,13 +2333,36 @@
             "normal": "#line-0F9D58-4681-nodesc-normal",
             "highlight": "#line-0F9D58-4681-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4.681,
           "lengthMeters": 1078.2567753640587,
           "ascentMeters": 89.7996826171875,
           "descentMeters": 88.6995849609375,
           "changeMeters": 1.10009765625
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.5793274,
+            37.8505875,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Approach Trailhead",
+          "styleUrl": "#icon-1644-0F9D58-nodesc",
+          "styleHash": "4928e134",
+          "styleMapHash": {
+            "normal": "#icon-1644-0F9D58-nodesc-normal",
+            "highlight": "#icon-1644-0F9D58-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1618
         }
       },
       {
@@ -2383,10 +2384,11 @@
             "highlight": "#icon-1644-0288D1-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
           "elevationMeters": 1379
         }
       }
     ]
   },
-  "version": "15928c9913a878f1c795b7722804031d"
+  "version": "56f19360ee6775f1ea013f729affe571"
 }

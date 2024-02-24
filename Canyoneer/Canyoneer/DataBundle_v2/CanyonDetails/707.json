@@ -27,70 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.495609,
-            34.53548,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "description": "I would just park around here and save yourself the trouble of the terrible road. (Data by canyonchronicles.com)",
-          "elevationMeters": 1974
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.485395,
-            34.553084,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Narrows",
-          "description": "Begins around here somewhere. (Data by canyonchronicles.com)",
-          "elevationMeters": 1874
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.484022,
-            34.562414,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Confluence",
-          "description": "With West Clear Creek.  Awesome pool and jumping platform here.  When ready head upstream. (Data by canyonchronicles.com)",
-          "elevationMeters": 1926
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.4753,
-            34.5594,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Calloway trail exit",
-          "description": "Take the trail up this super steep side of West Clear Creek. (Data by canyonchronicles.com)",
-          "elevationMeters": 1929
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -133,7 +69,7 @@
         "properties": {
           "name": "Line 2",
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#3333ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2345.278468911172,
@@ -192,7 +128,7 @@
         "properties": {
           "name": "Line 3",
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1217.1960179629662,
@@ -1396,7 +1332,7 @@
         "properties": {
           "name": "Line 4",
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 7575.833755107011,
@@ -1404,8 +1340,76 @@
           "descentMeters": 482.2996826171875,
           "changeMeters": 49.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.495609,
+            34.53548,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "description": "I would just park around here and save yourself the trouble of the terrible road. (Data by canyonchronicles.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1974
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.485395,
+            34.553084,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Narrows",
+          "description": "Begins around here somewhere. (Data by canyonchronicles.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1874
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.484022,
+            34.562414,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Confluence",
+          "description": "With West Clear Creek.  Awesome pool and jumping platform here.  When ready head upstream. (Data by canyonchronicles.com)",
+          "stroke": "#34C759",
+          "elevationMeters": 1926
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4753,
+            34.5594,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Calloway trail exit",
+          "description": "Take the trail up this super steep side of West Clear Creek. (Data by canyonchronicles.com)",
+          "stroke": "#34C759",
+          "elevationMeters": 1929
+        }
       }
     ]
   },
-  "version": "703d6ceac313d2c4d0f96fcb75dd2fd4"
+  "version": "df9f63c7cdc566d5940f825cf8a64969"
 }

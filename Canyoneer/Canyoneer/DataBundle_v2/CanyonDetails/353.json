@@ -29,29 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.902664749,
-            37.224601326,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-1453",
-          "styleHash": "48a3dc84",
-          "styleMapHash": {
-            "normal": "#icon-1453-normal",
-            "highlight": "#icon-1453-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "description": "Park",
-          "elevationMeters": 1835
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -269,7 +246,7 @@
             "normal": "#line-097138-5456-nodesc-normal",
             "highlight": "#line-097138-5456-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 582.2755363425827,
@@ -368,7 +345,7 @@
             "normal": "#line-A52714-5456-nodesc-normal",
             "highlight": "#line-A52714-5456-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 135.0958424122194,
@@ -427,7 +404,7 @@
             "normal": "#line-558B2F-5263-nodesc-normal",
             "highlight": "#line-558B2F-5263-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 34.114314941548656,
@@ -611,81 +588,13 @@
             "normal": "#line-A52714-5456-nodesc-normal",
             "highlight": "#line-A52714-5456-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 246.2709097309215,
           "ascentMeters": 97,
           "descentMeters": 18.199951171875,
           "changeMeters": 78.800048828125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.9030581,
-            37.2267739,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - Optional",
-          "styleUrl": "#icon-1161",
-          "styleHash": "344d389d",
-          "styleMapHash": {
-            "normal": "#icon-1161-normal",
-            "highlight": "#icon-1161-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1161-crisis-landslide.png",
-          "description": "This spot can be down climbed but novices likely will want a handline or a rappel",
-          "elevationMeters": 1730
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.9025095,
-            37.2268414,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1732
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.9029963,
-            37.2268008,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - Optional",
-          "styleUrl": "#icon-1161",
-          "styleHash": "344d389d",
-          "styleMapHash": {
-            "normal": "#icon-1161-normal",
-            "highlight": "#icon-1161-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1161-crisis-landslide.png",
-          "description": "This spot can be down climbed but novices likely will want a handline or a rappel",
-          "elevationMeters": 1717
         }
       },
       {
@@ -778,13 +687,108 @@
             "normal": "#line-FFD600-5456-nodesc-normal",
             "highlight": "#line-FFD600-5456-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 135.656420631542,
           "ascentMeters": 29.2999267578125,
           "descentMeters": 5.39990234375,
           "changeMeters": 23.9000244140625
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.902664749,
+            37.224601326,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-1453",
+          "styleHash": "48a3dc84",
+          "styleMapHash": {
+            "normal": "#icon-1453-normal",
+            "highlight": "#icon-1453-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "description": "Park",
+          "stroke": "#34C759",
+          "elevationMeters": 1835
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.9030581,
+            37.2267739,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - Optional",
+          "styleUrl": "#icon-1161",
+          "styleHash": "344d389d",
+          "styleMapHash": {
+            "normal": "#icon-1161-normal",
+            "highlight": "#icon-1161-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1161-crisis-landslide.png",
+          "description": "This spot can be down climbed but novices likely will want a handline or a rappel",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1730
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.9025095,
+            37.2268414,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1732
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.9029963,
+            37.2268008,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - Optional",
+          "styleUrl": "#icon-1161",
+          "styleHash": "344d389d",
+          "styleMapHash": {
+            "normal": "#icon-1161-normal",
+            "highlight": "#icon-1161-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1161-crisis-landslide.png",
+          "description": "This spot can be down climbed but novices likely will want a handline or a rappel",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1717
         }
       },
       {
@@ -806,10 +810,11 @@
             "highlight": "#icon-1467-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1467-trans-tunnel.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 1835
         }
       }
     ]
   },
-  "version": "d7955ae6f6dbabdb9d4fe8807472f6d9"
+  "version": "b1ef9671b4caf723ed5d9ae21a28141b"
 }

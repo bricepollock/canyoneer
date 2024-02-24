@@ -29,51 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.66818,
-            48.66149,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trail Crossing",
-          "elevationMeters": 255
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.67489,
-            48.64561,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 628
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.6377,
-            48.67495,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 1189
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -690,7 +645,7 @@
         },
         "properties": {
           "name": "Shuttle Route",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 7120.770552096512,
@@ -973,7 +928,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 3070.0515745136204,
@@ -1171,7 +1126,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2049.7483450092604,
@@ -1179,8 +1134,56 @@
           "descentMeters": 34.5,
           "changeMeters": 368.1999816894531
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.66818,
+            48.66149,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trail Crossing",
+          "stroke": "#FF3B30",
+          "elevationMeters": 255
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.67489,
+            48.64561,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 628
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.6377,
+            48.67495,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1189
+        }
       }
     ]
   },
-  "version": "d41062bdcfa44b6961fa9172b45d0add"
+  "version": "747e8c1f76866546b65b8171c7fdf60a"
 }

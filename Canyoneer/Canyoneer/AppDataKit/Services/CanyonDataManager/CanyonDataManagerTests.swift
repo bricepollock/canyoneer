@@ -30,7 +30,7 @@ class CanyonDataManagerTests: XCTestCase {
     
     func testIndexFromBundle() async throws {
         let index = try await manager.loadIndexFromFile()
-        XCTAssertEqual(index.count, 10635)
+        XCTAssertEqual(index.count, 10751)
     }
     
     func testReadWriteIndex() async throws {
@@ -84,22 +84,81 @@ class CanyonDataManagerTests: XCTestCase {
         XCTAssertEqual(canyon.rappelCountMax, 8)
         XCTAssertEqual(canyon.rappelLongestMeters, 30.48)
         XCTAssertTrue(canyon.htmlDescription?.contains("SCOTTY'S CANYON WITH RICK KENT") ?? false)
-        XCTAssertEqual(canyon.version, "d428d51485d00ceaacf4631440fb242a")
+        XCTAssertNil(canyon.vehicleAccessibility)
+        XCTAssertEqual(canyon.version, "ca61c07d1fcbbfa32da0e97165344293")
         
         // Test Translation
-        XCTAssertEqual(canyon.urlString, "https://ropewiki.com/Scotty%27s_Canyon")
-        XCTAssertEqual(canyon.latitude, 35.9681)
-        XCTAssertEqual(canyon.longitude, -116.6582)
-        XCTAssertEqual(canyon.id, 6880)
-        XCTAssertEqual(canyon.name, "Scotty's Canyon")
-        XCTAssertEqual(canyon.quality, 3)
-        
         XCTAssertEqual(canyon.technicalRating, .three)
         XCTAssertNil(canyon.riskRating)
         XCTAssertEqual(canyon.waterRating, .a)
         XCTAssertEqual(canyon.timeRating, .three)
         XCTAssertEqual(canyon.bestMonths, [.november,.december,.january,.february,.march])
-        XCTAssertNil(canyon.vehicleAccessibility)
+        
+    }
+    
+    func testReadDecode_mystery() async throws {
+        let canyonID = 358
+        let canyon = try await manager.loadCanyonFromFile(id: String(canyonID))
+        
+        // Test Decode
+        XCTAssertEqual(canyon.urlString, "https://ropewiki.com/Mystery_Canyon")
+        XCTAssertEqual(canyon.latitude, 37.2886)
+        XCTAssertEqual(canyon.longitude, -112.9297)
+        XCTAssertEqual(canyon.id, 358)
+        XCTAssertEqual(canyon.name, "Mystery Canyon")
+        XCTAssertEqual(canyon.quality, 4.2)
+        XCTAssertEqual(canyon.monthStringList, ["Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov"])
+        XCTAssertEqual(canyon.technicalRatingRaw, 3)
+        XCTAssertEqual(canyon.waterRatingString, "B")
+        XCTAssertEqual(canyon.timeRatingString, "III")
+        XCTAssertEqual(canyon.permitString, "Yes")
+        XCTAssertEqual(canyon.rappelCountMin, 13)
+        XCTAssertEqual(canyon.rappelCountMax, 13)
+        XCTAssertEqual(canyon.rappelLongestMeters, 33.53)
+        XCTAssertTrue(canyon.htmlDescription?.contains("One of the most coveted canyons in Zion") ?? false)
+        XCTAssertEqual(canyon.vehicleString, "Passenger")
+        XCTAssertEqual(canyon.version, "37354cc4509c77aaafb93a42a51b97ff")
+        
+        // Test Translation
+        XCTAssertEqual(canyon.technicalRating, .three)
+        XCTAssertNil(canyon.riskRating)
+        XCTAssertEqual(canyon.waterRating, .b)
+        XCTAssertEqual(canyon.timeRating, .three)
+        XCTAssertEqual(canyon.bestMonths, [.march,.april, .may, .june, .july, .august, .september, .october, .november])
+        XCTAssertEqual(canyon.vehicleAccessibility, .passenger)
+        XCTAssertEqual(canyon.permitString, "Yes")
+        XCTAssertEqual(canyon.permit, .required)
+    }
+    
+    func testReadDecode_styx() async throws {
+        let canyonID = 1407
+        let canyon = try await manager.loadCanyonFromFile(id: String(canyonID))
+        
+        // Test Decode
+        XCTAssertEqual(canyon.urlString, "https://ropewiki.com/Styx_Canyon_(North_Fork)")
+        XCTAssertEqual(canyon.latitude, 36.1946)
+        XCTAssertEqual(canyon.longitude, -116.7263)
+        XCTAssertEqual(canyon.id, 1407)
+        XCTAssertEqual(canyon.name, "Styx Canyon (North Fork)")
+        XCTAssertEqual(canyon.quality, 4.6)
+        XCTAssertEqual(canyon.technicalRatingRaw, 3)
+        XCTAssertEqual(canyon.waterRatingString, "A")
+        XCTAssertEqual(canyon.timeRatingString, "IV")
+        XCTAssertEqual(canyon.permitString, "No")
+        XCTAssertEqual(canyon.rappelCountMin, 16)
+        XCTAssertEqual(canyon.rappelCountMax, 22)
+        XCTAssertEqual(canyon.rappelLongestMeters, 32)
+        XCTAssertEqual(canyon.shuttleInSeconds, 4200)
+        XCTAssertEqual(canyon.vehicleString, "Passenger")
+        XCTAssertEqual(canyon.version, "ab2392fa6bf7d63cfdb55ec005e12b6f")
+        
+        // Test Translation
+        XCTAssertEqual(canyon.technicalRating, .three)
+        XCTAssertNil(canyon.riskRating)
+        XCTAssertEqual(canyon.waterRating, .a)
+        XCTAssertEqual(canyon.timeRating, .four)
+        XCTAssertEqual(canyon.vehicleAccessibility, .passenger)
+        XCTAssertEqual(canyon.permit, .notRequired)
     }
     
     func testReadDecode_risk_vehicle() async throws {

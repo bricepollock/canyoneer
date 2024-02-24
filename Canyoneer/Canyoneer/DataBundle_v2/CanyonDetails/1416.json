@@ -17,28 +17,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.7139481443517,
-            34.10344771103336,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#msn_parking_lot",
-          "styleHash": "bdcce78",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 367
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -331,7 +309,7 @@
             "normal": "#dir_route1",
             "highlight": "#dir_route"
           },
-          "stroke": "#00d000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 2490.834120096839,
@@ -436,7 +414,7 @@
             "normal": "#dir_route8",
             "highlight": "#dir_route9"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 1125.7201126508044,
@@ -545,79 +523,13 @@
             "normal": "#dir_route3",
             "highlight": "#dir_route2"
           },
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 397.0030145363784,
           "ascentMeters": 81,
           "descentMeters": 23.100006103515625,
           "changeMeters": 57.899993896484375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.7298559031633,
-            34.09642247383499,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Swimming pool",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 326
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.7317432169345,
-            34.10521117460768,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Alternate parking",
-          "styleUrl": "#msn_parking_lot0",
-          "styleHash": "-6c1b191a",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot0",
-            "highlight": "#sh_parking_lot0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 341
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.7163335573553,
-            34.09675129956014,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Paid parking",
-          "styleUrl": "#msn_parking_lot0",
-          "styleHash": "-6c1b191a",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot0",
-            "highlight": "#sh_parking_lot0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 336
         }
       },
       {
@@ -840,7 +752,7 @@
             "normal": "#dir_route7",
             "highlight": "#dir_route0"
           },
-          "stroke": "#00a000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 3,
           "lengthMeters": 1246.3836856184546,
@@ -849,8 +761,100 @@
           "changeMeters": 3.79998779296875
         },
         "id": "23.4"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.7139481443517,
+            34.10344771103336,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#msn_parking_lot",
+          "styleHash": "bdcce78",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 367
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.7298559031633,
+            34.09642247383499,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Swimming pool",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 326
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.7317432169345,
+            34.10521117460768,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Alternate parking",
+          "styleUrl": "#msn_parking_lot0",
+          "styleHash": "-6c1b191a",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot0",
+            "highlight": "#sh_parking_lot0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 341
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.7163335573553,
+            34.09675129956014,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Paid parking",
+          "styleUrl": "#msn_parking_lot0",
+          "styleHash": "-6c1b191a",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot0",
+            "highlight": "#sh_parking_lot0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 336
+        }
       }
     ]
   },
-  "version": "5467ced5f5b2f20e1511a953b9559691"
+  "version": "83032b912c689232fce0d89ade14a544"
 }

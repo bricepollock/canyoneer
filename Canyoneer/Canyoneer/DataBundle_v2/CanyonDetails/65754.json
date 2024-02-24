@@ -29,84 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8947407603264,
-            34.91137006239886,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "Off tree",
-          "elevationMeters": 1379
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8950116634369,
-            34.91135906482723,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "description": "Off tree",
-          "elevationMeters": 1379
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.89610600471498,
-            34.911334870164495,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": "Off tree",
-          "elevationMeters": 1379
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.897107,
-            34.912696,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gully",
-          "elevationMeters": 1367
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.898345,
-            34.912167,
-            0
-          ]
-        },
-        "properties": {
-          "name": "5-easy crack",
-          "elevationMeters": 1378
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -563,7 +485,7 @@
         },
         "properties": {
           "name": "Gully Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1010.1060519239126,
@@ -686,7 +608,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 176.4954549223183,
@@ -979,7 +901,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 806.0624817993937,
@@ -1097,7 +1019,7 @@
         },
         "properties": {
           "name": "Crack Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 229.14142909961024,
@@ -1105,8 +1027,91 @@
           "descentMeters": 5.699951171875,
           "changeMeters": 0.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8947407603264,
+            34.91137006239886,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "Off tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1379
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8950116634369,
+            34.91135906482723,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "Off tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1379
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.89610600471498,
+            34.911334870164495,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "Off tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1379
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.897107,
+            34.912696,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gully",
+          "stroke": "#34C759",
+          "elevationMeters": 1367
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.898345,
+            34.912167,
+            0
+          ]
+        },
+        "properties": {
+          "name": "5-easy crack",
+          "stroke": "#34C759",
+          "elevationMeters": 1378
+        }
       }
     ]
   },
-  "version": "272b9d3c6a52c217619032f2cee9160e"
+  "version": "dddf39b5b62d62c5d99c9ed5eec15ac2"
 }

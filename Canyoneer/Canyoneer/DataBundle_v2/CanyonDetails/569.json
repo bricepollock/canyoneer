@@ -29,28 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.1468264,
-            38.4578576,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking / Trailhead",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1617
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1323,35 +1301,13 @@
             "normal": "#line-097138-5456-nodesc-normal",
             "highlight": "#line-097138-5456-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 3883.946136178411,
           "ascentMeters": 184.7998046875,
           "descentMeters": 182.8997802734375,
           "changeMeters": 1.9000244140625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.1400077,
-            38.4682105,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rappel - Nuisance Drop",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1691
         }
       },
       {
@@ -1879,7 +1835,7 @@
             "normal": "#line-4E342E-5263-nodesc-normal",
             "highlight": "#line-4E342E-5263-nodesc-highlight"
           },
-          "stroke": "#4e342e",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 1343.384267169214,
@@ -3363,35 +3319,13 @@
             "normal": "#line-FFD600-5456-nodesc-normal",
             "highlight": "#line-FFD600-5456-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 3743.202645017287,
           "ascentMeters": 181.400390625,
           "descentMeters": 127.6004638671875,
           "changeMeters": 53.7999267578125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.1490295,
-            38.4883289,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Up Climb",
-          "styleUrl": "#icon-1161-nodesc",
-          "styleHash": "-b094d8a",
-          "styleMapHash": {
-            "normal": "#icon-1161-nodesc-normal",
-            "highlight": "#icon-1161-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1161-crisis-landslide.png",
-          "elevationMeters": 1602
         }
       },
       {
@@ -3694,35 +3628,13 @@
             "normal": "#line-A52714-5650-nodesc-normal",
             "highlight": "#line-A52714-5650-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 1042.5979839683566,
           "ascentMeters": 10.2998046875,
           "descentMeters": 55.4998779296875,
           "changeMeters": -45.2000732421875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.1515009,
-            38.4968073,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Reverse and Ascend at this Point",
-          "styleUrl": "#icon-1203-nodesc",
-          "styleHash": "-2602e1f3",
-          "styleMapHash": {
-            "normal": "#icon-1203-nodesc-normal",
-            "highlight": "#icon-1203-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1203-fac-info.png",
-          "elevationMeters": 1558
         }
       },
       {
@@ -4120,13 +4032,105 @@
             "normal": "#line-097138-5650-nodesc-normal",
             "highlight": "#line-097138-5650-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 1354.8691699858161,
           "ascentMeters": 6.2999267578125,
           "descentMeters": 22.39990234375,
           "changeMeters": -16.0999755859375
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.1468264,
+            38.4578576,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking / Trailhead",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1617
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.1400077,
+            38.4682105,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rappel - Nuisance Drop",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1691
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.1490295,
+            38.4883289,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Up Climb",
+          "styleUrl": "#icon-1161-nodesc",
+          "styleHash": "-b094d8a",
+          "styleMapHash": {
+            "normal": "#icon-1161-nodesc-normal",
+            "highlight": "#icon-1161-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1161-crisis-landslide.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1602
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.1515009,
+            38.4968073,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Reverse and Ascend at this Point",
+          "styleUrl": "#icon-1203-nodesc",
+          "styleHash": "-2602e1f3",
+          "styleMapHash": {
+            "normal": "#icon-1203-nodesc-normal",
+            "highlight": "#icon-1203-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1203-fac-info.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1558
         }
       },
       {
@@ -4148,6 +4152,7 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1600
         }
       },
@@ -4170,10 +4175,11 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1598
         }
       }
     ]
   },
-  "version": "2414e64d95f819cab9dbcbb618849507"
+  "version": "7738bad9e4921019a4ea1019bd17a3ac"
 }

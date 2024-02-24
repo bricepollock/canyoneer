@@ -21,8 +21,8 @@
   "timeRating": "IV",
   "riskRating": "PG",
   "permit": "Yes",
-  "rappelCountMin": 4,
-  "rappelCountMax": 4,
+  "rappelCountMin": 11,
+  "rappelCountMax": 14,
   "rappelLongestMeters": 50,
   "vehicle": "4WD",
   "shuttleSeconds": 2700,
@@ -804,7 +804,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -914,7 +914,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -1074,7 +1074,7 @@
         },
         "properties": {
           "name": "Hike to Peak",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#00CD00",
@@ -1097,6 +1097,7 @@
         },
         "properties": {
           "name": "Arch",
+          "stroke": "#FF3B30",
           "elevationMeters": 1039
         }
       },
@@ -1112,6 +1113,7 @@
         },
         "properties": {
           "name": "Parking Approach",
+          "stroke": "#34C759",
           "elevationMeters": 1046
         }
       },
@@ -1127,6 +1129,7 @@
         },
         "properties": {
           "name": "Parking Exit",
+          "stroke": "#FF3B30",
           "elevationMeters": 987
         }
       },
@@ -1142,6 +1145,7 @@
         },
         "properties": {
           "name": "Peak",
+          "stroke": "#34C759",
           "elevationMeters": 1015
         }
       },
@@ -1157,10 +1161,11 @@
         },
         "properties": {
           "name": "Petroglyphs",
+          "stroke": "#FF3B30",
           "elevationMeters": 991
         }
       }
     ]
   },
-  "version": "fb40a9bbc16990ed17e4f719b7c7ccd8"
+  "version": "6fa579120f935a35b9f85e4da26cb906"
 }

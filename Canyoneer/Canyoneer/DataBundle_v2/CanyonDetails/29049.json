@@ -14,220 +14,13 @@
     "Oct"
   ],
   "permit": "No",
-  "rappelCountMin": 4,
-  "rappelCountMax": 4,
+  "rappelCountMin": 14,
+  "rappelCountMax": 14,
   "rappelLongestMeters": 52,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://latrencanous.com/barrancos/gabieto/topo.pdf\">Latrencanous.com</a>\n: Gabieto</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://guara.info/guara-base-de-datos/descenso-de-barrancos/pirineo/barranco-o-grau-de-gabieto\">Guara.info</a>\n: Barranco o Grau de Gabieto</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://altopirineo.com/barranco-de-gabieto\">Altopirineo.com</a> :\nBarranco de Gabieto</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=1949688\">Wikiloc.com</a> :\nARAGON VALLE de Otal Barranco Gabieto desde el camping Bujaruelo</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=1949696\">Wikiloc.com</a> :\nARAGON OTAL canyon Gabieto acceso San Nicolas de Bujaruelo</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.124008,
-            42.677031,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "65d8c16d",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by arroil at wikiloc.com)",
-          "elevationMeters": 1441
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.100392,
-            42.687166,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "2651b99d",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by arroil at wikiloc.com)",
-          "elevationMeters": 2006
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.106142,
-            42.689973,
-            0
-          ]
-        },
-        "properties": {
-          "name": "camino canyon",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "441535bc",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by arroil at wikiloc.com)",
-          "elevationMeters": 1856
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.099914,
-            42.68705,
-            0
-          ]
-        },
-        "properties": {
-          "name": "entrada canyon",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "441535bc",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by arroil at wikiloc.com)",
-          "elevationMeters": 2020
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.122531,
-            42.677324,
-            0
-          ]
-        },
-        "properties": {
-          "name": "puente Abetos",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "441535bc",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by arroil at wikiloc.com)",
-          "elevationMeters": 1404
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.106216,
-            42.695005,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Puente San Nicolas",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "441535bc",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by arroil at wikiloc.com)",
-          "elevationMeters": 1431
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.106409,
-            42.688947,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Faixa Guasa",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "441535bc",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by arroil at wikiloc.com)",
-          "elevationMeters": 1919
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.122819,
-            42.670263,
-            0
-          ]
-        },
-        "properties": {
-          "name": "faixa Guasa",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "441535bc",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by arroil at wikiloc.com)",
-          "elevationMeters": 1646
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.124005,
-            42.677003,
-            0
-          ]
-        },
-        "properties": {
-          "name": "camping Valle de Bujaruelo",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "441535bc",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by arroil at wikiloc.com)",
-          "elevationMeters": 1441
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -718,7 +511,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by arroil at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3095.329213823046,
@@ -726,8 +519,224 @@
           "descentMeters": 442,
           "changeMeters": 564.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.124008,
+            42.677031,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "2b6e4ea8",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by arroil at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1441
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.100392,
+            42.687166,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "5b74c9ba",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by arroil at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2006
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.106142,
+            42.689973,
+            0
+          ]
+        },
+        "properties": {
+          "name": "camino canyon",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-b8cc9a5",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by arroil at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1856
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.099914,
+            42.68705,
+            0
+          ]
+        },
+        "properties": {
+          "name": "entrada canyon",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-b8cc9a5",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by arroil at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2020
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.122531,
+            42.677324,
+            0
+          ]
+        },
+        "properties": {
+          "name": "puente Abetos",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-b8cc9a5",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by arroil at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1404
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.106216,
+            42.695005,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Puente San Nicolas",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-b8cc9a5",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by arroil at wikiloc.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1431
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.106409,
+            42.688947,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Faixa Guasa",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-b8cc9a5",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by arroil at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1919
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.122819,
+            42.670263,
+            0
+          ]
+        },
+        "properties": {
+          "name": "faixa Guasa",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-b8cc9a5",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by arroil at wikiloc.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1646
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.124005,
+            42.677003,
+            0
+          ]
+        },
+        "properties": {
+          "name": "camping Valle de Bujaruelo",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-b8cc9a5",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by arroil at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1441
+        }
       }
     ]
   },
-  "version": "207dd2d43e3e502a62ecb46328fd2391"
+  "version": "446ff6cd71440e9203b8fb3af9b071e1"
 }

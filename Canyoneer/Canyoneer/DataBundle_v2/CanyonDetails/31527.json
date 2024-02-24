@@ -27,22 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -93.28967571258546,
-            36.018420293390605,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Parking (untested)",
-          "description": "parking anywhere on AR 74 that you can, then hike on to County 141 and into the drainage.  Has not been verified.",
-          "elevationMeters": 622
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -179,90 +163,13 @@
         },
         "properties": {
           "name": "Shuttle Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 798.4478415564924,
           "ascentMeters": 80,
           "descentMeters": 13.9000244140625,
           "changeMeters": 66.0999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -93.28656435012817,
-            36.02798262983792,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Eye of the Needle",
-          "elevationMeters": 649
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -93.28678965568544,
-            36.027991306567195,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In (gully)",
-          "description": "puts you below Eye of the Needle\n",
-          "elevationMeters": 645
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -93.28737974166872,
-            36.026229910928876,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In (untested)",
-          "description": "this drop in is unverified, but designed to place you right above Eye of the Needle so you can descend through it",
-          "elevationMeters": 603
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -93.28439712524415,
-            36.04778043869968,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Take Out",
-          "elevationMeters": 294
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -93.2807493209839,
-            36.0553095869103,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 277
         }
       },
       {
@@ -710,7 +617,7 @@
         "properties": {
           "name": "Gully Approach (rough)",
           "description": "Very primitive, bushwhacking trail, follow the Caltopo and pick the best route.  Starts on the real Indian Creek Trail and use what's left of the Primitive Trail.  This approach will place you below the eye of the needle but add the 2 rappels through the gully mentioned in the Ropewiki.  Wherever you can get on to the gully is fine.",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 4570.368068323315,
@@ -883,7 +790,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 967.2008809369722,
@@ -1321,7 +1228,7 @@
         },
         "properties": {
           "name": "Indian Creek",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2548.976274149098,
@@ -1619,7 +1526,7 @@
         },
         "properties": {
           "name": "Shuttle Addtl. Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1529.8462094776476,
@@ -1788,7 +1695,7 @@
         "properties": {
           "name": "Approach II (untested)",
           "description": "proposed approach following Rickinlo beta to drop into the canyon above Eye of the Needle",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1619.6932636337956,
@@ -1796,8 +1703,107 @@
           "descentMeters": 86.4000244140625,
           "changeMeters": 304.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.28967571258546,
+            36.018420293390605,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Parking (untested)",
+          "description": "parking anywhere on AR 74 that you can, then hike on to County 141 and into the drainage.  Has not been verified.",
+          "stroke": "#34C759",
+          "elevationMeters": 622
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.28656435012817,
+            36.02798262983792,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Eye of the Needle",
+          "stroke": "#FF3B30",
+          "elevationMeters": 649
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.28678965568544,
+            36.027991306567195,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In (gully)",
+          "description": "puts you below Eye of the Needle\n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 645
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.28737974166872,
+            36.026229910928876,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In (untested)",
+          "description": "this drop in is unverified, but designed to place you right above Eye of the Needle so you can descend through it",
+          "stroke": "#FF3B30",
+          "elevationMeters": 603
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.28439712524415,
+            36.04778043869968,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Take Out",
+          "stroke": "#FF3B30",
+          "elevationMeters": 294
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.2807493209839,
+            36.0553095869103,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 277
+        }
       }
     ]
   },
-  "version": "7c7f3ad756641afcd4e7904052d00bf9"
+  "version": "650149859c1f623cf8b6035948e6c110"
 }

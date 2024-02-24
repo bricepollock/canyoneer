@@ -18,8 +18,8 @@
   "timeRating": "II",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 60,
   "shuttleSeconds": 300,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2844\">Descente-Canyon.com</a>\n: Valldemossa</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_valdemossa.htm\">CicaRudeClan.com</a>\n: Torrent de Valdemossa</li>\n<li><img src=\"rwl_pl.png\" title=\"rwl_pl.png\" alt=\"rwl_pl.png\" /><a\nhref=\"http://canyoning.wroclaw.pl/kanion.php?id=29\">Canyoning.Wroclaw.pl</a>\n: Valldemossa</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/TorrentValldemossaCanyon\">Canyon.Carto.net</a>\n: Torrent de Valldemossa</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://doblevuit.com/blog/conexio-torrents-des-lli-i-des-salt-de-vistamar-pel-pas-des-moro\">Doblevuit.com</a>\n: Conexió Torrents des Lli i Salt de Vistamar</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://neotopossport.blogspot.com.es/2011/05/torrents-del-cable-i-lli-valldemossa.html\">NeoToposSport</a>\n: (2011-01)</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://esconatura.com/barranquismo-valldemosa.htm\">EscoNatura.com</a>\n: Valldemosa</li>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"http://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:mallorca:valldemossa\">Wiki-Infobarrancos</a>\n: Canyon de Valldemossa, Torrent del Lli de sa Marina\n(http://infobarrancos.es/)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=9117933\">Wikiloc.com</a> :\nTorrent des Lli</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=4440842\">Wikiloc.com</a> :\nsalt des lli</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=8447192\">Wikiloc.com</a> :\nTorrent des Lli</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=8492649\">Wikiloc.com</a> :\nValldemossa</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=8495291\">Wikiloc.com</a> :\nTorrent del lli.</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
@@ -46,6 +46,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 15 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 621
         }
       },
@@ -69,6 +70,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": "avant le grand bloc (Data by Streicher Wolfgang on 15 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 527
         }
       },
@@ -92,6 +94,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Streicher Wolfgang on 15 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 627
         }
       },
@@ -115,10 +118,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
           "description": " (Data by Streicher Wolfgang on 15 fév 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 513
         }
       }
     ]
   },
-  "version": "21bd293ae7fabf402d6ea6640a6ecc20"
+  "version": "fb8f8f6059a562a300e089f9e708e2ee"
 }

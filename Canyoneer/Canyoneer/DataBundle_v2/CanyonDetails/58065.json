@@ -27,51 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.5917568204168,
-            34.55744695911109,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rap 1",
-          "elevationMeters": 1816
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.58832359418741,
-            34.551391196789915,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Car Park",
-          "elevationMeters": 1851
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.59178686037195,
-            34.56493842922964,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Supai Falls",
-          "elevationMeters": 1747
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1287,7 +1242,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1255.7326538907669,
@@ -3459,7 +3414,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1158.7023398897109,
@@ -7656,7 +7611,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2188.39561102271,
@@ -7664,8 +7619,56 @@
           "descentMeters": 537.3997802734375,
           "changeMeters": 154.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.5917568204168,
+            34.55744695911109,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rap 1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1816
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.58832359418741,
+            34.551391196789915,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Car Park",
+          "stroke": "#34C759",
+          "elevationMeters": 1851
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.59178686037195,
+            34.56493842922964,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Supai Falls",
+          "stroke": "#34C759",
+          "elevationMeters": 1747
+        }
       }
     ]
   },
-  "version": "da6924e7d5cf4f02947349baf6ebd881"
+  "version": "8221e5cc6db1d76a6099ac4e8374d0ff"
 }

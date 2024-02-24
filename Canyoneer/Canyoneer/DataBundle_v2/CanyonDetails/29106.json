@@ -28,167 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.145968,
-            39.187041,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-2c768df1",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by juanjalance at wikiloc.com)",
-          "elevationMeters": 856
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.146076,
-            39.187058,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "50aabe9b",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by juanjalance at wikiloc.com)",
-          "elevationMeters": 859
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.1457,
-            39.187449,
-            0
-          ]
-        },
-        "properties": {
-          "name": "INICIO BARRANCO CAPELLANES",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-36556103",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by juanjalance at wikiloc.com)",
-          "elevationMeters": 861
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.147996,
-            39.190476,
-            0
-          ]
-        },
-        "properties": {
-          "name": "UNION BARRANCO LOS ROBLES",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-36556103",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by juanjalance at wikiloc.com)",
-          "elevationMeters": 932
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.147921,
-            39.191748,
-            0
-          ]
-        },
-        "properties": {
-          "name": "FINAL DE LOS CAPELLANES INICIO SENDA",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-36556103",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by juanjalance at wikiloc.com)",
-          "elevationMeters": 975
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.15732,
-            39.188322,
-            0
-          ]
-        },
-        "properties": {
-          "name": "FINAL DEL SENDERO RETORNO",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-36556103",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by juanjalance at wikiloc.com)",
-          "elevationMeters": 845
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.157395,
-            39.187864,
-            0
-          ]
-        },
-        "properties": {
-          "name": "INICIO CAMINO DE TIERRA",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-36556103",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by juanjalance at wikiloc.com)",
-          "elevationMeters": 836
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -796,7 +635,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by juanjalance at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3068.3963781273355,
@@ -804,8 +643,176 @@
           "descentMeters": 367.19989013671875,
           "changeMeters": 2.800048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.145968,
+            39.187041,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-1e56a49a",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by juanjalance at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 856
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.146076,
+            39.187058,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "698824e1",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by juanjalance at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 859
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.1457,
+            39.187449,
+            0
+          ]
+        },
+        "properties": {
+          "name": "INICIO BARRANCO CAPELLANES",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "7640389d",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by juanjalance at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 861
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.147996,
+            39.190476,
+            0
+          ]
+        },
+        "properties": {
+          "name": "UNION BARRANCO LOS ROBLES",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "7640389d",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by juanjalance at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 932
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.147921,
+            39.191748,
+            0
+          ]
+        },
+        "properties": {
+          "name": "FINAL DE LOS CAPELLANES INICIO SENDA",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "7640389d",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by juanjalance at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 975
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.15732,
+            39.188322,
+            0
+          ]
+        },
+        "properties": {
+          "name": "FINAL DEL SENDERO RETORNO",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "7640389d",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by juanjalance at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 845
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.157395,
+            39.187864,
+            0
+          ]
+        },
+        "properties": {
+          "name": "INICIO CAMINO DE TIERRA",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "7640389d",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by juanjalance at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 836
+        }
       }
     ]
   },
-  "version": "a91f7b3e65dc104a7a7c117af8232e0a"
+  "version": "3c7cd5bd0d70ba1f657d6dec7555f5e3"
 }

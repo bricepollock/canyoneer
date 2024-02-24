@@ -26,96 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.12574,
-            48.88309,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start Parking",
-          "elevationMeters": 167
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.13127778712065,
-            48.88267502405317,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Parking",
-          "elevationMeters": 143
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.1224,
-            48.87811,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave Trail",
-          "elevationMeters": 283
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.1232212539673,
-            48.877941727867075,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-in",
-          "elevationMeters": 271
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.12298,
-            48.87781,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 or Slide",
-          "elevationMeters": 275
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.1258503214264,
-            48.879432283043265,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End Technical Section",
-          "elevationMeters": 223
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -347,7 +257,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1137.3087247013152,
@@ -635,7 +545,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 817.5224975099215,
@@ -708,7 +618,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 277.75825684986626,
@@ -946,7 +856,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 616.5742138221597,
@@ -954,8 +864,104 @@
           "descentMeters": 14.5999755859375,
           "changeMeters": 79.60000610351562
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.12574,
+            48.88309,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 167
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.13127778712065,
+            48.88267502405317,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 143
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.1224,
+            48.87811,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave Trail",
+          "stroke": "#34C759",
+          "elevationMeters": 283
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.1232212539673,
+            48.877941727867075,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-in",
+          "stroke": "#FF3B30",
+          "elevationMeters": 271
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.12298,
+            48.87781,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 or Slide",
+          "stroke": "#FF3B30",
+          "elevationMeters": 275
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.1258503214264,
+            48.879432283043265,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End Technical Section",
+          "stroke": "#FFCC00",
+          "elevationMeters": 223
+        }
       }
     ]
   },
-  "version": "949bd5738d27e13e896474d57225a134"
+  "version": "19286903a28f2886b468690c622c69dd"
 }

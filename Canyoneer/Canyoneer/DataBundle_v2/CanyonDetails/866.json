@@ -26,52 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.834126,
-            36.53064,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Confluence",
-          "styleUrl": "#icon-83",
-          "styleHash": "-3ae2d4c5",
-          "styleMapHash": {
-            "normal": "#icon-83-normal",
-            "highlight": "#icon-83-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/83-marina.png",
-          "description": "With the Colorado River.  Packraft section begins here with a takeout at the Fence Fault. (Data by canyonchronicles.com)",
-          "elevationMeters": 1270
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.844811,
-            36.520984,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Fence Fault Route",
-          "styleUrl": "#icon-83",
-          "styleHash": "-3ae2d4c5",
-          "styleMapHash": {
-            "normal": "#icon-83-normal",
-            "highlight": "#icon-83-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/83-marina.png",
-          "description": "Nice sandy beach here to camp at.  As well, DO NOT RUN THE RAPID.  Pull out above on river left.  If you run the rapid, you will be screwed. (Data by canyonchronicles.com)",
-          "elevationMeters": 1106
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -105,36 +59,13 @@
             "highlight": "#line-33CC00-5000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#33cc00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1460.2419914808406,
           "ascentMeters": 300.199951171875,
           "descentMeters": 467.5,
           "changeMeters": -167.300048828125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.830907,
-            36.527329,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Narrows ",
-          "styleUrl": "#icon-33",
-          "styleHash": "5dca746e",
-          "styleMapHash": {
-            "normal": "#icon-33-normal",
-            "highlight": "#icon-33-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/33-caution.png",
-          "description": "Begin here. (Data by canyonchronicles.com)",
-          "elevationMeters": 1324
         }
       },
       {
@@ -183,7 +114,7 @@
             "highlight": "#line-FF0000-5000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 510.9794483677115,
@@ -338,7 +269,7 @@
             "highlight": "#line-000099-5000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#000099",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5247.4667167822945,
@@ -408,13 +339,85 @@
             "highlight": "#line-33CC00-5000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#33cc00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1772.1424730813085,
           "ascentMeters": 785.9000244140625,
           "descentMeters": 311.199951171875,
           "changeMeters": 474.7000732421875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.834126,
+            36.53064,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Confluence",
+          "styleUrl": "#icon-83",
+          "styleHash": "-3ae2d4c5",
+          "styleMapHash": {
+            "normal": "#icon-83-normal",
+            "highlight": "#icon-83-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/83-marina.png",
+          "description": "With the Colorado River.  Packraft section begins here with a takeout at the Fence Fault. (Data by canyonchronicles.com)",
+          "stroke": "#34C759",
+          "elevationMeters": 1270
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.844811,
+            36.520984,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fence Fault Route",
+          "styleUrl": "#icon-83",
+          "styleHash": "-3ae2d4c5",
+          "styleMapHash": {
+            "normal": "#icon-83-normal",
+            "highlight": "#icon-83-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/83-marina.png",
+          "description": "Nice sandy beach here to camp at.  As well, DO NOT RUN THE RAPID.  Pull out above on river left.  If you run the rapid, you will be screwed. (Data by canyonchronicles.com)",
+          "stroke": "#34C759",
+          "elevationMeters": 1106
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.830907,
+            36.527329,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Narrows ",
+          "styleUrl": "#icon-33",
+          "styleHash": "5dca746e",
+          "styleMapHash": {
+            "normal": "#icon-33-normal",
+            "highlight": "#icon-33-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/33-caution.png",
+          "description": "Begin here. (Data by canyonchronicles.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1324
         }
       },
       {
@@ -437,10 +440,11 @@
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
           "description": " (Data by canyonchronicles.com)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1687
         }
       }
     ]
   },
-  "version": "c02b7c95e744bb769d96201152a85ec8"
+  "version": "d3f130127820d565daf0a7456b792920"
 }

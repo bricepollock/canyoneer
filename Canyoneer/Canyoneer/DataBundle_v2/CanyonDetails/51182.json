@@ -28,51 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.8636612892151,
-            45.63969759515922,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 204
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.86933684349061,
-            45.63887995180621,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Derelict House",
-          "elevationMeters": 197
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.87455910444262,
-            45.640181424368166,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gate",
-          "elevationMeters": 219
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -639,7 +594,7 @@
         },
         "properties": {
           "name": "Road Approach",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6308.622975745183,
@@ -667,7 +622,7 @@
         },
         "properties": {
           "name": "Enter Creek",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 49.86760359293753,
@@ -770,7 +725,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 730.0199592348654,
@@ -883,7 +838,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1308.0151992576252,
@@ -891,8 +846,56 @@
           "descentMeters": 89.29998207092285,
           "changeMeters": 140.3000030517578
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.8636612892151,
+            45.63969759515922,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 204
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.86933684349061,
+            45.63887995180621,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Derelict House",
+          "stroke": "#AF52DE",
+          "elevationMeters": 197
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.87455910444262,
+            45.640181424368166,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gate",
+          "stroke": "#AF52DE",
+          "elevationMeters": 219
+        }
       }
     ]
   },
-  "version": "77878e399d79b44bcff8300dafc86c6f"
+  "version": "771846c7b1f51875c938efdc965171aa"
 }

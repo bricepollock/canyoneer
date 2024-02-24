@@ -25,96 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.03194856643678,
-            45.77427356070673,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 838
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.03014612197877,
-            45.78444949244916,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave Ridge",
-          "elevationMeters": 907
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.03269958496095,
-            45.785362271577036,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 920
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.03426599502565,
-            45.78332720254533,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Snag Creek Falls",
-          "elevationMeters": 775
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.03673362731935,
-            45.78299799322127,
-            0
-          ]
-        },
-        "properties": {
-          "name": "De-Wetsuit",
-          "elevationMeters": 704
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.03396558761598,
-            45.7772514810135,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Clear Cut Begins",
-          "elevationMeters": 830
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -446,7 +356,7 @@
         },
         "properties": {
           "name": "Decommissioned Road",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1522.9808005254956,
@@ -529,7 +439,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 463.9786427409044,
@@ -712,7 +622,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1205.2045296631295,
@@ -895,7 +805,7 @@
         },
         "properties": {
           "name": "Approach (bushwhack)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1056.8579964360972,
@@ -903,8 +813,104 @@
           "descentMeters": 86.70001220703125,
           "changeMeters": 18.70001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.03194856643678,
+            45.77427356070673,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 838
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.03014612197877,
+            45.78444949244916,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave Ridge",
+          "stroke": "#34C759",
+          "elevationMeters": 907
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.03269958496095,
+            45.785362271577036,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 920
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.03426599502565,
+            45.78332720254533,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Snag Creek Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 775
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.03673362731935,
+            45.78299799322127,
+            0
+          ]
+        },
+        "properties": {
+          "name": "De-Wetsuit",
+          "stroke": "#AF52DE",
+          "elevationMeters": 704
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.03396558761598,
+            45.7772514810135,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Clear Cut Begins",
+          "stroke": "#AF52DE",
+          "elevationMeters": 830
+        }
       }
     ]
   },
-  "version": "f999c6a14f41f35d526730e1ee9da7d8"
+  "version": "b5b0637a83c5fa4cd92400089fb1a785"
 }

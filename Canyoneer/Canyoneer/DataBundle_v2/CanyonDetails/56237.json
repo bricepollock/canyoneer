@@ -28,29 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.0796,
-            34.2904,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#icon-93",
-          "styleHash": "265cc677",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here.",
-          "elevationMeters": 1655
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -208,25 +185,11 @@
             "normal": "#line-00FF00-5000-nodesc",
             "highlight": "#line-00FF00-5000-nodesc-highlight"
           },
+          "stroke": "#AF52DE",
           "lengthMeters": 3282.6492329539074,
           "ascentMeters": 559.2999267578125,
           "descentMeters": 371.7999267578125,
           "changeMeters": 187.5
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.091,
-            34.2777,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Thompson Canyon",
-          "elevationMeters": 1814
         }
       },
       {
@@ -319,58 +282,11 @@
             "normal": "#line-FF0000-5000-nodesc",
             "highlight": "#line-FF0000-5000-nodesc-highlight"
           },
+          "stroke": "#AF52DE",
           "lengthMeters": 491.2912006003977,
           "ascentMeters": 50.0999755859375,
           "descentMeters": 22.199951171875,
           "changeMeters": 27.9000244140625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.08944,
-            34.26868,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "100'",
-          "elevationMeters": 1843
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.0891,
-            34.2683,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "description": "85'",
-          "elevationMeters": 1848
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.087,
-            34.2661,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": "85'",
-          "elevationMeters": 1866
         }
       },
       {
@@ -493,13 +409,105 @@
             "normal": "#line-FFFF00-5000-nodesc",
             "highlight": "#line-FFFF00-5000-nodesc-highlight"
           },
+          "stroke": "#5856D6",
           "lengthMeters": 3231.1817862131347,
           "ascentMeters": 196.39990234375,
           "descentMeters": 411.7999267578125,
           "changeMeters": -215.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.0796,
+            34.2904,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here.",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1655
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.091,
+            34.2777,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Thompson Canyon",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1814
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.08944,
+            34.26868,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "100'",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1843
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.0891,
+            34.2683,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "85'",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1848
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.087,
+            34.2661,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "85'",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1866
+        }
       }
     ]
   },
-  "version": "1d61f42074f43cb145fc2cf28875f6cc"
+  "version": "5d5ee9169958d6e2fd0e765fba508ad8"
 }

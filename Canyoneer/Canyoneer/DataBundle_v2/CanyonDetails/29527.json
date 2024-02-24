@@ -13,75 +13,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.786509,
-            41.589068,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-606643",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 363
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.786525,
-            41.588694,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "30f526",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 357
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.78651,
-            41.589067,
-            0
-          ]
-        },
-        "properties": {
-          "name": "FOTOGRAFIES",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "30bb8483",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 363
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -609,7 +540,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Santi gavarres at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 4501.33504904678,
@@ -617,8 +548,80 @@
           "descentMeters": 662.0999755859375,
           "changeMeters": -5.399993896484375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.786509,
+            41.589068,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-414d3f",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 363
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.786525,
+            41.588694,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-ce035a6",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 357
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.78651,
+            41.589067,
+            0
+          ]
+        },
+        "properties": {
+          "name": "FOTOGRAFIES",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "7a65237",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 363
+        }
       }
     ]
   },
-  "version": "25d0141c29983fa1d5591914da38781a"
+  "version": "6a46a6bbfb0d261d1d323a27abc20388"
 }

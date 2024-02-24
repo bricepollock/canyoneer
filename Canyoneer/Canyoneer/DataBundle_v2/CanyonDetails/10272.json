@@ -23,7 +23,6 @@
   "rappelCountMax": 5,
   "rappelLongestMeters": 45,
   "vehicle": "Passenger",
-  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<p><strong>By car:</strong> Drive to Wong Lung Hang Village and then\nfollow the one-lane road until you get to the boom gate. Park somewhere\nalong the road near the gate. (Beware: The road will be flooded during\nThunderstorms)</p>\n<p><strong>By MTR:</strong> Take MTR to Tung Chung and then a taxi to\nWong Lung Hang Village.</p>\n<p>From the boom gate: Follow the road about 200m until you get to a\nsign from the Water Supplies Department saying \"Wong Lung Hang Shaft\".\nClimb the stairs to the right of the sign and follow the way. After\nabout 250m you will come to a dam built by the Water Supplies\nDepartment. Hike up the stream, keeping to the left site. (Ignore the\nsigns saying \"No Swimming\", they only apply the dam area, not the\nstream) The trail to the top is marked by colored strips of cloth tied\nto trees, always on the left hand side of the stream.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>From the topmost fall just rappel down. There are no man-made\nanchors, tie your ropes around the trees at each fall.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>After you arrive back at the dam just hike back to the main road.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>No permits required. Just stay out of the area around the dam built\nby the Water Supplies Department.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>This trip is part of the five Yellow Dragons whose Chinese name is\nWong Lung Hang.</p>\n<p>GPS map is just an estimate, will update at a later date.</p>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
@@ -1420,7 +1419,7 @@
           ]
         },
         "properties": {
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#0000FF",
@@ -1444,6 +1443,7 @@
         "properties": {
           "name": "Entrance",
           "description": "Water Supplies Department Sign",
+          "stroke": "#5856D6",
           "elevationMeters": 5
         }
       },
@@ -1460,6 +1460,7 @@
         "properties": {
           "name": "Dam",
           "description": "Stay out of the dam area",
+          "stroke": "#5856D6",
           "elevationMeters": -1
         }
       },
@@ -1476,6 +1477,7 @@
         "properties": {
           "name": "R3",
           "description": "Highest Fall ~45m",
+          "stroke": "#5856D6",
           "elevationMeters": 160
         }
       },
@@ -1491,10 +1493,11 @@
         },
         "properties": {
           "name": "R2",
+          "stroke": "#5856D6",
           "elevationMeters": 157
         }
       }
     ]
   },
-  "version": "04c12d19ea185584be10ea755d473a59"
+  "version": "07a22f0e86eeabc00d02cbdaf85c87a7"
 }

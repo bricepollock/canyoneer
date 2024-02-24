@@ -25,126 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.31144503041845,
-            39.67269011225109,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 130' Booth Falls",
-          "elevationMeters": 3298
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.31177598112338,
-            39.6722082053602,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 110'",
-          "elevationMeters": 3342
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.31198415443045,
-            39.67322467403994,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 25'",
-          "elevationMeters": 3259
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.32079771712439,
-            39.65051511927536,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Booth Creek Parking",
-          "elevationMeters": 3483
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.31193185135466,
-            39.671829207537584,
-            0
-          ]
-        },
-        "properties": {
-          "name": "downclimb",
-          "elevationMeters": 3366
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.311849,
-            39.675986,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Talus Slope",
-          "elevationMeters": 3145
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.31177804947289,
-            39.67308565912832,
-            0
-          ]
-        },
-        "properties": {
-          "name": "downclimb",
-          "elevationMeters": 3278
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.31160395458708,
-            39.672476913252254,
-            0
-          ]
-        },
-        "properties": {
-          "name": "downclimb",
-          "elevationMeters": 3318
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -166,7 +46,7 @@
         },
         "properties": {
           "name": "exit/shortcut",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 20.18257186007282,
@@ -854,7 +734,7 @@
         },
         "properties": {
           "name": "Booth Creek approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3534.421900993511,
@@ -1042,7 +922,7 @@
         },
         "properties": {
           "name": "Booth Creek descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 540.216393791206,
@@ -1675,7 +1555,7 @@
         },
         "properties": {
           "name": "Booth Creek return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3016.627537652234,
@@ -1683,8 +1563,136 @@
           "descentMeters": 432.3994140625,
           "changeMeters": 90.2001953125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.31144503041845,
+            39.67269011225109,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 130' Booth Falls",
+          "stroke": "#5856D6",
+          "elevationMeters": 3298
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.31177598112338,
+            39.6722082053602,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 110'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3342
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.31198415443045,
+            39.67322467403994,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 25'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3259
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.32079771712439,
+            39.65051511927536,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Booth Creek Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3483
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.31193185135466,
+            39.671829207537584,
+            0
+          ]
+        },
+        "properties": {
+          "name": "downclimb",
+          "stroke": "#5856D6",
+          "elevationMeters": 3366
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.311849,
+            39.675986,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Talus Slope",
+          "stroke": "#34C759",
+          "elevationMeters": 3145
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.31177804947289,
+            39.67308565912832,
+            0
+          ]
+        },
+        "properties": {
+          "name": "downclimb",
+          "stroke": "#5856D6",
+          "elevationMeters": 3278
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.31160395458708,
+            39.672476913252254,
+            0
+          ]
+        },
+        "properties": {
+          "name": "downclimb",
+          "stroke": "#5856D6",
+          "elevationMeters": 3318
+        }
       }
     ]
   },
-  "version": "d9f9c7aad815a2eacad6c51494e315db"
+  "version": "c80c6130096404ba7c2c6a811067de02"
 }

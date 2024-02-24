@@ -17,8 +17,8 @@
   "waterRating": "C2",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 8,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 30.48,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -391,57 +391,13 @@
             "normal": "#line-4E342E-3131-nodesc-normal",
             "highlight": "#line-4E342E-3131-nodesc-highlight"
           },
-          "stroke": "#4e342e",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 3.131,
           "lengthMeters": 6616.959498779307,
           "ascentMeters": 602.199951171875,
           "descentMeters": 918.099853515625,
           "changeMeters": -315.89990234375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7731804,
-            40.4896504,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 2050
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.759811625,
-            40.482829445,
-            1691.924793
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1745
         }
       },
       {
@@ -754,35 +710,13 @@
             "normal": "#line-097138-5000-nodesc-normal",
             "highlight": "#line-097138-5000-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1041.4596649710197,
           "ascentMeters": 59.2000732421875,
           "descentMeters": 147.800048828125,
           "changeMeters": -88.5999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.752128327,
-            40.496974181,
-            2142.717813
-          ]
-        },
-        "properties": {
-          "name": "First Hamongog",
-          "styleUrl": "#icon-503-009D57-nodesc",
-          "styleHash": "-6b381ae7",
-          "styleMapHash": {
-            "normal": "#icon-503-009D57-nodesc-normal",
-            "highlight": "#icon-503-009D57-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1695
         }
       },
       {
@@ -1460,255 +1394,13 @@
             "normal": "#line-097138-5456-nodesc-normal",
             "highlight": "#line-097138-5456-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 2047.3883364286849,
           "ascentMeters": 216,
           "descentMeters": 176.9000244140625,
           "changeMeters": 39.0999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.744456549,
-            40.499287743,
-            2249.087558
-          ]
-        },
-        "properties": {
-          "name": "Enter Drainage",
-          "styleUrl": "#icon-1369-nodesc",
-          "styleHash": "-7897e9b8",
-          "styleMapHash": {
-            "normal": "#icon-1369-nodesc-normal",
-            "highlight": "#icon-1369-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1369-rec-hiking-trail.png",
-          "elevationMeters": 1671
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74491,
-            40.4975,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 30'",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1678
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74486,
-            40.49736,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 30'",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1678
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.744584911,
-            40.496883539,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 80' (2-stage)",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1668
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74412,
-            40.49651,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4: 40'",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1664
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.743929271,
-            40.496298127,
-            2145.512732
-          ]
-        },
-        "properties": {
-          "name": "R5: 100'",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1655
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74386,
-            40.49621,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6\" 100'",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1655
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.743839917,
-            40.496048781,
-            2119.150302
-          ]
-        },
-        "properties": {
-          "name": "R7: 60'",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1655
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.743345498,
-            40.495706022,
-            2092.045252
-          ]
-        },
-        "properties": {
-          "name": "Final: 80'",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1633
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.743716063,
-            40.495936153,
-            2113.187721
-          ]
-        },
-        "properties": {
-          "name": "R8: 100'",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1647
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.743510541,
-            40.495784218,
-            2102.068352
-          ]
-        },
-        "properties": {
-          "name": "R9: 70', DCR",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1633
         }
       },
       {
@@ -1981,7 +1673,7 @@
             "normal": "#line-A52714-5000-nodesc-normal",
             "highlight": "#line-A52714-5000-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 489.3175599145611,
@@ -2505,7 +2197,7 @@
             "normal": "#line-F9A825-5000-nodesc-normal",
             "highlight": "#line-F9A825-5000-nodesc-highlight"
           },
-          "stroke": "#f9a825",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 662.7760072308902,
@@ -2714,67 +2406,13 @@
             "normal": "#line-097138-5000-nodesc-normal",
             "highlight": "#line-097138-5000-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1012.1910014251638,
           "ascentMeters": 109.199951171875,
           "descentMeters": 133.800048828125,
           "changeMeters": -24.60009765625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [
-              [
-                -111.7546896,
-                40.4899102,
-                0
-              ],
-              [
-                -111.7546035,
-                40.4793876,
-                0
-              ],
-              [
-                -111.749834,
-                40.4846507,
-                0
-              ],
-              [
-                -111.7498182,
-                40.4921861,
-                0
-              ],
-              [
-                -111.751171,
-                40.4921822,
-                0
-              ],
-              [
-                -111.7546896,
-                40.4899102,
-                0
-              ]
-            ]
-          ]
-        },
-        "properties": {
-          "name": "Private Property",
-          "styleUrl": "#poly-F57C00-1200-77-nodesc",
-          "styleHash": "52f79df9",
-          "styleMapHash": {
-            "normal": "#poly-F57C00-1200-77-nodesc-normal",
-            "highlight": "#poly-F57C00-1200-77-nodesc-highlight"
-          },
-          "stroke": "#f57c00",
-          "stroke-opacity": 1,
-          "stroke-width": 1.2,
-          "fill": "#f57c00",
-          "fill-opacity": 0.30196078431372547
         }
       },
       {
@@ -3182,7 +2820,7 @@
             "normal": "#line-7CB342-5844-nodesc-normal",
             "highlight": "#line-7CB342-5844-nodesc-highlight"
           },
-          "stroke": "#7cb342",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 217.4457743553822,
@@ -3936,13 +3574,335 @@
             "normal": "#line-097138-5000-nodesc-normal",
             "highlight": "#line-097138-5000-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1955.206902385467,
           "ascentMeters": 108.099853515625,
           "descentMeters": 417.6998291015625,
           "changeMeters": -309.5999755859375
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7731804,
+            40.4896504,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 2050
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.759811625,
+            40.482829445,
+            1691.924793
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#FF2D55",
+          "elevationMeters": 1745
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.752128327,
+            40.496974181,
+            2142.717813
+          ]
+        },
+        "properties": {
+          "name": "First Hamongog",
+          "styleUrl": "#icon-503-009D57-nodesc",
+          "styleHash": "-6b381ae7",
+          "styleMapHash": {
+            "normal": "#icon-503-009D57-nodesc-normal",
+            "highlight": "#icon-503-009D57-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1695
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.744456549,
+            40.499287743,
+            2249.087558
+          ]
+        },
+        "properties": {
+          "name": "Enter Drainage",
+          "styleUrl": "#icon-1369-nodesc",
+          "styleHash": "-7897e9b8",
+          "styleMapHash": {
+            "normal": "#icon-1369-nodesc-normal",
+            "highlight": "#icon-1369-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1369-rec-hiking-trail.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1671
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74491,
+            40.4975,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 30'",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1678
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74486,
+            40.49736,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 30'",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1678
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.744584911,
+            40.496883539,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 80' (2-stage)",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1668
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74412,
+            40.49651,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4: 40'",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1664
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.743929271,
+            40.496298127,
+            2145.512732
+          ]
+        },
+        "properties": {
+          "name": "R5: 100'",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1655
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74386,
+            40.49621,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6\" 100'",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1655
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.743839917,
+            40.496048781,
+            2119.150302
+          ]
+        },
+        "properties": {
+          "name": "R7: 60'",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1655
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.743345498,
+            40.495706022,
+            2092.045252
+          ]
+        },
+        "properties": {
+          "name": "Final: 80'",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1633
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.743716063,
+            40.495936153,
+            2113.187721
+          ]
+        },
+        "properties": {
+          "name": "R8: 100'",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1647
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.743510541,
+            40.495784218,
+            2102.068352
+          ]
+        },
+        "properties": {
+          "name": "R9: 70', DCR",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1633
         }
       },
       {
@@ -3964,10 +3924,11 @@
             "highlight": "#icon-1255-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1255-poi-gated-community.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1794
         }
       }
     ]
   },
-  "version": "10ac6c4a6fbaf87c3f68023c26714870"
+  "version": "eff353cc6e4882a17cbf785f7fe044b9"
 }

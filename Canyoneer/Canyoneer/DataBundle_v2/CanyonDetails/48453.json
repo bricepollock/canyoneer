@@ -25,66 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.73117123110643,
-            46.31136469410651,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1257
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.75016756229513,
-            46.30076022871621,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Dark Creek Falls",
-          "elevationMeters": 1048
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.74997653461128,
-            46.304310804267075,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Crossing",
-          "elevationMeters": 1144
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.74734646541344,
-            46.29822945546086,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1007
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -446,7 +386,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3687.7277220825904,
@@ -659,7 +599,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 905.789323284276,
@@ -667,8 +607,72 @@
           "descentMeters": 62.7999267578125,
           "changeMeters": 150.7999267578125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.73117123110643,
+            46.31136469410651,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1257
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.75016756229513,
+            46.30076022871621,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Dark Creek Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1048
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.74997653461128,
+            46.304310804267075,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Crossing",
+          "stroke": "#34C759",
+          "elevationMeters": 1144
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.74734646541344,
+            46.29822945546086,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1007
+        }
       }
     ]
   },
-  "version": "65d9ec5c8b5f1033901848f66ce42d62"
+  "version": "6ea9d289a7627ad7ae82eb68a8f07fa2"
 }

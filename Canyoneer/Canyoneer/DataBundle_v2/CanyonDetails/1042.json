@@ -30,50 +30,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9204591,
-            38.5789865,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead (old car)",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1650
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9074621,
-            38.5736662,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ramp TH (4x4 or High Clearance)",
-          "styleUrl": "#icon-1207-nodesc",
-          "styleHash": "69dbb8f1",
-          "styleMapHash": {
-            "normal": "#icon-1207-nodesc-normal",
-            "highlight": "#icon-1207-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
-          "elevationMeters": 1724
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -221,7 +177,7 @@
             "normal": "#line-0F9D58-5844-nodesc-normal",
             "highlight": "#line-0F9D58-5844-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 1384.154068380933,
@@ -915,7 +871,7 @@
             "normal": "#line-FFEA00-5456-nodesc-normal",
             "highlight": "#line-FFEA00-5456-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 2883.0511808804604,
@@ -1944,57 +1900,13 @@
             "normal": "#line-FFEA00-5263-nodesc-normal",
             "highlight": "#line-FFEA00-5263-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 8038.991899885177,
           "ascentMeters": 721.599609375,
           "descentMeters": 660.1995849609375,
           "changeMeters": 61.4000244140625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.920057,
-            38.5477882,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit of Quandary Canyon",
-          "styleUrl": "#icon-962-0288D1-nodesc",
-          "styleHash": "-68f2ed5d",
-          "styleMapHash": {
-            "normal": "#icon-962-0288D1-nodesc-normal",
-            "highlight": "#icon-962-0288D1-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png",
-          "elevationMeters": 1547
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9343031,
-            38.5373754,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit of Knotted Rope Canyon",
-          "styleUrl": "#icon-962-0288D1-nodesc",
-          "styleHash": "-68f2ed5d",
-          "styleMapHash": {
-            "normal": "#icon-962-0288D1-nodesc-normal",
-            "highlight": "#icon-962-0288D1-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png",
-          "elevationMeters": 1614
         }
       },
       {
@@ -2522,13 +2434,105 @@
             "normal": "#line-9C27B0-5844-nodesc-normal",
             "highlight": "#line-9C27B0-5844-nodesc-highlight"
           },
-          "stroke": "#9c27b0",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 2452.9157153426154,
           "ascentMeters": 144.800048828125,
           "descentMeters": 95.10009765625,
           "changeMeters": 49.699951171875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9204591,
+            38.5789865,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead (old car)",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1650
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9074621,
+            38.5736662,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ramp TH (4x4 or High Clearance)",
+          "styleUrl": "#icon-1207-nodesc",
+          "styleHash": "69dbb8f1",
+          "styleMapHash": {
+            "normal": "#icon-1207-nodesc-normal",
+            "highlight": "#icon-1207-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1724
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.920057,
+            38.5477882,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit of Quandary Canyon",
+          "styleUrl": "#icon-962-0288D1-nodesc",
+          "styleHash": "-68f2ed5d",
+          "styleMapHash": {
+            "normal": "#icon-962-0288D1-nodesc-normal",
+            "highlight": "#icon-962-0288D1-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1547
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9343031,
+            38.5373754,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit of Knotted Rope Canyon",
+          "styleUrl": "#icon-962-0288D1-nodesc",
+          "styleHash": "-68f2ed5d",
+          "styleMapHash": {
+            "normal": "#icon-962-0288D1-nodesc-normal",
+            "highlight": "#icon-962-0288D1-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1614
         }
       },
       {
@@ -2550,10 +2554,11 @@
             "highlight": "#icon-962-0288D1-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 1706
         }
       }
     ]
   },
-  "version": "86cdc65ba5de33a4e13d15b608229f0b"
+  "version": "8c1db9d7c88e7d051c6047540585c777"
 }

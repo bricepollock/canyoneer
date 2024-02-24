@@ -21,167 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.367691,
-            42.662985,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-17d532e3",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Swift Wild at wikiloc.com)",
-          "elevationMeters": 2067
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.35714,
-            42.688248,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "4bc16872",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Swift Wild at wikiloc.com)",
-          "elevationMeters": 2128
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.360961,
-            42.687914,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Barr Bachimal",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1661938d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Swift Wild at wikiloc.com)",
-          "elevationMeters": 2336
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.361229,
-            42.674192,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1661938d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Swift Wild at wikiloc.com)",
-          "elevationMeters": 1796
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.357474,
-            42.685141,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Praderas Fin",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1661938d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Swift Wild at wikiloc.com)",
-          "elevationMeters": 2437
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.356399,
-            42.679214,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Refugio",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1661938d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Swift Wild at wikiloc.com)",
-          "elevationMeters": 1777
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.361235,
-            42.695823,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Refugiobueno",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1661938d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Swift Wild at wikiloc.com)",
-          "elevationMeters": 1585
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1874,7 +1713,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Swift Wild at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 6153.648776524122,
@@ -1882,8 +1721,176 @@
           "descentMeters": 1955.6993408203125,
           "changeMeters": 61.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.367691,
+            42.662985,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "64ba7782",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Swift Wild at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2067
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.35714,
+            42.688248,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-1dc13dbe",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Swift Wild at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2128
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.360961,
+            42.687914,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Barr Bachimal",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2a2cfc85",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Swift Wild at wikiloc.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2336
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.361229,
+            42.674192,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2a2cfc85",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Swift Wild at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1796
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.357474,
+            42.685141,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Praderas Fin",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2a2cfc85",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Swift Wild at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2437
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.356399,
+            42.679214,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Refugio",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2a2cfc85",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Swift Wild at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1777
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.361235,
+            42.695823,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Refugiobueno",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2a2cfc85",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Swift Wild at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1585
+        }
       }
     ]
   },
-  "version": "f092716231939aad72f5aaadd94b2eb3"
+  "version": "b50d5787e78d199585afd537dcab61df"
 }

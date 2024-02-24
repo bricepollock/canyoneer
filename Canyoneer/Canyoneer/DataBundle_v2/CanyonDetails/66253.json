@@ -26,96 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.05295592546462,
-            37.40924989355635,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 2519
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.04068145155905,
-            37.449963064987934,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Fourmile Creek Falls",
-          "elevationMeters": 3190
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.04005777835846,
-            37.448279222212456,
-            0
-          ]
-        },
-        "properties": {
-          "name": "foundation remnant of old steel bridge",
-          "elevationMeters": 3235
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.04457796,
-            37.44387085,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 130' pine tree CR series of nuisance drops",
-          "elevationMeters": 3134
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.04262758,
-            37.44237972,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 75' tree center",
-          "elevationMeters": 3213
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.04214051365852,
-            37.44211538364464,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 405', walk off at 310'",
-          "elevationMeters": 3236
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -767,7 +677,7 @@
         },
         "properties": {
           "name": "Falls Creek descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 882.4051955919168,
@@ -3405,7 +3315,7 @@
         },
         "properties": {
           "name": "Falls Creek approach ",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6406.1182899158985,
@@ -3473,7 +3383,7 @@
         },
         "properties": {
           "name": "Falls Creek return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 62.85296861124566,
@@ -3711,7 +3621,7 @@
         },
         "properties": {
           "name": "Falls Creek to Fourmile Falls",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 397.43136725636356,
@@ -3719,8 +3629,104 @@
           "descentMeters": 87.39990234375,
           "changeMeters": -49
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.05295592546462,
+            37.40924989355635,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 2519
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.04068145155905,
+            37.449963064987934,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Fourmile Creek Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3190
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.04005777835846,
+            37.448279222212456,
+            0
+          ]
+        },
+        "properties": {
+          "name": "foundation remnant of old steel bridge",
+          "stroke": "#34C759",
+          "elevationMeters": 3235
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.04457796,
+            37.44387085,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 130' pine tree CR series of nuisance drops",
+          "stroke": "#5856D6",
+          "elevationMeters": 3134
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.04262758,
+            37.44237972,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 75' tree center",
+          "stroke": "#5856D6",
+          "elevationMeters": 3213
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.04214051365852,
+            37.44211538364464,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 405', walk off at 310'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3236
+        }
       }
     ]
   },
-  "version": "728a2024397acdc5373f8dffeaff1f3f"
+  "version": "0ee68103d43b7fa7d8f5af572eed639d"
 }

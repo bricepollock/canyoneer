@@ -17,52 +17,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            8.848841,
-            46.409483,
-            776.48
-          ]
-        },
-        "properties": {
-          "name": "Usedi Park",
-          "styleUrl": "#icon-1207",
-          "styleHash": "-61508f67",
-          "styleMapHash": {
-            "normal": "#icon-1207-normal",
-            "highlight": "#icon-1207-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
-          "description": "dimanche 2 septembre 2018 10:42 CEST<br>Altitude : 776 m",
-          "elevationMeters": 1753
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            8.841755,
-            46.40309,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#icon-123",
-          "styleHash": "-1fc6243c",
-          "styleMapHash": {
-            "normal": "#icon-123-normal",
-            "highlight": "#icon-123-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/123-red-dot.png",
-          "description": "dimanche 2 septembre 2018 11:28 CEST<br>Altitude : 979 m",
-          "elevationMeters": 1057
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -326,35 +280,13 @@
             "highlight": "#line-7CB342-1581-highlight"
           },
           "description": "Statistiques calculées à partir des données importées<br><br>dimanche 2 septembre 2018 10:42 CEST<br>Distance : 1,2 km<br>Durée : 46 minutes et 17 secondes<br>Vitesse moyenne : 1,6 km/h<br>Altitude minimale : 762 m<br>Altitude maximale : 991 m<br>Dénivelé positif cumulé : 253 m<br>Dénivelé négatif cumulé : 51 m",
-          "stroke": "#7cb342",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 1.581,
           "lengthMeters": 1233.1627961747095,
           "ascentMeters": 135.600341796875,
           "descentMeters": 832.2003173828125,
           "changeMeters": -696.5999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            8.8484748,
-            46.4090944,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#icon-1899-0288D1-nodesc",
-          "styleHash": "-616a4569",
-          "styleMapHash": {
-            "normal": "#icon-1899-0288D1-nodesc-normal",
-            "highlight": "#icon-1899-0288D1-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1738
         }
       },
       {
@@ -412,7 +344,7 @@
             "normal": "#line-FFD600-1969-nodesc-normal",
             "highlight": "#line-FFD600-1969-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 1.969,
           "lengthMeters": 49.890574152610114,
@@ -420,8 +352,79 @@
           "descentMeters": 0,
           "changeMeters": 21.10009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.848841,
+            46.409483,
+            776.48
+          ]
+        },
+        "properties": {
+          "name": "Usedi Park",
+          "styleUrl": "#icon-1207",
+          "styleHash": "-61508f67",
+          "styleMapHash": {
+            "normal": "#icon-1207-normal",
+            "highlight": "#icon-1207-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
+          "description": "dimanche 2 septembre 2018 10:42 CEST<br>Altitude : 776 m",
+          "stroke": "#34C759",
+          "elevationMeters": 1753
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.841755,
+            46.40309,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#icon-123",
+          "styleHash": "-1fc6243c",
+          "styleMapHash": {
+            "normal": "#icon-123-normal",
+            "highlight": "#icon-123-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/123-red-dot.png",
+          "description": "dimanche 2 septembre 2018 11:28 CEST<br>Altitude : 979 m",
+          "stroke": "#34C759",
+          "elevationMeters": 1057
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.8484748,
+            46.4090944,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "styleHash": "-616a4569",
+          "styleMapHash": {
+            "normal": "#icon-1899-0288D1-nodesc-normal",
+            "highlight": "#icon-1899-0288D1-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1738
+        }
       }
     ]
   },
-  "version": "f4708d3fa5fd53cbb7c6d1aa6ce19a8b"
+  "version": "d08a5454f8341ed4dce8ac9b593270a0"
 }

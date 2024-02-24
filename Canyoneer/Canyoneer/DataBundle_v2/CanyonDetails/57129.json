@@ -27,52 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.5402,
-            34.512,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Passenger Trailhead",
-          "styleUrl": "#icon-93",
-          "styleHash": "265cc677",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here. (Data by Erek)",
-          "elevationMeters": 1776
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.5318,
-            34.4999,
-            0
-          ]
-        },
-        "properties": {
-          "name": "High Clearance Trailhead",
-          "styleUrl": "#icon-93",
-          "styleHash": "265cc677",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here. (Data by Erek)",
-          "elevationMeters": 1935
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -226,6 +180,7 @@
             "highlight": "#line-000000-5000-nodesc-highlight"
           },
           "description": " (Data by Erek)",
+          "stroke": "#FF2D55",
           "lengthMeters": 1817.1835666435863,
           "ascentMeters": 166.2998046875,
           "descentMeters": 6.7998046875,
@@ -338,6 +293,7 @@
             "highlight": "#line-00FF00-5000-nodesc-highlight"
           },
           "description": " (Data by Erek)",
+          "stroke": "#FFCC00",
           "lengthMeters": 3205.930921842438,
           "ascentMeters": 260.1998291015625,
           "descentMeters": 430.89990234375,
@@ -485,85 +441,11 @@
             "highlight": "#line-FF0000-5000-nodesc-highlight"
           },
           "description": " (Data by Erek)",
+          "stroke": "#FF3B30",
           "lengthMeters": 1417.575044366259,
           "ascentMeters": 174.199951171875,
           "descentMeters": 300.7999267578125,
           "changeMeters": -126.5999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.5388,
-            34.4748,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1765
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.5385,
-            34.4748,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "elevationMeters": 1764
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.5384,
-            34.4745,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "elevationMeters": 1765
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.5383,
-            34.4735,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "elevationMeters": 1770
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.5401,
-            34.4694,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "elevationMeters": 1536
         }
       },
       {
@@ -682,13 +564,142 @@
             "highlight": "#line-FFFF00-5000-nodesc-highlight"
           },
           "description": " (Data by Erek)",
+          "stroke": "#34C759",
           "lengthMeters": 5579.81139645256,
           "ascentMeters": 661.5001220703125,
           "descentMeters": 364.2000732421875,
           "changeMeters": 297.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.5402,
+            34.512,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Passenger Trailhead",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here. (Data by Erek)",
+          "stroke": "#FF2D55",
+          "elevationMeters": 1776
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.5318,
+            34.4999,
+            0
+          ]
+        },
+        "properties": {
+          "name": "High Clearance Trailhead",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here. (Data by Erek)",
+          "stroke": "#FF2D55",
+          "elevationMeters": 1935
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.5388,
+            34.4748,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1765
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.5385,
+            34.4748,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1764
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.5384,
+            34.4745,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1765
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.5383,
+            34.4735,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1770
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.5401,
+            34.4694,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1536
+        }
       }
     ]
   },
-  "version": "32f47e0a328516906aea01cccbf050af"
+  "version": "70faf7bfb5c9ad163c47065127a8f8f6"
 }

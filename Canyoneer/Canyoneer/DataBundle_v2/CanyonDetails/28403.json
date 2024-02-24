@@ -29,75 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.117851,
-            39.199793,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "53856e46",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by javieracam at wikiloc.com)",
-          "elevationMeters": 490
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.117894,
-            39.199624,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "28af7165",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by javieracam at wikiloc.com)",
-          "elevationMeters": 495
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.132123,
-            39.191895,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Mirador",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-1661938d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by javieracam at wikiloc.com)",
-          "elevationMeters": 451
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -755,7 +686,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by javieracam at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 7293.202173121515,
@@ -763,8 +694,80 @@
           "descentMeters": 482.6999816894531,
           "changeMeters": 4.800018310546875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.117851,
+            39.199793,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-580aef83",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by javieracam at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 490
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.117894,
+            39.199624,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "587cbc7e",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by javieracam at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 495
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.132123,
+            39.191895,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Mirador",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "7640389d",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by javieracam at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 451
+        }
       }
     ]
   },
-  "version": "047f9a9d00cdc29aa642cae82639e950"
+  "version": "b3a513b80fed938a4cbdd2be25622847"
 }

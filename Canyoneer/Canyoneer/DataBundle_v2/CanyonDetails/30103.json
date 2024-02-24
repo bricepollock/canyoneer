@@ -13,75 +13,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.831936,
-            41.602136,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "752c121e",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 518
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.831893,
-            41.602184,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-1fe0f8f",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 518
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.830266,
-            41.591995,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Pas dels Francesos",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-45acd604",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 897
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -999,7 +930,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Santi gavarres at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 9136.721304946379,
@@ -1007,8 +938,80 @@
           "descentMeters": 1405.0999450683594,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.831936,
+            41.602136,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-10ed237e",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 518
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.831893,
+            41.602184,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "1466415d",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 518
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.830266,
+            41.591995,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Pas dels Francesos",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-232672de",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 897
+        }
       }
     ]
   },
-  "version": "cdb244d951a3b72ba522e447af124cdb"
+  "version": "952e42bea225f82530dbdca86346d0f5"
 }

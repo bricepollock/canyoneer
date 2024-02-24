@@ -25,51 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.11366742849353,
-            45.74316990652555,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 313
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.12815940380098,
-            45.7414271880202,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Washougal Falls",
-          "elevationMeters": 364
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.12931275367738,
-            45.73911346264683,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Prospector Falls",
-          "elevationMeters": 392
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -301,7 +256,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1528.924572166024,
@@ -424,7 +379,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 310.16006915236,
@@ -677,7 +632,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1727.3868628990579,
@@ -685,8 +640,56 @@
           "descentMeters": 400.60003662109375,
           "changeMeters": -69.39999389648438
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.11366742849353,
+            45.74316990652555,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 313
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.12815940380098,
+            45.7414271880202,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Washougal Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 364
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.12931275367738,
+            45.73911346264683,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Prospector Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 392
+        }
       }
     ]
   },
-  "version": "c6b2004f32c1cdf61639a4bcea8c7275"
+  "version": "662d462dff1b8e19cffb2f23145d10bb"
 }

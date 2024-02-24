@@ -31,75 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.781695,
-            41.582807,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-7df6c3a",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 280
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.781985,
-            41.582904,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-3518f77c",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 275
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.792167,
-            41.595248,
-            0
-          ]
-        },
-        "properties": {
-          "name": "TORRENT DEL BOIXAR 2º RAPEL",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-51e98efb",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 585
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1257,7 +1188,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Santi gavarres at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 11219.627683323764,
@@ -1265,8 +1196,80 @@
           "descentMeters": 1719.8000183105469,
           "changeMeters": -5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.781695,
+            41.582807,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "15f4f803",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 280
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.781985,
+            41.582904,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-4efd4a24",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 275
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.792167,
+            41.595248,
+            0
+          ]
+        },
+        "properties": {
+          "name": "TORRENT DEL BOIXAR 2º RAPEL",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "3889b17c",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 585
+        }
       }
     ]
   },
-  "version": "c44bfb3278ef2b5653e33ac7501c7093"
+  "version": "15c3c8cc95ecc75a7cd66420ab9ee365"
 }

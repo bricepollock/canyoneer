@@ -24,126 +24,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.82565307617188,
-            37.96172332763672,
-            0
-          ]
-        },
-        "properties": {
-          "name": "junction",
-          "elevationMeters": 3790
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.8288412094116,
-            37.95428111188167,
-            0
-          ]
-        },
-        "properties": {
-          "name": "parking",
-          "elevationMeters": 3913
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.81923398,
-            37.97626883,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DC 10ft drop, small pool",
-          "elevationMeters": 3345
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.819976,
-            37.97542809,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 90'",
-          "elevationMeters": 3349
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.8204877,
-            37.97495615,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 130'",
-          "elevationMeters": 3380
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.82146170735359,
-            37.97420735435028,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 30'",
-          "elevationMeters": 3431
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.82156728,
-            37.97404832,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4: 270' Mill Creek Falls",
-          "elevationMeters": 3419
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.82527101597624,
-            37.96191212809199,
-            0
-          ]
-        },
-        "properties": {
-          "name": "junction",
-          "elevationMeters": 3786
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -355,7 +235,7 @@
         },
         "properties": {
           "name": "Mill Creek Rd",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2570.7223823593968,
@@ -438,7 +318,7 @@
         },
         "properties": {
           "name": "drainage",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 481.8987921022433,
@@ -3211,7 +3091,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 7420.953886298657,
@@ -4369,7 +4249,7 @@
         },
         "properties": {
           "name": "return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3203.773673231463,
@@ -4637,7 +4517,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 339.23875815227353,
@@ -4645,8 +4525,136 @@
           "descentMeters": 41.699462890625,
           "changeMeters": 91.900146484375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.82565307617188,
+            37.96172332763672,
+            0
+          ]
+        },
+        "properties": {
+          "name": "junction",
+          "stroke": "#34C759",
+          "elevationMeters": 3790
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.8288412094116,
+            37.95428111188167,
+            0
+          ]
+        },
+        "properties": {
+          "name": "parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3913
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.81923398,
+            37.97626883,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DC 10ft drop, small pool",
+          "stroke": "#34C759",
+          "elevationMeters": 3345
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.819976,
+            37.97542809,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 90'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3349
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.8204877,
+            37.97495615,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 130'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3380
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.82146170735359,
+            37.97420735435028,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 30'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3431
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.82156728,
+            37.97404832,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4: 270' Mill Creek Falls",
+          "stroke": "#5856D6",
+          "elevationMeters": 3419
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.82527101597624,
+            37.96191212809199,
+            0
+          ]
+        },
+        "properties": {
+          "name": "junction",
+          "stroke": "#34C759",
+          "elevationMeters": 3786
+        }
       }
     ]
   },
-  "version": "ec11caee7fb69d7747b87afc6752b437"
+  "version": "07e54c47fb0698bcad68d5621b8ac0ec"
 }

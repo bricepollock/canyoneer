@@ -26,126 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.645913,
-            37.772654,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Campsite",
-          "elevationMeters": 3328
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.652465,
-            37.775077,
-            0
-          ]
-        },
-        "properties": {
-          "name": "20' Cascade",
-          "elevationMeters": 3326
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.655047,
-            37.775284,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1=45'",
-          "elevationMeters": 3365
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.657406,
-            37.77534,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2=100'",
-          "elevationMeters": 3356
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.661009,
-            37.775895,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3=85'",
-          "elevationMeters": 3339
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.662147,
-            37.775329,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4=75'",
-          "elevationMeters": 3379
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.645856,
-            37.77265,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DeerParkCreek Parking",
-          "elevationMeters": 3328
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.65821922064087,
-            37.77763220504078,
-            0
-          ]
-        },
-        "properties": {
-          "name": "old cabin",
-          "elevationMeters": 3270
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -792,7 +672,7 @@
         },
         "properties": {
           "name": "CR33",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6356.141536991998,
@@ -2190,7 +2070,7 @@
         },
         "properties": {
           "name": "Deer Park Creek Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2041.1381098224242,
@@ -3138,7 +3018,7 @@
         },
         "properties": {
           "name": "Return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2118.013329832776,
@@ -3146,8 +3026,136 @@
           "descentMeters": 544.099609375,
           "changeMeters": -305.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.645913,
+            37.772654,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Campsite",
+          "stroke": "#FF2D55",
+          "elevationMeters": 3328
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.652465,
+            37.775077,
+            0
+          ]
+        },
+        "properties": {
+          "name": "20' Cascade",
+          "stroke": "#5856D6",
+          "elevationMeters": 3326
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.655047,
+            37.775284,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1=45'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3365
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.657406,
+            37.77534,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2=100'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3356
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.661009,
+            37.775895,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3=85'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3339
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.662147,
+            37.775329,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4=75'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3379
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.645856,
+            37.77265,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DeerParkCreek Parking",
+          "stroke": "#FF2D55",
+          "elevationMeters": 3328
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.65821922064087,
+            37.77763220504078,
+            0
+          ]
+        },
+        "properties": {
+          "name": "old cabin",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3270
+        }
       }
     ]
   },
-  "version": "3149a9cea4a95ef5d522017f6dbd84ab"
+  "version": "25a5856606e551d92d392780c02ce076"
 }

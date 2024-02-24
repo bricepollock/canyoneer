@@ -20,8 +20,8 @@
     "Nov"
   ],
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 50,
   "shuttleSeconds": 2520,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21403\">Descente-Canyon.com</a>\n: Acquasanta</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/MC009\">Catastoforre\nAIC-Canyoning.it</a> : Forra dell' AcquasantaScivoli della Val di\nTela</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/MC001\">Catastoforre\nAIC-Canyoning.it</a> : Forra dell' Acquasanta</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://canisciolti.biz/2012/canyon/shede/forra%20dell&#39;acquasanta.html\">Canisciolti.biz</a>\n: FORRA DELL'ACQUASANTA</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/2366/\">Gulliver.it</a> : FORRA\nDELL'ACQUASANTA - BOLOGNOLA (Macerata)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -48,6 +48,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 920
         }
       },
@@ -71,6 +72,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": "barrage, sortie au sentier (à droite) (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1166
         }
       },
@@ -94,6 +96,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": "45 km navette pas necessaire (piste de Bolognola pour voiture interdit) (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1052
         }
       },
@@ -117,10 +120,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": "navette (45 km ) pas necessaire (Data by Streicher Wolfgang on 13 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1761
         }
       }
     ]
   },
-  "version": "735361017857a4411f3258e84bc30130"
+  "version": "e3e09991a0a5cdfbb3eafefd195c0052"
 }

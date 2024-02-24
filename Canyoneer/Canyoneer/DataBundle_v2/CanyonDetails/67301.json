@@ -35,101 +35,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.72493,
-            34.87055,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 1293
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.718633,
-            34.864324,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 80’",
-          "description": "Off tree\n",
-          "elevationMeters": 1300
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.718856,
-            34.864113,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 45’",
-          "description": "Off pine tree in watercourse",
-          "elevationMeters": 1298
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.719168,
-            34.8643,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - 40’",
-          "description": "Off tree rdc",
-          "elevationMeters": 1305
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.719333,
-            34.864449,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4 - 50’",
-          "description": "Off tree ldc",
-          "elevationMeters": 1306
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.71941,
-            34.864532,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5 - 90’",
-          "description": "Off bush rdc",
-          "elevationMeters": 1307
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -296,7 +201,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 179.56504732895652,
@@ -1229,7 +1134,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1292.0633468485705,
@@ -1742,7 +1647,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 951.6921415381396,
@@ -1750,8 +1655,109 @@
           "descentMeters": 39.30029296875,
           "changeMeters": -17.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.72493,
+            34.87055,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1293
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.718633,
+            34.864324,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 80’",
+          "description": "Off tree\n",
+          "stroke": "#34C759",
+          "elevationMeters": 1300
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.718856,
+            34.864113,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 45’",
+          "description": "Off pine tree in watercourse",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1298
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.719168,
+            34.8643,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - 40’",
+          "description": "Off tree rdc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1305
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.719333,
+            34.864449,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4 - 50’",
+          "description": "Off tree ldc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1306
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.71941,
+            34.864532,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5 - 90’",
+          "description": "Off bush rdc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1307
+        }
       }
     ]
   },
-  "version": "d7ce6a983567c3d2dcbac5c5a282e76a"
+  "version": "38fdcdc105fa431ddd80382c9464813c"
 }

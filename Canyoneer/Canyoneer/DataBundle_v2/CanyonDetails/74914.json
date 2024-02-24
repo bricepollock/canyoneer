@@ -33,81 +33,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.263442933559425,
-            10.693851609873175,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 328
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.26495838165284,
-            10.705421129868263,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Sombasson Tr. Sign",
-          "elevationMeters": 399
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.26352205872537,
-            10.705873122200854,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Finish",
-          "elevationMeters": 367
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.26682251691819,
-            10.711835272824226,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Start",
-          "elevationMeters": 338
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.266299486160285,
-            10.709798047681716,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start of Slot/Waterfall Downclimb",
-          "elevationMeters": 408
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -589,7 +514,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2617.134778676777,
@@ -652,7 +577,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 233.63007389167737,
@@ -795,7 +720,7 @@
         },
         "properties": {
           "name": "Canyon",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 811.2373986379763,
@@ -803,8 +728,88 @@
           "descentMeters": 105.699951171875,
           "changeMeters": 29.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.263442933559425,
+            10.693851609873175,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 328
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.26495838165284,
+            10.705421129868263,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Sombasson Tr. Sign",
+          "stroke": "#34C759",
+          "elevationMeters": 399
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.26352205872537,
+            10.705873122200854,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Finish",
+          "stroke": "#FFCC00",
+          "elevationMeters": 367
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.26682251691819,
+            10.711835272824226,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Start",
+          "stroke": "#34C759",
+          "elevationMeters": 338
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.266299486160285,
+            10.709798047681716,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start of Slot/Waterfall Downclimb",
+          "stroke": "#FF3B30",
+          "elevationMeters": 408
+        }
       }
     ]
   },
-  "version": "46c592bec450525d4fe6de31d4ab9045"
+  "version": "a688f3258ba8d93ed6c64cb063db6cec"
 }

@@ -26,66 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.069,
-            45.7786,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave Track",
-          "elevationMeters": 554
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.0402,
-            45.762,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 729
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.0387,
-            45.7669,
-            0
-          ]
-        },
-        "properties": {
-          "name": "PCT Bridge",
-          "elevationMeters": 695
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.0482,
-            45.7525,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 675
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -462,7 +402,7 @@
         },
         "properties": {
           "name": "Approach (ORV Trail)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 4473.57662589701,
@@ -585,7 +525,7 @@
         },
         "properties": {
           "name": "Rock Creek - Technical Section",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1488.330349437374,
@@ -783,7 +723,7 @@
         },
         "properties": {
           "name": "Exit - PCT",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 785.3401794204843,
@@ -956,7 +896,7 @@
         },
         "properties": {
           "name": "Shuttle Route",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1385.4464353755166,
@@ -1019,7 +959,7 @@
         },
         "properties": {
           "name": "Approach - Bushwhack",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 762.6114852030577,
@@ -1237,7 +1177,7 @@
         },
         "properties": {
           "name": "Exit - Rock Creek",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2678.655138846985,
@@ -1245,8 +1185,72 @@
           "descentMeters": 163.5,
           "changeMeters": 134
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.069,
+            45.7786,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave Track",
+          "stroke": "#34C759",
+          "elevationMeters": 554
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.0402,
+            45.762,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 729
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.0387,
+            45.7669,
+            0
+          ]
+        },
+        "properties": {
+          "name": "PCT Bridge",
+          "stroke": "#AF52DE",
+          "elevationMeters": 695
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.0482,
+            45.7525,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 675
+        }
       }
     ]
   },
-  "version": "2bf9ffd3c7e21c97f2da3a14259c5b2f"
+  "version": "d62058891aa19f159a6cfd9b3224bdc0"
 }

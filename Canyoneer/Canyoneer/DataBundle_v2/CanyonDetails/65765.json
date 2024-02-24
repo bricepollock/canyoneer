@@ -32,81 +32,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8606109917164,
-            34.93118584273951,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 40’",
-          "elevationMeters": 1567
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86068274080755,
-            34.9311792457898,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 65’",
-          "elevationMeters": 1567
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86074174940588,
-            34.93118694223108,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - 50’",
-          "elevationMeters": 1568
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86054125428201,
-            34.93044753082626,
-            0
-          ]
-        },
-        "properties": {
-          "name": "4th class climb",
-          "elevationMeters": 1545
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86066865921022,
-            34.928122052264214,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave wash",
-          "elevationMeters": 1613
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1113,7 +1038,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 3615.1186779421814,
@@ -1161,7 +1086,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 34.68192136393563,
@@ -1989,7 +1914,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 3609.5877844269567,
@@ -1997,8 +1922,88 @@
           "descentMeters": 1212.300537109375,
           "changeMeters": -41.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8606109917164,
+            34.93118584273951,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 40’",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1567
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86068274080755,
+            34.9311792457898,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 65’",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1567
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86074174940588,
+            34.93118694223108,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - 50’",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1568
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86054125428201,
+            34.93044753082626,
+            0
+          ]
+        },
+        "properties": {
+          "name": "4th class climb",
+          "stroke": "#34C759",
+          "elevationMeters": 1545
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86066865921022,
+            34.928122052264214,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave wash",
+          "stroke": "#34C759",
+          "elevationMeters": 1613
+        }
       }
     ]
   },
-  "version": "80f38efa5a65ab3449470a7ba14d6f8e"
+  "version": "b02bd6552c9c4a70eba41f232a04b172"
 }

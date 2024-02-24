@@ -35,28 +35,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.4564458831399,
-            37.89440753549469,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "-45b61afe",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 1954
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -105,35 +83,13 @@
             "highlight": "#sh_ylw-pushpin2"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 85.6480617385534,
           "ascentMeters": 0,
           "descentMeters": 18.5,
           "changeMeters": -18.5
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.4561257495514,
-            37.89360733101832,
-            0
-          ]
-        },
-        "properties": {
-          "name": "P1 35m (canyon start)",
-          "styleUrl": "#msn_ylw-pushpin",
-          "styleHash": "665f8ecf",
-          "styleMapHash": {
-            "normal": "#sn_ylw-pushpin1",
-            "highlight": "#sh_ylw-pushpin"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 1958
         }
       },
       {
@@ -197,35 +153,13 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00aa00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 154.55874808300183,
           "ascentMeters": 0,
           "descentMeters": 23.0999755859375,
           "changeMeters": -23.0999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.4556151693264,
-            37.89231195552301,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Ends",
-          "styleUrl": "#msn_ylw-pushpin",
-          "styleHash": "665f8ecf",
-          "styleMapHash": {
-            "normal": "#sn_ylw-pushpin1",
-            "highlight": "#sh_ylw-pushpin"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 1935
         }
       },
       {
@@ -459,13 +393,82 @@
             "highlight": "#sh_ylw-pushpin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#0055ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 640.0630694495693,
           "ascentMeters": 105.4998779296875,
           "descentMeters": 63.89990234375,
           "changeMeters": 41.5999755859375
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4564458831399,
+            37.89440753549469,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "-45b61afe",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1954
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4561257495514,
+            37.89360733101832,
+            0
+          ]
+        },
+        "properties": {
+          "name": "P1 35m (canyon start)",
+          "styleUrl": "#msn_ylw-pushpin",
+          "styleHash": "665f8ecf",
+          "styleMapHash": {
+            "normal": "#sn_ylw-pushpin1",
+            "highlight": "#sh_ylw-pushpin"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1958
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4556151693264,
+            37.89231195552301,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Ends",
+          "styleUrl": "#msn_ylw-pushpin",
+          "styleHash": "665f8ecf",
+          "styleMapHash": {
+            "normal": "#sn_ylw-pushpin1",
+            "highlight": "#sh_ylw-pushpin"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#5856D6",
+          "elevationMeters": 1935
         }
       },
       {
@@ -488,10 +491,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "(nose might be easier - we had snow)",
+          "stroke": "#5856D6",
           "elevationMeters": 1888
         }
       }
     ]
   },
-  "version": "78bf6199001c43866c130ccba09b3919"
+  "version": "2cb476b39cf694c58381f7c5cc674f96"
 }

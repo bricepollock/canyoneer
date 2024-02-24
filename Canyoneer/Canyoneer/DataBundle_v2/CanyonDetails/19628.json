@@ -31,86 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74588,
-            34.90382,
-            0
-          ]
-        },
-        "properties": {
-          "name": "WMC R3 50'",
-          "description": "Rappel off chock stone in middle of waterway 40 yards DC from R2",
-          "elevationMeters": 1450
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74657,
-            34.90085,
-            0
-          ]
-        },
-        "properties": {
-          "name": "WMC R5 70'",
-          "description": "Two options – Rappel off tree RDC near water course, or off tree 15 yards LDC from waterway. R5 is 300 yards DC from R4",
-          "elevationMeters": 1449
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74542635581969,
-            34.90409898696295,
-            0
-          ]
-        },
-        "properties": {
-          "name": "WMC R2 95'",
-          "description": "Rappel off pine tree 30 yards LDC from R1",
-          "elevationMeters": 1471
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74533,
-            34.90445,
-            0
-          ]
-        },
-        "properties": {
-          "name": "WMC R1 105'",
-          "description": "Rappel off a large cypress tree above the waterway RDC. Can be done as 100' rap with but-slide last 5 feet down to base though is awkward",
-          "elevationMeters": 1497
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74586,
-            34.90324,
-            0
-          ]
-        },
-        "properties": {
-          "name": "WMC R4 105'",
-          "description": "Rappel off small pine tree in the middle of the water way 50 yards DC from R3. Can rappel with shorter rope and down climb, or bypass the entire rappel by down climbing RDC",
-          "elevationMeters": 1416
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -602,7 +522,7 @@
         },
         "properties": {
           "name": "Wilson Mountain Canyon Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2640.5283772929747,
@@ -1455,7 +1375,7 @@
         },
         "properties": {
           "name": "WMC Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 557.9629745671302,
@@ -1598,7 +1518,7 @@
         },
         "properties": {
           "name": "WMC Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 314.4790404563391,
@@ -1606,8 +1526,93 @@
           "descentMeters": 9.699951171875,
           "changeMeters": 43
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74588,
+            34.90382,
+            0
+          ]
+        },
+        "properties": {
+          "name": "WMC R3 50'",
+          "description": "Rappel off chock stone in middle of waterway 40 yards DC from R2",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1450
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74657,
+            34.90085,
+            0
+          ]
+        },
+        "properties": {
+          "name": "WMC R5 70'",
+          "description": "Two options – Rappel off tree RDC near water course, or off tree 15 yards LDC from waterway. R5 is 300 yards DC from R4",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1449
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74542635581969,
+            34.90409898696295,
+            0
+          ]
+        },
+        "properties": {
+          "name": "WMC R2 95'",
+          "description": "Rappel off pine tree 30 yards LDC from R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1471
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74533,
+            34.90445,
+            0
+          ]
+        },
+        "properties": {
+          "name": "WMC R1 105'",
+          "description": "Rappel off a large cypress tree above the waterway RDC. Can be done as 100' rap with but-slide last 5 feet down to base though is awkward",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1497
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74586,
+            34.90324,
+            0
+          ]
+        },
+        "properties": {
+          "name": "WMC R4 105'",
+          "description": "Rappel off small pine tree in the middle of the water way 50 yards DC from R3. Can rappel with shorter rope and down climb, or bypass the entire rappel by down climbing RDC",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1416
+        }
       }
     ]
   },
-  "version": "1cded15ef8014f81a067e91df8f9e340"
+  "version": "b714c3da433117e4ab20b2fa81e02688"
 }

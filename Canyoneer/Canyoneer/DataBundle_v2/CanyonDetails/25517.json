@@ -30,60 +30,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.16992335,
-            34.29725962
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Parking",
-          "styleUrl": "#Point_Mine_23_02",
-          "styleHash": "7e31442d",
-          "icon": "http://www.topografix.com/symbols/Garmin/Car.png",
-          "description": "<br />Coordinates = N34.29726°  W118.16992°\n<br />Type = Mine\n",
-          "elevationMeters": 934
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.15962367,
-            34.30019793
-          ]
-        },
-        "properties": {
-          "name": "Drop-In Parking",
-          "styleUrl": "#Point_Mine_23_02",
-          "styleHash": "7e31442d",
-          "icon": "http://www.topografix.com/symbols/Garmin/Car.png",
-          "description": "<br />Coordinates = N34.30020°  W118.15962°\n<br />Type = Mine\n",
-          "elevationMeters": 922
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.15907429,
-            34.3027918
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#Point_Waypoint_31_02",
-          "styleHash": "-cd6fddc",
-          "icon": "http://www.topografix.com/symbols/Garmin/City_(Small).png",
-          "description": "<br />Elevation = 2883.14 ft\n<br />Coordinates = N34.30279°  W118.15907°\n<br />Type = Waypoint\n",
-          "elevationMeters": 980
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -282,7 +228,7 @@
           "name": "CampFiveCanyon",
           "styleUrl": "#Line_GPS_Tracklog_0000ff_02",
           "styleHash": "10f9cb57",
-          "stroke": "#0000ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "fill-opacity": 0,
@@ -533,7 +479,7 @@
           "name": "ShuttlepDropin",
           "styleUrl": "#Line_Highway_cb0017_02",
           "styleHash": "47a06b6e",
-          "stroke": "#cb0017",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2.4,
           "fill-opacity": 0,
@@ -1424,7 +1370,7 @@
           "name": "Fall CreekRoad",
           "styleUrl": "#Line_Road_000000_02",
           "styleHash": "-453fc535",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 2.4,
           "fill-opacity": 0,
@@ -1433,8 +1379,65 @@
           "descentMeters": 401.20013427734375,
           "changeMeters": -42
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.16992335,
+            34.29725962
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Parking",
+          "styleUrl": "#Point_Mine_23_02",
+          "styleHash": "7e31442d",
+          "icon": "http://www.topografix.com/symbols/Garmin/Car.png",
+          "description": "<br />Coordinates = N34.29726°  W118.16992°\n<br />Type = Mine\n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 934
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.15962367,
+            34.30019793
+          ]
+        },
+        "properties": {
+          "name": "Drop-In Parking",
+          "styleUrl": "#Point_Mine_23_02",
+          "styleHash": "7e31442d",
+          "icon": "http://www.topografix.com/symbols/Garmin/Car.png",
+          "description": "<br />Coordinates = N34.30020°  W118.15962°\n<br />Type = Mine\n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 922
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.15907429,
+            34.3027918
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#Point_Waypoint_31_02",
+          "styleHash": "-cd6fddc",
+          "icon": "http://www.topografix.com/symbols/Garmin/City_(Small).png",
+          "description": "<br />Elevation = 2883.14 ft\n<br />Coordinates = N34.30279°  W118.15907°\n<br />Type = Waypoint\n",
+          "stroke": "#5856D6",
+          "elevationMeters": 980
+        }
       }
     ]
   },
-  "version": "4977a6a3193648b119d5922fc5da8df8"
+  "version": "a52f6ef193062779a3e98638649b6130"
 }

@@ -26,66 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.80886877,
-            37.94510748,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 25'",
-          "elevationMeters": 3662
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.80939897,
-            37.94450929,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 20'",
-          "elevationMeters": 3646
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.81023418,
-            37.94334929,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 150' Cornet Falls",
-          "elevationMeters": 3660
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.81288518600104,
-            37.940218948021425,
-            0
-          ]
-        },
-        "properties": {
-          "name": "2hr Street Parking before 6pm Mon-Sat",
-          "elevationMeters": 3609
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -477,7 +417,7 @@
         },
         "properties": {
           "name": "alt trail Tomboy Rd to Liberty Bell Rd to Jud Wiebe Trail ",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2251.1373614152603,
@@ -695,7 +635,7 @@
         },
         "properties": {
           "name": "Cornet return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 406.25614920672825,
@@ -1123,7 +1063,7 @@
         },
         "properties": {
           "name": "Cornet descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 688.2306762186753,
@@ -2426,7 +2366,7 @@
         },
         "properties": {
           "name": "Cornet approach Jud Wiebe Trail",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3011.4883370890175,
@@ -2434,8 +2374,72 @@
           "descentMeters": 462.900390625,
           "changeMeters": 88.89990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.80886877,
+            37.94510748,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 25'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3662
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.80939897,
+            37.94450929,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 20'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3646
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.81023418,
+            37.94334929,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 150' Cornet Falls",
+          "stroke": "#5856D6",
+          "elevationMeters": 3660
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.81288518600104,
+            37.940218948021425,
+            0
+          ]
+        },
+        "properties": {
+          "name": "2hr Street Parking before 6pm Mon-Sat",
+          "stroke": "#34C759",
+          "elevationMeters": 3609
+        }
       }
     ]
   },
-  "version": "3939d20fb9dcee176e9bcb88e5949646"
+  "version": "2b7fa5313ca38156f49c8377fbc5f834"
 }

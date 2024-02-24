@@ -20,59 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [
-              [
-                -155.11236190795898,
-                19.38670033213485,
-                0
-              ],
-              [
-                -155.08987426757812,
-                19.294294161374822,
-                0
-              ],
-              [
-                -155.08987426757812,
-                19.294294161374822,
-                0
-              ],
-              [
-                -154.98619079589844,
-                19.34046329181162,
-                0
-              ],
-              [
-                -155.09991645812988,
-                19.392367718086817,
-                0
-              ],
-              [
-                -155.1090145111084,
-                19.393825014011117,
-                0
-              ],
-              [
-                -155.11236190795898,
-                19.38670033213485,
-                0
-              ]
-            ]
-          ]
-        },
-        "properties": {
-          "name": "Active Lava Flow",
-          "stroke": "#FF0000",
-          "stroke-opacity": 1,
-          "stroke-width": 2,
-          "fill": "#FF0000",
-          "fill-opacity": 0.26666666666666666
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -214,7 +161,7 @@
         },
         "properties": {
           "name": "Destroyed Road",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#000000",
@@ -237,6 +184,7 @@
         },
         "properties": {
           "name": "Parking",
+          "stroke": "#FF3B30",
           "elevationMeters": 15
         }
       },
@@ -252,6 +200,7 @@
         },
         "properties": {
           "name": "Parking",
+          "stroke": "#FF3B30",
           "elevationMeters": 0
         }
       },
@@ -267,10 +216,11 @@
         },
         "properties": {
           "name": "Kilauea Caldera",
+          "stroke": "#FF3B30",
           "elevationMeters": 737
         }
       }
     ]
   },
-  "version": "88c5b13c49c6428a139fdb6bedfa7fb5"
+  "version": "364fbc2a8003ab1296829c96aa3b2cc7"
 }

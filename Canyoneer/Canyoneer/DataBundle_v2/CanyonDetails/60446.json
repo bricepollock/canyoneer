@@ -17,8 +17,8 @@
   "waterRating": "B",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 15,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 73.15,
   "vehicle": "Passenger",
   "shuttleSeconds": 2700,
@@ -26,51 +26,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.74999761581422,
-            36.55444747993058,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle parking upper",
-          "elevationMeters": 1164
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.75144600868227,
-            36.52765691280641,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Parking Lower if gate open",
-          "elevationMeters": 1272
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.77166986465456,
-            36.520750889616444,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Parking Lower if gate locked",
-          "elevationMeters": 895
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -175,7 +130,7 @@
         },
         "properties": {
           "name": "Approach Sugar Pine Trail",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 783.856015784907,
@@ -208,7 +163,7 @@
         },
         "properties": {
           "name": "Approach cross country",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 843.4895184984273,
@@ -246,7 +201,7 @@
         },
         "properties": {
           "name": "Descent Technical",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 412.8665239988529,
@@ -319,7 +274,7 @@
         },
         "properties": {
           "name": "Descent downclimb, brush and PO",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1645.3639065675432,
@@ -372,7 +327,7 @@
         },
         "properties": {
           "name": "Exit hike on trail",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 152.75789556109987,
@@ -935,7 +890,7 @@
         },
         "properties": {
           "name": "Exit hike on road or Shuttle Drive",
-          "stroke": "#C0C0C0",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2889.504830565251,
@@ -943,8 +898,56 @@
           "descentMeters": 1035.300048828125,
           "changeMeters": -350.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.74999761581422,
+            36.55444747993058,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle parking upper",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1164
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.75144600868227,
+            36.52765691280641,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Parking Lower if gate open",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1272
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.77166986465456,
+            36.520750889616444,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Parking Lower if gate locked",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 895
+        }
       }
     ]
   },
-  "version": "61504fc4181b0cbc9132e6eb7b62e00c"
+  "version": "954e73a9f59eb754993f25ee9c50aae3"
 }

@@ -27,128 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.754817,
-            34.80107,
-            0
-          ]
-        },
-        "properties": {
-          "name": "hung jury turn off",
-          "description": "Location: 34.80107, -111.754817<br/>\nElevation: 1.0 mi<br/>\nTime Created: 3/29/21 11:05:38 AM<br/>\n",
-          "elevationMeters": 1244
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.751361,
-            34.797469,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "elevationMeters": 1231
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.75178,
-            34.797256,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "elevationMeters": 1232
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.75336558837445,
-            34.80069707058084,
-            0
-          ]
-        },
-        "properties": {
-          "name": "r1 60'",
-          "elevationMeters": 1244
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.75344158055853,
-            34.80029958677199,
-            0
-          ]
-        },
-        "properties": {
-          "name": "r2 200'",
-          "elevationMeters": 1244
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.75457974895836,
-            34.79912017863013,
-            0
-          ]
-        },
-        "properties": {
-          "name": "ruins",
-          "elevationMeters": 1238
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.753471,
-            34.800307,
-            0
-          ]
-        },
-        "properties": {
-          "name": "hj r2",
-          "description": "Location: 34.800307, -111.753471<br/>\nElevation: 0.9 mi<br/>\nTime Created: 3/29/21 12:58:15 PM<br/>\n",
-          "elevationMeters": 1244
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.75430910041543,
-            34.79944365108344,
-            0
-          ]
-        },
-        "properties": {
-          "name": "r3 60'",
-          "elevationMeters": 1241
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -269,7 +147,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1001.0726699880493,
@@ -316,7 +194,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 58.449405816490675,
@@ -393,7 +271,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 161.78668717561013,
@@ -420,7 +298,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 15.67437984979652,
@@ -428,8 +306,138 @@
           "descentMeters": 0,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.754817,
+            34.80107,
+            0
+          ]
+        },
+        "properties": {
+          "name": "hung jury turn off",
+          "description": "Location: 34.80107, -111.754817<br/>\nElevation: 1.0 mi<br/>\nTime Created: 3/29/21 11:05:38 AM<br/>\n",
+          "stroke": "#34C759",
+          "elevationMeters": 1244
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.751361,
+            34.797469,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1231
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.75178,
+            34.797256,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1232
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.75336558837445,
+            34.80069707058084,
+            0
+          ]
+        },
+        "properties": {
+          "name": "r1 60'",
+          "stroke": "#34C759",
+          "elevationMeters": 1244
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.75344158055853,
+            34.80029958677199,
+            0
+          ]
+        },
+        "properties": {
+          "name": "r2 200'",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1244
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.75457974895836,
+            34.79912017863013,
+            0
+          ]
+        },
+        "properties": {
+          "name": "ruins",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1238
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.753471,
+            34.800307,
+            0
+          ]
+        },
+        "properties": {
+          "name": "hj r2",
+          "description": "Location: 34.800307, -111.753471<br/>\nElevation: 0.9 mi<br/>\nTime Created: 3/29/21 12:58:15 PM<br/>\n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1244
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.75430910041543,
+            34.79944365108344,
+            0
+          ]
+        },
+        "properties": {
+          "name": "r3 60'",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1241
+        }
       }
     ]
   },
-  "version": "2a7a5f2c280c9c14c3f87511aa585407"
+  "version": "e3b60a9387d01bcdde428f7a3a49d935"
 }

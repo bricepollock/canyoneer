@@ -21,82 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -75.02171145468365,
-            6.197887149954752,
-            1249.4
-          ]
-        },
-        "properties": {
-          "name": "Chispero park",
-          "styleUrl": "#sh_ylw-pushpin3",
-          "styleHash": "-7ed9dcd9",
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "Location: 6.19789, -75.02171<br>\nElevation: 4,099.24 ft<br>\nTime Created: 10/3/19, 8:03:56 AM PDT<br>",
-          "elevationMeters": 1193
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -75.01451765866955,
-            6.1899564717013,
-            1038.7
-          ]
-        },
-        "properties": {
-          "name": "Chispero End",
-          "styleUrl": "#sh_ylw-pushpin3",
-          "styleHash": "-7ed9dcd9",
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "Location: 6.18996, -75.01452<br>\nElevation: 3,407.68 ft<br>\nTime Created: 10/3/19, 12:25:22 PM PDT<br>",
-          "elevationMeters": 1191
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -75.02396266069054,
-            6.195317516223943,
-            1237.6
-          ]
-        },
-        "properties": {
-          "name": "Chispero start",
-          "styleUrl": "#sh_ylw-pushpin3",
-          "styleHash": "-7ed9dcd9",
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "Location: 6.19532, -75.02396<br>\nElevation: 4,060.50 ft<br>\nTime Created: 10/3/19, 8:24:27 AM PDT<br>",
-          "elevationMeters": 1192
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -75.0093666924974,
-            6.183613416166407,
-            1018.4
-          ]
-        },
-        "properties": {
-          "name": "Chispero Alt End",
-          "styleUrl": "#sh_ylw-pushpin3",
-          "styleHash": "-7ed9dcd9",
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "Location: 6.18361, -75.00937<br>\nElevation: 3,341.14 ft<br>\nTime Created: 10/3/19, 1:38:32 PM PDT<br>",
-          "elevationMeters": 1047
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -980,7 +904,7 @@
             "highlight": "#sh_ylw-pushpin7"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 581.6992886881075,
@@ -1810,7 +1734,7 @@
             "highlight": "#sh_ylw-pushpin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 497.0376508447324,
@@ -4335,7 +4259,7 @@
             "highlight": "#sh_ylw-pushpin32"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1856.6629304213573,
@@ -5855,7 +5779,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffaa00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1330.9001137915782,
@@ -7400,7 +7324,7 @@
             "highlight": "#sh_ylw-pushpin31"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1425.8250568226429,
@@ -7408,8 +7332,88 @@
           "descentMeters": 140.4998779296875,
           "changeMeters": -4.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.02171145468365,
+            6.197887149954752,
+            1249.4
+          ]
+        },
+        "properties": {
+          "name": "Chispero park",
+          "styleUrl": "#sh_ylw-pushpin3",
+          "styleHash": "-7ed9dcd9",
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "Location: 6.19789, -75.02171<br>\nElevation: 4,099.24 ft<br>\nTime Created: 10/3/19, 8:03:56 AM PDT<br>",
+          "stroke": "#34C759",
+          "elevationMeters": 1193
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.01451765866955,
+            6.1899564717013,
+            1038.7
+          ]
+        },
+        "properties": {
+          "name": "Chispero End",
+          "styleUrl": "#sh_ylw-pushpin3",
+          "styleHash": "-7ed9dcd9",
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "Location: 6.18996, -75.01452<br>\nElevation: 3,407.68 ft<br>\nTime Created: 10/3/19, 12:25:22 PM PDT<br>",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1191
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.02396266069054,
+            6.195317516223943,
+            1237.6
+          ]
+        },
+        "properties": {
+          "name": "Chispero start",
+          "styleUrl": "#sh_ylw-pushpin3",
+          "styleHash": "-7ed9dcd9",
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "Location: 6.19532, -75.02396<br>\nElevation: 4,060.50 ft<br>\nTime Created: 10/3/19, 8:24:27 AM PDT<br>",
+          "stroke": "#34C759",
+          "elevationMeters": 1192
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.0093666924974,
+            6.183613416166407,
+            1018.4
+          ]
+        },
+        "properties": {
+          "name": "Chispero Alt End",
+          "styleUrl": "#sh_ylw-pushpin3",
+          "styleHash": "-7ed9dcd9",
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "Location: 6.18361, -75.00937<br>\nElevation: 3,341.14 ft<br>\nTime Created: 10/3/19, 1:38:32 PM PDT<br>",
+          "stroke": "#FF9500",
+          "elevationMeters": 1047
+        }
       }
     ]
   },
-  "version": "1ceae25857dd55f0ec391d70ce2a3dfe"
+  "version": "6ad23a8311f88c04df75a76d57e3ea60"
 }

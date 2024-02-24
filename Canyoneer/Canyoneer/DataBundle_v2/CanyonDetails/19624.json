@@ -20,8 +20,8 @@
   "waterRating": "B",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 15,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 42.67,
   "vehicle": "4WD - High Clearance",
   "shuttleSeconds": 30,
@@ -2657,7 +2657,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00cd00",
@@ -3971,7 +3971,7 @@
           ]
         },
         "properties": {
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#ff0000",
@@ -5845,7 +5845,7 @@
           ]
         },
         "properties": {
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#f0f000",
@@ -5868,6 +5868,7 @@
         },
         "properties": {
           "name": "boulder partially blocks the road",
+          "stroke": "#FFCC00",
           "elevationMeters": 1243
         }
       },
@@ -5883,6 +5884,7 @@
         },
         "properties": {
           "name": "Devils Chasm parking",
+          "stroke": "#FF3B30",
           "elevationMeters": 1064
         }
       },
@@ -5898,6 +5900,7 @@
         },
         "properties": {
           "name": "leave trail up drainage",
+          "stroke": "#34C759",
           "elevationMeters": 1583
         }
       },
@@ -5912,6 +5915,7 @@
           ]
         },
         "properties": {
+          "stroke": "#FFCC00",
           "elevationMeters": 1121
         }
       },
@@ -5927,6 +5931,7 @@
         },
         "properties": {
           "name": "Pueblo Canyon trail start",
+          "stroke": "#FFCC00",
           "elevationMeters": 1784
         }
       },
@@ -5942,6 +5947,7 @@
         },
         "properties": {
           "name": "ruins",
+          "stroke": "#FF3B30",
           "elevationMeters": 1623
         }
       },
@@ -5957,6 +5963,7 @@
         },
         "properties": {
           "name": "ruins",
+          "stroke": "#FF3B30",
           "elevationMeters": 1662
         }
       },
@@ -5972,10 +5979,11 @@
         },
         "properties": {
           "name": "spur to ruins",
+          "stroke": "#FF3B30",
           "elevationMeters": 1554
         }
       }
     ]
   },
-  "version": "7757964e54b8df15c630551356e7a5fc"
+  "version": "5e362889fec25d089900655d77e6669f"
 }

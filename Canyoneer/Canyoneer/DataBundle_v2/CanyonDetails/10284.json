@@ -24,7 +24,6 @@
   "rappelCountMax": 3,
   "rappelLongestMeters": 60,
   "vehicle": "Passenger",
-  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>Ng Tung Chai has the longest waterfall in Hong Kong. It is situated\non the north slope of Tai Mo Shan, the highest mountain in Hong Kong</p>\n<h2 id=\"approach\">Approach</h2>\n<p>By car: Park at Ng Tung Chai Village</p>\n<p>By MTR: Exit at Tai Po Train Station and take a taxi to Ng Tung Chai\nVillage</p>\n<p>From the village follow the road until you get to \"Man Tak Yuen\"\nstone gate. Then follow the path up the mountain.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>The main fall can be done in two stages. The second set of anchors\nare on the small ledge, half way down on the left side of the falls.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>After you have passed Bottom Falls hike back to the main path and\nreturn to the village.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
@@ -2402,7 +2401,7 @@
         },
         "properties": {
           "name": "Ascend",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#FF0000",
@@ -2872,7 +2871,7 @@
         },
         "properties": {
           "name": "Descend",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#0000FF",
@@ -2895,6 +2894,7 @@
         },
         "properties": {
           "name": "Parking",
+          "stroke": "#FF3B30",
           "elevationMeters": 190
         }
       },
@@ -2911,6 +2911,7 @@
         "properties": {
           "name": "R1",
           "description": "Scatter Fall - 12m",
+          "stroke": "#5856D6",
           "elevationMeters": 325
         }
       },
@@ -2927,6 +2928,7 @@
         "properties": {
           "name": "R2",
           "description": "Long Fall - 60m",
+          "stroke": "#5856D6",
           "elevationMeters": 329
         }
       },
@@ -2943,6 +2945,7 @@
         "properties": {
           "name": "R3",
           "description": "Horse Tail Fall - 20m",
+          "stroke": "#5856D6",
           "elevationMeters": 374
         }
       },
@@ -2959,10 +2962,11 @@
         "properties": {
           "name": "R4",
           "description": "Bottom Fall - 4m",
+          "stroke": "#5856D6",
           "elevationMeters": 355
         }
       }
     ]
   },
-  "version": "1d356b33dd2ce73c5cd01c7a283b8bf5"
+  "version": "4d2032273a4770d084370c48576fb4a3"
 }

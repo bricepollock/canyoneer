@@ -14,8 +14,8 @@
   "timeRating": "IV",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 19,
+  "rappelCountMax": 22,
   "rappelLongestMeters": 50,
   "vehicle": "4WD",
   "shuttleSeconds": 1500,
@@ -23,81 +23,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.29515585131878,
-            49.94463242590484,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Falls Lookout",
-          "elevationMeters": 113
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.29564988613129,
-            49.9433218200085,
-            0
-          ]
-        },
-        "properties": {
-          "name": "High Falls Viewpoint",
-          "elevationMeters": 160
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.30003261566162,
-            49.937956732799194,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 588
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.29570074081425,
-            49.943844348953824,
-            0
-          ]
-        },
-        "properties": {
-          "name": "High Falls",
-          "elevationMeters": 155
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.29279615576648,
-            49.94867707346751,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 63
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -212,7 +137,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1112.8096058985552,
@@ -240,7 +165,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 97.07610570826911,
@@ -273,7 +198,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 284.5357198789739,
@@ -766,7 +691,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 5122.150998562897,
@@ -774,8 +699,88 @@
           "descentMeters": 2723.3000259399414,
           "changeMeters": -515.7000007629395
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.29515585131878,
+            49.94463242590484,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Falls Lookout",
+          "stroke": "#FF3B30",
+          "elevationMeters": 113
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.29564988613129,
+            49.9433218200085,
+            0
+          ]
+        },
+        "properties": {
+          "name": "High Falls Viewpoint",
+          "stroke": "#FF3B30",
+          "elevationMeters": 160
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.30003261566162,
+            49.937956732799194,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 588
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.29570074081425,
+            49.943844348953824,
+            0
+          ]
+        },
+        "properties": {
+          "name": "High Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 155
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.29279615576648,
+            49.94867707346751,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 63
+        }
       }
     ]
   },
-  "version": "58fa4c35c7189ad184fef8dc3a715517"
+  "version": "92c24b78928141bf4d1a1dbba3701914"
 }

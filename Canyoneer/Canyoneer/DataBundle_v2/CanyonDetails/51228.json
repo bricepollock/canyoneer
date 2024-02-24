@@ -27,38 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -84.25288541,
-            10.285172112,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Pozo Azul parking",
-          "description": "Alt Exit for Gata Fiera, Barroso\n",
-          "elevationMeters": 922
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -84.263126789,
-            10.287289276,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle parking",
-          "description": "Shuttle parking",
-          "elevationMeters": 759
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -560,7 +528,7 @@
         },
         "properties": {
           "name": "Barroso view",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 322.5205711688699,
@@ -2378,7 +2346,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1341.591984547469,
@@ -5281,7 +5249,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1696.841085837181,
@@ -8660,7 +8628,7 @@
         "properties": {
           "name": "Creek Walk Exit ",
           "description": "For Gata Fiera",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2968.278839488909,
@@ -8668,8 +8636,42 @@
           "descentMeters": 412.2999267578125,
           "changeMeters": 116.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.25288541,
+            10.285172112,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Pozo Azul parking",
+          "description": "Alt Exit for Gata Fiera, Barroso\n",
+          "stroke": "#FF9500",
+          "elevationMeters": 922
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.263126789,
+            10.287289276,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle parking",
+          "description": "Shuttle parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 759
+        }
       }
     ]
   },
-  "version": "7305984fb9ab2a43d682193bacfbf413"
+  "version": "5569214478aa28e0685b5ec9e7bebbb4"
 }

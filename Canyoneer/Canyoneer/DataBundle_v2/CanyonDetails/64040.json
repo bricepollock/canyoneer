@@ -31,52 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.907515,
-            34.934486,
-            0
-          ]
-        },
-        "properties": {
-          "name": "r1 reflecrion",
-          "description": "Location: 34.934486, -111.907515<br/>\nElevation: 1.0 mi<br/>\nTime Created: 5/23/21 1:42:48 PM<br/>\nNotes: rdc big pine. \n",
-          "elevationMeters": 1367
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.912983,
-            34.919194,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "elevationMeters": 1413
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.913011,
-            34.919224,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "elevationMeters": 1413
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -387,7 +341,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1913.0119327510824,
@@ -439,7 +393,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 229.4786555118816,
@@ -556,7 +510,7 @@
           ]
         },
         "properties": {
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1879.6691966320261,
@@ -564,8 +518,57 @@
           "descentMeters": 36.199951171875,
           "changeMeters": 23.800048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.907515,
+            34.934486,
+            0
+          ]
+        },
+        "properties": {
+          "name": "r1 reflecrion",
+          "description": "Location: 34.934486, -111.907515<br/>\nElevation: 1.0 mi<br/>\nTime Created: 5/23/21 1:42:48 PM<br/>\nNotes: rdc big pine. \n",
+          "stroke": "#34C759",
+          "elevationMeters": 1367
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.912983,
+            34.919194,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1413
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.913011,
+            34.919224,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1413
+        }
       }
     ]
   },
-  "version": "49f59d4529e948a9c35e61fe3f4097c7"
+  "version": "6f5a48705aae7632200911a48e7b44f2"
 }

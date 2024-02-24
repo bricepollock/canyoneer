@@ -14,8 +14,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 20,
   "vehicle": "Passenger",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>This is a good canyoning descent with a relatively low degree of\ncommitment, although the number of obstacles generates a longer day when\nthe entire drainage descent is done. The descent can also be split in\nseveral parts to make it more manageable.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>The approach, descent and exit are described in the Beta Sites listed\nbelow. The attached map was derived from interpreting their beta</p>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"https://web.archive.org/web/20210527212206/www.canyoneeringnorthwest.com/MosquitoCreek/Mosquito_Creek.php\">CanyoneeringNorthwest.com\n(archive.org)</a> : Mosquito Creek</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -241,7 +241,7 @@
         },
         "properties": {
           "name": "Approach/Exit Middle (Dreamweaver Trail)",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FFAA00",
@@ -536,7 +536,7 @@
         },
         "properties": {
           "name": "Approach for Upper (St George Trail)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -731,7 +731,7 @@
         },
         "properties": {
           "name": "Exit (Baden Powell Trail)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -901,7 +901,7 @@
         },
         "properties": {
           "name": "Descent Lower",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -1036,7 +1036,7 @@
         },
         "properties": {
           "name": "Descent Upper",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -1059,6 +1059,7 @@
         },
         "properties": {
           "name": "Parking",
+          "stroke": "#FF9500",
           "elevationMeters": 129
         }
       },
@@ -1074,6 +1075,7 @@
         },
         "properties": {
           "name": "Lower Exit",
+          "stroke": "#FFCC00",
           "elevationMeters": 150
         }
       },
@@ -1089,6 +1091,7 @@
         },
         "properties": {
           "name": "Midpoint",
+          "stroke": "#FF9500",
           "elevationMeters": 92
         }
       },
@@ -1104,6 +1107,7 @@
         },
         "properties": {
           "name": "Upper Drop-in",
+          "stroke": "#34C759",
           "elevationMeters": 78
         }
       },
@@ -1119,10 +1123,11 @@
         },
         "properties": {
           "name": "Cascades",
+          "stroke": "#FF3B30",
           "elevationMeters": 101
         }
       }
     ]
   },
-  "version": "27a298dfe847bebd64770f83b466d207"
+  "version": "81448c05fb861bd0e8c596bb701bf70f"
 }

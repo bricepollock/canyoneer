@@ -21,8 +21,8 @@
   "timeRating": "III",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 5,
-  "rappelCountMax": 5,
+  "rappelCountMin": 15,
+  "rappelCountMax": 15,
   "rappelLongestMeters": 30,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/2630\">Descente-Canyon.com</a>\n: Madonna</li>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://altisud.com/canyoning/italie/le-piemont/vallee-de-demonte/vallon-de-la-madonna-canyoning__i_4mxvn8abtonw__al_descente-canyon-fiche.html\">Altisud.com</a>\n: Vallon de la Madonna</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/CN012\">Catastoforre\nAIC-Canyoning.it</a> : Vallone della Madonna</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://openspeleo.org/openspeleo/canyons-view-78.html\">OpenSpeleo.org</a>\n: rio della madonna</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/MadonnaCanyon\">Canyon.Carto.net</a>\n: Rio della Madonna</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -48,6 +48,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 12 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1723
         }
       },
@@ -71,6 +72,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 12 fév 2011)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1983
         }
       },
@@ -94,10 +96,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Laurent on 27 juil 2008)",
+          "stroke": "#FF3B30",
           "elevationMeters": 2401
         }
       }
     ]
   },
-  "version": "79ab4f412f51594f19f34f0b2cbda742"
+  "version": "92479b60f23670d3d683b7a9f44894b4"
 }

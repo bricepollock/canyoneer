@@ -12,75 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -76.011054,
-            4.797848,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "367f00f9",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by ELVIAJEDETORO at wikiloc.com)",
-          "elevationMeters": 1017
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -75.917341,
-            4.757575,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "12f80864",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by ELVIAJEDETORO at wikiloc.com)",
-          "elevationMeters": 1117
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -76.014332,
-            4.797241,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cascada numero 2 ",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-3fbca24",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by ELVIAJEDETORO at wikiloc.com)",
-          "elevationMeters": 1043
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1658,7 +1589,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by ELVIAJEDETORO at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 21380.220003406917,
@@ -1666,8 +1597,80 @@
           "descentMeters": 1059.1994018554688,
           "changeMeters": 100.20001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -76.011054,
+            4.797848,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "4024f1af",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by ELVIAJEDETORO at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1017
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.917341,
+            4.757575,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-3c20bede",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by ELVIAJEDETORO at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1117
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -76.014332,
+            4.797241,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cascada numero 2 ",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "406d9da5",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by ELVIAJEDETORO at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1043
+        }
       }
     ]
   },
-  "version": "834b0e4750532d495c6580670a81ecba"
+  "version": "a3b4303535ae19175e37c01e4eaa27c8"
 }

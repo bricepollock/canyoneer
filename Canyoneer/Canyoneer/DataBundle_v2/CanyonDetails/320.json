@@ -21,28 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.6072566916393,
-            37.61706215405059,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Fix Line",
-          "styleUrl": "#msn_pink-blank",
-          "styleHash": "-56a7d41e",
-          "styleMapHash": {
-            "normal": "#sn_pink-blank",
-            "highlight": "#sh_pink-blank"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/pink-blank.png",
-          "elevationMeters": 1314
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -155,7 +133,7 @@
             "normal": "#inline5",
             "highlight": "#inline6"
           },
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "fill-opacity": 0,
@@ -275,7 +253,7 @@
             "normal": "#inline2",
             "highlight": "#inline3"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "fill-opacity": 0,
@@ -715,7 +693,7 @@
             "normal": "#inline0",
             "highlight": "#inline7"
           },
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "fill-opacity": 0,
@@ -723,6 +701,29 @@
           "ascentMeters": 145,
           "descentMeters": 73,
           "changeMeters": 72
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.6072566916393,
+            37.61706215405059,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fix Line",
+          "styleUrl": "#msn_pink-blank",
+          "styleHash": "-56a7d41e",
+          "styleMapHash": {
+            "normal": "#sn_pink-blank",
+            "highlight": "#sh_pink-blank"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/pink-blank.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1314
         }
       },
       {
@@ -744,6 +745,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
           "elevationMeters": 1225
         }
       },
@@ -766,6 +768,7 @@
             "highlight": "#sh_pink-blank"
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/pink-blank.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1314
         }
       },
@@ -788,10 +791,11 @@
             "highlight": "#sh_pink-blank"
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/pink-blank.png",
+          "stroke": "#34C759",
           "elevationMeters": 1297
         }
       }
     ]
   },
-  "version": "d27be554790bd6c2888c6b202f17b821"
+  "version": "b6d56117f2877b0865db70299bacfa48"
 }

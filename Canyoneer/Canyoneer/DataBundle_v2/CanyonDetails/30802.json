@@ -31,36 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.32210613787176,
-            24.744512916670278,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Start",
-          "elevationMeters": 41
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.32383884489538,
-            24.747392161258276,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Optional R3",
-          "elevationMeters": 44
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1037,7 +1007,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 7,
           "lengthMeters": 2116.6374101050787,
@@ -1520,7 +1490,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 7,
           "lengthMeters": 471.82680141514504,
@@ -2123,7 +2093,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 7,
           "lengthMeters": 581.4603816310197,
@@ -2131,8 +2101,40 @@
           "descentMeters": 3.7000045776367188,
           "changeMeters": -1.9000015258789062
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.32210613787176,
+            24.744512916670278,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Start",
+          "stroke": "#34C759",
+          "elevationMeters": 41
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.32383884489538,
+            24.747392161258276,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Optional R3",
+          "stroke": "#FF3B30",
+          "elevationMeters": 44
+        }
       }
     ]
   },
-  "version": "09b30ceb319fa674e3a485f814a41634"
+  "version": "65a5054c8b39f28a5148db6c95eb5150"
 }

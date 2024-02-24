@@ -24,21 +24,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.97707319259645,
-            47.62467785241327,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Private Property",
-          "elevationMeters": 353
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -125,7 +110,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 398.1678215727657,
@@ -318,7 +303,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 920.981474042652,
@@ -431,7 +416,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 491.1373353556038,
@@ -439,8 +424,24 @@
           "descentMeters": 0.300018310546875,
           "changeMeters": 158.89999389648438
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.97707319259645,
+            47.62467785241327,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Private Property",
+          "stroke": "#FF3B30",
+          "elevationMeters": 353
+        }
       }
     ]
   },
-  "version": "3daf2f003d6987759eeab0640feeb8a0"
+  "version": "5b5ad6691a2e87adca51bee07cb14ecf"
 }

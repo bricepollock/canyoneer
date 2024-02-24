@@ -26,36 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.78949999999998,
-            37.794,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3610
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.7971488237381,
-            37.788950457167545,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Approach",
-          "elevationMeters": 3625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -132,7 +102,7 @@
         },
         "properties": {
           "name": "Return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 489.52512072628576,
@@ -675,7 +645,7 @@
         },
         "properties": {
           "name": "Approach (Hardrock)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2692.6847347349417,
@@ -748,7 +718,7 @@
         },
         "properties": {
           "name": "Approach along the creek",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 894.3635138808039,
@@ -871,7 +841,7 @@
         },
         "properties": {
           "name": "Return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 867.0352265214251,
@@ -944,7 +914,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 731.5598830455652,
@@ -952,8 +922,40 @@
           "descentMeters": 5.300048828125,
           "changeMeters": 280.2001953125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.78949999999998,
+            37.794,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3610
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.7971488237381,
+            37.788950457167545,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "stroke": "#34C759",
+          "elevationMeters": 3625
+        }
       }
     ]
   },
-  "version": "2ac3a16df6a98923b345d3b29bfc53bc"
+  "version": "46fc7eab86894506cd247aa02826265f"
 }

@@ -31,66 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.83102,
-            37.77083,
-            0
-          ]
-        },
-        "properties": {
-          "name": "First rap",
-          "elevationMeters": 2384
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.8406,
-            37.7723,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 2170
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.83438,
-            37.77107,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Scree field",
-          "elevationMeters": 2304
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.83266901969911,
-            37.77199108841026,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Last rap",
-          "elevationMeters": 2345
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1117,7 +1057,7 @@
         },
         "properties": {
           "name": "Trail approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3024.6212151458044,
@@ -1200,7 +1140,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 209.16389718397494,
@@ -1453,7 +1393,7 @@
         },
         "properties": {
           "name": "Scree approach",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 621.3954702678953,
@@ -1831,7 +1771,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1141.3778658161493,
@@ -1839,8 +1779,72 @@
           "descentMeters": 208.5,
           "changeMeters": -153.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.83102,
+            37.77083,
+            0
+          ]
+        },
+        "properties": {
+          "name": "First rap",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2384
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.8406,
+            37.7723,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#34C759",
+          "elevationMeters": 2170
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.83438,
+            37.77107,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Scree field",
+          "stroke": "#FF9500",
+          "elevationMeters": 2304
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.83266901969911,
+            37.77199108841026,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Last rap",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2345
+        }
       }
     ]
   },
-  "version": "e65d26b5ca447d26f79be5969c3c501f"
+  "version": "12e0a2d738f6c1d47e2d808f8cc124af"
 }

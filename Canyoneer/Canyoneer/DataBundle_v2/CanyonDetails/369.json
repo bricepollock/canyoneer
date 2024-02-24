@@ -20,8 +20,8 @@
   "waterRating": "A",
   "timeRating": "III",
   "permit": "Yes",
-  "rappelCountMin": 2,
-  "rappelCountMax": 2,
+  "rappelCountMin": 12,
+  "rappelCountMax": 12,
   "rappelLongestMeters": 60.96,
   "vehicle": "Passenger",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>Entry to this area may be restricted; check for information regarding\npermits before attempting this trip</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://bluugnome.com/cyn_route/zion/zion_telephone/zion_telephone.aspx\">BluuGnome.com</a>\n: Telephone Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://canyoneeringusa.com/utah/zion/technical/telephone-canyon\">CanyoneeringUSA.com</a>\n: Telephone</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://ropewiki.com/User:Super_Amazing_Map?id=Telephone_Canyon_-_Zion_Area\">Super\nAmazing Map</a> : Telephone Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://climb-utah.com/Zion/telephone.htm\">Climb-Utah.com</a> :\nTelephone Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://hikearizona.com/decoder.php?ZTN=15642\">HikeArizona.com</a>\n: Telephone Canyon</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Zion_Canyoneering_Book?id=Telephone_Canyon\">Zion\nCanyoneering Book by Tom Jones</a> : Telephone Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://toddshikingguide.com/Hikes/Utah/Zion/Zion13.htm\">ToddsHikingGuide.com</a>\n: Telephone Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://zioncanyoneering.com/Canyon/Telephone-Canyon\">ZionCanyoneering.com</a>\n: Telephone Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://roadtripryan.com/go/t/utah/zion/upper-telephone-canyon\">RoadTripRyan.com</a>\n: Upper Telephone Canyon</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><a\nhref=\"http://www.flickr.com/photos/madzoy/sets/72157645841988125/\">Pictures\nfrom 2012</a></li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://candition.com/canyons/telephone\">Candition.com</a> :\nTelephone</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
@@ -797,7 +797,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -877,7 +877,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -977,7 +977,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -1000,6 +1000,7 @@
         },
         "properties": {
           "name": "Telephone Top",
+          "stroke": "#34C759",
           "elevationMeters": 2058
         }
       },
@@ -1015,6 +1016,7 @@
         },
         "properties": {
           "name": "Telephone End",
+          "stroke": "#FF3B30",
           "elevationMeters": 1855
         }
       },
@@ -1030,10 +1032,11 @@
         },
         "properties": {
           "name": "Approach Bottom",
+          "stroke": "#34C759",
           "elevationMeters": 1561
         }
       }
     ]
   },
-  "version": "b320456bd376b3563d7ee3d44d00da52"
+  "version": "3f7e6ede415f5fc90864df783948fb62"
 }

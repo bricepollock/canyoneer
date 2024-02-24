@@ -29,36 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.81426928281837,
-            46.55694901005791,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Final Falls",
-          "elevationMeters": 742
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.81248009900537,
-            46.55888035796372,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In",
-          "elevationMeters": 664
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -145,7 +115,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 394.48351540275183,
@@ -238,7 +208,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 297.89410273254373,
@@ -246,8 +216,40 @@
           "descentMeters": 12.10003662109375,
           "changeMeters": 97.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.81426928281837,
+            46.55694901005791,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Final Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 742
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.81248009900537,
+            46.55888035796372,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In",
+          "stroke": "#FF3B30",
+          "elevationMeters": 664
+        }
       }
     ]
   },
-  "version": "3250c467a3477a86b2a83a72134a0089"
+  "version": "2966f90e9c26683fb972a9ace5b78f36"
 }

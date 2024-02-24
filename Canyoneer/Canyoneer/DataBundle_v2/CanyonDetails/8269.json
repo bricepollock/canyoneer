@@ -23,8 +23,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 33.53,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -226,7 +226,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#00CD00",
@@ -301,7 +301,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#FF0000",
@@ -506,7 +506,7 @@
         },
         "properties": {
           "name": "Shuttle/drive",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#000000",
@@ -529,6 +529,7 @@
         },
         "properties": {
           "name": "Bridge/drop-in",
+          "stroke": "#34C759",
           "elevationMeters": 0
         }
       },
@@ -544,6 +545,7 @@
         },
         "properties": {
           "name": "Exit Parking",
+          "stroke": "#5AC8FA",
           "elevationMeters": 50
         }
       },
@@ -559,10 +561,11 @@
         },
         "properties": {
           "name": "Trailhead Parking",
+          "stroke": "#5AC8FA",
           "elevationMeters": 3
         }
       }
     ]
   },
-  "version": "419f094707c3fdf607f358c431281f13"
+  "version": "8e69346313194a6a3707ca5b989f6df1"
 }

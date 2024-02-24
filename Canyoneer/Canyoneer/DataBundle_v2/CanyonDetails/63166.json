@@ -13,8 +13,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 7,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 36.58,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -22,111 +22,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.2340717315674,
-            47.583372154083136,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Putvin Trailhead",
-          "elevationMeters": 500
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.24716,
-            47.58052,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle (optional)",
-          "elevationMeters": 957
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.25359821319581,
-            47.58628125829953,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave Trail",
-          "elevationMeters": 1065
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.2480835914612,
-            47.58541288590831,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Signpost",
-          "elevationMeters": 830
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.24020862579347,
-            47.58102738526176,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Giant Stump Camp",
-          "elevationMeters": 818
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.25028300285341,
-            47.584218850348016,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R9",
-          "elevationMeters": 836
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.24844837188722,
-            47.58237708754958,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Whitehorse Falls",
-          "elevationMeters": 809
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -241,7 +136,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1063.355639817728,
@@ -674,7 +569,7 @@
         },
         "properties": {
           "name": "Putvin Trail",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1895.6984486518631,
@@ -722,7 +617,7 @@
         },
         "properties": {
           "name": "Climber's Trail",
-          "stroke": "#009AFF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 83.16436992817248,
@@ -800,7 +695,7 @@
         },
         "properties": {
           "name": "Upper Whitehorse",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 357.53897637106877,
@@ -848,7 +743,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 109.37092798506644,
@@ -971,7 +866,7 @@
         },
         "properties": {
           "name": "Upper Putvin Trail",
-          "stroke": "#009AFF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 470.7842129650065,
@@ -1054,7 +949,7 @@
         },
         "properties": {
           "name": "Main Entrance",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 238.7428064536872,
@@ -1162,7 +1057,7 @@
         },
         "properties": {
           "name": "Main Section",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 424.63889284068637,
@@ -1170,8 +1065,120 @@
           "descentMeters": 87.49993896484375,
           "changeMeters": 39
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.2340717315674,
+            47.583372154083136,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Putvin Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 500
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.24716,
+            47.58052,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle (optional)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 957
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.25359821319581,
+            47.58628125829953,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave Trail",
+          "stroke": "#007AFF",
+          "elevationMeters": 1065
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.2480835914612,
+            47.58541288590831,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Signpost",
+          "stroke": "#34C759",
+          "elevationMeters": 830
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.24020862579347,
+            47.58102738526176,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Giant Stump Camp",
+          "stroke": "#FFCC00",
+          "elevationMeters": 818
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.25028300285341,
+            47.584218850348016,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R9",
+          "stroke": "#FF3B30",
+          "elevationMeters": 836
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.24844837188722,
+            47.58237708754958,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Whitehorse Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 809
+        }
       }
     ]
   },
-  "version": "09e29812120ad6a2c85cce767f9fbab4"
+  "version": "be161f6a372abb556ef8bfb817a87361"
 }

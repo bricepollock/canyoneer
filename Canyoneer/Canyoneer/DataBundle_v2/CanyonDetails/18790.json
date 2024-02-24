@@ -205,35 +205,13 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 7043.639809618764,
           "ascentMeters": 52.89990234375,
           "descentMeters": 184.10009765625,
           "changeMeters": -131.2001953125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8381227148254,
-            35.3427684776196,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "-45b61afe",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 2366
         }
       },
       {
@@ -292,35 +270,13 @@
             "highlight": "#sh_ylw-pushpin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#0000ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 231.52951858102165,
           "ascentMeters": 1.099853515625,
           "descentMeters": 0.39990234375,
           "changeMeters": 0.699951171875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8356486680098,
-            35.34217491602563,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cave Entrance",
-          "styleUrl": "#msn_ylw-pushpin2",
-          "styleHash": "665f8ecf",
-          "styleMapHash": {
-            "normal": "#sn_ylw-pushpin1",
-            "highlight": "#sh_ylw-pushpin2"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 2367
         }
       },
       {
@@ -364,7 +320,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffaa00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 106.79689526127021,
@@ -372,8 +328,54 @@
           "descentMeters": 1,
           "changeMeters": -0.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8381227148254,
+            35.3427684776196,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "-45b61afe",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2366
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8356486680098,
+            35.34217491602563,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cave Entrance",
+          "styleUrl": "#msn_ylw-pushpin2",
+          "styleHash": "665f8ecf",
+          "styleMapHash": {
+            "normal": "#sn_ylw-pushpin1",
+            "highlight": "#sh_ylw-pushpin2"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#5856D6",
+          "elevationMeters": 2367
+        }
       }
     ]
   },
-  "version": "e695d5101743d67d05cde311920a8331"
+  "version": "2d2183590f019d6d6779929d6ae13b2c"
 }

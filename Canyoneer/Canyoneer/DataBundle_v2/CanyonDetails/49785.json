@@ -27,126 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.71852191534424,
-            37.55843307139093,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3425
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.809314,
-            37.531802,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 2389
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.761219,
-            37.561633,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R0: 25'",
-          "elevationMeters": 2446
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.775649,
-            37.559342,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 90' rope, 3-tiers",
-          "elevationMeters": 2488
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.775861,
-            37.558849,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 135'",
-          "elevationMeters": 2489
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.762031,
-            37.561818,
-            0
-          ]
-        },
-        "properties": {
-          "name": "old wooden bridge",
-          "elevationMeters": 2455
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.77626,
-            37.55774,
-            0
-          ]
-        },
-        "properties": {
-          "name": "begin trail canyon left",
-          "elevationMeters": 2489
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.80634,
-            37.532654,
-            0
-          ]
-        },
-        "properties": {
-          "name": "fees at Haviland = $8/vehicle/day",
-          "elevationMeters": 2483
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2453,7 +2333,7 @@
         },
         "properties": {
           "name": "Tacoma Depot to Haviland Lake",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4407.19841275251,
@@ -6296,7 +6176,7 @@
         },
         "properties": {
           "name": "Descent Tank Creek",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6292.134770853999,
@@ -8319,7 +8199,7 @@
         },
         "properties": {
           "name": "Return to Haviland Lake",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4269.325740131374,
@@ -12437,7 +12317,7 @@
         },
         "properties": {
           "name": "Drive to Haviland Lake",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 57813.36324039246,
@@ -12445,8 +12325,136 @@
           "descentMeters": 6586.399658203125,
           "changeMeters": -1049.800048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.71852191534424,
+            37.55843307139093,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 3425
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.809314,
+            37.531802,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2389
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.761219,
+            37.561633,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R0: 25'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2446
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.775649,
+            37.559342,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 90' rope, 3-tiers",
+          "stroke": "#5856D6",
+          "elevationMeters": 2488
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.775861,
+            37.558849,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 135'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2489
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.762031,
+            37.561818,
+            0
+          ]
+        },
+        "properties": {
+          "name": "old wooden bridge",
+          "stroke": "#5856D6",
+          "elevationMeters": 2455
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.77626,
+            37.55774,
+            0
+          ]
+        },
+        "properties": {
+          "name": "begin trail canyon left",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2489
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.80634,
+            37.532654,
+            0
+          ]
+        },
+        "properties": {
+          "name": "fees at Haviland = $8/vehicle/day",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2483
+        }
       }
     ]
   },
-  "version": "04a0321543036ce91ecd00b9d7c5ac9c"
+  "version": "85d4498c2a34af526aa8ed8bda311db3"
 }

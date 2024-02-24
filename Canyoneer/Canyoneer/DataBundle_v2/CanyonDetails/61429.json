@@ -28,52 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8578,
-            34.9017,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Park",
-          "styleUrl": "#icon-93",
-          "styleHash": "265cc677",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here.",
-          "elevationMeters": 1502
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8653,
-            34.8935,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start Park",
-          "styleUrl": "#icon-93",
-          "styleHash": "265cc677",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here.",
-          "elevationMeters": 1543
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -127,6 +81,7 @@
             "highlight": "#line-000000-5000-nodesc-highlight"
           },
           "description": "Optional",
+          "stroke": "#AF52DE",
           "lengthMeters": 1151.6620039533846,
           "ascentMeters": 116.199951171875,
           "descentMeters": 75.5999755859375,
@@ -503,6 +458,7 @@
             "normal": "#line-00FF00-5000-nodesc",
             "highlight": "#line-00FF00-5000-nodesc-highlight"
           },
+          "stroke": "#FF2D55",
           "lengthMeters": 4636.603010807521,
           "ascentMeters": 682.4000244140625,
           "descentMeters": 636.800048828125,
@@ -564,105 +520,11 @@
             "normal": "#line-FF0000-5000-nodesc",
             "highlight": "#line-FF0000-5000-nodesc-highlight"
           },
+          "stroke": "#FF9500",
           "lengthMeters": 398.65873158748116,
           "ascentMeters": 43.300048828125,
           "descentMeters": 76.4000244140625,
           "changeMeters": -33.0999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8832,
-            34.9149,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave Trail",
-          "elevationMeters": 1725
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.87381,
-            34.9164,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "52'",
-          "elevationMeters": 1589
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8743,
-            34.91598,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "description": "125'",
-          "elevationMeters": 1550
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.87412,
-            34.91562,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": "95'",
-          "elevationMeters": 1567
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.87405,
-            34.91512,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "description": "85'",
-          "elevationMeters": 1550
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.87402,
-            34.9148,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "description": "110'",
-          "elevationMeters": 1538
         }
       },
       {
@@ -765,13 +627,163 @@
             "normal": "#line-FFFF00-5000-nodesc",
             "highlight": "#line-FFFF00-5000-nodesc-highlight"
           },
+          "stroke": "#FF3B30",
           "lengthMeters": 2094.458980200089,
           "ascentMeters": 190.300048828125,
           "descentMeters": 243.4000244140625,
           "changeMeters": -53.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8578,
+            34.9017,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Park",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here.",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1502
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8653,
+            34.8935,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start Park",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here.",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1543
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8832,
+            34.9149,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave Trail",
+          "stroke": "#FF2D55",
+          "elevationMeters": 1725
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.87381,
+            34.9164,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "52'",
+          "stroke": "#FF2D55",
+          "elevationMeters": 1589
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8743,
+            34.91598,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "125'",
+          "stroke": "#FF9500",
+          "elevationMeters": 1550
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.87412,
+            34.91562,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "95'",
+          "stroke": "#FF9500",
+          "elevationMeters": 1567
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.87405,
+            34.91512,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "description": "85'",
+          "stroke": "#FF9500",
+          "elevationMeters": 1550
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.87402,
+            34.9148,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "description": "110'",
+          "stroke": "#FF9500",
+          "elevationMeters": 1538
+        }
       }
     ]
   },
-  "version": "926d193fa502033d1864a9c678506730"
+  "version": "05aac41a538c29b556d12940c39ad377"
 }

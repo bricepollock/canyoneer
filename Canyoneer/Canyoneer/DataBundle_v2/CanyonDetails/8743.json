@@ -26,144 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.703713309,
-            36.8607882131,
-            0
-          ]
-        },
-        "properties": {
-          "name": "camp",
-          "styleUrl": "#point0Style",
-          "styleHash": "-13e26895",
-          "styleMapHash": {
-            "normal": "#point0_n",
-            "highlight": "#point0_h"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
-          "description": "Unpaved Road",
-          "elevationMeters": 505
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.6704280172,
-            36.8518621568,
-            900.0744
-          ]
-        },
-        "properties": {
-          "name": "condor mouth",
-          "styleUrl": "#point1Style",
-          "styleHash": "-42ab614",
-          "styleMapHash": {
-            "normal": "#point1_n",
-            "highlight": "#point1_h"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
-          "description": "2953 ft",
-          "elevationMeters": 1289
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.6665107347,
-            36.8679202907,
-            950.0616
-          ]
-        },
-        "properties": {
-          "name": "Dung Heap Mouth",
-          "styleUrl": "#point2Style",
-          "styleHash": "b8cfc6d",
-          "styleMapHash": {
-            "normal": "#point2_n",
-            "highlight": "#point2_h"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
-          "description": "3117 ft",
-          "elevationMeters": 899
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.6724497322,
-            36.8475298025,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gravel Pile Mouth",
-          "styleUrl": "#point3Style",
-          "styleHash": "1b44aeee",
-          "styleMapHash": {
-            "normal": "#point3_n",
-            "highlight": "#point3_h"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
-          "description": "Intermittent Stream",
-          "elevationMeters": 1273
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.6651179139,
-            36.8613302708,
-            0
-          ]
-        },
-        "properties": {
-          "name": "The Serpent Mouth",
-          "styleUrl": "#point4Style",
-          "styleHash": "2afc616f",
-          "styleMapHash": {
-            "normal": "#point4_n",
-            "highlight": "#point4_h"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
-          "description": "Intermittent Stream",
-          "elevationMeters": 1110
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.6667104755,
-            36.8563323934,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Titan Wall Mouth",
-          "styleUrl": "#point5Style",
-          "styleHash": "3ab413f0",
-          "styleMapHash": {
-            "normal": "#point5_n",
-            "highlight": "#point5_h"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
-          "description": "Intermittent Stream",
-          "elevationMeters": 1128
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -482,7 +344,7 @@
           "name": "2.2 mi",
           "styleUrl": "#path2Style",
           "styleHash": "-31607a57",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 3287.602882428014,
@@ -946,7 +808,7 @@
             "normal": "#path9Style",
             "highlight": "#path9Style0"
           },
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1395.6578376539962,
@@ -1095,7 +957,7 @@
             "normal": "#path8Style1",
             "highlight": "#path8Style0"
           },
-          "stroke": "#ff00ff",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 887.2480877277026,
@@ -3135,7 +2997,7 @@
           "name": "THE SERPENT CANYON - 11-10-12 - up - 4.9 mi",
           "styleUrl": "#path7Style",
           "styleHash": "33e548e3",
-          "stroke": "#fe01fe",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 7818.261119766091,
@@ -3735,7 +3597,7 @@
           "name": "Dung Heap - up - 0.7 mi",
           "styleUrl": "#path6Style",
           "styleHash": "-7c60dcff",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 1070.9026253543273,
@@ -4279,7 +4141,7 @@
             "normal": "#path5Style",
             "highlight": "#path5Style0"
           },
-          "stroke": "#ff00ff",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 951.0098261251709,
@@ -4828,7 +4690,7 @@
             "normal": "#path4Style0",
             "highlight": "#path4Style1"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 3087.19858549026,
@@ -5003,7 +4865,7 @@
           "name": "2-6-15 - Condor Cyn",
           "styleUrl": "#path3Style",
           "styleHash": "8912adf",
-          "stroke": "#fe01fe",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 854.7429050976862,
@@ -5278,7 +5140,7 @@
           "name": "2.1 mi",
           "styleUrl": "#path1Style",
           "styleHash": "-3c3581d8",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 3050.7719858821392,
@@ -5563,7 +5425,7 @@
           "name": "2.0 mi",
           "styleUrl": "#path0Style",
           "styleHash": "-470a8959",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 3285.6866183946026,
@@ -5571,8 +5433,152 @@
           "descentMeters": 133.10006713867188,
           "changeMeters": 785.7999877929688
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.703713309,
+            36.8607882131,
+            0
+          ]
+        },
+        "properties": {
+          "name": "camp",
+          "styleUrl": "#point0Style",
+          "styleHash": "-13e26895",
+          "styleMapHash": {
+            "normal": "#point0_n",
+            "highlight": "#point0_h"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
+          "description": "Unpaved Road",
+          "stroke": "#FF3B30",
+          "elevationMeters": 505
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.6704280172,
+            36.8518621568,
+            900.0744
+          ]
+        },
+        "properties": {
+          "name": "condor mouth",
+          "styleUrl": "#point1Style",
+          "styleHash": "-42ab614",
+          "styleMapHash": {
+            "normal": "#point1_n",
+            "highlight": "#point1_h"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
+          "description": "2953 ft",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1289
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.6665107347,
+            36.8679202907,
+            950.0616
+          ]
+        },
+        "properties": {
+          "name": "Dung Heap Mouth",
+          "styleUrl": "#point2Style",
+          "styleHash": "b8cfc6d",
+          "styleMapHash": {
+            "normal": "#point2_n",
+            "highlight": "#point2_h"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
+          "description": "3117 ft",
+          "stroke": "#34C759",
+          "elevationMeters": 899
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.6724497322,
+            36.8475298025,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gravel Pile Mouth",
+          "styleUrl": "#point3Style",
+          "styleHash": "1b44aeee",
+          "styleMapHash": {
+            "normal": "#point3_n",
+            "highlight": "#point3_h"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
+          "description": "Intermittent Stream",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1273
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.6651179139,
+            36.8613302708,
+            0
+          ]
+        },
+        "properties": {
+          "name": "The Serpent Mouth",
+          "styleUrl": "#point4Style",
+          "styleHash": "2afc616f",
+          "styleMapHash": {
+            "normal": "#point4_n",
+            "highlight": "#point4_h"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
+          "description": "Intermittent Stream",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1110
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.6667104755,
+            36.8563323934,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Titan Wall Mouth",
+          "styleUrl": "#point5Style",
+          "styleHash": "3ab413f0",
+          "styleMapHash": {
+            "normal": "#point5_n",
+            "highlight": "#point5_h"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon57.png",
+          "description": "Intermittent Stream",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1128
+        }
       }
     ]
   },
-  "version": "1336fa5351e7c57bc3c9597927677bda"
+  "version": "66a26c833225c4ff345044d24b0c9746"
 }

@@ -28,21 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.51122331613809,
-            34.49861682857067,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Camp",
-          "elevationMeters": 1949
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -299,7 +284,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1775.2121506612098,
@@ -602,7 +587,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2430.908933514723,
@@ -1290,7 +1275,7 @@
         },
         "properties": {
           "name": "Forest Road Access",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 1,
           "lengthMeters": 2469.6514553878174,
@@ -2883,7 +2868,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2452.395173085705,
@@ -2891,8 +2876,24 @@
           "descentMeters": 115.4000244140625,
           "changeMeters": 101.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.51122331613809,
+            34.49861682857067,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Camp",
+          "stroke": "#34C759",
+          "elevationMeters": 1949
+        }
       }
     ]
   },
-  "version": "7f3b8de12c80bafd41ebe8e3c1a55d71"
+  "version": "6c91cd4577c16bd55e93185fe50de545"
 }

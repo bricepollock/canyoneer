@@ -28,36 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.90030276903602,
-            34.97975376128938,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 1714
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.88040211069874,
-            34.96977165809803,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 2146
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -524,7 +494,7 @@
         },
         "properties": {
           "name": "Approach ",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2693.656851832878,
@@ -717,7 +687,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2639.6690036768946,
@@ -780,7 +750,7 @@
         },
         "properties": {
           "name": "Charisma Canyon ",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 322.64419198104326,
@@ -788,8 +758,40 @@
           "descentMeters": 71.10009765625,
           "changeMeters": -70.800048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.90030276903602,
+            34.97975376128938,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#34C759",
+          "elevationMeters": 1714
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.88040211069874,
+            34.96977165809803,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#34C759",
+          "elevationMeters": 2146
+        }
       }
     ]
   },
-  "version": "fa725a56d103694070aec3729313726e"
+  "version": "be29345852a865a3c6fdd9a70a4be173"
 }

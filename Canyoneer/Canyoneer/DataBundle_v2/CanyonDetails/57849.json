@@ -16,8 +16,8 @@
   "waterRating": "A",
   "timeRating": "V",
   "permit": "No",
-  "rappelCountMin": 3,
-  "rappelCountMax": 3,
+  "rappelCountMin": 13,
+  "rappelCountMax": 13,
   "rappelLongestMeters": 30.48,
   "vehicle": "Passenger",
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>Trip report describes a 20+ mile round-trip covering 2.5 days of\ntravel. Backpacked and spent two nights in the canyons - went down three\ncanyons for the long week-end, while exploring 2 new canyons, and also\nrepeated another known canyon. Could be done as a long day-trip instead\nif you don't want to do all the canyons</p>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p>12-21-19 Trip Report - First Descent:</p>\n<p><a\nhref=\"https://www.facebook.com/scott.swaney/media_set?set=a.10157962230937930&amp;type=3\">https://www.facebook.com/scott.swaney/media_set?set=a.10157962230937930&amp;type=3</a></p>\n<h2 id=\"background\">Background</h2>\n<p>Explored by Scott Swaney and team 12-21-19. See Trip Report above for\ndetails</p>\n",
@@ -639,7 +639,7 @@
             "normal": "#failed1",
             "highlight": "#failed"
           },
-          "stroke": "#aaffff",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1058.0324919321624,
@@ -2193,7 +2193,7 @@
             "normal": "#failed0",
             "highlight": "#failed2"
           },
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3019.4823159062776,
@@ -3643,7 +3643,7 @@
           "name": "String-of-Pearls Canyon - 1.7 mi",
           "styleUrl": "#path9Style",
           "styleHash": "-30b03059",
-          "stroke": "#fe01fe",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2660.1518319572156,
@@ -3988,7 +3988,7 @@
           "name": "shortcut",
           "styleUrl": "#path8Style",
           "styleHash": "-5d57096b",
-          "stroke": "#008080",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 223.4068258488447,
@@ -5518,7 +5518,7 @@
           "name": "ridgetop up - 2.1 mi",
           "styleUrl": "#path7Style",
           "styleHash": "5490b384",
-          "stroke": "#00ffff",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3310.8613462240032,
@@ -5708,7 +5708,7 @@
           "name": "Fallen Angel Cyn  cyn - 2.4 mi",
           "styleUrl": "#path6Style",
           "styleHash": "-512f46dc",
-          "stroke": "#fe01fe",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1489.2264881206786,
@@ -6413,7 +6413,7 @@
           "name": "exit down wash - 1.6 mi",
           "styleUrl": "#path5Style",
           "styleHash": "4bd8bc4a",
-          "stroke": "#4040ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2538.927166914187,
@@ -8017,7 +8017,7 @@
             "normal": "#path4Style1",
             "highlight": "#path4Style0"
           },
-          "stroke": "#ff557f",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4634.574043502292,
@@ -8617,7 +8617,7 @@
           "name": "Black Pearl Canyon - 0.6 mi",
           "styleUrl": "#path3Style",
           "styleHash": "-c382bc0",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1025.0384653583178,
@@ -9422,7 +9422,7 @@
           "name": "Baby Demon Cyn - 0.7 mi",
           "styleUrl": "#path2Style",
           "styleHash": "-7c8364e0",
-          "stroke": "#fe01fe",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1050.544806945195,
@@ -10252,7 +10252,7 @@
           "name": "Approach hike from Car - 3.7 mi mi",
           "styleUrl": "#path1Style",
           "styleHash": "498af5ea",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 5855.798552179051,
@@ -12027,7 +12027,7 @@
           "name": "3-2-19 - Demon Arch Canyon - 1.4 mi",
           "styleUrl": "#path0Style",
           "styleHash": "6dd28c1e",
-          "stroke": "#fe01fe",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2283.1231033761087,
@@ -12056,6 +12056,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png",
           "description": "2000 ft height",
+          "stroke": "#FF2D55",
           "elevationMeters": 1927
         }
       },
@@ -12072,6 +12073,7 @@
         "properties": {
           "name": "2360 mouth",
           "description": "2360 ft height",
+          "stroke": "#5856D6",
           "elevationMeters": 600
         }
       },
@@ -12088,6 +12090,7 @@
         "properties": {
           "name": "2400 confluence",
           "description": "2400 ft height",
+          "stroke": "#AF52DE",
           "elevationMeters": 1872
         }
       },
@@ -12111,6 +12114,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png",
           "description": "Latitude: 36.8665240332 Longitude : -117.3500140104",
+          "stroke": "#AF52DE",
           "elevationMeters": 2105
         }
       },
@@ -12134,6 +12138,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png",
           "description": "California Desert Conservation Area (Blm)",
+          "stroke": "#5AC8FA",
           "elevationMeters": 535
         }
       },
@@ -12150,6 +12155,7 @@
         "properties": {
           "name": "3640 turn shortcut",
           "description": "3640 ft height",
+          "stroke": "#34C759",
           "elevationMeters": 1765
         }
       },
@@ -12166,6 +12172,7 @@
         "properties": {
           "name": "4004",
           "description": "4000 ft height",
+          "stroke": "#FF3B30",
           "elevationMeters": 1716
         }
       },
@@ -12189,6 +12196,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png",
           "description": "4120 ft height",
+          "stroke": "#FF3B30",
           "elevationMeters": 1634
         }
       },
@@ -12205,6 +12213,7 @@
         "properties": {
           "name": "4160 ft",
           "description": "4160 ft height",
+          "stroke": "#AF52DE",
           "elevationMeters": 1688
         }
       },
@@ -12221,6 +12230,7 @@
         "properties": {
           "name": "5300'",
           "description": "Latitude: 36.8522227462 Longitude : -117.3734953254",
+          "stroke": "#FF3B30",
           "elevationMeters": 1689
         }
       },
@@ -12237,6 +12247,7 @@
         "properties": {
           "name": "920'",
           "description": "Latitude: 36.8752709683 Longitude : -117.2938001901",
+          "stroke": "#FF3B30",
           "elevationMeters": 496
         }
       },
@@ -12253,6 +12264,7 @@
         "properties": {
           "name": "Confluence - 1640'",
           "description": "Intermittent Stream",
+          "stroke": "#34C759",
           "elevationMeters": 493
         }
       },
@@ -12269,6 +12281,7 @@
         "properties": {
           "name": "Confluence 2700",
           "description": "Intermittent Stream",
+          "stroke": "#FF3B30",
           "elevationMeters": 503
         }
       },
@@ -12285,6 +12298,7 @@
         "properties": {
           "name": "Dc 2",
           "description": "Latitude: 36.8774909992 Longitude : -117.3632630333",
+          "stroke": "#FF3B30",
           "elevationMeters": 1698
         }
       },
@@ -12301,6 +12315,7 @@
         "properties": {
           "name": "Dc11",
           "description": "Latitude: 36.8773429748 Longitude : -117.3634620197",
+          "stroke": "#FF3B30",
           "elevationMeters": 1700
         }
       },
@@ -12317,6 +12332,7 @@
         "properties": {
           "name": "in canyon",
           "description": "3520 ft height",
+          "stroke": "#FF3B30",
           "elevationMeters": 1699
         }
       },
@@ -12333,6 +12349,7 @@
         "properties": {
           "name": "join canyon 2100",
           "description": "Latitude: 36.8718983419 Longitude : -117.3483249731",
+          "stroke": "#FF2D55",
           "elevationMeters": 1951
         }
       },
@@ -12349,6 +12366,7 @@
         "properties": {
           "name": "Nat bridge",
           "description": "Latitude: 36.8765259907 Longitude : -117.3553579766",
+          "stroke": "#FF3B30",
           "elevationMeters": 1893
         }
       },
@@ -12365,6 +12383,7 @@
         "properties": {
           "name": "North Hwy-park-1080'",
           "description": "Latitude: 36.8762131780 Longitude : -117.2772453446",
+          "stroke": "#FFCC00",
           "elevationMeters": 628
         }
       },
@@ -12381,6 +12400,7 @@
         "properties": {
           "name": "R 1  15",
           "description": "Latitude: 36.8775179889 Longitude : -117.3631799687",
+          "stroke": "#FF3B30",
           "elevationMeters": 1698
         }
       },
@@ -12397,6 +12417,7 @@
         "properties": {
           "name": "R 10 15",
           "description": "Latitude: 36.8784679938 Longitude : -117.3607470375",
+          "stroke": "#FF3B30",
           "elevationMeters": 1782
         }
       },
@@ -12413,6 +12434,7 @@
         "properties": {
           "name": "R 11 100",
           "description": "Latitude: 36.8787419982 Longitude : -117.3604530003",
+          "stroke": "#FF3B30",
           "elevationMeters": 1785
         }
       },
@@ -12429,6 +12451,7 @@
         "properties": {
           "name": "R 11 30",
           "description": "Latitude: 36.8791760132 Longitude : -117.3599540256",
+          "stroke": "#FF3B30",
           "elevationMeters": 1808
         }
       },
@@ -12445,6 +12468,7 @@
         "properties": {
           "name": "R 12 20",
           "description": "Latitude: 36.8792220298 Longitude : -117.3598319851",
+          "stroke": "#FF3B30",
           "elevationMeters": 1808
         }
       },
@@ -12461,6 +12485,7 @@
         "properties": {
           "name": "R 13 20",
           "description": "Latitude: 36.8795039970 Longitude : -117.3592549749",
+          "stroke": "#FF3B30",
           "elevationMeters": 1813
         }
       },
@@ -12477,6 +12502,7 @@
         "properties": {
           "name": "R 2 80",
           "description": "Intermittent Stream",
+          "stroke": "#FF3B30",
           "elevationMeters": 1708
         }
       },
@@ -12493,6 +12519,7 @@
         "properties": {
           "name": "R 3  20",
           "description": "Intermittent Stream",
+          "stroke": "#FF3B30",
           "elevationMeters": 1708
         }
       },
@@ -12509,6 +12536,7 @@
         "properties": {
           "name": "R 5 25",
           "description": "Latitude: 36.8780390080 Longitude : -117.3624949995",
+          "stroke": "#FF3B30",
           "elevationMeters": 1716
         }
       },
@@ -12525,6 +12553,7 @@
         "properties": {
           "name": "R 6 25",
           "description": "Latitude: 36.8782440294 Longitude : -117.3622599710",
+          "stroke": "#FF3B30",
           "elevationMeters": 1724
         }
       },
@@ -12541,6 +12570,7 @@
         "properties": {
           "name": "R 7 50",
           "description": "Latitude: 36.8782570213 Longitude : -117.3620569613",
+          "stroke": "#FF3B30",
           "elevationMeters": 1741
         }
       },
@@ -12557,6 +12587,7 @@
         "properties": {
           "name": "R 8 15",
           "description": "Latitude: 36.8781250063 Longitude : -117.3620159738",
+          "stroke": "#FF3B30",
           "elevationMeters": 1732
         }
       },
@@ -12573,6 +12604,7 @@
         "properties": {
           "name": "R 9 70",
           "description": "Latitude: 36.8780899700 Longitude : -117.3612419888",
+          "stroke": "#FF3B30",
           "elevationMeters": 1764
         }
       },
@@ -12589,10 +12621,11 @@
         "properties": {
           "name": "start11",
           "description": "36.877165, -117.363760",
+          "stroke": "#FF3B30",
           "elevationMeters": 1694
         }
       }
     ]
   },
-  "version": "385eb383833db2e309b29f32a970d99f"
+  "version": "abdb4fed2af99385c685d8bf2fcf5cde"
 }

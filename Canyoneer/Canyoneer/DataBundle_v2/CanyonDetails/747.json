@@ -31,28 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.0762749935558,
-            37.42621842494659,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Hike up Slickrock",
-          "styleUrl": "#msn_red-circle",
-          "styleHash": "1e129790",
-          "styleMapHash": {
-            "normal": "#sn_red-circle",
-            "highlight": "#sh_red-circle0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "elevationMeters": 1280
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -176,7 +154,7 @@
             "highlight": "#inline7"
           },
           "description": "Lots of poison ivy",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "fill-opacity": 0,
@@ -551,7 +529,7 @@
             "normal": "#inline3",
             "highlight": "#inline5"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "fill-opacity": 0,
@@ -806,7 +784,7 @@
             "normal": "#inline6",
             "highlight": "#inline2"
           },
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "fill-opacity": 0,
@@ -814,6 +792,29 @@
           "ascentMeters": 213.800048828125,
           "descentMeters": 276.300048828125,
           "changeMeters": -62.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.0762749935558,
+            37.42621842494659,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Hike up Slickrock",
+          "styleUrl": "#msn_red-circle",
+          "styleHash": "1e129790",
+          "styleMapHash": {
+            "normal": "#sn_red-circle",
+            "highlight": "#sh_red-circle0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1280
         }
       },
       {
@@ -835,6 +836,7 @@
             "highlight": "#sh_red-circle"
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#34C759",
           "elevationMeters": 1410
         }
       },
@@ -857,10 +859,11 @@
             "highlight": "#sh_red-circle"
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1396
         }
       }
     ]
   },
-  "version": "8513220c68c647a6254a300c693f89ff"
+  "version": "70719e67ade3e0b53c313f0ba848a2cb"
 }

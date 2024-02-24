@@ -16,8 +16,8 @@
   "timeRating": "IV",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 4,
-  "rappelCountMax": 4,
+  "rappelCountMin": 12,
+  "rappelCountMax": 14,
   "rappelLongestMeters": 161.54,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
@@ -686,35 +686,13 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2408.0310461500326,
           "ascentMeters": 303.7998046875,
           "descentMeters": 557.499755859375,
           "changeMeters": -253.699951171875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5934804188535,
-            37.72242084456475,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 1919
         }
       },
       {
@@ -868,7 +846,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 473.2051353653544,
@@ -908,312 +886,13 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 28.026343765750255,
           "ascentMeters": 7.5,
           "descentMeters": 7.5,
           "changeMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.593396400289,
-            37.72256320601173,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "100' rappel from tree. Please do not leave any anchor material here.",
-          "elevationMeters": 1919
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5935654234627,
-            37.72267304272442,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "100' Chockstone in bottom of hallway that is right at the bottom of Rap1.",
-          "elevationMeters": 1937
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5937049521262,
-            37.72291183178472,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "200' rappel to a ledge. Anchor is a fixed nut and a bolt canyon left.",
-          "elevationMeters": 1937
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5939307904271,
-            37.72306033623946,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "200' to bottom of fall. Anchor is two pitons canyon left in the small hallway.",
-          "elevationMeters": 1963
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5943679726761,
-            37.72353559377275,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "70' down a 45 degree notch. Anchor is a boulder pinch canyon center ",
-          "elevationMeters": 2004
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5950426679924,
-            37.72394405560024,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "200' from tree canyon left",
-          "elevationMeters": 2033
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5951470709517,
-            37.72399306344327,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R7",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "35' nuisance rappel down a boulder",
-          "elevationMeters": 2038
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.595203230077,
-            37.72404062091621,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R8",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "50' from pinch anchor on boulder",
-          "elevationMeters": 2039
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5956344762405,
-            37.72432583177509,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R9",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "70' (estimated)",
-          "elevationMeters": 2040
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5958389087557,
-            37.72453333875296,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R10",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "50' (estimated). This was done as a downclimb canyon right, but a rappel is recommended",
-          "elevationMeters": 2041
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5959457755574,
-            37.72464780704816,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R11",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "70' (estimated)",
-          "elevationMeters": 2040
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5962696637491,
-            37.7247178500356,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R12",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "200' to ledge from 2 bolts canyon left",
-          "elevationMeters": 2042
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5964640389589,
-            37.72501439712829,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R13",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "Spectacular 530' rappel from 2 bolts canyon left. Ledge is marginal and often wet. Use caution. ",
-          "elevationMeters": 2040
         }
       },
       {
@@ -2032,7 +1711,7 @@
             "highlight": "#sh_ylw-pushpin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1944.8114162819038,
@@ -2040,8 +1719,343 @@
           "descentMeters": 150.2994384765625,
           "changeMeters": 466.60009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5934804188535,
+            37.72242084456475,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1919
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.593396400289,
+            37.72256320601173,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "100' rappel from tree. Please do not leave any anchor material here.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1919
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5935654234627,
+            37.72267304272442,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "100' Chockstone in bottom of hallway that is right at the bottom of Rap1.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1937
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5937049521262,
+            37.72291183178472,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "200' rappel to a ledge. Anchor is a fixed nut and a bolt canyon left.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1937
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5939307904271,
+            37.72306033623946,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "200' to bottom of fall. Anchor is two pitons canyon left in the small hallway.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1963
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5943679726761,
+            37.72353559377275,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "70' down a 45 degree notch. Anchor is a boulder pinch canyon center ",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2004
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5950426679924,
+            37.72394405560024,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "200' from tree canyon left",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2033
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5951470709517,
+            37.72399306344327,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R7",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "35' nuisance rappel down a boulder",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2038
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.595203230077,
+            37.72404062091621,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R8",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "50' from pinch anchor on boulder",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2039
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5956344762405,
+            37.72432583177509,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R9",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "70' (estimated)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2040
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5958389087557,
+            37.72453333875296,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R10",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "50' (estimated). This was done as a downclimb canyon right, but a rappel is recommended",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2041
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5959457755574,
+            37.72464780704816,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R11",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "70' (estimated)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2040
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5962696637491,
+            37.7247178500356,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R12",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "200' to ledge from 2 bolts canyon left",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2042
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5964640389589,
+            37.72501439712829,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R13",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "Spectacular 530' rappel from 2 bolts canyon left. Ledge is marginal and often wet. Use caution. ",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2040
+        }
       }
     ]
   },
-  "version": "a6323a116c0e45a457b359c7623ec44a"
+  "version": "0f53ff3bc0306f998c54ee726d003409"
 }

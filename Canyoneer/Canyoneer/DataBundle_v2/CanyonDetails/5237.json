@@ -27,96 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.75214399999999,
-            37.689117,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3404
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.749924,
-            37.689629,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Crumbly upclimb",
-          "elevationMeters": 3359
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.71045211929452,
-            37.72849026003114,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Car Shuttle Parking",
-          "elevationMeters": 3204
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.73579313579116,
-            37.687858677789436,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 100'",
-          "elevationMeters": 3525
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.73623033586058,
-            37.687969051577305,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 135'",
-          "elevationMeters": 3521
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.7366299850038,
-            37.68798603214545,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 100'",
-          "elevationMeters": 3521
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1428,7 +1338,7 @@
         },
         "properties": {
           "name": "Car Shuttle",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 11923.043031427444,
@@ -1536,7 +1446,7 @@
         },
         "properties": {
           "name": "Approach (from bottom)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2295.952949209845,
@@ -1649,7 +1559,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1591.8097539556315,
@@ -2882,7 +2792,7 @@
         },
         "properties": {
           "name": "Approach from Andrews Lake",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5968.239987835662,
@@ -2935,7 +2845,7 @@
         },
         "properties": {
           "name": "Approach Off Trail",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1007.4978934236765,
@@ -2943,8 +2853,104 @@
           "descentMeters": 5.69970703125,
           "changeMeters": 42.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.75214399999999,
+            37.689117,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 3404
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.749924,
+            37.689629,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Crumbly upclimb",
+          "stroke": "#34C759",
+          "elevationMeters": 3359
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.71045211929452,
+            37.72849026003114,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Car Shuttle Parking",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 3204
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.73579313579116,
+            37.687858677789436,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 100'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3525
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.73623033586058,
+            37.687969051577305,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 135'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3521
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.7366299850038,
+            37.68798603214545,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 100'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3521
+        }
       }
     ]
   },
-  "version": "a3b174e097cc00550b7bf85d2f8d7181"
+  "version": "b47f7aeef2694dbee92fcdcf8db40f71"
 }

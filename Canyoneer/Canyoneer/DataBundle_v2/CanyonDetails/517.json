@@ -33,28 +33,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.547086028,
-            38.316721968,
-            1464.7
-          ]
-        },
-        "properties": {
-          "name": "Trailhead Parking",
-          "styleUrl": "#icon-1644-097138-nodesc",
-          "styleHash": "4a201df4",
-          "styleMapHash": {
-            "normal": "#icon-1644-097138-nodesc-normal",
-            "highlight": "#icon-1644-097138-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1263
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -217,7 +195,7 @@
             "normal": "#line-097138-5069-nodesc-normal",
             "highlight": "#line-097138-5069-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.069,
           "lengthMeters": 199.31238349292897,
@@ -431,7 +409,7 @@
             "normal": "#line-097138-5263-nodesc-normal",
             "highlight": "#line-097138-5263-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 200.3818959489901,
@@ -575,79 +553,13 @@
             "normal": "#line-A52714-5650-nodesc-normal",
             "highlight": "#line-A52714-5650-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 298.86651326487964,
           "ascentMeters": 18.7999267578125,
           "descentMeters": 15.5,
           "changeMeters": 3.2999267578125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.5447069,
-            38.3186284,
-            0
-          ]
-        },
-        "properties": {
-          "name": "P1 - 10m Hand line",
-          "styleUrl": "#icon-503-DB4436-nodesc",
-          "styleHash": "-3b314e07",
-          "styleMapHash": {
-            "normal": "#icon-503-DB4436-nodesc-normal",
-            "highlight": "#icon-503-DB4436-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1265
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.543005485,
-            38.319227379,
-            1367.2
-          ]
-        },
-        "properties": {
-          "name": "P2 - 4m fixed rope",
-          "styleUrl": "#icon-503-DB4436-nodesc",
-          "styleHash": "-3b314e07",
-          "styleMapHash": {
-            "normal": "#icon-503-DB4436-nodesc-normal",
-            "highlight": "#icon-503-DB4436-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1269
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.542057361,
-            38.319023496,
-            0
-          ]
-        },
-        "properties": {
-          "name": "P3 - 7m fixed rope",
-          "styleUrl": "#icon-503-DB4436-nodesc",
-          "styleHash": "-3b314e07",
-          "styleMapHash": {
-            "normal": "#icon-503-DB4436-nodesc-normal",
-            "highlight": "#icon-503-DB4436-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1261
         }
       },
       {
@@ -740,7 +652,7 @@
             "normal": "#line-A52714-5069-nodesc-normal",
             "highlight": "#line-A52714-5069-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.069,
           "lengthMeters": 104.45810594696167,
@@ -1014,7 +926,7 @@
             "normal": "#line-A52714-5456-nodesc-normal",
             "highlight": "#line-A52714-5456-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 676.8736622178791,
@@ -1158,7 +1070,7 @@
             "normal": "#line-FFD600-5650-nodesc-normal",
             "highlight": "#line-FFD600-5650-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 169.37617285367122,
@@ -1467,7 +1379,7 @@
             "normal": "#line-FFD600-5650-nodesc-normal",
             "highlight": "#line-FFD600-5650-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 582.5209026576883,
@@ -1701,7 +1613,7 @@
             "normal": "#line-FFD600-5844-nodesc-normal",
             "highlight": "#line-FFD600-5844-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 416.18823950871945,
@@ -2025,35 +1937,13 @@
             "normal": "#line-FFD600-5263-nodesc-normal",
             "highlight": "#line-FFD600-5263-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 516.6870699714685,
           "ascentMeters": 135.800048828125,
           "descentMeters": 87.5,
           "changeMeters": 48.300048828125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.534294928,
-            38.317356873,
-            1256.2
-          ]
-        },
-        "properties": {
-          "name": "Petroglyphs",
-          "styleUrl": "#icon-503-FFDD5E-nodesc",
-          "styleHash": "6d7b4e79",
-          "styleMapHash": {
-            "normal": "#icon-503-FFDD5E-nodesc-normal",
-            "highlight": "#icon-503-FFDD5E-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1332
         }
       },
       {
@@ -2486,7 +2376,7 @@
             "normal": "#line-FFD600-5844-nodesc-normal",
             "highlight": "#line-FFD600-5844-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 532.9933955833692,
@@ -2680,57 +2570,13 @@
             "normal": "#line-FFD600-5650-nodesc-normal",
             "highlight": "#line-FFD600-5650-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 363.9341907673526,
           "ascentMeters": 41.9998779296875,
           "descentMeters": 56.4998779296875,
           "changeMeters": -14.5
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.5353309,
-            38.3169505,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Last 2 raps. 16m. Length of black",
-          "styleUrl": "#icon-1772-DB4436-nodesc",
-          "styleHash": "66d568b0",
-          "styleMapHash": {
-            "normal": "#icon-1772-DB4436-nodesc-normal",
-            "highlight": "#icon-1772-DB4436-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1271
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.537675349,
-            38.316870723,
-            1297.4
-          ]
-        },
-        "properties": {
-          "name": "Chockstone DC",
-          "styleUrl": "#icon-503-DB4436-nodesc",
-          "styleHash": "-3b314e07",
-          "styleMapHash": {
-            "normal": "#icon-503-DB4436-nodesc-normal",
-            "highlight": "#icon-503-DB4436-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1269
         }
       },
       {
@@ -3018,7 +2864,7 @@
             "normal": "#line-FFD600-5650-nodesc-normal",
             "highlight": "#line-FFD600-5650-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 490.7614944754612,
@@ -3026,8 +2872,169 @@
           "descentMeters": 16.900146484375,
           "changeMeters": 40.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.547086028,
+            38.316721968,
+            1464.7
+          ]
+        },
+        "properties": {
+          "name": "Trailhead Parking",
+          "styleUrl": "#icon-1644-097138-nodesc",
+          "styleHash": "4a201df4",
+          "styleMapHash": {
+            "normal": "#icon-1644-097138-nodesc-normal",
+            "highlight": "#icon-1644-097138-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1263
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.5447069,
+            38.3186284,
+            0
+          ]
+        },
+        "properties": {
+          "name": "P1 - 10m Hand line",
+          "styleUrl": "#icon-503-DB4436-nodesc",
+          "styleHash": "-3b314e07",
+          "styleMapHash": {
+            "normal": "#icon-503-DB4436-nodesc-normal",
+            "highlight": "#icon-503-DB4436-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1265
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.543005485,
+            38.319227379,
+            1367.2
+          ]
+        },
+        "properties": {
+          "name": "P2 - 4m fixed rope",
+          "styleUrl": "#icon-503-DB4436-nodesc",
+          "styleHash": "-3b314e07",
+          "styleMapHash": {
+            "normal": "#icon-503-DB4436-nodesc-normal",
+            "highlight": "#icon-503-DB4436-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1269
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.542057361,
+            38.319023496,
+            0
+          ]
+        },
+        "properties": {
+          "name": "P3 - 7m fixed rope",
+          "styleUrl": "#icon-503-DB4436-nodesc",
+          "styleHash": "-3b314e07",
+          "styleMapHash": {
+            "normal": "#icon-503-DB4436-nodesc-normal",
+            "highlight": "#icon-503-DB4436-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1261
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.534294928,
+            38.317356873,
+            1256.2
+          ]
+        },
+        "properties": {
+          "name": "Petroglyphs",
+          "styleUrl": "#icon-503-FFDD5E-nodesc",
+          "styleHash": "6d7b4e79",
+          "styleMapHash": {
+            "normal": "#icon-503-FFDD5E-nodesc-normal",
+            "highlight": "#icon-503-FFDD5E-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1332
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.5353309,
+            38.3169505,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Last 2 raps. 16m. Length of black",
+          "styleUrl": "#icon-1772-DB4436-nodesc",
+          "styleHash": "66d568b0",
+          "styleMapHash": {
+            "normal": "#icon-1772-DB4436-nodesc-normal",
+            "highlight": "#icon-1772-DB4436-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1271
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.537675349,
+            38.316870723,
+            1297.4
+          ]
+        },
+        "properties": {
+          "name": "Chockstone DC",
+          "styleUrl": "#icon-503-DB4436-nodesc",
+          "styleHash": "-3b314e07",
+          "styleMapHash": {
+            "normal": "#icon-503-DB4436-nodesc-normal",
+            "highlight": "#icon-503-DB4436-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1269
+        }
       }
     ]
   },
-  "version": "bfb2d10c6b4b0f9b8ec1bd9ba8a389ed"
+  "version": "c4008e2b1686891cc4e7c1da421670d0"
 }

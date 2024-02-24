@@ -99,57 +99,13 @@
         },
         "properties": {
           "name": "Descent (Eriste IV)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 895.9457592773606,
           "ascentMeters": 38.2000732421875,
           "descentMeters": 466.800048828125,
           "changeMeters": -428.5999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.49208900000000005,
-            42.58832,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-93-nodesc",
-          "styleHash": "711bfc1",
-          "styleMapHash": {
-            "normal": "#icon-93-nodesc-normal",
-            "highlight": "#icon-93-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "elevationMeters": 1277
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.49024300000000004,
-            42.586519,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-93-nodesc",
-          "styleHash": "711bfc1",
-          "styleMapHash": {
-            "normal": "#icon-93-nodesc-normal",
-            "highlight": "#icon-93-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "elevationMeters": 1165
         }
       },
       {
@@ -232,7 +188,7 @@
         "properties": {
           "name": "Exit",
           "description": "Después del último rapel, salimos por la derecha. Una fuerte subida nos llevará al sendero que baja hasta el pueblo de Eriste.",
-          "stroke": "#FFFF00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 1048.7282471599121,
@@ -355,13 +311,59 @@
         },
         "properties": {
           "name": "Descent (Eriste III)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 1941.7063498491743,
           "ascentMeters": 160.2999267578125,
           "descentMeters": 855.4998779296875,
           "changeMeters": -695.199951171875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.49208900000000005,
+            42.58832,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-93-nodesc",
+          "styleHash": "711bfc1",
+          "styleMapHash": {
+            "normal": "#icon-93-nodesc-normal",
+            "highlight": "#icon-93-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1277
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.49024300000000004,
+            42.586519,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-93-nodesc",
+          "styleHash": "711bfc1",
+          "styleMapHash": {
+            "normal": "#icon-93-nodesc-normal",
+            "highlight": "#icon-93-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1165
         }
       },
       {
@@ -383,6 +385,7 @@
             "highlight": "#icon-93-nodesc-highlight"
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1649
         }
       },
@@ -406,6 +409,7 @@
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/163-lightblue.png",
           "description": "Final del Eriste III.Inicio del Eriste IV.",
+          "stroke": "#FF3B30",
           "elevationMeters": 1670
         }
       },
@@ -429,6 +433,7 @@
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/163-lightblue.png",
           "description": "Inicio del Eriste III",
+          "stroke": "#FF3B30",
           "elevationMeters": 2346
         }
       },
@@ -451,10 +456,11 @@
             "highlight": "#icon-93-nodesc-highlight"
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 2312
         }
       }
     ]
   },
-  "version": "09f0fbfa04850480120df29bbc967367"
+  "version": "a654e9f9bf9598b4cf481202f9dcc201"
 }

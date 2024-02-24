@@ -27,21 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.80962562561037,
-            45.869393543754335,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Confluence",
-          "elevationMeters": 1129
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2078,7 +2063,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 13369.70685788328,
@@ -2246,7 +2231,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1908.0459512422326,
@@ -2254,8 +2239,24 @@
           "descentMeters": 944.7000122070312,
           "changeMeters": -619.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.80962562561037,
+            45.869393543754335,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Confluence",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1129
+        }
       }
     ]
   },
-  "version": "68b646f8b3ae420058d72c3e3e4fe39f"
+  "version": "8c8ff622f70971f8900585c8af4f01c6"
 }

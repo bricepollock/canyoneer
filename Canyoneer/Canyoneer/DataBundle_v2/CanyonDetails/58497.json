@@ -26,141 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.06577268242836,
-            38.97439945727678,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3168
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.08130665,
-            38.98694676,
-            0
-          ]
-        },
-        "properties": {
-          "name": "canyon start",
-          "elevationMeters": 3570
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.08057893,
-            38.98683981,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 95'",
-          "elevationMeters": 3574
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.08016869,
-            38.98716779,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 100'",
-          "elevationMeters": 3610
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.07973154,
-            38.98731193,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 150'",
-          "elevationMeters": 3618
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.07940295,
-            38.98741241,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4: 170'",
-          "elevationMeters": 3635
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.07900838,
-            38.98754862,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5: 50'",
-          "elevationMeters": 3666
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.07866776,
-            38.98763546,
-            0
-          ]
-        },
-        "properties": {
-          "name": "10' DC or (R6): 30'",
-          "elevationMeters": 3689
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.07851243,
-            38.98769133,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R7: 170'",
-          "elevationMeters": 3715
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1422,7 +1287,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2568.511185915854,
@@ -1745,7 +1610,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 365.98587206710636,
@@ -2713,7 +2578,7 @@
         },
         "properties": {
           "name": "return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2011.1787667726712,
@@ -4261,7 +4126,7 @@
         },
         "properties": {
           "name": "CR 734 Slate River Rd",
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 14582.049540175105,
@@ -4269,8 +4134,152 @@
           "descentMeters": 2235.80029296875,
           "changeMeters": 402.2998046875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.06577268242836,
+            38.97439945727678,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3168
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.08130665,
+            38.98694676,
+            0
+          ]
+        },
+        "properties": {
+          "name": "canyon start",
+          "stroke": "#34C759",
+          "elevationMeters": 3570
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.08057893,
+            38.98683981,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 95'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3574
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.08016869,
+            38.98716779,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 100'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3610
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.07973154,
+            38.98731193,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 150'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3618
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.07940295,
+            38.98741241,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4: 170'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3635
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.07900838,
+            38.98754862,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5: 50'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3666
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.07866776,
+            38.98763546,
+            0
+          ]
+        },
+        "properties": {
+          "name": "10' DC or (R6): 30'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3689
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.07851243,
+            38.98769133,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R7: 170'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3715
+        }
       }
     ]
   },
-  "version": "9fd18cb5e2800b156af01b811fe673fc"
+  "version": "7d0df8a704256e051db6ae08ea48a41c"
 }

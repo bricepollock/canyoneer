@@ -16,8 +16,8 @@
   "waterRating": "C",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 6,
-  "rappelCountMax": 6,
+  "rappelCountMin": 16,
+  "rappelCountMax": 16,
   "rappelLongestMeters": 30,
   "shuttleSeconds": 30,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/23474\">Descente-Canyon.com</a>\n: Lasin</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://cicarudeclan.com/ita/a5_lasino.htm\">CicaRudeClan.com</a> :\nRio Lasino</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/TO039\">Catastoforre\nAIC-Canyoning.it</a> : Rio Lasin</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://gulliver.it/itinerario/52894/\">Gulliver.it</a> : Lasin\n(Rio) - Lasinetto (Torino)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
@@ -44,6 +44,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by PL06 on 23 juil 2015)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1048
         }
       },
@@ -67,6 +68,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by PL06 on 23 juil 2015)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1231
         }
       },
@@ -90,10 +92,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by PL06 on 23 juil 2015)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1426
         }
       }
     ]
   },
-  "version": "b35a6a316559bd829033db9ff7e8425f"
+  "version": "c517275a467f32f72c4774b1a60473a5"
 }

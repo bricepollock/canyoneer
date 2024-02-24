@@ -14,8 +14,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 4,
-  "rappelCountMax": 4,
+  "rappelCountMin": 14,
+  "rappelCountMax": 14,
   "rappelLongestMeters": 50,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/21382\">Descente-Canyon.com</a>\n: Chasten</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/AO005\">Catastoforre\nAIC-Canyoning.it</a> : Vallone di Chasten</li>\n<li><img src=\"book.png\" title=\"book.png\" alt=\"book.png\" /><a\nhref=\"http://ropewiki.com/User:Canyoning_Nord_Italia_Book?id=Chasten\">Canyoning\nNord Italia Book by Pascal van Duin</a> : Chasten</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/ChastenCanyon\">Canyon.Carto.net</a>\n: Vallon de Chasten</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -41,6 +41,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Fonzy06 on 20 août 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 2174
         }
       },
@@ -64,6 +65,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 20 fév 2017)",
+          "stroke": "#FF3B30",
           "elevationMeters": 2013
         }
       },
@@ -87,10 +89,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
           "description": " (Data by Fonzy06 on 20 août 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 2106
         }
       }
     ]
   },
-  "version": "2f863ac8405896e9912a409dc4423899"
+  "version": "d9cde9c804d9aea27df2464b1936bf05"
 }

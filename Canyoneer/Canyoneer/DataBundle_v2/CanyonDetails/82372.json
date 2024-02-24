@@ -9,80 +9,14 @@
   "waterRating": "C",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 8,
-  "rappelCountMax": 8,
+  "rappelCountMin": 18,
+  "rappelCountMax": 18,
   "rappelLongestMeters": 50,
   "shuttleSeconds": 600,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>18 rappels in only 1000ft horizontal, this is a narrow and steep\ncanyon. We descended this in the 2023 int'l rendezvous, but the water\nwas little more than a trickle. Edu said that in 2019 there was a\nhealthy flow and the canyon experience was much better. A short exit\ndown to a public swimming pool, with vendors selling food.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>Follow the well established trail contouring the hillsides for about\n30 min to a concrete water storage pool supplying water to the community\nbelow. Descend here.</p>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<p>From the final (and largest) rappel, hike up the obvious trail on DCR\nfor about a minute to an abandoned concrete camping lodge. Then drop\nback down to a public swimming pool at the end of <a\nhref=\"Dos_Sasas_(San_Jacinto)\" title=\"wikilink\"><strong>Dos\nSasas</strong></a>.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>Permission required to descend. Please see <a href=\"Coroico\"\ntitle=\"wikilink\"><strong>Coroico</strong></a> region page for more\ninformation.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>Canyon is named after Edu Gomez and Edu Gomez Junior, the father/son\nteam from Spain who opened many of the routes in this area.</p>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.69867536077957,
-            -16.21982750547612,
-            1977.5
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#msn_red-circle7",
-          "styleHash": "-50e06fa",
-          "styleMapHash": {
-            "normal": "#sn_red-circle4",
-            "highlight": "#sh_red-circle13"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "elevationMeters": 1758
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.70181896171319,
-            -16.20819026605804,
-            1924.3
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#msn_P0",
-          "styleHash": "-316a5eb",
-          "styleMapHash": {
-            "normal": "#sn_P1",
-            "highlight": "#sh_P0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
-          "elevationMeters": 1373
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.69515285265443,
-            -16.21937616452859,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle",
-          "styleUrl": "#msn_S0",
-          "styleHash": "-4e2a1bc8",
-          "styleMapHash": {
-            "normal": "#sn_S1",
-            "highlight": "#sh_S1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
-          "elevationMeters": 1809
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -3779,7 +3713,7 @@
             "highlight": "#sh_ylw-pushpin12"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1903.8863976792236,
@@ -4154,35 +4088,13 @@
             "highlight": "#sh_ylw-pushpin6"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 308.1422472795985,
           "ascentMeters": 99,
           "descentMeters": 96.0999755859375,
           "changeMeters": 2.9000244140625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.69599114722709,
-            -16.21951610106933,
-            1787.5
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#msn_red-square1",
-          "styleHash": "-4422f683",
-          "styleMapHash": {
-            "normal": "#sn_red-square",
-            "highlight": "#sh_red-square"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "elevationMeters": 1761
         }
       },
       {
@@ -4866,7 +4778,7 @@
             "highlight": "#sh_ylw-pushpin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 173.82936891991483,
@@ -4874,8 +4786,100 @@
           "descentMeters": 66.7999267578125,
           "changeMeters": 47.800048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.69867536077957,
+            -16.21982750547612,
+            1977.5
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#msn_red-circle7",
+          "styleHash": "-50e06fa",
+          "styleMapHash": {
+            "normal": "#sn_red-circle4",
+            "highlight": "#sh_red-circle13"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1758
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.70181896171319,
+            -16.20819026605804,
+            1924.3
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#msn_P0",
+          "styleHash": "-316a5eb",
+          "styleMapHash": {
+            "normal": "#sn_P1",
+            "highlight": "#sh_P0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1373
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.69515285265443,
+            -16.21937616452859,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle",
+          "styleUrl": "#msn_S0",
+          "styleHash": "-4e2a1bc8",
+          "styleMapHash": {
+            "normal": "#sn_S1",
+            "highlight": "#sh_S1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1809
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.69599114722709,
+            -16.21951610106933,
+            1787.5
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#msn_red-square1",
+          "styleHash": "-4422f683",
+          "styleMapHash": {
+            "normal": "#sn_red-square",
+            "highlight": "#sh_red-square"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1761
+        }
       }
     ]
   },
-  "version": "07c46e7bb59c4a57655c29745e2b5954"
+  "version": "1d6431cfb45afbeac9ed5eb900e502ca"
 }

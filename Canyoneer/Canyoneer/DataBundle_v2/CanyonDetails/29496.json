@@ -13,98 +13,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.788143,
-            41.58952,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "5c52359a",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 395
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.788052,
-            41.589571,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "547eadfd",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 395
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.789123,
-            41.592181,
-            0
-          ]
-        },
-        "properties": {
-          "name": "BASSA",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "72422a1c",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 402
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.788164,
-            41.589564,
-            0
-          ]
-        },
-        "properties": {
-          "name": "TORRENT DE LA COMA D'EN PASTORT",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "72422a1c",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Santi gavarres at wikiloc.com)",
-          "elevationMeters": 395
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -642,7 +550,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Santi gavarres at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 4340.19717785264,
@@ -650,8 +558,104 @@
           "descentMeters": 896.5001220703125,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.788143,
+            41.58952,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "417e6ac6",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 395
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.788052,
+            41.589571,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "30d6517b",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 395
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.789123,
+            41.592181,
+            0
+          ]
+        },
+        "properties": {
+          "name": "BASSA",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-7fe439bd",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 402
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.788164,
+            41.589564,
+            0
+          ]
+        },
+        "properties": {
+          "name": "TORRENT DE LA COMA D'EN PASTORT",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-7fe439bd",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Santi gavarres at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 395
+        }
       }
     ]
   },
-  "version": "760cd3513702545e97a436bee508a9b9"
+  "version": "42a4a2b24b6f9dabb77e0f6944557235"
 }

@@ -31,38 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.759351,
-            34.84237,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 60’",
-          "description": "Off tree",
-          "elevationMeters": 1372
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.759482,
-            34.842206,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 90’",
-          "description": "Off small tree",
-          "elevationMeters": 1377
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -824,7 +792,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2149.22876241886,
@@ -982,7 +950,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 140.67162213032015,
@@ -1205,7 +1173,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 499.38923283460076,
@@ -1213,8 +1181,42 @@
           "descentMeters": 36.300048828125,
           "changeMeters": -21.10009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.759351,
+            34.84237,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 60’",
+          "description": "Off tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1372
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.759482,
+            34.842206,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 90’",
+          "description": "Off small tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1377
+        }
       }
     ]
   },
-  "version": "ad1c57d41462ea38ac3a7d927509a242"
+  "version": "78fb1959ae887e94bbad45849347326b"
 }

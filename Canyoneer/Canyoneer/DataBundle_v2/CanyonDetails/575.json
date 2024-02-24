@@ -33,50 +33,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9204591,
-            38.5789865,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead (old car)",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1650
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9074621,
-            38.5736662,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ramp TH (4x4 or High Clearance)",
-          "styleUrl": "#icon-1207-nodesc",
-          "styleHash": "69dbb8f1",
-          "styleMapHash": {
-            "normal": "#icon-1207-nodesc-normal",
-            "highlight": "#icon-1207-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
-          "elevationMeters": 1724
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -224,7 +180,7 @@
             "normal": "#line-0F9D58-5844-nodesc-normal",
             "highlight": "#line-0F9D58-5844-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 1384.154068380933,
@@ -918,7 +874,7 @@
             "normal": "#line-FFEA00-5456-nodesc-normal",
             "highlight": "#line-FFEA00-5456-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 2883.0511808804604,
@@ -1452,35 +1408,13 @@
             "normal": "#line-FFEA00-5844-nodesc-normal",
             "highlight": "#line-FFEA00-5844-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 2452.9157153426154,
           "ascentMeters": 144.800048828125,
           "descentMeters": 95.10009765625,
           "changeMeters": 49.699951171875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.8776554,
-            38.5684398,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit of Cistern Canyon",
-          "styleUrl": "#icon-1899-0288D1-nodesc",
-          "styleHash": "8e57c38",
-          "styleMapHash": {
-            "normal": "#icon-1899-0288D1-nodesc-normal",
-            "highlight": "#icon-1899-0288D1-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1706
         }
       },
       {
@@ -1798,7 +1732,7 @@
             "normal": "#line-FF5252-5650-nodesc-normal",
             "highlight": "#line-FF5252-5650-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 2541.4343656026103,
@@ -2117,7 +2051,7 @@
             "normal": "#line-0F9D58-6038-nodesc-normal",
             "highlight": "#line-0F9D58-6038-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6.038,
           "lengthMeters": 3088.4982850836973,
@@ -2125,8 +2059,77 @@
           "descentMeters": 330.500244140625,
           "changeMeters": -91.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9204591,
+            38.5789865,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead (old car)",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1650
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9074621,
+            38.5736662,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ramp TH (4x4 or High Clearance)",
+          "styleUrl": "#icon-1207-nodesc",
+          "styleHash": "69dbb8f1",
+          "styleMapHash": {
+            "normal": "#icon-1207-nodesc-normal",
+            "highlight": "#icon-1207-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1724
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.8776554,
+            38.5684398,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit of Cistern Canyon",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "styleHash": "8e57c38",
+          "styleMapHash": {
+            "normal": "#icon-1899-0288D1-nodesc-normal",
+            "highlight": "#icon-1899-0288D1-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1706
+        }
       }
     ]
   },
-  "version": "d31841e5d33b5511f1bf060cb2d9d571"
+  "version": "f82a8445229636a2cb2d5a747db3d056"
 }

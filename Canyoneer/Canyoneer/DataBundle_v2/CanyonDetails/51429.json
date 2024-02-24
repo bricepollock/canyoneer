@@ -20,28 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -156.1020565629162,
-            20.65501233314589,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Contour above 1200ft to avoid private property",
-          "styleUrl": "#msn_ylw-pushpin3",
-          "styleHash": "10515cfe",
-          "styleMapHash": {
-            "normal": "#sn_ylw-pushpin3",
-            "highlight": "#sh_ylw-pushpin3"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 56
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -185,7 +163,7 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00aa00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "lengthMeters": 1824.9121982120737,
           "ascentMeters": 66.5999984741211,
@@ -279,7 +257,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#aa0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "lengthMeters": 873.0381758220301,
           "ascentMeters": 2.6999998092651367,
@@ -333,15 +311,38 @@
             "highlight": "#sh_ylw-pushpin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#0000ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "lengthMeters": 224.79082254900092,
           "ascentMeters": 0,
           "descentMeters": 0,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -156.1020565629162,
+            20.65501233314589,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Contour above 1200ft to avoid private property",
+          "styleUrl": "#msn_ylw-pushpin3",
+          "styleHash": "10515cfe",
+          "styleMapHash": {
+            "normal": "#sn_ylw-pushpin3",
+            "highlight": "#sh_ylw-pushpin3"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#34C759",
+          "elevationMeters": 56
+        }
       }
     ]
   },
-  "version": "bf55bf15eeabb38f60f4cabcd7a8b612"
+  "version": "ef584eec6a479ac49048b09cc69d0645"
 }

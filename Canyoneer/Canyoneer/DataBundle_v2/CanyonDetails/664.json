@@ -28,29 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.353546,
-            33.922142,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#icon-93",
-          "styleHash": "265cc677",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here.",
-          "elevationMeters": 820
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1848,6 +1825,7 @@
             "normal": "#line-00FF00-5000-nodesc",
             "highlight": "#line-00FF00-5000-nodesc-highlight"
           },
+          "stroke": "#34C759",
           "lengthMeters": 3488.0168952331733,
           "ascentMeters": 867.900146484375,
           "descentMeters": 256.8001708984375,
@@ -1974,6 +1952,7 @@
             "normal": "#line-00FF00-5000-nodesc",
             "highlight": "#line-00FF00-5000-nodesc-highlight"
           },
+          "stroke": "#FF9500",
           "lengthMeters": 2040.3721457588597,
           "ascentMeters": 697.0999145507812,
           "descentMeters": 129.09991455078125,
@@ -3635,106 +3614,11 @@
             "normal": "#line-FF0000-5000-nodesc",
             "highlight": "#line-FF0000-5000-nodesc-highlight"
           },
+          "stroke": "#5AC8FA",
           "lengthMeters": 3067.3846227563695,
           "ascentMeters": 359.6993408203125,
           "descentMeters": 1010.8992919921875,
           "changeMeters": -651.199951171875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.37105,
-            33.92498,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Pool",
-          "description": "Bypass LDC",
-          "elevationMeters": 1388
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.37105,
-            33.92533,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "25'",
-          "elevationMeters": 1386
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.37092,
-            33.92551,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "description": "20'",
-          "elevationMeters": 1377
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.37087,
-            33.92571,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Slide",
-          "description": "10'",
-          "elevationMeters": 1364
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.36909,
-            33.92571,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": "30'",
-          "elevationMeters": 1305
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.3691,
-            33.9255,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "description": "150'",
-          "elevationMeters": 1321
         }
       },
       {
@@ -4142,13 +4026,140 @@
             "normal": "#line-FFFF00-5000-nodesc",
             "highlight": "#line-FFFF00-5000-nodesc-highlight"
           },
+          "stroke": "#FF9500",
           "lengthMeters": 703.532352324007,
           "ascentMeters": 72.79998779296875,
           "descentMeters": 32.70001220703125,
           "changeMeters": 40.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.353546,
+            33.922142,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here.",
+          "stroke": "#34C759",
+          "elevationMeters": 820
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.37105,
+            33.92498,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Pool",
+          "description": "Bypass LDC",
+          "stroke": "#FF9500",
+          "elevationMeters": 1388
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.37105,
+            33.92533,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "25'",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1386
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.37092,
+            33.92551,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "20'",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1377
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.37087,
+            33.92571,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Slide",
+          "description": "10'",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1364
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.36909,
+            33.92571,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "30'",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1305
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.3691,
+            33.9255,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "description": "150'",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1321
+        }
       }
     ]
   },
-  "version": "adbf3377a2f9c54b65d2319da280bbe5"
+  "version": "ad81139600947ce5f40e22e6c1f675d4"
 }

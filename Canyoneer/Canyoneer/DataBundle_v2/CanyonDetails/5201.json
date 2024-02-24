@@ -24,142 +24,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.80082519153711,
-            40.2391491052694,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking West Portal",
-          "elevationMeters": 2932
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.75548076057434,
-            40.227177129760804,
-            0
-          ]
-        },
-        "properties": {
-          "name": "East Inlet Narrows (drop in)",
-          "description": "http://ropewiki.com/East_Inlet_Narrows_(RMNP) RESERVATION SYSTEM IN PLACE",
-          "elevationMeters": 2788
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.79784928063509,
-            40.2365374977555,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Adams Falls",
-          "elevationMeters": 2995
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.760992,
-            40.229276,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5: 60' (4th falls)",
-          "elevationMeters": 2859
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.759743,
-            40.228597,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4: 80' (3rd falls)",
-          "elevationMeters": 2916
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.758603,
-            40.228127,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 80' (2nd falls)",
-          "elevationMeters": 2881
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.756553,
-            40.227524,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 65' (1st falls upper tier)",
-          "elevationMeters": 2809
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.756808,
-            40.227592,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 55' (1st falls lower tier)",
-          "elevationMeters": 2820
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.75945057804869,
-            40.22848549621503,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Narrows",
-          "elevationMeters": 2911
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1211,7 +1075,7 @@
         },
         "properties": {
           "name": "East Inlet Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 5381.594707906721,
@@ -1249,7 +1113,7 @@
         },
         "properties": {
           "name": "Return (approx)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 238.91804393970776,
@@ -1447,7 +1311,7 @@
         },
         "properties": {
           "name": "East Inlet descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 658.747847514651,
@@ -1455,8 +1319,153 @@
           "descentMeters": 80.60009765625,
           "changeMeters": 58.10009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.80082519153711,
+            40.2391491052694,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking West Portal",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2932
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.75548076057434,
+            40.227177129760804,
+            0
+          ]
+        },
+        "properties": {
+          "name": "East Inlet Narrows (drop in)",
+          "description": "http://ropewiki.com/East_Inlet_Narrows_(RMNP) RESERVATION SYSTEM IN PLACE",
+          "stroke": "#5856D6",
+          "elevationMeters": 2788
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.79784928063509,
+            40.2365374977555,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Adams Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2995
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.760992,
+            40.229276,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5: 60' (4th falls)",
+          "stroke": "#5856D6",
+          "elevationMeters": 2859
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.759743,
+            40.228597,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4: 80' (3rd falls)",
+          "stroke": "#5856D6",
+          "elevationMeters": 2916
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.758603,
+            40.228127,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 80' (2nd falls)",
+          "stroke": "#5856D6",
+          "elevationMeters": 2881
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.756553,
+            40.227524,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 65' (1st falls upper tier)",
+          "stroke": "#5856D6",
+          "elevationMeters": 2809
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.756808,
+            40.227592,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 55' (1st falls lower tier)",
+          "stroke": "#5856D6",
+          "elevationMeters": 2820
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.75945057804869,
+            40.22848549621503,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Narrows",
+          "stroke": "#5856D6",
+          "elevationMeters": 2911
+        }
       }
     ]
   },
-  "version": "d4e40960905e21e3a015f4ccbee12d88"
+  "version": "c8d194e2361751a7c048708b14fb6cda"
 }

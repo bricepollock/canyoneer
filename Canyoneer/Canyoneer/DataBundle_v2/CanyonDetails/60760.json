@@ -25,21 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.89549922943117,
-            46.14474129258477,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "elevationMeters": 778
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -321,7 +306,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2412.036504600935,
@@ -459,7 +444,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1437.2757673465715,
@@ -737,7 +722,7 @@
         },
         "properties": {
           "name": "Ext",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1616.4321906695131,
@@ -745,8 +730,24 @@
           "descentMeters": 49.70013427734375,
           "changeMeters": 224.70001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.89549922943117,
+            46.14474129258477,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 778
+        }
       }
     ]
   },
-  "version": "c1a2a4f3e5c7944605f3e36b5b49fbf6"
+  "version": "0f42ac75eb72d1ad314082875da886bf"
 }

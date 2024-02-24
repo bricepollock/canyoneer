@@ -15,8 +15,8 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "Yes",
-  "rappelCountMin": 6,
-  "rappelCountMax": 6,
+  "rappelCountMin": 16,
+  "rappelCountMax": 16,
   "rappelLongestMeters": 34,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_fr.png\" title=\"rwl_fr.png\" alt=\"rwl_fr.png\" /><a\nhref=\"http://descente-canyon.com/canyoning/canyon-description/22154\">Descente-Canyon.com</a>\n: Costalunga</li>\n<li><img src=\"rwl_de.png\" title=\"rwl_de.png\" alt=\"rwl_de.png\" /><a\nhref=\"http://canyon.carto.net/cwiki/bin/view/Canyons/ValleCostalungaCanyon\">Canyon.Carto.net</a>\n: Valle Costalunga</li>\n<li><img src=\"rwl_it.png\" title=\"rwl_it.png\" alt=\"rwl_it.png\" /><a\nhref=\"http://catastoforre.aic-canyoning.it/index/forra/cod/BL020\">Catastoforre\nAIC-Canyoning.it</a> : Valle Costalunga</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
@@ -42,6 +42,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 17 sept 2009)",
+          "stroke": "#FF3B30",
           "elevationMeters": 880
         }
       },
@@ -65,10 +66,11 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 17 sept 2009)",
+          "stroke": "#FF3B30",
           "elevationMeters": 610
         }
       }
     ]
   },
-  "version": "27c7730bc2d341b7e995c98760b26ee3"
+  "version": "769cb99c33631da4920f36321929eb6f"
 }

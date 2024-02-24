@@ -25,111 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.656022,
-            37.781828,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trail to Kendall Gulch",
-          "elevationMeters": 3144
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.661921,
-            37.781376,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Narrows starts",
-          "elevationMeters": 3264
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.663046,
-            37.781075,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1=50'",
-          "elevationMeters": 3302
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.664619,
-            37.78056,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2=75',R3=120'",
-          "elevationMeters": 3374
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.657345,
-            37.7821,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Campsite",
-          "elevationMeters": 3118
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.65821922064087,
-            37.77763220504078,
-            0
-          ]
-        },
-        "properties": {
-          "name": "old cabin",
-          "elevationMeters": 3270
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.65713414732588,
-            37.78224535748622,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3113
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -521,7 +416,7 @@
         },
         "properties": {
           "name": "CR33",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4385.600788999073,
@@ -654,7 +549,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 169.46782280545602,
@@ -1452,7 +1347,7 @@
         },
         "properties": {
           "name": "Return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1600.6387705169514,
@@ -2405,7 +2300,7 @@
         },
         "properties": {
           "name": "Kendall Gulch Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1237.364737313556,
@@ -2413,8 +2308,120 @@
           "descentMeters": 474.899169921875,
           "changeMeters": -95.89990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.656022,
+            37.781828,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trail to Kendall Gulch",
+          "stroke": "#34C759",
+          "elevationMeters": 3144
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.661921,
+            37.781376,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Narrows starts",
+          "stroke": "#5856D6",
+          "elevationMeters": 3264
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.663046,
+            37.781075,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1=50'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3302
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.664619,
+            37.78056,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2=75',R3=120'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3374
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.657345,
+            37.7821,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Campsite",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3118
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.65821922064087,
+            37.77763220504078,
+            0
+          ]
+        },
+        "properties": {
+          "name": "old cabin",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3270
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.65713414732588,
+            37.78224535748622,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#5856D6",
+          "elevationMeters": 3113
+        }
       }
     ]
   },
-  "version": "f7923e2a57aa6319b629e28de710dbeb"
+  "version": "9568c7faec7d488ac2ba6d08b103ffe3"
 }

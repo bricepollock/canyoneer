@@ -31,115 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.51995854351513,
-            34.561135975701916,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Hanging Gardens",
-          "elevationMeters": 1848
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.52075013145804,
-            34.573181262239814,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit",
-          "description": "\n\n",
-          "elevationMeters": 1795
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.51612172834575,
-            34.57199849188328,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking and Camping",
-          "elevationMeters": 1791
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.52331499382854,
-            34.55357096157968,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "45' tree",
-          "elevationMeters": 1904
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.52465299703181,
-            34.55657000653446,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "description": "80' rock pinch",
-          "elevationMeters": 1902
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.52511701919138,
-            34.556821966543794,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": "30' tree",
-          "elevationMeters": 1901
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.5122565,
-            34.5616135,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Overlook",
-          "elevationMeters": 1866
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1431,7 +1322,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3119.134049943651,
@@ -3184,7 +3075,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1817.420508991339,
@@ -4077,7 +3968,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3596.6612677603107,
@@ -4621,7 +4512,7 @@
         "properties": {
           "name": "Road to hanging gardens trailhead",
           "description": "Sunday, June 28, 2020 7:58 AM MST\n6.1 miles\nDuration: 1 hours, 9 minutes, and 54 seconds\nAverage Speed: 5.2 mph\nMinimum Elevation: 5880 feet\nMaximum Elevation: 6600 feet\nTotal climb: 437 feet\nTotal descent: 816 feet",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2436.5668558819307,
@@ -5154,7 +5045,7 @@
         },
         "properties": {
           "name": "HC / 4x4 Road",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6085.011852404352,
@@ -5162,8 +5053,124 @@
           "descentMeters": 212.2001953125,
           "changeMeters": -3.7999267578125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.51995854351513,
+            34.561135975701916,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Hanging Gardens",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1848
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.52075013145804,
+            34.573181262239814,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "description": "\n\n",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1795
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.51612172834575,
+            34.57199849188328,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking and Camping",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1791
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.52331499382854,
+            34.55357096157968,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "45' tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1904
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.52465299703181,
+            34.55657000653446,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "80' rock pinch",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1902
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.52511701919138,
+            34.556821966543794,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "30' tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1901
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.5122565,
+            34.5616135,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Overlook",
+          "stroke": "#34C759",
+          "elevationMeters": 1866
+        }
       }
     ]
   },
-  "version": "66fa0d30d66ffe296038c5e977d31a0c"
+  "version": "bea78d157710ab4013ef08cf029e8561"
 }

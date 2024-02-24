@@ -4,7 +4,7 @@
   "longitude": -111.4588,
   "id": 702,
   "name": "Wilbur Canyon",
-  "quality": 4.1,
+  "quality": 4.4,
   "months": [
     "Jun",
     "Jul",
@@ -24,131 +24,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.45402967929842,
-            34.558979602804115,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Forest Road",
-          "elevationMeters": 2019
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.45891934633256,
-            34.55804080920344,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start of technical section",
-          "elevationMeters": 1981
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.45414233207704,
-            34.55428552885252,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "description": "HC / 4x4 Parking",
-          "elevationMeters": 2027
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.45471096038818,
-            34.56093594090158,
-            0
-          ]
-        },
-        "properties": {
-          "name": "WRONG Gully",
-          "description": "Exit  around next bend",
-          "elevationMeters": 1990
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.45448029041292,
-            34.562041100787695,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Sneak Exit",
-          "description": "Cross creek and scramble up steep gully to access large exit drainage. Cairn may mark correct exit point.",
-          "elevationMeters": 1987
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.45343422889711,
-            34.56038004227205,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trail",
-          "description": "Leave drainage along trail that accesses the rim more directly and leads to an old forest road.",
-          "elevationMeters": 1993
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.45494,
-            34.56099,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Beach",
-          "elevationMeters": 1990
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.45772710442544,
-            34.559947101358176,
-            0
-          ]
-        },
-        "properties": {
-          "name": "WCC",
-          "description": "Gear down. Short creek walk ahead with shallow wading.",
-          "elevationMeters": 1984
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -243,7 +118,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 274.6076703616296,
@@ -431,7 +306,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 884.8149370878165,
@@ -989,7 +864,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1517.0429319768546,
@@ -997,8 +872,141 @@
           "descentMeters": 13.699951171875,
           "changeMeters": 40.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.45402967929842,
+            34.558979602804115,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Forest Road",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2019
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.45891934633256,
+            34.55804080920344,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start of technical section",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1981
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.45414233207704,
+            34.55428552885252,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "description": "HC / 4x4 Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2027
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.45471096038818,
+            34.56093594090158,
+            0
+          ]
+        },
+        "properties": {
+          "name": "WRONG Gully",
+          "description": "Exit  around next bend",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1990
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.45448029041292,
+            34.562041100787695,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Sneak Exit",
+          "description": "Cross creek and scramble up steep gully to access large exit drainage. Cairn may mark correct exit point.",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1987
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.45343422889711,
+            34.56038004227205,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trail",
+          "description": "Leave drainage along trail that accesses the rim more directly and leads to an old forest road.",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1993
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.45494,
+            34.56099,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Beach",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1990
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.45772710442544,
+            34.559947101358176,
+            0
+          ]
+        },
+        "properties": {
+          "name": "WCC",
+          "description": "Gear down. Short creek walk ahead with shallow wading.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1984
+        }
       }
     ]
   },
-  "version": "868050354fbb18eb73abe7f678f601a5"
+  "version": "6e935630b9d366cf23ac0fd58af8a9bb"
 }

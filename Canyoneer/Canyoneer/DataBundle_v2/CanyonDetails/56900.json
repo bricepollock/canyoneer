@@ -25,67 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.56732599999998,
-            46.310081,
-            0
-          ]
-        },
-        "properties": {
-          "name": "East Parking",
-          "description": "Time Started: 10/13/19, 9:59:11 AM PDT",
-          "elevationMeters": 1288
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.59536088289315,
-            46.293751318290795,
-            0
-          ]
-        },
-        "properties": {
-          "name": "West Parking",
-          "elevationMeters": 1337
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.5796773971274,
-            46.30149597001499,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave Trail",
-          "elevationMeters": 1381
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.57681377196832,
-            46.29894873826973,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In",
-          "elevationMeters": 1368
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1597,7 +1536,7 @@
         },
         "properties": {
           "name": "East Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2315.160150603495,
@@ -2250,7 +2189,7 @@
         },
         "properties": {
           "name": "West Approach",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3151.918881571162,
@@ -2592,7 +2531,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 404.25994155866914,
@@ -2765,7 +2704,7 @@
         },
         "properties": {
           "name": "Main Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 314.3262450732693,
@@ -2827,7 +2766,7 @@
           ]
         },
         "properties": {
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 271.99198513203,
@@ -2895,7 +2834,7 @@
         },
         "properties": {
           "name": "Mini-Slot",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 49.019977235862,
@@ -3027,7 +2966,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 354.3720534330681,
@@ -3079,7 +3018,7 @@
           ]
         },
         "properties": {
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 206.24785683130744,
@@ -3087,8 +3026,73 @@
           "descentMeters": 28.10009765625,
           "changeMeters": 42.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.56732599999998,
+            46.310081,
+            0
+          ]
+        },
+        "properties": {
+          "name": "East Parking",
+          "description": "Time Started: 10/13/19, 9:59:11 AM PDT",
+          "stroke": "#34C759",
+          "elevationMeters": 1288
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.59536088289315,
+            46.293751318290795,
+            0
+          ]
+        },
+        "properties": {
+          "name": "West Parking",
+          "stroke": "#5856D6",
+          "elevationMeters": 1337
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.5796773971274,
+            46.30149597001499,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave Trail",
+          "stroke": "#34C759",
+          "elevationMeters": 1381
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.57681377196832,
+            46.29894873826973,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1368
+        }
       }
     ]
   },
-  "version": "699d36f13765bdd29ca12f7cf21c31e9"
+  "version": "15ebff8be82fa15b84e0fdbf19593346"
 }

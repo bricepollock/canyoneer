@@ -9,102 +9,14 @@
   "waterRating": "C",
   "timeRating": "II",
   "permit": "No",
-  "rappelCountMin": 1,
-  "rappelCountMax": 1,
+  "rappelCountMin": 21,
+  "rappelCountMax": 21,
   "rappelLongestMeters": 50,
   "shuttleSeconds": 60,
   "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>Despite the high number of rappels, this canyon was a fairly crappy\nexperience due to low muddy water that is the run-off from the community\nabove. The best part was joining Rio Vagante at the end, and jumping\ninto the pools around the final bridge at the end.</p>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<p>After reaching the Rio Vagante, head downstream a short ways to reach\nthe same bridge as the Garganta del Diablo finish.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>Permission required to descend. Please see <a href=\"Coroico\"\ntitle=\"wikilink\"><strong>Coroico</strong></a> region page for more\ninformation.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.68658041029022,
-            -16.18413198275011,
-            1398.6
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#msn_red-circle4",
-          "styleHash": "-5a20c4bc",
-          "styleMapHash": {
-            "normal": "#sn_red-circle6",
-            "highlight": "#sh_red-circle14"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "elevationMeters": 1990
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.68597665346346,
-            -16.18388204334017,
-            1436.2
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#msn_P4",
-          "styleHash": "68954fd3",
-          "styleMapHash": {
-            "normal": "#sn_P3",
-            "highlight": "#sh_P"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
-          "elevationMeters": 2037
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.6879935985126,
-            -16.1792531761434,
-            1115.1
-          ]
-        },
-        "properties": {
-          "name": "Shuttle",
-          "styleUrl": "#msn_S",
-          "styleHash": "-185420e9",
-          "styleMapHash": {
-            "normal": "#sn_S2",
-            "highlight": "#sh_S2"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
-          "elevationMeters": 2150
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.68573593354569,
-            -16.17977142335491,
-            1114.9
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#msn_red-square3",
-          "styleHash": "f145f8e",
-          "styleMapHash": {
-            "normal": "#sn_red-square3",
-            "highlight": "#sh_red-square0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "elevationMeters": 2201
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -691,7 +603,7 @@
             "highlight": "#sh_ylw-pushpin19"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 106.08371891847115,
@@ -1256,7 +1168,7 @@
             "highlight": "#sh_ylw-pushpin47"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 524.3988312581434,
@@ -1836,7 +1748,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 287.8435027009119,
@@ -1844,8 +1756,100 @@
           "descentMeters": 93.800048828125,
           "changeMeters": -58.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.68658041029022,
+            -16.18413198275011,
+            1398.6
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#msn_red-circle4",
+          "styleHash": "-5a20c4bc",
+          "styleMapHash": {
+            "normal": "#sn_red-circle6",
+            "highlight": "#sh_red-circle14"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1990
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.68597665346346,
+            -16.18388204334017,
+            1436.2
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#msn_P4",
+          "styleHash": "68954fd3",
+          "styleMapHash": {
+            "normal": "#sn_P3",
+            "highlight": "#sh_P"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "stroke": "#34C759",
+          "elevationMeters": 2037
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.6879935985126,
+            -16.1792531761434,
+            1115.1
+          ]
+        },
+        "properties": {
+          "name": "Shuttle",
+          "styleUrl": "#msn_S",
+          "styleHash": "-185420e9",
+          "styleMapHash": {
+            "normal": "#sn_S2",
+            "highlight": "#sh_S2"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2150
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.68573593354569,
+            -16.17977142335491,
+            1114.9
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#msn_red-square3",
+          "styleHash": "f145f8e",
+          "styleMapHash": {
+            "normal": "#sn_red-square3",
+            "highlight": "#sh_red-square0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2201
+        }
       }
     ]
   },
-  "version": "59cf8ed16e9fa77380f956405f707e0e"
+  "version": "63181215d0acc3b7360806726cbead38"
 }

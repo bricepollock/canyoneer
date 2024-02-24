@@ -27,66 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -124.8178,
-            48.9413,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start Parking",
-          "elevationMeters": 219
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -124.8126,
-            48.9375,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Parking",
-          "elevationMeters": 383
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -124.8064,
-            48.9442,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-in",
-          "elevationMeters": 258
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -124.80729,
-            48.94486,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave Road",
-          "elevationMeters": 215
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -253,7 +193,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#009AFF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1359.4657333473397,
@@ -431,7 +371,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1105.8738515923426,
@@ -529,7 +469,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 884.2119805089046,
@@ -537,8 +477,72 @@
           "descentMeters": 26.399993896484375,
           "changeMeters": 124.80001831054688
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -124.8178,
+            48.9413,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start Parking",
+          "stroke": "#007AFF",
+          "elevationMeters": 219
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -124.8126,
+            48.9375,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Parking",
+          "stroke": "#007AFF",
+          "elevationMeters": 383
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -124.8064,
+            48.9442,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-in",
+          "stroke": "#FF9500",
+          "elevationMeters": 258
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -124.80729,
+            48.94486,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave Road",
+          "stroke": "#34C759",
+          "elevationMeters": 215
+        }
       }
     ]
   },
-  "version": "841856c41b34a9071af871fcebac665a"
+  "version": "f374b5141d7f45598f9f96e1ccd29a52"
 }

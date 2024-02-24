@@ -13,75 +13,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.123938,
-            42.603854,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-17d532e3",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by PACWEISER at wikiloc.com)",
-          "elevationMeters": 1333
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.142478,
-            42.612384,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-328cf2de",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by PACWEISER at wikiloc.com)",
-          "elevationMeters": 1260
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.127183,
-            42.606786,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Final vía ferrata",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-14c976bf",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by PACWEISER at wikiloc.com)",
-          "elevationMeters": 1463
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1304,7 +1235,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by PACWEISER at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 12737.333552979351,
@@ -1312,8 +1243,80 @@
           "descentMeters": 2366.399658203125,
           "changeMeters": -73.800048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.123938,
+            42.603854,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-4397a05c",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by PACWEISER at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1333
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.142478,
+            42.612384,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "4549a0a2",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by PACWEISER at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1260
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.127183,
+            42.606786,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Final vía ferrata",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "7f7d2cdf",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by PACWEISER at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1463
+        }
       }
     ]
   },
-  "version": "5d1e69318b614ef6bf43a82b179a53b9"
+  "version": "93a6dd24755723caab6aa6d0aef327fb"
 }

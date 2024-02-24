@@ -25,80 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.47032070159914,
-            46.12884648447804,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 460
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.48158597946168,
-            46.11681452926339,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 455
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.48132848739624,
-            46.1187927691376,
-            0
-          ]
-        },
-        "properties": {
-          "elevationMeters": 439
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.48180055618288,
-            46.119893413204274,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Middle Falls",
-          "elevationMeters": 428
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.48295927047731,
-            46.120845303856164,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Falls",
-          "elevationMeters": 417
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -310,7 +236,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1899.5481714235475,
@@ -363,7 +289,7 @@
         },
         "properties": {
           "name": "Bushwhack",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 110.68146671144679,
@@ -486,7 +412,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 566.1323573563989,
@@ -579,7 +505,7 @@
         },
         "properties": {
           "name": "Exit Thrash",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 307.9737769989076,
@@ -587,8 +513,87 @@
           "descentMeters": 11.100006103515625,
           "changeMeters": 7.70001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.47032070159914,
+            46.12884648447804,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 460
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.48158597946168,
+            46.11681452926339,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 455
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.48132848739624,
+            46.1187927691376,
+            0
+          ]
+        },
+        "properties": {
+          "stroke": "#FF3B30",
+          "elevationMeters": 439
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.48180055618288,
+            46.119893413204274,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Middle Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 428
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.48295927047731,
+            46.120845303856164,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 417
+        }
       }
     ]
   },
-  "version": "e84e30885ad82a15467afdef705a32ef"
+  "version": "c78270430f92ccbb1c3dc290a84ada0a"
 }

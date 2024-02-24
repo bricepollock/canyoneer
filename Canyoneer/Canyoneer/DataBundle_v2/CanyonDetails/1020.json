@@ -33,28 +33,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.42278,
-            38.9318117,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1514
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -432,7 +410,7 @@
             "normal": "#line-097138-5844-nodesc-normal",
             "highlight": "#line-097138-5844-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 862.8709931375612,
@@ -706,7 +684,7 @@
             "normal": "#line-097138-3131-nodesc-normal",
             "highlight": "#line-097138-3131-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3.131,
           "lengthMeters": 962.2322006045472,
@@ -1670,35 +1648,13 @@
             "normal": "#line-097138-5650-nodesc-normal",
             "highlight": "#line-097138-5650-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 1816.8346380153148,
           "ascentMeters": 475.2999267578125,
           "descentMeters": 409.599853515625,
           "changeMeters": 65.7000732421875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.441123,
-            38.93286,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Top Out Point",
-          "styleUrl": "#icon-1377-nodesc",
-          "styleHash": "-501a95dc",
-          "styleMapHash": {
-            "normal": "#icon-1377-nodesc-normal",
-            "highlight": "#icon-1377-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1377-rec-mountain.png",
-          "elevationMeters": 1596
         }
       },
       {
@@ -1881,59 +1837,13 @@
             "normal": "#line-A52714-5650-nodesc-normal",
             "highlight": "#line-A52714-5650-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 190.59520801871022,
           "ascentMeters": 31.0001220703125,
           "descentMeters": 86.0001220703125,
           "changeMeters": -55
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.4346273,
-            38.9296455,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#icon-1125",
-          "styleHash": "7b0e9f08",
-          "styleMapHash": {
-            "normal": "#icon-1125-normal",
-            "highlight": "#icon-1125-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "description": "Rap 1 - 85 feet off an anchor with two bolts and some webbing.",
-          "elevationMeters": 1484
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.434375,
-            38.929662,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "styleUrl": "#icon-1125",
-          "styleHash": "7b0e9f08",
-          "styleMapHash": {
-            "normal": "#icon-1125-normal",
-            "highlight": "#icon-1125-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "description": "Rap 2 - 175 feet off a slung arch",
-          "elevationMeters": 1480
         }
       },
       {
@@ -2516,7 +2426,7 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1254.7000156699007,
@@ -2524,8 +2434,102 @@
           "descentMeters": 243.1998291015625,
           "changeMeters": 31.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.42278,
+            38.9318117,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1514
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.441123,
+            38.93286,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Top Out Point",
+          "styleUrl": "#icon-1377-nodesc",
+          "styleHash": "-501a95dc",
+          "styleMapHash": {
+            "normal": "#icon-1377-nodesc-normal",
+            "highlight": "#icon-1377-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1377-rec-mountain.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1596
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.4346273,
+            38.9296455,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#icon-1125",
+          "styleHash": "7b0e9f08",
+          "styleMapHash": {
+            "normal": "#icon-1125-normal",
+            "highlight": "#icon-1125-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "description": "Rap 1 - 85 feet off an anchor with two bolts and some webbing.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1484
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.434375,
+            38.929662,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "styleUrl": "#icon-1125",
+          "styleHash": "7b0e9f08",
+          "styleMapHash": {
+            "normal": "#icon-1125-normal",
+            "highlight": "#icon-1125-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "description": "Rap 2 - 175 feet off a slung arch",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1480
+        }
       }
     ]
   },
-  "version": "8292f9a4b7f93ef4438ad2c4732f7f78"
+  "version": "f203d2b2ae3f407dd6a1034432cc69af"
 }

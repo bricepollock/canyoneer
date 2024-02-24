@@ -12,121 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -97.010313,
-            19.417598,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-26c856bf",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Rutas de Turismo de Naturaleza y Aventura Veracruz at wikiloc.com)",
-          "elevationMeters": 1221
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -97.014239,
-            19.430911,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "2651b99d",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Rutas de Turismo de Naturaleza y Aventura Veracruz at wikiloc.com)",
-          "elevationMeters": 1238
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -97.010392,
-            19.417702,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ziltom; Coyopolan",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-79006353",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Rutas de Turismo de Naturaleza y Aventura Veracruz at wikiloc.com)",
-          "elevationMeters": 1221
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -97.00848,
-            19.43745,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Mirador de la Cabana Quemada",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-79006353",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Rutas de Turismo de Naturaleza y Aventura Veracruz at wikiloc.com)",
-          "elevationMeters": 1280
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -97.015107,
-            19.441796,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Entrada a la Aventura",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-79006353",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Rutas de Turismo de Naturaleza y Aventura Veracruz at wikiloc.com)",
-          "elevationMeters": 1273
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -454,7 +339,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Rutas de Turismo de Naturaleza y Aventura Veracruz at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 6139.593119110691,
@@ -462,8 +347,128 @@
           "descentMeters": 243,
           "changeMeters": 17
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.010313,
+            19.417598,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-414d3f",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Rutas de Turismo de Naturaleza y Aventura Veracruz at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1221
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.014239,
+            19.430911,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "2bd19dc0",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Rutas de Turismo de Naturaleza y Aventura Veracruz at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1238
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.010392,
+            19.417702,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ziltom; Coyopolan",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "4d2b4d79",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Rutas de Turismo de Naturaleza y Aventura Veracruz at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1221
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.00848,
+            19.43745,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Mirador de la Cabana Quemada",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "4d2b4d79",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Rutas de Turismo de Naturaleza y Aventura Veracruz at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1280
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.015107,
+            19.441796,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Entrada a la Aventura",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "4d2b4d79",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Rutas de Turismo de Naturaleza y Aventura Veracruz at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1273
+        }
       }
     ]
   },
-  "version": "572fa27ad48849db4bdaf71155fcf4eb"
+  "version": "49425df574d68b33c2265f65f4aacbbb"
 }

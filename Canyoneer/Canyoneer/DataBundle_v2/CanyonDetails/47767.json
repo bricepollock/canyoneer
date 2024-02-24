@@ -12,8 +12,8 @@
   "waterRating": "C",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 6,
-  "rappelCountMax": 6,
+  "rappelCountMin": 12,
+  "rappelCountMax": 16,
   "rappelLongestMeters": 45.72,
   "vehicle": "4WD - High Clearance",
   "shuttleSeconds": 1800,
@@ -80,7 +80,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00FF55",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#00FF55",
@@ -354,7 +354,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#FF0000",
@@ -628,7 +628,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#FF0000",
@@ -641,5 +641,5 @@
       }
     ]
   },
-  "version": "57e5290e62d23a46aa2e4854f58b9600"
+  "version": "d19820c5e44cee711da5dd0f9e14c41a"
 }

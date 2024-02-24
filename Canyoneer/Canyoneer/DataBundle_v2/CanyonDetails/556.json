@@ -35,28 +35,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.148902,
-            38.415957,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead / Parking",
-          "styleUrl": "#icon-1207-nodesc",
-          "styleHash": "69dbb8f1",
-          "styleMapHash": {
-            "normal": "#icon-1207-nodesc-normal",
-            "highlight": "#icon-1207-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
-          "elevationMeters": 1648
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -84,7 +62,7 @@
             "normal": "#line-097138-5456-nodesc-normal",
             "highlight": "#line-097138-5456-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 629.7029264443655,
@@ -518,7 +496,7 @@
             "normal": "#line-FF5252-5456-nodesc-normal",
             "highlight": "#line-FF5252-5456-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 5178.513397511872,
@@ -867,13 +845,36 @@
             "normal": "#line-FFEA00-5650-nodesc-normal",
             "highlight": "#line-FFEA00-5650-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 5893.652765810884,
           "ascentMeters": 222.2000732421875,
           "descentMeters": 180.7000732421875,
           "changeMeters": 41.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.148902,
+            38.415957,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead / Parking",
+          "styleUrl": "#icon-1207-nodesc",
+          "styleHash": "69dbb8f1",
+          "styleMapHash": {
+            "normal": "#icon-1207-nodesc-normal",
+            "highlight": "#icon-1207-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1648
         }
       },
       {
@@ -895,6 +896,7 @@
             "highlight": "#icon-1207-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 1730
         }
       },
@@ -917,10 +919,11 @@
             "highlight": "#icon-1899-0288D1-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1536
         }
       }
     ]
   },
-  "version": "a514854514fc65b00fc28037e41d81c8"
+  "version": "41e0e1b06e2dd0b2cb467a625768ee9a"
 }

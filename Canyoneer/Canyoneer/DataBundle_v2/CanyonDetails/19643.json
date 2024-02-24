@@ -20,21 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.97503542900087,
-            33.871288545602845,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Area",
-          "elevationMeters": 1476
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -491,7 +476,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3443.7934452507425,
@@ -1234,7 +1219,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2805.92618759145,
@@ -2697,7 +2682,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5224.650787663761,
@@ -2705,8 +2690,24 @@
           "descentMeters": 1892,
           "changeMeters": -210
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.97503542900087,
+            33.871288545602845,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Area",
+          "stroke": "#34C759",
+          "elevationMeters": 1476
+        }
       }
     ]
   },
-  "version": "f1de0f901bee33585966dda2e423b514"
+  "version": "a48ad054bf57b31b7a5a529ac27c9ddf"
 }

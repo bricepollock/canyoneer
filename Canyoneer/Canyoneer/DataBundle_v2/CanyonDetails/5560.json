@@ -116,7 +116,7 @@
         "properties": {
           "name": "Exit (w/o shuttle)",
           "description": "Exit if unable to ascend the canyon...  Head up the hill, trending slightly right.  Meet a disused roadway, follow it right to the maintained road.  Turn left, and follow the road to the trailhead spur.",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#F0F000",
@@ -146,7 +146,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00CD00",
@@ -1286,7 +1286,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -1401,7 +1401,7 @@
         },
         "properties": {
           "name": "Road",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#000000",
@@ -1425,6 +1425,7 @@
         "properties": {
           "name": "Exit - without shuttle",
           "description": "Exit if unable to ascend the canyon...",
+          "stroke": "#FFCC00",
           "elevationMeters": 300
         }
       },
@@ -1441,6 +1442,7 @@
         "properties": {
           "name": "Exit - with shuttle",
           "description": "Exit if unable to ascend the canyon...",
+          "stroke": "#FF3B30",
           "elevationMeters": 340
         }
       },
@@ -1457,6 +1459,7 @@
         "properties": {
           "name": "Parking Exit",
           "description": "If you anticipate not ascending the canyon, you can park a vehicle here for a shuttle.",
+          "stroke": "#FF3B30",
           "elevationMeters": 331
         }
       },
@@ -1472,6 +1475,7 @@
         },
         "properties": {
           "name": "Parking Approach",
+          "stroke": "#FFCC00",
           "elevationMeters": 233
         }
       },
@@ -1487,10 +1491,11 @@
         },
         "properties": {
           "name": "Lost Creek turnoff",
+          "stroke": "#5AC8FA",
           "elevationMeters": 999
         }
       }
     ]
   },
-  "version": "74007fe4ec3b21b2b219fc590359cf74"
+  "version": "0a82f0cee479e4b66e4131896f4a136b"
 }

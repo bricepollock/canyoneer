@@ -25,66 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.8953748419881,
-            46.145168476577346,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 764
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.90919995307924,
-            46.159741618166294,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Good Crossing",
-          "elevationMeters": 1079
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.90973639488222,
-            46.152620085556904,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave Trail",
-          "elevationMeters": 808
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.9038248062134,
-            46.15971003500552,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Enter Creek",
-          "elevationMeters": 730
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -230,7 +170,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1822.4432901889083,
@@ -403,7 +343,7 @@
         },
         "properties": {
           "name": "Approach (bushwhack)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1267.0749697345116,
@@ -821,7 +761,7 @@
         },
         "properties": {
           "name": "Approach (trail)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2020.6440341172058,
@@ -829,8 +769,72 @@
           "descentMeters": 393.29998779296875,
           "changeMeters": 44.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.8953748419881,
+            46.145168476577346,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#34C759",
+          "elevationMeters": 764
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.90919995307924,
+            46.159741618166294,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Good Crossing",
+          "stroke": "#34C759",
+          "elevationMeters": 1079
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.90973639488222,
+            46.152620085556904,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave Trail",
+          "stroke": "#34C759",
+          "elevationMeters": 808
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.9038248062134,
+            46.15971003500552,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Enter Creek",
+          "stroke": "#FF3B30",
+          "elevationMeters": 730
+        }
       }
     ]
   },
-  "version": "3945ffd92a265329790d58b991cc0286"
+  "version": "83c9d03c211a59514312836f89f91137"
 }

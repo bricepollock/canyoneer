@@ -34,81 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -71.16973400115968,
-            18.084302780773513,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Start (ESTIMATED ONLY)",
-          "elevationMeters": 669
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -71.17104828357698,
-            18.09580092296163,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking (Upper) (ESTIMATED ONLY)",
-          "elevationMeters": 1039
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -71.14132404327394,
-            18.086546048182747,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Finish",
-          "elevationMeters": 522
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -71.15052938461305,
-            18.0825785002504,
-            0
-          ]
-        },
-        "properties": {
-          "name": "CRUX WATERFALL (ESTIMATED ONLY)",
-          "elevationMeters": 456
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -71.13216966390611,
-            18.087201283460455,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking (Lower)",
-          "elevationMeters": 239
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -125,7 +50,7 @@
         },
         "properties": {
           "name": "Approach (ESTIMATED ONLY)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1280.1211413198953,
@@ -318,7 +243,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3516.7439429132683,
@@ -471,7 +396,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1265.2542380394696,
@@ -729,7 +654,7 @@
         },
         "properties": {
           "name": "Shuttle (ESTIMATED ONLY)",
-          "stroke": "#000000",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5157.776666542383,
@@ -737,8 +662,88 @@
           "descentMeters": 330.29994201660156,
           "changeMeters": 800.2999725341797
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.16973400115968,
+            18.084302780773513,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Start (ESTIMATED ONLY)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 669
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.17104828357698,
+            18.09580092296163,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking (Upper) (ESTIMATED ONLY)",
+          "stroke": "#FF9500",
+          "elevationMeters": 1039
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.14132404327394,
+            18.086546048182747,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Finish",
+          "stroke": "#FF3B30",
+          "elevationMeters": 522
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.15052938461305,
+            18.0825785002504,
+            0
+          ]
+        },
+        "properties": {
+          "name": "CRUX WATERFALL (ESTIMATED ONLY)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 456
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.13216966390611,
+            18.087201283460455,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking (Lower)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 239
+        }
       }
     ]
   },
-  "version": "41a552a9332dee9f3b8e96ea5f91d048"
+  "version": "cf11091583880913047f42f6e478e30c"
 }

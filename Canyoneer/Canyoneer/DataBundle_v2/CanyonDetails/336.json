@@ -29,50 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.95123,
-            37.25904,
-            0
-          ]
-        },
-        "properties": {
-          "name": "The Grotto Shuttle / Parking",
-          "styleUrl": "#icon-1423-nodesc",
-          "styleHash": "-29d95127",
-          "styleMapHash": {
-            "normal": "#icon-1423-nodesc-normal",
-            "highlight": "#icon-1423-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png",
-          "elevationMeters": 1344
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.9573,
-            37.25116,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Zion Lodge Shuttle / Parking",
-          "styleUrl": "#icon-1423-nodesc",
-          "styleHash": "-29d95127",
-          "styleMapHash": {
-            "normal": "#icon-1423-nodesc-normal",
-            "highlight": "#icon-1423-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png",
-          "elevationMeters": 1620
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -145,7 +101,7 @@
             "normal": "#line-558B2F-5000-nodesc-normal",
             "highlight": "#line-558B2F-5000-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 109.64827004362756,
@@ -4494,7 +4450,7 @@
             "normal": "#line-558B2F-5000-nodesc-normal",
             "highlight": "#line-558B2F-5000-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6590.274772813113,
@@ -5008,7 +4964,7 @@
             "normal": "#line-097138-5456-nodesc-normal",
             "highlight": "#line-097138-5456-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 1560.0656900319061,
@@ -5292,7 +5248,7 @@
             "normal": "#line-A52714-5456-nodesc-normal",
             "highlight": "#line-A52714-5456-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 1571.759333229875,
@@ -5416,7 +5372,7 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 91.60883144234451,
@@ -5510,7 +5466,7 @@
             "normal": "#line-FFD600-5650-nodesc-normal",
             "highlight": "#line-FFD600-5650-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 213.3806778760307,
@@ -6374,7 +6330,7 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1239.6056198101949,
@@ -7048,7 +7004,7 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1448.4586693074866,
@@ -7547,7 +7503,7 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1075.9287912304462,
@@ -7676,13 +7632,59 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 209.79857757128917,
           "ascentMeters": 12.5999755859375,
           "descentMeters": 127.89990234375,
           "changeMeters": -115.2999267578125
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.95123,
+            37.25904,
+            0
+          ]
+        },
+        "properties": {
+          "name": "The Grotto Shuttle / Parking",
+          "styleUrl": "#icon-1423-nodesc",
+          "styleHash": "-29d95127",
+          "styleMapHash": {
+            "normal": "#icon-1423-nodesc-normal",
+            "highlight": "#icon-1423-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1344
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.9573,
+            37.25116,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Zion Lodge Shuttle / Parking",
+          "styleUrl": "#icon-1423-nodesc",
+          "styleHash": "-29d95127",
+          "styleMapHash": {
+            "normal": "#icon-1423-nodesc-normal",
+            "highlight": "#icon-1423-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1620
         }
       },
       {
@@ -7704,6 +7706,7 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 2170
         }
       },
@@ -7726,6 +7729,7 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 2170
         }
       },
@@ -7748,6 +7752,7 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 2174
         }
       },
@@ -7770,6 +7775,7 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 2178
         }
       },
@@ -7792,6 +7798,7 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1844
         }
       },
@@ -7814,6 +7821,7 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1687
         }
       },
@@ -7836,6 +7844,7 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1761
         }
       },
@@ -7858,6 +7867,7 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 2133
         }
       },
@@ -7880,10 +7890,11 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1880
         }
       }
     ]
   },
-  "version": "73ffa909ab6bffaaff0fbb55e58326eb"
+  "version": "da2dea961a151efd167b8d950d1067f2"
 }

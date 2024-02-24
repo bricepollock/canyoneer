@@ -16,8 +16,8 @@
   "waterRating": "A",
   "timeRating": "IV",
   "permit": "No",
-  "rappelCountMin": 9,
-  "rappelCountMax": 9,
+  "rappelCountMin": 29,
+  "rappelCountMax": 29,
   "rappelLongestMeters": 82.3,
   "vehicle": "Passenger",
   "shuttleSeconds": 3600,
@@ -84,7 +84,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -579,7 +579,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -709,7 +709,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00D000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00D000",
@@ -2629,7 +2629,7 @@
         },
         "properties": {
           "name": "Shuttle route",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "fill": "#000000",
@@ -2653,6 +2653,7 @@
         "properties": {
           "name": "NF-SF join",
           "description": "Confluence of North and South Forks of Cerberus Canyon.",
+          "stroke": "#FF3B30",
           "elevationMeters": 349
         }
       },
@@ -2669,6 +2670,7 @@
         "properties": {
           "name": "Parking Exit",
           "description": "Park a vehicle here along the highway for transportation after exiting the bottom of Cerberus Canyon.",
+          "stroke": "#FFCC00",
           "elevationMeters": 910
         }
       },
@@ -2684,6 +2686,7 @@
         },
         "properties": {
           "name": "Parking Start",
+          "stroke": "#34C759",
           "elevationMeters": -83
         }
       },
@@ -2700,6 +2703,7 @@
         "properties": {
           "name": "RP-01",
           "description": "Smaller peak made of reddish rock. Skirt around this and continue down the white ridge line.",
+          "stroke": "#34C759",
           "elevationMeters": -83
         }
       },
@@ -2716,6 +2720,7 @@
         "properties": {
           "name": "RP-02",
           "description": "Low point in saddle. Turn right (north west) and work your way down to the wash below which is the Right Fork of Cerberus Canyon.",
+          "stroke": "#34C759",
           "elevationMeters": -59
         }
       },
@@ -2732,6 +2737,7 @@
         "properties": {
           "name": "RP-03",
           "description": "This where the route drops into a drainage that leads down toward the Right fork of Cerberus Canyon.",
+          "stroke": "#34C759",
           "elevationMeters": -72
         }
       },
@@ -2748,6 +2754,7 @@
         "properties": {
           "name": "DropIn",
           "description": "Top Entry for South Fork of Cerberus Canyon. Small side drainage meets the main wash for the Right Fork of Cerberus Canyon.",
+          "stroke": "#FF3B30",
           "elevationMeters": 63
         }
       },
@@ -2764,6 +2771,7 @@
         "properties": {
           "name": "R1-2",
           "description": "Raps 1 and 2 - South Fork of Cerberus Canyon. R1 drops 25 feet and uses a small cairn anchor. R2 drops 45 feet and uses a rock horn overhead LDC.",
+          "stroke": "#FF3B30",
           "elevationMeters": 181
         }
       },
@@ -2780,6 +2788,7 @@
         "properties": {
           "name": "R3",
           "description": "Rap 3 - South Fork of Cerberus Canyon. Drops about 45 feet and anchored from large rock protruding from ground.",
+          "stroke": "#FF3B30",
           "elevationMeters": 201
         }
       },
@@ -2796,6 +2805,7 @@
         "properties": {
           "name": "R4",
           "description": "Rap 4 - South Fork of Cerberus Canyon. Anchored from rock protruding from ground and drops about 160 feet down vertical wall.",
+          "stroke": "#FF3B30",
           "elevationMeters": 224
         }
       },
@@ -2812,6 +2822,7 @@
         "properties": {
           "name": "R5",
           "description": "Rap 5 - South Fork of Cerberus Canyon. Anchored from small cairn and drops about 90 feet down vertical wall. A ledge is about 8 feet from top.",
+          "stroke": "#FF3B30",
           "elevationMeters": 315
         }
       },
@@ -2828,6 +2839,7 @@
         "properties": {
           "name": "R6",
           "description": "Rap 6 - South Fork of Cerberus Canyon. Anchored from large rock protruding from ground and drops about 60 over 2 stages of 35 and 20 feet. 50 foot horizontal section between.",
+          "stroke": "#FF3B30",
           "elevationMeters": 329
         }
       },
@@ -2844,6 +2856,7 @@
         "properties": {
           "name": "R7",
           "description": "Rap 7 - South Fork of Cerberus Canyon. Anchored from small cairn and drops about 70 feet total over two stages of 10 and 55 feet each.",
+          "stroke": "#FF3B30",
           "elevationMeters": 322
         }
       },
@@ -2860,6 +2873,7 @@
         "properties": {
           "name": "R8",
           "description": "Rap 8 - South Fork of Cerberus Canyon. Anchored from boulder LDC and drops 100 feet along a mostly vertical red wall.",
+          "stroke": "#FF3B30",
           "elevationMeters": 336
         }
       },
@@ -2876,6 +2890,7 @@
         "properties": {
           "name": "R9",
           "description": "Rap 9 in Cerberus. Anchored from a small boulder LDC and drops about 35 feet down a water carved slot",
+          "stroke": "#FF3B30",
           "elevationMeters": 480
         }
       },
@@ -2892,6 +2907,7 @@
         "properties": {
           "name": "R10-11",
           "description": "Raps 10 and 11 in Cerberus. Rap 10 anchored from small boulder and drops 25 feet. Rap 11 anchored from small boulder and drops 50 feet with overhanging ledge.",
+          "stroke": "#FF3B30",
           "elevationMeters": 476
         }
       },
@@ -2908,6 +2924,7 @@
         "properties": {
           "name": "R12",
           "description": "Rap 12 in Cerberus. Anchored LDC from lodged boulder and drops about 15 feet along a couple boulders.",
+          "stroke": "#FF3B30",
           "elevationMeters": 640
         }
       },
@@ -2924,6 +2941,7 @@
         "properties": {
           "name": "R13-14",
           "description": "Raps 13 and 14 in Cerberus. Rap 13 anchored from small cairn and drops 140 feet down series of ledges getting steeper as it drops. Rap 14 at the bottom of rap 13 and anchored from rock horn at top of rap and drops a bit over 50 feet down a large crack. Rap 14 can be down climbed, see route description.",
+          "stroke": "#FF3B30",
           "elevationMeters": 677
         }
       },
@@ -2940,6 +2958,7 @@
         "properties": {
           "name": "R15",
           "description": "Rap 15 in Cerberus. Anchored from choke stone wedged under boulder and drops 25 feet. Could be a down climb for some.",
+          "stroke": "#FF3B30",
           "elevationMeters": 790
         }
       },
@@ -2956,6 +2975,7 @@
         "properties": {
           "name": "R16",
           "description": "Rap 16 in Cerberus. Anchored from a rock protruding from the ground and drops over 40 feet over 2 stages. 15 feet and 25 feet.",
+          "stroke": "#FF3B30",
           "elevationMeters": 801
         }
       },
@@ -2972,6 +2992,7 @@
         "properties": {
           "name": "RP-01",
           "description": "Climb up and around LDC to bypass drop.",
+          "stroke": "#FF3B30",
           "elevationMeters": 828
         }
       },
@@ -2988,6 +3009,7 @@
         "properties": {
           "name": "R17-18",
           "description": "Raps 17 and 18 in Cerberus. Rap 17 anchored from i pinch point about 20 feet back and drops 50 feet needing about 70 feet of rope travel. Rap 18 anchored from double cairn and drops 115 feet down a fluted wall worth taking time to enjoy the look of it.",
+          "stroke": "#FF3B30",
           "elevationMeters": 998
         }
       },
@@ -3004,6 +3026,7 @@
         "properties": {
           "name": "R19-20",
           "description": "Raps 19 and 20 in Cerberus. Rap 19 cairn style anchor and drops 160 feet with 40 foot overhang. Rap 20 anchored from rock protruding from ground and drops 35 feet down sloped wall. Anchor about 40 feet upcanyon of drop.",
+          "stroke": "#FF3B30",
           "elevationMeters": 1009
         }
       },
@@ -3020,6 +3043,7 @@
         "properties": {
           "name": "R21",
           "description": "Rap 21 in Cerberus. Anchored from pile of rocks behind protruding rock. Drops 270 feet over 3 stages. 30 feet, 30 feet and 210 feet.",
+          "stroke": "#FF3B30",
           "elevationMeters": 1022
         }
       },
@@ -3036,6 +3060,7 @@
         "properties": {
           "name": "R22",
           "description": "Rap 22 in Cerberus. Anchored from small boulder at top of rap. Drops 35 feet between large boulder and canyon wall RDC. Awkward over hang.",
+          "stroke": "#FF3B30",
           "elevationMeters": 1044
         }
       },
@@ -3052,6 +3077,7 @@
         "properties": {
           "name": "R23-24",
           "description": "Raps 23 and 24 in Cerberus. Rap 23 anchored from large rock laying in wash and drops 45 feet down nice water carved flute. Rap 24 anchored from choke stone under boulder and drops 20 feet down a vertical wall. Rap 24 is down climbable.",
+          "stroke": "#FF3B30",
           "elevationMeters": 1067
         }
       },
@@ -3068,6 +3094,7 @@
         "properties": {
           "name": "R25",
           "description": "Rap 25 in Cerberus. Anchored from large rock protruding from ground and drops 90 feet over 2 stages.",
+          "stroke": "#FF3B30",
           "elevationMeters": 1099
         }
       },
@@ -3084,6 +3111,7 @@
         "properties": {
           "name": "RP-02",
           "description": "By pass a couple drops by going up an over the ledges LDC.",
+          "stroke": "#FF3B30",
           "elevationMeters": 1037
         }
       },
@@ -3100,6 +3128,7 @@
         "properties": {
           "name": "R26",
           "description": "Rap 26 in Cerberus. Anchored from rock at top of rap and drops about 270 feet. Starts with 50 foot chute to ledge then down a vertical wall with about 50 foot overhang near bottom.",
+          "stroke": "#FF3B30",
           "elevationMeters": 1004
         }
       },
@@ -3116,6 +3145,7 @@
         "properties": {
           "name": "RP-03",
           "description": "15 foot down climb in a water chute. Can be rappelled if desired by wrapping rope around rock at top of DC.",
+          "stroke": "#FF3B30",
           "elevationMeters": 977
         }
       },
@@ -3132,6 +3162,7 @@
         "properties": {
           "name": "R27-28",
           "description": "Raps 27 and 28 in Cerberus. Rap 27 anchored from protruding rock and drops 40 feet down water carved chute. Rap 28 anchored from cairn and drops 90 feet down fairly smooth vertical wall.",
+          "stroke": "#FF3B30",
           "elevationMeters": 969
         }
       },
@@ -3148,10 +3179,11 @@
         "properties": {
           "name": "R29",
           "description": "Rap 29 in Cerberus. Anchored from large rock in wash and drops 70 feet over 2 stages.",
+          "stroke": "#FF3B30",
           "elevationMeters": 944
         }
       }
     ]
   },
-  "version": "9ffbece2b8284b1c8464f63f4b080b85"
+  "version": "fb52a7fe5531cae2dcbed86307886884"
 }

@@ -20,36 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.23418307304384,
-            25.077582239251626,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park Approach",
-          "elevationMeters": 2684
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.21638929843904,
-            25.08045857929185,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park Exit",
-          "elevationMeters": 2680
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -346,7 +316,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00FF44",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2379.9060324233783,
@@ -709,7 +679,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2716.057819351006,
@@ -747,7 +717,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 184.6172357461754,
@@ -755,8 +725,40 @@
           "descentMeters": 0,
           "changeMeters": 30.400146484375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.23418307304384,
+            25.077582239251626,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park Approach",
+          "stroke": "#34C759",
+          "elevationMeters": 2684
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.21638929843904,
+            25.08045857929185,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park Exit",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2680
+        }
       }
     ]
   },
-  "version": "949e0ce3c43c80635d6d98b8b817fa1a"
+  "version": "24e73a71ab7ddd8e610344f4c9a0761f"
 }

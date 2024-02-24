@@ -17,28 +17,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.79619,
-            38.75462,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start Trailhead Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 2088
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -311,7 +289,7 @@
             "normal": "#line-558B2F-5650-nodesc-normal",
             "highlight": "#line-558B2F-5650-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 2237.770690320243,
@@ -1125,57 +1103,13 @@
             "normal": "#line-558B2F-5456-nodesc-normal",
             "highlight": "#line-558B2F-5456-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 6346.763775227427,
           "ascentMeters": 459.5001220703125,
           "descentMeters": 445.3001708984375,
           "changeMeters": 14.199951171875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.7773474,
-            38.674727,
-            0
-          ]
-        },
-        "properties": {
-          "name": "A Series of 4-5 Rappels",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1821
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.7632911,
-            38.6290921,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Trailhead Parking",
-          "styleUrl": "#icon-1207-nodesc",
-          "styleHash": "69dbb8f1",
-          "styleMapHash": {
-            "normal": "#icon-1207-nodesc-normal",
-            "highlight": "#icon-1207-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
-          "elevationMeters": 1663
         }
       },
       {
@@ -1483,7 +1417,7 @@
             "normal": "#line-FF5252-5456-nodesc-normal",
             "highlight": "#line-FF5252-5456-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 3300.9828540327485,
@@ -1752,7 +1686,7 @@
             "normal": "#line-FF5252-5456-nodesc-normal",
             "highlight": "#line-FF5252-5456-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 3083.000596184302,
@@ -2141,7 +2075,7 @@
             "normal": "#line-FF5252-5844-nodesc-normal",
             "highlight": "#line-FF5252-5844-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 1469.824834487524,
@@ -2435,7 +2369,7 @@
             "normal": "#line-FF5252-5844-nodesc-normal",
             "highlight": "#line-FF5252-5844-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 1600.5055432595354,
@@ -3314,7 +3248,7 @@
             "normal": "#line-FFD600-5456-nodesc-normal",
             "highlight": "#line-FFD600-5456-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 8310.427802422773,
@@ -5668,13 +5602,82 @@
             "normal": "#line-4E342E-5844-nodesc-normal",
             "highlight": "#line-4E342E-5844-nodesc-highlight"
           },
-          "stroke": "#4e342e",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 28208.702562609014,
           "ascentMeters": 1605.0001220703125,
           "descentMeters": 2027.5,
           "changeMeters": -422.4998779296875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.79619,
+            38.75462,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start Trailhead Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2088
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.7773474,
+            38.674727,
+            0
+          ]
+        },
+        "properties": {
+          "name": "A Series of 4-5 Rappels",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1821
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.7632911,
+            38.6290921,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Trailhead Parking",
+          "styleUrl": "#icon-1207-nodesc",
+          "styleHash": "69dbb8f1",
+          "styleMapHash": {
+            "normal": "#icon-1207-nodesc-normal",
+            "highlight": "#icon-1207-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1663
         }
       },
       {
@@ -5696,6 +5699,7 @@
             "highlight": "#icon-1273-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1273-poi-japanese-cemetery.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 2021
         }
       },
@@ -5718,6 +5722,7 @@
             "highlight": "#icon-1273-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1273-poi-japanese-cemetery.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 2024
         }
       },
@@ -5740,6 +5745,7 @@
             "highlight": "#icon-1273-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1273-poi-japanese-cemetery.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1826
         }
       },
@@ -5762,10 +5768,11 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#34C759",
           "elevationMeters": 2031
         }
       }
     ]
   },
-  "version": "51b6c855673049c76a31090704a0bb68"
+  "version": "137d4ef9946bcf54e8a3285fc7029f18"
 }

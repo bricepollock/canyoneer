@@ -31,36 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.50553084540367,
-            40.36067343063608,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1599
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.50477411,
-            40.36112286,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Slot Start",
-          "elevationMeters": 1601
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -532,7 +502,7 @@
         },
         "properties": {
           "name": "S1500E to Devil's Hole",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 9368.152535662872,
@@ -680,7 +650,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 186.41959742540774,
@@ -758,7 +728,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 73.83190847664369,
@@ -946,7 +916,7 @@
         },
         "properties": {
           "name": "Return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 228.92462471783858,
@@ -954,8 +924,40 @@
           "descentMeters": 8.4998779296875,
           "changeMeters": -5.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.50553084540367,
+            40.36067343063608,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1599
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.50477411,
+            40.36112286,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Slot Start",
+          "stroke": "#34C759",
+          "elevationMeters": 1601
+        }
       }
     ]
   },
-  "version": "00fbc2aff5a760b8fa8d995b8160bda0"
+  "version": "28213b2b55e411376081cf421d16fc1f"
 }

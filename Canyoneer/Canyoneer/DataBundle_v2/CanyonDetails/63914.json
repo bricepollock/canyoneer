@@ -34,97 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.768254,
-            34.888119,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "elevationMeters": 1915
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.76902,
-            34.888059,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "elevationMeters": 1918
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.770868,
-            34.906133,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "elevationMeters": 1870
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.770911,
-            34.906227,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "description": "Export from CalTopo",
-          "elevationMeters": 1872
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.774044,
-            34.894365,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "elevationMeters": 1930
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.77169703337769,
-            34.910332109741915,
-            0
-          ]
-        },
-        "properties": {
-          "name": "natural bridge",
-          "elevationMeters": 1709
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2057,7 +1966,7 @@
         "properties": {
           "name": "Lines and Polygons",
           "description": "Export from CalTopo",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 4,
           "lengthMeters": 1622.5924119384888,
@@ -2399,7 +2308,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3806.0450459878584,
@@ -2436,7 +2345,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 110.38592835046597,
@@ -2688,7 +2597,7 @@
           ]
         },
         "properties": {
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1857.029415720821,
@@ -2696,8 +2605,105 @@
           "descentMeters": 77.2001953125,
           "changeMeters": 109.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.768254,
+            34.888119,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "stroke": "#34C759",
+          "elevationMeters": 1915
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.76902,
+            34.888059,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "stroke": "#34C759",
+          "elevationMeters": 1918
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.770868,
+            34.906133,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1870
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.770911,
+            34.906227,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "description": "Export from CalTopo",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1872
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.774044,
+            34.894365,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1930
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.77169703337769,
+            34.910332109741915,
+            0
+          ]
+        },
+        "properties": {
+          "name": "natural bridge",
+          "stroke": "#34C759",
+          "elevationMeters": 1709
+        }
       }
     ]
   },
-  "version": "9f37e320b8c0bf0cc926d6dc93ac212d"
+  "version": "9b0b8177d3befbcb2ff8566b7646fcb9"
 }

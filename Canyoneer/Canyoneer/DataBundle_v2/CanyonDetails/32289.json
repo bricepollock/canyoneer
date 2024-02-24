@@ -18,8 +18,8 @@
   "timeRating": "V",
   "riskRating": "R",
   "permit": "No",
-  "rappelCountMin": 0,
-  "rappelCountMax": 0,
+  "rappelCountMin": 10,
+  "rappelCountMax": 10,
   "rappelLongestMeters": 91.44,
   "vehicle": "4WD",
   "shuttleSeconds": 7200,
@@ -375,7 +375,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00cd00",
@@ -954,7 +954,7 @@
           ]
         },
         "properties": {
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#ff0000",
@@ -2208,7 +2208,7 @@
           ]
         },
         "properties": {
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#f0f000",
@@ -2230,6 +2230,7 @@
           ]
         },
         "properties": {
+          "stroke": "#FFCC00",
           "elevationMeters": 952
         }
       },
@@ -2244,10 +2245,11 @@
           ]
         },
         "properties": {
+          "stroke": "#34C759",
           "elevationMeters": 1297
         }
       }
     ]
   },
-  "version": "14ed2da3e52aad40174147caafcf14ca"
+  "version": "1d52b5564516a7acd22394a2ae032c39"
 }
