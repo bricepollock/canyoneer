@@ -17,7 +17,7 @@ enum ResultListType: Int, Equatable {
 }
 
 struct ResultListView: View {
-    @ObservedObject var viewModel: ResultsViewModel
+    @StateObject var viewModel: ResultsViewModel
     
     var body: some View {
         ScrollView {
