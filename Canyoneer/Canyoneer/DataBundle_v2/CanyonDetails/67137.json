@@ -31,67 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.71524,
-            35.036659,
-            0
-          ]
-        },
-        "properties": {
-          "name": "exit handline",
-          "description": "Location: 35.036659, -111.71524<br/>\nElevation: 1.1 mi<br/>\nTime Created: 9/1/21 9:19:23 AM<br/>\n",
-          "elevationMeters": 1929
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.707294,
-            35.030699,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "elevationMeters": 2148
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.70726977288724,
-            35.03027085528625,
-            0
-          ]
-        },
-        "properties": {
-          "name": "park",
-          "elevationMeters": 2139
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.71147721652234,
-            35.03430875475504,
-            0
-          ]
-        },
-        "properties": {
-          "name": "r1",
-          "elevationMeters": 2031
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -162,7 +101,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 670.4224170709222,
@@ -324,7 +263,7 @@
           ]
         },
         "properties": {
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1604.8255270488987,
@@ -401,7 +340,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 341.7987644430409,
@@ -409,8 +348,73 @@
           "descentMeters": 196,
           "changeMeters": -196
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.71524,
+            35.036659,
+            0
+          ]
+        },
+        "properties": {
+          "name": "exit handline",
+          "description": "Location: 35.036659, -111.71524<br/>\nElevation: 1.1 mi<br/>\nTime Created: 9/1/21 9:19:23 AM<br/>\n",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1929
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.707294,
+            35.030699,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "stroke": "#34C759",
+          "elevationMeters": 2148
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.70726977288724,
+            35.03027085528625,
+            0
+          ]
+        },
+        "properties": {
+          "name": "park",
+          "stroke": "#34C759",
+          "elevationMeters": 2139
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.71147721652234,
+            35.03430875475504,
+            0
+          ]
+        },
+        "properties": {
+          "name": "r1",
+          "stroke": "#34C759",
+          "elevationMeters": 2031
+        }
       }
     ]
   },
-  "version": "3a853176addab4187062636f2dbe0856"
+  "version": "52fe0bce6420442ebf4788a17b947db2"
 }

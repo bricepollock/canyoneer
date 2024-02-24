@@ -26,28 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.513513,
-            38.8458375,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead / Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1909
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -165,7 +143,7 @@
             "normal": "#line-097138-5456-nodesc-normal",
             "highlight": "#line-097138-5456-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 729.3694337741529,
@@ -694,7 +672,7 @@
             "normal": "#line-558B2F-5456-nodesc-normal",
             "highlight": "#line-558B2F-5456-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 1445.3530499819628,
@@ -1133,7 +1111,7 @@
             "normal": "#line-A52714-5650-nodesc-normal",
             "highlight": "#line-A52714-5650-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 1632.2442968991083,
@@ -1272,7 +1250,7 @@
             "normal": "#line-FFD600-5456-nodesc-normal",
             "highlight": "#line-FFD600-5456-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 1991.7467001211503,
@@ -1280,8 +1258,31 @@
           "descentMeters": 118.599853515625,
           "changeMeters": 8.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.513513,
+            38.8458375,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead / Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1909
+        }
       }
     ]
   },
-  "version": "98dab95972fe7539feb6155e30abc24a"
+  "version": "0f0c6f4e3a67ba47be7a3a4845a49902"
 }

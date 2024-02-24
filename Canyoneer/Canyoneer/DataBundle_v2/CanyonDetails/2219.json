@@ -26,21 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.61382436752321,
-            46.255045631983386,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Enter Lewis River",
-          "elevationMeters": 946
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -97,7 +82,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 190.84287117319266,
@@ -150,7 +135,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 201.17916457959046,
@@ -193,7 +178,7 @@
         },
         "properties": {
           "name": "Continue to Lewis River",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 164.4709869651813,
@@ -306,7 +291,7 @@
         },
         "properties": {
           "name": "Exit (no shuttle)",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 486.7307064489176,
@@ -359,7 +344,7 @@
         },
         "properties": {
           "name": "Exit (shuttle)",
-          "stroke": "#009AFF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 432.95104756845546,
@@ -367,8 +352,24 @@
           "descentMeters": 404.300048828125,
           "changeMeters": -369.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.61382436752321,
+            46.255045631983386,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Enter Lewis River",
+          "stroke": "#FF3B30",
+          "elevationMeters": 946
+        }
       }
     ]
   },
-  "version": "224fb3167d1121c761666730672e73cf"
+  "version": "91edd05ba8f99ab1d54fc98f417f557a"
 }

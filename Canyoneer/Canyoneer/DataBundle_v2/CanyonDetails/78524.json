@@ -29,67 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.10913980007172,
-            39.066455793786545,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "description": "30, 60, 30 prior ",
-          "elevationMeters": 969
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.107645,
-            39.066042,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In",
-          "elevationMeters": 965
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.11023,
-            39.07111,
-            0
-          ]
-        },
-        "properties": {
-          "name": "4WD parking",
-          "elevationMeters": 879
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.11188,
-            39.066113,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon End",
-          "elevationMeters": 930
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1651,7 +1590,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 475.63092767160674,
@@ -3044,7 +2983,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 923.2297559562168,
@@ -4642,7 +4581,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1757.597861101827,
@@ -4650,8 +4589,73 @@
           "descentMeters": 287.70001220703125,
           "changeMeters": -50.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.10913980007172,
+            39.066455793786545,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "description": "30, 60, 30 prior ",
+          "stroke": "#FF3B30",
+          "elevationMeters": 969
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.107645,
+            39.066042,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In",
+          "stroke": "#34C759",
+          "elevationMeters": 965
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.11023,
+            39.07111,
+            0
+          ]
+        },
+        "properties": {
+          "name": "4WD parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 879
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.11188,
+            39.066113,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon End",
+          "stroke": "#FF3B30",
+          "elevationMeters": 930
+        }
       }
     ]
   },
-  "version": "e1b5cb0a03cf8738a2dfd4e40a0e7118"
+  "version": "d49dcfd081d7b784fb084cbf97bf58f2"
 }

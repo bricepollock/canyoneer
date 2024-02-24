@@ -4,7 +4,7 @@
   "longitude": -112.9112,
   "id": 82637,
   "name": "Fiddle Me This",
-  "quality": 4,
+  "quality": 3.7,
   "months": [
     "Sep",
     "Oct",
@@ -26,28 +26,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.899549,
-            37.267744,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Stave Springs Trailhead / Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1983
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -238,7 +216,7 @@
             "normal": "#line-558B2F-5000-nodesc-normal",
             "highlight": "#line-558B2F-5000-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 816.0618732902346,
@@ -1707,7 +1685,7 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2846.158584634147,
@@ -1946,7 +1924,7 @@
             "normal": "#line-558B2F-5000-nodesc-normal",
             "highlight": "#line-558B2F-5000-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 411.092874984803,
@@ -2165,57 +2143,13 @@
             "normal": "#line-097138-6000-nodesc-normal",
             "highlight": "#line-097138-6000-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 319.6851665988773,
           "ascentMeters": 26.7999267578125,
           "descentMeters": 0,
           "changeMeters": 26.7999267578125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.911206,
-            37.270362,
-            0
-          ]
-        },
-        "properties": {
-          "name": "First Rappel",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 2009
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.922677,
-            37.275462,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Final Rappel",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1935
         }
       },
       {
@@ -2348,7 +2282,7 @@
             "normal": "#line-A52714-6000-nodesc-normal",
             "highlight": "#line-A52714-6000-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 292.8290567591934,
@@ -2462,7 +2396,7 @@
             "normal": "#line-A52714-6000-nodesc-normal",
             "highlight": "#line-A52714-6000-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 242.98829720006145,
@@ -2631,7 +2565,7 @@
             "normal": "#line-A52714-6000-nodesc-normal",
             "highlight": "#line-A52714-6000-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 276.6125545176887,
@@ -2860,7 +2794,7 @@
             "normal": "#line-558B2F-6000-nodesc-normal",
             "highlight": "#line-558B2F-6000-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 461.6888210600766,
@@ -2969,13 +2903,82 @@
             "normal": "#line-558B2F-6000-nodesc-normal",
             "highlight": "#line-558B2F-6000-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 229.05788711660273,
           "ascentMeters": 0,
           "descentMeters": 37.5999755859375,
           "changeMeters": -37.5999755859375
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.899549,
+            37.267744,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Stave Springs Trailhead / Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1983
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.911206,
+            37.270362,
+            0
+          ]
+        },
+        "properties": {
+          "name": "First Rappel",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#34C759",
+          "elevationMeters": 2009
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.922677,
+            37.275462,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Final Rappel",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1935
         }
       },
       {
@@ -2997,6 +3000,7 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1985
         }
       },
@@ -3019,6 +3023,7 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 2011
         }
       },
@@ -3041,10 +3046,11 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1916
         }
       }
     ]
   },
-  "version": "3a1f5e1374b4a7032e73880c6cab0e2e"
+  "version": "be70b3a1b23cf326df939276960aa0cb"
 }

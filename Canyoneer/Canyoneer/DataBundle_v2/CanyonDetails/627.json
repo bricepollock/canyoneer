@@ -5,14 +5,24 @@
   "id": 627,
   "name": "Chalk Creek Canyon",
   "quality": 2.3,
-  "technicalRating": 4,
-  "waterRating": "A",
-  "timeRating": "II",
+  "months": [
+    "Mar",
+    "Apr",
+    "May",
+    "Sep",
+    "Oct",
+    "Nov"
+  ],
+  "technicalRating": 3,
+  "waterRating": "B",
+  "timeRating": "III",
   "permit": "No",
   "rappelCountMin": 1,
   "rappelCountMax": 1,
-  "rappelLongestMeters": 9.14,
-  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>A short canyon in the Sierra Anchas with a short section of narrows\nand one short rappel that takes you to the Upper Salt River. Most will\nchose to ascend the one rappel back up to exit through the canyon\ninstead of route-finding and bushwacking the steep slopes surrounding\nthe canyon.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>From Phoenix, drive east on hwy 60, north on 188, turn right onto\n288, then after 7 miles turn right onto Cherry Creek Rd. After 6.9 miles\npark at a corral on the left.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>From the corral hike south to pick up a minor drainage of Chalk Creek\nand follow it all the way through the canyon. Stay in the main drainage,\nsome minor downclimbs and bypasses take you to the one rappel. Shortly\nafter the rappel the canyon opens to the Salt River; the easiest way to\naccess the river is to hike through the trees and brush following the\ncanyon slope on canyon right until it opens up, then heading southeast\nto reach the river.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>The most efficient way to exit the canyon is to packraft the salt\nriver to the 288 bridge takeout or else go back the way you came and\nascend the one rappel and hike back up through the canyon, though a\nhiking route back to the top may be possible.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://ropewiki.com/User:Super_Amazing_Map?id=Chalk_Creek_Canyon_-_Arizona\">Super\nAmazing Map</a> : Chalk Creek Canyon</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><a\nhref=\"https://www.facebook.com/pat.winstanley.7/media_set?set=a.913084452083586.1073741979.100001461198708&amp;type=3\">https://www.facebook.com/pat.winstanley.7/media_set?set=a.913084452083586.1073741979.100001461198708&amp;type=3</a></li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "rappelLongestMeters": 15.24,
+  "vehicle": "4WD - High Clearance",
+  "shuttleSeconds": 30,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>A canyon in the Salt River Canyon Wilderness with a short section of\nnarrows and one rappel that takes you to the Upper Salt River.</p>\n<p>Most will chose to ascend the one rappel back up to exit through the\ncanyon instead of route-finding and bushwacking the steep slopes\nsurrounding the canyon. However, staging a shuttle vehicle and\npackrafting to the 288 makes for a much higher value day with some Class\nII whitewater and excellent scenery.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>Turn off Cherry Creek Rd to FR 1075 which requires high clearance\n(and perhaps 4x4 under some conditions).</p>\n<h2 id=\"descent\">Descent</h2>\n<p>Follow the drainage. Some minor downclimbs and bypasses take you to\nthe one rappel, which may require some anchor creativity. Shortly after\nthe rappel the canyon opens to the Salt River; the easiest way to access\nthe river is to hike through the trees and brush following the canyon\nslope on canyon right until it opens up, then heading southeast to reach\nthe river.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>The most enjoyable way to exit the canyon is to packraft several\nmiles along the Salt River to the 288 bridge takeout.</p>\n<p>Alternatively, go back the way you came, ascending the one\nrappel.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://ropewiki.com/User:Super_Amazing_Map?id=Chalk_Creek_Canyon_-_Arizona\">Super\nAmazing Map</a> : Chalk Creek Canyon</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><a\nhref=\"https://www.facebook.com/pat.winstanley.7/media_set?set=a.913084452083586.1073741979.100001461198708&amp;type=3\">https://www.facebook.com/pat.winstanley.7/media_set?set=a.913084452083586.1073741979.100001461198708&amp;type=3</a></li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
@@ -239,7 +249,7 @@
           ]
         },
         "properties": {
-          "stroke": "#ffaa00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#ffaa00",
@@ -303,7 +313,7 @@
           ]
         },
         "properties": {
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#ff0000",
@@ -326,6 +336,7 @@
         },
         "properties": {
           "name": "park",
+          "stroke": "#FF3B30",
           "elevationMeters": 855
         }
       },
@@ -341,10 +352,11 @@
         },
         "properties": {
           "name": "rappel",
+          "stroke": "#FF9500",
           "elevationMeters": 710
         }
       }
     ]
   },
-  "version": "84f2c7c453d07ddd81a4ac608e5c45be"
+  "version": "a233c44c77b09d1c1c57b147fd2d87df"
 }

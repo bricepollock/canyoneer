@@ -34,28 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.5829464,
-            38.5588058,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Moab Rim Trailhead Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1359
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -618,7 +596,7 @@
             "normal": "#line-558B2F-5000-nodesc-normal",
             "highlight": "#line-558B2F-5000-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1402.7398982033226,
@@ -1027,35 +1005,13 @@
             "normal": "#line-4E342E-5000-nodesc-normal",
             "highlight": "#line-4E342E-5000-nodesc-highlight"
           },
-          "stroke": "#4e342e",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1509.389871986784,
           "ascentMeters": 222.39990234375,
           "descentMeters": 182.7998046875,
           "changeMeters": 39.60009765625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.5808,
-            38.5407,
-            0
-          ]
-        },
-        "properties": {
-          "name": "200 Foot Rappel",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1369
         }
       },
       {
@@ -1348,7 +1304,7 @@
             "normal": "#line-097138-5456-nodesc-normal",
             "highlight": "#line-097138-5456-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 893.0212119186281,
@@ -1427,7 +1383,7 @@
             "normal": "#line-4E342E-5456-nodesc-normal",
             "highlight": "#line-4E342E-5456-nodesc-highlight"
           },
-          "stroke": "#4e342e",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 68.54095089087438,
@@ -1606,7 +1562,7 @@
             "normal": "#line-000000-5000-nodesc-normal",
             "highlight": "#line-000000-5000-nodesc-highlight"
           },
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1653.9079131486797,
@@ -2245,35 +2201,13 @@
             "normal": "#line-4E342E-5000-nodesc-normal",
             "highlight": "#line-4E342E-5000-nodesc-highlight"
           },
-          "stroke": "#4e342e",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2639.876886766686,
           "ascentMeters": 489.2003173828125,
           "descentMeters": 494.2003173828125,
           "changeMeters": -5
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.5931778,
-            38.5466741,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Optional Shuttle Vehicle Parking",
-          "styleUrl": "#icon-1207-nodesc",
-          "styleHash": "69dbb8f1",
-          "styleMapHash": {
-            "normal": "#icon-1207-nodesc-normal",
-            "highlight": "#icon-1207-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
-          "elevationMeters": 1206
         }
       },
       {
@@ -2791,7 +2725,7 @@
             "normal": "#line-A52714-6231-nodesc-normal",
             "highlight": "#line-A52714-6231-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 6.231,
           "lengthMeters": 1227.5165422793293,
@@ -3030,7 +2964,7 @@
             "normal": "#line-FFD600-5263-nodesc-normal",
             "highlight": "#line-FFD600-5263-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 1483.7990825467857,
@@ -3038,8 +2972,77 @@
           "descentMeters": 287.4998779296875,
           "changeMeters": -62.7999267578125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.5829464,
+            38.5588058,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Moab Rim Trailhead Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#FF2D55",
+          "elevationMeters": 1359
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.5808,
+            38.5407,
+            0
+          ]
+        },
+        "properties": {
+          "name": "200 Foot Rappel",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1369
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.5931778,
+            38.5466741,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Optional Shuttle Vehicle Parking",
+          "styleUrl": "#icon-1207-nodesc",
+          "styleHash": "69dbb8f1",
+          "styleMapHash": {
+            "normal": "#icon-1207-nodesc-normal",
+            "highlight": "#icon-1207-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1206
+        }
       }
     ]
   },
-  "version": "203af0c78aef27bacedd64b8a6110976"
+  "version": "54cf03d53e1ea69549050c0a86de2a3a"
 }

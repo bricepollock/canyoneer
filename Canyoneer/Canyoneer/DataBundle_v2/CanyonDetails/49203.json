@@ -26,66 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.7115640640259,
-            46.2041774113559,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 1140
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70948266983034,
-            46.210917801596715,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking (Lower Pin)",
-          "elevationMeters": 1325
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70687566743388,
-            46.20866361221823,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Camping Spot",
-          "elevationMeters": 1300
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.71256456550682,
-            46.209448876193534,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1371
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -322,7 +262,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2152.3628750977427,
@@ -445,7 +385,7 @@
         },
         "properties": {
           "name": "Lower Pin",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 952.890739135403,
@@ -493,7 +433,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 202.8121908912181,
@@ -566,7 +506,7 @@
         },
         "properties": {
           "name": "BW Exit No Shuttle",
-          "stroke": "#C4FF00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 545.9122655095284,
@@ -614,7 +554,7 @@
         },
         "properties": {
           "name": "BW Approach No Shuttle",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 480.53774038473836,
@@ -622,8 +562,72 @@
           "descentMeters": 34.5,
           "changeMeters": 59.60009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.7115640640259,
+            46.2041774113559,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1140
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70948266983034,
+            46.210917801596715,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking (Lower Pin)",
+          "stroke": "#5856D6",
+          "elevationMeters": 1325
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70687566743388,
+            46.20866361221823,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Camping Spot",
+          "stroke": "#34C759",
+          "elevationMeters": 1300
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.71256456550682,
+            46.209448876193534,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1371
+        }
       }
     ]
   },
-  "version": "69d777847e2f39d787e56a57e83d8939"
+  "version": "4af22d1152b78dbb3da983c1c3ff16f8"
 }

@@ -21,51 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.38396795493195,
-            35.03822140520121,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Afton Campground",
-          "elevationMeters": 492
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.35961401313877,
-            35.024767823134454,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Part",
-          "elevationMeters": 420
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.36511351285807,
-            35.01464590755146,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start Parking",
-          "elevationMeters": 412
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -392,7 +347,7 @@
         },
         "properties": {
           "name": "Camp to Exit Shuttle",
-          "stroke": "#000000",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2963.949596310819,
@@ -2270,7 +2225,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 22080.558650261897,
@@ -3778,7 +3733,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 850.0007916203539,
@@ -4816,7 +4771,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 799.1264546813962,
@@ -4824,8 +4779,56 @@
           "descentMeters": 151.00006103515625,
           "changeMeters": -111.80001831054688
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.38396795493195,
+            35.03822140520121,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Afton Campground",
+          "stroke": "#007AFF",
+          "elevationMeters": 492
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.35961401313877,
+            35.024767823134454,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Part",
+          "stroke": "#007AFF",
+          "elevationMeters": 420
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.36511351285807,
+            35.01464590755146,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 412
+        }
       }
     ]
   },
-  "version": "37f9d1862c961832a45d86b746c15294"
+  "version": "8bb3ed659863cbd00b7ce1e85014ec6b"
 }

@@ -5,102 +5,10 @@
   "id": 29424,
   "name": "Vigas",
   "permit": "No",
-  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=3131802\">Wikiloc.com</a> :\nBarranco Las Vigas.</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=5730357\">Wikiloc.com</a> :\nBarranco de las Vigas</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:canarias:vigas\">Wiki-Infobarrancos</a>\n: Barranco de las Vigas (http://infobarrancos.es/)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=3131802\">Wikiloc.com</a> :\nBarranco Las Vigas.</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=5730357\">Wikiloc.com</a> :\nBarranco de las Vigas</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.412166,
-            28.374677,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-7df6c3a",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by dperma1 at wikiloc.com)",
-          "elevationMeters": 858
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.402639,
-            28.367729,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-67444185",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by dperma1 at wikiloc.com)",
-          "elevationMeters": 586
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.411924,
-            28.376656,
-            0
-          ]
-        },
-        "properties": {
-          "name": "1 SALTO",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "208075e3",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by dperma1 at wikiloc.com)",
-          "elevationMeters": 920
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.410794,
-            28.375776,
-            0
-          ]
-        },
-        "properties": {
-          "name": "2 SALTO",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "208075e3",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by dperma1 at wikiloc.com)",
-          "elevationMeters": 873
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -1396,7 +1304,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by dperma1 at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2052.7921209102606,
@@ -1404,8 +1312,104 @@
           "descentMeters": 371.29998779296875,
           "changeMeters": -272
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.412166,
+            28.374677,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-54632f3b",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 858
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.402639,
+            28.367729,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "c97cd3c",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 586
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.411924,
+            28.376656,
+            0
+          ]
+        },
+        "properties": {
+          "name": "1 SALTO",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2a2cfc85",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 920
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.410794,
+            28.375776,
+            0
+          ]
+        },
+        "properties": {
+          "name": "2 SALTO",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2a2cfc85",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 873
+        }
       }
     ]
   },
-  "version": "d5a854c0c2eb5add16115b4c4cc437a1"
+  "version": "9cd0caf11d8ebac114caeb22c6c446bf"
 }

@@ -31,96 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.93942,
-            37.27098,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Weeping Rock Shuttle Stop",
-          "styleUrl": "#icon-1423",
-          "styleHash": "-2c239a8a",
-          "styleMapHash": {
-            "normal": "#icon-1423-normal",
-            "highlight": "#icon-1423-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png",
-          "description": "Due to a massive rock fall in 2019 that has indefinitely closed the lower portion of the East Rim Trail, it is not currently possible to approach Mystery Canyon via this route from begging at this shuttle stop.  Currently the long, drive-around route from the East Mesa Trailhead is the only practical way to run Mystery Canyon.",
-          "elevationMeters": 1957
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.94752121,
-            37.285082385,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Temple of Sinawava Shuttle Stop",
-          "styleUrl": "#icon-1423-nodesc",
-          "styleHash": "-29d95127",
-          "styleMapHash": {
-            "normal": "#icon-1423-nodesc-normal",
-            "highlight": "#icon-1423-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png",
-          "elevationMeters": 2141
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.9321436,
-            37.3024017,
-            0
-          ]
-        },
-        "properties": {
-          "name": "First Rappel",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 2016
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.9005913,
-            37.2969013,
-            0
-          ]
-        },
-        "properties": {
-          "name": "East Mesa Trailhead Parking",
-          "styleUrl": "#icon-1453",
-          "styleHash": "48a3dc84",
-          "styleMapHash": {
-            "normal": "#icon-1453-normal",
-            "highlight": "#icon-1453-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "description": "Leave a starting vehicle here to be recovered later on.  Or, better yet get dropped off here.  It is worth it to hire a guide company to drop you off so you don't have to recover a vehicle later on.",
-          "elevationMeters": 1521
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1518,7 +1428,7 @@
             "normal": "#line-558B2F-5000-nodesc-normal",
             "highlight": "#line-558B2F-5000-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3400.4408718511486,
@@ -1642,7 +1552,7 @@
             "normal": "#line-1A237E-5000-nodesc-normal",
             "highlight": "#line-1A237E-5000-nodesc-highlight"
           },
-          "stroke": "#1a237e",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 487.3661957189312,
@@ -8726,7 +8636,7 @@
             "normal": "#line-000000-5000-nodesc-normal",
             "highlight": "#line-000000-5000-nodesc-highlight"
           },
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 35500.13913150242,
@@ -10545,7 +10455,7 @@
             "normal": "#line-9C27B0-5000-nodesc-normal",
             "highlight": "#line-9C27B0-5000-nodesc-highlight"
           },
-          "stroke": "#9c27b0",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 9757.181479372453,
@@ -13595,7 +13505,7 @@
             "highlight": "#line-757575-2356-highlight"
           },
           "description": "This section of the East Rim Trail is open, but due to the lower section being indefinitely closed, it is not possible to use this as part of the approach from Zion Canyon itself.",
-          "stroke": "#757575",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 2.356,
           "lengthMeters": 4633.576852058498,
@@ -15210,7 +15120,7 @@
             "highlight": "#line-757575-2938-highlight"
           },
           "description": "Due to a massive rock fall in 2019 this portion of the East Rim Trail has been closed indefinitely.  It may be decades--if ever--before this section of trail is open again.  Consequently, it is not currently possible to approach Mystery Canyon via this route from. Currently the long, drive-around route from the East Mesa Trailhead is the only practical way to run Mystery Canyon.",
-          "stroke": "#757575",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 2.938,
           "lengthMeters": 2417.4371008452517,
@@ -15914,7 +15824,7 @@
             "normal": "#line-9C27B0-5000-nodesc-normal",
             "highlight": "#line-9C27B0-5000-nodesc-highlight"
           },
-          "stroke": "#9c27b0",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2742.4166578194095,
@@ -16423,35 +16333,13 @@
             "normal": "#line-A52714-5000-nodesc-normal",
             "highlight": "#line-A52714-5000-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1496.903986512117,
           "ascentMeters": 240.900146484375,
           "descentMeters": 770.2000732421875,
           "changeMeters": -529.2999267578125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.98657,
-            37.20078,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Zion Visitor Center Shuttle Stop",
-          "styleUrl": "#icon-1423-nodesc",
-          "styleHash": "-29d95127",
-          "styleMapHash": {
-            "normal": "#icon-1423-nodesc-normal",
-            "highlight": "#icon-1423-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png",
-          "elevationMeters": 1194
         }
       },
       {
@@ -16634,7 +16522,7 @@
             "normal": "#line-097138-5456-nodesc-normal",
             "highlight": "#line-097138-5456-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 1502.726294505943,
@@ -16973,13 +16861,130 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1483.1092242020181,
           "ascentMeters": 1217.1002197265625,
           "descentMeters": 614.60009765625,
           "changeMeters": 602.5001220703125
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.93942,
+            37.27098,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Weeping Rock Shuttle Stop",
+          "styleUrl": "#icon-1423",
+          "styleHash": "-2c239a8a",
+          "styleMapHash": {
+            "normal": "#icon-1423-normal",
+            "highlight": "#icon-1423-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png",
+          "description": "Due to a massive rock fall in 2019 that has indefinitely closed the lower portion of the East Rim Trail, it is not currently possible to approach Mystery Canyon via this route from begging at this shuttle stop.  Currently the long, drive-around route from the East Mesa Trailhead is the only practical way to run Mystery Canyon.",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1957
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.94752121,
+            37.285082385,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Temple of Sinawava Shuttle Stop",
+          "styleUrl": "#icon-1423-nodesc",
+          "styleHash": "-29d95127",
+          "styleMapHash": {
+            "normal": "#icon-1423-nodesc-normal",
+            "highlight": "#icon-1423-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2141
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.9321436,
+            37.3024017,
+            0
+          ]
+        },
+        "properties": {
+          "name": "First Rappel",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2016
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.9005913,
+            37.2969013,
+            0
+          ]
+        },
+        "properties": {
+          "name": "East Mesa Trailhead Parking",
+          "styleUrl": "#icon-1453",
+          "styleHash": "48a3dc84",
+          "styleMapHash": {
+            "normal": "#icon-1453-normal",
+            "highlight": "#icon-1453-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "description": "Leave a starting vehicle here to be recovered later on.  Or, better yet get dropped off here.  It is worth it to hire a guide company to drop you off so you don't have to recover a vehicle later on.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1521
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.98657,
+            37.20078,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Zion Visitor Center Shuttle Stop",
+          "styleUrl": "#icon-1423-nodesc",
+          "styleHash": "-29d95127",
+          "styleMapHash": {
+            "normal": "#icon-1423-nodesc-normal",
+            "highlight": "#icon-1423-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1194
         }
       },
       {
@@ -17001,6 +17006,7 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1484
         }
       },
@@ -17023,6 +17029,7 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1593
         }
       },
@@ -17046,6 +17053,7 @@
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
           "description": "There are several rappels in this section of the canyon.",
+          "stroke": "#FF3B30",
           "elevationMeters": 2006
         }
       },
@@ -17069,10 +17077,11 @@
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
           "description": "Leave a vehicle here--or in town--to be used upon exit.  You will either need to drive back up and recover the start vehicle, or if you got dropped off at the start trailhead you can use this vehicle to drive home.",
+          "stroke": "#FF3B30",
           "elevationMeters": 1189
         }
       }
     ]
   },
-  "version": "4329f0805a337fb51a1ea3dd331f6f3f"
+  "version": "7b8648bfb027e8c8fc628a70534a0efc"
 }

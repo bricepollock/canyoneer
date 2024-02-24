@@ -17,24 +17,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -86.68609,
-            13.447845
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "styleUrl": "#sh_green-circle",
-          "styleHash": "265ab5a6",
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
-          "description": "Time Started: 2019-10-10, 17:33:15 CST",
-          "elevationMeters": 702
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1183,49 +1165,13 @@
           "name": "Half.Route",
           "styleUrl": "#track",
           "styleHash": "671c3444",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 4,
           "lengthMeters": 10187.861994997686,
           "ascentMeters": 834.4000244140625,
           "descentMeters": 834.4000244140625,
           "changeMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -86.686118,
-            13.447878
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "styleUrl": "#sh_red-circle",
-          "styleHash": "3027bc6",
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "description": "Created by <a href='http://itunes.apple.com/us/app/gaia-gps/id329127297?mt=8'>Gaia GPS</a> on iOS.<p>Total Distance: 10.2 km<br>Total Time: 00:00:00<br>Moving Time: 00:00:00<br>Average Speed: 0.0 km/h<br> Average Moving Speed: 0.0 km/h<br> Max Speed: 0.0 km/h<br>Min Elevation: 99,999.0 m<br>Max Elevation: -999 m<br>Elevation Gain: -100,998 m<br>Recorded: 2019-10-10, 17:33:15 CST<br><img border=\"0\" src=\"http://chart.apis.google.com/chart?chxr=0,99999,-999&chtt=Elevation (m)&chxt=y&chs=600x350&cht=lc&chco=3D7930&chg=14.3,-1,1,1&chls=2,4,0&chm=B,C5D4B5BB,0,0,0&chd=s:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"/>",
-          "elevationMeters": 702
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -86.68506,
-            13.447324
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "styleUrl": "#sh_green-circle",
-          "styleHash": "265ab5a6",
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
-          "description": "Time Started: 2019-10-10, 17:34:04 CST",
-          "elevationMeters": 705
         }
       },
       {
@@ -2079,49 +2025,13 @@
           "name": "Full.Route",
           "styleUrl": "#track",
           "styleHash": "671c3444",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 4,
           "lengthMeters": 13898.666888403104,
           "ascentMeters": 782.39990234375,
           "descentMeters": 781.1998901367188,
           "changeMeters": 1.20001220703125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -86.684609,
-            13.447547
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "styleUrl": "#sh_red-circle",
-          "styleHash": "3027bc6",
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "description": "Created by <a href='http://itunes.apple.com/us/app/gaia-gps/id329127297?mt=8'>Gaia GPS</a> on iOS.<p>Total Distance: 13.9 km<br>Total Time: 00:00:00<br>Moving Time: 00:00:00<br>Average Speed: 0.0 km/h<br> Average Moving Speed: 0.0 km/h<br> Max Speed: 0.0 km/h<br>Min Elevation: 99,999.0 m<br>Max Elevation: -999 m<br>Elevation Gain: -100,998 m<br>Recorded: 2019-10-10, 17:34:04 CST<br><img border=\"0\" src=\"http://chart.apis.google.com/chart?chxr=0,99999,-999&chtt=Elevation (m)&chxt=y&chs=600x350&cht=lc&chco=3D7930&chg=14.3,-1,1,1&chls=2,4,0&chm=B,C5D4B5BB,0,0,0&chd=s:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"/>",
-          "elevationMeters": 706
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -86.695403,
-            13.462922
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "styleUrl": "#sh_green-circle",
-          "styleHash": "265ab5a6",
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
-          "description": "Time Started: 2019-10-15, 09:25:57 CST",
-          "elevationMeters": 788
         }
       },
       {
@@ -2895,13 +2805,108 @@
           "name": "Walking exit",
           "styleUrl": "#track",
           "styleHash": "671c3444",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 4,
           "lengthMeters": 1487.1170337666022,
           "ascentMeters": 175.29998779296875,
           "descentMeters": 274,
           "changeMeters": -98.70001220703125
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -86.68609,
+            13.447845
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "styleUrl": "#sh_green-circle",
+          "styleHash": "265ab5a6",
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+          "description": "Time Started: 2019-10-10, 17:33:15 CST",
+          "stroke": "#FF3B30",
+          "elevationMeters": 702
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -86.686118,
+            13.447878
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "styleUrl": "#sh_red-circle",
+          "styleHash": "3027bc6",
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "description": "Created by <a href='http://itunes.apple.com/us/app/gaia-gps/id329127297?mt=8'>Gaia GPS</a> on iOS.<p>Total Distance: 10.2 km<br>Total Time: 00:00:00<br>Moving Time: 00:00:00<br>Average Speed: 0.0 km/h<br> Average Moving Speed: 0.0 km/h<br> Max Speed: 0.0 km/h<br>Min Elevation: 99,999.0 m<br>Max Elevation: -999 m<br>Elevation Gain: -100,998 m<br>Recorded: 2019-10-10, 17:33:15 CST<br><img border=\"0\" src=\"http://chart.apis.google.com/chart?chxr=0,99999,-999&chtt=Elevation (m)&chxt=y&chs=600x350&cht=lc&chco=3D7930&chg=14.3,-1,1,1&chls=2,4,0&chm=B,C5D4B5BB,0,0,0&chd=s:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"/>",
+          "stroke": "#FF3B30",
+          "elevationMeters": 702
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -86.68506,
+            13.447324
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "styleUrl": "#sh_green-circle",
+          "styleHash": "265ab5a6",
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+          "description": "Time Started: 2019-10-10, 17:34:04 CST",
+          "stroke": "#FF3B30",
+          "elevationMeters": 705
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -86.684609,
+            13.447547
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "styleUrl": "#sh_red-circle",
+          "styleHash": "3027bc6",
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "description": "Created by <a href='http://itunes.apple.com/us/app/gaia-gps/id329127297?mt=8'>Gaia GPS</a> on iOS.<p>Total Distance: 13.9 km<br>Total Time: 00:00:00<br>Moving Time: 00:00:00<br>Average Speed: 0.0 km/h<br> Average Moving Speed: 0.0 km/h<br> Max Speed: 0.0 km/h<br>Min Elevation: 99,999.0 m<br>Max Elevation: -999 m<br>Elevation Gain: -100,998 m<br>Recorded: 2019-10-10, 17:34:04 CST<br><img border=\"0\" src=\"http://chart.apis.google.com/chart?chxr=0,99999,-999&chtt=Elevation (m)&chxt=y&chs=600x350&cht=lc&chco=3D7930&chg=14.3,-1,1,1&chls=2,4,0&chm=B,C5D4B5BB,0,0,0&chd=s:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"/>",
+          "stroke": "#FF3B30",
+          "elevationMeters": 706
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -86.695403,
+            13.462922
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "styleUrl": "#sh_green-circle",
+          "styleHash": "265ab5a6",
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+          "description": "Time Started: 2019-10-15, 09:25:57 CST",
+          "stroke": "#FF3B30",
+          "elevationMeters": 788
         }
       },
       {
@@ -2919,6 +2924,7 @@
           "styleHash": "3027bc6",
           "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
           "description": "Created by <a href='http://itunes.apple.com/us/app/gaia-gps/id329127297?mt=8'>Gaia GPS</a> on iOS.<p>Total Distance: 1.5 km<br>Total Time: 00:20:26<br>Moving Time: 00:20:26<br>Average Speed: 4.3 km/h<br> Average Moving Speed: 4.3 km/h<br> Max Speed: 5.8 km/h<br>Min Elevation: 632.5 m<br>Max Elevation: 665.5 m<br>Elevation Gain: 33.0 m<br>Recorded: 2019-10-15, 09:25:57 CST<br>Time Stopped: 1988-10-14, 09:46:24 CST<br><img border=\"0\" src=\"http://chart.apis.google.com/chart?chxr=0,632,665&chtt=Elevation (m)&chxt=y&chs=600x350&cht=lc&chco=3D7930&chg=14.3,-1,1,1&chls=2,4,0&chm=B,C5D4B5BB,0,0,0&chd=s:99veXcXVPIGKPMIENMRKMMIGCKMKEAEECCAAAIMPNMNNYgyt02896996289994vw460snntlckplccgeeejYgcaXaaVNRVVTVPRNNekNRMNVXVRRRTGIIGGKKVZYcaTPPEENRNXVXNMNINNQRPPRVapk\"/>",
+          "stroke": "#FF3B30",
           "elevationMeters": 690
         }
       },
@@ -2938,6 +2944,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 13.46162, -86.69347<br>\nElevation: 0.0 m<br>\nTime Created: 2019-10-10, 17:34:04 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 813
         }
       },
@@ -2957,6 +2964,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 13.45053, -86.70381<br>\nElevation: 0.0 m<br>\nTime Created: 2019-10-10, 17:33:16 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 721
         }
       },
@@ -2976,6 +2984,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 13.45493, -86.71314<br>\nElevation: 0.0 m<br>\nTime Created: 2019-10-15, 08:27:03 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 769
         }
       },
@@ -2995,6 +3004,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 13.43791, -86.70694<br>\nElevation: 685.6 m<br>\nTime Created: 2019-10-15, 10:53:23 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 643
         }
       },
@@ -3014,6 +3024,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 13.44738, -86.68629<br>\nElevation: 0.0 m<br>\nTime Created: 2019-10-10, 17:33:16 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 703
         }
       },
@@ -3033,6 +3044,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 13.44866, -86.70044<br>\nElevation: 0.0 m<br>\nTime Created: 2019-10-10, 17:33:16 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 759
         }
       },
@@ -3052,6 +3064,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 13.45516, -86.70380<br>\nElevation: 0.0 m<br>\nTime Created: 2019-10-10, 17:33:16 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 721
         }
       },
@@ -3071,6 +3084,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 13.44245, -86.71047<br>\nElevation: 0.0 m<br>\nTime Created: 2019-10-15, 08:26:21 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 651
         }
       },
@@ -3090,6 +3104,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 13.45300, -86.68848<br>\nElevation: 648.9 m<br>\nTime Created: 2019-10-15, 09:46:02 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 690
         }
       },
@@ -3109,6 +3124,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 13.46297, -86.69543<br>\nElevation: 684.1 m<br>\nTime Created: 2019-10-15, 09:25:33 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 788
         }
       },
@@ -3128,6 +3144,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 13.45353, -86.70383<br>\nElevation: 0.0 m<br>\nTime Created: 2019-10-15, 08:25:03 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 677
         }
       },
@@ -3147,10 +3164,11 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 13.44880, -86.68704<br>\nElevation: 0.0 m<br>\nTime Created: 2019-10-10, 17:33:16 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 700
         }
       }
     ]
   },
-  "version": "031e19cd09ef8f2ad8c4fdfe1cefd10d"
+  "version": "3907689155d372455e0a46a20b766a74"
 }

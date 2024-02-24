@@ -31,28 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.793573,
-            38.692571,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Southern Baptist Draw TH",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 2048
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -170,7 +148,7 @@
             "normal": "#line-A52714-6000-nodesc-normal",
             "highlight": "#line-A52714-6000-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 743.0053164622237,
@@ -244,7 +222,7 @@
             "normal": "#line-097138-6000-nodesc-normal",
             "highlight": "#line-097138-6000-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 730.6086496462283,
@@ -538,7 +516,7 @@
             "normal": "#line-FF5252-5844-nodesc-normal",
             "highlight": "#line-FF5252-5844-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 1604.012310727323,
@@ -1027,7 +1005,7 @@
             "normal": "#line-FFD600-5650-nodesc-normal",
             "highlight": "#line-FFD600-5650-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 4775.418536678705,
@@ -1035,8 +1013,31 @@
           "descentMeters": 236.4000244140625,
           "changeMeters": 222.5001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.793573,
+            38.692571,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Southern Baptist Draw TH",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2048
+        }
       }
     ]
   },
-  "version": "e8cd8bc440a7dcc7d37c8de8b08eb8db"
+  "version": "86f331309b79f1c76e7b26b97416d2b8"
 }

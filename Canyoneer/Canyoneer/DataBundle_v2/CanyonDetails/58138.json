@@ -34,127 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9119165308682,
-            36.60883445626867,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1726
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.90580390019677,
-            36.614684170763816,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2-5",
-          "elevationMeters": 1867
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.90543743114615,
-            36.615267418391994,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6",
-          "elevationMeters": 1869
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.90542611228904,
-            36.61579318228364,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R7-10",
-          "elevationMeters": 1874
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9017055743674,
-            36.61873039506182,
-            0
-          ]
-        },
-        "properties": {
-          "name": "The Great Intersection",
-          "elevationMeters": 1898
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.90486517429427,
-            36.62231646605824,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Limit of Documented Canyon",
-          "description": "Unknown Slot past this point",
-          "elevationMeters": 1932
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9171498206191,
-            36.60316847259371,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Entrance",
-          "elevationMeters": 1689
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.900472,
-            36.593289,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking at Viewpoint",
-          "elevationMeters": 2021
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -336,7 +215,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2882.0034059313143,
@@ -455,7 +334,7 @@
         "properties": {
           "name": "Canyon",
           "description": "To documented limit",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2025.4523638749702,
@@ -463,8 +342,137 @@
           "descentMeters": 39.699951171875,
           "changeMeters": 206.7000732421875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9119165308682,
+            36.60883445626867,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1726
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.90580390019677,
+            36.614684170763816,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2-5",
+          "stroke": "#5856D6",
+          "elevationMeters": 1867
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.90543743114615,
+            36.615267418391994,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6",
+          "stroke": "#5856D6",
+          "elevationMeters": 1869
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.90542611228904,
+            36.61579318228364,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R7-10",
+          "stroke": "#5856D6",
+          "elevationMeters": 1874
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9017055743674,
+            36.61873039506182,
+            0
+          ]
+        },
+        "properties": {
+          "name": "The Great Intersection",
+          "stroke": "#5856D6",
+          "elevationMeters": 1898
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.90486517429427,
+            36.62231646605824,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Limit of Documented Canyon",
+          "description": "Unknown Slot past this point",
+          "stroke": "#5856D6",
+          "elevationMeters": 1932
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9171498206191,
+            36.60316847259371,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Entrance",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1689
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.900472,
+            36.593289,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking at Viewpoint",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2021
+        }
       }
     ]
   },
-  "version": "5be328643b57a467cbe3bc83c7e5e8ce"
+  "version": "c9f6e2de2066beac69cd4c84a883ea5f"
 }

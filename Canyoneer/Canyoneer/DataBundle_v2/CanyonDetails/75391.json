@@ -4,7 +4,7 @@
   "longitude": -123.6805,
   "id": 75391,
   "name": "Snarky Bastard Creek",
-  "quality": 3,
+  "quality": 2.3,
   "months": [
     "Dec",
     "Jan",
@@ -24,51 +24,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.68740797042848,
-            45.742288258742214,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 237
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.67737650871278,
-            45.73135541841158,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 233
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.65326881408693,
-            45.74912394028028,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Private Road - no access",
-          "elevationMeters": 230
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -163,7 +118,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 895.9685654967324,
@@ -296,7 +251,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 519.3411119137849,
@@ -354,7 +309,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 345.7039963623212,
@@ -1062,7 +1017,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 9232.991278957961,
@@ -1070,8 +1025,56 @@
           "descentMeters": 1511.1000213623047,
           "changeMeters": -32.30000305175781
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.68740797042848,
+            45.742288258742214,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 237
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.67737650871278,
+            45.73135541841158,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 233
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.65326881408693,
+            45.74912394028028,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Private Road - no access",
+          "stroke": "#FF3B30",
+          "elevationMeters": 230
+        }
       }
     ]
   },
-  "version": "f8abaa84273a61fef7bb9cd399b461d9"
+  "version": "cc2d5173aa994a27d5fb3ba0639c7dad"
 }

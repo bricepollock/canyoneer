@@ -31,50 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.6357448,
-            38.5789602,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cameltoe Culvert / Tunnel",
-          "styleUrl": "#icon-1724-0F9D58-nodesc",
-          "styleHash": "-5b664349",
-          "styleMapHash": {
-            "normal": "#icon-1724-0F9D58-nodesc-normal",
-            "highlight": "#icon-1724-0F9D58-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1229
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.6324867,
-            38.592847,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Only Rappel",
-          "styleUrl": "#icon-1772-E65100-nodesc",
-          "styleHash": "-2fb412f0",
-          "styleMapHash": {
-            "normal": "#icon-1772-E65100-nodesc-normal",
-            "highlight": "#icon-1772-E65100-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1321
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -217,35 +173,13 @@
             "normal": "#line-FF5252-4488-nodesc-normal",
             "highlight": "#line-FF5252-4488-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4.488,
           "lengthMeters": 1291.0476690159035,
           "ascentMeters": 212.2998046875,
           "descentMeters": 347.2998046875,
           "changeMeters": -135
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.626388888889,
-            38.5952777777778,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cameltoe Ramp",
-          "styleUrl": "#icon-1596-0F9D58-nodesc",
-          "styleHash": "-112941f0",
-          "styleMapHash": {
-            "normal": "#icon-1596-0F9D58-nodesc-normal",
-            "highlight": "#icon-1596-0F9D58-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1340
         }
       },
       {
@@ -418,13 +352,82 @@
             "normal": "#line-0F9D58-4875-nodesc-normal",
             "highlight": "#line-0F9D58-4875-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4.875,
           "lengthMeters": 2570.230212030599,
           "ascentMeters": 316.9000244140625,
           "descentMeters": 206.2000732421875,
           "changeMeters": 110.699951171875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.6357448,
+            38.5789602,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cameltoe Culvert / Tunnel",
+          "styleUrl": "#icon-1724-0F9D58-nodesc",
+          "styleHash": "-5b664349",
+          "styleMapHash": {
+            "normal": "#icon-1724-0F9D58-nodesc-normal",
+            "highlight": "#icon-1724-0F9D58-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1229
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.6324867,
+            38.592847,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Only Rappel",
+          "styleUrl": "#icon-1772-E65100-nodesc",
+          "styleHash": "-2fb412f0",
+          "styleMapHash": {
+            "normal": "#icon-1772-E65100-nodesc-normal",
+            "highlight": "#icon-1772-E65100-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1321
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.626388888889,
+            38.5952777777778,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cameltoe Ramp",
+          "styleUrl": "#icon-1596-0F9D58-nodesc",
+          "styleHash": "-112941f0",
+          "styleMapHash": {
+            "normal": "#icon-1596-0F9D58-nodesc-normal",
+            "highlight": "#icon-1596-0F9D58-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1340
         }
       },
       {
@@ -446,10 +449,11 @@
             "highlight": "#icon-1453-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1205
         }
       }
     ]
   },
-  "version": "3fd81329fb00ba3b753a04c60cfcc6cf"
+  "version": "3296b7e65e73d5e24a33d253299eaca3"
 }

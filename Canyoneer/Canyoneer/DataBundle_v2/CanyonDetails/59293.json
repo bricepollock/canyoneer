@@ -34,74 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.8159561,
-            34.077137
-          ]
-        },
-        "properties": {
-          "name": "Waterfall 1 - 40'",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 501
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.8182661,
-            34.077148
-          ]
-        },
-        "properties": {
-          "name": "Waterfall 2 - 50'",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 542
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.8154523,
-            34.0760372
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 500
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.8156843,
-            34.0760539
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 500
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -806,7 +738,7 @@
           "styleUrl": "#track",
           "styleHash": "-567d95f2",
           "description": "Length: 1.632 km (1.014 mi)",
-          "stroke": "#00cc66",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "visibility": "1",
@@ -815,8 +747,80 @@
           "descentMeters": 223.89996337890625,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.8159561,
+            34.077137
+          ]
+        },
+        "properties": {
+          "name": "Waterfall 1 - 40'",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#34C759",
+          "elevationMeters": 501
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.8182661,
+            34.077148
+          ]
+        },
+        "properties": {
+          "name": "Waterfall 2 - 50'",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#34C759",
+          "elevationMeters": 542
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.8154523,
+            34.0760372
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#34C759",
+          "elevationMeters": 500
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.8156843,
+            34.0760539
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#34C759",
+          "elevationMeters": 500
+        }
       }
     ]
   },
-  "version": "3b57ed983b3368b5236c54b5509e3d2e"
+  "version": "6542f4bfe6719c7041efd1caac3e7f68"
 }

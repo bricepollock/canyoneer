@@ -23,96 +23,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.53489532380411,
-            47.48751097344304,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Clark Creek - Lower Drop In",
-          "elevationMeters": 461
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.53161400659576,
-            47.48963293635704,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R11",
-          "elevationMeters": 567
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.53521889551178,
-            47.48729847215337,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Clark Creek Drop In ",
-          "elevationMeters": 463
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.53232120925192,
-            47.49046656234686,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking 2",
-          "elevationMeters": 598
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.53072261267904,
-            47.4893718594287,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking 1",
-          "elevationMeters": 576
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.52767562323812,
-            47.489748845790906,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking 3",
-          "elevationMeters": 698
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -264,7 +174,7 @@
         },
         "properties": {
           "name": "Clark Creek Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 538.1495866326329,
@@ -357,7 +267,7 @@
         },
         "properties": {
           "name": "Clark Creek Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 398.8361313630578,
@@ -395,7 +305,7 @@
         },
         "properties": {
           "name": "Clark Creek - Old Road",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 49.70039650018098,
@@ -403,8 +313,104 @@
           "descentMeters": 0,
           "changeMeters": 1.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.53489532380411,
+            47.48751097344304,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Clark Creek - Lower Drop In",
+          "stroke": "#FF3B30",
+          "elevationMeters": 461
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.53161400659576,
+            47.48963293635704,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R11",
+          "stroke": "#FF3B30",
+          "elevationMeters": 567
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.53521889551178,
+            47.48729847215337,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Clark Creek Drop In ",
+          "stroke": "#FF3B30",
+          "elevationMeters": 463
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.53232120925192,
+            47.49046656234686,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking 2",
+          "stroke": "#FF3B30",
+          "elevationMeters": 598
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.53072261267904,
+            47.4893718594287,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking 1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 576
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.52767562323812,
+            47.489748845790906,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking 3",
+          "stroke": "#FF3B30",
+          "elevationMeters": 698
+        }
       }
     ]
   },
-  "version": "711edf40bc8929b89fa5fc9e8033c52b"
+  "version": "ecf8c58c5a129fee79f20cbce525de54"
 }

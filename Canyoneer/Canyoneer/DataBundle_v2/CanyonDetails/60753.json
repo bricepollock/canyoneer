@@ -27,36 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.9395411014557,
-            45.951015416372094,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 861
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.94536685943605,
-            45.971942740266606,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 812
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -998,7 +968,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6478.426066893064,
@@ -1041,7 +1011,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 327.9951044627668,
@@ -1129,7 +1099,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 514.7627977960072,
@@ -1267,7 +1237,7 @@
         },
         "properties": {
           "name": "Headwall Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 729.0837068063754,
@@ -1405,7 +1375,7 @@
         },
         "properties": {
           "name": "Creek Exit (unexplored)",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2413.5298397506094,
@@ -1413,8 +1383,40 @@
           "descentMeters": 339.50006103515625,
           "changeMeters": -183.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.9395411014557,
+            45.951015416372094,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 861
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.94536685943605,
+            45.971942740266606,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 812
+        }
       }
     ]
   },
-  "version": "747c2fe2f04277b5c9ea46ec643ccd28"
+  "version": "be424a4d7c15df3a533ed00e0f33f82a"
 }

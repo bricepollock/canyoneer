@@ -19,75 +19,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -101.311322,
-            25.453717,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-6824d700",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by ClubTotem at wikiloc.com)",
-          "elevationMeters": 1624
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -101.311332,
-            25.453631,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-63705223",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by ClubTotem at wikiloc.com)",
-          "elevationMeters": 1624
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -101.311215,
-            25.454068,
-            0
-          ]
-        },
-        "properties": {
-          "name": "tiendita y punto inicio",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-64210b8e",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by ClubTotem at wikiloc.com)",
-          "elevationMeters": 1628
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1850,7 +1781,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by ClubTotem at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 5235.172699938983,
@@ -1858,8 +1789,80 @@
           "descentMeters": 477.6002197265625,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -101.311322,
+            25.453717,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-251a26f2",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by ClubTotem at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1624
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -101.311332,
+            25.453631,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "1ac6355d",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by ClubTotem at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1624
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -101.311215,
+            25.454068,
+            0
+          ]
+        },
+        "properties": {
+          "name": "tiendita y punto inicio",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-14c9bde7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by ClubTotem at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1628
+        }
       }
     ]
   },
-  "version": "802c2cd08316f850017dbf01537eb798"
+  "version": "a0fcc63e2fb6d406a71b0537029b7d63"
 }

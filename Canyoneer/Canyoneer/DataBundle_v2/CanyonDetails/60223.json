@@ -31,29 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.51522,
-            34.55669,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#icon-93",
-          "styleHash": "265cc677",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here.",
-          "elevationMeters": 1867
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1391,6 +1368,7 @@
             "normal": "#line-00FF00-5000-nodesc",
             "highlight": "#line-00FF00-5000-nodesc-highlight"
           },
+          "stroke": "#5856D6",
           "lengthMeters": 1339.744390873471,
           "ascentMeters": 42.10009765625,
           "descentMeters": 80.2000732421875,
@@ -1962,90 +1940,11 @@
             "normal": "#line-FF0000-5000-nodesc",
             "highlight": "#line-FF0000-5000-nodesc-highlight"
           },
+          "stroke": "#007AFF",
           "lengthMeters": 460.9968020952757,
           "ascentMeters": 37,
           "descentMeters": 10.4000244140625,
           "changeMeters": 26.5999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.51423,
-            34.56549,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "50'",
-          "elevationMeters": 1829
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.51451,
-            34.5654,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "description": "60'",
-          "elevationMeters": 1822
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.51505,
-            34.5654,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": "60'",
-          "elevationMeters": 1826
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.51635,
-            34.56446,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "description": "100'",
-          "elevationMeters": 1845
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.5169,
-            34.5642,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "description": "65'",
-          "elevationMeters": 1851
         }
       },
       {
@@ -4798,13 +4697,123 @@
             "normal": "#line-FFFF00-5000-nodesc",
             "highlight": "#line-FFFF00-5000-nodesc-highlight"
           },
+          "stroke": "#FF2D55",
           "lengthMeters": 2438.737324884742,
           "ascentMeters": 150.5001220703125,
           "descentMeters": 139.0001220703125,
           "changeMeters": 11.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.51522,
+            34.55669,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here.",
+          "stroke": "#5856D6",
+          "elevationMeters": 1867
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.51423,
+            34.56549,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "50'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1829
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.51451,
+            34.5654,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "60'",
+          "stroke": "#007AFF",
+          "elevationMeters": 1822
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.51505,
+            34.5654,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "60'",
+          "stroke": "#007AFF",
+          "elevationMeters": 1826
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.51635,
+            34.56446,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "description": "100'",
+          "stroke": "#007AFF",
+          "elevationMeters": 1845
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.5169,
+            34.5642,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "description": "65'",
+          "stroke": "#007AFF",
+          "elevationMeters": 1851
+        }
       }
     ]
   },
-  "version": "86c3df38dddaaa037b65a2a4537bbe75"
+  "version": "61e995b51010fc9d4aceb7758f9bd105"
 }

@@ -26,21 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.3782036304474,
-            33.53650753998173,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 697
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -382,7 +367,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1247.2521064674413,
@@ -665,7 +650,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 733.9440713512262,
@@ -823,7 +808,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 361.1344678353174,
@@ -831,8 +816,24 @@
           "descentMeters": 90.79998779296875,
           "changeMeters": -90.79998779296875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.3782036304474,
+            33.53650753998173,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#FFCC00",
+          "elevationMeters": 697
+        }
       }
     ]
   },
-  "version": "226ff940d071096d21e8e845db42a907"
+  "version": "df215d7658f88873a112750355cb7dc4"
 }

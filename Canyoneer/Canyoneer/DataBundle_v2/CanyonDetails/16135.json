@@ -18,50 +18,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -27.9214,
-            38.6134,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#start",
-          "styleHash": "31080363",
-          "styleMapHash": {
-            "normal": "#start0",
-            "highlight": "#start1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-blank.png",
-          "elevationMeters": 426
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -27.918303,
-            38.616771,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "68b1394a",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-blank.png",
-          "elevationMeters": 261
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -323,7 +279,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 564.9721260814957,
@@ -331,8 +287,54 @@
           "descentMeters": 222.19998168945312,
           "changeMeters": -182
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -27.9214,
+            38.6134,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#start",
+          "styleHash": "31080363",
+          "styleMapHash": {
+            "normal": "#start0",
+            "highlight": "#start1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-blank.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 426
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -27.918303,
+            38.616771,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "68b1394a",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-blank.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 261
+        }
       }
     ]
   },
-  "version": "5fc0c0ba6bba3080ad5563b082d7b57e"
+  "version": "6772ccb1f7309c4f8d8ce8db6a962efb"
 }

@@ -29,52 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -84.288944,
-            10.216679,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "50ff4041",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by thewaterfalltrail at wikiloc.com)",
-          "elevationMeters": 1496
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -84.298582,
-            10.214759,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-587f6a7f",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by thewaterfalltrail at wikiloc.com)",
-          "elevationMeters": 1609
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1607,7 +1561,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by thewaterfalltrail at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 16503.896794100816,
@@ -1615,8 +1569,56 @@
           "descentMeters": 2078.2996826171875,
           "changeMeters": 112.89990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.288944,
+            10.216679,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-7cc80f14",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by thewaterfalltrail at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1496
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.298582,
+            10.214759,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "1ba39e2c",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by thewaterfalltrail at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1609
+        }
       }
     ]
   },
-  "version": "df13c6ce941528b8b5112b5b20b8da04"
+  "version": "0894be6b0fd58ac1dcf6d2ec20e49af0"
 }

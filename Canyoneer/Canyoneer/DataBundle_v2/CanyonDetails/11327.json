@@ -29,81 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.173883942328,
-            34.29658960530951,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 898
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1739402333763,
-            34.29968735388134,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trail up",
-          "elevationMeters": 742
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.169197,
-            34.307209,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Sativa S Drop-in",
-          "elevationMeters": 1148
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.17012144133997,
-            34.29706241639706,
-            0
-          ]
-        },
-        "properties": {
-          "name": "White Gate - Park",
-          "elevationMeters": 917
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.16939874579049,
-            34.30228704190797,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Big TJ Cyn Floor",
-          "elevationMeters": 766
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -595,7 +520,7 @@
         },
         "properties": {
           "name": "Josephine Exit",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 1985.20261964692,
@@ -658,7 +583,7 @@
         },
         "properties": {
           "name": "Sativa S",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 344.85594193065396,
@@ -986,7 +911,7 @@
         },
         "properties": {
           "name": "Hike In",
-          "stroke": "#FF0900",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 4728.96462881177,
@@ -1079,7 +1004,7 @@
         },
         "properties": {
           "name": "Fall Creek Exit",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1182.2838041635314,
@@ -1087,8 +1012,88 @@
           "descentMeters": 66.4000244140625,
           "changeMeters": 220.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.173883942328,
+            34.29658960530951,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#FF3B30",
+          "elevationMeters": 898
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1739402333763,
+            34.29968735388134,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trail up",
+          "stroke": "#FF3B30",
+          "elevationMeters": 742
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.169197,
+            34.307209,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Sativa S Drop-in",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1148
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.17012144133997,
+            34.29706241639706,
+            0
+          ]
+        },
+        "properties": {
+          "name": "White Gate - Park",
+          "stroke": "#FF3B30",
+          "elevationMeters": 917
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.16939874579049,
+            34.30228704190797,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Big TJ Cyn Floor",
+          "stroke": "#FF3B30",
+          "elevationMeters": 766
+        }
       }
     ]
   },
-  "version": "f9523310746fc873f1f7aa5cd2ac7b3c"
+  "version": "6721c818edefed8561a5b09ad603f461"
 }

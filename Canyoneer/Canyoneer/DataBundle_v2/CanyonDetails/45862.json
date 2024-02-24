@@ -12,75 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.435376,
-            28.238605,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "50ff4041",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by dperma1 at wikiloc.com)",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.41403,
-            28.223439,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-4151c9e4",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by dperma1 at wikiloc.com)",
-          "elevationMeters": 113
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.435332,
-            28.238651,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Aparcamiento cabecera.",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "57409a1f",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by dperma1 at wikiloc.com)",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -408,7 +339,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by dperma1 at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3624.3370257087017,
@@ -416,8 +347,80 @@
           "descentMeters": 53.599998474121094,
           "changeMeters": 112.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.435376,
+            28.238605,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-f25c4f6",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.41403,
+            28.223439,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "4d466199",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 113
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.435332,
+            28.238651,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Aparcamiento cabecera.",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "63abb625",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 0
+        }
       }
     ]
   },
-  "version": "00ed1107fa3a4c6d0d3fa490f0e38792"
+  "version": "76f633eef5b6f4dc996abd729c1c87a2"
 }

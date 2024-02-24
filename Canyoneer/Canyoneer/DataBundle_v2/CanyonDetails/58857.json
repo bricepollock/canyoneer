@@ -19,66 +19,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.65871942043306,
-            33.68059676127193,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 469
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.65871405601503,
-            33.680527011909234,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "elevationMeters": 469
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.65937589108945,
-            33.68075299963904,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 478
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.65874825417995,
-            33.680626334984645,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Geysers",
-          "elevationMeters": 469
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -115,7 +55,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 19.891480879794752,
@@ -173,7 +113,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 126.5707704462292,
@@ -231,7 +171,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 144.1395153984738,
@@ -239,8 +179,72 @@
           "descentMeters": 0,
           "changeMeters": 9.600006103515625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.65871942043306,
+            33.68059676127193,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 469
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.65871405601503,
+            33.680527011909234,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "stroke": "#FF3B30",
+          "elevationMeters": 469
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.65937589108945,
+            33.68075299963904,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 478
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.65874825417995,
+            33.680626334984645,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Geysers",
+          "stroke": "#FF3B30",
+          "elevationMeters": 469
+        }
       }
     ]
   },
-  "version": "5ead92a7665c09eac4e0490a163c5c14"
+  "version": "8afcaffc6944002273533fe4898557fe"
 }

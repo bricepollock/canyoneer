@@ -12,121 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.488464,
-            42.476671,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-2c768df1",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by yetiyak at wikiloc.com)",
-          "elevationMeters": 1086
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.488788,
-            42.476455,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "351690a3",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by yetiyak at wikiloc.com)",
-          "elevationMeters": 1091
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.488464,
-            42.476671,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-3d47f2fe",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by yetiyak at wikiloc.com)",
-          "elevationMeters": 1086
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.488727,
-            42.478072,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Paso equipado aprox",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-3d47f2fe",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by yetiyak at wikiloc.com)",
-          "elevationMeters": 1076
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.489043,
-            42.478578,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cruce con tramo vf rio",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-3d47f2fe",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by yetiyak at wikiloc.com)",
-          "elevationMeters": 1073
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -554,7 +439,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by yetiyak at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 882.6698760433803,
@@ -562,8 +447,128 @@
           "descentMeters": 144.299560546875,
           "changeMeters": 5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.488464,
+            42.476671,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "7768b127",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by yetiyak at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1086
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.488788,
+            42.476455,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-45c055e2",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by yetiyak at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1091
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.488464,
+            42.476671,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2d535697",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by yetiyak at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1086
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.488727,
+            42.478072,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Paso equipado aprox",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2d535697",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by yetiyak at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1076
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.489043,
+            42.478578,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cruce con tramo vf rio",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2d535697",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by yetiyak at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1073
+        }
       }
     ]
   },
-  "version": "decb88b486727afe2a053601dfd23f67"
+  "version": "d315e79bbfba0a76684ebeba09208694"
 }

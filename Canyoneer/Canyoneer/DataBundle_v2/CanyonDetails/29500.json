@@ -12,75 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.421254,
-            28.495026,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "50ff4041",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by dperma1 at wikiloc.com)",
-          "elevationMeters": 150
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.424366,
-            28.502919,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-4151c9e4",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by dperma1 at wikiloc.com)",
-          "elevationMeters": 116
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.425676,
-            28.49581,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Desvío a la derecha por el paseo.",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "11bb9edd",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by dperma1 at wikiloc.com)",
-          "elevationMeters": 119
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -208,7 +139,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by dperma1 at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1551.1503216080916,
@@ -216,8 +147,80 @@
           "descentMeters": 49.49999237060547,
           "changeMeters": -33.400001525878906
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.421254,
+            28.495026,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "2b6e4ea8",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 150
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.424366,
+            28.502919,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "28d99084",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 116
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.425676,
+            28.49581,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Desvío a la derecha por el paseo.",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "7640389d",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by dperma1 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 119
+        }
       }
     ]
   },
-  "version": "aea7815c47a93b3baa64f82260e77f54"
+  "version": "62852c9d85c966f6def133d69c4d9ecd"
 }

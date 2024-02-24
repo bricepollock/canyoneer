@@ -28,81 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.69539407488084,
-            38.00782442959826,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower R2: 20'",
-          "elevationMeters": 2526
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.69616409691481,
-            38.00786755455,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower R1: 25'",
-          "elevationMeters": 2540
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.69448549000118,
-            38.007548271066085,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower R3: 45'",
-          "elevationMeters": 2485
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.69205182790758,
-            38.00754345727006,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower R4: 25'",
-          "elevationMeters": 2431
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.69409395428306,
-            38.002128484240664,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Angel Creek CG Day Use",
-          "elevationMeters": 2397
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -119,7 +44,7 @@
         },
         "properties": {
           "name": "Exit after 3rd rap",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 84.97106792736481,
@@ -272,7 +197,7 @@
         },
         "properties": {
           "name": "Lower Angel Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 470.3946205480081,
@@ -325,7 +250,7 @@
         },
         "properties": {
           "name": "Lower Angel Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 380.56255929320713,
@@ -478,7 +403,7 @@
         },
         "properties": {
           "name": "Road through campground",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 572.3936872242666,
@@ -606,7 +531,7 @@
         },
         "properties": {
           "name": "Lower Angel Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 232.46110647151482,
@@ -614,8 +539,88 @@
           "descentMeters": 37.5,
           "changeMeters": 26.900146484375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.69539407488084,
+            38.00782442959826,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower R2: 20'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2526
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.69616409691481,
+            38.00786755455,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower R1: 25'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2540
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.69448549000118,
+            38.007548271066085,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower R3: 45'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2485
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.69205182790758,
+            38.00754345727006,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower R4: 25'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2431
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.69409395428306,
+            38.002128484240664,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Angel Creek CG Day Use",
+          "stroke": "#5856D6",
+          "elevationMeters": 2397
+        }
       }
     ]
   },
-  "version": "d80b347d78153a3fee87cab4a71f8dd9"
+  "version": "d1ce9e18a60dbae21b88d9e203fbcc81"
 }

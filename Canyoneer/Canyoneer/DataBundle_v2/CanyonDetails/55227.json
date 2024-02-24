@@ -28,72 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.6035306,
-            38.5391633,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rappel 3",
-          "styleUrl": "#icon-1772-E65100-nodesc",
-          "styleHash": "-2fb412f0",
-          "styleMapHash": {
-            "normal": "#icon-1772-E65100-nodesc-normal",
-            "highlight": "#icon-1772-E65100-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1307
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.6034684,
-            38.5393677,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rappel 2",
-          "styleUrl": "#icon-1772-E65100-nodesc",
-          "styleHash": "-2fb412f0",
-          "styleMapHash": {
-            "normal": "#icon-1772-E65100-nodesc-normal",
-            "highlight": "#icon-1772-E65100-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1305
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.6111084,
-            38.5418286,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bow and Arrow",
-          "styleUrl": "#icon-1596-E65100-nodesc",
-          "styleHash": "b41e5d0",
-          "styleMapHash": {
-            "normal": "#icon-1596-E65100-nodesc-normal",
-            "highlight": "#icon-1596-E65100-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1305
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1047,7 +981,7 @@
             "highlight": "#line-0F9D58-5000-highlight"
           },
           "description": "Statistics computed from imported data<br><br>Distance: 1.2 miles<br>Minimum Elevation: 4004 feet<br>Maximum Elevation: 4461 feet<br>Total climb: 497 feet<br>Total descent: 39 feet",
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1956.15422590991,
@@ -1601,57 +1535,13 @@
             "normal": "#line-FF5252-3519-nodesc-normal",
             "highlight": "#line-FF5252-3519-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3.519,
           "lengthMeters": 972.7120353436654,
           "ascentMeters": 15.5001220703125,
           "descentMeters": 13.10009765625,
           "changeMeters": 2.4000244140625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.605084,
-            38.5412613,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rappel 1",
-          "styleUrl": "#icon-1772-E65100-nodesc",
-          "styleHash": "-2fb412f0",
-          "styleMapHash": {
-            "normal": "#icon-1772-E65100-nodesc-normal",
-            "highlight": "#icon-1772-E65100-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1300
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.6088545,
-            38.5328504,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead / Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1320
         }
       },
       {
@@ -1684,7 +1574,7 @@
             "normal": "#line-FFEA00-5263-nodesc-normal",
             "highlight": "#line-FFEA00-5263-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 797.3535526025983,
@@ -1692,8 +1582,123 @@
           "descentMeters": 0,
           "changeMeters": 14.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.6035306,
+            38.5391633,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rappel 3",
+          "styleUrl": "#icon-1772-E65100-nodesc",
+          "styleHash": "-2fb412f0",
+          "styleMapHash": {
+            "normal": "#icon-1772-E65100-nodesc-normal",
+            "highlight": "#icon-1772-E65100-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1307
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.6034684,
+            38.5393677,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rappel 2",
+          "styleUrl": "#icon-1772-E65100-nodesc",
+          "styleHash": "-2fb412f0",
+          "styleMapHash": {
+            "normal": "#icon-1772-E65100-nodesc-normal",
+            "highlight": "#icon-1772-E65100-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1305
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.6111084,
+            38.5418286,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bow and Arrow",
+          "styleUrl": "#icon-1596-E65100-nodesc",
+          "styleHash": "b41e5d0",
+          "styleMapHash": {
+            "normal": "#icon-1596-E65100-nodesc-normal",
+            "highlight": "#icon-1596-E65100-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1305
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.605084,
+            38.5412613,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rappel 1",
+          "styleUrl": "#icon-1772-E65100-nodesc",
+          "styleHash": "-2fb412f0",
+          "styleMapHash": {
+            "normal": "#icon-1772-E65100-nodesc-normal",
+            "highlight": "#icon-1772-E65100-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1300
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.6088545,
+            38.5328504,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead / Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1320
+        }
       }
     ]
   },
-  "version": "a0c1ef42b3d24eb8cb7a6bacb89d3d81"
+  "version": "7b05382a29652cf6b05b15926b61c8b0"
 }

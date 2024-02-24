@@ -4,7 +4,7 @@
   "longitude": -109.6706,
   "id": 43424,
   "name": "Lockjaw Canyon",
-  "quality": 2,
+  "quality": 2.3,
   "months": [
     "Dec",
     "Jan",
@@ -331,7 +331,7 @@
             "normal": "#line-4E342E-5000-nodesc-normal",
             "highlight": "#line-4E342E-5000-nodesc-highlight"
           },
-          "stroke": "#4e342e",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1755.5959062179284,
@@ -1145,7 +1145,7 @@
             "normal": "#line-097138-5000-nodesc-normal",
             "highlight": "#line-097138-5000-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3115.2693018911536,
@@ -1384,79 +1384,13 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 972.7815860581742,
           "ascentMeters": 57.400146484375,
           "descentMeters": 53.7000732421875,
           "changeMeters": 3.7000732421875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.6704776,
-            38.5972348,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking / Trailhead",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1442
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.6442416,
-            38.6131398,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1456
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.6462743,
-            38.6080554,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1434
         }
       },
       {
@@ -1719,7 +1653,7 @@
             "normal": "#line-A52714-5456-nodesc-normal",
             "highlight": "#line-A52714-5456-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 918.5037944956539,
@@ -1968,7 +1902,7 @@
             "normal": "#line-FFD600-5650-nodesc-normal",
             "highlight": "#line-FFD600-5650-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 1199.8480731203153,
@@ -1976,8 +1910,77 @@
           "descentMeters": 68.60009765625,
           "changeMeters": -51.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.6704776,
+            38.5972348,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking / Trailhead",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#FF2D55",
+          "elevationMeters": 1442
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.6442416,
+            38.6131398,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1456
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.6462743,
+            38.6080554,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1434
+        }
       }
     ]
   },
-  "version": "e50f421f8e3ba1f489522d14b305df21"
+  "version": "c59cd2b0fd0224852d0a7db0db45fca6"
 }

@@ -26,82 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -120.92893,
-            39.702127,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1493
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -120.92830284764305,
-            39.698073872960165,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1523
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -120.9398157651852,
-            39.69221849915436,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "description": "More parking by bridge",
-          "elevationMeters": 1224
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -120.93744643304369,
-            39.69256128731932,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Tunnel entrance",
-          "elevationMeters": 1543
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -120.93847640130541,
-            39.69143025381529,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Tunnel exit, reference waterfall",
-          "elevationMeters": 1222
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -193,7 +117,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 379.0248362656359,
@@ -301,7 +225,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 441.22010618880944,
@@ -730,7 +654,7 @@
         "properties": {
           "name": "Exit",
           "description": "There are a number of reasonable-looking benches along the exit. It might be doable to leave only one car at the top and cut up earlier instead of walking all the way to the tunnel, but we thought the creek walk was easier and nicer. ",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2145.211239590828,
@@ -1063,7 +987,7 @@
         },
         "properties": {
           "name": "Shuttle or no-shuttle approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1700.2261555283094,
@@ -1071,8 +995,89 @@
           "descentMeters": 416.2999267578125,
           "changeMeters": 304.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.92893,
+            39.702127,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1493
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.92830284764305,
+            39.698073872960165,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1523
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.9398157651852,
+            39.69221849915436,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "description": "More parking by bridge",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1224
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.93744643304369,
+            39.69256128731932,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Tunnel entrance",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1543
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.93847640130541,
+            39.69143025381529,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Tunnel exit, reference waterfall",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1222
+        }
       }
     ]
   },
-  "version": "fdb96f04750d278946c15152c01d6eee"
+  "version": "88dc717b8ba8b73f9d652fd2305dc29b"
 }

@@ -26,126 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.2374274134636,
-            37.20403669265698,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Exit",
-          "elevationMeters": 1598
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.23084259033203,
-            37.214941948277236,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Suit Up",
-          "elevationMeters": 1420
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.23041,
-            37.22657,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking with Shuttle",
-          "elevationMeters": 1315
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.23808455467224,
-            37.203004830741186,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Checkpoint",
-          "elevationMeters": 1638
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.23059180378915,
-            37.21134050436779,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5 Big Slide",
-          "elevationMeters": 1455
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.23113092780113,
-            37.20969459153985,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6",
-          "elevationMeters": 1537
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.23317208886148,
-            37.20703285770384,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R11",
-          "elevationMeters": 1518
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.2340920865536,
-            37.20646033767595,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R12",
-          "elevationMeters": 1491
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -482,7 +362,7 @@
         },
         "properties": {
           "name": "Road Shuttle",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 7314.934408248177,
@@ -595,7 +475,7 @@
         },
         "properties": {
           "name": "Approach Down Hillside",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 586.9235824216845,
@@ -949,7 +829,7 @@
         "properties": {
           "name": "Road Approach (Traditional)",
           "description": "approach all along road- a shortcut trail has been developed.",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1525.1701728061773,
@@ -1137,7 +1017,7 @@
         },
         "properties": {
           "name": "Descent Full",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1367.2727520277886,
@@ -1185,7 +1065,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 179.68114300378832,
@@ -1713,7 +1593,7 @@
         },
         "properties": {
           "name": "Approach Trail to Road",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1643.5811891936428,
@@ -1836,7 +1716,7 @@
         },
         "properties": {
           "name": "Alt Exit From Weir",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 609.7141207683779,
@@ -1904,7 +1784,7 @@
         },
         "properties": {
           "name": "Approach non-shuttle",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1002.8776277415324,
@@ -1952,7 +1832,7 @@
         },
         "properties": {
           "name": "Approach Summit Dome",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 220.3941386220291,
@@ -1996,7 +1876,7 @@
         "properties": {
           "name": "Descent Bushwhack",
           "description": "Not explored gully bushwhack from Dome Saddle",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 219.92117665001805,
@@ -2079,7 +1959,7 @@
         },
         "properties": {
           "name": "Descent off Dome",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 206.37940871675553,
@@ -2087,8 +1967,136 @@
           "descentMeters": 0,
           "changeMeters": 44
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.2374274134636,
+            37.20403669265698,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1598
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.23084259033203,
+            37.214941948277236,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Suit Up",
+          "stroke": "#FF9500",
+          "elevationMeters": 1420
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.23041,
+            37.22657,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking with Shuttle",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1315
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.23808455467224,
+            37.203004830741186,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Checkpoint",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1638
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.23059180378915,
+            37.21134050436779,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5 Big Slide",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1455
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.23113092780113,
+            37.20969459153985,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1537
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.23317208886148,
+            37.20703285770384,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R11",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1518
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.2340920865536,
+            37.20646033767595,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R12",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1491
+        }
       }
     ]
   },
-  "version": "2d083c5a62c0598e0587f0b3378a49c2"
+  "version": "629dc180aae819f44dfb7ce4c5572472"
 }

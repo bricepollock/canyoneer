@@ -28,28 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.2306873788573,
-            33.51361722071358,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#m_ylw-pushpin0",
-          "styleHash": "-5b4ed8d0",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin0",
-            "highlight": "#s_ylw-pushpin_hl0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 77
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2673,181 +2651,13 @@
             "highlight": "#track-start-pin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
-          "stroke": "#000000",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 7374.182060579696,
           "ascentMeters": 410.30006408691406,
           "descentMeters": 91.60005950927734,
           "changeMeters": 318.7000045776367
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.296424,
-            33.537449,
-            957.4999999999999
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#waypoint-pin21",
-          "styleHash": "-173589af",
-          "styleMapHash": {
-            "normal": "#waypoint-pin20",
-            "highlight": "#waypoint-pin19"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "description": "Location: 33.537449, -116.296424<br/>\nElevation: 0.6 mi<br/>\nTime Created: 12/29/19 12:53:11 PM<br/>",
-          "timestamp": "2019-12-29T20:53:11Z",
-          "elevationMeters": 1159
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.296495,
-            33.536921,
-            911.0000000000001
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "styleUrl": "#waypoint-pin6",
-          "styleHash": "-5b921e26",
-          "styleMapHash": {
-            "normal": "#waypoint-pin4",
-            "highlight": "#waypoint-pin5"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "description": "Location: 33.536921, -116.296495<br/>\nElevation: 0.6 mi<br/>\nTime Created: 12/29/19 1:52:05 PM<br/>",
-          "timestamp": "2019-12-29T21:52:05Z",
-          "elevationMeters": 1166
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.296537,
-            33.53676,
-            854.4999999999999
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "styleUrl": "#waypoint-pin24",
-          "styleHash": "646550f3",
-          "styleMapHash": {
-            "normal": "#waypoint-pin22",
-            "highlight": "#waypoint-pin23"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "description": "Location: 33.53676, -116.296537<br/>\nElevation: 0.5 mi<br/>\nTime Created: 12/29/19 2:14:50 PM<br/>",
-          "timestamp": "2019-12-29T22:14:50Z",
-          "elevationMeters": 1168
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.29665,
-            33.535986,
-            818.2
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "styleUrl": "#waypoint-pin9",
-          "styleHash": "-59d77eca",
-          "styleMapHash": {
-            "normal": "#waypoint-pin8",
-            "highlight": "#waypoint-pin7"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "description": "Location: 33.535986, -116.29665<br/>\nElevation: 0.5 mi<br/>\nTime Created: 12/29/19 3:14:49 PM<br/>",
-          "timestamp": "2019-12-29T23:14:49Z",
-          "elevationMeters": 1172
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.29663,
-            33.535803,
-            799.4999999999999
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "styleUrl": "#waypoint-pin",
-          "styleHash": "636b1e57",
-          "styleMapHash": {
-            "normal": "#waypoint-pin10",
-            "highlight": "#waypoint-pin11"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "description": "Location: 33.535803, -116.29663<br/>\nElevation: 0.5 mi<br/>\nTime Created: 12/29/19 3:32:48 PM<br/>",
-          "timestamp": "2019-12-29T23:32:48Z",
-          "elevationMeters": 1173
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.290121,
-            33.530274,
-            644.2
-          ]
-        },
-        "properties": {
-          "name": "R6",
-          "styleUrl": "#waypoint-pin15",
-          "styleHash": "9f1e164",
-          "styleMapHash": {
-            "normal": "#waypoint-pin13",
-            "highlight": "#waypoint-pin14"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "description": "Location: 33.530274, -116.290121<br/>\nElevation: 0.4 mi<br/>\nTime Created: 12/29/19 4:46:37 PM<br/>",
-          "timestamp": "2019-12-30T00:46:37Z",
-          "elevationMeters": 1139
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.28921,
-            33.529977,
-            623.5
-          ]
-        },
-        "properties": {
-          "name": "R7",
-          "styleUrl": "#waypoint-pin16",
-          "styleHash": "629ee979",
-          "styleMapHash": {
-            "normal": "#waypoint-pin17",
-            "highlight": "#waypoint-pin18"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "description": "Location: 33.529977, -116.28921<br/>\nElevation: 0.4 mi<br/>\nTime Created: 12/29/19 5:03:03 PM<br/>",
-          "timestamp": "2019-12-30T01:03:03Z",
-          "elevationMeters": 1116
         }
       },
       {
@@ -3346,7 +3156,7 @@
             "highlight": "#waypoint-pin2"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png",
-          "stroke": "#ffff0a",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 5967.2357300840185,
@@ -3636,35 +3446,13 @@
           "name": "Descent",
           "styleUrl": "#track-line2",
           "styleHash": "-1c99e32",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 4,
           "lengthMeters": 1480.2997578147417,
           "ascentMeters": 209,
           "descentMeters": 259,
           "changeMeters": -50
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.296309,
-            33.538005,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-in",
-          "styleUrl": "#waypoint-pin",
-          "styleHash": "636b1e57",
-          "styleMapHash": {
-            "normal": "#waypoint-pin10",
-            "highlight": "#waypoint-pin11"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 1154
         }
       },
       {
@@ -3807,7 +3595,7 @@
             "normal": "#track-line1",
             "highlight": "#track-line0"
           },
-          "stroke": "#21ff06",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6911.441503161762,
@@ -3815,8 +3603,229 @@
           "descentMeters": 217.8000226020813,
           "changeMeters": 1078.8999481201172
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.2306873788573,
+            33.51361722071358,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#m_ylw-pushpin0",
+          "styleHash": "-5b4ed8d0",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin0",
+            "highlight": "#s_ylw-pushpin_hl0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#007AFF",
+          "elevationMeters": 77
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.296424,
+            33.537449,
+            957.4999999999999
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#waypoint-pin21",
+          "styleHash": "-173589af",
+          "styleMapHash": {
+            "normal": "#waypoint-pin20",
+            "highlight": "#waypoint-pin19"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "description": "Location: 33.537449, -116.296424<br/>\nElevation: 0.6 mi<br/>\nTime Created: 12/29/19 12:53:11 PM<br/>",
+          "timestamp": "2019-12-29T20:53:11Z",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1159
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.296495,
+            33.536921,
+            911.0000000000001
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "styleUrl": "#waypoint-pin6",
+          "styleHash": "-5b921e26",
+          "styleMapHash": {
+            "normal": "#waypoint-pin4",
+            "highlight": "#waypoint-pin5"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "description": "Location: 33.536921, -116.296495<br/>\nElevation: 0.6 mi<br/>\nTime Created: 12/29/19 1:52:05 PM<br/>",
+          "timestamp": "2019-12-29T21:52:05Z",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1166
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.296537,
+            33.53676,
+            854.4999999999999
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "styleUrl": "#waypoint-pin24",
+          "styleHash": "646550f3",
+          "styleMapHash": {
+            "normal": "#waypoint-pin22",
+            "highlight": "#waypoint-pin23"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "description": "Location: 33.53676, -116.296537<br/>\nElevation: 0.5 mi<br/>\nTime Created: 12/29/19 2:14:50 PM<br/>",
+          "timestamp": "2019-12-29T22:14:50Z",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1168
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.29665,
+            33.535986,
+            818.2
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "styleUrl": "#waypoint-pin9",
+          "styleHash": "-59d77eca",
+          "styleMapHash": {
+            "normal": "#waypoint-pin8",
+            "highlight": "#waypoint-pin7"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "description": "Location: 33.535986, -116.29665<br/>\nElevation: 0.5 mi<br/>\nTime Created: 12/29/19 3:14:49 PM<br/>",
+          "timestamp": "2019-12-29T23:14:49Z",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1172
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.29663,
+            33.535803,
+            799.4999999999999
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "styleUrl": "#waypoint-pin",
+          "styleHash": "636b1e57",
+          "styleMapHash": {
+            "normal": "#waypoint-pin10",
+            "highlight": "#waypoint-pin11"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "description": "Location: 33.535803, -116.29663<br/>\nElevation: 0.5 mi<br/>\nTime Created: 12/29/19 3:32:48 PM<br/>",
+          "timestamp": "2019-12-29T23:32:48Z",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1173
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.290121,
+            33.530274,
+            644.2
+          ]
+        },
+        "properties": {
+          "name": "R6",
+          "styleUrl": "#waypoint-pin15",
+          "styleHash": "9f1e164",
+          "styleMapHash": {
+            "normal": "#waypoint-pin13",
+            "highlight": "#waypoint-pin14"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "description": "Location: 33.530274, -116.290121<br/>\nElevation: 0.4 mi<br/>\nTime Created: 12/29/19 4:46:37 PM<br/>",
+          "timestamp": "2019-12-30T00:46:37Z",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1139
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.28921,
+            33.529977,
+            623.5
+          ]
+        },
+        "properties": {
+          "name": "R7",
+          "styleUrl": "#waypoint-pin16",
+          "styleHash": "629ee979",
+          "styleMapHash": {
+            "normal": "#waypoint-pin17",
+            "highlight": "#waypoint-pin18"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "description": "Location: 33.529977, -116.28921<br/>\nElevation: 0.4 mi<br/>\nTime Created: 12/29/19 5:03:03 PM<br/>",
+          "timestamp": "2019-12-30T01:03:03Z",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1116
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.296309,
+            33.538005,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-in",
+          "styleUrl": "#waypoint-pin",
+          "styleHash": "636b1e57",
+          "styleMapHash": {
+            "normal": "#waypoint-pin10",
+            "highlight": "#waypoint-pin11"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1154
+        }
       }
     ]
   },
-  "version": "494237493328503cd603e315fae62ef7"
+  "version": "b43924301e11c5ffdb7cce922b3faf6f"
 }

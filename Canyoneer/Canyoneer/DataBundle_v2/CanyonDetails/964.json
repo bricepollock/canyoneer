@@ -31,81 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -120.67601412534717,
-            43.33288259904958,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Main Parking",
-          "elevationMeters": 1369
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -120.67659080028535,
-            43.336411824054295,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Alt-Parking",
-          "elevationMeters": 1370
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -120.67153617739677,
-            43.332957711833956,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lateral Cracks",
-          "elevationMeters": 1339
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -120.67144095897676,
-            43.33282260630445,
-            0
-          ]
-        },
-        "properties": {
-          "name": "North Bridge",
-          "elevationMeters": 1339
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -120.6701870262623,
-            43.33181735319761,
-            0
-          ]
-        },
-        "properties": {
-          "name": "South Bridge (approx)",
-          "elevationMeters": 1340
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -142,7 +67,7 @@
         },
         "properties": {
           "name": "North Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 43.8663418064928,
@@ -315,7 +240,7 @@
         },
         "properties": {
           "name": "Main Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 460.31160668332546,
@@ -343,7 +268,7 @@
         },
         "properties": {
           "name": "South Exit (bushwhack)",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 973.7599939027369,
@@ -411,7 +336,7 @@
         },
         "properties": {
           "name": "North Section",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 559.5938152056509,
@@ -609,7 +534,7 @@
         },
         "properties": {
           "name": "Middle Section",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1263.9915792178192,
@@ -687,7 +612,7 @@
         },
         "properties": {
           "name": "South Section",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 615.1203563384473,
@@ -715,7 +640,7 @@
         },
         "properties": {
           "name": "Hike",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 377.33275131329407,
@@ -723,8 +648,88 @@
           "descentMeters": 0.5999755859375,
           "changeMeters": -0.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.67601412534717,
+            43.33288259904958,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Main Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1369
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.67659080028535,
+            43.336411824054295,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Alt-Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1370
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.67153617739677,
+            43.332957711833956,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lateral Cracks",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1339
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.67144095897676,
+            43.33282260630445,
+            0
+          ]
+        },
+        "properties": {
+          "name": "North Bridge",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1339
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.6701870262623,
+            43.33181735319761,
+            0
+          ]
+        },
+        "properties": {
+          "name": "South Bridge (approx)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1340
+        }
       }
     ]
   },
-  "version": "fe1a64c08419a15f695fb3a7b4a6dd54"
+  "version": "88a3e48d9ab97018026eea998589ff73"
 }

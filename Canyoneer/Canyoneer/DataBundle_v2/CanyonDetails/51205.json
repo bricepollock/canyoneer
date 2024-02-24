@@ -14,32 +14,14 @@
   "waterRating": "C",
   "timeRating": "III",
   "permit": "No",
-  "rappelCountMin": 3,
+  "rappelCountMin": 2,
   "rappelCountMax": 3,
   "rappelLongestMeters": 55,
   "vehicle": "4WD",
-  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>This canyon is a nice easy low-water experience (you can stay dry\nuntil the confluence with Río Guayab. After this there are several deep\npools that require swimming). Not the best in the area, but it does have\ntwo really nice rappels. It is next door to Jerry Canyon, and uses the\nsame exit.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>It is an easy downhill walk through private land/cow pasture.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>There are two rappels in this canyon r1 30m r2 55m This is a super\ncool rappel, don't get hung up on any trees on the way down.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>Exit at a little dirt road 100 feet from the main road below where\nyou left your vehicles. There is a little pool here where you can do\nsome jumps.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p><a\nhref=\"https://www.chasingadventure29.com/TripReports/Bonsai-Canyon\">https://www.chasingadventure29.com/TripReports/Bonsai-Canyon</a></p>\n<h2 id=\"background\">Background</h2>\n",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>This canyon is a nice easy low-water experience (you can stay dry\nuntil the confluence with Río Guayab. After this there are several deep\npools that require swimming). Not the best in the area, but it does have\ntwo really nice rappels. It is next door to Jerry Canyon, and uses the\nsame exit.</p>\n<h2 id=\"approach\">Approach</h2>\n<p>It is an easy downhill walk through private land/cow pasture. Mind\nthe electric cattle fences.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>There are two rappels in this canyon.</p>\n<p>R1: 30m</p>\n<p>R2: 55m This is a super cool rappel, don't get hung up on any trees\non the way down.</p>\n<p>The remainder of the canyon consists of several downclimbs and\nswims.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>Exit at a little dirt road 100 feet from the main road below where\nyou left your vehicles. There is a little pool here where you can do\nsome jumps.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p><a\nhref=\"https://www.chasingadventure29.com/TripReports/Bonsai-Canyon\">https://www.chasingadventure29.com/TripReports/Bonsai-Canyon</a></p>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.723073,
-            9.984739
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "styleUrl": "#sh_green-circle",
-          "styleHash": "265ab5a6",
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
-          "description": "Time Started: 2019-11-26, 12:03:02 CST",
-          "elevationMeters": 1349
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -396,49 +378,13 @@
           "name": "Cañón",
           "styleUrl": "#track",
           "styleHash": "671c3444",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 4,
           "lengthMeters": 1102.5283983185193,
           "ascentMeters": 34.0999755859375,
           "descentMeters": 230.9000244140625,
           "changeMeters": -196.800048828125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.717227,
-            9.978866
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "styleUrl": "#sh_red-circle",
-          "styleHash": "3027bc6",
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "description": "Created by <a href='http://itunes.apple.com/us/app/gaia-gps/id329127297?mt=8'>Gaia GPS</a> on iOS.<p>Total Distance: 1.1 km<br>Total Time: 00:00:00<br>Moving Time: 00:00:00<br>Average Speed: 0.0 km/h<br> Average Moving Speed: 0.0 km/h<br> Max Speed: 0.0 km/h<br>Min Elevation: 99,999.0 m<br>Max Elevation: -999 m<br>Elevation Gain: -100,998 m<br>Recorded: 2019-11-26, 12:03:02 CST<br><img border=\"0\" src=\"http://chart.apis.google.com/chart?chxr=0,99999,-999&chtt=Elevation (m)&chxt=y&chs=600x350&cht=lc&chco=3D7930&chg=14.3,-1,1,1&chls=2,4,0&chm=B,C5D4B5BB,0,0,0&chd=s:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"/>",
-          "elevationMeters": 1152
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.717226,
-            9.978872
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "styleUrl": "#sh_green-circle",
-          "styleHash": "265ab5a6",
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
-          "description": "Time Started: 2019-11-26, 12:00:58 CST",
-          "elevationMeters": 1152
         }
       },
       {
@@ -857,13 +803,70 @@
           "name": "Approach",
           "styleUrl": "#track",
           "styleHash": "671c3444",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 4,
           "lengthMeters": 1506.0927682133968,
           "ascentMeters": 282.4998779296875,
           "descentMeters": 83.7999267578125,
           "changeMeters": 198.699951171875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.723073,
+            9.984739
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "styleUrl": "#sh_green-circle",
+          "styleHash": "265ab5a6",
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+          "description": "Time Started: 2019-11-26, 12:03:02 CST",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1349
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.717227,
+            9.978866
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "styleUrl": "#sh_red-circle",
+          "styleHash": "3027bc6",
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "description": "Created by <a href='http://itunes.apple.com/us/app/gaia-gps/id329127297?mt=8'>Gaia GPS</a> on iOS.<p>Total Distance: 1.1 km<br>Total Time: 00:00:00<br>Moving Time: 00:00:00<br>Average Speed: 0.0 km/h<br> Average Moving Speed: 0.0 km/h<br> Max Speed: 0.0 km/h<br>Min Elevation: 99,999.0 m<br>Max Elevation: -999 m<br>Elevation Gain: -100,998 m<br>Recorded: 2019-11-26, 12:03:02 CST<br><img border=\"0\" src=\"http://chart.apis.google.com/chart?chxr=0,99999,-999&chtt=Elevation (m)&chxt=y&chs=600x350&cht=lc&chco=3D7930&chg=14.3,-1,1,1&chls=2,4,0&chm=B,C5D4B5BB,0,0,0&chd=s:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"/>",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1152
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.717226,
+            9.978872
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "styleUrl": "#sh_green-circle",
+          "styleHash": "265ab5a6",
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+          "description": "Time Started: 2019-11-26, 12:00:58 CST",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1152
         }
       },
       {
@@ -881,6 +884,7 @@
           "styleHash": "3027bc6",
           "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
           "description": "Created by <a href='http://itunes.apple.com/us/app/gaia-gps/id329127297?mt=8'>Gaia GPS</a> on iOS.<p>Total Distance: 1.5 km<br>Total Time: 00:00:00<br>Moving Time: 00:00:00<br>Average Speed: 0.0 km/h<br> Average Moving Speed: 0.0 km/h<br> Max Speed: 0.0 km/h<br>Min Elevation: 99,999.0 m<br>Max Elevation: -999 m<br>Elevation Gain: -100,998 m<br>Recorded: 2019-11-26, 12:00:58 CST<br><img border=\"0\" src=\"http://chart.apis.google.com/chart?chxr=0,99999,-999&chtt=Elevation (m)&chxt=y&chs=600x350&cht=lc&chco=3D7930&chg=14.3,-1,1,1&chls=2,4,0&chm=B,C5D4B5BB,0,0,0&chd=s:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"/>",
+          "stroke": "#FF3B30",
           "elevationMeters": 1351
         }
       },
@@ -900,6 +904,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 9.97890, -83.71725<br>\nElevation: 0.0 m<br>\nTime Created: 2019-11-26, 11:54:34 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 1152
         }
       },
@@ -919,6 +924,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 9.98149, -83.72141<br>\nElevation: 0.0 m<br>\nTime Created: 2019-11-26, 11:14:36 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 1295
         }
       },
@@ -938,6 +944,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 9.98154, -83.72166<br>\nElevation: 0.0 m<br>\nTime Created: 2019-11-11, 22:06:30 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 1295
         }
       },
@@ -957,6 +964,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 9.98258, -83.72131<br>\nElevation: 0.0 m<br>\nTime Created: 2019-11-12, 08:25:01 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 1297
         }
       },
@@ -976,6 +984,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 9.98538, -83.72267<br>\nElevation: 0.0 m<br>\nTime Created: 2019-11-11, 23:35:56 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 1360
         }
       },
@@ -995,6 +1004,7 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 9.98512, -83.72191<br>\nElevation: 0.0 m<br>\nTime Created: 2019-11-12, 08:25:01 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 1365
         }
       },
@@ -1014,10 +1024,11 @@
           "styleHash": "6e21705d",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
           "description": "Location: 9.98472, -83.72308<br>\nElevation: 0.0 m<br>\nTime Created: 2019-11-11, 22:06:30 CST<br>\n",
+          "stroke": "#FF3B30",
           "elevationMeters": 1349
         }
       }
     ]
   },
-  "version": "bbd1b4620988eb18f0f362aabfa174f5"
+  "version": "ee8e869501cbab83690fc0f7b6e60505"
 }

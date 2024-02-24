@@ -26,51 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.81399999999996,
-            37.7605,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Calcium Carbonate Spring",
-          "elevationMeters": 3421
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.80590000000001,
-            37.7632,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rock Glacier",
-          "elevationMeters": 3539
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.803,
-            37.7804,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3886
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -272,7 +227,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3409.2040951769654,
@@ -350,7 +305,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 337.12568079830965,
@@ -358,8 +313,56 @@
           "descentMeters": 18.699951171875,
           "changeMeters": -1.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.81399999999996,
+            37.7605,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Calcium Carbonate Spring",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3421
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.80590000000001,
+            37.7632,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rock Glacier",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3539
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.803,
+            37.7804,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 3886
+        }
       }
     ]
   },
-  "version": "5504bbeca695e8eacbf224282699e5e1"
+  "version": "796f86d3b82c83b9c84cba8910add8d0"
 }

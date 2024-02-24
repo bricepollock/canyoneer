@@ -28,66 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.845406,
-            46.42926,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 1111
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.85103992952784,
-            46.426311287590394,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Covell Creek Falls",
-          "elevationMeters": 1308
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.85136764638949,
-            46.4243971877535,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Angel Falls",
-          "elevationMeters": 1323
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.85395,
-            46.42314,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-In",
-          "elevationMeters": 1374
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -293,7 +233,7 @@
           ]
         },
         "properties": {
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 946.4515707570354,
@@ -656,7 +596,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2279.7112361038303,
@@ -699,7 +639,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 466.96615886694036,
@@ -707,8 +647,72 @@
           "descentMeters": 67.800048828125,
           "changeMeters": -57.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.845406,
+            46.42926,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1111
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.85103992952784,
+            46.426311287590394,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Covell Creek Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1308
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.85136764638949,
+            46.4243971877535,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Angel Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1323
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.85395,
+            46.42314,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-In",
+          "stroke": "#34C759",
+          "elevationMeters": 1374
+        }
       }
     ]
   },
-  "version": "2e8e0f02040a7c409e6ca4f72cd570b6"
+  "version": "a8a9fe96007adb096ca50cb803e8cc3b"
 }

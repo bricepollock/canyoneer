@@ -25,24 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -83.721596,
-            9.959583
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "styleUrl": "#sh_green-circle",
-          "styleHash": "265ab5a6",
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
-          "description": "Time Started: 2019-11-14, 22:09:40 CST",
-          "elevationMeters": 1331
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -5871,13 +5853,32 @@
           "name": "28",
           "styleUrl": "#track",
           "styleHash": "671c3444",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 4,
           "lengthMeters": 8113.266035131886,
           "ascentMeters": 1780.599609375,
           "descentMeters": 1791.1995849609375,
           "changeMeters": -10.5999755859375
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.721596,
+            9.959583
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "styleUrl": "#sh_green-circle",
+          "styleHash": "265ab5a6",
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+          "description": "Time Started: 2019-11-14, 22:09:40 CST",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1331
         }
       },
       {
@@ -5895,10 +5896,11 @@
           "styleHash": "3027bc6",
           "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
           "description": "Created by <a href='http://itunes.apple.com/us/app/gaia-gps/id329127297?mt=8'>Gaia GPS</a> on iOS.<p>Total Distance: 7.1 km<br>Total Time: 00:00:00<br>Moving Time: 00:00:00<br>Average Speed: 0.0 km/h<br> Average Moving Speed: 0.0 km/h<br> Max Speed: 0.0 km/h<br>Min Elevation: 99,999.0 m<br>Max Elevation: -999 m<br>Elevation Gain: -100,998 m<br>Recorded: 2019-11-14, 22:09:40 CST<br><img border=\"0\" src=\"http://chart.apis.google.com/chart?chxr=0,99999,-999&chtt=Elevation (m)&chxt=y&chs=600x350&cht=lc&chco=3D7930&chg=14.3,-1,1,1&chls=2,4,0&chm=B,C5D4B5BB,0,0,0&chd=s:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"/>",
+          "stroke": "#FF3B30",
           "elevationMeters": 1321
         }
       }
     ]
   },
-  "version": "0997a75c96fd1a4e1849fff78a563a50"
+  "version": "e05953fab0b20059d3d69fdb07e6f19c"
 }

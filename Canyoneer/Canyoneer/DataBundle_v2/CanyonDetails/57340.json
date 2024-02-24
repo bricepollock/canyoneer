@@ -20,142 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1371362,
-            34.2706999
-          ]
-        },
-        "properties": {
-          "name": "6' Downclimb",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 793
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1407,
-            34.2697
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 724
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1406421,
-            34.2697684
-          ]
-        },
-        "properties": {
-          "name": "Trail Head",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 701
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1356824,
-            34.2706957
-          ]
-        },
-        "properties": {
-          "name": "Daisy Canyon Drop-in",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 825
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1357199,
-            34.2707121
-          ]
-        },
-        "properties": {
-          "name": "Daisy Waterfall - 20'",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 825
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.140524,
-            34.2698006
-          ]
-        },
-        "properties": {
-          "name": "Easy 5th Class climbing out",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 701
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.136284,
-            34.2708338
-          ]
-        },
-        "properties": {
-          "name": "15' Down-climb",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 818
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1357502,
-            34.2707197
-          ]
-        },
-        "properties": {
-          "name": "5' Down-climb",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 825
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -545,7 +409,7 @@
           "styleUrl": "#track",
           "styleHash": "-567d95f2",
           "description": "Length: 1.243 km (0.772 mi)",
-          "stroke": "#cc00cc",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "visibility": "1",
@@ -554,8 +418,152 @@
           "descentMeters": 298.40008544921875,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1371362,
+            34.2706999
+          ]
+        },
+        "properties": {
+          "name": "6' Downclimb",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#AF52DE",
+          "elevationMeters": 793
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1407,
+            34.2697
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#AF52DE",
+          "elevationMeters": 724
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1406421,
+            34.2697684
+          ]
+        },
+        "properties": {
+          "name": "Trail Head",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#AF52DE",
+          "elevationMeters": 701
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1356824,
+            34.2706957
+          ]
+        },
+        "properties": {
+          "name": "Daisy Canyon Drop-in",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#AF52DE",
+          "elevationMeters": 825
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1357199,
+            34.2707121
+          ]
+        },
+        "properties": {
+          "name": "Daisy Waterfall - 20'",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#AF52DE",
+          "elevationMeters": 825
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.140524,
+            34.2698006
+          ]
+        },
+        "properties": {
+          "name": "Easy 5th Class climbing out",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#AF52DE",
+          "elevationMeters": 701
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.136284,
+            34.2708338
+          ]
+        },
+        "properties": {
+          "name": "15' Down-climb",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#AF52DE",
+          "elevationMeters": 818
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1357502,
+            34.2707197
+          ]
+        },
+        "properties": {
+          "name": "5' Down-climb",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#AF52DE",
+          "elevationMeters": 825
+        }
       }
     ]
   },
-  "version": "5972f30bf781ce37b18b29fedd36327a"
+  "version": "dbd148a01a5f891468d0b6856c8f842d"
 }

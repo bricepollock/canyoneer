@@ -27,96 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.51825016,
-            38.16301926,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Big Green Falls 150' rope",
-          "elevationMeters": 2986
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.5183308583606,
-            38.17251797811577,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3436
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.51357492,
-            38.17182892,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Baby Green Falls (WI3, 100')",
-          "elevationMeters": 3324
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.52017022768098,
-            38.16305960979976,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 2989
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.52008171478349,
-            38.162692660028966,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 2984
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.52079518238145,
-            38.161644523213134,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 2963
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -568,7 +478,7 @@
         },
         "properties": {
           "name": "Big Green Falls approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 631.0173361019981,
@@ -736,7 +646,7 @@
         },
         "properties": {
           "name": "Big Green Falls Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 187.98724942835796,
@@ -834,7 +744,7 @@
         },
         "properties": {
           "name": "Big Green Falls Return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 140.46632292195304,
@@ -1427,7 +1337,7 @@
         },
         "properties": {
           "name": "Baby Green approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 957.2124918847501,
@@ -4060,7 +3970,7 @@
         },
         "properties": {
           "name": "Owl Creek Pass CR 8/10",
-          "stroke": "#000000",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 40097.7562674269,
@@ -5838,7 +5748,7 @@
         },
         "properties": {
           "name": "Cimmaron Rd CR858",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 31336.51744428764,
@@ -5846,8 +5756,104 @@
           "descentMeters": 4260.7001953125,
           "changeMeters": -478.39990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.51825016,
+            38.16301926,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Big Green Falls 150' rope",
+          "stroke": "#5856D6",
+          "elevationMeters": 2986
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.5183308583606,
+            38.17251797811577,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 3436
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.51357492,
+            38.17182892,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Baby Green Falls (WI3, 100')",
+          "stroke": "#34C759",
+          "elevationMeters": 3324
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.52017022768098,
+            38.16305960979976,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FF9500",
+          "elevationMeters": 2989
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.52008171478349,
+            38.162692660028966,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 2984
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.52079518238145,
+            38.161644523213134,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 2963
+        }
       }
     ]
   },
-  "version": "732262fa4f0e147db669315097c9defd"
+  "version": "41f339867544fa8fec71dd7d78658dfc"
 }

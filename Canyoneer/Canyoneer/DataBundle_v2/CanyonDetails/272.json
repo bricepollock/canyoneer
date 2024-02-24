@@ -28,28 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.7679133179835,
-            36.17983587974269,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle",
-          "styleUrl": "#msn_bus",
-          "styleHash": "4cbf46e4",
-          "styleMapHash": {
-            "normal": "#sn_bus",
-            "highlight": "#sh_bus"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/bus.png",
-          "elevationMeters": 1521
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -367,7 +345,7 @@
             "normal": "#dir_route8",
             "highlight": "#dir_route1"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 2377.43813376254,
@@ -531,7 +509,7 @@
             "normal": "#dir_route6",
             "highlight": "#dir_route12"
           },
-          "stroke": "#00d000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 2331.0271841489357,
@@ -845,7 +823,7 @@
             "normal": "#dir_route5",
             "highlight": "#dir_route"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 4563.368354759974,
@@ -889,79 +867,13 @@
             "normal": "#dir_route9",
             "highlight": "#dir_route3"
           },
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 821.2527831147964,
           "ascentMeters": 274.5999755859375,
           "descentMeters": 0,
           "changeMeters": 274.5999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.7226041062047,
-            36.21771771541634,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#msn_parking_lot",
-          "styleHash": "bdcce78",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": -83
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.7114830569921,
-            36.19000137937641,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave wash",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "-9154126",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond0",
-            "highlight": "#sh_open-diamond0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 1074
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.7167058631334,
-            36.19054298534603,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Top of approach",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "-9154126",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond0",
-            "highlight": "#sh_open-diamond0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 1057
         }
       },
       {
@@ -2954,7 +2866,7 @@
             "normal": "#dir_route0",
             "highlight": "#dir_route7"
           },
-          "stroke": "#000000",
+          "stroke": "#FF9500",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 3,
           "lengthMeters": 71175.91494898334,
@@ -2963,8 +2875,100 @@
           "changeMeters": -1604.099952697754
         },
         "id": "22.4"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.7679133179835,
+            36.17983587974269,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle",
+          "styleUrl": "#msn_bus",
+          "styleHash": "4cbf46e4",
+          "styleMapHash": {
+            "normal": "#sn_bus",
+            "highlight": "#sh_bus"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/bus.png",
+          "stroke": "#FF9500",
+          "elevationMeters": 1521
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.7226041062047,
+            36.21771771541634,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#msn_parking_lot",
+          "styleHash": "bdcce78",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FF9500",
+          "elevationMeters": -83
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.7114830569921,
+            36.19000137937641,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave wash",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "-9154126",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond0",
+            "highlight": "#sh_open-diamond0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1074
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.7167058631334,
+            36.19054298534603,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Top of approach",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "-9154126",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond0",
+            "highlight": "#sh_open-diamond0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1057
+        }
       }
     ]
   },
-  "version": "c2e59fd2274d52ae823f9f2ddc183244"
+  "version": "dc4fc9e78dcc3c01cd0ffcb8f8a8cb69"
 }

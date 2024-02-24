@@ -20,69 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.68796470591023,
-            -16.09494350346089,
-            1453.1
-          ]
-        },
-        "properties": {
-          "name": "turn",
-          "styleUrl": "#sh_ylw-pushpin19",
-          "styleHash": "-174aa834",
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "Location: -16.09494, -67.68797<br>\nElevation: 4,767.36 ft<br>\nTime Created: 9/18/19, 9:49:45 AM GMT-5<br>",
-          "elevationMeters": 929
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.69671580445473,
-            -16.09252420788206,
-            1053.9
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#sh_ylw-pushpin33",
-          "styleHash": "-5824f9b0",
-          "styleMapHash": {
-            "normal": "#sh_ylw-pushpin15",
-            "highlight": "#sh_ylw-pushpin8"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 940
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.68532660406558,
-            -16.09626925530997,
-            1543.4
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#sh_ylw-pushpin18",
-          "styleHash": "48482f0e",
-          "styleMapHash": {
-            "normal": "#sh_ylw-pushpin17",
-            "highlight": "#sh_ylw-pushpin25"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 1024
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -6371,7 +6308,7 @@
             "highlight": "#sh_ylw-pushpin150"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#55ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1881.9540445881753,
@@ -7791,7 +7728,7 @@
             "highlight": "#sh_ylw-pushpin5"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 775.5856118299603,
@@ -8941,7 +8878,7 @@
             "highlight": "#sh_ylw-pushpin24"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1066.2051645009587,
@@ -9391,7 +9328,7 @@
             "highlight": "#sh_ylw-pushpin11"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffaa00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 197.3719639553834,
@@ -9399,8 +9336,74 @@
           "descentMeters": 68.199951171875,
           "changeMeters": -50.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.68796470591023,
+            -16.09494350346089,
+            1453.1
+          ]
+        },
+        "properties": {
+          "name": "turn",
+          "styleUrl": "#sh_ylw-pushpin19",
+          "styleHash": "-174aa834",
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "Location: -16.09494, -67.68797<br>\nElevation: 4,767.36 ft<br>\nTime Created: 9/18/19, 9:49:45 AM GMT-5<br>",
+          "stroke": "#34C759",
+          "elevationMeters": 929
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.69671580445473,
+            -16.09252420788206,
+            1053.9
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#sh_ylw-pushpin33",
+          "styleHash": "-5824f9b0",
+          "styleMapHash": {
+            "normal": "#sh_ylw-pushpin15",
+            "highlight": "#sh_ylw-pushpin8"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 940
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.68532660406558,
+            -16.09626925530997,
+            1543.4
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#sh_ylw-pushpin18",
+          "styleHash": "48482f0e",
+          "styleMapHash": {
+            "normal": "#sh_ylw-pushpin17",
+            "highlight": "#sh_ylw-pushpin25"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1024
+        }
       }
     ]
   },
-  "version": "5d7ed16224962c439f4bc2ca205f33c2"
+  "version": "2bf9c30ed1eef25d4e141d90d0b0d91d"
 }

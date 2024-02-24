@@ -25,37 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.54832899999997,
-            46.789564,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In",
-          "description": "Created by <a href='http://itunes.apple.com/us/app/gaia-gps/id329127297?mt=8'>Gaia GPS</a> on iOS.<p>Total Distance: 0.4 mi<br>Total Time: 00:20:32<br>Moving Time: 00:19:14<br>Average Speed: 1.3 mph<br> Average Moving Speed: 1.4 mph<br> Max Speed: 2.7 mph<br>Min Elevation: 2,499.2 ft<br>Max Elevation: 2,583.7 ft<br>Elevation Gain: 84.5 ft<br>Recorded: 10/6/19, 1:19:48 PM PDT<br>Time Stopped: 10/5/88, 1:40:26 PM PDT<br><img border=\"0\" src=\"http://chart.apis.google.com/chart?chxr=0,2499,2583&chtt=Elevation (ft)&chxt=y&chs=600x350&cht=lc&chco=3D7930&chg=14.3,-1,1,1&chls=2,4,0&chm=B,C5D4B5BB,0,0,0&chd=s:AAAAAAAAAOTTYYdghtrrvrrkvtrvv02000005559353779550vzrrrrrrhdggddgrurvrrqmhkmhddZYOCFFGAA\"/>",
-          "elevationMeters": 1005
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.55459914240566,
-            46.78621838704098,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 798
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -137,7 +106,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 640.0948558418419,
@@ -285,7 +254,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 650.6295078154945,
@@ -293,8 +262,41 @@
           "descentMeters": 365,
           "changeMeters": -204
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.54832899999997,
+            46.789564,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In",
+          "description": "Created by <a href='http://itunes.apple.com/us/app/gaia-gps/id329127297?mt=8'>Gaia GPS</a> on iOS.<p>Total Distance: 0.4 mi<br>Total Time: 00:20:32<br>Moving Time: 00:19:14<br>Average Speed: 1.3 mph<br> Average Moving Speed: 1.4 mph<br> Max Speed: 2.7 mph<br>Min Elevation: 2,499.2 ft<br>Max Elevation: 2,583.7 ft<br>Elevation Gain: 84.5 ft<br>Recorded: 10/6/19, 1:19:48 PM PDT<br>Time Stopped: 10/5/88, 1:40:26 PM PDT<br><img border=\"0\" src=\"http://chart.apis.google.com/chart?chxr=0,2499,2583&chtt=Elevation (ft)&chxt=y&chs=600x350&cht=lc&chco=3D7930&chg=14.3,-1,1,1&chls=2,4,0&chm=B,C5D4B5BB,0,0,0&chd=s:AAAAAAAAAOTTYYdghtrrvrrkvtrvv02000005559353779550vzrrrrrrhdggddgrurvrrqmhkmhddZYOCFFGAA\"/>",
+          "stroke": "#34C759",
+          "elevationMeters": 1005
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.55459914240566,
+            46.78621838704098,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#FF3B30",
+          "elevationMeters": 798
+        }
       }
     ]
   },
-  "version": "873e4ba1bb69abedb5466535ca7d9259"
+  "version": "81015b7a837cb1b49399342e2bd2d318"
 }

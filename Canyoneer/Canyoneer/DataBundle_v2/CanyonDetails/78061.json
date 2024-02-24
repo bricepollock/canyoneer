@@ -29,86 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.72899,
-            35.007313,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 35'",
-          "description": "LDC off pinch\n",
-          "elevationMeters": 2171
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.72973,
-            35.006787,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 45' ",
-          "description": "Big pine LDC or downclimb when dry. \n",
-          "elevationMeters": 2179
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.730652,
-            35.006132,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 45' ",
-          "description": "Tree RDC\n",
-          "elevationMeters": 2188
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.731436,
-            35.006096,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5 40'",
-          "description": "Small sapling on first ledge rdc\n",
-          "elevationMeters": 2166
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.73110978488695,
-            35.006028170484505,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4 30'",
-          "description": "Small pine RDC",
-          "elevationMeters": 2174
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -540,7 +460,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1967.861678058291,
@@ -658,7 +578,7 @@
         },
         "properties": {
           "name": "Queen Bee",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 741.663129912411,
@@ -666,8 +586,93 @@
           "descentMeters": 74.400146484375,
           "changeMeters": -37.099853515625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.72899,
+            35.007313,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 35'",
+          "description": "LDC off pinch\n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2171
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.72973,
+            35.006787,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 45' ",
+          "description": "Big pine LDC or downclimb when dry. \n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2179
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.730652,
+            35.006132,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 45' ",
+          "description": "Tree RDC\n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2188
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.731436,
+            35.006096,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5 40'",
+          "description": "Small sapling on first ledge rdc\n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2166
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.73110978488695,
+            35.006028170484505,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4 30'",
+          "description": "Small pine RDC",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2174
+        }
       }
     ]
   },
-  "version": "dba968836505da996900229c6607faef"
+  "version": "afd46a14d6819165fe0e0e288f7f1a30"
 }

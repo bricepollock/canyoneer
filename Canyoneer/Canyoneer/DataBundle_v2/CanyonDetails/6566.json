@@ -20,7 +20,7 @@
   "rappelCountMax": 4,
   "rappelLongestMeters": 45.72,
   "vehicle": "4WD - High Clearance",
-  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<p>Waypoints in the KML map contain detailed descriptions of all the\nrappels (courtesy of Bluugnome.com).</p>\n<p>Canyon Start: a bit of a walk in the wash so enjoy the rock\nformations &amp; walls above. The rappels are very close to each\nother.</p>\n<p>R1 75</p>\n<p>R2 60</p>\n<p>R3 150</p>\n<p>R4 105</p>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://bluugnome.com/cyn_route/dv/dv_Miracle-Max/dv_Miracle-Max.aspx\">BluuGnome.com</a>\n: Miracle Max Canyon</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li>2020-02-26 - <a\nhref=\"https://www.stavislost.com/hikes/trail/miracle-max-canyon\">Miracle\nMax Canyon, DVNP</a></li>\n</ul>\n<p>1-5-13 - Trip by Scott Swaney &amp; Rick Kent:</p>\n<ul>\n<li><a\nhref=\"https://www.facebook.com/scott.swaney/media_set?set=a.10151399927322930.549812.668617929&amp;type=3\">https://www.facebook.com/scott.swaney/media_set?set=a.10151399927322930.549812.668617929&amp;type=3</a></li>\n</ul>\n<p>Monroy's: 2/15/16 Great canyon! Really makes for some spectacular\nphotographs. It has a real \"canyon\" feel as you follow the wash, with\nsome cool geological features. Four of us started at 6am and finished\neasily before 1pm car to car.</p>\n<p><a\nhref=\"http://adamhaydock.blogspot.com/2018/01/miracle-max-canyon-princess-bride-range_16.html\">MIRACLE\nMAX-EVEN FURTHER</a></p>\n<h2 id=\"background\">Background</h2>\n",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<p>Waypoints in the KML map contain detailed descriptions of all the\nrappels (courtesy of Bluugnome.com).</p>\n<p>Canyon Start: a bit of a walk in the wash so enjoy the rock\nformations &amp; walls above. The rappels are very close to each\nother.</p>\n<p>R1 75</p>\n<p>R2 60</p>\n<p>R3 150</p>\n<p>R4 105</p>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://bluugnome.com/cyn_route/dv/dv_Miracle-Max/dv_Miracle-Max.aspx\">BluuGnome.com</a>\n: Miracle Max Canyon</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<p>1-5-13 - Trip by Scott Swaney &amp; Rick Kent: First trip to the\ncanyon 12-2-12:</p>\n<ul>\n<li><a\nhref=\"https://www.facebook.com/scott.swaney/media_set?set=a.10151399927322930.549812.668617929&amp;type=3\">https://www.facebook.com/scott.swaney/media_set?set=a.10151399927322930.549812.668617929&amp;type=3</a></li>\n</ul>\n<ul>\n<li>2020-02-26 - <a\nhref=\"https://www.stavislost.com/hikes/trail/miracle-max-canyon\">Miracle\nMax Canyon, DVNP</a></li>\n</ul>\n<p>Monroy's: 2/15/16 Great canyon! Really makes for some spectacular\nphotographs. It has a real \"canyon\" feel as you follow the wash, with\nsome cool geological features. Four of us started at 6am and finished\neasily before 1pm car to car.</p>\n<p><a\nhref=\"http://adamhaydock.blogspot.com/2018/01/miracle-max-canyon-princess-bride-range_16.html\">MIRACLE\nMAX-EVEN FURTHER</a></p>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
@@ -303,7 +303,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#F0F000",
@@ -398,7 +398,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#FF0000",
@@ -1448,7 +1448,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00D000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00D000",
@@ -1472,6 +1472,7 @@
         "properties": {
           "name": "Parking",
           "description": "A bend to the right while driving the road out toward Marble Canyon. This is bend in the right is a landmark to know you are getting close to the parking area for the Princess Bride canyons. Also if the berm on the south side of the road is washed out it may be possible to park here.",
+          "stroke": "#FF3B30",
           "elevationMeters": 161
         }
       },
@@ -1488,6 +1489,7 @@
         "properties": {
           "name": "Canyon Start",
           "description": "Top of Miracle Max Canyon. This is where two of the large washes above the technical section join.",
+          "stroke": "#34C759",
           "elevationMeters": 691
         }
       },
@@ -1504,6 +1506,7 @@
         "properties": {
           "name": "R1-3",
           "description": "Raps 1 thru 3 - Miracle Max Canyon. Just before getting to rap 1 is a downclimb over a boulder of about 8 feet. Also near the top of rap 1 is a notch in the canyon wall where you can get a view down over the exit of the canyon. Rap 1 is anchored from a large rock about 20 feet back and drops about 55 feet down a slightly sloped trough. Rap 1 will need about 75 feet of rope travel. Rap 2 is about 50 feet down canyon of rap 1 with a short 3 foot scramble between. Rap 2 is anchored from a cairn anchor and drops about 60 feet down a slightly sloped wall. Rap 3 is near the bottom of rap 2, is anchored from a cairn anchor and drops about 150 feet down a vertical wall.",
+          "stroke": "#FF3B30",
           "elevationMeters": 686
         }
       },
@@ -1520,6 +1523,7 @@
         "properties": {
           "name": "R4",
           "description": "Rap 4 - Miracal Max Canyon. Is about 70 feet from the bottom of rap 3, is anchored from a cairn anchor made with very large rocks and drops about 105 feet down a slightly sloped wall.",
+          "stroke": "#FF3B30",
           "elevationMeters": 687
         }
       },
@@ -1536,10 +1540,11 @@
         "properties": {
           "name": "Canyon End",
           "description": "Bottom of Miracle Max Canyon. This is also the bottom of a side ravine / canyon joining in from LDC.",
+          "stroke": "#FF3B30",
           "elevationMeters": 693
         }
       }
     ]
   },
-  "version": "2e393b38f4fd2813b6627696ea71dbf1"
+  "version": "351ca02e0d44fdf8b359e282631d0f50"
 }

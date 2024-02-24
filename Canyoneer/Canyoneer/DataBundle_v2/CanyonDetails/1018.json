@@ -614,35 +614,13 @@
             "normal": "#line-0F9D58-5650-nodesc-normal",
             "highlight": "#line-0F9D58-5650-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 2934.6130986276858,
           "ascentMeters": 450.000244140625,
           "descentMeters": 442.80029296875,
           "changeMeters": 7.199951171875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.8027511,
-            38.5827501,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead for LWH and Bell Canyons",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1597
         }
       },
       {
@@ -855,7 +833,7 @@
             "normal": "#line-0F9D58-5263-nodesc-normal",
             "highlight": "#line-0F9D58-5263-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 893.8010808008656,
@@ -863,8 +841,31 @@
           "descentMeters": 95.2001953125,
           "changeMeters": 74.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.8027511,
+            38.5827501,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead for LWH and Bell Canyons",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1597
+        }
       }
     ]
   },
-  "version": "5dd7fdf315e47443e3aaba719c8fdf6a"
+  "version": "307dbbb05f1feaeb4bdaa9c8c2016c62"
 }

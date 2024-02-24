@@ -1,13 +1,338 @@
 {
   "url": "https://ropewiki.com/Blanco_(Ecuador)",
-  "latitude": -1.39528,
-  "longitude": -78.42722,
+  "latitude": -1.3881,
+  "longitude": -78.3474,
   "id": 41054,
   "name": "Blanco (Ecuador)",
-  "quality": 4,
+  "quality": 3,
+  "months": [
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug"
+  ],
   "technicalRating": 3,
-  "waterRating": "B",
+  "waterRating": "C",
+  "timeRating": "I",
   "permit": "No",
-  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://icopro.org/canyon/view/id/251\">Icopro.org</a> : Rio\nBlanco</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n",
-  "version": "8e4507faa8cd785c52a792931bf50bcd"
+  "rappelCountMin": 5,
+  "rappelCountMax": 5,
+  "rappelLongestMeters": 30,
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>This is a commercially guided trip led by local guide companies.. It\nmay be possible to descend on your own.</p>\n<p>Some of the many available guide companies:</p>\n<ul>\n<li><a\nhref=\"https://www.imagineecuador.com/best-canyoning-banos-ecuador/\">Imagine\nEcuador</a></li>\n<li><a\nhref=\"https://www.geotoursbanios.com/tour/tour-canyoning-rio-blanco-level-III-banos-de-agua-santa-ecuador/\">Geo\nTours</a></li>\n<li><a\nhref=\"https://canyoningecuador.com/tours/canyoning-rio-blanco-banos/\">Canyoning\nEcuador</a></li>\n</ul>\n<h2 id=\"approach\">Approach</h2>\n<p>Map shown on this page is estimated approach. The area appears to\nhave seen some new roads, trails and properties in recent years. The\napproach shown here should be fine, but always ask locals about where\nyou can park, and which approach trail to use.</p>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://icopro.org/canyon/view/id/251\">Icopro.org</a> : Rio\nBlanco</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n\n<h2 id=\"background\">Background</h2>\n",
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -78.34819167852403,
+              -1.387952996617022,
+              2531.800048828125
+            ],
+            [
+              -78.34830969572069,
+              -1.3886099449323241,
+              2497.10009765625
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "stroke": "#34C759",
+          "stroke-opacity": 1,
+          "stroke-width": 5,
+          "lengthMeters": 74.21811170081234,
+          "ascentMeters": 0,
+          "descentMeters": 34.699951171875,
+          "changeMeters": -34.699951171875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -78.34370434284212,
+              -1.3859606991819284,
+              2710.60009765625
+            ],
+            [
+              -78.34423005580904,
+              -1.3861483988772558,
+              2720.60009765625
+            ],
+            [
+              -78.34541022777559,
+              -1.3871780655125328,
+              2706.39990234375
+            ],
+            [
+              -78.34576427936555,
+              -1.3874301192560359,
+              2696.89990234375
+            ],
+            [
+              -78.34604859352112,
+              -1.387639270214295,
+              2684.199951171875
+            ],
+            [
+              -78.34712684154512,
+              -1.3880361206996559,
+              2595.199951171875
+            ],
+            [
+              -78.34770619869234,
+              -1.3879342266624723,
+              2558.5
+            ],
+            [
+              -78.34795832633974,
+              -1.38790741244144,
+              2571.60009765625
+            ],
+            [
+              -78.34819436073305,
+              -1.3879449523508065,
+              2531.800048828125
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Descent",
+          "stroke": "#FF3B30",
+          "stroke-opacity": 1,
+          "stroke-width": 5,
+          "lengthMeters": 571.6081992377815,
+          "ascentMeters": 23.10009765625,
+          "descentMeters": 201.900146484375,
+          "changeMeters": -178.800048828125
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -78.3483123779297,
+              -1.3886072635109943,
+              2472.39990234375
+            ],
+            [
+              -78.34825605154037,
+              -1.3885563165052583,
+              2515.60009765625
+            ],
+            [
+              -78.34824800491334,
+              -1.387746527108794,
+              2542.10009765625
+            ],
+            [
+              -78.34800124168397,
+              -1.3877733413316713,
+              2542.10009765625
+            ],
+            [
+              -78.34785372018816,
+              -1.3869930473220182,
+              2609.5
+            ],
+            [
+              -78.34775984287263,
+              -1.3872129240105695,
+              2609.5
+            ],
+            [
+              -78.34760427474977,
+              -1.3869313745886365,
+              2628
+            ],
+            [
+              -78.34745138883592,
+              -1.3872316939708442,
+              2612.89990234375
+            ],
+            [
+              -78.34735214710237,
+              -1.3868991975097031,
+              2628
+            ],
+            [
+              -78.34712684154512,
+              -1.3873550394203564,
+              2632.199951171875
+            ],
+            [
+              -78.346925675869,
+              -1.3871619769747963,
+              2672.10009765625
+            ],
+            [
+              -78.34666013717653,
+              -1.3874113492973388,
+              2659.39990234375
+            ],
+            [
+              -78.34653943777086,
+              -1.387381853647661,
+              2687.199951171875
+            ],
+            [
+              -78.34647774696352,
+              -1.3872611896224047,
+              2687.199951171875
+            ],
+            [
+              -78.34668427705765,
+              -1.3869742773598606,
+              2672.10009765625
+            ],
+            [
+              -78.3466359972954,
+              -1.386124266060111,
+              2698.800048828125
+            ],
+            [
+              -78.34654211997987,
+              -1.3862073902069918,
+              2701.60009765625
+            ],
+            [
+              -78.34657162427904,
+              -1.3859177963923461,
+              2707.10009765625
+            ],
+            [
+              -78.34647506475449,
+              -1.3860384604860863,
+              2707.10009765625
+            ],
+            [
+              -78.3465823531151,
+              -1.3856871938849817,
+              2712.5
+            ],
+            [
+              -78.34653943777086,
+              -1.3855745740476484,
+              2712.5
+            ],
+            [
+              -78.34613710641862,
+              -1.3852528030543274,
+              2716.39990234375
+            ],
+            [
+              -78.34598690271378,
+              -1.3852635287548112,
+              2716.39990234375
+            ],
+            [
+              -78.3452492952347,
+              -1.386360231372668,
+              2722.699951171875
+            ],
+            [
+              -78.34518760442735,
+              -1.3857381409524967,
+              2727.800048828125
+            ],
+            [
+              -78.34485232830048,
+              -1.3852983872810403,
+              2721
+            ],
+            [
+              -78.34441244602205,
+              -1.3852340330783661,
+              2720.800048828125
+            ],
+            [
+              -78.34407180547714,
+              -1.385134820345824,
+              2715.39990234375
+            ],
+            [
+              -78.34370970726015,
+              -1.3859419292115902,
+              2710.60009765625
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Approach",
+          "stroke": "#FFCC00",
+          "stroke-opacity": 1,
+          "stroke-width": 5,
+          "lengthMeters": 1300.5892094023945,
+          "ascentMeters": 298.30029296875,
+          "descentMeters": 60.10009765625,
+          "changeMeters": 238.2001953125
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.34818899631502,
+            -1.387952996617022,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Finish",
+          "stroke": "#34C759",
+          "elevationMeters": 2532
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.3437222585699,
+            -1.38594788754692,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Start",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2711
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.34830701351166,
+            -1.3886072635109943,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 2497
+        }
+      }
+    ]
+  },
+  "version": "fafbc72431455dd87c3e9ad704ef1b3c"
 }

@@ -30,100 +30,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.72914,
-            35.00467,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 50’",
-          "description": "Off tree rdc",
-          "elevationMeters": 2170
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.72987,
-            35.00475,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 15’",
-          "description": "Off boulder rdc",
-          "elevationMeters": 2171
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7312,
-            35.00483,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - 90’",
-          "description": "Off tree ldc",
-          "elevationMeters": 2151
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.73367,
-            35.00567,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trail ldc",
-          "elevationMeters": 2130
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7318629473448,
-            35.00506036342694,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4 - 55’",
-          "description": "Optional rap off tree\nDownclimb ldc\nAvoid rdc",
-          "elevationMeters": 2143
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.73219352960588,
-            35.00158628165852,
-            0
-          ]
-        },
-        "properties": {
-          "name": "View",
-          "elevationMeters": 2083
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -580,7 +486,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1483.2072676375335,
@@ -843,7 +749,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 471.07130055134013,
@@ -976,7 +882,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 318.0528381639062,
@@ -984,8 +890,108 @@
           "descentMeters": 46.599609375,
           "changeMeters": -25.39990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.72914,
+            35.00467,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 50’",
+          "description": "Off tree rdc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2170
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.72987,
+            35.00475,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 15’",
+          "description": "Off boulder rdc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2171
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7312,
+            35.00483,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - 90’",
+          "description": "Off tree ldc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2151
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.73367,
+            35.00567,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trail ldc",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2130
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7318629473448,
+            35.00506036342694,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4 - 55’",
+          "description": "Optional rap off tree\nDownclimb ldc\nAvoid rdc",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2143
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.73219352960588,
+            35.00158628165852,
+            0
+          ]
+        },
+        "properties": {
+          "name": "View",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2083
+        }
       }
     ]
   },
-  "version": "9944c335af05f308b8a00b190c639d4c"
+  "version": "434ec99c61a558f847454af37114f230"
 }

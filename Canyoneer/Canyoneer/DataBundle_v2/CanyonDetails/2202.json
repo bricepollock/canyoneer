@@ -25,66 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.09234061347337,
-            46.16504063421259,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ape Canyon Trailhead",
-          "elevationMeters": 911
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.07486613043415,
-            46.17888337895975,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bridge",
-          "elevationMeters": 661
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.05443888902664,
-            46.18121861271163,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Smith Creek Trailhead",
-          "elevationMeters": 495
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.05539107322694,
-            46.183136042404975,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Seasonal Bridge",
-          "elevationMeters": 527
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1166,7 +1106,7 @@
         },
         "properties": {
           "name": "Mountain Bike Connector",
-          "stroke": "#009AFF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 5264.552576950416,
@@ -3069,7 +3009,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 7355.744868690904,
@@ -3147,7 +3087,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1499.2828075846194,
@@ -3955,7 +3895,7 @@
         },
         "properties": {
           "name": "Exit (trail)",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3871.7195903613624,
@@ -4644,7 +4584,7 @@
         "properties": {
           "name": "Lava Canyon Trail",
           "description": "(Not recommended)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2573.1287490797567,
@@ -4772,7 +4712,7 @@
         },
         "properties": {
           "name": "Exit (off-trail)",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2240.975240888939,
@@ -5965,7 +5905,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 8459.292570316815,
@@ -6078,7 +6018,7 @@
         },
         "properties": {
           "name": "Direct Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 373.50591042191934,
@@ -6441,7 +6381,7 @@
         },
         "properties": {
           "name": "High water exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3191.778644700319,
@@ -6449,8 +6389,72 @@
           "descentMeters": 292.0999755859375,
           "changeMeters": -77.70001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.09234061347337,
+            46.16504063421259,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ape Canyon Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 911
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.07486613043415,
+            46.17888337895975,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bridge",
+          "stroke": "#AF52DE",
+          "elevationMeters": 661
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.05443888902664,
+            46.18121861271163,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Smith Creek Trailhead",
+          "stroke": "#AF52DE",
+          "elevationMeters": 495
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.05539107322694,
+            46.183136042404975,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Seasonal Bridge",
+          "stroke": "#AF52DE",
+          "elevationMeters": 527
+        }
       }
     ]
   },
-  "version": "bb2c8ddb54919df324f36d81158240ec"
+  "version": "1b4e1be7d750540a012f4a76eb8dd756"
 }

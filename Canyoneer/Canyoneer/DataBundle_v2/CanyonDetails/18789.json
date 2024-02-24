@@ -34,51 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.5788006782532,
-            35.23031904752958,
-            0
-          ]
-        },
-        "properties": {
-          "name": "long approach parking",
-          "elevationMeters": 2085
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.60162985303033,
-            35.22481345291223,
-            0
-          ]
-        },
-        "properties": {
-          "name": "elder sneak parking",
-          "elevationMeters": 2289
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6021090744289,
-            35.23293540205952,
-            0
-          ]
-        },
-        "properties": {
-          "name": "100' rappel",
-          "elevationMeters": 2253
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -130,7 +85,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1359.9646421317113,
@@ -403,7 +358,7 @@
         },
         "properties": {
           "name": "long approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4315.189236595929,
@@ -586,7 +541,7 @@
         },
         "properties": {
           "name": "long exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3085.421326358146,
@@ -1029,7 +984,7 @@
         },
         "properties": {
           "name": "sneak approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1510.2884479253544,
@@ -1247,7 +1202,7 @@
         },
         "properties": {
           "name": "sneak exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 622.5163505908278,
@@ -1255,8 +1210,56 @@
           "descentMeters": 94.599853515625,
           "changeMeters": -17
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.5788006782532,
+            35.23031904752958,
+            0
+          ]
+        },
+        "properties": {
+          "name": "long approach parking",
+          "stroke": "#34C759",
+          "elevationMeters": 2085
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.60162985303033,
+            35.22481345291223,
+            0
+          ]
+        },
+        "properties": {
+          "name": "elder sneak parking",
+          "stroke": "#34C759",
+          "elevationMeters": 2289
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6021090744289,
+            35.23293540205952,
+            0
+          ]
+        },
+        "properties": {
+          "name": "100' rappel",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2253
+        }
       }
     ]
   },
-  "version": "88bd2f0ada7046a9ece1d435ff14b371"
+  "version": "c0f308cc9f5c6542ad342ddd2aad327d"
 }

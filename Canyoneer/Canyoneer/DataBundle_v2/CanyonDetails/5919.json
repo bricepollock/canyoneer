@@ -25,38 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.242077193,
-            48.675074859,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "description": "Parking",
-          "elevationMeters": 341
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.238957653,
-            48.676359002,
-            0
-          ]
-        },
-        "properties": {
-          "name": "High Voltage Sign",
-          "description": "High Voltage Sign",
-          "elevationMeters": 333
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -93,7 +61,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 303.74131662460894,
@@ -251,7 +219,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00FF44",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 822.5771136541931,
@@ -359,7 +327,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 724.6675439993737,
@@ -367,8 +335,42 @@
           "descentMeters": 212.39996337890625,
           "changeMeters": -144.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.242077193,
+            48.675074859,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "description": "Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 341
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.238957653,
+            48.676359002,
+            0
+          ]
+        },
+        "properties": {
+          "name": "High Voltage Sign",
+          "description": "High Voltage Sign",
+          "stroke": "#34C759",
+          "elevationMeters": 333
+        }
       }
     ]
   },
-  "version": "6f756e82495c963df5c2c5e0df085405"
+  "version": "14381626a4d5b67130df21185138c369"
 }

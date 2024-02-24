@@ -27,66 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.75214399999999,
-            37.689117,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3404
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.735474,
-            37.701359,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Three Lakes Creek Drop In",
-          "elevationMeters": 3362
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.749924,
-            37.689629,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Crumbly upclimb",
-          "elevationMeters": 3359
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.71045211929452,
-            37.72849026003114,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Car Shuttle Parking",
-          "elevationMeters": 3204
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -208,7 +148,7 @@
         },
         "properties": {
           "name": "Approach (from bottom)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2152.2392189374777,
@@ -316,7 +256,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1617.9730155642058,
@@ -389,7 +329,7 @@
         },
         "properties": {
           "name": "Approach Off Trail downstream",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1173.4104852962685,
@@ -447,7 +387,7 @@
         },
         "properties": {
           "name": "Return down Lime Creek",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 855.7581570697447,
@@ -1770,7 +1710,7 @@
         },
         "properties": {
           "name": "Car Shuttle",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 11923.043031427444,
@@ -2693,7 +2633,7 @@
         },
         "properties": {
           "name": "Approach from Andrews Lake",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4376.31854638575,
@@ -2701,8 +2641,72 @@
           "descentMeters": 631.400390625,
           "changeMeters": -40.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.75214399999999,
+            37.689117,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 3404
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.735474,
+            37.701359,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Three Lakes Creek Drop In",
+          "stroke": "#34C759",
+          "elevationMeters": 3362
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.749924,
+            37.689629,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Crumbly upclimb",
+          "stroke": "#34C759",
+          "elevationMeters": 3359
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.71045211929452,
+            37.72849026003114,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Car Shuttle Parking",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 3204
+        }
       }
     ]
   },
-  "version": "82c70600f8e5af6c9412cc27ca02975d"
+  "version": "e1e29fa16068c53ca878f4c5306a9719"
 }

@@ -130,7 +130,7 @@
         "properties": {
           "name": "Descent",
           "description": "Longitud: 1800 m<br>Desnivel: 140m<br>Descenso: 2-3h<br>Rapel (max): 10m<br>Cuerda: 20m<br>Descripcion (http://barrankos.blogspot.com/2007/08/ordiso.html)<br>Mapa General de Barrancos (http://maps.google.com/maps/ms?msa=0&msid=113539346073885998228.00043abb3654329730242)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 1788.284961625365,
@@ -339,7 +339,7 @@
         "properties": {
           "name": "Approach",
           "description": "Desde San Nicolás de Bujaruelo seguimos la pista que pasa por la izquierda del puente. En las 2 bifurcaciones que encontraremos seguimos siempre la pista de la derecha, hasta llegar a un puente que cruza el rio Ara. Este es el final del descenso. Desde aqui podemos tomar un atajo que sale a la izquierda una vez cruzado el puente o seguir por la pista. En cuanto lleguemos a una gran cascada que aueda a laderecha del camino (Salto del Pich), dejaremos la pista por la izquierda bajar hasta el rio, punto donde empieza el descenso.",
-          "stroke": "#00FF00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 3444.364520171562,
@@ -428,36 +428,13 @@
         "properties": {
           "name": "Exit",
           "description": "Desde el puente desharemos el camino de aproximación por la pista, de regreso a San Nicolás de Bujaruelo.",
-          "stroke": "#FFFF00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 1597.0598858968526,
           "ascentMeters": 171.300048828125,
           "descentMeters": 446.7000732421875,
           "changeMeters": -275.4000244140625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.106902,
-            42.694722,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-93",
-          "styleHash": "203f2b70",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "GPS:  (WGS84)",
-          "elevationMeters": 1478
         }
       },
       {
@@ -499,13 +476,37 @@
         },
         "properties": {
           "name": "Salto del Pich",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 3,
           "lengthMeters": 782.5939305017055,
           "ascentMeters": 0,
           "descentMeters": 208.5,
           "changeMeters": -208.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.106902,
+            42.694722,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-93",
+          "styleHash": "203f2b70",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "GPS:  (WGS84)",
+          "stroke": "#34C759",
+          "elevationMeters": 1478
         }
       },
       {
@@ -528,6 +529,7 @@
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/61-green-dot.png",
           "description": "GPS: (WGS84)",
+          "stroke": "#34C759",
           "elevationMeters": 1733
         }
       },
@@ -551,10 +553,11 @@
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/123-red-dot.png",
           "description": "GPS: (WGS84)",
+          "stroke": "#34C759",
           "elevationMeters": 1727
         }
       }
     ]
   },
-  "version": "0203429cda0c0ccc0ba7f2c96695c0b7"
+  "version": "fa3cfdce7be8130f45377a8d4d794ae8"
 }

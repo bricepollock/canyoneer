@@ -27,51 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.31864452362062,
-            44.82540836191689,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 1185
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.29791641235353,
-            44.84564611772204,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 906
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.31370925903322,
-            44.83198260781928,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Elkhorn Falls",
-          "elevationMeters": 1142
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -128,7 +83,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 587.7954340448742,
@@ -221,7 +176,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1040.4766915325954,
@@ -589,7 +544,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2074.098820310691,
@@ -2262,7 +2217,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 14987.13405002533,
@@ -2270,8 +2225,56 @@
           "descentMeters": 2919.8001098632812,
           "changeMeters": 280.70001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.31864452362062,
+            44.82540836191689,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1185
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.29791641235353,
+            44.84564611772204,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 906
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.31370925903322,
+            44.83198260781928,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Elkhorn Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1142
+        }
       }
     ]
   },
-  "version": "021889748adc04127273b43e2aaa9edf"
+  "version": "2bea1dacb39db7295100d4d2b8c3c08a"
 }

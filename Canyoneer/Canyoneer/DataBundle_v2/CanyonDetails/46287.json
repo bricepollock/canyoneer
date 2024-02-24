@@ -27,28 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.2011612961203,
-            35.95658091471213,
-            0
-          ]
-        },
-        "properties": {
-          "name": "fenced structure",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 321
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1826,7 +1804,7 @@
             "normal": "#path2Style00",
             "highlight": "#path2Style1"
           },
-          "stroke": "#55ffff",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3473.129799965947,
@@ -2811,7 +2789,7 @@
           "name": "up ridge - 1.1 mi",
           "styleUrl": "#path5Style",
           "styleHash": "-1756cbe",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1823.0297029091444,
@@ -3426,7 +3404,7 @@
           "name": "trek back to camp on road - 1.3 mi",
           "styleUrl": "#path4Style",
           "styleHash": "4103b4c9",
-          "stroke": "#4040ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2116.592507286267,
@@ -4381,7 +4359,7 @@
           "name": "Little Bighorn Canyon - 1.1 mi",
           "styleUrl": "#path3Style",
           "styleHash": "-c382bc0",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1836.0921656355927,
@@ -5201,7 +5179,7 @@
           "name": "exit to road - 0.7 mi",
           "styleUrl": "#path2Style",
           "styleHash": "1e678dff",
-          "stroke": "#00ffff",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1055.8150234873983,
@@ -6201,7 +6179,7 @@
           "name": "Bighorn Canyon Panamints",
           "styleUrl": "#path1Style",
           "styleHash": "78a7939f",
-          "stroke": "#fe01fe",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3677.0183331646,
@@ -6581,13 +6559,36 @@
           "name": "approach from camp - 0.4 mi",
           "styleUrl": "#path0Style",
           "styleHash": "3eb5ee69",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 687.445709473088,
           "ascentMeters": 241.3997802734375,
           "descentMeters": 55.7998046875,
           "changeMeters": 185.5999755859375
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.2011612961203,
+            35.95658091471213,
+            0
+          ]
+        },
+        "properties": {
+          "name": "fenced structure",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 321
         }
       },
       {
@@ -6603,6 +6604,7 @@
         "properties": {
           "name": "1st bump",
           "description": "Ridgecrest (Blm)",
+          "stroke": "#34C759",
           "elevationMeters": 1562
         }
       },
@@ -6619,6 +6621,7 @@
         "properties": {
           "name": "2nd bump",
           "description": "Ridgecrest (Blm)",
+          "stroke": "#34C759",
           "elevationMeters": 1542
         }
       },
@@ -6635,6 +6638,7 @@
         "properties": {
           "name": "3120'",
           "description": "3120 ft height",
+          "stroke": "#34C759",
           "elevationMeters": 1486
         }
       },
@@ -6651,6 +6655,7 @@
         "properties": {
           "name": "A  1 80",
           "description": "Latitude: 35.9609130397 Longitude : -117.1790960245",
+          "stroke": "#FF3B30",
           "elevationMeters": 1504
         }
       },
@@ -6674,6 +6679,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png",
           "description": "Latitude: 35.9598989971 Longitude : -117.1921280399",
+          "stroke": "#FF3B30",
           "elevationMeters": 389
         }
       },
@@ -6690,6 +6696,7 @@
         "properties": {
           "name": "A 2 60",
           "description": "Latitude: 35.9619389847 Longitude : -117.1798089892",
+          "stroke": "#FF3B30",
           "elevationMeters": 1491
         }
       },
@@ -6706,6 +6713,7 @@
         "properties": {
           "name": "A 4 90",
           "description": "Latitude: 35.9619450197 Longitude : -117.1805289946",
+          "stroke": "#FF3B30",
           "elevationMeters": 1532
         }
       },
@@ -6722,6 +6730,7 @@
         "properties": {
           "name": "A 5 60",
           "description": "Latitude: 35.9609279595 Longitude : -117.1852749959",
+          "stroke": "#FF3B30",
           "elevationMeters": 1642
         }
       },
@@ -6738,6 +6747,7 @@
         "properties": {
           "name": "A 6 50",
           "description": "Latitude: 35.9611960128 Longitude : -117.1873680409",
+          "stroke": "#FF3B30",
           "elevationMeters": 1591
         }
       },
@@ -6754,6 +6764,7 @@
         "properties": {
           "name": "A 7 50",
           "description": "Latitude: 35.9609820228 Longitude : -117.1885120030",
+          "stroke": "#FF3B30",
           "elevationMeters": 1609
         }
       },
@@ -6770,6 +6781,7 @@
         "properties": {
           "name": "A 8 80",
           "description": "Latitude: 35.9608599823 Longitude : -117.1905570198",
+          "stroke": "#FF3B30",
           "elevationMeters": 1616
         }
       },
@@ -6786,6 +6798,7 @@
         "properties": {
           "name": "A 9 80",
           "description": "Latitude: 35.9609790053 Longitude : -117.1906260028",
+          "stroke": "#FF3B30",
           "elevationMeters": 1616
         }
       },
@@ -6802,6 +6815,7 @@
         "properties": {
           "name": "Big Horn Canyon",
           "description": "Big Horn Canyon",
+          "stroke": "#FF3B30",
           "elevationMeters": 1403
         }
       },
@@ -6818,6 +6832,7 @@
         "properties": {
           "name": "Camp 1260'",
           "description": "Latitude: 35.9664490353 Longitude : -117.1983289719",
+          "stroke": "#FFCC00",
           "elevationMeters": 1371
         }
       },
@@ -6834,6 +6849,7 @@
         "properties": {
           "name": "Little Bighorn canyon mouth",
           "description": "Latitude: 35.9585499298 Longitude : -117.1952759475",
+          "stroke": "#FF3B30",
           "elevationMeters": 361
         }
       },
@@ -6850,6 +6866,7 @@
         "properties": {
           "name": "up gully past wash",
           "description": "Latitude: 35.9621060360 Longitude : -117.1941990405",
+          "stroke": "#FFCC00",
           "elevationMeters": 1530
         }
       },
@@ -6866,6 +6883,7 @@
         "properties": {
           "name": "Wingate Rd exit",
           "description": "Latitude: 35.9576239809 Longitude : -117.2065080330",
+          "stroke": "#5AC8FA",
           "elevationMeters": 321
         }
       },
@@ -6882,10 +6900,11 @@
         "properties": {
           "name": "Wingate Rd turn on 4wd rd",
           "description": "Wingate Rd and street",
+          "stroke": "#5856D6",
           "elevationMeters": 1255
         }
       }
     ]
   },
-  "version": "6b50439454f49f29ced8cedb4614ec31"
+  "version": "e0fcb723c5c03b75108eec5c2294cb3d"
 }

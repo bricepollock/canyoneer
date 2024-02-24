@@ -30,138 +30,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.5334016,
-            38.7289248,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead / Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1490
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.5647262,
-            38.7482946,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rappel",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1830
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.5620195,
-            38.7442253,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bridge",
-          "styleUrl": "#icon-1233-nodesc",
-          "styleHash": "-526c9c7a",
-          "styleMapHash": {
-            "normal": "#icon-1233-nodesc-normal",
-            "highlight": "#icon-1233-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1233-poi-bridge.png",
-          "elevationMeters": 1802
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.5618908,
-            38.7435881,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Big Rappel",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1787
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.5616359,
-            38.7410714,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Old Mining Ruins",
-          "styleUrl": "#icon-1201-nodesc",
-          "styleHash": "3bd5bd29",
-          "styleMapHash": {
-            "normal": "#icon-1201-nodesc-normal",
-            "highlight": "#icon-1201-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1201-fac-info-alt.png",
-          "elevationMeters": 1743
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.5651343,
-            38.7487805,
-            0
-          ]
-        },
-        "properties": {
-          "name": "View",
-          "styleUrl": "#icon-1399-nodesc",
-          "styleHash": "6d35e7ba",
-          "styleMapHash": {
-            "normal": "#icon-1399-nodesc-normal",
-            "highlight": "#icon-1399-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1399-rec-viewing-platform.png",
-          "elevationMeters": 1840
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -509,7 +377,7 @@
             "normal": "#line-558B2F-5456-nodesc-normal",
             "highlight": "#line-558B2F-5456-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 1872.3025006506434,
@@ -698,7 +566,7 @@
             "normal": "#line-097138-5456-nodesc-normal",
             "highlight": "#line-097138-5456-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 2709.0897166889845,
@@ -1047,7 +915,7 @@
             "normal": "#line-A52714-5650-nodesc-normal",
             "highlight": "#line-A52714-5650-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 728.8578816238265,
@@ -1581,7 +1449,7 @@
             "normal": "#line-FFD600-5456-nodesc-normal",
             "highlight": "#line-FFD600-5456-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 2763.111433240038,
@@ -1589,8 +1457,146 @@
           "descentMeters": 481.0997314453125,
           "changeMeters": -216.89990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.5334016,
+            38.7289248,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead / Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1490
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.5647262,
+            38.7482946,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rappel",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1830
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.5620195,
+            38.7442253,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bridge",
+          "styleUrl": "#icon-1233-nodesc",
+          "styleHash": "-526c9c7a",
+          "styleMapHash": {
+            "normal": "#icon-1233-nodesc-normal",
+            "highlight": "#icon-1233-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1233-poi-bridge.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1802
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.5618908,
+            38.7435881,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Big Rappel",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1787
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.5616359,
+            38.7410714,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Old Mining Ruins",
+          "styleUrl": "#icon-1201-nodesc",
+          "styleHash": "3bd5bd29",
+          "styleMapHash": {
+            "normal": "#icon-1201-nodesc-normal",
+            "highlight": "#icon-1201-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1201-fac-info-alt.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1743
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.5651343,
+            38.7487805,
+            0
+          ]
+        },
+        "properties": {
+          "name": "View",
+          "styleUrl": "#icon-1399-nodesc",
+          "styleHash": "6d35e7ba",
+          "styleMapHash": {
+            "normal": "#icon-1399-nodesc-normal",
+            "highlight": "#icon-1399-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1399-rec-viewing-platform.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1840
+        }
       }
     ]
   },
-  "version": "2975862bc18c8aeb5fad46ea3d9a3f2d"
+  "version": "b4fd508724943ccc7ccdb78df5e8d26c"
 }

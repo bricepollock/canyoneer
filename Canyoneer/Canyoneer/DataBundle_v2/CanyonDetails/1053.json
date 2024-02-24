@@ -34,52 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.901116,
-            37.455544,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#icon-93",
-          "styleHash": "6012e13e",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park a car here. (Data by canyonchronicles.com)",
-          "elevationMeters": 1890
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.924827,
-            37.442785,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#icon-55",
-          "styleHash": "16540f57",
-          "styleMapHash": {
-            "normal": "#icon-55-normal",
-            "highlight": "#icon-55-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/55-flag.png",
-          "description": "The narrows subside and the canyon becomes non-interesting. (Data by canyonchronicles.com)",
-          "elevationMeters": 1901
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -298,13 +252,61 @@
             "highlight": "#line-0000FF-5000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#0000ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3353.1659717914426,
           "ascentMeters": 143.7998046875,
           "descentMeters": 126.099853515625,
           "changeMeters": 17.699951171875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.901116,
+            37.455544,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#icon-93",
+          "styleHash": "6012e13e",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park a car here. (Data by canyonchronicles.com)",
+          "stroke": "#5856D6",
+          "elevationMeters": 1890
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.924827,
+            37.442785,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#icon-55",
+          "styleHash": "16540f57",
+          "styleMapHash": {
+            "normal": "#icon-55-normal",
+            "highlight": "#icon-55-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/55-flag.png",
+          "description": "The narrows subside and the canyon becomes non-interesting. (Data by canyonchronicles.com)",
+          "stroke": "#5856D6",
+          "elevationMeters": 1901
         }
       },
       {
@@ -326,8 +328,9 @@
             "highlight": "#icon-177-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/177-camera.png",
-          "description": "<img src=\"https://lh3.googleusercontent.com/umsh/AK-S7uHetDtRfUp9wrtfK7HaAFNeLwN3JOk-QzcV6iS8G53IFbqEUOPQ6XjSGkhkkX2lWCJ_wM0xPPq5FWxWSUHPsgEkFjhsgYh3Zz7ouZx4cx8aR0nPSii-aynMjJe3NGoOFUCwLieB6a-mSeUrunUX8sn9s9jN6zQO6jpcO_AqBJLVM_ggL2vSaEonWhTN3Q\" height=\"200\" width=\"auto\" /><br><br> (Data by canyonchronicles.com)",
-          "gx_media_links": "https://lh3.googleusercontent.com/umsh/AK-S7uHetDtRfUp9wrtfK7HaAFNeLwN3JOk-QzcV6iS8G53IFbqEUOPQ6XjSGkhkkX2lWCJ_wM0xPPq5FWxWSUHPsgEkFjhsgYh3Zz7ouZx4cx8aR0nPSii-aynMjJe3NGoOFUCwLieB6a-mSeUrunUX8sn9s9jN6zQO6jpcO_AqBJLVM_ggL2vSaEonWhTN3Q",
+          "description": "<img src=\"https://lh3.googleusercontent.com/umsh/AN6v0v5DjAWv6z83bQfhbjiSTCiGQbN9fOm2CPzq_q_t2bS8UIPrIADS-VkXvtL8cCVewQjG0zdxOWQ6Cs3MoGxtZ1fLTpsMIMLW2vbBsm5t5nPLbV5gGFVeuXqg62o6FOyuZc9bGejeXVEF4qSvU_8aJC2a_gfadIVG4fV_AqQblaa6EHhaVIi6gpCZJoWv4w\" height=\"200\" width=\"auto\" /><br><br> (Data by canyonchronicles.com)",
+          "gx_media_links": "https://lh3.googleusercontent.com/umsh/AN6v0v5DjAWv6z83bQfhbjiSTCiGQbN9fOm2CPzq_q_t2bS8UIPrIADS-VkXvtL8cCVewQjG0zdxOWQ6Cs3MoGxtZ1fLTpsMIMLW2vbBsm5t5nPLbV5gGFVeuXqg62o6FOyuZc9bGejeXVEF4qSvU_8aJC2a_gfadIVG4fV_AqQblaa6EHhaVIi6gpCZJoWv4w",
+          "stroke": "#5856D6",
           "elevationMeters": 1922
         }
       },
@@ -350,12 +353,13 @@
             "highlight": "#icon-177-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/177-camera.png",
-          "description": "<img src=\"https://lh3.googleusercontent.com/umsh/AK-S7uGY8a_eAb7vQgP6pS7xk2SBWWIdXTJqLbHHHRhUS2LSIaecQhlj3SmUKddBwR7BU-WIibHZvHITJtitsXwax5XhRFR6ixJlYdj3VEEOBqyoGS9CwCp_4xp_T8X7_N8Xt6HiLe21qg15Klt6HWB2nwXxbq8la6WXqZc0n3yAKGWimh0ugdjic35VAbapZw\" height=\"200\" width=\"auto\" /><br><br> (Data by canyonchronicles.com)",
-          "gx_media_links": "https://lh3.googleusercontent.com/umsh/AK-S7uGY8a_eAb7vQgP6pS7xk2SBWWIdXTJqLbHHHRhUS2LSIaecQhlj3SmUKddBwR7BU-WIibHZvHITJtitsXwax5XhRFR6ixJlYdj3VEEOBqyoGS9CwCp_4xp_T8X7_N8Xt6HiLe21qg15Klt6HWB2nwXxbq8la6WXqZc0n3yAKGWimh0ugdjic35VAbapZw",
+          "description": "<img src=\"https://lh3.googleusercontent.com/umsh/AN6v0v5aBpJcuwqHdl98opfikgoRyuOPBtt-9064nGMg-V1Qd1G5R8XxFuCMGTH9r6HWvqJGTaeepwHrgEwp_iSYdZXC1z1OddLLWKpGjzaqEBS5F0VmKywD_Pp3ZvzqBssXGP4bw3DPakNR03Gf7MoMoUO63mRUvTX7ch9QXQVAs9QXg6QlrxszPOFSACqcsw\" height=\"200\" width=\"auto\" /><br><br> (Data by canyonchronicles.com)",
+          "gx_media_links": "https://lh3.googleusercontent.com/umsh/AN6v0v5aBpJcuwqHdl98opfikgoRyuOPBtt-9064nGMg-V1Qd1G5R8XxFuCMGTH9r6HWvqJGTaeepwHrgEwp_iSYdZXC1z1OddLLWKpGjzaqEBS5F0VmKywD_Pp3ZvzqBssXGP4bw3DPakNR03Gf7MoMoUO63mRUvTX7ch9QXQVAs9QXg6QlrxszPOFSACqcsw",
+          "stroke": "#5856D6",
           "elevationMeters": 1888
         }
       }
     ]
   },
-  "version": "b0dfe240a3d05d0ab55e67b9cbf92b5c"
+  "version": "a3b36aa35d7379c47c20d3cc0e3e5cbf"
 }

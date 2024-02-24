@@ -26,21 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.43634,
-            34.12467,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 1128
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1477,7 +1462,7 @@
         },
         "properties": {
           "name": "Access Road",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 12913.153132777219,
@@ -2765,7 +2750,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4911.516508747867,
@@ -3218,7 +3203,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1384.659079351389,
@@ -4026,7 +4011,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4440.057524451403,
@@ -4034,8 +4019,24 @@
           "descentMeters": 1217.7998046875,
           "changeMeters": -859.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.43634,
+            34.12467,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1128
+        }
       }
     ]
   },
-  "version": "d075771619e49b7c1cd843c5ae2b354c"
+  "version": "86f6f189f550b05c06410c6b8ffe2f1a"
 }

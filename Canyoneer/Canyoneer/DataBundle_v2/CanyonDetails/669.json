@@ -25,179 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.979939,
-            33.769979,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit turn off",
-          "description": "Immediately after the final rappel, there will be a break on the canyon wall on the right. Pretty obvious, just scramble up this loose and steep gulley.",
-          "elevationMeters": 1393
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.97539216279986,
-            33.77991647667534,
-            0
-          ]
-        },
-        "properties": {
-          "name": "4x4 park",
-          "description": "Park somewhere around here and simply drop in.",
-          "elevationMeters": 1447
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.971924067,
-            33.786027036,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "description": "Option to avoid 4x4 jeep obstacles",
-          "elevationMeters": 1300
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.97183,
-            33.784748,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start of 4x4 obstacles",
-          "elevationMeters": 1415
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.984249,
-            33.772026,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon rim",
-          "elevationMeters": 1381
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.97686201334002,
-            33.775308189294485,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 15’",
-          "description": "Bolt LDC",
-          "elevationMeters": 1375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.97707390785219,
-            33.7751097620647,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Slide",
-          "elevationMeters": 1352
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.97699344158174,
-            33.774830513976845,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 20’",
-          "description": "Off rock pinch",
-          "elevationMeters": 1330
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.97688,
-            33.77457,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - 30’",
-          "description": "Off rock pinch LDC",
-          "elevationMeters": 1328
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.97944498062134,
-            33.771170106077435,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4 - 50’",
-          "description": "Off tree",
-          "elevationMeters": 1379
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.97966626286508,
-            33.77023254382759,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5 - 80’",
-          "description": "Off boulder",
-          "elevationMeters": 1391
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -394,7 +221,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1098.4437156020151,
@@ -727,7 +554,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1293.702146527372,
@@ -1135,7 +962,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2127.4034945932017,
@@ -1143,8 +970,192 @@
           "descentMeters": 124.199951171875,
           "changeMeters": 48.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.979939,
+            33.769979,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit turn off",
+          "description": "Immediately after the final rappel, there will be a break on the canyon wall on the right. Pretty obvious, just scramble up this loose and steep gulley.",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1393
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.97539216279986,
+            33.77991647667534,
+            0
+          ]
+        },
+        "properties": {
+          "name": "4x4 park",
+          "description": "Park somewhere around here and simply drop in.",
+          "stroke": "#34C759",
+          "elevationMeters": 1447
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.971924067,
+            33.786027036,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "description": "Option to avoid 4x4 jeep obstacles",
+          "stroke": "#34C759",
+          "elevationMeters": 1300
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.97183,
+            33.784748,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start of 4x4 obstacles",
+          "stroke": "#34C759",
+          "elevationMeters": 1415
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.984249,
+            33.772026,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon rim",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1381
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.97686201334002,
+            33.775308189294485,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 15’",
+          "description": "Bolt LDC",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1375
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.97707390785219,
+            33.7751097620647,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Slide",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1352
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.97699344158174,
+            33.774830513976845,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 20’",
+          "description": "Off rock pinch",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1330
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.97688,
+            33.77457,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - 30’",
+          "description": "Off rock pinch LDC",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1328
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.97944498062134,
+            33.771170106077435,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4 - 50’",
+          "description": "Off tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1379
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.97966626286508,
+            33.77023254382759,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5 - 80’",
+          "description": "Off boulder",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1391
+        }
       }
     ]
   },
-  "version": "8da98662aa0f766a87aeb18581bc6228"
+  "version": "24e47ccfa5573533dc516e74542b39ec"
 }

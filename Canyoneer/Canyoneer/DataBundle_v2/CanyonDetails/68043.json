@@ -34,160 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.754267,
-            34.82956,
-            0
-          ]
-        },
-        "properties": {
-          "name": "HC,4x4 Park",
-          "elevationMeters": 1611
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.73975601792337,
-            34.81890988664756,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave trail",
-          "elevationMeters": 1995
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.740743,
-            34.8154,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave drainage",
-          "elevationMeters": 1797
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.741087,
-            34.814743,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cliff base",
-          "description": "1:15h, 2.25m",
-          "elevationMeters": 1763
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.742264,
-            34.814238,
-            0
-          ]
-        },
-        "properties": {
-          "name": "4th class",
-          "elevationMeters": 1724
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74505069851877,
-            34.8109603247396,
-            0
-          ]
-        },
-        "properties": {
-          "name": "View",
-          "elevationMeters": 1367
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74328714609148,
-            34.810788552886976,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Enter drainage",
-          "elevationMeters": 1403
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.741272,
-            34.811555,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 45’",
-          "description": "Off boulder",
-          "elevationMeters": 1443
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74113467335702,
-            34.811905063528776,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 35’",
-          "description": "Off rock pinch",
-          "elevationMeters": 1440
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74110785126688,
-            34.81209445042098,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - 40’",
-          "description": "Off rock pinch ldc",
-          "elevationMeters": 1440
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1814,7 +1660,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3858.432543595891,
@@ -1882,7 +1728,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 70.91148833274835,
@@ -2305,7 +2151,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 714.1234791307783,
@@ -2513,7 +2359,7 @@
         },
         "properties": {
           "name": "Spur to view",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 164.58580723076068,
@@ -2521,8 +2367,172 @@
           "descentMeters": 46,
           "changeMeters": -43.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.754267,
+            34.82956,
+            0
+          ]
+        },
+        "properties": {
+          "name": "HC,4x4 Park",
+          "stroke": "#34C759",
+          "elevationMeters": 1611
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.73975601792337,
+            34.81890988664756,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave trail",
+          "stroke": "#34C759",
+          "elevationMeters": 1995
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.740743,
+            34.8154,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave drainage",
+          "stroke": "#34C759",
+          "elevationMeters": 1797
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.741087,
+            34.814743,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cliff base",
+          "description": "1:15h, 2.25m",
+          "stroke": "#34C759",
+          "elevationMeters": 1763
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.742264,
+            34.814238,
+            0
+          ]
+        },
+        "properties": {
+          "name": "4th class",
+          "stroke": "#34C759",
+          "elevationMeters": 1724
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74505069851877,
+            34.8109603247396,
+            0
+          ]
+        },
+        "properties": {
+          "name": "View",
+          "stroke": "#FF9500",
+          "elevationMeters": 1367
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74328714609148,
+            34.810788552886976,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Enter drainage",
+          "stroke": "#34C759",
+          "elevationMeters": 1403
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.741272,
+            34.811555,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 45’",
+          "description": "Off boulder",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1443
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74113467335702,
+            34.811905063528776,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 35’",
+          "description": "Off rock pinch",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1440
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74110785126688,
+            34.81209445042098,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - 40’",
+          "description": "Off rock pinch ldc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1440
+        }
       }
     ]
   },
-  "version": "ee5ebdb3823790e366326fe2e4db316e"
+  "version": "02cf8bf088684d89d0e07f44a2bda04f"
 }

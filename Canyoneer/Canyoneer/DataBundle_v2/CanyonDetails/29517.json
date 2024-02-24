@@ -13,52 +13,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.367934,
-            42.433515,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "50d0f36b",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by isidro canadillas at wikiloc.com)",
-          "elevationMeters": 811
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.368395,
-            42.433283,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "25cef0d1",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by isidro canadillas at wikiloc.com)",
-          "elevationMeters": 800
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2486,7 +2440,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by isidro canadillas at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2583.2130777316647,
@@ -2494,8 +2448,56 @@
           "descentMeters": 318.19989013671875,
           "changeMeters": -11.29998779296875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.367934,
+            42.433515,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-54632f3b",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by isidro canadillas at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 811
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.368395,
+            42.433283,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "1466415d",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by isidro canadillas at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 800
+        }
       }
     ]
   },
-  "version": "df20b0be13de6dd10fcaad65e1094bc8"
+  "version": "e5c856ad6a23a1e024ee29d364bea695"
 }

@@ -27,67 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.74739,
-            49.39827,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Parking",
-          "elevationMeters": 237
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.73077955849335,
-            49.37765393718443,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start Parking",
-          "description": "Point is approximate and will depend on how far you can make it up the logging road",
-          "elevationMeters": 20
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.73484,
-            49.40237,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-in to Creek",
-          "elevationMeters": 13
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.73887183326708,
-            49.38378367910538,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Alternate Start Parking",
-          "elevationMeters": 945
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -855,7 +794,7 @@
         "properties": {
           "name": "Shuttle",
           "description": "Distance is approximate and will depend on how far you are able to make it up the logging road",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 5725.989033959392,
@@ -1223,7 +1162,7 @@
         },
         "properties": {
           "name": "Approach Hike",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3325.03010104761,
@@ -1411,7 +1350,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#009AFF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1090.3387338799266,
@@ -1609,7 +1548,7 @@
         },
         "properties": {
           "name": "Alternate Shuttle",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 776.1397798691721,
@@ -1767,7 +1706,7 @@
         },
         "properties": {
           "name": "Alternate Approach Hike",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 642.7754796321776,
@@ -1775,8 +1714,73 @@
           "descentMeters": 328.9000244140625,
           "changeMeters": -308.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.74739,
+            49.39827,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 237
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.73077955849335,
+            49.37765393718443,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start Parking",
+          "description": "Point is approximate and will depend on how far you can make it up the logging road",
+          "stroke": "#34C759",
+          "elevationMeters": 20
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.73484,
+            49.40237,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-in to Creek",
+          "stroke": "#007AFF",
+          "elevationMeters": 13
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.73887183326708,
+            49.38378367910538,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Alternate Start Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 945
+        }
       }
     ]
   },
-  "version": "2d3d4ad4cf6af59b3d8361400b6662d4"
+  "version": "2215febf3004217c1bb5171779a5632f"
 }

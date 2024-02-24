@@ -27,66 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.27538999,
-            38.40779775,
-            0
-          ]
-        },
-        "properties": {
-          "name": "top of slot",
-          "elevationMeters": 1871
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.27597079,
-            38.40795503,
-            0
-          ]
-        },
-        "properties": {
-          "name": "trail intersection ",
-          "elevationMeters": 1870
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.27585223317146,
-            38.404470354994295,
-            0
-          ]
-        },
-        "properties": {
-          "name": "top of slot",
-          "elevationMeters": 1857
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.27123982237704,
-            38.40438049290261,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1894
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -618,7 +558,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 892.2272007450944,
@@ -731,7 +671,7 @@
         },
         "properties": {
           "name": "hiking trail to top of Scratchy",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 337.2036680842078,
@@ -764,7 +704,7 @@
         },
         "properties": {
           "name": "private land to North and East",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 890.9501635520402,
@@ -1267,7 +1207,7 @@
         },
         "properties": {
           "name": "Temple Canyon Rd",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4821.899594874987,
@@ -2110,7 +2050,7 @@
         },
         "properties": {
           "name": "Itchy return (alt)",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1384.8004152629198,
@@ -2223,7 +2163,7 @@
         },
         "properties": {
           "name": "Itchy",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 112.97209957194792,
@@ -2536,7 +2476,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 364.67715501627686,
@@ -2674,7 +2614,7 @@
         },
         "properties": {
           "name": "Scratchy return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 136.11691421512444,
@@ -3292,7 +3232,7 @@
         },
         "properties": {
           "name": "Itchy return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 963.1304655298765,
@@ -3365,7 +3305,7 @@
         },
         "properties": {
           "name": "wash",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 53.489104870368095,
@@ -3488,7 +3428,7 @@
         },
         "properties": {
           "name": "Scratchy",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 136.3648488388807,
@@ -3496,8 +3436,72 @@
           "descentMeters": 0.199951171875,
           "changeMeters": 9.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.27538999,
+            38.40779775,
+            0
+          ]
+        },
+        "properties": {
+          "name": "top of slot",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1871
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.27597079,
+            38.40795503,
+            0
+          ]
+        },
+        "properties": {
+          "name": "trail intersection ",
+          "stroke": "#FF9500",
+          "elevationMeters": 1870
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.27585223317146,
+            38.404470354994295,
+            0
+          ]
+        },
+        "properties": {
+          "name": "top of slot",
+          "stroke": "#5856D6",
+          "elevationMeters": 1857
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.27123982237704,
+            38.40438049290261,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1894
+        }
       }
     ]
   },
-  "version": "c92b0feb02d95abafc693986a1155d7a"
+  "version": "2005b758e0befffaa866cdabc4851054"
 }

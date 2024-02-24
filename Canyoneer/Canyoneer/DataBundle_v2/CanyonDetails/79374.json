@@ -26,142 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.04233616764253,
-            40.47332713768726,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Pool Creek Parking",
-          "elevationMeters": 1894
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.04186,
-            40.47468,
-            0
-          ]
-        },
-        "properties": {
-          "name": "exit right uphill out of drainage",
-          "description": "exit out of drainage through bushes, then up slab and pick up game trails on the right",
-          "elevationMeters": 1821
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.04679159,
-            40.47435594,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 55'+",
-          "elevationMeters": 1667
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.04549373570083,
-            40.474097172325116,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DC",
-          "elevationMeters": 1680
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.0435579419136,
-            40.4746228190077,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 35'",
-          "elevationMeters": 1785
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.04481589794159,
-            40.47432798936414,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DC 10'",
-          "elevationMeters": 1702
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.04205572,
-            40.47430926,
-            0
-          ]
-        },
-        "properties": {
-          "name": "start of game trail paths",
-          "elevationMeters": 1828
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.04397007507868,
-            40.47464319169647,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DC 15'",
-          "elevationMeters": 1753
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.04386815113611,
-            40.47462890932576,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 15'",
-          "elevationMeters": 1766
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -498,7 +362,7 @@
         },
         "properties": {
           "name": "Pool Creek road approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 787.8353858853249,
@@ -911,7 +775,7 @@
         },
         "properties": {
           "name": "Pool Creek exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 498.78533424481793,
@@ -1534,7 +1398,7 @@
         },
         "properties": {
           "name": "Echo Park Rd / Sand Canyon",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6099.061891915485,
@@ -1562,7 +1426,7 @@
         },
         "properties": {
           "name": "UT/CO border, private ranch land to west",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 294.9580417172105,
@@ -2080,7 +1944,7 @@
         },
         "properties": {
           "name": "Pool Creek descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 791.0741355703236,
@@ -2088,8 +1952,153 @@
           "descentMeters": 58.7000732421875,
           "changeMeters": 136.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.04233616764253,
+            40.47332713768726,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Pool Creek Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1894
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.04186,
+            40.47468,
+            0
+          ]
+        },
+        "properties": {
+          "name": "exit right uphill out of drainage",
+          "description": "exit out of drainage through bushes, then up slab and pick up game trails on the right",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1821
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.04679159,
+            40.47435594,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 55'+",
+          "stroke": "#5856D6",
+          "elevationMeters": 1667
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.04549373570083,
+            40.474097172325116,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DC",
+          "stroke": "#5856D6",
+          "elevationMeters": 1680
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.0435579419136,
+            40.4746228190077,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 35'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1785
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.04481589794159,
+            40.47432798936414,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DC 10'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1702
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.04205572,
+            40.47430926,
+            0
+          ]
+        },
+        "properties": {
+          "name": "start of game trail paths",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1828
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.04397007507868,
+            40.47464319169647,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DC 15'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1753
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.04386815113611,
+            40.47462890932576,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 15'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1766
+        }
       }
     ]
   },
-  "version": "a00d31bb6d2d1d6d8838207df2369ba9"
+  "version": "f8e32ded6ff68a5cebf491cdcfda5dc0"
 }

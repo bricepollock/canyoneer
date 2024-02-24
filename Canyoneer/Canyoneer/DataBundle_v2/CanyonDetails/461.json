@@ -34,75 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.220846,
-            25.372704,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "292c6948",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by ClubTotem at wikiloc.com)",
-          "elevationMeters": 2222
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.220998,
-            25.37307,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "25cef0d1",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by ClubTotem at wikiloc.com)",
-          "elevationMeters": 2240
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.22085,
-            25.372698,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Inicio",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-18cbb2f7",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by ClubTotem at wikiloc.com)",
-          "elevationMeters": 2222
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -795,7 +726,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by ClubTotem at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1983.9946138319415,
@@ -803,8 +734,80 @@
           "descentMeters": 473.000244140625,
           "changeMeters": 18.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.220846,
+            25.372704,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-251a26f2",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by ClubTotem at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2222
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.220998,
+            25.37307,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "5b74c9ba",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by ClubTotem at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2240
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.22085,
+            25.372698,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Inicio",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "3889b17c",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by ClubTotem at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2222
+        }
       }
     ]
   },
-  "version": "02de4aaa3ade76a38a38ff58cc327c3b"
+  "version": "ef251b302947055292008e231c5d9356"
 }

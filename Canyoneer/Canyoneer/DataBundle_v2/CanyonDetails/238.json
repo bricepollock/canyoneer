@@ -29,116 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.786337,
-            35.025551,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "description": "Park vehicle here.",
-          "elevationMeters": 1783
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7848560214043,
-            35.0272349849021,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1786
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.78238168358804,
-            35.02509840356795,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Saddle",
-          "description": "Turn left and up gully",
-          "elevationMeters": 1986
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.78190223872663,
-            35.02321381670488,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Sneak Turn-off",
-          "description": "Turn right and proceed up loose, brushy gully.",
-          "elevationMeters": 1989
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.78144760429862,
-            35.02384695927023,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Last rap/pothole",
-          "elevationMeters": 2024
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.76800370216371,
-            35.002414582056076,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trail",
-          "description": "Easy hiking from here on out",
-          "elevationMeters": 2011
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74179852008821,
-            34.99044845221037,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Park",
-          "description": "Pay for parking here, or find parking along the road a bit further up the 89A.",
-          "elevationMeters": 1646
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -215,7 +105,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 269.88000213360243,
@@ -438,7 +328,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 922.9647957142032,
@@ -702,7 +592,7 @@
         "properties": {
           "name": "Sneak Exit",
           "description": "4th and easy 5th class climbing over volatile terrain. Proceed with caution.",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 725.0224219479604,
@@ -2056,7 +1946,7 @@
         "properties": {
           "name": "West Fork Exit",
           "description": "Creek walk, last 3 miles on trail. Requires long shuttle.",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 10715.907688665693,
@@ -4570,7 +4460,7 @@
         "properties": {
           "name": "Shuttle Road",
           "description": "High clearance under usual, dry conditions. May require 4x4 when wet.",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 27844.06545993438,
@@ -4578,8 +4468,125 @@
           "descentMeters": 2735.6005859375,
           "changeMeters": 136.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.786337,
+            35.025551,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "description": "Park vehicle here.",
+          "stroke": "#34C759",
+          "elevationMeters": 1783
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7848560214043,
+            35.0272349849021,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1786
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.78238168358804,
+            35.02509840356795,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Saddle",
+          "description": "Turn left and up gully",
+          "stroke": "#FF9500",
+          "elevationMeters": 1986
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.78190223872663,
+            35.02321381670488,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Sneak Turn-off",
+          "description": "Turn right and proceed up loose, brushy gully.",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1989
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.78144760429862,
+            35.02384695927023,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Last rap/pothole",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2024
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.76800370216371,
+            35.002414582056076,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trail",
+          "description": "Easy hiking from here on out",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2011
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74179852008821,
+            34.99044845221037,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Park",
+          "description": "Pay for parking here, or find parking along the road a bit further up the 89A.",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1646
+        }
       }
     ]
   },
-  "version": "36c957877823af12727e0d2114fb936c"
+  "version": "d0680c6dcf96efbff8bc6f331d686d73"
 }

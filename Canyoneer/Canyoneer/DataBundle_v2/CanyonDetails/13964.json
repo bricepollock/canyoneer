@@ -34,66 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.095035076141365,
-            14.676882270503684,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.0947185754776,
-            14.670514829392557,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Start",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.09333455562592,
-            14.668527611544134,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Finish",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.093742251396186,
-            14.669430360176586,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Approximate Turnoff for Agathe (Canyon-left)",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -205,7 +145,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 813.2333794857013,
@@ -328,7 +268,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 362.9084086368716,
@@ -426,7 +366,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 342.8014223525747,
@@ -434,8 +374,72 @@
           "descentMeters": 0,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.095035076141365,
+            14.676882270503684,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.0947185754776,
+            14.670514829392557,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Start",
+          "stroke": "#34C759",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.09333455562592,
+            14.668527611544134,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Finish",
+          "stroke": "#FFCC00",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.093742251396186,
+            14.669430360176586,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Approximate Turnoff for Agathe (Canyon-left)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 0
+        }
       }
     ]
   },
-  "version": "93229862f37f3818c4ec87b0fa1d00f3"
+  "version": "8f233503666ed926a602b33f5bd8e7f7"
 }

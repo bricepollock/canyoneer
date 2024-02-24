@@ -23,51 +23,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.59030127525331,
-            48.04071897269696,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1078
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.59926320612432,
-            48.0019698387187,
-            0
-          ]
-        },
-        "properties": {
-          "name": "ViewPoint",
-          "elevationMeters": 200
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.58510449528696,
-            47.974158275919066,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Stash_bikes_near_here",
-          "elevationMeters": 1081
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -224,7 +179,7 @@
         },
         "properties": {
           "name": "Descent_WolfCreek",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 494.12174511729273,
@@ -568,7 +523,7 @@
         "properties": {
           "name": "Exit_trail_WolfCreek",
           "description": "Find your way ontop of the old lake bench. Then find the trail and take it back to the road. ",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1119.2666151119306,
@@ -2066,7 +2021,7 @@
         },
         "properties": {
           "name": "Approach_WolfCreek",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 9323.350665558119,
@@ -3565,7 +3520,7 @@
         "properties": {
           "name": "Exit_road_WolfCreek",
           "description": "I find it best to ride a bike rather then walk this. Be mindful of other trail users",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 9323.350665558115,
@@ -3649,7 +3604,7 @@
         "properties": {
           "name": "ViewPoint",
           "description": "Worthwhile detour to the decommsioned Glines Canyon Dam",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 151.97036194403202,
@@ -3657,8 +3612,56 @@
           "descentMeters": 17.499984741210938,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.59030127525331,
+            48.04071897269696,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1078
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.59926320612432,
+            48.0019698387187,
+            0
+          ]
+        },
+        "properties": {
+          "name": "ViewPoint",
+          "stroke": "#AF52DE",
+          "elevationMeters": 200
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.58510449528696,
+            47.974158275919066,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Stash_bikes_near_here",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1081
+        }
       }
     ]
   },
-  "version": "d5de47c24e3fe83bfdd1532081822862"
+  "version": "810afd5b180d1c30be08eb8b790fb95c"
 }

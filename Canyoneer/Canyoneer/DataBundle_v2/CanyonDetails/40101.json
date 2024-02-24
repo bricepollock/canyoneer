@@ -26,50 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6020552871837,
-            40.33910693271203,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Top (Lower Falls)",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 1875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.60130388591,
-            40.33865805289251,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Top (Upper Falls)",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 1921
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1778,58 +1734,13 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 829.6668037482277,
           "ascentMeters": 249.2000732421875,
           "descentMeters": 252.800048828125,
           "changeMeters": -3.5999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6022665037321,
-            40.33927142539606,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Crowds Gather",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "22fec70a",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "description": "It is a good idea to clear the area (leave a team member down there at all times during a descent).  Rockfall could be deadly.",
-          "elevationMeters": 1863
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6030789435577,
-            40.34066490368424,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#msn_parking_lot",
-          "styleHash": "-33c06c2d",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 1872
         }
       },
       {
@@ -2488,7 +2399,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 155.1662171680498,
@@ -2496,8 +2407,101 @@
           "descentMeters": 88.199951171875,
           "changeMeters": -57.89990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6020552871837,
+            40.33910693271203,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Top (Lower Falls)",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.60130388591,
+            40.33865805289251,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Top (Upper Falls)",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1921
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6022665037321,
+            40.33927142539606,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Crowds Gather",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "22fec70a",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "description": "It is a good idea to clear the area (leave a team member down there at all times during a descent).  Rockfall could be deadly.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1863
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6030789435577,
+            40.34066490368424,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#msn_parking_lot",
+          "styleHash": "-33c06c2d",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1872
+        }
       }
     ]
   },
-  "version": "412506a85a7028d723950bcd83631393"
+  "version": "c7a8d2507fda35f4186e1782f1425eee"
 }

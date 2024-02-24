@@ -19,37 +19,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            20.65616444684565,
-            38.109302362427115,
-            0
-          ]
-        },
-        "properties": {
-          "name": "GR-ACL_Park",
-          "description": "Βλαχάτα - Πόρος",
-          "elevationMeters": 1358
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            20.66995301283896,
-            38.110153963789344,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Water Tank",
-          "elevationMeters": 1304
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -831,7 +800,7 @@
         },
         "properties": {
           "name": "GR-ACL_Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4153.457273513497,
@@ -1039,7 +1008,7 @@
         },
         "properties": {
           "name": "GR-ACL_Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1331.1443246463646,
@@ -1082,7 +1051,7 @@
         },
         "properties": {
           "name": "GR-ACL_Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 132.27856892595827,
@@ -1090,8 +1059,41 @@
           "descentMeters": 31.7000732421875,
           "changeMeters": -31.7000732421875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            20.65616444684565,
+            38.109302362427115,
+            0
+          ]
+        },
+        "properties": {
+          "name": "GR-ACL_Park",
+          "description": "Βλαχάτα - Πόρος",
+          "stroke": "#34C759",
+          "elevationMeters": 1358
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            20.66995301283896,
+            38.110153963789344,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Water Tank",
+          "stroke": "#34C759",
+          "elevationMeters": 1304
+        }
       }
     ]
   },
-  "version": "3303e3a0154e751dd06b104f9e2d0384"
+  "version": "319bdfcefcd271890c24bae1cfdc1505"
 }

@@ -25,126 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.3962354659933,
-            46.536563847911424,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave Trail",
-          "elevationMeters": 1862
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.35996599999999,
-            46.573935,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cutoff to Old Trail",
-          "elevationMeters": 1274
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.39065969666262,
-            46.53548047643813,
-            0
-          ]
-        },
-        "properties": {
-          "name": "North Tieton Falls (Final Rappel)",
-          "elevationMeters": 1827
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.3579312065977,
-            46.57643576830288,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Scatter Creek Trailhead",
-          "elevationMeters": 1265
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.39471141415731,
-            46.5338982055119,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In",
-          "elevationMeters": 1765
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.39082,
-            46.54531,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trail Begins Up Hillside",
-          "elevationMeters": 2106
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.39588711082472,
-            46.54021411327585,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Creekbed Crossing",
-          "elevationMeters": 2057
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.389,
-            46.54373,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave River Gravels",
-          "elevationMeters": 2058
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -316,7 +196,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 386.54127033650843,
@@ -494,7 +374,7 @@
         },
         "properties": {
           "name": "River Exit Back to Trail",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1312.2954678892402,
@@ -1462,7 +1342,7 @@
         },
         "properties": {
           "name": "Trail",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6576.096179741151,
@@ -1470,8 +1350,136 @@
           "descentMeters": 1203.7003173828125,
           "changeMeters": 499.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.3962354659933,
+            46.536563847911424,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave Trail",
+          "stroke": "#34C759",
+          "elevationMeters": 1862
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.35996599999999,
+            46.573935,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cutoff to Old Trail",
+          "stroke": "#34C759",
+          "elevationMeters": 1274
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.39065969666262,
+            46.53548047643813,
+            0
+          ]
+        },
+        "properties": {
+          "name": "North Tieton Falls (Final Rappel)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1827
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.3579312065977,
+            46.57643576830288,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Scatter Creek Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 1265
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.39471141415731,
+            46.5338982055119,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In",
+          "stroke": "#34C759",
+          "elevationMeters": 1765
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.39082,
+            46.54531,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trail Begins Up Hillside",
+          "stroke": "#34C759",
+          "elevationMeters": 2106
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.39588711082472,
+            46.54021411327585,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Creekbed Crossing",
+          "stroke": "#34C759",
+          "elevationMeters": 2057
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.389,
+            46.54373,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave River Gravels",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2058
+        }
       }
     ]
   },
-  "version": "1ef5e4a725601782217b92303dd6c9a0"
+  "version": "238a2519ca4c88f2a3c1b1be4b52f7c4"
 }

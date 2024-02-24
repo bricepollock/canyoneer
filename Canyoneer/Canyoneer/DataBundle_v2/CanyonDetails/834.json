@@ -29,52 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.65079458978526,
-            36.4077714137915,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1053
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.69373809483062,
-            36.43393715584074,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1709
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.650487,
-            36.40759,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "description": "Created by <a href='http://itunes.apple.com/us/app/gaia-gps/id329127297?mt=8'>Gaia GPS</a> on iOS.<p>Total Distance: 58.7 mi<br>Total Time: 00:00:00<br>Moving Time: 00:00:00<br>Average Speed: 0.0 mph<br> Average Moving Speed: 0.0 mph<br> Max Speed: 0.0 mph<br>Min Elevation: 4,523.6 ft<br>Max Elevation: 5,816.6 ft<br>Elevation Gain: 1,293.0 ft<br>Recorded: 4/28/21, 9:12:44 PM PDT<br><img border=\"0\" src=\"http://chart.apis.google.com/chart?chxr=0,4523,5816&chtt=Elevation (ft)&chxt=y&chs=600x350&cht=lc&chco=3D7930&chg=14.3,-1,1,1&chls=2,4,0&chm=B,C5D4B5BB,0,0,0&chd=s:HHHHHHHHGGHHGGHHHHHGHHHGGGGGGGFFFGGGGGHGFFEEEEEEDGGGGHHIIIJIIIIIIIIIIHHHHHHHHHHHHGGFFFEEEEEEDDDDDDDDCCCCCCCCCCCCCCCCDCDDDDDDCCCCCCCCCCCCCCBBCBBBBBBBBBBBBCBCCCCCCBBBAAAAABAABBABBBCBBCCCDCCDCCCCCBAAAAAACCCCCDDDDDDDDEEEEEEEFFFFFFFFEFEFFGGGGFGGHHHIHHIHHIIIJJIIIIIIIIIIIIIIJIJJJJIIJJJJJJKLLLKLLLLLLMMMMMMNNOOOOOOOOOOOOOOOOPPPQQQQRQRQRRRRRRRSSSSTTTTTUUUVVVVVVUUUTTSSSSSSRRRQQQQQQQQPQQQRSTTTTTTTTTTUVVWWXXXXXXXWWXXXWWWWWWWWVVVVVVUUUUUUUVWWWWWWWWWWWXXXXXYXXYYYYYYYYYYYZZZabbcdeegiiijjkkkllllmmmmmmmnmmnnnnnnnoooooonoooooonnnooooooonnnnnnnnnnmmmmnnooooopppppppooonoooponnnmmllkkkkjjjjjjjjjjjjkkklmmnnnmoppppqqqrssrrrrrrrqqpqpqpoooonnnnnnooonmmmmmmmnnnnooooooopqqqqqqqrrrrrqqqqqqoooooooonnnnoooooonooooppoooppppppopooppoppppppppppqqqqqqqqqqqqqrqrrrrrrrrrrssssssssttttttutuvwwxyyyzyzzzywwwwwxxyzzzzzzz01101111111222222233333334333333233323333343333343333433334555555555555555544444444433344445544444434444444454455555555566666766654455544444444555555555555555555555555555555656555666666666666666677777778888888888888888888887777777777777888888888888888888888877777777777777777777777777777777777888888888888888777777788888888777777666665555555544445555444444444444544445555555555555665555556555555555555555555555556655656654444455555555667777777888887775556655555\"/>",
-          "elevationMeters": 1037
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -991,7 +945,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3293.806861764091,
@@ -1734,7 +1688,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1344.632721451193,
@@ -8042,7 +7996,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 11842.157283922423,
@@ -13690,7 +13644,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 80361.63340108855,
@@ -14128,7 +14082,7 @@
         },
         "properties": {
           "name": "Shuttle Exit",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1909.9299185332748,
@@ -14136,8 +14090,57 @@
           "descentMeters": 10.4998779296875,
           "changeMeters": 33.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.65079458978526,
+            36.4077714137915,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1053
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.69373809483062,
+            36.43393715584074,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1709
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.650487,
+            36.40759,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "description": "Created by <a href='http://itunes.apple.com/us/app/gaia-gps/id329127297?mt=8'>Gaia GPS</a> on iOS.<p>Total Distance: 58.7 mi<br>Total Time: 00:00:00<br>Moving Time: 00:00:00<br>Average Speed: 0.0 mph<br> Average Moving Speed: 0.0 mph<br> Max Speed: 0.0 mph<br>Min Elevation: 4,523.6 ft<br>Max Elevation: 5,816.6 ft<br>Elevation Gain: 1,293.0 ft<br>Recorded: 4/28/21, 9:12:44 PM PDT<br><img border=\"0\" src=\"http://chart.apis.google.com/chart?chxr=0,4523,5816&chtt=Elevation (ft)&chxt=y&chs=600x350&cht=lc&chco=3D7930&chg=14.3,-1,1,1&chls=2,4,0&chm=B,C5D4B5BB,0,0,0&chd=s:HHHHHHHHGGHHGGHHHHHGHHHGGGGGGGFFFGGGGGHGFFEEEEEEDGGGGHHIIIJIIIIIIIIIIHHHHHHHHHHHHGGFFFEEEEEEDDDDDDDDCCCCCCCCCCCCCCCCDCDDDDDDCCCCCCCCCCCCCCBBCBBBBBBBBBBBBCBCCCCCCBBBAAAAABAABBABBBCBBCCCDCCDCCCCCBAAAAAACCCCCDDDDDDDDEEEEEEEFFFFFFFFEFEFFGGGGFGGHHHIHHIHHIIIJJIIIIIIIIIIIIIIJIJJJJIIJJJJJJKLLLKLLLLLLMMMMMMNNOOOOOOOOOOOOOOOOPPPQQQQRQRQRRRRRRRSSSSTTTTTUUUVVVVVVUUUTTSSSSSSRRRQQQQQQQQPQQQRSTTTTTTTTTTUVVWWXXXXXXXWWXXXWWWWWWWWVVVVVVUUUUUUUVWWWWWWWWWWWXXXXXYXXYYYYYYYYYYYZZZabbcdeegiiijjkkkllllmmmmmmmnmmnnnnnnnoooooonoooooonnnooooooonnnnnnnnnnmmmmnnooooopppppppooonoooponnnmmllkkkkjjjjjjjjjjjjkkklmmnnnmoppppqqqrssrrrrrrrqqpqpqpoooonnnnnnooonmmmmmmmnnnnooooooopqqqqqqqrrrrrqqqqqqoooooooonnnnoooooonooooppoooppppppopooppoppppppppppqqqqqqqqqqqqqrqrrrrrrrrrrssssssssttttttutuvwwxyyyzyzzzywwwwwxxyzzzzzzz01101111111222222233333334333333233323333343333343333433334555555555555555544444444433344445544444434444444454455555555566666766654455544444444555555555555555555555555555555656555666666666666666677777778888888888888888888887777777777777888888888888888888888877777777777777777777777777777777777888888888888888777777788888888777777666665555555544445555444444444444544445555555555555665555556555555555555555555555556655656654444455555555667777777888887775556655555\"/>",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1037
+        }
       }
     ]
   },
-  "version": "c1c50f468650bac1bb192cf1dd16f2f6"
+  "version": "c6827b4b3e623399ecf71b726c7dd8d5"
 }

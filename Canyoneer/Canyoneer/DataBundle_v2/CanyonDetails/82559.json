@@ -21,66 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.643353,
-            47.330119,
-            0
-          ]
-        },
-        "properties": {
-          "name": "North Trail",
-          "elevationMeters": 214
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.64236295223238,
-            47.3298901059413,
-            0
-          ]
-        },
-        "properties": {
-          "name": "South Trail",
-          "elevationMeters": 238
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.62849593162538,
-            47.316835702478514,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gate",
-          "elevationMeters": 222
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.64313006401063,
-            47.32925382401923,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Wreck",
-          "elevationMeters": 236
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -397,7 +337,7 @@
         },
         "properties": {
           "name": "Road (old RR grade)",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3188.685901581856,
@@ -405,8 +345,72 @@
           "descentMeters": 169.79998779296875,
           "changeMeters": 16.29998779296875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.643353,
+            47.330119,
+            0
+          ]
+        },
+        "properties": {
+          "name": "North Trail",
+          "stroke": "#FF3B30",
+          "elevationMeters": 214
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.64236295223238,
+            47.3298901059413,
+            0
+          ]
+        },
+        "properties": {
+          "name": "South Trail",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 238
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.62849593162538,
+            47.316835702478514,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gate",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 222
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.64313006401063,
+            47.32925382401923,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Wreck",
+          "stroke": "#FF3B30",
+          "elevationMeters": 236
+        }
       }
     ]
   },
-  "version": "11da9ccff4e7bfb75a3e3bb64112f995"
+  "version": "20d9000cb12510e946241aabf4af8971"
 }

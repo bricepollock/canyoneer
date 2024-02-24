@@ -34,66 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.12537622451783,
-            14.711715851530402,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 718
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.12094521522523,
-            14.711695123055545,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Turnoff",
-          "elevationMeters": 588
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.12031221389771,
-            14.71203747776098,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Start",
-          "elevationMeters": 547
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -61.123718619346626,
-            14.713396516899428,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Finish",
-          "elevationMeters": 688
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -200,7 +140,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 568.9880165689115,
@@ -338,7 +278,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 409.83249396070136,
@@ -446,7 +386,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 275.51099518194684,
@@ -454,8 +394,72 @@
           "descentMeters": 34.20001220703125,
           "changeMeters": 30.39996337890625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.12537622451783,
+            14.711715851530402,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 718
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.12094521522523,
+            14.711695123055545,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Turnoff",
+          "stroke": "#34C759",
+          "elevationMeters": 588
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.12031221389771,
+            14.71203747776098,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Start",
+          "stroke": "#34C759",
+          "elevationMeters": 547
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -61.123718619346626,
+            14.713396516899428,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Finish",
+          "stroke": "#FF3B30",
+          "elevationMeters": 688
+        }
       }
     ]
   },
-  "version": "192b8bc861fca0f6c82f5fcbbca945ad"
+  "version": "d9e50f8e6dc20e2af3b6076455bcf575"
 }

@@ -24,75 +24,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -8.23545,
-            42.251263,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-2c768df1",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Alberto Perez Taxi at wikiloc.com)",
-          "elevationMeters": 451
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -8.216697,
-            42.256777,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-587f6a7f",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Alberto Perez Taxi at wikiloc.com)",
-          "elevationMeters": 451
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -8.235423,
-            42.251112,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Aparcar primer coche",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-279089fd",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Alberto Perez Taxi at wikiloc.com)",
-          "elevationMeters": 448
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1755,7 +1686,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Alberto Perez Taxi at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 4006.4901861939716,
@@ -1763,8 +1694,80 @@
           "descentMeters": 160.0999755859375,
           "changeMeters": -0.100006103515625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.23545,
+            42.251263,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "15f4f803",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Alberto Perez Taxi at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 451
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.216697,
+            42.256777,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "4d466199",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Alberto Perez Taxi at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 451
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.235423,
+            42.251112,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Aparcar primer coche",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "2a2cfc85",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Alberto Perez Taxi at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 448
+        }
       }
     ]
   },
-  "version": "20f8d96bb7767c393a50483ef50341cf"
+  "version": "925cc63c00a4d79c464fca1aaf9c725b"
 }

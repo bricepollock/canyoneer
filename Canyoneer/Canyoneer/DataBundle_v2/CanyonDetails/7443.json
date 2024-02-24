@@ -21,142 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2232747,
-            34.284845
-          ]
-        },
-        "properties": {
-          "name": "Parking - End",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 546
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2188935,
-            34.2846308
-          ]
-        },
-        "properties": {
-          "name": "E Canyon Vista Point",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 530
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2173645,
-            34.2841685
-          ]
-        },
-        "properties": {
-          "name": "Parking - Start",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 528
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2173242,
-            34.284066
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 529
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2177713,
-            34.2842177
-          ]
-        },
-        "properties": {
-          "name": "R2 - 150' Trees RDC",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 529
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2176084,
-            34.2841568
-          ]
-        },
-        "properties": {
-          "name": "R1 - 40' Tree RDC",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 528
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2183205,
-            34.2839386
-          ]
-        },
-        "properties": {
-          "name": "R3 - 10' Downclimb or Rappel if wet",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 525
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2185217,
-            34.283881
-          ]
-        },
-        "properties": {
-          "name": "R4 - 30' Downclimb or Rappel if wet",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 527
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -461,7 +325,7 @@
           "styleUrl": "#track",
           "styleHash": "-567d95f2",
           "description": "Length: 0.733 km (0.455 mi)",
-          "stroke": "#8c0046",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "visibility": "1",
@@ -470,8 +334,152 @@
           "descentMeters": 11.4000244140625,
           "changeMeters": 17
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2232747,
+            34.284845
+          ]
+        },
+        "properties": {
+          "name": "Parking - End",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF2D55",
+          "elevationMeters": 546
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2188935,
+            34.2846308
+          ]
+        },
+        "properties": {
+          "name": "E Canyon Vista Point",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 530
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2173645,
+            34.2841685
+          ]
+        },
+        "properties": {
+          "name": "Parking - Start",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF2D55",
+          "elevationMeters": 528
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2173242,
+            34.284066
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF2D55",
+          "elevationMeters": 529
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2177713,
+            34.2842177
+          ]
+        },
+        "properties": {
+          "name": "R2 - 150' Trees RDC",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF2D55",
+          "elevationMeters": 529
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2176084,
+            34.2841568
+          ]
+        },
+        "properties": {
+          "name": "R1 - 40' Tree RDC",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF2D55",
+          "elevationMeters": 528
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2183205,
+            34.2839386
+          ]
+        },
+        "properties": {
+          "name": "R3 - 10' Downclimb or Rappel if wet",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF2D55",
+          "elevationMeters": 525
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2185217,
+            34.283881
+          ]
+        },
+        "properties": {
+          "name": "R4 - 30' Downclimb or Rappel if wet",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF2D55",
+          "elevationMeters": 527
+        }
       }
     ]
   },
-  "version": "4a2421f36595f1ddc6ee0eb88d65bbc5"
+  "version": "e60ce38466692f21f516acbc0df8765c"
 }

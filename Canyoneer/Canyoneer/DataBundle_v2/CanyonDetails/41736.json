@@ -22,66 +22,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -17.05583,
-            32.7741,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Capulla Approach",
-          "elevationMeters": 1121
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -17.07751,
-            32.78192,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Capulla Start",
-          "elevationMeters": 1085
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -17.07556,
-            32.78884,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Capulla End",
-          "elevationMeters": 741
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -17.04833,
-            32.77982,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Capulla Parking",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -733,156 +673,13 @@
         },
         "properties": {
           "name": "Capulla Approach",
-          "stroke": "#FF00EF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 6070.056610778062,
           "ascentMeters": 2958.7998657226562,
           "descentMeters": 1873.9998168945312,
           "changeMeters": 1084.800048828125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [
-              [
-                -17.07581407867744,
-                32.78906005110616,
-                0
-              ],
-              [
-                -17.084397147525095,
-                32.78978160104611,
-                0
-              ],
-              [
-                -17.0873153909333,
-                32.79017845101794,
-                0
-              ],
-              [
-                -17.088602851260447,
-                32.78859104050617,
-                0
-              ],
-              [
-                -17.09001905762031,
-                32.78682320909282,
-                0
-              ],
-              [
-                -17.090319465029978,
-                32.78574084598871,
-                0
-              ],
-              [
-                -17.090319465029978,
-                32.784045117313475,
-                0
-              ],
-              [
-                -17.09006197296455,
-                32.78285447999195,
-                0
-              ],
-              [
-                -17.088431189883494,
-                32.77989574304071,
-                0
-              ],
-              [
-                -17.086929152835154,
-                32.77902978618274,
-                0
-              ],
-              [
-                -17.084096740115427,
-                32.77859680459328,
-                0
-              ],
-              [
-                -17.082337211001658,
-                32.77827206701852,
-                0
-              ],
-              [
-                -17.080406020510935,
-                32.777478259068594,
-                0
-              ],
-              [
-                -17.079976867068552,
-                32.77686485716609,
-                0
-              ],
-              [
-                -17.07856066070869,
-                32.77657619598412,
-                0
-              ],
-              [
-                -17.07680113159492,
-                32.77751434140177,
-                0
-              ],
-              [
-                -17.074140380252146,
-                32.7781278469885,
-                0
-              ],
-              [
-                -17.074140380252146,
-                32.7792463843474,
-                0
-              ],
-              [
-                -17.074440787661814,
-                32.78162776919737,
-                0
-              ],
-              [
-                -17.072595427859568,
-                32.78249370076969,
-                0
-              ],
-              [
-                -17.07276708923652,
-                32.78444201599107,
-                0
-              ],
-              [
-                -17.07276708923652,
-                32.78541615760067,
-                0
-              ],
-              [
-                -17.073110411990427,
-                32.78657068199089,
-                0
-              ],
-              [
-                -17.07551367126777,
-                32.788879685816966,
-                0
-              ],
-              [
-                -17.07581407867744,
-                32.78906005110616,
-                0
-              ]
-            ]
-          ]
-        },
-        "properties": {
-          "name": "Capulla Catchment",
-          "stroke": "#FF00EF",
-          "stroke-opacity": 1,
-          "stroke-width": 2,
-          "fill": "#FF00EF",
-          "fill-opacity": 0.10196078431372549
         }
       },
       {
@@ -1724,7 +1521,7 @@
         },
         "properties": {
           "name": "Capulla Exit",
-          "stroke": "#FF00CD",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 4045.9876799574845,
@@ -1732,8 +1529,72 @@
           "descentMeters": 3136.5,
           "changeMeters": -752.2999877929688
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -17.05583,
+            32.7741,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Capulla Approach",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1121
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -17.07751,
+            32.78192,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Capulla Start",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1085
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -17.07556,
+            32.78884,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Capulla End",
+          "stroke": "#AF52DE",
+          "elevationMeters": 741
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -17.04833,
+            32.77982,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Capulla Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 0
+        }
       }
     ]
   },
-  "version": "799a7a3937cbb16cb1f64e58e4a5c593"
+  "version": "96800991a985b7c1ebf39cd8c4d3721d"
 }

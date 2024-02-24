@@ -26,21 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.41378968073785,
-            40.187696662135245,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Dry St. Vrain trailhead",
-          "elevationMeters": 2175
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -252,7 +237,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2123.0309571304733,
@@ -325,7 +310,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 523.4755062258674,
@@ -668,7 +653,7 @@
         },
         "properties": {
           "name": "exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2914.031166316239,
@@ -676,8 +661,24 @@
           "descentMeters": 411.7001953125,
           "changeMeters": -120.900146484375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.41378968073785,
+            40.187696662135245,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Dry St. Vrain trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 2175
+        }
       }
     ]
   },
-  "version": "6a0e2e2f46290650bac1daf61fa3b0fa"
+  "version": "cd2270a692b1ad6a423a93c745c0456d"
 }

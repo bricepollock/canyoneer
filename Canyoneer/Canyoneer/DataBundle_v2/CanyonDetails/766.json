@@ -30,66 +30,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.2128,
-            37.470856,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Dry Fork Trailhead (Parking)",
-          "elevationMeters": 1487
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.216672,
-            37.481578,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bottom of Peek-A-Boo",
-          "elevationMeters": 1503
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.209522,
-            37.485246,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Top of Spooky",
-          "elevationMeters": 1511
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.2121,
-            37.46552,
-            0
-          ]
-        },
-        "properties": {
-          "name": "overflow parking",
-          "elevationMeters": 1478
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -256,7 +196,7 @@
         },
         "properties": {
           "name": "Spooky Slot",
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 534.0892629298291,
@@ -584,7 +524,7 @@
         },
         "properties": {
           "name": "Approach / Exit",
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1535.5914392957247,
@@ -797,7 +737,7 @@
         },
         "properties": {
           "name": "Approach / Exit",
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 735.8474848881929,
@@ -1015,7 +955,7 @@
         },
         "properties": {
           "name": "Connector",
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 682.5208493539006,
@@ -1118,7 +1058,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 765.1019391970071,
@@ -1231,7 +1171,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 623.6342788844527,
@@ -1459,7 +1399,7 @@
         },
         "properties": {
           "name": "Peek-A-Boo Slot",
-          "stroke": "#f42410",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 553.7017762818772,
@@ -1467,8 +1407,72 @@
           "descentMeters": 0.0999755859375,
           "changeMeters": 8.39990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.2128,
+            37.470856,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Dry Fork Trailhead (Parking)",
+          "stroke": "#34C759",
+          "elevationMeters": 1487
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.216672,
+            37.481578,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bottom of Peek-A-Boo",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1503
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.209522,
+            37.485246,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Top of Spooky",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1511
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.2121,
+            37.46552,
+            0
+          ]
+        },
+        "properties": {
+          "name": "overflow parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1478
+        }
       }
     ]
   },
-  "version": "67257cacdc6c4614b4dd27d277cd1e0c"
+  "version": "134f2332e9a9778db3810f834ec50646"
 }

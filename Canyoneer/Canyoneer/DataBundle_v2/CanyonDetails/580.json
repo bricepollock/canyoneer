@@ -30,73 +30,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.5318354,
-            38.7453161,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Dryfall",
-          "styleUrl": "#icon-1203",
-          "styleHash": "-343fc7a8",
-          "styleMapHash": {
-            "normal": "#icon-1203-normal",
-            "highlight": "#icon-1203-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1203-fac-info.png",
-          "description": "Bypass on the Right",
-          "elevationMeters": 1645
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.52752,
-            38.73884,
-            1517
-          ]
-        },
-        "properties": {
-          "name": "Derrick",
-          "styleUrl": "#icon-1203-nodesc",
-          "styleHash": "-2602e1f3",
-          "styleMapHash": {
-            "normal": "#icon-1203-nodesc-normal",
-            "highlight": "#icon-1203-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1203-fac-info.png",
-          "elevationMeters": 1562
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.5281885,
-            38.728592,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead / Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1490
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -619,7 +552,7 @@
             "normal": "#line-097138-5000-nodesc-normal",
             "highlight": "#line-097138-5000-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2204.4359361655693,
@@ -1133,7 +1066,7 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2389.712177366425,
@@ -1352,7 +1285,7 @@
             "normal": "#line-A52714-5000-nodesc-normal",
             "highlight": "#line-A52714-5000-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 793.7538102819428,
@@ -1531,7 +1464,7 @@
             "normal": "#line-558B2F-5000-nodesc-normal",
             "highlight": "#line-558B2F-5000-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 944.5556297247599,
@@ -1539,8 +1472,78 @@
           "descentMeters": 17.199951171875,
           "changeMeters": 26.2999267578125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.5318354,
+            38.7453161,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Dryfall",
+          "styleUrl": "#icon-1203",
+          "styleHash": "-343fc7a8",
+          "styleMapHash": {
+            "normal": "#icon-1203-normal",
+            "highlight": "#icon-1203-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1203-fac-info.png",
+          "description": "Bypass on the Right",
+          "stroke": "#34C759",
+          "elevationMeters": 1645
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.52752,
+            38.73884,
+            1517
+          ]
+        },
+        "properties": {
+          "name": "Derrick",
+          "styleUrl": "#icon-1203-nodesc",
+          "styleHash": "-2602e1f3",
+          "styleMapHash": {
+            "normal": "#icon-1203-nodesc-normal",
+            "highlight": "#icon-1203-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1203-fac-info.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1562
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.5281885,
+            38.728592,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead / Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1490
+        }
       }
     ]
   },
-  "version": "cbb0bded07478ff1b577bf07338f264d"
+  "version": "cb15500e5a74eab4599ebddff7d0adb3"
 }

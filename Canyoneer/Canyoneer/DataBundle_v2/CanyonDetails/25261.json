@@ -31,66 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.31403982639314,
-            33.5330555312199,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 819
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.30453139543536,
-            33.545340388074536,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Saddle",
-          "elevationMeters": 817
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.3081604242325,
-            33.54071951939526,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave creek",
-          "elevationMeters": 798
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.31052613258363,
-            33.535926252820964,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave road",
-          "elevationMeters": 647
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1012,7 +952,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2941.7074974102543,
@@ -1175,7 +1115,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 402.44223270048275,
@@ -1883,7 +1823,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1807.4422990756377,
@@ -1891,8 +1831,72 @@
           "descentMeters": 330.29998779296875,
           "changeMeters": 53.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.31403982639314,
+            33.5330555312199,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#34C759",
+          "elevationMeters": 819
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.30453139543536,
+            33.545340388074536,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Saddle",
+          "stroke": "#34C759",
+          "elevationMeters": 817
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.3081604242325,
+            33.54071951939526,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave creek",
+          "stroke": "#34C759",
+          "elevationMeters": 798
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.31052613258363,
+            33.535926252820964,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave road",
+          "stroke": "#34C759",
+          "elevationMeters": 647
+        }
       }
     ]
   },
-  "version": "ea882e83843b0b01b23648a1b5251457"
+  "version": "3a44b2593bdbfb738fe51929c1f1d551"
 }

@@ -25,36 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.64907932281496,
-            46.66245577553944,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Checkpoint",
-          "elevationMeters": 485
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.63435935974123,
-            46.65426733545094,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Winter Gate",
-          "elevationMeters": 550
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -541,7 +511,7 @@
         },
         "properties": {
           "name": "Shutle",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 0.7019607843137254,
           "stroke-width": 5,
           "lengthMeters": 3502.56610963613,
@@ -759,7 +729,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1516.3616247365112,
@@ -877,7 +847,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 481.7529742389861,
@@ -1005,7 +975,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 411.7702057608428,
@@ -1013,8 +983,40 @@
           "descentMeters": 18.699981689453125,
           "changeMeters": 9.899993896484375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.64907932281496,
+            46.66245577553944,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Checkpoint",
+          "stroke": "#34C759",
+          "elevationMeters": 485
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.63435935974123,
+            46.65426733545094,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Winter Gate",
+          "stroke": "#FF3B30",
+          "elevationMeters": 550
+        }
       }
     ]
   },
-  "version": "66100623987c37cdd9d3f884476717a9"
+  "version": "013e7c54002cd408c114726cf1728494"
 }

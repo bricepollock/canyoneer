@@ -28,96 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.55576328814024,
-            48.7506425502201,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "elevationMeters": 238
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.55245538246174,
-            48.76939015928782,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Final Falls",
-          "elevationMeters": 1529
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.55903251758946,
-            48.768715815220695,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave flagged track",
-          "elevationMeters": 677
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.5586610316409,
-            48.772052888650606,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-In",
-          "elevationMeters": 500
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.55911156188006,
-            48.77147583181177,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Vine Maple Bushwhack",
-          "elevationMeters": 541
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.54852369884617,
-            48.76605163744547,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave Trail",
-          "elevationMeters": 1424
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -589,7 +499,7 @@
         },
         "properties": {
           "name": "Flat Approach/Exit",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2132.678232151912,
@@ -882,7 +792,7 @@
         },
         "properties": {
           "name": "Uphill Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1451.2302796393192,
@@ -1095,7 +1005,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 590.8895524099104,
@@ -1232,7 +1142,7 @@
           ]
         },
         "properties": {
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 313.2820453048139,
@@ -1240,8 +1150,104 @@
           "descentMeters": 179.699951171875,
           "changeMeters": -171.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.55576328814024,
+            48.7506425502201,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "stroke": "#FF3B30",
+          "elevationMeters": 238
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.55245538246174,
+            48.76939015928782,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Final Falls",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1529
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.55903251758946,
+            48.768715815220695,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave flagged track",
+          "stroke": "#34C759",
+          "elevationMeters": 677
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.5586610316409,
+            48.772052888650606,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-In",
+          "stroke": "#34C759",
+          "elevationMeters": 500
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.55911156188006,
+            48.77147583181177,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Vine Maple Bushwhack",
+          "stroke": "#34C759",
+          "elevationMeters": 541
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.54852369884617,
+            48.76605163744547,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave Trail",
+          "stroke": "#34C759",
+          "elevationMeters": 1424
+        }
       }
     ]
   },
-  "version": "189d2fe5f9249bfb81808c59bc2d92c1"
+  "version": "dc3537460e0bd56340d821c2bd316fc6"
 }

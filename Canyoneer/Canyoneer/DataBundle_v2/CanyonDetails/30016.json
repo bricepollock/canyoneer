@@ -26,121 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.325887,
-            37.084589,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-d129815",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Arash at wikiloc.com)",
-          "elevationMeters": 44
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.179388,
-            36.845376,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "f15104d",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Arash at wikiloc.com)",
-          "elevationMeters": 1748
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.163376,
-            36.842422,
-            0
-          ]
-        },
-        "properties": {
-          "name": "rappel",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-34df2969",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Arash at wikiloc.com)",
-          "elevationMeters": 1422
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.164172,
-            36.842927,
-            0
-          ]
-        },
-        "properties": {
-          "name": "rappel",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-34df2969",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Arash at wikiloc.com)",
-          "elevationMeters": 1406
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            50.164287,
-            36.842933,
-            0
-          ]
-        },
-        "properties": {
-          "name": "long rappel",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-34df2969",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Arash at wikiloc.com)",
-          "elevationMeters": 1404
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2348,7 +2233,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Arash at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 53916.44168727969,
@@ -2356,8 +2241,128 @@
           "descentMeters": 5859.39927482605,
           "changeMeters": 1704.100025177002
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.325887,
+            37.084589,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-32c9f3c1",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Arash at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 44
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.179388,
+            36.845376,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "46d32dbd",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Arash at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1748
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.163376,
+            36.842422,
+            0
+          ]
+        },
+        "properties": {
+          "name": "rappel",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "3889b17c",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Arash at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1422
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.164172,
+            36.842927,
+            0
+          ]
+        },
+        "properties": {
+          "name": "rappel",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "3889b17c",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Arash at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1406
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.164287,
+            36.842933,
+            0
+          ]
+        },
+        "properties": {
+          "name": "long rappel",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "3889b17c",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Arash at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1404
+        }
       }
     ]
   },
-  "version": "628134b17fb610c6a58a2aba387f2b62"
+  "version": "6084ae60565df5473a86b1abbb87bceb"
 }

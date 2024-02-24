@@ -27,111 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.539470932541,
-            37.7718457596633,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-in Snow Creek",
-          "elevationMeters": 1714
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.535176753998,
-            37.7594937841997,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Trail Snow Creek",
-          "elevationMeters": 2401
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5599470256783,
-            37.73930410171332,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Mirror Lake shuttle stop",
-          "elevationMeters": 1221
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5841820926384,
-            37.74381015234066,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle",
-          "elevationMeters": 2265
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5454,
-            37.8066,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Porcupine Creek TH",
-          "elevationMeters": 2422
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5833850298045,
-            37.74509814003631,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Yosemite Village shuttle stop",
-          "elevationMeters": 2213
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.5361761185449,
-            37.77033720333075,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 2018
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1553,7 +1448,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6380.755690156877,
@@ -1721,7 +1616,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1650.639464435009,
@@ -1909,7 +1804,7 @@
         },
         "properties": {
           "name": "Alt Approach (Shuttle)",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6941.638467949471,
@@ -2057,7 +1952,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3528.1333648908712,
@@ -2065,8 +1960,120 @@
           "descentMeters": 1212.4000244140625,
           "changeMeters": -1168.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.539470932541,
+            37.7718457596633,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-in Snow Creek",
+          "stroke": "#FF9500",
+          "elevationMeters": 1714
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.535176753998,
+            37.7594937841997,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Trail Snow Creek",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2401
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5599470256783,
+            37.73930410171332,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Mirror Lake shuttle stop",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1221
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5841820926384,
+            37.74381015234066,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2265
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5454,
+            37.8066,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Porcupine Creek TH",
+          "stroke": "#FF9500",
+          "elevationMeters": 2422
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5833850298045,
+            37.74509814003631,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Yosemite Village shuttle stop",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2213
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.5361761185449,
+            37.77033720333075,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2018
+        }
       }
     ]
   },
-  "version": "05a93bc4370ee5ca3ecd0453364375a2"
+  "version": "93f0861b500d5591129c9f657b04f027"
 }

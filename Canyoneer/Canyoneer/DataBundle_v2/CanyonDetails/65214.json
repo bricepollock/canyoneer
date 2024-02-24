@@ -15,51 +15,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.68594121932985,
-            33.764619218766875,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "elevationMeters": 2340
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.61771655082704,
-            33.75817040902938,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Andreas Falls",
-          "elevationMeters": 917
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.54953479766847,
-            33.76041818203061,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Finish",
-          "elevationMeters": 1133
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -936,7 +891,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 8240.829742749122,
@@ -1229,7 +1184,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 10240.965893720202,
@@ -1452,7 +1407,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 777.0780855496417,
@@ -1460,8 +1415,56 @@
           "descentMeters": 62.09979248046875,
           "changeMeters": 135.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.68594121932985,
+            33.764619218766875,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "stroke": "#34C759",
+          "elevationMeters": 2340
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.61771655082704,
+            33.75817040902938,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Andreas Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 917
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.54953479766847,
+            33.76041818203061,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Finish",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1133
+        }
       }
     ]
   },
-  "version": "35a65bf173051a7ff684cd3aec77f9a6"
+  "version": "515c157e6ab8dd979f04480229203164"
 }

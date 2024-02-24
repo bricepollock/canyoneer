@@ -31,85 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.90881,
-            34.93417,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 80’",
-          "description": "Off tree rdc",
-          "elevationMeters": 1385
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.90855,
-            34.93383,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 40’",
-          "description": "Off tree rdc",
-          "elevationMeters": 1383
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.90803110599519,
-            34.93343702084563,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - 65’",
-          "description": "Off tree rdc",
-          "elevationMeters": 1381
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.9077803194523,
-            34.9329697484196,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4 - 25’",
-          "description": "Off boulder rdc",
-          "elevationMeters": 1389
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91214561462404,
-            34.92795712220345,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rockfall!",
-          "elevationMeters": 1403
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -456,7 +377,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1720.6049181340109,
@@ -554,7 +475,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 191.10340410640936,
@@ -982,7 +903,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2069.002868587532,
@@ -990,8 +911,92 @@
           "descentMeters": 87.60009765625,
           "changeMeters": -14.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.90881,
+            34.93417,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 80’",
+          "description": "Off tree rdc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1385
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.90855,
+            34.93383,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 40’",
+          "description": "Off tree rdc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1383
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.90803110599519,
+            34.93343702084563,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - 65’",
+          "description": "Off tree rdc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1381
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.9077803194523,
+            34.9329697484196,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4 - 25’",
+          "description": "Off boulder rdc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1389
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91214561462404,
+            34.92795712220345,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rockfall!",
+          "stroke": "#34C759",
+          "elevationMeters": 1403
+        }
       }
     ]
   },
-  "version": "5d6be5ee07ab54f3b570564f8ad99d41"
+  "version": "67b1a902b7cdf5cec62328883b2619ab"
 }

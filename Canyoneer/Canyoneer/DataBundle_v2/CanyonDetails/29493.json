@@ -19,75 +19,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            2.151596,
-            42.366884,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-53c033fe",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by RocJumper at wikiloc.com)",
-          "elevationMeters": 2493
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            2.164633,
-            42.354281,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "5f41fc",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by RocJumper at wikiloc.com)",
-          "elevationMeters": 1171
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            2.151699,
-            42.366876,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Fontalba",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "4012f984",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by RocJumper at wikiloc.com)",
-          "elevationMeters": 2480
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2500,7 +2431,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by RocJumper at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 5266.094711152128,
@@ -2508,8 +2439,80 @@
           "descentMeters": 2102.1998291015625,
           "changeMeters": -1322.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.151596,
+            42.366884,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-48be55bd",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by RocJumper at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2493
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.164633,
+            42.354281,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "1466415d",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by RocJumper at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1171
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.151699,
+            42.366876,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Fontalba",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "630d1cc1",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by RocJumper at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2480
+        }
       }
     ]
   },
-  "version": "62aaf33e94c80a36a4d85b3f7a1e8f6e"
+  "version": "67cfa078774fb9967d259c4b564a2181"
 }

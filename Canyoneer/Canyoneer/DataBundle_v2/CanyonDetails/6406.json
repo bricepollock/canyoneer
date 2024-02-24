@@ -26,36 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.63599538803102,
-            47.37289588988567,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 208
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.63430023193361,
-            47.38209362393858,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 214
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -227,7 +197,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2257.5975873524562,
@@ -300,7 +270,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1040.3804528469846,
@@ -308,8 +278,40 @@
           "descentMeters": 41.79998779296875,
           "changeMeters": 11.100006103515625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.63599538803102,
+            47.37289588988567,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 208
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.63430023193361,
+            47.38209362393858,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 214
+        }
       }
     ]
   },
-  "version": "f3b7e8193c2df2564842deff2d6b67d9"
+  "version": "b4ed5e361ac35bc0694c562c99f183ec"
 }

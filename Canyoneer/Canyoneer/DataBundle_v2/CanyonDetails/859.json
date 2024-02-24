@@ -4,7 +4,7 @@
   "longitude": -111.7977,
   "id": 859,
   "name": "Rider Canyon",
-  "quality": 3.3,
+  "quality": 3.4,
   "months": [
     "Sep",
     "Oct",
@@ -28,67 +28,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.77077174186708,
-            36.65919310676313,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1426
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.77841,
-            36.6596,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cairn",
-          "description": "4.5h, 9.2mi",
-          "elevationMeters": 1168
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.77189,
-            36.65896,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trail Sign",
-          "elevationMeters": 1418
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.79042,
-            36.65194,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1251
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -2283,7 +2222,7 @@
         },
         "properties": {
           "name": "Access Road",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 22769.92513783735,
@@ -3116,7 +3055,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 5587.505584423603,
@@ -4314,7 +4253,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 8742.785155993875,
@@ -5062,7 +5001,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 5960.926500374312,
@@ -5375,7 +5314,7 @@
         },
         "properties": {
           "name": "Sneak Exit",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1246.9291300015175,
@@ -5383,8 +5322,73 @@
           "descentMeters": 44.2996826171875,
           "changeMeters": 251.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.77077174186708,
+            36.65919310676313,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FF2D55",
+          "elevationMeters": 1426
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.77841,
+            36.6596,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cairn",
+          "description": "4.5h, 9.2mi",
+          "stroke": "#FF9500",
+          "elevationMeters": 1168
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.77189,
+            36.65896,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trail Sign",
+          "stroke": "#FF9500",
+          "elevationMeters": 1418
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.79042,
+            36.65194,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1251
+        }
       }
     ]
   },
-  "version": "f9b4fec9cb30a3d96a5fcdfc29c20fa1"
+  "version": "7dfc573fa1d2d75282cc9ef8c576ea9c"
 }

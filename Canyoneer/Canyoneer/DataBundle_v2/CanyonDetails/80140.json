@@ -21,216 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.84762,
-            35.33144,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6 - 15 ft",
-          "elevationMeters": 1207
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.85628,
-            35.33147,
-            0
-          ]
-        },
-        "properties": {
-          "name": "J4 - 5 ft",
-          "elevationMeters": 1161
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.84021,
-            35.32864,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R7 - 80 ft",
-          "elevationMeters": 1309
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.86407,
-            35.33182,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 20 ft",
-          "elevationMeters": 995
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.83288,
-            35.32808,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Log Jam",
-          "elevationMeters": 1344
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.84093,
-            35.32907,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Serpentine Falls",
-          "elevationMeters": 1276
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.83342,
-            35.32858,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R8 - 80 ft - Dark Prong Falls",
-          "elevationMeters": 1315
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.86892,
-            35.33227,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave Trail",
-          "elevationMeters": 1049
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.8549,
-            35.33114,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5 - 30 ft ",
-          "elevationMeters": 1197
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.86035,
-            35.33252,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2/J2 - 20 ft",
-          "elevationMeters": 1081
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.85758,
-            35.33171,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - 80 ft - Upper Dark Prong Falls",
-          "elevationMeters": 1138
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.82926440238954,
-            35.32812905780088,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Join Trail",
-          "elevationMeters": 1337
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.82692551612855,
-            35.32366482211464,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 1211
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -82.87537693977357,
-            35.3195461272486,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 1195
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -747,7 +537,7 @@
         },
         "properties": {
           "name": "Dark Prong - Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2893.8270629333306,
@@ -1010,7 +800,7 @@
         },
         "properties": {
           "name": "Dark Prong - Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1222.4785620971454,
@@ -1358,7 +1148,7 @@
         },
         "properties": {
           "name": "Dark Prong - Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 3444.921310261718,
@@ -2296,7 +2086,7 @@
         },
         "properties": {
           "name": "Dark Prong - Shuttle",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 6446.073068226658,
@@ -2304,8 +2094,232 @@
           "descentMeters": 1412,
           "changeMeters": -18.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.84762,
+            35.33144,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6 - 15 ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1207
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.85628,
+            35.33147,
+            0
+          ]
+        },
+        "properties": {
+          "name": "J4 - 5 ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1161
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.84021,
+            35.32864,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R7 - 80 ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1309
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.86407,
+            35.33182,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 20 ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 995
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.83288,
+            35.32808,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Log Jam",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1344
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.84093,
+            35.32907,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Serpentine Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1276
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.83342,
+            35.32858,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R8 - 80 ft - Dark Prong Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1315
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.86892,
+            35.33227,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave Trail",
+          "stroke": "#34C759",
+          "elevationMeters": 1049
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.8549,
+            35.33114,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5 - 30 ft ",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1197
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.86035,
+            35.33252,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2/J2 - 20 ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1081
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.85758,
+            35.33171,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - 80 ft - Upper Dark Prong Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1138
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.82926440238954,
+            35.32812905780088,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Join Trail",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1337
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.82692551612855,
+            35.32366482211464,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1211
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -82.87537693977357,
+            35.3195461272486,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1195
+        }
       }
     ]
   },
-  "version": "9c8ee8858579a42d19f3c42e90a07a8f"
+  "version": "73d727db478a0a765fe713fabe4fe1ae"
 }

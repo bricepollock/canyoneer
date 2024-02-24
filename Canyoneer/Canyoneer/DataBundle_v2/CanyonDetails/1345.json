@@ -468,7 +468,7 @@
             "normal": "#dir_route1",
             "highlight": "#dir_route3"
           },
-          "stroke": "#00d000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 3063.8752995232658,
@@ -477,72 +477,6 @@
           "changeMeters": 16.400001525878906
         },
         "id": "23.4"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -72.89037753624756,
-            41.43060428828844,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Outlook tower",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 100
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -72.8853190774705,
-            41.43444180730964,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop in",
-          "styleUrl": "#msn_open-diamond0",
-          "styleHash": "-9154126",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond0",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 86
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -72.89843785846826,
-            41.42139953104275,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#msn_parking_lot",
-          "styleHash": "bdcce78",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 69
-        }
       },
       {
         "type": "Feature",
@@ -754,13 +688,82 @@
             "normal": "#dir_route",
             "highlight": "#dir_route4"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 1187.6707453047813,
           "ascentMeters": 57.79999542236328,
           "descentMeters": 9.799995422363281,
           "changeMeters": 48
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.89037753624756,
+            41.43060428828844,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Outlook tower",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
+          "elevationMeters": 100
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.8853190774705,
+            41.43444180730964,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop in",
+          "styleUrl": "#msn_open-diamond0",
+          "styleHash": "-9154126",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond0",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
+          "elevationMeters": 86
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.89843785846826,
+            41.42139953104275,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#msn_parking_lot",
+          "styleHash": "bdcce78",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 69
         }
       },
       {
@@ -782,10 +785,11 @@
             "highlight": "#sh_bus"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/bus.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 135
         }
       }
     ]
   },
-  "version": "078089eb382fd886b4f5edbf0e712004"
+  "version": "8ab44b7138893ae396d260628c31e9fc"
 }

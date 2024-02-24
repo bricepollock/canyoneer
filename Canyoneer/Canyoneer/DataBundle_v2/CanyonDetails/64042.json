@@ -31,38 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.9119055569172,
-            34.93149315005846,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1(a) - 245’",
-          "description": "Off tree set back from edge",
-          "elevationMeters": 1405
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91145,
-            34.93155,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1(b) - 165’",
-          "description": "Off boulder",
-          "elevationMeters": 1394
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -354,7 +322,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1333.9695035111176,
@@ -412,7 +380,7 @@
         },
         "properties": {
           "name": "Alt start",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 44.523396733108164,
@@ -505,7 +473,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 488.6308354881187,
@@ -553,7 +521,7 @@
         },
         "properties": {
           "name": "Descent (alt)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 1,
           "lengthMeters": 42.37374246615982,
@@ -911,7 +879,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1525.277997001408,
@@ -919,8 +887,42 @@
           "descentMeters": 61.4000244140625,
           "changeMeters": -7.10009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.9119055569172,
+            34.93149315005846,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1(a) - 245’",
+          "description": "Off tree set back from edge",
+          "stroke": "#34C759",
+          "elevationMeters": 1405
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91145,
+            34.93155,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1(b) - 165’",
+          "description": "Off boulder",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1394
+        }
       }
     ]
   },
-  "version": "6c6adccb0ca60f6f3bea29e23f0c307a"
+  "version": "2fc617b6cb19ddab04a208460463b047"
 }

@@ -1583,7 +1583,7 @@
             "normal": "#line-0F9D58-5000-nodesc-normal",
             "highlight": "#line-0F9D58-5000-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3562.2471359310343,
@@ -2317,57 +2317,13 @@
             "normal": "#line-FF5252-5000-nodesc-normal",
             "highlight": "#line-FF5252-5000-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3533.094224524088,
           "ascentMeters": 245.4002685546875,
           "descentMeters": 503.80029296875,
           "changeMeters": -258.4000244140625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9594156,
-            38.5666094,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Hidden Splendor Trailhead",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1573
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.902067,
-            38.529876,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead - Factory Butte",
-          "styleUrl": "#icon-1207-nodesc",
-          "styleHash": "69dbb8f1",
-          "styleMapHash": {
-            "normal": "#icon-1207-nodesc-normal",
-            "highlight": "#icon-1207-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
-          "elevationMeters": 1400
         }
       },
       {
@@ -2605,7 +2561,7 @@
             "normal": "#line-0F9D58-5000-nodesc-normal",
             "highlight": "#line-0F9D58-5000-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3475.544516581791,
@@ -2749,7 +2705,7 @@
             "normal": "#line-0F9D58-4488-nodesc-normal",
             "highlight": "#line-0F9D58-4488-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4.488,
           "lengthMeters": 2922.6933136866664,
@@ -3308,7 +3264,7 @@
             "normal": "#line-FFEA00-5000-nodesc-normal",
             "highlight": "#line-FFEA00-5000-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3043.845542315359,
@@ -3622,7 +3578,7 @@
             "normal": "#line-0F9D58-5000-nodesc-normal",
             "highlight": "#line-0F9D58-5000-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3193.4923718241625,
@@ -3666,7 +3622,7 @@
             "normal": "#line-0F9D58-5069-nodesc-normal",
             "highlight": "#line-0F9D58-5069-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.069,
           "lengthMeters": 559.3694726302633,
@@ -3710,7 +3666,7 @@
             "normal": "#line-0F9D58-4000-nodesc-normal",
             "highlight": "#line-0F9D58-4000-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 500.8716670008625,
@@ -3829,7 +3785,7 @@
             "normal": "#line-FFEA00-5456-nodesc-normal",
             "highlight": "#line-FFEA00-5456-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 1230.2009028044981,
@@ -3837,8 +3793,54 @@
           "descentMeters": 72.2999267578125,
           "changeMeters": -45.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9594156,
+            38.5666094,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Hidden Splendor Trailhead",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1573
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.902067,
+            38.529876,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead - Factory Butte",
+          "styleUrl": "#icon-1207-nodesc",
+          "styleHash": "69dbb8f1",
+          "styleMapHash": {
+            "normal": "#icon-1207-nodesc-normal",
+            "highlight": "#icon-1207-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1400
+        }
       }
     ]
   },
-  "version": "d06f5d9b6e9def8bddb97b3a1570f936"
+  "version": "bb47f3cb42ced0210bdb325cd15dd008"
 }

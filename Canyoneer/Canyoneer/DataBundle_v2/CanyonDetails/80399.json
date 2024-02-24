@@ -26,21 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -120.1564943790436,
-            48.635099497586346,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 695
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -297,7 +282,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2047.2858006436913,
@@ -360,7 +345,7 @@
         },
         "properties": {
           "name": "exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 214.53681699715392,
@@ -427,7 +412,7 @@
             [
               -120.16707301139833,
               48.641756732767966,
-              890
+              875.0999755859375
             ],
             [
               -120.16716957092287,
@@ -558,7 +543,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1585.04206419902,
@@ -741,7 +726,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 6065.238231781277,
@@ -749,8 +734,24 @@
           "descentMeters": 693.699951171875,
           "changeMeters": 161.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.1564943790436,
+            48.635099497586346,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 695
+        }
       }
     ]
   },
-  "version": "7b634870d5391230c834b5e6b7b86537"
+  "version": "0bfecc1f3fc5269a2d89cbeec0a0ae4c"
 }

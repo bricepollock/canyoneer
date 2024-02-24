@@ -23,21 +23,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.2355365753174,
-            43.47746322715077,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1110
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -289,7 +274,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2238.194438003055,
@@ -537,7 +522,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4398.661143451963,
@@ -755,7 +740,7 @@
         },
         "properties": {
           "name": "Exit (Carleton Canyon)",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6542.93945575159,
@@ -763,8 +748,24 @@
           "descentMeters": 407.60003662109375,
           "changeMeters": 184.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.2355365753174,
+            43.47746322715077,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1110
+        }
       }
     ]
   },
-  "version": "fea18fc6e619452ada0315eec0109ea5"
+  "version": "06add2cfa082aef35623cbb37f0dc566"
 }

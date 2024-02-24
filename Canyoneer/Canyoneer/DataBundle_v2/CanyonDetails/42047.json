@@ -12,121 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -15.75195,
-            27.987638,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "50d0f36b",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by avogh at wikiloc.com)",
-          "elevationMeters": 700
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -15.751951,
-            27.987637,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "3d510d62",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by avogh at wikiloc.com)",
-          "elevationMeters": 700
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -15.748738,
-            27.98576,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cabecera Bco pino gordo",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "11bb9edd",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by avogh at wikiloc.com)",
-          "elevationMeters": 699
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -15.751119,
-            27.987139,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Fin Bco del Pino Gordo",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "11bb9edd",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by avogh at wikiloc.com)",
-          "elevationMeters": 717
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -15.751951,
-            27.987637,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Bco pino gordo",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "11bb9edd",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by avogh at wikiloc.com)",
-          "elevationMeters": 700
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -849,7 +734,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by avogh at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1335.753749172954,
@@ -857,8 +742,128 @@
           "descentMeters": 246.20001220703125,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.75195,
+            27.987638,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "7ca1fdd",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by avogh at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 700
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.751951,
+            27.987637,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "30d6517b",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by avogh at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 700
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.748738,
+            27.98576,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cabecera Bco pino gordo",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-6412c303",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by avogh at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 699
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.751119,
+            27.987139,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fin Bco del Pino Gordo",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-6412c303",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by avogh at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 717
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.751951,
+            27.987637,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Bco pino gordo",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-6412c303",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by avogh at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 700
+        }
       }
     ]
   },
-  "version": "a889811da11240afb56bd9dd3937a039"
+  "version": "49719cd11b6bd0e9014cce217ee49d9f"
 }

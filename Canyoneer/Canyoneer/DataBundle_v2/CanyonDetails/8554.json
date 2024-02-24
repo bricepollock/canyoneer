@@ -34,72 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.0733357232693,
-            20.74192305987163,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#m_ylw-pushpin0",
-          "styleHash": "27d6ffc",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 1741
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.0830791871187,
-            20.74199835860816,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - Drop In",
-          "styleUrl": "#msn_placemark_circle",
-          "styleHash": "-4e83398a",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle",
-            "highlight": "#sh_placemark_circle_highlight"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 1677
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.0846231240477,
-            20.7596165697187,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rio Verde",
-          "styleUrl": "#msn_placemark_circle",
-          "styleHash": "-4e83398a",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle",
-            "highlight": "#sh_placemark_circle_highlight"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 1735
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -178,7 +112,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1275.9536551848937,
@@ -368,7 +302,7 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2214.155901985746,
@@ -543,13 +477,82 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2720.9043108255205,
           "ascentMeters": 44,
           "descentMeters": 37.2999267578125,
           "changeMeters": 6.7000732421875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.0733357232693,
+            20.74192305987163,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#m_ylw-pushpin0",
+          "styleHash": "27d6ffc",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1741
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.0830791871187,
+            20.74199835860816,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - Drop In",
+          "styleUrl": "#msn_placemark_circle",
+          "styleHash": "-4e83398a",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle",
+            "highlight": "#sh_placemark_circle_highlight"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1677
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.0846231240477,
+            20.7596165697187,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rio Verde",
+          "styleUrl": "#msn_placemark_circle",
+          "styleHash": "-4e83398a",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle",
+            "highlight": "#sh_placemark_circle_highlight"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1735
         }
       },
       {
@@ -571,6 +574,7 @@
             "highlight": "#sh_placemark_circle_highlight"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1738
         }
       },
@@ -593,10 +597,11 @@
             "highlight": "#sh_placemark_circle_highlight"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1742
         }
       }
     ]
   },
-  "version": "5941e4c308a7f1281cef7784dee0b4cb"
+  "version": "2c49967d265dcfdcef9866dfaf203206"
 }

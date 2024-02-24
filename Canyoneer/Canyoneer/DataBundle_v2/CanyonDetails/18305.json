@@ -25,98 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            13.755382,
-            46.406576,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#icon-62",
-          "styleHash": "4fc2a5f1",
-          "styleMapHash": {
-            "normal": "#icon-62-normal",
-            "highlight": "#icon-62-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png",
-          "description": "46.406576,13.755382",
-          "elevationMeters": 1078
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            13.754636,
-            46.407705,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-93",
-          "styleHash": "203f2b70",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "46.407705,13.754636",
-          "elevationMeters": 1097
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            13.739846,
-            46.403869,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-93",
-          "styleHash": "203f2b70",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "46.403869,13.739846",
-          "elevationMeters": 1752
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            13.745399,
-            46.402903,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#icon-124",
-          "styleHash": "-3ed42fa3",
-          "styleMapHash": {
-            "normal": "#icon-124-normal",
-            "highlight": "#icon-124-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png",
-          "description": "46.402903,13.745399",
-          "elevationMeters": 1521
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -229,7 +137,7 @@
         "properties": {
           "name": "Descent",
           "description": "3h",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 987.1281797104804,
@@ -268,7 +176,7 @@
         "properties": {
           "name": "Approach",
           "description": "10min",
-          "stroke": "#00FF00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 172.43183509929236,
@@ -367,7 +275,7 @@
         "properties": {
           "name": "Exit",
           "description": "15min",
-          "stroke": "#FFFF00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 659.0972329571961,
@@ -1305,7 +1213,7 @@
         },
         "properties": {
           "name": "Road",
-          "stroke": "#000000",
+          "stroke": "#007AFF",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 3489.639808756065,
@@ -2243,13 +2151,109 @@
         },
         "properties": {
           "name": "Road",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3489.639808756065,
           "ascentMeters": 612.300048828125,
           "descentMeters": 1290.5,
           "changeMeters": -678.199951171875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.755382,
+            46.406576,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#icon-62",
+          "styleHash": "4fc2a5f1",
+          "styleMapHash": {
+            "normal": "#icon-62-normal",
+            "highlight": "#icon-62-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png",
+          "description": "46.406576,13.755382",
+          "stroke": "#34C759",
+          "elevationMeters": 1078
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.754636,
+            46.407705,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-93",
+          "styleHash": "203f2b70",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "46.407705,13.754636",
+          "stroke": "#34C759",
+          "elevationMeters": 1097
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.739846,
+            46.403869,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-93",
+          "styleHash": "203f2b70",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "46.403869,13.739846",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1752
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.745399,
+            46.402903,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#icon-124",
+          "styleHash": "-3ed42fa3",
+          "styleMapHash": {
+            "normal": "#icon-124-normal",
+            "highlight": "#icon-124-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png",
+          "description": "46.402903,13.745399",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1521
         }
       },
       {
@@ -2271,6 +2275,7 @@
             "highlight": "#icon-ci-1-nodesc-highlight"
           },
           "icon": "images/icon-1.png",
+          "stroke": "#007AFF",
           "elevationMeters": 1775
         }
       },
@@ -2293,10 +2298,11 @@
             "highlight": "#icon-ci-2-nodesc-highlight"
           },
           "icon": "images/icon-2.png",
+          "stroke": "#34C759",
           "elevationMeters": 1097
         }
       }
     ]
   },
-  "version": "98066c798c46e4eb0cc375373625b431"
+  "version": "a5321708fb23c378c00f6e2473a6bed4"
 }

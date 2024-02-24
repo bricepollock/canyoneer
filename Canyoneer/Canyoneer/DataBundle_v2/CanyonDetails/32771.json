@@ -186,35 +186,13 @@
             "normal": "#line-0F9D58-6038-nodesc-normal",
             "highlight": "#line-0F9D58-6038-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6.038,
           "lengthMeters": 1304.5206296635076,
           "ascentMeters": 689.19970703125,
           "descentMeters": 107.2998046875,
           "changeMeters": 581.89990234375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.1827883,
-            38.2030846,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start of Descent",
-          "styleUrl": "#icon-503-E65100-nodesc",
-          "styleHash": "6fd7d659",
-          "styleMapHash": {
-            "normal": "#icon-503-E65100-nodesc-normal",
-            "highlight": "#icon-503-E65100-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 2105
         }
       },
       {
@@ -292,7 +270,7 @@
             "normal": "#line-FF5252-5263-nodesc-normal",
             "highlight": "#line-FF5252-5263-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 493.483619659179,
@@ -456,7 +434,7 @@
             "normal": "#line-FFEA00-5844-nodesc-normal",
             "highlight": "#line-FFEA00-5844-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 576.5875016475724,
@@ -464,8 +442,31 @@
           "descentMeters": 69.9998779296875,
           "changeMeters": -65.2999267578125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.1827883,
+            38.2030846,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start of Descent",
+          "styleUrl": "#icon-503-E65100-nodesc",
+          "styleHash": "6fd7d659",
+          "styleMapHash": {
+            "normal": "#icon-503-E65100-nodesc-normal",
+            "highlight": "#icon-503-E65100-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 2105
+        }
       }
     ]
   },
-  "version": "fe161b570e120219d699fefc1cfa310b"
+  "version": "023e6bc4ea4c460bcf1b7bf4fd058223"
 }

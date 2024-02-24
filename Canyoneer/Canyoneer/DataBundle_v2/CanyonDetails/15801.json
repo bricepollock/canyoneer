@@ -22,52 +22,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            22.491304,
-            40.103752,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "53856e46",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Canyoning-Caving at wikiloc.com)",
-          "elevationMeters": 2259
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            22.49089,
-            40.103906,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "547eadfd",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Canyoning-Caving at wikiloc.com)",
-          "elevationMeters": 2285
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2405,7 +2359,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Canyoning-Caving at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 6264.787154304441,
@@ -2413,8 +2367,56 @@
           "descentMeters": 1024.2010498046875,
           "changeMeters": 25.10009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.491304,
+            40.103752,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-f25c4f6",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Canyoning-Caving at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2259
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.49089,
+            40.103906,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "2907dd5a",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Canyoning-Caving at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2285
+        }
       }
     ]
   },
-  "version": "3642b4a97fde1a336b13afb41c6c59c9"
+  "version": "e36ee370010abe4347cc12dfc2ab3e46"
 }

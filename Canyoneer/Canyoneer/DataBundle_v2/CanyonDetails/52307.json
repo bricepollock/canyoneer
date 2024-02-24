@@ -26,66 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.03998482227327,
-            37.4438490156828,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 275' Fourmile Falls  ",
-          "elevationMeters": 3189
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.03980255126953,
-            37.44459915161133,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 100'",
-          "elevationMeters": 3181
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.03990173339844,
-            37.4453010559082,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Fourmile start",
-          "elevationMeters": 3164
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.05295592546462,
-            37.40924989355635,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 2519
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -252,7 +192,7 @@
         },
         "properties": {
           "name": "Fourmile Creek return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 260.967749409632,
@@ -2020,7 +1960,7 @@
         },
         "properties": {
           "name": "Fourmile Creek approach ",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5006.190293632047,
@@ -2258,7 +2198,7 @@
         },
         "properties": {
           "name": "Falls Creek to Fourmile Falls",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 397.43136725636356,
@@ -2541,7 +2481,7 @@
         },
         "properties": {
           "name": "Fourmile Creek descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 413.09201891587895,
@@ -4254,7 +4194,7 @@
         },
         "properties": {
           "name": "4 Mile Rd / FR 400",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 21016.35098608641,
@@ -4262,8 +4202,72 @@
           "descentMeters": 2544.700439453125,
           "changeMeters": -327.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.03998482227327,
+            37.4438490156828,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 275' Fourmile Falls  ",
+          "stroke": "#FF9500",
+          "elevationMeters": 3189
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.03980255126953,
+            37.44459915161133,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 100'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3181
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.03990173339844,
+            37.4453010559082,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fourmile start",
+          "stroke": "#34C759",
+          "elevationMeters": 3164
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.05295592546462,
+            37.40924989355635,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 2519
+        }
       }
     ]
   },
-  "version": "e7e88a73e9118284648614f63871dc3f"
+  "version": "10cd59134c8a25114c2fe65f89147a33"
 }

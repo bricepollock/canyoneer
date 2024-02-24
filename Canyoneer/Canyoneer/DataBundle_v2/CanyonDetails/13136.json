@@ -14,75 +14,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.098177,
-            38.659909,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-1bd76f1b",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by jvramos at wikiloc.com)",
-          "elevationMeters": 269
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.098177,
-            38.659909,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "4841f506",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by jvramos at wikiloc.com)",
-          "elevationMeters": 269
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.098167,
-            38.659906,
-            0
-          ]
-        },
-        "properties": {
-          "name": "coche",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "43e6e8e6",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by jvramos at wikiloc.com)",
-          "elevationMeters": 269
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2305,7 +2236,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by jvramos at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2641.8681905555272,
@@ -2313,8 +2244,80 @@
           "descentMeters": 167.300048828125,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.098177,
+            38.659909,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "7768b127",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by jvramos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 269
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.098177,
+            38.659909,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "77e4d9d8",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by jvramos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 269
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.098167,
+            38.659906,
+            0
+          ]
+        },
+        "properties": {
+          "name": "coche",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "251d1dc8",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by jvramos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 269
+        }
       }
     ]
   },
-  "version": "6e9e20f65562b7185a63a152a72c5e96"
+  "version": "13b3770667077d832264f7d2bfe504db"
 }

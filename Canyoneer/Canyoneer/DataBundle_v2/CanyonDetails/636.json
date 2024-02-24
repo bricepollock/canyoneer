@@ -17,66 +17,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.86002230644227,
-            33.82348786660012,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 1064
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.87767124176027,
-            33.813373186484995,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ruins",
-          "elevationMeters": 1332
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.871939,
-            33.815199,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Chockstone",
-          "elevationMeters": 1233
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.87611556053162,
-            33.81300325041749,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trail RUC",
-          "elevationMeters": 1333
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -813,7 +753,7 @@
         },
         "properties": {
           "name": "Devils Chasm",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2353.8411917480908,
@@ -821,8 +761,72 @@
           "descentMeters": 261.30035400390625,
           "changeMeters": 268.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.86002230644227,
+            33.82348786660012,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#34C759",
+          "elevationMeters": 1064
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.87767124176027,
+            33.813373186484995,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ruins",
+          "stroke": "#34C759",
+          "elevationMeters": 1332
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.871939,
+            33.815199,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Chockstone",
+          "stroke": "#34C759",
+          "elevationMeters": 1233
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.87611556053162,
+            33.81300325041749,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trail RUC",
+          "stroke": "#34C759",
+          "elevationMeters": 1333
+        }
       }
     ]
   },
-  "version": "fd8a10060e2f4f8ad8eedeac1455b278"
+  "version": "6cd9aa3676ffcde50f24fcf5fd680dfa"
 }

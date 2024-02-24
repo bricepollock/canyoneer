@@ -30,94 +30,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.9357640215437,
-            20.04079482103833,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#msn_placemark_circle3",
-          "styleHash": "47a52b41",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle6",
-            "highlight": "#sh_placemark_circle_highlight0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 1751
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.9415483623213,
-            20.05365483079616,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6 - Cascada de Comala",
-          "styleUrl": "#msn_placemark_circle",
-          "styleHash": "-4e83398a",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle",
-            "highlight": "#sh_placemark_circle_highlight"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 1272
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.9352412421534,
-            20.04081658994787,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Approach",
-          "styleUrl": "#msn_placemark_circle8",
-          "styleHash": "-4997edbd",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle9",
-            "highlight": "#sh_placemark_circle_highlight9"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 1754
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -103.9415662817682,
-            20.05408900988989,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Exit",
-          "styleUrl": "#msn_placemark_circle2",
-          "styleHash": "4660c564",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle8",
-            "highlight": "#sh_placemark_circle_highlight4"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 1268
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -326,7 +238,7 @@
             "highlight": "#sh_ylw-pushpin17"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1916.8132524146088,
@@ -781,13 +693,105 @@
             "highlight": "#sh_ylw-pushpin15"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6590.082836268525,
           "ascentMeters": 717.7998046875,
           "descentMeters": 1203.1998291015625,
           "changeMeters": -485.4000244140625
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.9357640215437,
+            20.04079482103833,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#msn_placemark_circle3",
+          "styleHash": "47a52b41",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle6",
+            "highlight": "#sh_placemark_circle_highlight0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1751
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.9415483623213,
+            20.05365483079616,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6 - Cascada de Comala",
+          "styleUrl": "#msn_placemark_circle",
+          "styleHash": "-4e83398a",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle",
+            "highlight": "#sh_placemark_circle_highlight"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1272
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.9352412421534,
+            20.04081658994787,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "styleUrl": "#msn_placemark_circle8",
+          "styleHash": "-4997edbd",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle9",
+            "highlight": "#sh_placemark_circle_highlight9"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1754
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.9415662817682,
+            20.05408900988989,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "styleUrl": "#msn_placemark_circle2",
+          "styleHash": "4660c564",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle8",
+            "highlight": "#sh_placemark_circle_highlight4"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1268
         }
       },
       {
@@ -809,10 +813,11 @@
             "highlight": "#sh_placemark_circle_highlight8"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1693
         }
       }
     ]
   },
-  "version": "569e37fea028787a6adae6a497457bb9"
+  "version": "82c648a933cb4994e89965bff237bbf7"
 }

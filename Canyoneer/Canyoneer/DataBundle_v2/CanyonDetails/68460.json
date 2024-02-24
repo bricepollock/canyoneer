@@ -30,54 +30,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.764994,
-            34.836828,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "Off small tree rdc",
-          "elevationMeters": 1439
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.764236,
-            34.837181,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "description": "Off tree",
-          "elevationMeters": 1470
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.763964,
-            34.837302,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": "Off tree set back",
-          "elevationMeters": 1474
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1064,7 +1016,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2132.36197555281,
@@ -1322,7 +1274,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 261.5023316346329,
@@ -2645,7 +2597,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1815.1685588296236,
@@ -2653,8 +2605,59 @@
           "descentMeters": 386.500244140625,
           "changeMeters": -71.2000732421875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.764994,
+            34.836828,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "Off small tree rdc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1439
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.764236,
+            34.837181,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "Off tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1470
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.763964,
+            34.837302,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "Off tree set back",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1474
+        }
       }
     ]
   },
-  "version": "3a54335b35ff2714d00261f17c3d5f63"
+  "version": "a809ddd2c5079f991d9247274b496e47"
 }

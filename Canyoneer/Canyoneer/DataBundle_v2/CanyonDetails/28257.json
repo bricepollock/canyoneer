@@ -18,98 +18,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.012081,
-            52.99663400000001,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Creek",
-          "styleUrl": "#waypoint",
-          "styleHash": "734a4fed",
-          "styleMapHash": {
-            "normal": "#waypoint_n0",
-            "highlight": "#waypoint_h"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon61.png",
-          "timestamp": "2018-04-13T21:31:51Z",
-          "elevationMeters": 1740
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.046409,
-            52.985281,
-            1018.6
-          ]
-        },
-        "properties": {
-          "name": "Garonne Creek",
-          "styleUrl": "#waypoint0",
-          "styleHash": "-456e82ad",
-          "styleMapHash": {
-            "normal": "#waypoint_n",
-            "highlight": "#waypoint_h0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon61.png",
-          "timestamp": "2018-04-13T16:53:10Z",
-          "elevationMeters": 1151
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.020921,
-            52.947649,
-            1013.9
-          ]
-        },
-        "properties": {
-          "name": "Bridge",
-          "styleUrl": "#waypoint0",
-          "styleHash": "-456e82ad",
-          "styleMapHash": {
-            "normal": "#waypoint_n",
-            "highlight": "#waypoint_h0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon61.png",
-          "timestamp": "2018-04-14T04:21:39Z",
-          "elevationMeters": 1108
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.030037,
-            52.93355399999999,
-            1017.3
-          ]
-        },
-        "properties": {
-          "name": "Bridge 6",
-          "styleUrl": "#waypoint0",
-          "styleHash": "-456e82ad",
-          "styleMapHash": {
-            "normal": "#waypoint_n",
-            "highlight": "#waypoint_h0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon61.png",
-          "timestamp": "2018-04-14T04:45:16Z",
-          "elevationMeters": 1550
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -378,10 +286,107 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#5856D6",
           "lengthMeters": 12960.565977496472,
           "ascentMeters": 3280.2999267578125,
           "descentMeters": 2880,
           "changeMeters": 400.2999267578125
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.012081,
+            52.99663400000001,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Creek",
+          "styleUrl": "#waypoint",
+          "styleHash": "734a4fed",
+          "styleMapHash": {
+            "normal": "#waypoint_n0",
+            "highlight": "#waypoint_h"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon61.png",
+          "timestamp": "2018-04-13T21:31:51Z",
+          "stroke": "#5856D6",
+          "elevationMeters": 1740
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.046409,
+            52.985281,
+            1018.6
+          ]
+        },
+        "properties": {
+          "name": "Garonne Creek",
+          "styleUrl": "#waypoint0",
+          "styleHash": "-456e82ad",
+          "styleMapHash": {
+            "normal": "#waypoint_n",
+            "highlight": "#waypoint_h0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon61.png",
+          "timestamp": "2018-04-13T16:53:10Z",
+          "stroke": "#5856D6",
+          "elevationMeters": 1151
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.020921,
+            52.947649,
+            1013.9
+          ]
+        },
+        "properties": {
+          "name": "Bridge",
+          "styleUrl": "#waypoint0",
+          "styleHash": "-456e82ad",
+          "styleMapHash": {
+            "normal": "#waypoint_n",
+            "highlight": "#waypoint_h0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon61.png",
+          "timestamp": "2018-04-14T04:21:39Z",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1108
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.030037,
+            52.93355399999999,
+            1017.3
+          ]
+        },
+        "properties": {
+          "name": "Bridge 6",
+          "styleUrl": "#waypoint0",
+          "styleHash": "-456e82ad",
+          "styleMapHash": {
+            "normal": "#waypoint_n",
+            "highlight": "#waypoint_h0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon61.png",
+          "timestamp": "2018-04-14T04:45:16Z",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1550
         }
       },
       {
@@ -403,10 +408,11 @@
             "highlight": "#waypoint_h"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pal4/icon61.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1399
         }
       }
     ]
   },
-  "version": "98de15791d5202565548536c483e745c"
+  "version": "022f18b23969575eb298d1e1cbf6ff64"
 }

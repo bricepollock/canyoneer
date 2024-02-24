@@ -17,52 +17,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.025056,
-            37.019242,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#icon-93",
-          "styleHash": "6012e13e",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Wire Pass trailhead.  Join the masses here. (Data by canyonchronicles.com)",
-          "elevationMeters": 1854
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.006412,
-            36.995989,
-            0
-          ]
-        },
-        "properties": {
-          "name": "The Wave",
-          "styleUrl": "#icon-55",
-          "styleHash": "16540f57",
-          "styleMapHash": {
-            "normal": "#icon-55-normal",
-            "highlight": "#icon-55-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/55-flag.png",
-          "description": "Here it is, If you zoom in on the satellite view it is pretty obvious. (Data by canyonchronicles.com)",
-          "elevationMeters": 1582
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -261,7 +215,7 @@
             "highlight": "#line-0000FF-5000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#0000ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4853.247589421008,
@@ -269,8 +223,56 @@
           "descentMeters": 630.9000244140625,
           "changeMeters": 267
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.025056,
+            37.019242,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#icon-93",
+          "styleHash": "6012e13e",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Wire Pass trailhead.  Join the masses here. (Data by canyonchronicles.com)",
+          "stroke": "#5856D6",
+          "elevationMeters": 1854
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.006412,
+            36.995989,
+            0
+          ]
+        },
+        "properties": {
+          "name": "The Wave",
+          "styleUrl": "#icon-55",
+          "styleHash": "16540f57",
+          "styleMapHash": {
+            "normal": "#icon-55-normal",
+            "highlight": "#icon-55-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/55-flag.png",
+          "description": "Here it is, If you zoom in on the satellite view it is pretty obvious. (Data by canyonchronicles.com)",
+          "stroke": "#5856D6",
+          "elevationMeters": 1582
+        }
       }
     ]
   },
-  "version": "bcef4001a7d94ac80b91cb7a01433dfb"
+  "version": "c6102f549f8f4c8c025e471de217941a"
 }

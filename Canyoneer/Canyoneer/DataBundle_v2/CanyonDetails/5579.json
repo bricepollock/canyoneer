@@ -35,50 +35,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.652990020911,
-            34.45582245537241,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#msn_parking_lot",
-          "styleHash": "bdcce78",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 977
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.6588129748611,
-            34.46990577363838,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Tangerine Falls",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 1050
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -431,7 +387,7 @@
             "normal": "#dir_route7",
             "highlight": "#dir_route0"
           },
-          "stroke": "#00aa00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 2212.739014916007,
@@ -481,35 +437,13 @@
             "normal": "#dir_route",
             "highlight": "#dir_route3"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 264.84658580175005,
           "ascentMeters": 3.7000732421875,
           "descentMeters": 48.800048828125,
           "changeMeters": -45.0999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.6584721536107,
-            34.46588362344616,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Fork",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 1002
         }
       },
       {
@@ -587,7 +521,7 @@
             "normal": "#dir_route1",
             "highlight": "#dir_route2"
           },
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 368.0478287393868,
@@ -596,8 +530,77 @@
           "changeMeters": -39.60003662109375
         },
         "id": "23.4"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.652990020911,
+            34.45582245537241,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#msn_parking_lot",
+          "styleHash": "bdcce78",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 977
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.6588129748611,
+            34.46990577363838,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Tangerine Falls",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1050
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.6584721536107,
+            34.46588362344616,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fork",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1002
+        }
       }
     ]
   },
-  "version": "65d91017247890b2c4ffbd08a85a5580"
+  "version": "a9b8e6f4b631409656192cc05d6a8e25"
 }

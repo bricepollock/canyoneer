@@ -22,111 +22,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.7749,
-            37.8055,
-            0
-          ]
-        },
-        "properties": {
-          "name": "South Fork Mineral Campground",
-          "elevationMeters": 3000
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.77780000000001,
-            37.8117,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bridge",
-          "elevationMeters": 3373
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.77639999999997,
-            37.8105,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Closer Parking Option",
-          "elevationMeters": 3178
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.78379999999999,
-            37.8122,
-            0
-          ]
-        },
-        "properties": {
-          "name": "House sized Boulder",
-          "elevationMeters": 3225
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.77390000000003,
-            37.8066,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3035
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.78079482720536,
-            37.810604674258826,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R10: 100'",
-          "elevationMeters": 3206
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.78252094094742,
-            37.81251749786313,
-            0
-          ]
-        },
-        "properties": {
-          "name": "depart from trail",
-          "elevationMeters": 3289
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -498,7 +393,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1681.8028570987005,
@@ -561,7 +456,7 @@
         },
         "properties": {
           "name": "Car Shuttle Trail",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 200.80689287812854,
@@ -594,7 +489,7 @@
         },
         "properties": {
           "name": "Exit CL",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 51.57414152469779,
@@ -637,7 +532,7 @@
         },
         "properties": {
           "name": "Confluence of Ice Lake Creek and Clear Creek ",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 249.88743042654397,
@@ -695,7 +590,7 @@
         },
         "properties": {
           "name": "Lower Ice Lake Creek Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 568.9935931058508,
@@ -758,7 +653,7 @@
         },
         "properties": {
           "name": "return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 280.94359701536615,
@@ -1116,7 +1011,7 @@
         },
         "properties": {
           "name": "Road to closer parking",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2452.873392926353,
@@ -1124,8 +1019,120 @@
           "descentMeters": 547.900146484375,
           "changeMeters": -128
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.7749,
+            37.8055,
+            0
+          ]
+        },
+        "properties": {
+          "name": "South Fork Mineral Campground",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3000
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.77780000000001,
+            37.8117,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bridge",
+          "stroke": "#34C759",
+          "elevationMeters": 3373
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.77639999999997,
+            37.8105,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Closer Parking Option",
+          "stroke": "#34C759",
+          "elevationMeters": 3178
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.78379999999999,
+            37.8122,
+            0
+          ]
+        },
+        "properties": {
+          "name": "House sized Boulder",
+          "stroke": "#34C759",
+          "elevationMeters": 3225
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.77390000000003,
+            37.8066,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 3035
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.78079482720536,
+            37.810604674258826,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R10: 100'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3206
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.78252094094742,
+            37.81251749786313,
+            0
+          ]
+        },
+        "properties": {
+          "name": "depart from trail",
+          "stroke": "#34C759",
+          "elevationMeters": 3289
+        }
       }
     ]
   },
-  "version": "59737e879201fe76b0c6c7bf3c946c12"
+  "version": "9bfb258b333a645bca76bacf7583d078"
 }

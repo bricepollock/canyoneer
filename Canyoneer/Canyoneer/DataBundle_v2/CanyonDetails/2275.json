@@ -25,66 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.62803459167482,
-            44.68763364809287,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Turn-off",
-          "elevationMeters": 191
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.61979484558107,
-            44.694193081155625,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Private Home",
-          "elevationMeters": 184
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.600332736969,
-            44.70349704896223,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gate",
-          "elevationMeters": 335
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.59198570251466,
-            44.71202945575672,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bridge",
-          "elevationMeters": 209
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -151,7 +91,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 336.1697315077287,
@@ -579,7 +519,7 @@
         },
         "properties": {
           "name": "Drive in",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3934.2469798101474,
@@ -857,7 +797,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1797.6686645297027,
@@ -930,7 +870,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 351.37141935805516,
@@ -1023,7 +963,7 @@
         },
         "properties": {
           "name": "Bushwhack",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 150.91484074398295,
@@ -1031,8 +971,72 @@
           "descentMeters": 32.19999694824219,
           "changeMeters": -32.19999694824219
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.62803459167482,
+            44.68763364809287,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Turn-off",
+          "stroke": "#FF3B30",
+          "elevationMeters": 191
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.61979484558107,
+            44.694193081155625,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Private Home",
+          "stroke": "#FF3B30",
+          "elevationMeters": 184
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.600332736969,
+            44.70349704896223,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gate",
+          "stroke": "#FF3B30",
+          "elevationMeters": 335
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.59198570251466,
+            44.71202945575672,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bridge",
+          "stroke": "#FF3B30",
+          "elevationMeters": 209
+        }
       }
     ]
   },
-  "version": "6378093162a101721430ee569ad3fcfd"
+  "version": "9e37f5f610dc62ad01c325ed51ca4e0b"
 }

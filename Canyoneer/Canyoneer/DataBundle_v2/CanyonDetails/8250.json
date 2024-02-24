@@ -25,81 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.56323242187494,
-            44.50437953652804,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Middle Parking",
-          "elevationMeters": 637
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.56181621551508,
-            44.50687396093224,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Section Start",
-          "elevationMeters": 751
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.56943368911737,
-            44.49842615370956,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 499
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.56100082397462,
-            44.51021754644924,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Campground Parking",
-          "elevationMeters": 884
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.54434967041017,
-            44.49598493797759,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking if Gates Closed",
-          "elevationMeters": 529
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -136,7 +61,7 @@
         },
         "properties": {
           "name": "Upper Parker",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 296.11490459340837,
@@ -199,7 +124,7 @@
         },
         "properties": {
           "name": "Lower Parker",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 831.1651409298008,
@@ -1222,7 +1147,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 7795.684099873253,
@@ -1345,7 +1270,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 412.81282482117257,
@@ -1353,8 +1278,88 @@
           "descentMeters": 187.10003662109375,
           "changeMeters": -166.10003662109375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.56323242187494,
+            44.50437953652804,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Middle Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 637
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.56181621551508,
+            44.50687396093224,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Section Start",
+          "stroke": "#FF3B30",
+          "elevationMeters": 751
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.56943368911737,
+            44.49842615370956,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 499
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.56100082397462,
+            44.51021754644924,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Campground Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 884
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.54434967041017,
+            44.49598493797759,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking if Gates Closed",
+          "stroke": "#34C759",
+          "elevationMeters": 529
+        }
       }
     ]
   },
-  "version": "39c689687941aea7532c295fa643fe5a"
+  "version": "3a83da59f9abfea05fe122e3d0460711"
 }

@@ -28,50 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.978608478966,
-            37.82637204765931,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#msn_cabs",
-          "styleHash": "-4f3933ad",
-          "styleMapHash": {
-            "normal": "#sn_cabs",
-            "highlight": "#sh_cabs"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/cabs.png",
-          "elevationMeters": 1525
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.9640228262956,
-            37.76240879986717,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start up slickrock ",
-          "styleUrl": "#msn_pink-blank",
-          "styleHash": "-56a7d41e",
-          "styleMapHash": {
-            "normal": "#sn_pink-blank",
-            "highlight": "#sh_pink-blank"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/pink-blank.png",
-          "elevationMeters": 1542
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -584,7 +540,7 @@
             "normal": "#inline2",
             "highlight": "#inline"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill-opacity": 0,
@@ -1324,7 +1280,7 @@
             "normal": "#inline4",
             "highlight": "#inline1"
           },
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill-opacity": 0,
@@ -1332,6 +1288,52 @@
           "ascentMeters": 1080.199951171875,
           "descentMeters": 1188.5999755859375,
           "changeMeters": -108.4000244140625
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.978608478966,
+            37.82637204765931,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#msn_cabs",
+          "styleHash": "-4f3933ad",
+          "styleMapHash": {
+            "normal": "#sn_cabs",
+            "highlight": "#sh_cabs"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/cabs.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1525
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.9640228262956,
+            37.76240879986717,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start up slickrock ",
+          "styleUrl": "#msn_pink-blank",
+          "styleHash": "-56a7d41e",
+          "styleMapHash": {
+            "normal": "#sn_pink-blank",
+            "highlight": "#sh_pink-blank"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/pink-blank.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1542
         }
       },
       {
@@ -1353,6 +1355,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/1.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1502
         }
       },
@@ -1376,6 +1379,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/1.png",
           "description": "At the wrong water levels this pothole could be a group killer due to not being passible by potshot due to the geometry and sheer size of the pothole.  A packraft would be the only way to escape the pothole in moderate to low water conditions. ",
+          "stroke": "#FF3B30",
           "elevationMeters": 1485
         }
       },
@@ -1398,6 +1402,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/1.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1416
         }
       },
@@ -1420,10 +1425,11 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/paddle/1.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1479
         }
       }
     ]
   },
-  "version": "611ffec7a3bc6fbb057ea0efc2cdbd4e"
+  "version": "81adc4e98cf1acb9252b60a6a1bc975b"
 }

@@ -34,66 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            123.34204673767091,
-            9.677962700879144,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trail ",
-          "elevationMeters": 129
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            123.34552288055421,
-            9.68143450039152,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-in",
-          "elevationMeters": 75
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            123.33925724029542,
-            9.683466756624798,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking or Drop off",
-          "elevationMeters": 182
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            123.34384918212892,
-            9.682789339246913,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Hot Springs",
-          "elevationMeters": 71
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -834,7 +774,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 712.8600200555933,
@@ -1356,7 +1296,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 422.85620661026286,
@@ -2773,7 +2713,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1294.6864083752052,
@@ -3430,7 +3370,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 580.9460860663281,
@@ -3438,8 +3378,72 @@
           "descentMeters": 7.70001220703125,
           "changeMeters": 102
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            123.34204673767091,
+            9.677962700879144,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trail ",
+          "stroke": "#34C759",
+          "elevationMeters": 129
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            123.34552288055421,
+            9.68143450039152,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-in",
+          "stroke": "#34C759",
+          "elevationMeters": 75
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            123.33925724029542,
+            9.683466756624798,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking or Drop off",
+          "stroke": "#34C759",
+          "elevationMeters": 182
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            123.34384918212892,
+            9.682789339246913,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Hot Springs",
+          "stroke": "#FF3B30",
+          "elevationMeters": 71
+        }
       }
     ]
   },
-  "version": "8b2a07ac1f4e30200e6d506bda48bf71"
+  "version": "1c94116f3b327da0392cc3fd01da5b33"
 }

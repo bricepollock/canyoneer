@@ -19,66 +19,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.1402135859044,
-            34.08541827604402,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park Exit",
-          "elevationMeters": 1230
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.1857198739017,
-            34.04111170657038,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park Approach",
-          "elevationMeters": 1175
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.145433,
-            34.073167,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Oh-bay-yo-yo Shelter",
-          "elevationMeters": 1268
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.1530935306746,
-            34.0688449095803,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Willow Hole",
-          "elevationMeters": 1291
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -385,7 +325,7 @@
         },
         "properties": {
           "name": "Wonderland Approach",
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00cd00",
@@ -910,7 +850,7 @@
         },
         "properties": {
           "name": "Wonderland Descent",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#ff0000",
@@ -1025,7 +965,7 @@
         },
         "properties": {
           "name": "Wonderland Exit",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#f0f000",
@@ -1162,7 +1102,7 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2.5,
           "lengthMeters": 3270.0010022588026,
@@ -1302,7 +1242,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#aa0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2.5,
           "lengthMeters": 1293.431483585619,
@@ -1437,13 +1377,77 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2.5,
           "lengthMeters": 2460.0178422521954,
           "ascentMeters": 131.2998046875,
           "descentMeters": 106.2998046875,
           "changeMeters": 25
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.1402135859044,
+            34.08541827604402,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park Exit",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1230
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.1857198739017,
+            34.04111170657038,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park Approach",
+          "stroke": "#34C759",
+          "elevationMeters": 1175
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.145433,
+            34.073167,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Oh-bay-yo-yo Shelter",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1268
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.1530935306746,
+            34.0688449095803,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Willow Hole",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1291
         }
       },
       {
@@ -1466,6 +1470,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png",
           "description": "Beginning of loop trail to WoR",
+          "stroke": "#34C759",
           "elevationMeters": 726
         }
       },
@@ -1485,6 +1490,7 @@
           "styleHash": "-64d84d8e",
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png",
           "description": "Climbed up this canyon",
+          "stroke": "#FF3B30",
           "elevationMeters": 707
         }
       },
@@ -1508,6 +1514,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png",
           "description": "Turn left up canyon here for a shorter connection to the Willow Hole trail.",
+          "stroke": "#FF3B30",
           "elevationMeters": 1258
         }
       },
@@ -1523,6 +1530,7 @@
         },
         "properties": {
           "name": "Parking",
+          "stroke": "#FFCC00",
           "elevationMeters": 1230
         }
       },
@@ -1538,10 +1546,11 @@
         },
         "properties": {
           "name": "Indian Cave",
+          "stroke": "#FF3B30",
           "elevationMeters": 1236
         }
       }
     ]
   },
-  "version": "b847a509d34355c55c26bdaf379ad335"
+  "version": "d373a37c38effa4e7f6a07615fcd7747"
 }

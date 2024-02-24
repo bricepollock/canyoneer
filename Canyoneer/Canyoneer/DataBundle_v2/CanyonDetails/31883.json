@@ -26,111 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.58493016494602,
-            48.19217461786626,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Good drop-in above R4",
-          "elevationMeters": 1349
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.57566449535369,
-            48.19130640012078,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 934
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.57995737088206,
-            48.19191345062596,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Drop in ~1800'",
-          "elevationMeters": 1150
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.57942548061779,
-            48.19184954722961,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R13",
-          "elevationMeters": 1118
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.58420447620348,
-            48.192054633976056,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "elevationMeters": 1314
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.58288936492103,
-            48.19177325446503,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Top R7",
-          "elevationMeters": 1267
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.5808871527788,
-            48.19183875183887,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bottom R10",
-          "elevationMeters": 1203
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -172,7 +67,7 @@
         },
         "properties": {
           "name": "Approach #2",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 253.37962618621336,
@@ -215,7 +110,7 @@
         },
         "properties": {
           "name": "Approach #3",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 285.2917732480855,
@@ -273,7 +168,7 @@
         },
         "properties": {
           "name": "Approach #4",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 448.90840434390344,
@@ -345,7 +240,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 645.6311767701688,
@@ -558,7 +453,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 862.7349312570299,
@@ -606,7 +501,7 @@
         },
         "properties": {
           "name": "Potential upper falls approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 162.3711876058046,
@@ -674,7 +569,7 @@
         },
         "properties": {
           "name": "Not worthwhile extension",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 1,
           "lengthMeters": 179.88064417221494,
@@ -727,7 +622,7 @@
         },
         "properties": {
           "name": "Approach #1",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 209.96274018240283,
@@ -800,7 +695,7 @@
         },
         "properties": {
           "name": "Undescented Upper Falls",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 183.97849721133977,
@@ -808,8 +703,120 @@
           "descentMeters": 0,
           "changeMeters": 116.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.58493016494602,
+            48.19217461786626,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Good drop-in above R4",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1349
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.57566449535369,
+            48.19130640012078,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 934
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.57995737088206,
+            48.19191345062596,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Drop in ~1800'",
+          "stroke": "#34C759",
+          "elevationMeters": 1150
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.57942548061779,
+            48.19184954722961,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R13",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1118
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.58420447620348,
+            48.192054633976056,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1314
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.58288936492103,
+            48.19177325446503,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Top R7",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1267
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.5808871527788,
+            48.19183875183887,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bottom R10",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1203
+        }
       }
     ]
   },
-  "version": "ab683e3194e91b0f686ee33ebbb2f305"
+  "version": "bc9ce3338cbe2305c9c9c0d9a312af3e"
 }

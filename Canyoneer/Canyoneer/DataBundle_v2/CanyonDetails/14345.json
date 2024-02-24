@@ -35,6 +35,7 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-depart.png",
           "description": " (Data by Streicher Wolfgang on 10 fév 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 627
         }
       },
@@ -58,10 +59,59 @@
           },
           "icon": "http://www.descente-canyon.com/design/img/map-markers/marker-canyon-arrivee.png",
           "description": " (Data by Streicher Wolfgang on 10 fév 2013)",
+          "stroke": "#FF3B30",
           "elevationMeters": 485
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.732589,
+            45.475811,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "styleUrl": "#parking_amont",
+          "styleHash": "-55e0b397",
+          "styleMapHash": {
+            "normal": "#parking_amont0",
+            "highlight": "#parking_amont1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "description": " (Data by admin on 20 déc 2007)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 615
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.716066,
+            45.48896,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "styleUrl": "#parking_aval",
+          "styleHash": "-64d43659",
+          "styleMapHash": {
+            "normal": "#parking_aval0",
+            "highlight": "#parking_aval1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "description": " (Data by Streicher Wolfgang on 10 fév 2013)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 480
         }
       }
     ]
   },
-  "version": "b6a7bff27c10ce890de7ce4ae194b765"
+  "version": "d11d6545ef400530d69c098f828c1832"
 }

@@ -29,94 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.518236,
-            38.042187,
-            1581
-          ]
-        },
-        "properties": {
-          "name": "Exit Trailhead",
-          "styleUrl": "#icon-1899-FFD600-nodesc",
-          "styleHash": "-feb55e8",
-          "styleMapHash": {
-            "normal": "#icon-1899-FFD600-nodesc-normal",
-            "highlight": "#icon-1899-FFD600-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1497
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.504034,
-            38.059214,
-            1646
-          ]
-        },
-        "properties": {
-          "name": "Trailhead Option",
-          "styleUrl": "#icon-1899-FFD600-nodesc",
-          "styleHash": "-feb55e8",
-          "styleMapHash": {
-            "normal": "#icon-1899-FFD600-nodesc-normal",
-            "highlight": "#icon-1899-FFD600-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1510
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.46301,
-            38.071004,
-            1762
-          ]
-        },
-        "properties": {
-          "name": "Standard Trailhead",
-          "styleUrl": "#icon-1899-0F9D58-nodesc",
-          "styleHash": "-3e3c0dc8",
-          "styleMapHash": {
-            "normal": "#icon-1899-0F9D58-nodesc-normal",
-            "highlight": "#icon-1899-0F9D58-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1280
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.494693,
-            38.04489,
-            1463
-          ]
-        },
-        "properties": {
-          "name": "Optional Final Rap and Exit",
-          "styleUrl": "#icon-1899-0288D1-nodesc",
-          "styleHash": "8e57c38",
-          "styleMapHash": {
-            "normal": "#icon-1899-0288D1-nodesc-normal",
-            "highlight": "#icon-1899-0288D1-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1531
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -574,7 +486,7 @@
             "normal": "#line-784D3E-6619-nodesc-normal",
             "highlight": "#line-784D3E-6619-nodesc-highlight"
           },
-          "stroke": "#784d3e",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 6.619,
           "lengthMeters": 7220.30859870343,
@@ -1028,7 +940,7 @@
             "normal": "#line-FFD600-6619-nodesc-normal",
             "highlight": "#line-FFD600-6619-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 6.619,
           "lengthMeters": 1890.8706700088585,
@@ -1487,7 +1399,7 @@
             "normal": "#line-0F9D58-6038-nodesc-normal",
             "highlight": "#line-0F9D58-6038-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6.038,
           "lengthMeters": 3086.059890593352,
@@ -1531,7 +1443,7 @@
             "normal": "#line-9C27B0-7394-nodesc-normal",
             "highlight": "#line-9C27B0-7394-nodesc-highlight"
           },
-          "stroke": "#9c27b0",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 7.394,
           "lengthMeters": 94.78529613262546,
@@ -1965,7 +1877,7 @@
             "normal": "#line-0F9D58-6813-nodesc-normal",
             "highlight": "#line-0F9D58-6813-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6.813,
           "lengthMeters": 1918.1257292156324,
@@ -2114,7 +2026,7 @@
             "normal": "#line-FFD600-6813-nodesc-normal",
             "highlight": "#line-FFD600-6813-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 6.813,
           "lengthMeters": 4468.027239003457,
@@ -2363,7 +2275,7 @@
             "normal": "#line-FFD600-7006-nodesc-normal",
             "highlight": "#line-FFD600-7006-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 7.006,
           "lengthMeters": 1320.6419084348688,
@@ -2452,7 +2364,7 @@
             "normal": "#line-FFD600-7394-nodesc-normal",
             "highlight": "#line-FFD600-7394-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 7.394,
           "lengthMeters": 2596.091015948658,
@@ -3166,7 +3078,7 @@
             "normal": "#line-FF5252-7006-nodesc-normal",
             "highlight": "#line-FF5252-7006-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 7.006,
           "lengthMeters": 2719.42927323852,
@@ -3174,8 +3086,100 @@
           "descentMeters": 227.7998046875,
           "changeMeters": -168.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.518236,
+            38.042187,
+            1581
+          ]
+        },
+        "properties": {
+          "name": "Exit Trailhead",
+          "styleUrl": "#icon-1899-FFD600-nodesc",
+          "styleHash": "-feb55e8",
+          "styleMapHash": {
+            "normal": "#icon-1899-FFD600-nodesc-normal",
+            "highlight": "#icon-1899-FFD600-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1497
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.504034,
+            38.059214,
+            1646
+          ]
+        },
+        "properties": {
+          "name": "Trailhead Option",
+          "styleUrl": "#icon-1899-FFD600-nodesc",
+          "styleHash": "-feb55e8",
+          "styleMapHash": {
+            "normal": "#icon-1899-FFD600-nodesc-normal",
+            "highlight": "#icon-1899-FFD600-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF2D55",
+          "elevationMeters": 1510
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.46301,
+            38.071004,
+            1762
+          ]
+        },
+        "properties": {
+          "name": "Standard Trailhead",
+          "styleUrl": "#icon-1899-0F9D58-nodesc",
+          "styleHash": "-3e3c0dc8",
+          "styleMapHash": {
+            "normal": "#icon-1899-0F9D58-nodesc-normal",
+            "highlight": "#icon-1899-0F9D58-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1280
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.494693,
+            38.04489,
+            1463
+          ]
+        },
+        "properties": {
+          "name": "Optional Final Rap and Exit",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "styleHash": "8e57c38",
+          "styleMapHash": {
+            "normal": "#icon-1899-0288D1-nodesc-normal",
+            "highlight": "#icon-1899-0288D1-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1531
+        }
       }
     ]
   },
-  "version": "19c025562c0e8ec09e651a6ee483f6b2"
+  "version": "b608f990bc3a3a65cf5acb71fa740560"
 }

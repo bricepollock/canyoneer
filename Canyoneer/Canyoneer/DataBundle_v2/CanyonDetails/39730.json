@@ -16,28 +16,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.2301506,
-            37.593768,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Egypt 3 Trailhead",
-          "styleUrl": "#icon-1644-FF5252-nodesc",
-          "styleHash": "19f95fb4",
-          "styleMapHash": {
-            "normal": "#icon-1644-FF5252-nodesc-normal",
-            "highlight": "#icon-1644-FF5252-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1530
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -280,35 +258,13 @@
             "normal": "#line-FFEA00-5650-nodesc-normal",
             "highlight": "#line-FFEA00-5650-nodesc-highlight"
           },
-          "stroke": "#ffea00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 5271.480727473986,
           "ascentMeters": 388.699951171875,
           "descentMeters": 370.4998779296875,
           "changeMeters": 18.2000732421875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.2455106,
-            37.5608462,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Egypt 3 - Optional Rap",
-          "styleUrl": "#icon-1772-9C27B0-nodesc",
-          "styleHash": "304040b0",
-          "styleMapHash": {
-            "normal": "#icon-1772-9C27B0-nodesc-normal",
-            "highlight": "#icon-1772-9C27B0-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1470
         }
       },
       {
@@ -511,7 +467,7 @@
             "normal": "#line-9C27B0-5844-nodesc-normal",
             "highlight": "#line-9C27B0-5844-nodesc-highlight"
           },
-          "stroke": "#9c27b0",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 1153.0837939626306,
@@ -765,7 +721,7 @@
             "normal": "#line-0F9D58-5844-nodesc-normal",
             "highlight": "#line-0F9D58-5844-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 870.7189598212261,
@@ -1049,7 +1005,7 @@
             "normal": "#line-FF5252-5650-nodesc-normal",
             "highlight": "#line-FF5252-5650-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 965.6384118115697,
@@ -1473,7 +1429,7 @@
             "normal": "#line-FF5252-5456-nodesc-normal",
             "highlight": "#line-FF5252-5456-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 988.1652594714174,
@@ -1907,13 +1863,59 @@
             "normal": "#line-FF5252-5456-nodesc-normal",
             "highlight": "#line-FF5252-5456-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 1092.5366356271868,
           "ascentMeters": 114.6998291015625,
           "descentMeters": 104.099853515625,
           "changeMeters": 10.5999755859375
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.2301506,
+            37.593768,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Egypt 3 Trailhead",
+          "styleUrl": "#icon-1644-FF5252-nodesc",
+          "styleHash": "19f95fb4",
+          "styleMapHash": {
+            "normal": "#icon-1644-FF5252-nodesc-normal",
+            "highlight": "#icon-1644-FF5252-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1530
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.2455106,
+            37.5608462,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Egypt 3 - Optional Rap",
+          "styleUrl": "#icon-1772-9C27B0-nodesc",
+          "styleHash": "304040b0",
+          "styleMapHash": {
+            "normal": "#icon-1772-9C27B0-nodesc-normal",
+            "highlight": "#icon-1772-9C27B0-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1470
         }
       },
       {
@@ -1935,10 +1937,11 @@
             "highlight": "#icon-1899-FF5252-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1451
         }
       }
     ]
   },
-  "version": "85a4e13175df0e11d74fa27be7ed1066"
+  "version": "d7c3e7f48a0065d08d95618c71a16dcc"
 }

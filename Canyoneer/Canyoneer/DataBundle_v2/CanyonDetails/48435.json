@@ -28,96 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.53442293405534,
-            45.87605118260585,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Wieberg R4",
-          "elevationMeters": 470
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.54266463835694,
-            45.87808410480531,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 543
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.52042474460531,
-            45.87768180309959,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Wieberg Parking",
-          "elevationMeters": 640
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.53751509470877,
-            45.87735990288283,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Wieberg R3",
-          "elevationMeters": 494
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.54057048608752,
-            45.87816580630607,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Wieberg R2",
-          "elevationMeters": 542
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.54050201469991,
-            45.87828394202566,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gear up",
-          "elevationMeters": 542
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -559,7 +469,7 @@
         },
         "properties": {
           "name": "Walk the road approach",
-          "stroke": "#4ABD32",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2915.0195627276807,
@@ -842,7 +752,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A726BC",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1129.1488962061753,
@@ -930,7 +840,7 @@
         },
         "properties": {
           "name": "Alt Bushwack",
-          "stroke": "#0479FF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 526.167086282246,
@@ -1108,7 +1018,7 @@
         },
         "properties": {
           "name": "Wieberg Descent",
-          "stroke": "#F42410",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 594.6534098556259,
@@ -1186,7 +1096,7 @@
         },
         "properties": {
           "name": "Redo R2",
-          "stroke": "#FF9D00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 101.58621153317783,
@@ -1594,7 +1504,7 @@
         },
         "properties": {
           "name": "Bushwack to R2",
-          "stroke": "#0479FF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1701.5774985990558,
@@ -1602,8 +1512,104 @@
           "descentMeters": 286.10003662109375,
           "changeMeters": -91.20001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.53442293405534,
+            45.87605118260585,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Wieberg R4",
+          "stroke": "#FF3B30",
+          "elevationMeters": 470
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.54266463835694,
+            45.87808410480531,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#34C759",
+          "elevationMeters": 543
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.52042474460531,
+            45.87768180309959,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Wieberg Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 640
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.53751509470877,
+            45.87735990288283,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Wieberg R3",
+          "stroke": "#FF3B30",
+          "elevationMeters": 494
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.54057048608752,
+            45.87816580630607,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Wieberg R2",
+          "stroke": "#FF3B30",
+          "elevationMeters": 542
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.54050201469991,
+            45.87828394202566,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gear up",
+          "stroke": "#FF9500",
+          "elevationMeters": 542
+        }
       }
     ]
   },
-  "version": "3240ed273555f210cd1a23f671ca1935"
+  "version": "822b9269acb50447ab81cf857d15ebf3"
 }

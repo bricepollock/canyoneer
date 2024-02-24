@@ -25,201 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.2554947,
-            38.59248558,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3814
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.25406529,
-            38.59640897,
-            0
-          ]
-        },
-        "properties": {
-          "name": "bouldering move",
-          "elevationMeters": 3922
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.25409888,
-            38.5968322,
-            0
-          ]
-        },
-        "properties": {
-          "name": "saddle",
-          "elevationMeters": 3947
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.25595356,
-            38.60076185,
-            0
-          ]
-        },
-        "properties": {
-          "name": "gully",
-          "elevationMeters": 4111
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.25614631,
-            38.59989895,
-            0
-          ]
-        },
-        "properties": {
-          "name": "bypass drop",
-          "elevationMeters": 4093
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.25535066,
-            38.59935465,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DC 8'",
-          "elevationMeters": 4063
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.25491082,
-            38.59800352,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 40'",
-          "elevationMeters": 3989
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.2550807,
-            38.59794149,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 65'",
-          "elevationMeters": 3988
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.25523806,
-            38.59742494,
-            0
-          ]
-        },
-        "properties": {
-          "name": "20' waterfall bypass CL",
-          "elevationMeters": 3966
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.2550529,
-            38.59612458,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 140'",
-          "elevationMeters": 3907
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.25499293,
-            38.59562969,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4: 55'",
-          "elevationMeters": 3885
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.25478744506836,
-            38.59532649044609,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5: 55'",
-          "elevationMeters": 3863
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.25471658,
-            38.59506621,
-            0
-          ]
-        },
-        "properties": {
-          "name": "upclimb CR",
-          "elevationMeters": 3852
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1271,7 +1076,7 @@
         },
         "properties": {
           "name": "FR240",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 9704.981498939771,
@@ -2384,7 +2189,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1585.694096957922,
@@ -2857,7 +2662,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 616.312702488549,
@@ -3045,7 +2850,7 @@
         },
         "properties": {
           "name": "return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 371.72988859564487,
@@ -3093,7 +2898,7 @@
         },
         "properties": {
           "name": "exit before R5",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 33.53577675985177,
@@ -3131,7 +2936,7 @@
         },
         "properties": {
           "name": "possible entrance shortcut?",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 97.07261988297071,
@@ -3139,8 +2944,216 @@
           "descentMeters": 24.5,
           "changeMeters": -9.89990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.2554947,
+            38.59248558,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 3814
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.25406529,
+            38.59640897,
+            0
+          ]
+        },
+        "properties": {
+          "name": "bouldering move",
+          "stroke": "#34C759",
+          "elevationMeters": 3922
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.25409888,
+            38.5968322,
+            0
+          ]
+        },
+        "properties": {
+          "name": "saddle",
+          "stroke": "#34C759",
+          "elevationMeters": 3947
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.25595356,
+            38.60076185,
+            0
+          ]
+        },
+        "properties": {
+          "name": "gully",
+          "stroke": "#34C759",
+          "elevationMeters": 4111
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.25614631,
+            38.59989895,
+            0
+          ]
+        },
+        "properties": {
+          "name": "bypass drop",
+          "stroke": "#34C759",
+          "elevationMeters": 4093
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.25535066,
+            38.59935465,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DC 8'",
+          "stroke": "#5856D6",
+          "elevationMeters": 4063
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.25491082,
+            38.59800352,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 40'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3989
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.2550807,
+            38.59794149,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 65'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3988
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.25523806,
+            38.59742494,
+            0
+          ]
+        },
+        "properties": {
+          "name": "20' waterfall bypass CL",
+          "stroke": "#5856D6",
+          "elevationMeters": 3966
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.2550529,
+            38.59612458,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 140'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3907
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.25499293,
+            38.59562969,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4: 55'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3885
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.25478744506836,
+            38.59532649044609,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5: 55'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3863
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.25471658,
+            38.59506621,
+            0
+          ]
+        },
+        "properties": {
+          "name": "upclimb CR",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3852
+        }
       }
     ]
   },
-  "version": "d95637e8f3ddde636abdee9e641cd1cb"
+  "version": "bb736d9c58c49eb375f062e172e7844f"
 }

@@ -26,66 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.78123276,
-            37.24828493,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 350'",
-          "elevationMeters": 2783
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.78063402785044,
-            37.247662311786385,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 180'",
-          "elevationMeters": 2775
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.7801021039486,
-            37.24708672168845,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 70'",
-          "elevationMeters": 2761
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.77021026611328,
-            37.24346160888672,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Squaretop parking",
-          "elevationMeters": 3204
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2117,7 +2057,7 @@
         },
         "properties": {
           "name": "Squaretop approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3544.6389349858878,
@@ -2300,7 +2240,7 @@
         },
         "properties": {
           "name": "Squaretop descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 197.28774899031004,
@@ -3268,7 +3208,7 @@
         },
         "properties": {
           "name": "Blanco Basin Rd / 326",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 19979.225890923826,
@@ -3836,7 +3776,7 @@
         },
         "properties": {
           "name": "Squaretop return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1205.2411828394183,
@@ -3844,8 +3784,72 @@
           "descentMeters": 42.800048828125,
           "changeMeters": 449.7001953125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.78123276,
+            37.24828493,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 350'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2783
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.78063402785044,
+            37.247662311786385,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 180'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2775
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.7801021039486,
+            37.24708672168845,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 70'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2761
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.77021026611328,
+            37.24346160888672,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Squaretop parking",
+          "stroke": "#34C759",
+          "elevationMeters": 3204
+        }
       }
     ]
   },
-  "version": "598388e122df0e23d49348f0cbf533ca"
+  "version": "20fd4ac5f3a61ee937d15d28609df3ba"
 }

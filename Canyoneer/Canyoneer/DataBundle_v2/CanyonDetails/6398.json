@@ -4,7 +4,7 @@
   "longitude": -123.7224,
   "id": 6398,
   "name": "Goforth Creek",
-  "quality": 2.7,
+  "quality": 2.6,
   "months": [
     "Jul",
     "Aug",
@@ -23,51 +23,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.72356414794923,
-            47.346062601128274,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 329
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.7264394760132,
-            47.33032900996405,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 224
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.71931552886963,
-            47.33786194265809,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Confluence",
-          "elevationMeters": 155
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -162,7 +117,7 @@
         },
         "properties": {
           "name": "Descent (Goforth Creek)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1099.0858340314721,
@@ -270,7 +225,7 @@
         },
         "properties": {
           "name": "Descent (Humptulips River)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1387.665158238922,
@@ -503,7 +458,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2678.7374909371306,
@@ -511,8 +466,56 @@
           "descentMeters": 420.3000183105469,
           "changeMeters": 139.39999389648438
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.72356414794923,
+            47.346062601128274,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 329
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.7264394760132,
+            47.33032900996405,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 224
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.71931552886963,
+            47.33786194265809,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Confluence",
+          "stroke": "#FF3B30",
+          "elevationMeters": 155
+        }
       }
     ]
   },
-  "version": "4f4dab3bf6ce86cd28adce1370219220"
+  "version": "59226a5ed6e6f95c926ae5452796798c"
 }

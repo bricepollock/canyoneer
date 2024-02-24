@@ -25,113 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70420000000001,
-            47.53948,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DropIn",
-          "description": "from road start bush whacking down slope",
-          "elevationMeters": 939
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.707427,
-            47.562346,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave Bikes Here",
-          "description": "Black Creek Crossing,road crossing to leave bikes",
-          "elevationMeters": 341
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.71119928359985,
-            47.5472698976833,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Dirt Road End",
-          "elevationMeters": 910
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.73584280641424,
-            47.57454886194237,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gate 11 - locked, start biking.",
-          "elevationMeters": 129
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70496877555271,
-            47.55482488327169,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower SMC Falls",
-          "elevationMeters": 784
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70099910621067,
-            47.553955989156464,
-            0
-          ]
-        },
-        "properties": {
-          "name": "SMC Falls",
-          "elevationMeters": 891
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.7110330135003,
-            47.54711255104466,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Black Creek Power Plant ",
-          "elevationMeters": 910
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -348,7 +241,7 @@
         },
         "properties": {
           "name": "Road",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2802.524316168746,
@@ -451,7 +344,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1041.7448435563877,
@@ -479,7 +372,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 97.14666037462365,
@@ -846,7 +739,7 @@
           ]
         },
         "properties": {
-          "stroke": "#000000",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4248.020431952603,
@@ -929,7 +822,7 @@
         },
         "properties": {
           "name": "Mid-point access",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 839.9432670517497,
@@ -1192,7 +1085,7 @@
         },
         "properties": {
           "name": "Lower Exit (Option #2)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2104.833755278184,
@@ -1200,8 +1093,122 @@
           "descentMeters": 653.7000122070312,
           "changeMeters": -449.89996337890625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70420000000001,
+            47.53948,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DropIn",
+          "description": "from road start bush whacking down slope",
+          "stroke": "#FF3B30",
+          "elevationMeters": 939
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.707427,
+            47.562346,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave Bikes Here",
+          "description": "Black Creek Crossing,road crossing to leave bikes",
+          "stroke": "#FFCC00",
+          "elevationMeters": 341
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.71119928359985,
+            47.5472698976833,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Dirt Road End",
+          "stroke": "#FFCC00",
+          "elevationMeters": 910
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.73584280641424,
+            47.57454886194237,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gate 11 - locked, start biking.",
+          "stroke": "#007AFF",
+          "elevationMeters": 129
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70496877555271,
+            47.55482488327169,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower SMC Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 784
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70099910621067,
+            47.553955989156464,
+            0
+          ]
+        },
+        "properties": {
+          "name": "SMC Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 891
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.7110330135003,
+            47.54711255104466,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Black Creek Power Plant ",
+          "stroke": "#FFCC00",
+          "elevationMeters": 910
+        }
       }
     ]
   },
-  "version": "d5af211a5940306c8e10df6a8c4f4a4c"
+  "version": "917d54c826b65d23d2bab58a4e13694b"
 }

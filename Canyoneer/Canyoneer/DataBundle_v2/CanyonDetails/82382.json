@@ -20,72 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.78426654643172,
-            -16.23049266637754,
-            1983
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#sh_ylw-pushpin22",
-          "styleHash": "-59e714a1",
-          "styleMapHash": {
-            "normal": "#sh_ylw-pushpin25",
-            "highlight": "#sh_ylw-pushpin24"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "elevationMeters": 3145
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.79404164553321,
-            -16.22848831988434,
-            1791.3
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#msn_P1",
-          "styleHash": "-4c9667e8",
-          "styleMapHash": {
-            "normal": "#sn_P",
-            "highlight": "#sh_P3"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
-          "elevationMeters": 2911
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.7850571684635,
-            -16.22640455127872,
-            1749.9
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#msn_S3",
-          "styleHash": "1d81d9f6",
-          "styleMapHash": {
-            "normal": "#sn_S3",
-            "highlight": "#sh_S"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
-          "elevationMeters": 2887
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -4259,7 +4193,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1430.3324180460193,
@@ -4774,7 +4708,7 @@
             "highlight": "#sh_ylw-pushpin14"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 541.0775324492319,
@@ -5519,7 +5453,7 @@
             "highlight": "#sh_ylw-pushpin7"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1048.1498986282552,
@@ -5527,8 +5461,77 @@
           "descentMeters": 207,
           "changeMeters": 24.10009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.78426654643172,
+            -16.23049266637754,
+            1983
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#sh_ylw-pushpin22",
+          "styleHash": "-59e714a1",
+          "styleMapHash": {
+            "normal": "#sh_ylw-pushpin25",
+            "highlight": "#sh_ylw-pushpin24"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#34C759",
+          "elevationMeters": 3145
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.79404164553321,
+            -16.22848831988434,
+            1791.3
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#msn_P1",
+          "styleHash": "-4c9667e8",
+          "styleMapHash": {
+            "normal": "#sn_P",
+            "highlight": "#sh_P3"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "stroke": "#34C759",
+          "elevationMeters": 2911
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.7850571684635,
+            -16.22640455127872,
+            1749.9
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#msn_S3",
+          "styleHash": "1d81d9f6",
+          "styleMapHash": {
+            "normal": "#sn_S3",
+            "highlight": "#sh_S"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2887
+        }
       }
     ]
   },
-  "version": "40cc4c59dc92f1e8dcbad1b3569d0bca"
+  "version": "ccfc317173c7060ba70b4684defa79a0"
 }

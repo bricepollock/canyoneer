@@ -25,25 +25,10 @@
   "rappelLongestMeters": 15.24,
   "vehicle": "Passenger",
   "shuttleSeconds": 30,
-  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<p>Enter the drainage and follow the watercourse to the first\nrappel.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>Five bolted rappels under 50’ and multiple deep pools that may be\navoidable depending on water levels and downclimbing ability.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>Follow First Water Creek to the exit drainage and pick up a well\ntraveled social trail that meanders back up to the 88. Walk the road a\nshort distance back to your vehicle.</p>\n<p>If you happen to have a second vehicle, this short stretch of road\ncould be shuttled.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>First descent unknown.</p>\n<p>Published August 1st, 2022.</p>\n",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<p>Enter the drainage and follow the watercourse to the first\nrappel.</p>\n<h2 id=\"descent\">Descent</h2>\n<p>Five bolted rappels under 50’ and multiple deep pools that may be\navoidable depending on water levels and downclimbing ability.</p>\n<p>Using both bolts on double bolted anchors can likely cause some pull\nissues. Using single bolts or retrievable anchors may help prevent said\nissues.</p>\n<h2 id=\"exit\">Exit</h2>\n<p>Follow First Water Creek to the exit drainage and pick up a well\ntraveled social trail that meanders back up to the 88. Walk the road a\nshort distance back to your vehicle.</p>\n<p>If you happen to have a second vehicle, this short stretch of road\ncould be shuttled.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>First descent unknown.</p>\n<p>Published August 1st, 2022.</p>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.4545875787735,
-            33.53335512811616,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 599
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -158,7 +143,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 207.71576844669735,
@@ -371,7 +356,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 339.02610804368123,
@@ -1304,7 +1289,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1479.6705340824626,
@@ -1312,8 +1297,24 @@
           "descentMeters": 155.59991455078125,
           "changeMeters": -61.89996337890625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.4545875787735,
+            33.53335512811616,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#FFCC00",
+          "elevationMeters": 599
+        }
       }
     ]
   },
-  "version": "a796dfff4aba5d2a71421a86ba2ba520"
+  "version": "944d91c90fd249f56febbf8be9fa1256"
 }

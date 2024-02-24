@@ -31,45 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.9299049578323,
-            35.07447438413919,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#icon-93",
-          "styleHash": "265cc677",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here.",
-          "elevationMeters": 1930
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.94371,
-            35.07774,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "50'",
-          "elevationMeters": 1695
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1752,6 +1713,7 @@
             "normal": "#line-00FF00-5000-nodesc",
             "highlight": "#line-00FF00-5000-nodesc-highlight"
           },
+          "stroke": "#AF52DE",
           "lengthMeters": 1555.8648746679241,
           "ascentMeters": 127.1002197265625,
           "descentMeters": 148.8001708984375,
@@ -3078,6 +3040,7 @@
             "normal": "#line-FF0000-5000-nodesc",
             "highlight": "#line-FF0000-5000-nodesc-highlight"
           },
+          "stroke": "#FFCC00",
           "lengthMeters": 1251.904267836264,
           "ascentMeters": 185.80029296875,
           "descentMeters": 491.9002685546875,
@@ -6844,13 +6807,55 @@
             "normal": "#line-FFFF00-5000-nodesc",
             "highlight": "#line-FFFF00-5000-nodesc-highlight"
           },
+          "stroke": "#FF2D55",
           "lengthMeters": 3408.624261202284,
           "ascentMeters": 794.1002197265625,
           "descentMeters": 450.6002197265625,
           "changeMeters": 343.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.9299049578323,
+            35.07447438413919,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here.",
+          "stroke": "#FF2D55",
+          "elevationMeters": 1930
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.94371,
+            35.07774,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "50'",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1695
+        }
       }
     ]
   },
-  "version": "2aa17afdfa0eff00088a6fdc22f59f7d"
+  "version": "459ac4a7c06e7d083c88f0dba49c8ac8"
 }

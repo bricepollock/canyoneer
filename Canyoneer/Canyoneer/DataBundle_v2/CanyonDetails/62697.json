@@ -29,139 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74177899025382,
-            34.88649464288185,
-            0
-          ]
-        },
-        "properties": {
-          "name": "start ",
-          "elevationMeters": 1650
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.76035203039648,
-            34.9035801588456,
-            0
-          ]
-        },
-        "properties": {
-          "name": "r1",
-          "elevationMeters": 1717
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.76584888249639,
-            34.8998664837317,
-            0
-          ]
-        },
-        "properties": {
-          "elevationMeters": 1876
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.77294835448265,
-            34.894359271160916,
-            0
-          ]
-        },
-        "properties": {
-          "elevationMeters": 1929
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.77406817674638,
-            34.894251514164026,
-            0
-          ]
-        },
-        "properties": {
-          "elevationMeters": 1930
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.76905512809755,
-            34.88828731636419,
-            0
-          ]
-        },
-        "properties": {
-          "name": "finish",
-          "elevationMeters": 1918
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.760461,
-            34.903665,
-            0
-          ]
-        },
-        "properties": {
-          "name": "mormon misfit",
-          "description": "Location: 34.903665, -111.760461<br/>\nElevation: 1.3 mi<br/>\nTime Created: 12/14/20 10:42:27 AM<br/>\n",
-          "elevationMeters": 1717
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.741604,
-            34.885589,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "elevationMeters": 1329
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.768273,
-            34.88809,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "elevationMeters": 1915
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1052,7 +919,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 8249.326198692082,
@@ -1084,7 +951,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 70.49939873581192,
@@ -1111,7 +978,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 249.32138255225067,
@@ -1138,7 +1005,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 108.98009350838896,
@@ -1170,7 +1037,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 215.42252833575722,
@@ -1377,7 +1244,7 @@
           ]
         },
         "properties": {
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2216.038687372964,
@@ -1409,7 +1276,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 81.04768113711185,
@@ -1417,8 +1284,150 @@
           "descentMeters": 0,
           "changeMeters": 4.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74177899025382,
+            34.88649464288185,
+            0
+          ]
+        },
+        "properties": {
+          "name": "start ",
+          "stroke": "#34C759",
+          "elevationMeters": 1650
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.76035203039648,
+            34.9035801588456,
+            0
+          ]
+        },
+        "properties": {
+          "name": "r1",
+          "stroke": "#34C759",
+          "elevationMeters": 1717
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.76584888249639,
+            34.8998664837317,
+            0
+          ]
+        },
+        "properties": {
+          "stroke": "#FF3B30",
+          "elevationMeters": 1876
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.77294835448265,
+            34.894359271160916,
+            0
+          ]
+        },
+        "properties": {
+          "stroke": "#FFCC00",
+          "elevationMeters": 1929
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.77406817674638,
+            34.894251514164026,
+            0
+          ]
+        },
+        "properties": {
+          "stroke": "#FFCC00",
+          "elevationMeters": 1930
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.76905512809755,
+            34.88828731636419,
+            0
+          ]
+        },
+        "properties": {
+          "name": "finish",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1918
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.760461,
+            34.903665,
+            0
+          ]
+        },
+        "properties": {
+          "name": "mormon misfit",
+          "description": "Location: 34.903665, -111.760461<br/>\nElevation: 1.3 mi<br/>\nTime Created: 12/14/20 10:42:27 AM<br/>\n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1717
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.741604,
+            34.885589,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1329
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.768273,
+            34.88809,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1915
+        }
       }
     ]
   },
-  "version": "146eec4b346d6aab05281700e1c97259"
+  "version": "8aa6cafb720d6cc482d32e0dc1290608"
 }

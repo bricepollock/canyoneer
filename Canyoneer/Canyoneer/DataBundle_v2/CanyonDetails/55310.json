@@ -27,96 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.066102,
-            46.795687,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Devil's Creek",
-          "elevationMeters": 1288
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.07161857055934,
-            46.79378819452372,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Devils Canyon Campsite / Park",
-          "elevationMeters": 1223
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.06950977049974,
-            46.792550458162076,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop in Point ?",
-          "elevationMeters": 1234
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.06435908661172,
-            46.797287491742125,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Slope",
-          "elevationMeters": 1280
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.06656577084806,
-            46.79800465150656,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park - Shuttle / optional",
-          "elevationMeters": 1281
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -120.96635000000003,
-            46.80768,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Camping",
-          "elevationMeters": 627
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -148,7 +58,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 209.84387784431215,
@@ -176,7 +86,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 202.61384551126386,
@@ -239,7 +149,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 708.3748045920173,
@@ -302,7 +212,7 @@
         },
         "properties": {
           "name": "Exit / Drive",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 774.1253868248843,
@@ -310,8 +220,104 @@
           "descentMeters": 65,
           "changeMeters": -52.800048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.066102,
+            46.795687,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Devil's Creek",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1288
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.07161857055934,
+            46.79378819452372,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Devils Canyon Campsite / Park",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1223
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.06950977049974,
+            46.792550458162076,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop in Point ?",
+          "stroke": "#34C759",
+          "elevationMeters": 1234
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.06435908661172,
+            46.797287491742125,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Slope",
+          "stroke": "#FF9500",
+          "elevationMeters": 1280
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.06656577084806,
+            46.79800465150656,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park - Shuttle / optional",
+          "stroke": "#FF9500",
+          "elevationMeters": 1281
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.96635000000003,
+            46.80768,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Camping",
+          "stroke": "#FF3B30",
+          "elevationMeters": 627
+        }
       }
     ]
   },
-  "version": "43ffd4ccaee3de753b48814c1be4e5a2"
+  "version": "6d8a97d3ee857f979a034c489f0bc5c2"
 }

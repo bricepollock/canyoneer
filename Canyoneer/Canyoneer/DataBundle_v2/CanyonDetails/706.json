@@ -26,52 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6443649695306,
-            34.83694000028578,
-            0
-          ]
-        },
-        "properties": {
-          "name": "HC Park",
-          "description": "Park vehicle here on this rocky HC road 80A ",
-          "elevationMeters": 1939
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.66421155323673,
-            34.83377785296293,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1877
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.6695,
-            34.8589,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Narrow Swim",
-          "elevationMeters": 1943
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -98,7 +52,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1816.7020314359863,
@@ -191,7 +145,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1463.3542304686384,
@@ -654,7 +608,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 8606.040732652178,
@@ -662,8 +616,57 @@
           "descentMeters": 1141.80029296875,
           "changeMeters": 6.39990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6443649695306,
+            34.83694000028578,
+            0
+          ]
+        },
+        "properties": {
+          "name": "HC Park",
+          "description": "Park vehicle here on this rocky HC road 80A ",
+          "stroke": "#34C759",
+          "elevationMeters": 1939
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.66421155323673,
+            34.83377785296293,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1877
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.6695,
+            34.8589,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Narrow Swim",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1943
+        }
       }
     ]
   },
-  "version": "64ebaf85f1831c10d0451921f753dacd"
+  "version": "9c36c1d37907b6fa58a1f97e2eeb4ff1"
 }

@@ -22,28 +22,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.9190118545165,
-            33.80521655876806,
-            0
-          ]
-        },
-        "properties": {
-          "name": "In-park trail head",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "11a409c9",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin0",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/hiker.png",
-          "elevationMeters": 63
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -167,7 +145,7 @@
             "highlight": "#s_ylw-pushpin_hl0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00aa00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 160.6291039868033,
@@ -217,79 +195,13 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 19.569784246496944,
           "ascentMeters": 0,
           "descentMeters": 0,
           "changeMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.9197375694774,
-            33.80468319996316,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle",
-          "styleUrl": "#msn_bus",
-          "styleHash": "4cbf46e4",
-          "styleMapHash": {
-            "normal": "#sn_bus",
-            "highlight": "#sh_bus"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/bus.png",
-          "elevationMeters": 64
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.919714242705,
-            33.80521760126345,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Arch ascent",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 63
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.9196597228771,
-            33.80419622154967,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#msn_parking_lot",
-          "styleHash": "bdcce78",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 64
         }
       },
       {
@@ -348,13 +260,105 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00aa00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 105.19758226853088,
           "ascentMeters": 0,
           "descentMeters": 0,
           "changeMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.9190118545165,
+            33.80521655876806,
+            0
+          ]
+        },
+        "properties": {
+          "name": "In-park trail head",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "11a409c9",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin0",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/hiker.png",
+          "stroke": "#34C759",
+          "elevationMeters": 63
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.9197375694774,
+            33.80468319996316,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle",
+          "styleUrl": "#msn_bus",
+          "styleHash": "4cbf46e4",
+          "styleMapHash": {
+            "normal": "#sn_bus",
+            "highlight": "#sh_bus"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/bus.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 64
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.919714242705,
+            33.80521760126345,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Arch ascent",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
+          "elevationMeters": 63
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.9196597228771,
+            33.80419622154967,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#msn_parking_lot",
+          "styleHash": "bdcce78",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 64
         }
       },
       {
@@ -376,10 +380,11 @@
             "highlight": "#sh_open-diamond"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
           "elevationMeters": 64
         }
       }
     ]
   },
-  "version": "d2a58057342c6b636ae61b661e1c9b6e"
+  "version": "fd7e34e9bed15f9ce8970a935fbee6a5"
 }

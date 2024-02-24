@@ -27,36 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.72165836884051,
-            46.294000258045536,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Parking",
-          "elevationMeters": 1374
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.72157253815203,
-            46.28023967442205,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-In Parking",
-          "elevationMeters": 1168
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -748,7 +718,7 @@
         },
         "properties": {
           "name": "Road",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4502.280571392192,
@@ -1071,7 +1041,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1671.887278185927,
@@ -1179,7 +1149,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 453.2861343193446,
@@ -1256,7 +1226,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 415.7472813954168,
@@ -1264,8 +1234,40 @@
           "descentMeters": 28.800048828125,
           "changeMeters": 93.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.72165836884051,
+            46.294000258045536,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Parking",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1374
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.72157253815203,
+            46.28023967442205,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-In Parking",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1168
+        }
       }
     ]
   },
-  "version": "cb458607cbe52954fd0949ff5604da53"
+  "version": "ee361c279a36080679028376b3ff1c63"
 }

@@ -29,29 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.84843497830354,
-            34.907603600573076,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#icon-93",
-          "styleHash": "265cc677",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here. Deadman's Pass TH",
-          "elevationMeters": 1505
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1269,6 +1246,7 @@
             "normal": "#line-00FF00-5000-nodesc",
             "highlight": "#line-00FF00-5000-nodesc-highlight"
           },
+          "stroke": "#FF3B30",
           "lengthMeters": 3225.625468882486,
           "ascentMeters": 369.60009765625,
           "descentMeters": 382.2000732421875,
@@ -1495,137 +1473,11 @@
             "normal": "#line-FF0000-5000-nodesc",
             "highlight": "#line-FF0000-5000-nodesc-highlight"
           },
+          "stroke": "#007AFF",
           "lengthMeters": 512.4936891732345,
           "ascentMeters": 70.9000244140625,
           "descentMeters": 63.10009765625,
           "changeMeters": 7.7999267578125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.84594588833772,
-            34.92347448873331,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-In",
-          "elevationMeters": 1486
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.84554,
-            34.92317,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "50' tree RDC",
-          "elevationMeters": 1489
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.84492,
-            34.92249,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "description": "12' tree branch over drop",
-          "elevationMeters": 1509
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8446,
-            34.922,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": "40' tree back or DC RDC",
-          "elevationMeters": 1503
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8446,
-            34.9215,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "description": "220'-170' tree LDC back",
-          "elevationMeters": 1480
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8445,
-            34.9208,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "description": "50' tree RDC",
-          "elevationMeters": 1472
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8441,
-            34.921,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6",
-          "description": "145' tree LDC",
-          "elevationMeters": 1492
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.84462,
-            34.92056,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ruins",
-          "description": "Rock Walls",
-          "elevationMeters": 1460
         }
       },
       {
@@ -2208,13 +2060,173 @@
             "normal": "#line-FFFF00-5000-nodesc",
             "highlight": "#line-FFFF00-5000-nodesc-highlight"
           },
+          "stroke": "#34C759",
           "lengthMeters": 1832.8943244250167,
           "ascentMeters": 198.9000244140625,
           "descentMeters": 194.0999755859375,
           "changeMeters": 4.800048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.84843497830354,
+            34.907603600573076,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here. Deadman's Pass TH",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1505
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.84594588833772,
+            34.92347448873331,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-In",
+          "stroke": "#007AFF",
+          "elevationMeters": 1486
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.84554,
+            34.92317,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "50' tree RDC",
+          "stroke": "#007AFF",
+          "elevationMeters": 1489
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.84492,
+            34.92249,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "12' tree branch over drop",
+          "stroke": "#007AFF",
+          "elevationMeters": 1509
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8446,
+            34.922,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "40' tree back or DC RDC",
+          "stroke": "#007AFF",
+          "elevationMeters": 1503
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8446,
+            34.9215,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "description": "220'-170' tree LDC back",
+          "stroke": "#007AFF",
+          "elevationMeters": 1480
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8445,
+            34.9208,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "description": "50' tree RDC",
+          "stroke": "#007AFF",
+          "elevationMeters": 1472
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8441,
+            34.921,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6",
+          "description": "145' tree LDC",
+          "stroke": "#007AFF",
+          "elevationMeters": 1492
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.84462,
+            34.92056,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ruins",
+          "description": "Rock Walls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1460
+        }
       }
     ]
   },
-  "version": "666b7c00d01c6082da145193ab2bd804"
+  "version": "ac07155885ae91f4ee58c24740f744fe"
 }

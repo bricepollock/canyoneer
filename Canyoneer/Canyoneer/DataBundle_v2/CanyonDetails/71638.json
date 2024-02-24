@@ -27,156 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.4491752386093,
-            37.08793186591064,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 3139
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.37677764892578,
-            37.11968994140625,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 2819
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.44867611,
-            37.10848721,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 25'",
-          "elevationMeters": 3463
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.44414976,
-            37.10870525,
-            0
-          ]
-        },
-        "properties": {
-          "name": "25' falls bypass CL",
-          "elevationMeters": 3464
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.44244908,
-            37.10872478,
-            0
-          ]
-        },
-        "properties": {
-          "name": "low angle slide",
-          "elevationMeters": 3467
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.43701387,
-            37.11014203,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4: 80' Middle South Elk Creek Falls",
-          "elevationMeters": 3526
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.44103467464446,
-            37.10904850081816,
-            0
-          ]
-        },
-        "properties": {
-          "name": "15' falls DC or bypass",
-          "elevationMeters": 3485
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.45549446344376,
-            37.10146739462387,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 115' Upper South Elk Creek Falls",
-          "elevationMeters": 3294
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.44937441,
-            37.1079491,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 25'",
-          "elevationMeters": 3467
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.41999266790566,
-            37.11716513466651,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5: ~40' Lower South Elk Creek Falls",
-          "elevationMeters": 3160
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2588,7 +2438,7 @@
         },
         "properties": {
           "name": "S Elk Creek return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6774.4275120826205,
@@ -3481,7 +3331,7 @@
         },
         "properties": {
           "name": "S Elk Creek approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2530.330026300481,
@@ -5124,7 +4974,7 @@
         },
         "properties": {
           "name": "S Elk Creek descent ",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2865.7847374637445,
@@ -5242,7 +5092,7 @@
         },
         "properties": {
           "name": "S Elk Creek final waterfall",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 495.3723213355999,
@@ -6970,7 +6820,7 @@
         },
         "properties": {
           "name": "S Elk Creek car shuttle",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 17500.815511075227,
@@ -6978,8 +6828,168 @@
           "descentMeters": 1449.999755859375,
           "changeMeters": 326.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.4491752386093,
+            37.08793186591064,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#5856D6",
+          "elevationMeters": 3139
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.37677764892578,
+            37.11968994140625,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2819
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.44867611,
+            37.10848721,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 25'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3463
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.44414976,
+            37.10870525,
+            0
+          ]
+        },
+        "properties": {
+          "name": "25' falls bypass CL",
+          "stroke": "#5856D6",
+          "elevationMeters": 3464
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.44244908,
+            37.10872478,
+            0
+          ]
+        },
+        "properties": {
+          "name": "low angle slide",
+          "stroke": "#5856D6",
+          "elevationMeters": 3467
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.43701387,
+            37.11014203,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4: 80' Middle South Elk Creek Falls",
+          "stroke": "#5856D6",
+          "elevationMeters": 3526
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.44103467464446,
+            37.10904850081816,
+            0
+          ]
+        },
+        "properties": {
+          "name": "15' falls DC or bypass",
+          "stroke": "#5856D6",
+          "elevationMeters": 3485
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.45549446344376,
+            37.10146739462387,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 115' Upper South Elk Creek Falls",
+          "stroke": "#5856D6",
+          "elevationMeters": 3294
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.44937441,
+            37.1079491,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 25'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3467
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.41999266790566,
+            37.11716513466651,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5: ~40' Lower South Elk Creek Falls",
+          "stroke": "#5856D6",
+          "elevationMeters": 3160
+        }
       }
     ]
   },
-  "version": "4eaf4e5bf083f5e3710e50d9e91047f2"
+  "version": "e744a269a5fdf7fcd11675770c1d2b37"
 }

@@ -31,25 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -113.677804,
-            39.052135,
-            1747.3
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "styleUrl": "#track-start-pin",
-          "styleHash": "-32a79d36",
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
-          "timestamp": "2020-05-01T18:50:30Z",
-          "elevationMeters": 1780
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -6133,7 +6114,7 @@
           "name": "Augie 5/1/20 12:50:29 PM",
           "styleUrl": "#track-line",
           "styleHash": "7b70f5a3",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 4,
           "fill": "#ff0000",
@@ -6142,6 +6123,26 @@
           "ascentMeters": 845.3011474609375,
           "descentMeters": 837.1011962890625,
           "changeMeters": 8.199951171875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -113.677804,
+            39.052135,
+            1747.3
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "styleUrl": "#track-start-pin",
+          "styleHash": "-32a79d36",
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+          "timestamp": "2020-05-01T18:50:30Z",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1780
         }
       },
       {
@@ -6160,10 +6161,11 @@
           "styleHash": "43f6b3b1",
           "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
           "timestamp": "2020-05-01T21:33:53Z",
+          "stroke": "#FF3B30",
           "elevationMeters": 1788
         }
       }
     ]
   },
-  "version": "4daa475d7081ba6164083f016fe6f6cc"
+  "version": "498720a92b0bd8e9683dacbd2453b144"
 }

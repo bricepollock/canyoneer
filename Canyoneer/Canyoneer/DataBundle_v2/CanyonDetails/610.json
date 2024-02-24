@@ -31,21 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.442088607149,
-            34.56052129559407,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Last Rappel 130ft",
-          "elevationMeters": 2075
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -332,7 +317,7 @@
         },
         "properties": {
           "name": "Technical",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 411.057408575301,
@@ -745,7 +730,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 786.6037836312006,
@@ -1448,7 +1433,7 @@
         },
         "properties": {
           "name": "Exit ",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1107.2272616538362,
@@ -1456,8 +1441,24 @@
           "descentMeters": 95.300048828125,
           "changeMeters": -73.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.442088607149,
+            34.56052129559407,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Last Rappel 130ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2075
+        }
       }
     ]
   },
-  "version": "407d26711331fd15caccef7a75b85133"
+  "version": "e05266afabaf653e0d3231f7507b755f"
 }

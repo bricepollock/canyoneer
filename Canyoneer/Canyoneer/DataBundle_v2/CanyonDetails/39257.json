@@ -29,96 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.57538780570033,
-            37.88138687271359,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3707
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.57496401667595,
-            37.880994139511515,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1, bypassable on CL",
-          "elevationMeters": 3672
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.57031038403512,
-            37.88042362328361,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 100'",
-          "elevationMeters": 3622
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.57001936435701,
-            37.88030399331383,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 100'",
-          "elevationMeters": 3623
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.5693702697754,
-            37.8801782443679,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4, downclimb on CR",
-          "elevationMeters": 3596
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.56741493940355,
-            37.87982221871318,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3567
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -795,7 +705,7 @@
         },
         "properties": {
           "name": "approach/drive",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1938.0133199475654,
@@ -1373,7 +1283,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 861.6545326303874,
@@ -1381,8 +1291,104 @@
           "descentMeters": 289.19970703125,
           "changeMeters": -157.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.57538780570033,
+            37.88138687271359,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#5856D6",
+          "elevationMeters": 3707
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.57496401667595,
+            37.880994139511515,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1, bypassable on CL",
+          "stroke": "#5856D6",
+          "elevationMeters": 3672
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.57031038403512,
+            37.88042362328361,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 100'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3622
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.57001936435701,
+            37.88030399331383,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 100'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3623
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.5693702697754,
+            37.8801782443679,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4, downclimb on CR",
+          "stroke": "#5856D6",
+          "elevationMeters": 3596
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.56741493940355,
+            37.87982221871318,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3567
+        }
       }
     ]
   },
-  "version": "6f4c76bf6a21d43d2463852241678777"
+  "version": "1756938ddeaa730bb0be05921c352958"
 }

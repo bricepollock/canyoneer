@@ -24,81 +24,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.76498556137086,
-            37.64390791846924,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3149
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.7452706,
-            37.63756054,
-            0
-          ]
-        },
-        "properties": {
-          "name": "waterfalls start",
-          "elevationMeters": 3354
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.74516493082047,
-            37.636711378612134,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2?",
-          "elevationMeters": 3391
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.76482169674591,
-            37.64343682845431,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking ",
-          "elevationMeters": 3105
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.74515784075598,
-            37.637378720333714,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 3354
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2750,7 +2675,7 @@
         },
         "properties": {
           "name": "Twilight return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3508.808057868415,
@@ -3713,7 +3638,7 @@
         },
         "properties": {
           "name": "Old Lime Creek Rd",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6161.111041693502,
@@ -6976,7 +6901,7 @@
         },
         "properties": {
           "name": "Twilight approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4381.933378026216,
@@ -7069,7 +6994,7 @@
         },
         "properties": {
           "name": "Twilight Creek descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 167.40961322761365,
@@ -7077,8 +7002,88 @@
           "descentMeters": 0,
           "changeMeters": 59.2001953125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.76498556137086,
+            37.64390791846924,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3149
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.7452706,
+            37.63756054,
+            0
+          ]
+        },
+        "properties": {
+          "name": "waterfalls start",
+          "stroke": "#34C759",
+          "elevationMeters": 3354
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.74516493082047,
+            37.636711378612134,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2?",
+          "stroke": "#5856D6",
+          "elevationMeters": 3391
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.76482169674591,
+            37.64343682845431,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking ",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3105
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.74515784075598,
+            37.637378720333714,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#5856D6",
+          "elevationMeters": 3354
+        }
       }
     ]
   },
-  "version": "c8a61d3f1e58b592f67d6c592e89a11d"
+  "version": "200629a1690ebd2a08af64bd2035d07d"
 }

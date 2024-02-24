@@ -26,126 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.06583437258482,
-            38.875862877155654,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Exit",
-          "elevationMeters": 284
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.02293,
-            38.87327,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Approach",
-          "elevationMeters": 457
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.05424046516418,
-            38.86486527328379,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rapid (II+)",
-          "elevationMeters": 248
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.05558156967165,
-            38.87371136849679,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rapid (III-)",
-          "elevationMeters": 248
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.04433774948122,
-            38.87210762556939,
-            0
-          ]
-        },
-        "properties": {
-          "name": "First downclimb",
-          "elevationMeters": 188
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.04646653939857,
-            38.87264014354534,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rap 1",
-          "elevationMeters": 201
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.05462295972579,
-            38.87118170713391,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rapid (II+)",
-          "elevationMeters": 242
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.0386972458191,
-            38.87222129559121,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Check waterflow",
-          "elevationMeters": 143
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -547,7 +427,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1801.785467079677,
@@ -1281,7 +1161,7 @@
         "properties": {
           "name": "Nonriver exit (1 car)",
           "description": "Untested",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 4594.929544847188,
@@ -1629,7 +1509,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 592.0751602919732,
@@ -2587,7 +2467,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1619.6906380271191,
@@ -3375,7 +3255,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1505.0148085752953,
@@ -3383,8 +3263,136 @@
           "descentMeters": 92.19992065429688,
           "changeMeters": 10.20001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.06583437258482,
+            38.875862877155654,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "stroke": "#FFCC00",
+          "elevationMeters": 284
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.02293,
+            38.87327,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Approach",
+          "stroke": "#34C759",
+          "elevationMeters": 457
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.05424046516418,
+            38.86486527328379,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rapid (II+)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 248
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.05558156967165,
+            38.87371136849679,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rapid (III-)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 248
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.04433774948122,
+            38.87210762556939,
+            0
+          ]
+        },
+        "properties": {
+          "name": "First downclimb",
+          "stroke": "#FF3B30",
+          "elevationMeters": 188
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.04646653939857,
+            38.87264014354534,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rap 1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 201
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.05462295972579,
+            38.87118170713391,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rapid (II+)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 242
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.0386972458191,
+            38.87222129559121,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Check waterflow",
+          "stroke": "#FF3B30",
+          "elevationMeters": 143
+        }
       }
     ]
   },
-  "version": "5a990f65ce0639be0d4442f5109f749e"
+  "version": "ed8265f8e8ec37894557e17a37768098"
 }

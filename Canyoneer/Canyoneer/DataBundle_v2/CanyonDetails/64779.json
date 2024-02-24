@@ -31,66 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.13810300827028,
-            34.209049830892525,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Technical Section",
-          "elevationMeters": 1409
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.13720178604127,
-            34.21375612531212,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Tonto Creek",
-          "elevationMeters": 1110
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.13587141036989,
-            34.19772943446317,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Car Park",
-          "elevationMeters": 1483
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.1232328414917,
-            34.18688369401553,
-            0
-          ]
-        },
-        "properties": {
-          "name": "FR 1671",
-          "elevationMeters": 1483
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1281,7 +1221,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 617.1540775686549,
@@ -3704,7 +3644,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 584.9177226403149,
@@ -4911,7 +4851,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 772.1438563454195,
@@ -7363,7 +7303,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 809.659251872899,
@@ -9211,7 +9151,7 @@
         },
         "properties": {
           "name": "1671",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 636.4889410212846,
@@ -11109,7 +11049,7 @@
         },
         "properties": {
           "name": "1671",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1532.5693646193333,
@@ -12151,7 +12091,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 601.6099949076614,
@@ -12159,8 +12099,72 @@
           "descentMeters": 223.599853515625,
           "changeMeters": -158.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.13810300827028,
+            34.209049830892525,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Technical Section",
+          "stroke": "#34C759",
+          "elevationMeters": 1409
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.13720178604127,
+            34.21375612531212,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Tonto Creek",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1110
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.13587141036989,
+            34.19772943446317,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Car Park",
+          "stroke": "#34C759",
+          "elevationMeters": 1483
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.1232328414917,
+            34.18688369401553,
+            0
+          ]
+        },
+        "properties": {
+          "name": "FR 1671",
+          "stroke": "#FF9500",
+          "elevationMeters": 1483
+        }
       }
     ]
   },
-  "version": "5636faea3cc56c7d0270c4f25f365f0b"
+  "version": "80367c69c364666978b4e91c303d059d"
 }

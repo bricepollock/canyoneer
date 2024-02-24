@@ -27,141 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -84.25812265565509,
-            10.24721661033672,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Possible easy exit via hiking trail?",
-          "elevationMeters": 985
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -84.25676686954182,
-            10.244662145304291,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "elevationMeters": 1007
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -84.25501305219088,
-            10.24037130459575,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gear Up",
-          "elevationMeters": 1004
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -84.25604779572794,
-            10.24326316340969,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1015
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -84.25777746179992,
-            10.245598421933712,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "elevationMeters": 998
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -84.2700339624495,
-            10.244074505238606,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 765
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -84.262476603676,
-            10.23966942431995,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start Forest trail",
-          "elevationMeters": 856
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -84.26557326929459,
-            10.241157012826992,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shortcut through field",
-          "elevationMeters": 727
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -84.25500743550054,
-            10.240241969902325,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Old cattle bridge",
-          "elevationMeters": 1002
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -177,7 +42,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 45.83066289649375,
@@ -460,7 +325,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2067.615121165867,
@@ -688,7 +553,7 @@
         },
         "properties": {
           "name": "Descent ",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1287.6533860752102,
@@ -921,7 +786,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1638.8385378695648,
@@ -929,8 +794,152 @@
           "descentMeters": 243.59991455078125,
           "changeMeters": -192.10003662109375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.25812265565509,
+            10.24721661033672,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Possible easy exit via hiking trail?",
+          "stroke": "#FF3B30",
+          "elevationMeters": 985
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.25676686954182,
+            10.244662145304291,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1007
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.25501305219088,
+            10.24037130459575,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gear Up",
+          "stroke": "#34C759",
+          "elevationMeters": 1004
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.25604779572794,
+            10.24326316340969,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1015
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.25777746179992,
+            10.245598421933712,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "stroke": "#FF3B30",
+          "elevationMeters": 998
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.2700339624495,
+            10.244074505238606,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 765
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.262476603676,
+            10.23966942431995,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start Forest trail",
+          "stroke": "#34C759",
+          "elevationMeters": 856
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.26557326929459,
+            10.241157012826992,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shortcut through field",
+          "stroke": "#34C759",
+          "elevationMeters": 727
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.25500743550054,
+            10.240241969902325,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Old cattle bridge",
+          "stroke": "#34C759",
+          "elevationMeters": 1002
+        }
       }
     ]
   },
-  "version": "83847f8a8347b3439745ab9ba5702ac3"
+  "version": "eb2d99449b113ee5bcdc3741940bd076"
 }

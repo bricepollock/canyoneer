@@ -12,121 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -15.724068,
-            27.982157,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-26c856bf",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by avogh at wikiloc.com)",
-          "elevationMeters": 312
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -15.72434,
-            27.982033,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "50aabe9b",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by avogh at wikiloc.com)",
-          "elevationMeters": 287
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -15.725255,
-            27.975685,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cabecera Vigaroe",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "208075e3",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by avogh at wikiloc.com)",
-          "elevationMeters": 501
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -15.726709,
-            27.978189,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Fin barranco vigaroe",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "208075e3",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by avogh at wikiloc.com)",
-          "elevationMeters": 315
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -15.72434,
-            27.982036,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Vigaroe",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "208075e3",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by avogh at wikiloc.com)",
-          "elevationMeters": 287
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1029,7 +914,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by avogh at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 2198.4617421822727,
@@ -1037,8 +922,128 @@
           "descentMeters": 752.800048828125,
           "changeMeters": -25.300018310546875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.724068,
+            27.982157,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "15b314bd",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by avogh at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 312
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.72434,
+            27.982033,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "698824e1",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by avogh at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 287
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.725255,
+            27.975685,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cabecera Vigaroe",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-232672de",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by avogh at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 501
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.726709,
+            27.978189,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fin barranco vigaroe",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-232672de",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by avogh at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 315
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -15.72434,
+            27.982036,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Vigaroe",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-232672de",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by avogh at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 287
+        }
       }
     ]
   },
-  "version": "43f7d272305c06a7fc6ca6ca412c4815"
+  "version": "0e65dcd340f1f885326ab09d895230e0"
 }

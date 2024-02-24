@@ -4,7 +4,7 @@
   "longitude": -111.8711,
   "id": 64027,
   "name": "Miyagi",
-  "quality": 3.3,
+  "quality": 3,
   "technicalRating": 3,
   "waterRating": "A",
   "timeRating": "I",
@@ -16,100 +16,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.87265276908876,
-            34.896121614389756,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Drainage",
-          "elevationMeters": 1561
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.87115,
-            34.8999,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 ",
-          "description": "30' Tree LDC",
-          "elevationMeters": 1501
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.87106,
-            34.89952,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "description": "30' Tree LDC",
-          "elevationMeters": 1508
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8711,
-            34.9003,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Turn Off",
-          "elevationMeters": 1489
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8709,
-            34.89891,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": "Tree Set Back from Edge. 65' to bottom, or 50' and downclimb last 15' \nEasy.",
-          "elevationMeters": 1528
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.87291,
-            34.89744,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "description": "50'",
-          "elevationMeters": 1599
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -279,7 +185,7 @@
         },
         "properties": {
           "name": "Miyagi",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 436.1549322181605,
@@ -361,7 +267,7 @@
           ]
         },
         "properties": {
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 616.8178690522797,
@@ -749,7 +655,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1134.0031310050906,
@@ -757,8 +663,108 @@
           "descentMeters": 103.2001953125,
           "changeMeters": -58
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.87265276908876,
+            34.896121614389756,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Drainage",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1561
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.87115,
+            34.8999,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 ",
+          "description": "30' Tree LDC",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1501
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.87106,
+            34.89952,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "30' Tree LDC",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1508
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8711,
+            34.9003,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Turn Off",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1489
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8709,
+            34.89891,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "Tree Set Back from Edge. 65' to bottom, or 50' and downclimb last 15' \nEasy.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1528
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.87291,
+            34.89744,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "description": "50'",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1599
+        }
       }
     ]
   },
-  "version": "af984dc22b6b80f0309b0bb4dda620f4"
+  "version": "d6fa95cc6073e42d0fb4ffbb61cf2735"
 }

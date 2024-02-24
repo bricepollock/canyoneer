@@ -26,75 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.71172,
-            25.654018,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-7717fadc",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by ClubTotem at wikiloc.com)",
-          "elevationMeters": 1087
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.711659,
-            25.654041,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-21bf4643",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by ClubTotem at wikiloc.com)",
-          "elevationMeters": 1099
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.710833,
-            25.632778,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bebedero",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "6f51d80",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by ClubTotem at wikiloc.com)",
-          "elevationMeters": 1425
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -882,7 +813,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by ClubTotem at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 11259.35989781487,
@@ -890,8 +821,80 @@
           "descentMeters": 2133.2999267578125,
           "changeMeters": 11.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.71172,
+            25.654018,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "32692f9f",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by ClubTotem at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1087
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.711659,
+            25.654041,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "43db2081",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by ClubTotem at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1099
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.710833,
+            25.632778,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bebedero",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-70b35a19",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by ClubTotem at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1425
+        }
       }
     ]
   },
-  "version": "83f0b2c95e4ef88dc8aaf3127c696fef"
+  "version": "70001896f04c675b0069934356c9f666"
 }

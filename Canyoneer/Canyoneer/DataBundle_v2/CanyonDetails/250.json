@@ -4,7 +4,7 @@
   "longitude": -116.7358,
   "id": 250,
   "name": "Charon Canyon",
-  "quality": 4.6,
+  "quality": 4.5,
   "months": [
     "Nov",
     "Dec",
@@ -24,21 +24,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.76441192626955,
-            36.172772336432516,
-            0
-          ]
-        },
-        "properties": {
-          "name": "parking",
-          "elevationMeters": -82
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -308,7 +293,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3409.4591721635747,
@@ -401,7 +386,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2213.215431889883,
@@ -469,7 +454,7 @@
         },
         "properties": {
           "name": "exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 603.503157181762,
@@ -477,8 +462,24 @@
           "descentMeters": 0.09999847412109375,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.76441192626955,
+            36.172772336432516,
+            0
+          ]
+        },
+        "properties": {
+          "name": "parking",
+          "stroke": "#34C759",
+          "elevationMeters": -82
+        }
       }
     ]
   },
-  "version": "e845e03f08afb4e6b6d742179fd0193f"
+  "version": "f7f7e0d4f1e4ed441dee51c99ed2a560"
 }

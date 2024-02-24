@@ -30,50 +30,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.1744258870372,
-            25.25519996883837,
-            1495.9
-          ]
-        },
-        "properties": {
-          "name": "Cave entrance",
-          "styleUrl": "#msn_red-square",
-          "styleHash": "-22a20202",
-          "styleMapHash": {
-            "normal": "#sn_red-square",
-            "highlight": "#sh_red-square"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "elevationMeters": 1505
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.167112,
-            25.264747,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Aldea Matacanes camp",
-          "styleUrl": "#sh_green-circle",
-          "styleHash": "-1e1da02f",
-          "styleMapHash": {
-            "normal": "#sh_green-circle0",
-            "highlight": "#sh_green-circle1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
-          "elevationMeters": 1046
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1601,7 +1557,7 @@
             "normal": "#track0",
             "highlight": "#track"
           },
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 3,
           "lengthMeters": 1998.5221179537434,
@@ -1609,8 +1565,54 @@
           "descentMeters": 383.39984130859375,
           "changeMeters": 458.60009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.1744258870372,
+            25.25519996883837,
+            1495.9
+          ]
+        },
+        "properties": {
+          "name": "Cave entrance",
+          "styleUrl": "#msn_red-square",
+          "styleHash": "-22a20202",
+          "styleMapHash": {
+            "normal": "#sn_red-square",
+            "highlight": "#sh_red-square"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1505
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.167112,
+            25.264747,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Aldea Matacanes camp",
+          "styleUrl": "#sh_green-circle",
+          "styleHash": "-1e1da02f",
+          "styleMapHash": {
+            "normal": "#sh_green-circle0",
+            "highlight": "#sh_green-circle1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1046
+        }
       }
     ]
   },
-  "version": "2e542b3ccd11b881ba7fc17cd58e3394"
+  "version": "90969f7f0483fe99dde31c390c3ef290"
 }

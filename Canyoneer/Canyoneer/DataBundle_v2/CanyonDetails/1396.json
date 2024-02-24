@@ -20,50 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.691331530696,
-            34.0693974770217,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#msn_parking_lot",
-          "styleHash": "bdcce78",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 290
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.6976445151302,
-            34.07381284711035,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Alternate parking",
-          "styleUrl": "#msn_parking_lot",
-          "styleHash": "bdcce78",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 334
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -262,79 +218,13 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 877.0133282126859,
           "ascentMeters": 161.39999389648438,
           "descentMeters": 116.20001220703125,
           "changeMeters": 45.199981689453125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.6929650521069,
-            34.06729541087345,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#msn_open-diamond0",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 277
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.6931718014881,
-            34.0672047438029,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Big rappel",
-          "styleUrl": "#msn_open-diamond0",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 277
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.6945716542278,
-            34.06563650392751,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Overhanging rappel",
-          "styleUrl": "#msn_open-diamond0",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 340
         }
       },
       {
@@ -533,123 +423,13 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 788.8465741984993,
           "ascentMeters": 205.79998779296875,
           "descentMeters": 83.69998168945312,
           "changeMeters": 122.10000610351562
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.6971278493903,
-            34.06376586169736,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle",
-          "styleUrl": "#msn_bus",
-          "styleHash": "4cbf46e4",
-          "styleMapHash": {
-            "normal": "#sn_bus",
-            "highlight": "#sh_bus"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/bus.png",
-          "elevationMeters": 458
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.6983568768453,
-            34.06481614632256,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cross creek",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "-9154126",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond0",
-            "highlight": "#sh_open-diamond0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 496
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.6984884597976,
-            34.06489770023222,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit gully",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "-9154126",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond0",
-            "highlight": "#sh_open-diamond0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 478
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.6991207666674,
-            34.06434976915228,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Climb down",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "-9154126",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond0",
-            "highlight": "#sh_open-diamond0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 463
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.69902343324,
-            34.06422905361997,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Climb up",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "-9154126",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond0",
-            "highlight": "#sh_open-diamond0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 453
         }
       },
       {
@@ -1452,7 +1232,7 @@
             "normal": "#dir_route",
             "highlight": "#dir_route0"
           },
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 3,
           "lengthMeters": 8907.722256155133,
@@ -1461,6 +1241,236 @@
           "changeMeters": -146.29998779296875
         },
         "id": "22.4"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.691331530696,
+            34.0693974770217,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#msn_parking_lot",
+          "styleHash": "bdcce78",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 290
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.6976445151302,
+            34.07381284711035,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Alternate parking",
+          "styleUrl": "#msn_parking_lot",
+          "styleHash": "bdcce78",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 334
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.6929650521069,
+            34.06729541087345,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#msn_open-diamond0",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 277
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.6931718014881,
+            34.0672047438029,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Big rappel",
+          "styleUrl": "#msn_open-diamond0",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 277
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.6945716542278,
+            34.06563650392751,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Overhanging rappel",
+          "styleUrl": "#msn_open-diamond0",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 340
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.6971278493903,
+            34.06376586169736,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle",
+          "styleUrl": "#msn_bus",
+          "styleHash": "4cbf46e4",
+          "styleMapHash": {
+            "normal": "#sn_bus",
+            "highlight": "#sh_bus"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/bus.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 458
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.6983568768453,
+            34.06481614632256,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cross creek",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "-9154126",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond0",
+            "highlight": "#sh_open-diamond0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 496
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.6984884597976,
+            34.06489770023222,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit gully",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "-9154126",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond0",
+            "highlight": "#sh_open-diamond0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 478
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.6991207666674,
+            34.06434976915228,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Climb down",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "-9154126",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond0",
+            "highlight": "#sh_open-diamond0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 463
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.69902343324,
+            34.06422905361997,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Climb up",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "-9154126",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond0",
+            "highlight": "#sh_open-diamond0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 453
+        }
       },
       {
         "type": "Feature",
@@ -1481,10 +1491,11 @@
             "highlight": "#sh_open-diamond0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 494
         }
       }
     ]
   },
-  "version": "3b8ed570f351e0c1c622ea206be81b00"
+  "version": "2ee561337ef4a70045d64fb85d5f9a9f"
 }

@@ -23,81 +23,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.82365133931316,
-            44.71921302407581,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-In",
-          "elevationMeters": 1758
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.87527790706129,
-            44.70685104681378,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Whitewater Trailhead",
-          "elevationMeters": 943
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.85921425347377,
-            44.71381501911953,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Point",
-          "elevationMeters": 1443
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.83724159722377,
-            44.720280006010235,
-            0
-          ]
-        },
-        "properties": {
-          "name": "River Crossing",
-          "elevationMeters": 1847
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.81322265549286,
-            44.707136938274566,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Jefferson Park",
-          "elevationMeters": 1797
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1554,7 +1479,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 10183.441376736873,
@@ -1636,7 +1561,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1189.4539046216787,
@@ -1803,7 +1728,7 @@
           ]
         },
         "properties": {
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2102.7534669091697,
@@ -1811,8 +1736,88 @@
           "descentMeters": 572.7998046875,
           "changeMeters": -398.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.82365133931316,
+            44.71921302407581,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-In",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1758
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.87527790706129,
+            44.70685104681378,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Whitewater Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 943
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.85921425347377,
+            44.71381501911953,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Point",
+          "stroke": "#34C759",
+          "elevationMeters": 1443
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.83724159722377,
+            44.720280006010235,
+            0
+          ]
+        },
+        "properties": {
+          "name": "River Crossing",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1847
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.81322265549286,
+            44.707136938274566,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Jefferson Park",
+          "stroke": "#34C759",
+          "elevationMeters": 1797
+        }
       }
     ]
   },
-  "version": "571e0065bd3ad25d7a48c1e870135dd5"
+  "version": "088e5ca568d68479147cd24d91e99a5b"
 }

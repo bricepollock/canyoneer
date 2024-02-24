@@ -4,7 +4,7 @@
   "longitude": 152.7988,
   "id": 74261,
   "name": "Rosewood Canyon",
-  "quality": 3.5,
+  "quality": 3.6,
   "months": [
     "Oct",
     "Nov",
@@ -25,121 +25,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            152.7924392472279,
-            -30.36752349002181,
-            718
-          ]
-        },
-        "properties": {
-          "name": "Junction",
-          "styleUrl": "#101",
-          "styleHash": "-3b0ccc34",
-          "styleMapHash": {
-            "normal": "#102",
-            "highlight": "#10"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 745
-        },
-        "id": "9"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            152.797674120714,
-            -30.3705233076134,
-            557
-          ]
-        },
-        "properties": {
-          "name": "Red Cedar Falls",
-          "styleUrl": "#101",
-          "styleHash": "-3b0ccc34",
-          "styleMapHash": {
-            "normal": "#102",
-            "highlight": "#10"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 783
-        },
-        "id": "14"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            152.7983557465512,
-            -30.36155453517007,
-            741
-          ]
-        },
-        "properties": {
-          "name": "Never Never Picnic Area",
-          "styleUrl": "#101",
-          "styleHash": "-3b0ccc34",
-          "styleMapHash": {
-            "normal": "#102",
-            "highlight": "#10"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 847
-        },
-        "id": "19"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            152.8038447008339,
-            -30.36764671275687,
-            646
-          ]
-        },
-        "properties": {
-          "name": "Coachwood Falls",
-          "styleUrl": "#101",
-          "styleHash": "-3b0ccc34",
-          "styleMapHash": {
-            "normal": "#102",
-            "highlight": "#10"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 798
-        },
-        "id": "24"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            152.7984311977303,
-            -30.36810461641635,
-            682
-          ]
-        },
-        "properties": {
-          "name": "Junction",
-          "styleUrl": "#101",
-          "styleHash": "-3b0ccc34",
-          "styleMapHash": {
-            "normal": "#102",
-            "highlight": "#10"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "elevationMeters": 788
-        },
-        "id": "4"
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -900,7 +785,7 @@
             "normal": "#1000",
             "highlight": "#1001"
           },
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3137.778867268802,
@@ -1175,7 +1060,7 @@
             "normal": "#1621",
             "highlight": "#1620"
           },
-          "stroke": "#0055ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 845.8505120972495,
@@ -1760,7 +1645,7 @@
             "normal": "#232",
             "highlight": "#2321"
           },
-          "stroke": "#ff5500",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3028.6374378088935,
@@ -1769,8 +1654,128 @@
           "changeMeters": 79.5999755859375
         },
         "id": "165"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152.7924392472279,
+            -30.36752349002181,
+            718
+          ]
+        },
+        "properties": {
+          "name": "Junction",
+          "styleUrl": "#101",
+          "styleHash": "-3b0ccc34",
+          "styleMapHash": {
+            "normal": "#102",
+            "highlight": "#10"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 745
+        },
+        "id": "9"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152.797674120714,
+            -30.3705233076134,
+            557
+          ]
+        },
+        "properties": {
+          "name": "Red Cedar Falls",
+          "styleUrl": "#101",
+          "styleHash": "-3b0ccc34",
+          "styleMapHash": {
+            "normal": "#102",
+            "highlight": "#10"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#5856D6",
+          "elevationMeters": 783
+        },
+        "id": "14"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152.7983557465512,
+            -30.36155453517007,
+            741
+          ]
+        },
+        "properties": {
+          "name": "Never Never Picnic Area",
+          "styleUrl": "#101",
+          "styleHash": "-3b0ccc34",
+          "styleMapHash": {
+            "normal": "#102",
+            "highlight": "#10"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 847
+        },
+        "id": "19"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152.8038447008339,
+            -30.36764671275687,
+            646
+          ]
+        },
+        "properties": {
+          "name": "Coachwood Falls",
+          "styleUrl": "#101",
+          "styleHash": "-3b0ccc34",
+          "styleMapHash": {
+            "normal": "#102",
+            "highlight": "#10"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#5856D6",
+          "elevationMeters": 798
+        },
+        "id": "24"
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152.7984311977303,
+            -30.36810461641635,
+            682
+          ]
+        },
+        "properties": {
+          "name": "Junction",
+          "styleUrl": "#101",
+          "styleHash": "-3b0ccc34",
+          "styleMapHash": {
+            "normal": "#102",
+            "highlight": "#10"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 788
+        },
+        "id": "4"
       }
     ]
   },
-  "version": "85ca0f8ebcfbe9cbf84c691965d95b3f"
+  "version": "4b81b391a5de8b2fa2a713636ac741ca"
 }

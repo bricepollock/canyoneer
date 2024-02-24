@@ -218,7 +218,7 @@
             "normal": "#dir_route",
             "highlight": "#dir_route1"
           },
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 3148.8086069747173,
@@ -227,28 +227,6 @@
           "changeMeters": 446.8999786376953
         },
         "id": "22.4"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.05558856828554,
-            42.11540166642999,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 137
-        }
       },
       {
         "type": "Feature",
@@ -491,13 +469,36 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 3277.19553081754,
           "ascentMeters": 46.40003967285156,
           "descentMeters": 493.3000183105469,
           "changeMeters": -446.8999786376953
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -74.05558856828554,
+            42.11540166642999,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 137
         }
       },
       {
@@ -519,10 +520,11 @@
             "highlight": "#sh_parking_lot"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 584
         }
       }
     ]
   },
-  "version": "ffd238c234f8533fcc9fa25a03d13988"
+  "version": "8be1591fa3d2d14f797f7054cf266808"
 }

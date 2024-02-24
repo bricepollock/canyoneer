@@ -27,51 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.10717989810321,
-            37.24220566491019,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 534
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.12411078574641,
-            37.23628114048365,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "elevationMeters": 436
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.12606069670898,
-            37.23737127085261,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "elevationMeters": 422
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -288,7 +243,7 @@
         },
         "properties": {
           "name": "Climb back up",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 251.27906915673955,
@@ -401,7 +356,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 220.28100370629386,
@@ -1084,7 +1039,7 @@
         },
         "properties": {
           "name": "Approach/Exit",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2591.0432130912563,
@@ -1797,7 +1752,7 @@
         },
         "properties": {
           "name": "Alternative hike in",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2536.4147692130123,
@@ -1805,8 +1760,56 @@
           "descentMeters": 408.3999328613281,
           "changeMeters": -15.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.10717989810321,
+            37.24220566491019,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 534
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.12411078574641,
+            37.23628114048365,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "stroke": "#34C759",
+          "elevationMeters": 436
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.12606069670898,
+            37.23737127085261,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "stroke": "#FFCC00",
+          "elevationMeters": 422
+        }
       }
     ]
   },
-  "version": "f62489e229949e637e89c708487215bc"
+  "version": "15918168449639931f42347f65ec4b33"
 }

@@ -4,7 +4,7 @@
   "longitude": -111.7544,
   "id": 61870,
   "name": "Illiam Canyon",
-  "quality": 3.3,
+  "quality": 3.2,
   "months": [
     "Apr",
     "May",
@@ -24,29 +24,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7502,
-            34.9694,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start Park",
-          "styleUrl": "#icon-93",
-          "styleHash": "265cc677",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here.",
-          "elevationMeters": 1965
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -242,6 +219,7 @@
             "normal": "#line-00FF00-5000-nodesc",
             "highlight": "#line-00FF00-5000-nodesc-highlight"
           },
+          "stroke": "#FF9500",
           "lengthMeters": 3825.723807963565,
           "ascentMeters": 372.80029296875,
           "descentMeters": 715.2001953125,
@@ -318,42 +296,11 @@
             "normal": "#line-FF0000-5000-nodesc",
             "highlight": "#line-FF0000-5000-nodesc-highlight"
           },
+          "stroke": "#AF52DE",
           "lengthMeters": 690.3503055136264,
           "ascentMeters": 268.5999755859375,
           "descentMeters": 60.800048828125,
           "changeMeters": 207.7999267578125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7544,
-            34.9907,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "30'",
-          "elevationMeters": 1622
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7544,
-            34.9915,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": "150'",
-          "elevationMeters": 1683
         }
       },
       {
@@ -431,33 +378,11 @@
             "normal": "#line-FFFF00-5000-nodesc",
             "highlight": "#line-FFFF00-5000-nodesc-highlight"
           },
+          "stroke": "#FFCC00",
           "lengthMeters": 2278.0227808796926,
           "ascentMeters": 280.699951171875,
           "descentMeters": 484.2999267578125,
           "changeMeters": -203.5999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7419,
-            34.9901,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Park",
-          "styleUrl": "#icon-93",
-          "styleHash": "265cc677",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park vehicle here.",
-          "elevationMeters": 1627
         }
       },
       {
@@ -541,13 +466,96 @@
             "highlight": "#line-000000-5000-nodesc-highlight"
           },
           "description": "Optional",
+          "stroke": "#FFCC00",
           "lengthMeters": 2610.886928683722,
           "ascentMeters": 357.0999755859375,
           "descentMeters": 18.9000244140625,
           "changeMeters": 338.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7502,
+            34.9694,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start Park",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here.",
+          "stroke": "#FF9500",
+          "elevationMeters": 1965
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7544,
+            34.9907,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "30'",
+          "stroke": "#FF9500",
+          "elevationMeters": 1622
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7544,
+            34.9915,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "150'",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1683
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7419,
+            34.9901,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Park",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park vehicle here.",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1627
+        }
       }
     ]
   },
-  "version": "cef84896557b4db47daadfae32c440c2"
+  "version": "ed1334ce948b0a8504df6f183292135b"
 }

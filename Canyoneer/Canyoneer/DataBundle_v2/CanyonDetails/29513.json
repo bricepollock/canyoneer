@@ -13,190 +13,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.820947,
-            39.524451,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-d129815",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by wandoo at wikiloc.com)",
-          "elevationMeters": 645
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.821478,
-            39.524528,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-76376561",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by wandoo at wikiloc.com)",
-          "elevationMeters": 656
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.836378,
-            39.515079,
-            0
-          ]
-        },
-        "properties": {
-          "name": "CUEVA",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "795f225e",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by wandoo at wikiloc.com)",
-          "elevationMeters": 632
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.837625,
-            39.515604,
-            0
-          ]
-        },
-        "properties": {
-          "name": "1º RAPEL",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "795f225e",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by wandoo at wikiloc.com)",
-          "elevationMeters": 606
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.837071,
-            39.515172,
-            0
-          ]
-        },
-        "properties": {
-          "name": "2º RAPEL",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "795f225e",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by wandoo at wikiloc.com)",
-          "elevationMeters": 620
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.836933,
-            39.514979,
-            0
-          ]
-        },
-        "properties": {
-          "name": "3º RAPEL",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "795f225e",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by wandoo at wikiloc.com)",
-          "elevationMeters": 628
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.836761,
-            39.514793,
-            0
-          ]
-        },
-        "properties": {
-          "name": "SALIDA DEL BARRANCO",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "795f225e",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by wandoo at wikiloc.com)",
-          "elevationMeters": 622
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.836334,
-            39.517731,
-            0
-          ]
-        },
-        "properties": {
-          "name": "ALGIBE",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "795f225e",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by wandoo at wikiloc.com)",
-          "elevationMeters": 650
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1094,7 +910,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by wandoo at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 11227.26478281228,
@@ -1102,8 +918,200 @@
           "descentMeters": 1373.5000610351562,
           "changeMeters": 11.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.820947,
+            39.524451,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "7ca1fdd",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by wandoo at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 645
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.821478,
+            39.524528,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "c698066",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by wandoo at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 656
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.836378,
+            39.515079,
+            0
+          ]
+        },
+        "properties": {
+          "name": "CUEVA",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-e84d6e1",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by wandoo at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 632
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.837625,
+            39.515604,
+            0
+          ]
+        },
+        "properties": {
+          "name": "1º RAPEL",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-e84d6e1",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by wandoo at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 606
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.837071,
+            39.515172,
+            0
+          ]
+        },
+        "properties": {
+          "name": "2º RAPEL",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-e84d6e1",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by wandoo at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 620
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.836933,
+            39.514979,
+            0
+          ]
+        },
+        "properties": {
+          "name": "3º RAPEL",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-e84d6e1",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by wandoo at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 628
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.836761,
+            39.514793,
+            0
+          ]
+        },
+        "properties": {
+          "name": "SALIDA DEL BARRANCO",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-e84d6e1",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by wandoo at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 622
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.836334,
+            39.517731,
+            0
+          ]
+        },
+        "properties": {
+          "name": "ALGIBE",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-e84d6e1",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by wandoo at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 650
+        }
       }
     ]
   },
-  "version": "8c105dcac3f2169f9191f4402064365a"
+  "version": "e2a7aefc8bb79b739450d692ce71f660"
 }

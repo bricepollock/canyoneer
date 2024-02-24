@@ -34,115 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.869637,
-            28.319927,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "description": " (Data by Streicher Wolfgang on 15 fév 2008)",
-          "elevationMeters": 13
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.880756,
-            28.31315,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "description": "Arrivée à la mer (Data by Streicher Wolfgang on 15 fév 2008)",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.87722,
-            28.316904,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "description": "Première arrivée (officielle) (Data by Streicher Wolfgang on 15 fév 2008)",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.86558,
-            28.319918,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "description": " (Data by Streicher Wolfgang on 15 fév 2008)",
-          "elevationMeters": 34
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.86986130539481,
-            28.31981681850532,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Start",
-          "elevationMeters": 12
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.877079916639563,
-            28.317043298219296,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Finish",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.867500142016073,
-            28.319948285944555,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 22
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -209,7 +100,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 239.6824573749545,
@@ -382,7 +273,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 964.4346709671166,
@@ -780,7 +671,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1340.349745143366,
@@ -788,8 +679,124 @@
           "descentMeters": 3.4000015258789062,
           "changeMeters": 21.799999237060547
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.869637,
+            28.319927,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "description": " (Data by Streicher Wolfgang on 15 fév 2008)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 13
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.880756,
+            28.31315,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "description": "Arrivée à la mer (Data by Streicher Wolfgang on 15 fév 2008)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.87722,
+            28.316904,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "description": "Première arrivée (officielle) (Data by Streicher Wolfgang on 15 fév 2008)",
+          "stroke": "#34C759",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.86558,
+            28.319918,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "description": " (Data by Streicher Wolfgang on 15 fév 2008)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 34
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.86986130539481,
+            28.31981681850532,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Start",
+          "stroke": "#FF3B30",
+          "elevationMeters": 12
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.877079916639563,
+            28.317043298219296,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Finish",
+          "stroke": "#34C759",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.867500142016073,
+            28.319948285944555,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 22
+        }
       }
     ]
   },
-  "version": "13460502057b1d020f42e74efb565084"
+  "version": "47da7a0fff650edbbfb6c4031af6d1e9"
 }

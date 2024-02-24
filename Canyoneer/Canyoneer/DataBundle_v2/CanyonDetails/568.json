@@ -33,28 +33,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.165318,
-            38.6628122,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Three Canyon Trailhead",
-          "styleUrl": "#icon-1644-097138-nodesc",
-          "styleHash": "4a201df4",
-          "styleMapHash": {
-            "normal": "#icon-1644-097138-nodesc-normal",
-            "highlight": "#icon-1644-097138-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1450
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -412,7 +390,7 @@
             "normal": "#line-097138-5650-nodesc-normal",
             "highlight": "#line-097138-5650-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 829.5994224536416,
@@ -491,7 +469,7 @@
             "normal": "#line-FFD600-5650-nodesc-normal",
             "highlight": "#line-FFD600-5650-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 245.62978775228407,
@@ -975,35 +953,13 @@
             "normal": "#line-FFD600-5456-nodesc-normal",
             "highlight": "#line-FFD600-5456-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 3437.3334651538426,
           "ascentMeters": 186.2999267578125,
           "descentMeters": 254.699951171875,
           "changeMeters": -68.4000244140625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.14493,
-            38.71022,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Three Canyon Exit Trailhead",
-          "styleUrl": "#icon-1644-FFD600-nodesc",
-          "styleHash": "11c80114",
-          "styleMapHash": {
-            "normal": "#icon-1644-FFD600-nodesc-normal",
-            "highlight": "#icon-1644-FFD600-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1385
         }
       },
       {
@@ -1166,7 +1122,7 @@
             "normal": "#line-E65100-5069-nodesc-normal",
             "highlight": "#line-E65100-5069-nodesc-highlight"
           },
-          "stroke": "#e65100",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.069,
           "lengthMeters": 630.314100577106,
@@ -1550,7 +1506,7 @@
             "normal": "#line-A52714-5844-nodesc-normal",
             "highlight": "#line-A52714-5844-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 2052.0728639694,
@@ -1558,8 +1514,54 @@
           "descentMeters": 24.1002197265625,
           "changeMeters": -2.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.165318,
+            38.6628122,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Three Canyon Trailhead",
+          "styleUrl": "#icon-1644-097138-nodesc",
+          "styleHash": "4a201df4",
+          "styleMapHash": {
+            "normal": "#icon-1644-097138-nodesc-normal",
+            "highlight": "#icon-1644-097138-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1450
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.14493,
+            38.71022,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Three Canyon Exit Trailhead",
+          "styleUrl": "#icon-1644-FFD600-nodesc",
+          "styleHash": "11c80114",
+          "styleMapHash": {
+            "normal": "#icon-1644-FFD600-nodesc-normal",
+            "highlight": "#icon-1644-FFD600-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1385
+        }
       }
     ]
   },
-  "version": "d0579890a2f6f37db627c94f54834c27"
+  "version": "e5ce238ddf7cbf1020a4236ba315d5e0"
 }

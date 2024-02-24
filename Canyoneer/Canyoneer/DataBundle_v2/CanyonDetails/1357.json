@@ -19,28 +19,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.667609513699,
-            34.22267634164535,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#msn_parking_lot",
-          "styleHash": "-59e3550f",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 1240
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -428,7 +406,7 @@
             "normal": "#dir_route4",
             "highlight": "#dir_route7"
           },
-          "stroke": "#00d000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 2194.3762922177834,
@@ -437,28 +415,6 @@
           "changeMeters": -74.89990234375
         },
         "id": "23.4"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.6648051366654,
-            34.21512611037043,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop in",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 1203
-        }
       },
       {
         "type": "Feature",
@@ -525,7 +481,7 @@
             "normal": "#dir_route3",
             "highlight": "#dir_route2"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 429.380740838718,
@@ -714,13 +670,59 @@
             "normal": "#dir_route6",
             "highlight": "#dir_route"
           },
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 1199.275395641611,
           "ascentMeters": 286.9998779296875,
           "descentMeters": 286.099853515625,
           "changeMeters": 0.9000244140625
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.667609513699,
+            34.22267634164535,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#msn_parking_lot",
+          "styleHash": "-59e3550f",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1240
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.6648051366654,
+            34.21512611037043,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop in",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1203
         }
       },
       {
@@ -742,6 +744,7 @@
             "highlight": "#sh_open-diamond"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
           "elevationMeters": 1238
         }
       },
@@ -764,10 +767,11 @@
             "highlight": "#sh_open-diamond"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
           "elevationMeters": 1179
         }
       }
     ]
   },
-  "version": "91a6587957f35dffdc4b7186ebf1461d"
+  "version": "f5e995ef514c74673bd9e02b4891a23e"
 }

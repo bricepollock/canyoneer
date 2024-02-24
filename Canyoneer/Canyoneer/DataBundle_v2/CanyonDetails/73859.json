@@ -26,171 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.643024,
-            48.897816,
-            0
-          ]
-        },
-        "properties": {
-          "name": "East walk in",
-          "elevationMeters": 1415
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.65259585816855,
-            48.894191032606486,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Nooksack Cirque Trailhead",
-          "elevationMeters": 1095
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.645131,
-            48.89775,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Lot",
-          "elevationMeters": 1375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.643202,
-            48.898463,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Pullout",
-          "elevationMeters": 1472
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.64394962698366,
-            48.897137094465236,
-            0
-          ]
-        },
-        "properties": {
-          "name": "First Narrows",
-          "elevationMeters": 1338
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.650679,
-            48.895349,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5: bolt traverse",
-          "elevationMeters": 1126
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.646396,
-            48.896482,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "elevationMeters": 1235
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.64772637301637,
-            48.89622485459023,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "elevationMeters": 1195
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.64811063558197,
-            48.89616415283983,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "elevationMeters": 1185
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.64316190167828,
-            48.897579276888436,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1388
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.65144425560763,
-            48.89491862258833,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6",
-          "elevationMeters": 1117
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -257,7 +92,7 @@
         },
         "properties": {
           "name": "Ruth Creek",
-          "stroke": "#004DFF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 833.4748689117513,
@@ -820,7 +655,7 @@
         },
         "properties": {
           "name": "Optional Car Shuttle",
-          "stroke": "#00FF4D",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 3299.384243174416,
@@ -828,8 +663,184 @@
           "descentMeters": 376.5,
           "changeMeters": 267.800048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.643024,
+            48.897816,
+            0
+          ]
+        },
+        "properties": {
+          "name": "East walk in",
+          "stroke": "#5856D6",
+          "elevationMeters": 1415
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.65259585816855,
+            48.894191032606486,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nooksack Cirque Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 1095
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.645131,
+            48.89775,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Lot",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1375
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.643202,
+            48.898463,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Pullout",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1472
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.64394962698366,
+            48.897137094465236,
+            0
+          ]
+        },
+        "properties": {
+          "name": "First Narrows",
+          "stroke": "#5856D6",
+          "elevationMeters": 1338
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.650679,
+            48.895349,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5: bolt traverse",
+          "stroke": "#5856D6",
+          "elevationMeters": 1126
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.646396,
+            48.896482,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "stroke": "#5856D6",
+          "elevationMeters": 1235
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.64772637301637,
+            48.89622485459023,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "stroke": "#5856D6",
+          "elevationMeters": 1195
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.64811063558197,
+            48.89616415283983,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "stroke": "#5856D6",
+          "elevationMeters": 1185
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.64316190167828,
+            48.897579276888436,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#5856D6",
+          "elevationMeters": 1388
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.65144425560763,
+            48.89491862258833,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6",
+          "stroke": "#5856D6",
+          "elevationMeters": 1117
+        }
       }
     ]
   },
-  "version": "d1921974bf69ee17d05124e17532eef1"
+  "version": "f123379db4520ac76b17d47e9b3c3c91"
 }

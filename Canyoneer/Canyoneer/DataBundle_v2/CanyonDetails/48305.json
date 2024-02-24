@@ -26,36 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.53273582458498,
-            46.86462188158069,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1494
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.53037548065187,
-            46.863565549397016,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Alt-Parking",
-          "elevationMeters": 1537
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -237,7 +207,7 @@
         },
         "properties": {
           "name": "Approach (East Side Trail)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1036.3108403787096,
@@ -380,7 +350,7 @@
         },
         "properties": {
           "name": "Exit (East Side Trail)",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 906.1594238013013,
@@ -473,7 +443,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 645.9769919117314,
@@ -481,8 +451,40 @@
           "descentMeters": 165,
           "changeMeters": -105.7999267578125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.53273582458498,
+            46.86462188158069,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1494
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.53037548065187,
+            46.863565549397016,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Alt-Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1537
+        }
       }
     ]
   },
-  "version": "6dcc15f7f4d1311fd36bf1f2f57ab4a8"
+  "version": "4a7cd029333bf6309fbf185e5a9753b2"
 }

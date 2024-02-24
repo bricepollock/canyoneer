@@ -33,28 +33,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.8674186,
-            38.8579061,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park on the Shoulder of I-70",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 2109
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -497,7 +475,7 @@
             "normal": "#line-097138-5844-nodesc-normal",
             "highlight": "#line-097138-5844-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 1826.4564060297378,
@@ -791,79 +769,13 @@
             "normal": "#line-A52714-5650-nodesc-normal",
             "highlight": "#line-A52714-5650-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 1103.8809959162793,
           "ascentMeters": 83.300048828125,
           "descentMeters": 106.800048828125,
           "changeMeters": -23.5
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.8560012,
-            38.8504227,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 2166
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.8563747,
-            38.8504199,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 2162
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.85781,
-            38.85478,
-            2085
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 2137
         }
       },
       {
@@ -1096,13 +1008,105 @@
             "normal": "#line-FFD600-5263-nodesc-normal",
             "highlight": "#line-FFD600-5263-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 1140.6889684465457,
           "ascentMeters": 99.099853515625,
           "descentMeters": 132.5,
           "changeMeters": -33.400146484375
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.8674186,
+            38.8579061,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park on the Shoulder of I-70",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 2109
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.8560012,
+            38.8504227,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#34C759",
+          "elevationMeters": 2166
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.8563747,
+            38.8504199,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2162
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.85781,
+            38.85478,
+            2085
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2137
         }
       },
       {
@@ -1124,10 +1128,11 @@
             "highlight": "#icon-1161-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1161-crisis-landslide.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 2110
         }
       }
     ]
   },
-  "version": "074cdf20c00951909129c4b8e69dfabb"
+  "version": "55768e7e4fdc060ead254286f8c7dd7f"
 }

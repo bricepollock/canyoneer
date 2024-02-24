@@ -32,164 +32,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86436474323274,
-            34.924869570270175,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "Location: 34.924822, -111.86442<br/>\nElevation: 1.0 mi<br/>\nTime Created: 12/28/20 10:34:04 AM<br/>\nNotes: traverse ledge to pine. 80 ft ldc\n",
-          "elevationMeters": 1663
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86456859111787,
-            34.92489596009519,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "description": "Location: 34.924931, -111.864551<br/>\nElevation: 1.0 mi<br/>\nTime Created: 12/28/20 11:30:38 AM<br/>\nNotes: watch for loose rock\n",
-          "elevationMeters": 1647
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86502724885942,
-            34.92487176942258,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": "Location: 34.925044, -111.865025<br/>\nElevation: 1.0 mi<br/>\nTime Created: 12/28/20 12:10:24 PM<br/>\nNotes: rdc bush at rock pile\n",
-          "elevationMeters": 1661
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.848589,
-            34.90749,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "elevationMeters": 1505
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.848461,
-            34.90751,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "elevationMeters": 1505
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8616369366646,
-            34.92447812020228,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Single Bolt",
-          "description": "4/5 class move up.",
-          "elevationMeters": 1629
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86353862285614,
-            34.92425820361456,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Airy step",
-          "description": "looks visually scary but good hands and feet.",
-          "elevationMeters": 1727
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86526596546175,
-            34.924926748213686,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "description": "100 ft off of tree with extended webbing.",
-          "elevationMeters": 1663
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.85900568962099,
-            34.922806739353874,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ruins",
-          "description": "stay against cliff face",
-          "elevationMeters": 1799
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86209559440614,
-            34.92373919813074,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ruins",
-          "description": "Ruins are numerous on this level.",
-          "elevationMeters": 1658
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -746,7 +588,7 @@
         },
         "properties": {
           "name": "boynton west",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3589.07528441356,
@@ -1199,7 +1041,7 @@
         },
         "properties": {
           "name": "boynton west",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3690.613795842402,
@@ -1272,7 +1114,7 @@
         },
         "properties": {
           "name": "Boynton West Descent",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 227.82366871259492,
@@ -1280,8 +1122,176 @@
           "descentMeters": 34.0001220703125,
           "changeMeters": 184.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86436474323274,
+            34.924869570270175,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "Location: 34.924822, -111.86442<br/>\nElevation: 1.0 mi<br/>\nTime Created: 12/28/20 10:34:04 AM<br/>\nNotes: traverse ledge to pine. 80 ft ldc\n",
+          "stroke": "#34C759",
+          "elevationMeters": 1663
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86456859111787,
+            34.92489596009519,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "Location: 34.924931, -111.864551<br/>\nElevation: 1.0 mi<br/>\nTime Created: 12/28/20 11:30:38 AM<br/>\nNotes: watch for loose rock\n",
+          "stroke": "#34C759",
+          "elevationMeters": 1647
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86502724885942,
+            34.92487176942258,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "Location: 34.925044, -111.865025<br/>\nElevation: 1.0 mi<br/>\nTime Created: 12/28/20 12:10:24 PM<br/>\nNotes: rdc bush at rock pile\n",
+          "stroke": "#34C759",
+          "elevationMeters": 1661
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.848589,
+            34.90749,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1505
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.848461,
+            34.90751,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "stroke": "#5856D6",
+          "elevationMeters": 1505
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8616369366646,
+            34.92447812020228,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Single Bolt",
+          "description": "4/5 class move up.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1629
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86353862285614,
+            34.92425820361456,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Airy step",
+          "description": "looks visually scary but good hands and feet.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1727
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86526596546175,
+            34.924926748213686,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "description": "100 ft off of tree with extended webbing.",
+          "stroke": "#34C759",
+          "elevationMeters": 1663
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.85900568962099,
+            34.922806739353874,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ruins",
+          "description": "stay against cliff face",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1799
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86209559440614,
+            34.92373919813074,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ruins",
+          "description": "Ruins are numerous on this level.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1658
+        }
       }
     ]
   },
-  "version": "753e4e4be442d19fb570622495897f64"
+  "version": "e9df477cb342957480f5e9c18efd2e33"
 }

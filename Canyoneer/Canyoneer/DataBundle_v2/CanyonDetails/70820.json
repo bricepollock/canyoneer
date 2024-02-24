@@ -27,51 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.58928203582765,
-            45.66281198657614,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Parking",
-          "elevationMeters": 741
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.5878872871399,
-            45.667400154172334,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 884
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.58625113964082,
-            45.6655184825222,
-            0
-          ]
-        },
-        "properties": {
-          "name": "The Ladder",
-          "elevationMeters": 758
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -438,7 +393,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3042.0586145203406,
@@ -511,10 +466,10 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
-          "lengthMeters": 151.88338716009017,
+          "lengthMeters": 151.88338716009014,
           "ascentMeters": 13.4000244140625,
           "descentMeters": 57.00006103515625,
           "changeMeters": -43.60003662109375
@@ -634,7 +589,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 329.31713324521206,
@@ -807,7 +762,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 623.5246892836708,
@@ -815,8 +770,56 @@
           "descentMeters": 111.9000244140625,
           "changeMeters": 51.70001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.58928203582765,
+            45.66281198657614,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 741
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.5878872871399,
+            45.667400154172334,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 884
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.58625113964082,
+            45.6655184825222,
+            0
+          ]
+        },
+        "properties": {
+          "name": "The Ladder",
+          "stroke": "#FF3B30",
+          "elevationMeters": 758
+        }
       }
     ]
   },
-  "version": "6c0435c8c06daa341a67eb0ca6f47b85"
+  "version": "7dfc138d850d1398a06562d70eaba13d"
 }

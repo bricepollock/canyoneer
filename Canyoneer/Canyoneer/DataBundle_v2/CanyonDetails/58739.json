@@ -18,36 +18,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.42802932858469,
-            33.62623258124706,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ortega Falls",
-          "elevationMeters": 655
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.42629259824756,
-            33.626015942237636,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 712
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -159,7 +129,7 @@
         },
         "properties": {
           "name": "approach / exit",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 191.90889348624182,
@@ -167,8 +137,40 @@
           "descentMeters": 89.5,
           "changeMeters": -57.70001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.42802932858469,
+            33.62623258124706,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ortega Falls",
+          "stroke": "#34C759",
+          "elevationMeters": 655
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.42629259824756,
+            33.626015942237636,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 712
+        }
       }
     ]
   },
-  "version": "42788e3a245b02d61c16b3dbaea26c81"
+  "version": "f1fd6c9bba1d9696154cae46c9b7e622"
 }

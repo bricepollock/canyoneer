@@ -26,36 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.741049,
-            35.025201,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower parking",
-          "elevationMeters": 2077
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.749726,
-            35.018252,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper parking",
-          "elevationMeters": 2103
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1062,7 +1032,7 @@
         },
         "properties": {
           "name": "Approach (Ridge)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1916.9285678213546,
@@ -1235,7 +1205,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 479.3766741150888,
@@ -1468,7 +1438,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 622.805485926603,
@@ -1871,7 +1841,7 @@
         },
         "properties": {
           "name": "Approach (Sterling)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2690.1343383011763,
@@ -1879,8 +1849,40 @@
           "descentMeters": 487.5001220703125,
           "changeMeters": -56.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.741049,
+            35.025201,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower parking",
+          "stroke": "#34C759",
+          "elevationMeters": 2077
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.749726,
+            35.018252,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper parking",
+          "stroke": "#34C759",
+          "elevationMeters": 2103
+        }
       }
     ]
   },
-  "version": "c61c233bd22e89eb75faa1a6fd4915d5"
+  "version": "c2a11dab0e68a724864d595137e7c117"
 }

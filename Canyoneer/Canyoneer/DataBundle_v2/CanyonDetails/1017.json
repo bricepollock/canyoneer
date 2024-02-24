@@ -29,51 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.2714521,
-            38.2536284,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1886
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.2940115,
-            38.2535375,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Big Rappel into Lower TCB",
-          "styleUrl": "#icon-1125",
-          "styleHash": "7b0e9f08",
-          "styleMapHash": {
-            "normal": "#icon-1125-normal",
-            "highlight": "#icon-1125-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "description": "If you reach this point you've either passed the Loop Exit or need to exit back up the canyon.",
-          "elevationMeters": 1878
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -432,7 +387,7 @@
             "highlight": "#line-A52714-5650-highlight"
           },
           "description": "Note, if not doing the Loop Exit, then reverse this for the exit",
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 2270.63457483412,
@@ -602,7 +557,7 @@
             "highlight": "#line-097138-5650-highlight"
           },
           "description": "Note, if not doing the Loop Exit, then reverse this for the exit",
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 395.0516629739861,
@@ -1216,35 +1171,13 @@
             "normal": "#line-F9A825-6231-nodesc-normal",
             "highlight": "#line-F9A825-6231-nodesc-highlight"
           },
-          "stroke": "#f9a825",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 6.231,
           "lengthMeters": 1909.6077577641793,
           "ascentMeters": 78.199951171875,
           "descentMeters": 91.800048828125,
           "changeMeters": -13.60009765625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.2776093,
-            38.2514971,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Alternate Parking / Camping",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1865
         }
       },
       {
@@ -1382,7 +1315,7 @@
             "normal": "#line-558B2F-5456-nodesc-normal",
             "highlight": "#line-558B2F-5456-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 698.139215231028,
@@ -1390,8 +1323,78 @@
           "descentMeters": 2.099853515625,
           "changeMeters": 21.10009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.2714521,
+            38.2536284,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1886
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.2940115,
+            38.2535375,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Big Rappel into Lower TCB",
+          "styleUrl": "#icon-1125",
+          "styleHash": "7b0e9f08",
+          "styleMapHash": {
+            "normal": "#icon-1125-normal",
+            "highlight": "#icon-1125-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "description": "If you reach this point you've either passed the Loop Exit or need to exit back up the canyon.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1878
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.2776093,
+            38.2514971,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Alternate Parking / Camping",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#FF9500",
+          "elevationMeters": 1865
+        }
       }
     ]
   },
-  "version": "7525f15745534f8e197b5844b20dd432"
+  "version": "0ea38f9181ad8a8e849682cd1842bd1e"
 }

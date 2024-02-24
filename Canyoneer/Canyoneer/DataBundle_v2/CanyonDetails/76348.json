@@ -24,25 +24,10 @@
   "rappelCountMax": 3,
   "rappelLongestMeters": 39.62,
   "vehicle": "Passenger",
-  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>A not so rugged Page area canyon. Short canyon with a spectacular\ngrotto rappel and incredible stemming.</p>\n<h2 id=\"approach\">Approach</h2>\n<p><strong>Option A (1-3 rappels)</strong> Start at Wildcat Canyon lower\nparking area. Hike up past some interesting hoodoos. Can go up higher to\nadd two rappels or make your way lower on slabby sandstone to last\ngrotto rappel only.</p>\n<p><strong>Option B (5 rappels)</strong> Start at the top of the\ndrainage just down the road from stud horse trailhead.</p>\n<h2 id=\"descent\">Descent</h2>\n<p><strong>Option A:</strong> The uploaded KML track enters the canyon\njust prior to R3 (bypassing optional rappels).</p>\n<p><strong>R1:</strong> 60' off of large boulder. Optional.</p>\n<p><strong>R2:</strong> 40' off of cairn anchor. Optional.</p>\n<p><strong>R3:</strong> 65' off of dead man anchor in crack that opens\ninto an amazing grotto. Free hanging. Use courtesy rigging to prevent\nrope grooves.</p>\n<p>Stem and downclimb large chute to bottom.</p>\n<p><strong>Option B:</strong> From the parking area at the top of the\ndrainage.</p>\n<p><strong>R1:</strong> 60' off of large boulder, just down from the\nparking area. Optional.</p>\n<p><strong>R2:</strong> ~50' off of cairn. Optional.</p>\n<p><strong>R3:</strong> 60' off of large boulder. Optional.</p>\n<p><strong>R4:</strong> 40' off of cairn anchor. Optional.</p>\n<p><strong>R5:</strong> 65' off of dead man anchor in crack that opens\ninto an amazing grotto. Free hanging. Use courtesy rigging to prevent\nrope grooves.</p>\n<p>Stem and downclimb down large chute to bottom.</p>\n<h2 id=\"exit\">Exit</h2>\n<p><strong>Option A:</strong>Follow wash down a little ways. Exit up RDC\nto lightly used trail. Follow trail back to vehicle.</p>\n<p><strong>Option B:</strong> Follow the road toward Wildcat Tank Canyon\nand exit to the left up canyon of it’s drainage on the slab towards the\nhoodoos and stud horse trailhead.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>First know descent by Melissa Gibbons, Jacob Cowan, and Erek Burek on\nFeb 25, 2023.</p>\n",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<p>A not so rugged Page area canyon. Short canyon with a spectacular\ngrotto rappel and incredible stemming.</p>\n<p>CAUTION: Be aware that there are owls nesting near the end of the\nupper section and there is no way to pass without disturbing them.\nRecommend doing the original lower 3 rappels only.</p>\n<h2 id=\"approach\">Approach</h2>\n<p><strong>Option A (1-3 rappels)</strong> Start at Wildcat Canyon lower\nparking area. Hike up past some interesting hoodoos. Can go up higher to\nadd two rappels or make your way lower on slabby sandstone to last\ngrotto rappel only.</p>\n<p><strong>Option B (5 rappels)</strong> Start at the top of the\ndrainage just down the road from stud horse trailhead.</p>\n<h2 id=\"descent\">Descent</h2>\n<p><strong>Option A:</strong> The uploaded KML track enters the canyon\njust prior to R3 (bypassing optional rappels).</p>\n<p><strong>R1:</strong> 60' off of large boulder. Optional.</p>\n<p><strong>R2:</strong> 40' off of cairn anchor. Optional.</p>\n<p><strong>R3:</strong> 65' off of dead man anchor in crack that opens\ninto an amazing grotto. Free hanging. Use courtesy rigging to prevent\nrope grooves.</p>\n<p>Stem and downclimb large chute to bottom.</p>\n<p><strong>Option B:</strong> From the parking area at the top of the\ndrainage.</p>\n<p><strong>R1:</strong> 60' off of large boulder, just down from the\nparking area. Optional.</p>\n<p><strong>R2:</strong> ~50' off of cairn. Optional.</p>\n<p><strong>R3:</strong> 60' off of large boulder. Optional.</p>\n<p><strong>R4:</strong> 40' off of cairn anchor. Optional.</p>\n<p><strong>R5:</strong> 65' off of dead man anchor in crack that opens\ninto an amazing grotto. Free hanging. Use courtesy rigging to prevent\nrope grooves.</p>\n<p>Stem and downclimb down large chute to bottom.</p>\n<h2 id=\"exit\">Exit</h2>\n<p><strong>Option A:</strong>Follow wash down a little ways. Exit up RDC\nto lightly used trail. Follow trail back to vehicle.</p>\n<p><strong>Option B:</strong> Follow the road toward Wildcat Tank Canyon\nand exit to the left up canyon of it’s drainage on the slab towards the\nhoodoos and stud horse trailhead.</p>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>First know descent by Melissa Gibbons, Jacob Cowan, and Erek Burek on\nFeb 25, 2023.</p>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.59575192601098,
-            36.995401976587935,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 1236
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -282,7 +267,7 @@
         },
         "properties": {
           "name": "Approach ",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1027.3399232740448,
@@ -350,7 +335,7 @@
         },
         "properties": {
           "name": "Descent ",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 51.55511463505856,
@@ -598,7 +583,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 968.581205102572,
@@ -606,8 +591,24 @@
           "descentMeters": 2.4998779296875,
           "changeMeters": 20.2999267578125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.59575192601098,
+            36.995401976587935,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1236
+        }
       }
     ]
   },
-  "version": "ed6150147ed511c869555058ae2b7e97"
+  "version": "d0d54ed5ca58e5480983e8804fa95b54"
 }

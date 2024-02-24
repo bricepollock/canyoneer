@@ -32,131 +32,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91157698631288,
-            34.92841012930842,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rockfall!!",
-          "elevationMeters": 1402
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.914331,
-            34.929453,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 ",
-          "description": "Location: 34.929453, -111.914331<br/>\nElevation: 1.0 mi<br/>\nTime Created: 1/3/21 12:24:18 PM<br/>\nNotes: 50' over hung\n",
-          "elevationMeters": 1415
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.914499,
-            34.929386,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "description": "Location: 34.929386, -111.914499<br/>\nElevation: 1.0 mi<br/>\nTime Created: 1/3/21 12:40:22 PM<br/>\nNotes: large blocks close to edge. loose column.\n",
-          "elevationMeters": 1415
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.9146990776062,
-            34.93061355537988,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": " CDC small tree 130ft. through crack to low grade (only 40ft vert) and then steep. watch for knot chock for next anchor. \n",
-          "elevationMeters": 1428
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.9151282310486,
-            34.93062674936972,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "description": "125ft off redundant knot chock\n",
-          "elevationMeters": 1428
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.917469,
-            34.925163,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "elevationMeters": 1415
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91745907068254,
-            34.92517745103408,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "elevationMeters": 1415
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91608309745789,
-            34.93083345493367,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "description": "RDC webbing slung tree 170ft",
-          "elevationMeters": 1428
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -288,7 +163,7 @@
         },
         "properties": {
           "name": "Alternate approach",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 397.48448411882543,
@@ -671,7 +546,7 @@
         },
         "properties": {
           "name": "Hung out to dry Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1825.6297108701863,
@@ -894,7 +769,7 @@
         },
         "properties": {
           "name": "Hung Out to Dry decent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 479.5101129978509,
@@ -1152,7 +1027,7 @@
         },
         "properties": {
           "name": "Hung Out to Dry Exit",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 836.3845712602321,
@@ -1160,8 +1035,141 @@
           "descentMeters": 38.7000732421875,
           "changeMeters": -12.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91157698631288,
+            34.92841012930842,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rockfall!!",
+          "stroke": "#34C759",
+          "elevationMeters": 1402
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.914331,
+            34.929453,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 ",
+          "description": "Location: 34.929453, -111.914331<br/>\nElevation: 1.0 mi<br/>\nTime Created: 1/3/21 12:24:18 PM<br/>\nNotes: 50' over hung\n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1415
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.914499,
+            34.929386,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "Location: 34.929386, -111.914499<br/>\nElevation: 1.0 mi<br/>\nTime Created: 1/3/21 12:40:22 PM<br/>\nNotes: large blocks close to edge. loose column.\n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1415
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.9146990776062,
+            34.93061355537988,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": " CDC small tree 130ft. through crack to low grade (only 40ft vert) and then steep. watch for knot chock for next anchor. \n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1428
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.9151282310486,
+            34.93062674936972,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "description": "125ft off redundant knot chock\n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1428
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.917469,
+            34.925163,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "stroke": "#34C759",
+          "elevationMeters": 1415
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91745907068254,
+            34.92517745103408,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "stroke": "#5856D6",
+          "elevationMeters": 1415
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91608309745789,
+            34.93083345493367,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "description": "RDC webbing slung tree 170ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1428
+        }
       }
     ]
   },
-  "version": "a4221727810be39b9cde2dcc4f748359"
+  "version": "d92392ed2d7ce4e5f652b2c3584c5710"
 }

@@ -12,52 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.419857,
-            28.494825,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-17d532e3",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Descensos de Barrancos en Tenerife at wikiloc.com)",
-          "elevationMeters": 166
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.42392,
-            28.503145,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "4bc16872",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Descensos de Barrancos en Tenerife at wikiloc.com)",
-          "elevationMeters": 124
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1205,7 +1159,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Descensos de Barrancos en Tenerife at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1776.0759622138257,
@@ -1213,8 +1167,56 @@
           "descentMeters": 69.99999237060547,
           "changeMeters": -41.599998474121094
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.419857,
+            28.494825,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-73c2e36",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Descensos de Barrancos en Tenerife at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 166
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.42392,
+            28.503145,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "4c6e4a61",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Descensos de Barrancos en Tenerife at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 124
+        }
       }
     ]
   },
-  "version": "53368acba9c2b94ea873d332de5229a5"
+  "version": "8e04363ce1fee33e8175cf3be39f588d"
 }

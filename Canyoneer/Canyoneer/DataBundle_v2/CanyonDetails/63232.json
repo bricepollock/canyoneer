@@ -32,99 +32,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91713988780977,
-            34.9250323073893,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "elevationMeters": 1412
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91720962524415,
-            34.92512027326528,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "elevationMeters": 1416
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91289126873018,
-            34.92852448022109,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "webbing off brush 100ft",
-          "elevationMeters": 1403
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91395878791809,
-            34.92851128589317,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "description": "20ft to bolt station ledge. Only room for 2-3max.",
-          "elevationMeters": 1411
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91401779651643,
-            34.928526679275556,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": "200ft from bolt station at ledge. 100ft down is a large ledge to take pics from. possible to come off rope.",
-          "elevationMeters": 1411
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.91157698631288,
-            34.92841012930842,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rockfall!!",
-          "elevationMeters": 1402
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -536,7 +443,7 @@
         },
         "properties": {
           "name": "Hangman's Gallow Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1692.0448026672996,
@@ -714,7 +621,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 573.3068321988578,
@@ -857,7 +764,7 @@
         },
         "properties": {
           "name": "Alternate approach",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 397.48448411882543,
@@ -940,7 +847,7 @@
         },
         "properties": {
           "name": "Hangman's Gallow",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 160.56736474650032,
@@ -948,8 +855,107 @@
           "descentMeters": 0.10009765625,
           "changeMeters": 11.2999267578125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91713988780977,
+            34.9250323073893,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "stroke": "#34C759",
+          "elevationMeters": 1412
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91720962524415,
+            34.92512027326528,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "stroke": "#5856D6",
+          "elevationMeters": 1416
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91289126873018,
+            34.92852448022109,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "webbing off brush 100ft",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1403
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91395878791809,
+            34.92851128589317,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "20ft to bolt station ledge. Only room for 2-3max.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1411
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91401779651643,
+            34.928526679275556,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "200ft from bolt station at ledge. 100ft down is a large ledge to take pics from. possible to come off rope.",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1411
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.91157698631288,
+            34.92841012930842,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rockfall!!",
+          "stroke": "#34C759",
+          "elevationMeters": 1402
+        }
       }
     ]
   },
-  "version": "5c8be4833a5896d768a72b48cfad849b"
+  "version": "6aa4f6ec16ea08612f52e6401ad304e8"
 }

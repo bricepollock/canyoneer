@@ -21,51 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.31453335285188,
-            33.9774733071481,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Car Park",
-          "elevationMeters": 804
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.3038930296898,
-            33.97979983200221,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "elevationMeters": 765
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.29276990890504,
-            33.98974133835452,
-            0
-          ]
-        },
-        "properties": {
-          "name": "The Box",
-          "elevationMeters": 765
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -237,7 +192,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1127.8156839026974,
@@ -620,7 +575,7 @@
         },
         "properties": {
           "name": "Canyon",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1624.1505017179966,
@@ -628,8 +583,56 @@
           "descentMeters": 17.300048828125,
           "changeMeters": 0.39996337890625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.31453335285188,
+            33.9774733071481,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Car Park",
+          "stroke": "#34C759",
+          "elevationMeters": 804
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.3038930296898,
+            33.97979983200221,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "stroke": "#FF3B30",
+          "elevationMeters": 765
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.29276990890504,
+            33.98974133835452,
+            0
+          ]
+        },
+        "properties": {
+          "name": "The Box",
+          "stroke": "#FF3B30",
+          "elevationMeters": 765
+        }
       }
     ]
   },
-  "version": "cca95f5f1041e3a1e3a8d21f04490c45"
+  "version": "bf821fcac5c461ab98af14a7d58853ba"
 }

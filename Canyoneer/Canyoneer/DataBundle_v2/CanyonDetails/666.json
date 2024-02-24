@@ -29,51 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.8228361606598,
-            32.3097232685953,
-            0
-          ]
-        },
-        "properties": {
-          "name": "shuttle",
-          "elevationMeters": 854
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.71977496147157,
-            32.40725709179072,
-            0
-          ]
-        },
-        "properties": {
-          "name": "parking",
-          "elevationMeters": 1724
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.70197582244874,
-            32.33624245256802,
-            0
-          ]
-        },
-        "properties": {
-          "name": "alt shuttle",
-          "elevationMeters": 1834
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1490,7 +1445,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6647.745262143859,
@@ -2548,7 +2503,7 @@
         },
         "properties": {
           "name": "shuttle/walk",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6002.287212804725,
@@ -3791,7 +3746,7 @@
         },
         "properties": {
           "name": "exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4990.663093145381,
@@ -3989,7 +3944,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1531.1699959462178,
@@ -3997,8 +3952,56 @@
           "descentMeters": 168.10009765625,
           "changeMeters": 249
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.8228361606598,
+            32.3097232685953,
+            0
+          ]
+        },
+        "properties": {
+          "name": "shuttle",
+          "stroke": "#FF3B30",
+          "elevationMeters": 854
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.71977496147157,
+            32.40725709179072,
+            0
+          ]
+        },
+        "properties": {
+          "name": "parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1724
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.70197582244874,
+            32.33624245256802,
+            0
+          ]
+        },
+        "properties": {
+          "name": "alt shuttle",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1834
+        }
       }
     ]
   },
-  "version": "15847ef17c09033c7ca94b95c3dfc2e2"
+  "version": "35ee667a5cdfd59871f2dd694128f4db"
 }

@@ -30,51 +30,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.430094,
-            35.672341,
-            0
-          ]
-        },
-        "properties": {
-          "name": "drop in",
-          "elevationMeters": 1322
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.42141914367677,
-            35.681553016995586,
-            0
-          ]
-        },
-        "properties": {
-          "name": "parking",
-          "elevationMeters": 924
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.37707686424257,
-            35.68159659061508,
-            0
-          ]
-        },
-        "properties": {
-          "name": "gate closest to canyon",
-          "elevationMeters": 866
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -706,7 +661,7 @@
         },
         "properties": {
           "name": "approach/exit",
-          "stroke": "#9ACD32",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 777.3830151473236,
@@ -854,7 +809,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 482.8731858044528,
@@ -2302,7 +2257,7 @@
         },
         "properties": {
           "name": "approach ",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1079.3364367728277,
@@ -2385,7 +2340,7 @@
         },
         "properties": {
           "name": "exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 412.22917575733015,
@@ -2393,8 +2348,56 @@
           "descentMeters": 300.599853515625,
           "changeMeters": -291.70001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.430094,
+            35.672341,
+            0
+          ]
+        },
+        "properties": {
+          "name": "drop in",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1322
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.42141914367677,
+            35.681553016995586,
+            0
+          ]
+        },
+        "properties": {
+          "name": "parking",
+          "stroke": "#34C759",
+          "elevationMeters": 924
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.37707686424257,
+            35.68159659061508,
+            0
+          ]
+        },
+        "properties": {
+          "name": "gate closest to canyon",
+          "stroke": "#FF3B30",
+          "elevationMeters": 866
+        }
       }
     ]
   },
-  "version": "01fd28a2e717e3603776adada20116af"
+  "version": "7f89bec3497b278bd4a1879cb7be6b21"
 }

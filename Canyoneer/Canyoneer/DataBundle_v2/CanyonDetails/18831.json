@@ -28,66 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.44717931747438,
-            33.53090019160534,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Deep pool",
-          "elevationMeters": 678
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.45353615283966,
-            33.53758961797794,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Park",
-          "elevationMeters": 636
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.44967377185822,
-            33.48259218858689,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Car Park",
-          "elevationMeters": 574
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.44634783267976,
-            33.53550593505436,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Tributary",
-          "elevationMeters": 692
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -639,7 +579,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2474.262161878813,
@@ -1737,7 +1677,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5026.613548539928,
@@ -2155,7 +2095,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 806.4066272449755,
@@ -2163,8 +2103,72 @@
           "descentMeters": 62.5,
           "changeMeters": -13.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.44717931747438,
+            33.53090019160534,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Deep pool",
+          "stroke": "#FF3B30",
+          "elevationMeters": 678
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.45353615283966,
+            33.53758961797794,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Park",
+          "stroke": "#FFCC00",
+          "elevationMeters": 636
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.44967377185822,
+            33.48259218858689,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Car Park",
+          "stroke": "#34C759",
+          "elevationMeters": 574
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.44634783267976,
+            33.53550593505436,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Tributary",
+          "stroke": "#FF3B30",
+          "elevationMeters": 692
+        }
       }
     ]
   },
-  "version": "fcb350f527b8adce29a7045c85e3a1ce"
+  "version": "84ec05c377ae5eb2ce95c7abe71682e7"
 }

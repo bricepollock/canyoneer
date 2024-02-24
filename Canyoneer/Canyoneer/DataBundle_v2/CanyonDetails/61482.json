@@ -26,111 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.47038072347644,
-            37.02523770088078,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cumbres Falls 100'",
-          "elevationMeters": 3064
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.47397488355638,
-            37.02291324872343,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Wolf Creek Cascades",
-          "elevationMeters": 3094
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.45104467868805,
-            37.01840606692115,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking at CDT Trailhead",
-          "elevationMeters": 2586
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.44938594,
-            37.01880196,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking at Cumbres Pass  Railroad Station",
-          "elevationMeters": 2594
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.47723212,
-            37.02668957,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 60' upper falls tree CL",
-          "elevationMeters": 3107
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.47656723856929,
-            37.02638439807572,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 70' lower falls",
-          "elevationMeters": 3107
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.46052628755571,
-            37.01444423379851,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 2649
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1702,7 +1597,7 @@
         },
         "properties": {
           "name": "Wolf Creek approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4397.0396557043205,
@@ -1740,7 +1635,7 @@
         },
         "properties": {
           "name": "Wolf Creek return after R1",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 20.383216703598926,
@@ -2053,7 +1948,7 @@
         },
         "properties": {
           "name": "Wolf Creek descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1165.4137931157313,
@@ -2171,7 +2066,7 @@
         },
         "properties": {
           "name": "Wolf Creek return after R2",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 138.66708687952203,
@@ -2309,7 +2204,7 @@
         },
         "properties": {
           "name": "return next to train tracks",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1076.9046157295866,
@@ -2497,7 +2392,7 @@
         },
         "properties": {
           "name": "drive to CDT Trailhead",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 783.2283905563157,
@@ -2505,8 +2400,120 @@
           "descentMeters": 37.2001953125,
           "changeMeters": 731.099853515625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.47038072347644,
+            37.02523770088078,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cumbres Falls 100'",
+          "stroke": "#FF3B30",
+          "elevationMeters": 3064
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.47397488355638,
+            37.02291324872343,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Wolf Creek Cascades",
+          "stroke": "#5856D6",
+          "elevationMeters": 3094
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.45104467868805,
+            37.01840606692115,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking at CDT Trailhead",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2586
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.44938594,
+            37.01880196,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking at Cumbres Pass  Railroad Station",
+          "stroke": "#34C759",
+          "elevationMeters": 2594
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.47723212,
+            37.02668957,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 60' upper falls tree CL",
+          "stroke": "#5856D6",
+          "elevationMeters": 3107
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.47656723856929,
+            37.02638439807572,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 70' lower falls",
+          "stroke": "#5856D6",
+          "elevationMeters": 3107
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.46052628755571,
+            37.01444423379851,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2649
+        }
       }
     ]
   },
-  "version": "984efa2751e4d5868924412c3b5c175b"
+  "version": "355c6a14468821e0956750104800b903"
 }

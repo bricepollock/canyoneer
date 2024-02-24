@@ -24,51 +24,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.92963027954103,
-            47.81811129005767,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Junction 1",
-          "elevationMeters": 129
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.93516635894777,
-            47.793639833573124,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Junction 2",
-          "elevationMeters": 155
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.91837573051454,
-            47.77236566895718,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rainbow Campground",
-          "elevationMeters": 708
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -424,7 +379,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 3209.9126322472957,
@@ -1927,7 +1882,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 0.7019607843137254,
           "stroke-width": 5,
           "lengthMeters": 14614.360630255323,
@@ -1970,7 +1925,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 113.03799488762202,
@@ -2018,7 +1973,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 239.44431963775605,
@@ -2346,7 +2301,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2225.940446809266,
@@ -2354,8 +2309,56 @@
           "descentMeters": 56.999969482421875,
           "changeMeters": 543.3999938964844
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.92963027954103,
+            47.81811129005767,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Junction 1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 129
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.93516635894777,
+            47.793639833573124,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Junction 2",
+          "stroke": "#FF2D55",
+          "elevationMeters": 155
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.91837573051454,
+            47.77236566895718,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rainbow Campground",
+          "stroke": "#FF2D55",
+          "elevationMeters": 708
+        }
       }
     ]
   },
-  "version": "e4dcbe88c1be36a1e5773edffe717bc2"
+  "version": "6c3810d7acfa4ffd34f8fcb1868aaad2"
 }

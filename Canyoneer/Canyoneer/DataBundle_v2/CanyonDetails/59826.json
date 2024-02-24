@@ -27,81 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.43563175201417,
-            44.53986530117719,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 316
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.45026588439943,
-            44.550386777909864,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 648
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.45133876800539,
-            44.55335324594772,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Painted Falls?",
-          "elevationMeters": 680
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.44254648685457,
-            44.54464072742726,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Waterfall Alley begins",
-          "elevationMeters": 424
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.43570685386659,
-            44.540431184793384,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Campsite",
-          "elevationMeters": 322
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -648,7 +573,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 0.7019607843137254,
           "stroke-width": 5,
           "lengthMeters": 5833.24851201079,
@@ -796,7 +721,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 969.1743533305338,
@@ -889,7 +814,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 806.1363635478522,
@@ -967,7 +892,7 @@
         },
         "properties": {
           "name": "Bushwhack \"Shortcut\"",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 389.298240980795,
@@ -975,8 +900,88 @@
           "descentMeters": 77.99996948242188,
           "changeMeters": -75.89996337890625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.43563175201417,
+            44.53986530117719,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 316
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.45026588439943,
+            44.550386777909864,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 648
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.45133876800539,
+            44.55335324594772,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Painted Falls?",
+          "stroke": "#FF3B30",
+          "elevationMeters": 680
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.44254648685457,
+            44.54464072742726,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waterfall Alley begins",
+          "stroke": "#FF3B30",
+          "elevationMeters": 424
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.43570685386659,
+            44.540431184793384,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Campsite",
+          "stroke": "#FF3B30",
+          "elevationMeters": 322
+        }
       }
     ]
   },
-  "version": "5900cd141aa21c1439e4867784460822"
+  "version": "aa99d4d9d5d3e6c0d6785e06e68e5363"
 }

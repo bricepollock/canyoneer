@@ -17,98 +17,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.37167,
-            33.433169,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Weaver's Needle",
-          "styleUrl": "#icon-55",
-          "styleHash": "16540f57",
-          "styleMapHash": {
-            "normal": "#icon-55-normal",
-            "highlight": "#icon-55-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/55-flag.png",
-          "description": "In all its pointy glory. (Data by canyonchronicles.com)",
-          "elevationMeters": 1095
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.347294,
-            33.397052,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Peralte Trailhead",
-          "styleUrl": "#icon-93",
-          "styleHash": "6012e13e",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "Park you car here with the masses.  We have parked here overnight with no problems. (Data by canyonchronicles.com)",
-          "elevationMeters": 1038
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.364202,
-            33.415681,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Pass",
-          "styleUrl": "#icon-55",
-          "styleHash": "16540f57",
-          "styleMapHash": {
-            "normal": "#icon-55-normal",
-            "highlight": "#icon-55-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/55-flag.png",
-          "description": "You will get an excellent view of Weaver's Needle from here. (Data by canyonchronicles.com)",
-          "elevationMeters": 578
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.370157,
-            33.430754,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Camp",
-          "styleUrl": "#icon-55",
-          "styleHash": "16540f57",
-          "styleMapHash": {
-            "normal": "#icon-55-normal",
-            "highlight": "#icon-55-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/55-flag.png",
-          "description": "Right on this epic knoll. (Data by canyonchronicles.com)",
-          "elevationMeters": 646
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -152,7 +60,7 @@
             "highlight": "#line-FF0000-5000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 390.3851103880579,
@@ -207,7 +115,7 @@
             "highlight": "#line-3333FF-5000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#3333ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 612.0407327794763,
@@ -327,7 +235,7 @@
             "highlight": "#line-3333FF-5000-nodesc-highlight"
           },
           "description": " (Data by canyonchronicles.com)",
-          "stroke": "#3333ff",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5106.606090772269,
@@ -335,8 +243,104 @@
           "descentMeters": 105.40008544921875,
           "changeMeters": 398.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.37167,
+            33.433169,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Weaver's Needle",
+          "styleUrl": "#icon-55",
+          "styleHash": "16540f57",
+          "styleMapHash": {
+            "normal": "#icon-55-normal",
+            "highlight": "#icon-55-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/55-flag.png",
+          "description": "In all its pointy glory. (Data by canyonchronicles.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1095
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.347294,
+            33.397052,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Peralte Trailhead",
+          "styleUrl": "#icon-93",
+          "styleHash": "6012e13e",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "Park you car here with the masses.  We have parked here overnight with no problems. (Data by canyonchronicles.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1038
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.364202,
+            33.415681,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Pass",
+          "styleUrl": "#icon-55",
+          "styleHash": "16540f57",
+          "styleMapHash": {
+            "normal": "#icon-55-normal",
+            "highlight": "#icon-55-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/55-flag.png",
+          "description": "You will get an excellent view of Weaver's Needle from here. (Data by canyonchronicles.com)",
+          "stroke": "#5856D6",
+          "elevationMeters": 578
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.370157,
+            33.430754,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Camp",
+          "styleUrl": "#icon-55",
+          "styleHash": "16540f57",
+          "styleMapHash": {
+            "normal": "#icon-55-normal",
+            "highlight": "#icon-55-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/55-flag.png",
+          "description": "Right on this epic knoll. (Data by canyonchronicles.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 646
+        }
       }
     ]
   },
-  "version": "2862cd360430d910c88a80f6d09f46e2"
+  "version": "65b154223c74cfd9c837ca60b03145d5"
 }

@@ -28,28 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.703888888889,
-            38.7505555555556,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead / Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 2039
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -907,7 +885,7 @@
             "normal": "#line-558B2F-5000-nodesc-normal",
             "highlight": "#line-558B2F-5000-nodesc-highlight"
           },
-          "stroke": "#558b2f",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 6360.938909726385,
@@ -1396,7 +1374,7 @@
             "normal": "#line-097138-5000-nodesc-normal",
             "highlight": "#line-097138-5000-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2163.519637527094,
@@ -2140,35 +2118,13 @@
             "normal": "#line-A52714-5650-nodesc-normal",
             "highlight": "#line-A52714-5650-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 3624.4657757296322,
           "ascentMeters": 238.2999267578125,
           "descentMeters": 227.89990234375,
           "changeMeters": 10.4000244140625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.6165123,
-            38.7464726,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#icon-1125-nodesc",
-          "styleHash": "-52b41bc5",
-          "styleMapHash": {
-            "normal": "#icon-1125-nodesc-normal",
-            "highlight": "#icon-1125-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
-          "elevationMeters": 1791
         }
       },
       {
@@ -2936,7 +2892,7 @@
             "normal": "#line-FFD600-3131-nodesc-normal",
             "highlight": "#line-FFD600-3131-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3.131,
           "lengthMeters": 4556.240629060341,
@@ -3925,7 +3881,7 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4192.341216321399,
@@ -4124,7 +4080,7 @@
             "normal": "#line-FFD600-2550-nodesc-normal",
             "highlight": "#line-FFD600-2550-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2.55,
           "lengthMeters": 1742.6624360782414,
@@ -4132,8 +4088,54 @@
           "descentMeters": 216.8001708984375,
           "changeMeters": -131.7000732421875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.703888888889,
+            38.7505555555556,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead / Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 2039
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.6165123,
+            38.7464726,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#icon-1125-nodesc",
+          "styleHash": "-52b41bc5",
+          "styleMapHash": {
+            "normal": "#icon-1125-nodesc-normal",
+            "highlight": "#icon-1125-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1791
+        }
       }
     ]
   },
-  "version": "6a1d034b98a67345a39c808149fc6fef"
+  "version": "c5b79d174125480757469126f8e684db"
 }

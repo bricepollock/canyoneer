@@ -34,146 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86183005571368,
-            34.927772400141755,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Turn off juniper",
-          "elevationMeters": 1700
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.868906,
-            34.930861,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5 - 150’",
-          "description": "Off tree ldc\nMostly free hanging\nAvoid blindly tossing rope\n",
-          "elevationMeters": 1835
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8686629831791,
-            34.93111052753222,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4 - 35’",
-          "description": "Off tree ldc",
-          "elevationMeters": 1835
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.868505,
-            34.931872,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - 25’",
-          "description": "Off tree",
-          "elevationMeters": 1658
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.868331,
-            34.932297,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 75’",
-          "description": "Off tree ldc",
-          "elevationMeters": 1631
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86274200677873,
-            34.93237273530598,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Subway",
-          "elevationMeters": 1662
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86799846589565,
-            34.93269378157193,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 30’",
-          "description": "Off tree",
-          "elevationMeters": 1644
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86654269695283,
-            34.93286309998696,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Slingshot",
-          "elevationMeters": 1638
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86752304434776,
-            34.932876293615,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Downclimb",
-          "elevationMeters": 1672
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -510,7 +370,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 991.2796279935181,
@@ -953,7 +813,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1113.5553093266462,
@@ -1161,7 +1021,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 306.6296490519697,
@@ -1169,8 +1029,157 @@
           "descentMeters": 60.2000732421875,
           "changeMeters": 149.39990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86183005571368,
+            34.927772400141755,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Turn off juniper",
+          "stroke": "#34C759",
+          "elevationMeters": 1700
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.868906,
+            34.930861,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5 - 150’",
+          "description": "Off tree ldc\nMostly free hanging\nAvoid blindly tossing rope\n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1835
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8686629831791,
+            34.93111052753222,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4 - 35’",
+          "description": "Off tree ldc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1835
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.868505,
+            34.931872,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - 25’",
+          "description": "Off tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1658
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.868331,
+            34.932297,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 75’",
+          "description": "Off tree ldc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1631
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86274200677873,
+            34.93237273530598,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Subway",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1662
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86799846589565,
+            34.93269378157193,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 30’",
+          "description": "Off tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1644
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86654269695283,
+            34.93286309998696,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Slingshot",
+          "stroke": "#34C759",
+          "elevationMeters": 1638
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86752304434776,
+            34.932876293615,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Downclimb",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1672
+        }
       }
     ]
   },
-  "version": "21f5b91d3b3a47ef5b8a10a19e7f4e25"
+  "version": "aaf0db744a938dc5d0d50b580ffbb13e"
 }

@@ -29,82 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.83236299999999,
-            36.463,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Start",
-          "elevationMeters": 861
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.825189,
-            36.453846,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start (Kayaker trail)",
-          "elevationMeters": 695
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.920011,
-            36.484087,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "elevationMeters": 790
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.82324874401094,
-            36.45772976461618,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Creek crossing (kayaker trail)",
-          "elevationMeters": 1268
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.83941173553468,
-            36.47897398893343,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Exit",
-          "description": "Park where legal...",
-          "elevationMeters": 416
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -186,7 +110,7 @@
         },
         "properties": {
           "name": "Approach?",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 369.7894297557378,
@@ -354,7 +278,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2521.736905369493,
@@ -1337,7 +1261,7 @@
         },
         "properties": {
           "name": "Approach (kayaker trail)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1485.9661039441012,
@@ -3426,7 +3350,7 @@
         "properties": {
           "name": "Shuttle",
           "description": "E Fork Kaweah Rd shuttle (1 option)",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 7322.616515547905,
@@ -4140,7 +4064,7 @@
         "properties": {
           "name": "Shuttle (kayaker trail)",
           "description": "E Fork Kaweah Rd shuttle (1 option)",
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1597.7129157303086,
@@ -4148,8 +4072,89 @@
           "descentMeters": 724.2998657226562,
           "changeMeters": -140.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.83236299999999,
+            36.463,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Start",
+          "stroke": "#5856D6",
+          "elevationMeters": 861
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.825189,
+            36.453846,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start (Kayaker trail)",
+          "stroke": "#34C759",
+          "elevationMeters": 695
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.920011,
+            36.484087,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "stroke": "#FF3B30",
+          "elevationMeters": 790
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.82324874401094,
+            36.45772976461618,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Creek crossing (kayaker trail)",
+          "stroke": "#34C759",
+          "elevationMeters": 1268
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.83941173553468,
+            36.47897398893343,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "description": "Park where legal...",
+          "stroke": "#FF3B30",
+          "elevationMeters": 416
+        }
       }
     ]
   },
-  "version": "bf33594ec08582baed7beaba7097a5df"
+  "version": "356478ce0588876e4945b68dbc973bf0"
 }

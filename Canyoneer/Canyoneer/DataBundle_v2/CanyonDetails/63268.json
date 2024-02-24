@@ -21,36 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.87854218482973,
-            42.72140076650623,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 133
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.8761603832245,
-            42.72743813071414,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Old mining equipment",
-          "elevationMeters": 372
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -192,7 +162,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 857.279954131861,
@@ -290,7 +260,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 465.8505261924656,
@@ -353,7 +323,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 377.2898400700902,
@@ -361,8 +331,40 @@
           "descentMeters": 108.89999389648438,
           "changeMeters": -102.60000610351562
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.87854218482973,
+            42.72140076650623,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 133
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.8761603832245,
+            42.72743813071414,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Old mining equipment",
+          "stroke": "#FF3B30",
+          "elevationMeters": 372
+        }
       }
     ]
   },
-  "version": "4ab47a16e24726d46bf9d2d8fe31ab5b"
+  "version": "4c8f9addcd7c145965fcd4ca837f508d"
 }

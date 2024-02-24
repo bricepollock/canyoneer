@@ -20,72 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.69816042861686,
-            -16.22233388946971,
-            2055.5
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#msn_red-circle7",
-          "styleHash": "-50e06fa",
-          "styleMapHash": {
-            "normal": "#sn_red-circle4",
-            "highlight": "#sh_red-circle13"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "elevationMeters": 1662
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.70181896171319,
-            -16.20819026605804,
-            1924.3
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#msn_P0",
-          "styleHash": "-316a5eb",
-          "styleMapHash": {
-            "normal": "#sn_P1",
-            "highlight": "#sh_P0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
-          "elevationMeters": 1373
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.69515285265443,
-            -16.21937616452859,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle",
-          "styleUrl": "#msn_S0",
-          "styleHash": "-4e2a1bc8",
-          "styleMapHash": {
-            "normal": "#sn_S1",
-            "highlight": "#sh_S1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
-          "elevationMeters": 1809
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -4504,7 +4438,7 @@
             "highlight": "#sh_ylw-pushpin16"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2228.9997862338946,
@@ -5094,7 +5028,7 @@
             "highlight": "#sh_ylw-pushpin35"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 475.35970165747466,
@@ -5102,8 +5036,77 @@
           "descentMeters": 64.800048828125,
           "changeMeters": 147.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.69816042861686,
+            -16.22233388946971,
+            2055.5
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#msn_red-circle7",
+          "styleHash": "-50e06fa",
+          "styleMapHash": {
+            "normal": "#sn_red-circle4",
+            "highlight": "#sh_red-circle13"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1662
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.70181896171319,
+            -16.20819026605804,
+            1924.3
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#msn_P0",
+          "styleHash": "-316a5eb",
+          "styleMapHash": {
+            "normal": "#sn_P1",
+            "highlight": "#sh_P0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1373
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.69515285265443,
+            -16.21937616452859,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle",
+          "styleUrl": "#msn_S0",
+          "styleHash": "-4e2a1bc8",
+          "styleMapHash": {
+            "normal": "#sn_S1",
+            "highlight": "#sh_S1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1809
+        }
       }
     ]
   },
-  "version": "1f2ae54de49907297e18acc33caa70e7"
+  "version": "acd525c10be5accd0346de440c107647"
 }

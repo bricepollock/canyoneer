@@ -26,98 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.31403982639314,
-            33.5330555312199,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 819
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.30453139543536,
-            33.545340388074536,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Saddle",
-          "elevationMeters": 817
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.313634,
-            33.547718,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 170’",
-          "description": "Off large boulder high rdc",
-          "elevationMeters": 824
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.313866,
-            33.547639,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 100’",
-          "description": "Off rock pinch\nUnder boulder",
-          "elevationMeters": 802
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.3081604242325,
-            33.54071951939526,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave creek",
-          "elevationMeters": 798
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.31052613258363,
-            33.535926252820964,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave road",
-          "elevationMeters": 647
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1039,7 +947,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3242.8155433553684,
@@ -1182,7 +1090,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 357.785428850252,
@@ -1925,7 +1833,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2028.4913259134717,
@@ -1933,8 +1841,106 @@
           "descentMeters": 423.39996337890625,
           "changeMeters": 4.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.31403982639314,
+            33.5330555312199,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#34C759",
+          "elevationMeters": 819
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.30453139543536,
+            33.545340388074536,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Saddle",
+          "stroke": "#34C759",
+          "elevationMeters": 817
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.313634,
+            33.547718,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 170’",
+          "description": "Off large boulder high rdc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 824
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.313866,
+            33.547639,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 100’",
+          "description": "Off rock pinch\nUnder boulder",
+          "stroke": "#FF3B30",
+          "elevationMeters": 802
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.3081604242325,
+            33.54071951939526,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave creek",
+          "stroke": "#34C759",
+          "elevationMeters": 798
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.31052613258363,
+            33.535926252820964,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave road",
+          "stroke": "#34C759",
+          "elevationMeters": 647
+        }
       }
     ]
   },
-  "version": "a32fd33639c481269e72b27790129019"
+  "version": "d9e43d79ad7373c6073c3853daebddfc"
 }

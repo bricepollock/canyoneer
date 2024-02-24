@@ -25,36 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.91821479797365,
-            47.77248824922739,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rainbow Campground",
-          "elevationMeters": 708
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.93656110763551,
-            47.776338564745224,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Confluence",
-          "elevationMeters": 430
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -326,7 +296,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#FF9500",
           "stroke-opacity": 0.7019607843137254,
           "stroke-width": 5,
           "lengthMeters": 1921.4959048719918,
@@ -379,7 +349,7 @@
         },
         "properties": {
           "name": "Exit Trail",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 254.14230056329924,
@@ -442,7 +412,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 813.3850897572926,
@@ -665,7 +635,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1955.940179762333,
@@ -673,8 +643,40 @@
           "descentMeters": 78.5999755859375,
           "changeMeters": 437.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.91821479797365,
+            47.77248824922739,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rainbow Campground",
+          "stroke": "#FF9500",
+          "elevationMeters": 708
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.93656110763551,
+            47.776338564745224,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Confluence",
+          "stroke": "#FF3B30",
+          "elevationMeters": 430
+        }
       }
     ]
   },
-  "version": "2bee9809eeae8e01e84c3fe2f4f6fd47"
+  "version": "6576b372aaad0dbf423efe06d861f80a"
 }

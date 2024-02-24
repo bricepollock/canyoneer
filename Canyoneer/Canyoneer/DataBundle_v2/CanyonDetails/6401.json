@@ -26,66 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.05031200000002,
-            47.673748,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Murhut Falls",
-          "elevationMeters": 1169
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.03858160972595,
-            47.67676256151368,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Murhut Trailhead",
-          "elevationMeters": 255
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.04288387298585,
-            47.679171662765654,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 459
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.04211139678956,
-            47.68249437851819,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lowest Parking",
-          "elevationMeters": 431
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -182,7 +122,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1244.8877531434825,
@@ -240,7 +180,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 632.5685681102772,
@@ -368,7 +308,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1012.5758449027995,
@@ -491,7 +431,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 607.9543592383878,
@@ -559,7 +499,7 @@
         },
         "properties": {
           "name": "River Exit",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1021.3242912530603,
@@ -567,8 +507,72 @@
           "descentMeters": 680.800048828125,
           "changeMeters": -616.1000366210938
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.05031200000002,
+            47.673748,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Murhut Falls",
+          "stroke": "#34C759",
+          "elevationMeters": 1169
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.03858160972595,
+            47.67676256151368,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Murhut Trailhead",
+          "stroke": "#FF3B30",
+          "elevationMeters": 255
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.04288387298585,
+            47.679171662765654,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 459
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.04211139678956,
+            47.68249437851819,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lowest Parking",
+          "stroke": "#FF9500",
+          "elevationMeters": 431
+        }
       }
     ]
   },
-  "version": "ae316d351ca8f44d043946ecd5f1c4f2"
+  "version": "d0b18ca72ec7dcd4917d1d1bbcfc3984"
 }

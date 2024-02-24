@@ -976,7 +976,7 @@
             "normal": "#dir_route0",
             "highlight": "#dir_route1"
           },
-          "stroke": "#000000",
+          "stroke": "#007AFF",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 3,
           "lengthMeters": 17443.017544078564,
@@ -1101,123 +1101,13 @@
             "normal": "#dir_route10",
             "highlight": "#dir_route8"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 785.0732019278846,
           "ascentMeters": 112.7000732421875,
           "descentMeters": 122.60009765625,
           "changeMeters": -9.9000244140625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.627,
-            37.27086666666667,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle",
-          "styleUrl": "#msn_bus",
-          "styleHash": "4cbf46e4",
-          "styleMapHash": {
-            "normal": "#sn_bus",
-            "highlight": "#sh_bus"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/bus.png",
-          "elevationMeters": 1706
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.5978310545427,
-            37.26563762942915,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#msn_parking_lot",
-          "styleHash": "bdcce78",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 1806
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.5976443646385,
-            37.32256233299237,
-            0
-          ]
-        },
-        "properties": {
-          "name": "BenchRd",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 1868
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.5783702988709,
-            37.31853702377254,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DirtRoad",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 2248
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.6147222222222,
-            37.26666666666667,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Headwall",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 1734
         }
       },
       {
@@ -1485,7 +1375,7 @@
             "normal": "#dir_route7",
             "highlight": "#dir_route5"
           },
-          "stroke": "#00d000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 1778.2006111946544,
@@ -1604,7 +1494,7 @@
             "normal": "#dir_route4",
             "highlight": "#dir_route6"
           },
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 642.7896190591136,
@@ -1612,8 +1502,123 @@
           "descentMeters": 61.4000244140625,
           "changeMeters": -2.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.627,
+            37.27086666666667,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle",
+          "styleUrl": "#msn_bus",
+          "styleHash": "4cbf46e4",
+          "styleMapHash": {
+            "normal": "#sn_bus",
+            "highlight": "#sh_bus"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/bus.png",
+          "stroke": "#007AFF",
+          "elevationMeters": 1706
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.5978310545427,
+            37.26563762942915,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#msn_parking_lot",
+          "styleHash": "bdcce78",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1806
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.5976443646385,
+            37.32256233299237,
+            0
+          ]
+        },
+        "properties": {
+          "name": "BenchRd",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#007AFF",
+          "elevationMeters": 1868
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.5783702988709,
+            37.31853702377254,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DirtRoad",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#007AFF",
+          "elevationMeters": 2248
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.6147222222222,
+            37.26666666666667,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Headwall",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1734
+        }
       }
     ]
   },
-  "version": "95ef92791fc7609bb32a951c40009f32"
+  "version": "0f57a32ca7286decdb677fc4d7701663"
 }

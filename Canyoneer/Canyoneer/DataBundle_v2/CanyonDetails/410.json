@@ -4,7 +4,7 @@
   "longitude": -117.9798,
   "id": 410,
   "name": "Monrovia Canyon",
-  "quality": 3,
+  "quality": 3.7,
   "months": [
     "Mar",
     "Apr",
@@ -27,7 +27,7 @@
   "rappelCountMax": 1,
   "rappelLongestMeters": 24.38,
   "vehicle": "Passenger",
-  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>Entry to this area may be restricted; check for information regarding\npermits before attempting this trip</p>\n<p>Monrovia Canyon Park has been closed by the City of Monrovia due to\nthe Bobcat Fire and would likely affect the legal exit from this\ncanyon.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://brennen.caltech.edu/advents/monrov.htm\">Chris Brennen's\nAdventure Hikes (St Gabriels)</a> : Monrovia Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://ropewiki.com/User:Super_Amazing_Map?id=Monrovia_Canyon_-_California_(San_Gabriels)\">Super\nAmazing Map</a> : Monrovia Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://summitpost.org/monrovia-canyon/926996\">SummitPost.org</a> :\nMonrovia Canyon</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>First known canyoneering descent by Troy Sette, Clancy Rowley and\nChris Brennen on Jul.24, 1999.</p>\n",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<p>Entry to this area may be restricted; check for information regarding\npermits before attempting this trip</p>\n<p>Monrovia Canyon Park has been closed by the City of Monrovia due to\nthe Bobcat Fire and would likely affect the legal exit from this canyon.\nThe Bill Cull and Four Palms Trails provide a way to bypass closed\ngates.</p>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://brennen.caltech.edu/advents/monrov.htm\">Chris Brennen's\nAdventure Hikes (St Gabriels)</a> : Monrovia Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://ropewiki.com/User:Super_Amazing_Map?id=Monrovia_Canyon_-_California_(San_Gabriels)\">Super\nAmazing Map</a> : Monrovia Canyon</li>\n<li><img src=\"rwl_en.png\" title=\"rwl_en.png\" alt=\"rwl_en.png\" /><a\nhref=\"http://summitpost.org/monrovia-canyon/926996\">SummitPost.org</a> :\nMonrovia Canyon</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<h2 id=\"background\">Background</h2>\n<p>First known canyoneering descent by Troy Sette, Clancy Rowley and\nChris Brennen on Jul.24, 1999.</p>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
@@ -51,6 +51,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
           "description": "Hike Walking around the gate (Data by brennen.caltech.edu/advents)",
+          "stroke": "#FF3B30",
           "elevationMeters": 551
         }
       },
@@ -74,6 +75,7 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
           "description": "The drop in point for Monrovia Canyon is on your left at (Data by brennen.caltech.edu/advents)",
+          "stroke": "#FF3B30",
           "elevationMeters": 880
         }
       },
@@ -97,10 +99,11 @@
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
           "description": "9mi from the start at (Data by brennen.caltech.edu/advents)",
+          "stroke": "#FF3B30",
           "elevationMeters": 952
         }
       }
     ]
   },
-  "version": "00a07d5182a87d286c7a7f8e1755bc02"
+  "version": "e4bd76d496b08d0152988276ffb78d6d"
 }

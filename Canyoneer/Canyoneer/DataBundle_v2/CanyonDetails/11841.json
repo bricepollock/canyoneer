@@ -19,102 +19,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            9.466389,
-            39.878056,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Exit",
-          "description": " (Data by IP on 17 mai 2011)",
-          "elevationMeters": 967
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            9.471164,
-            39.8817513,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "description": "(Data by Christian Balla on 2022-08-20)",
-          "elevationMeters": 895
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            9.4674114,
-            39.8789722,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Finish - Baccu Ois",
-          "description": "(Data by Christian Balla on 2022-08-20)",
-          "elevationMeters": 998
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            9.4665142,
-            39.8840622,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "description": "(Data by Christian Balla on 2022-08-20)",
-          "elevationMeters": 901
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            9.4761508,
-            39.9202518,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Waypoint 1 - Baccu Ois",
-          "description": "(Data by Christian Balla on 2022-08-20)",
-          "elevationMeters": 842
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            9.462308,
-            39.8957,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Waypoint 2 - Baccu Ois",
-          "description": "(Data by Christian Balla on 2022-08-20)",
-          "elevationMeters": 861
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -307,7 +211,7 @@
         "properties": {
           "name": "Approach",
           "description": "(Data by Christian Balla on 2022-08-20)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 533.529350138401,
@@ -1021,7 +925,7 @@
         "properties": {
           "name": "Reture",
           "description": "(Data by Christian Balla on 2022-08-20)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1681.2122248334076,
@@ -1029,8 +933,110 @@
           "descentMeters": 236.79998779296875,
           "changeMeters": -96.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.466389,
+            39.878056,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Exit",
+          "description": " (Data by IP on 17 mai 2011)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 967
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.471164,
+            39.8817513,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "description": "(Data by Christian Balla on 2022-08-20)",
+          "stroke": "#34C759",
+          "elevationMeters": 895
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.4674114,
+            39.8789722,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Finish - Baccu Ois",
+          "description": "(Data by Christian Balla on 2022-08-20)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 998
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.4665142,
+            39.8840622,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "description": "(Data by Christian Balla on 2022-08-20)",
+          "stroke": "#34C759",
+          "elevationMeters": 901
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.4761508,
+            39.9202518,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint 1 - Baccu Ois",
+          "description": "(Data by Christian Balla on 2022-08-20)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 842
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.462308,
+            39.8957,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waypoint 2 - Baccu Ois",
+          "description": "(Data by Christian Balla on 2022-08-20)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 861
+        }
       }
     ]
   },
-  "version": "ceb7e7ecd98089f51227166cc54ce8c5"
+  "version": "3cb946767351c60d5309e99639d1f26f"
 }

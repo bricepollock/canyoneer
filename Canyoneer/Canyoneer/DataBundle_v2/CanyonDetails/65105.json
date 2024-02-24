@@ -4,7 +4,7 @@
   "longitude": -111.7107,
   "id": 65105,
   "name": "Hot Loop Canyon",
-  "quality": 2.6,
+  "quality": 2.9,
   "months": [
     "Mar",
     "Apr",
@@ -27,86 +27,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.71108,
-            34.78571,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "85’ off tree high rdc",
-          "elevationMeters": 1189
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.71154,
-            34.7854,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "description": "25’ off rock pinch",
-          "elevationMeters": 1186
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.71346500515939,
-            34.78476428578984,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "description": "40’ off bush rdc",
-          "elevationMeters": 1175
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.71458,
-            34.78465,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "description": "20’ off rock pinch",
-          "elevationMeters": 1169
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.71564,
-            34.78475,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "description": "30’ off tree",
-          "elevationMeters": 1168
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -875,7 +795,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2710.5157632439305,
@@ -1197,7 +1117,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 691.0976962990565,
@@ -1714,7 +1634,7 @@
           ]
         },
         "properties": {
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2004.141387747276,
@@ -1722,8 +1642,93 @@
           "descentMeters": 50.4000244140625,
           "changeMeters": 41.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.71108,
+            34.78571,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "85’ off tree high rdc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1189
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.71154,
+            34.7854,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "description": "25’ off rock pinch",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1186
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.71346500515939,
+            34.78476428578984,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "description": "40’ off bush rdc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1175
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.71458,
+            34.78465,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "description": "20’ off rock pinch",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1169
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.71564,
+            34.78475,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "description": "30’ off tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1168
+        }
       }
     ]
   },
-  "version": "05b888d3ec6bb8572c1b5efeb7bf6fd7"
+  "version": "520f54e8d3470901e53c31c0dadad954"
 }

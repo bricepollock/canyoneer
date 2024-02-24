@@ -29,144 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.721514,
-            39.472095,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "cb07d61",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by RaúlMon at wikiloc.com)",
-          "elevationMeters": 358
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.8022,
-            39.480467,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "175e95c1",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by RaúlMon at wikiloc.com)",
-          "elevationMeters": 649
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.773702,
-            39.485558,
-            0
-          ]
-        },
-        "properties": {
-          "name": "desvio",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-34df2969",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by RaúlMon at wikiloc.com)",
-          "elevationMeters": 349
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.803805,
-            39.48,
-            0
-          ]
-        },
-        "properties": {
-          "name": "desvio",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-34df2969",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by RaúlMon at wikiloc.com)",
-          "elevationMeters": 654
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.805348,
-            39.480957,
-            0
-          ]
-        },
-        "properties": {
-          "name": "cauce del barranco",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-34df2969",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by RaúlMon at wikiloc.com)",
-          "elevationMeters": 676
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.800712,
-            39.480541,
-            0
-          ]
-        },
-        "properties": {
-          "name": "primer rapel",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-34df2969",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by RaúlMon at wikiloc.com)",
-          "elevationMeters": 635
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -764,7 +626,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by RaúlMon at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 14490.77726997269,
@@ -772,8 +634,152 @@
           "descentMeters": 784.1999816894531,
           "changeMeters": 291.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.721514,
+            39.472095,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-7cc80f14",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by RaúlMon at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 358
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.8022,
+            39.480467,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "30d6517b",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by RaúlMon at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 649
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.773702,
+            39.485558,
+            0
+          ]
+        },
+        "properties": {
+          "name": "desvio",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-78b45f00",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by RaúlMon at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 349
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.803805,
+            39.48,
+            0
+          ]
+        },
+        "properties": {
+          "name": "desvio",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-78b45f00",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by RaúlMon at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 654
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.805348,
+            39.480957,
+            0
+          ]
+        },
+        "properties": {
+          "name": "cauce del barranco",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-78b45f00",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by RaúlMon at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 676
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.800712,
+            39.480541,
+            0
+          ]
+        },
+        "properties": {
+          "name": "primer rapel",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-78b45f00",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by RaúlMon at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 635
+        }
       }
     ]
   },
-  "version": "7edee32ec770556d67fe91d742259c22"
+  "version": "0d833eb84c5f7169ea4983d7a8689ccf"
 }

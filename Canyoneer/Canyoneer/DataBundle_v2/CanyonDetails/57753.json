@@ -21,94 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.693607,
-            -16.225372,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#sh_red-circle10",
-          "styleHash": "275f0c32",
-          "styleMapHash": {
-            "normal": "#sh_red-circle3",
-            "highlight": "#sh_red-circle40"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "elevationMeters": 1863
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.68863295924143,
-            -16.2259450531856,
-            1899.3
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#msn_P3",
-          "styleHash": "32bf54f4",
-          "styleMapHash": {
-            "normal": "#sn_P2",
-            "highlight": "#sh_P1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
-          "elevationMeters": 1808
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.68614,
-            -16.223828,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Alt parking",
-          "styleUrl": "#sh_green-circle",
-          "styleHash": "9207ff0",
-          "styleMapHash": {
-            "normal": "#sh_green-circle1",
-            "highlight": "#sh_green-circle3"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
-          "elevationMeters": 1883
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -67.6911308926949,
-            -16.22172348785346,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle",
-          "styleUrl": "#msn_S1",
-          "styleHash": "7bffe959",
-          "styleMapHash": {
-            "normal": "#sn_S0",
-            "highlight": "#sh_S0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
-          "elevationMeters": 1677
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2087,7 +1999,7 @@
             "highlight": "#sh_ylw-pushpin18"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#55ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 629.115998977124,
@@ -2777,7 +2689,7 @@
             "highlight": "#sh_ylw-pushpin5"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 439.09113880327124,
@@ -5447,7 +5359,7 @@
             "highlight": "#sh_ylw-pushpin2"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1544.881211200644,
@@ -6102,7 +6014,7 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 222.0963983314766,
@@ -6110,8 +6022,100 @@
           "descentMeters": 56.699951171875,
           "changeMeters": -36.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.693607,
+            -16.225372,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#sh_red-circle10",
+          "styleHash": "275f0c32",
+          "styleMapHash": {
+            "normal": "#sh_red-circle3",
+            "highlight": "#sh_red-circle40"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1863
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.68863295924143,
+            -16.2259450531856,
+            1899.3
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#msn_P3",
+          "styleHash": "32bf54f4",
+          "styleMapHash": {
+            "normal": "#sn_P2",
+            "highlight": "#sh_P1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/P.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1808
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.68614,
+            -16.223828,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Alt parking",
+          "styleUrl": "#sh_green-circle",
+          "styleHash": "9207ff0",
+          "styleMapHash": {
+            "normal": "#sh_green-circle1",
+            "highlight": "#sh_green-circle3"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1883
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -67.6911308926949,
+            -16.22172348785346,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle",
+          "styleUrl": "#msn_S1",
+          "styleHash": "7bffe959",
+          "styleMapHash": {
+            "normal": "#sn_S0",
+            "highlight": "#sh_S0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/S.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1677
+        }
       }
     ]
   },
-  "version": "9521af17adc2eadaf4990fe8b717e57d"
+  "version": "e0513ca86fe9acc1b942165a5d01d329"
 }

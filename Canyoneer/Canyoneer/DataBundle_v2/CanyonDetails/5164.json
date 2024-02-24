@@ -26,36 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.62490000000003,
-            38.1253,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Red Creek Parking",
-          "elevationMeters": 3074
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.57462723485011,
-            38.10994754314756,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Red Creek Upper Falls",
-          "elevationMeters": 3446
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -227,7 +197,7 @@
         },
         "properties": {
           "name": "Courthouse Mountain Trail",
-          "stroke": "#009AFF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4892.067261907112,
@@ -1675,7 +1645,7 @@
         },
         "properties": {
           "name": "Drive 4WD HC",
-          "stroke": "#000000",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 20172.84215739531,
@@ -2123,7 +2093,7 @@
         },
         "properties": {
           "name": "Red Creek",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5513.929594923269,
@@ -2171,7 +2141,7 @@
         },
         "properties": {
           "name": "Red Creek to alcove Waterfall",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 254.52841600593635,
@@ -2559,7 +2529,7 @@
         },
         "properties": {
           "name": "Stealey Mountain Trail",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6699.194945787667,
@@ -2567,8 +2537,40 @@
           "descentMeters": 948.900146484375,
           "changeMeters": 1.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.62490000000003,
+            38.1253,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Red Creek Parking",
+          "stroke": "#FF9500",
+          "elevationMeters": 3074
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.57462723485011,
+            38.10994754314756,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Red Creek Upper Falls",
+          "stroke": "#5856D6",
+          "elevationMeters": 3446
+        }
       }
     ]
   },
-  "version": "c0f8871c951fa0c8acef356f5f256337"
+  "version": "9d158ce604931ad6e3a4f0292c0034de"
 }

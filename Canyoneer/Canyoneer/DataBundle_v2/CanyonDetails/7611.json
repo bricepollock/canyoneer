@@ -34,50 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.4781,
-            38.5663,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Slickrock Exit Ramp",
-          "styleUrl": "#icon-1019-nodesc",
-          "styleHash": "-4803bd82",
-          "styleMapHash": {
-            "normal": "#icon-1019-nodesc-normal",
-            "highlight": "#icon-1019-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1019-biz-finance.png",
-          "elevationMeters": 1548
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.5168,
-            38.5619,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Vehicle Parking",
-          "styleUrl": "#icon-1207-nodesc",
-          "styleHash": "69dbb8f1",
-          "styleMapHash": {
-            "normal": "#icon-1207-nodesc-normal",
-            "highlight": "#icon-1207-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
-          "elevationMeters": 1295
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -525,35 +481,13 @@
             "normal": "#line-FFD600-5000-nodesc-normal",
             "highlight": "#line-FFD600-5000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3075.889880333475,
           "ascentMeters": 253.699951171875,
           "descentMeters": 579.9000244140625,
           "changeMeters": -326.2000732421875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.4994471,
-            38.5801034,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start Trailhead Parking",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 1684
         }
       },
       {
@@ -1216,7 +1150,7 @@
             "normal": "#line-FFD600-3906-nodesc-normal",
             "highlight": "#line-FFD600-3906-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3.906,
           "lengthMeters": 3124.8869783053783,
@@ -1545,7 +1479,7 @@
             "normal": "#line-097138-5000-nodesc-normal",
             "highlight": "#line-097138-5000-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 810.2338451361596,
@@ -1714,13 +1648,82 @@
             "normal": "#line-A52714-5263-nodesc-normal",
             "highlight": "#line-A52714-5263-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 910.8564481624873,
           "ascentMeters": 126.10009765625,
           "descentMeters": 56.10009765625,
           "changeMeters": 70
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.4781,
+            38.5663,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Slickrock Exit Ramp",
+          "styleUrl": "#icon-1019-nodesc",
+          "styleHash": "-4803bd82",
+          "styleMapHash": {
+            "normal": "#icon-1019-nodesc-normal",
+            "highlight": "#icon-1019-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1019-biz-finance.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1548
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.5168,
+            38.5619,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Vehicle Parking",
+          "styleUrl": "#icon-1207-nodesc",
+          "styleHash": "69dbb8f1",
+          "styleMapHash": {
+            "normal": "#icon-1207-nodesc-normal",
+            "highlight": "#icon-1207-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1295
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.4994471,
+            38.5801034,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start Trailhead Parking",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1684
         }
       },
       {
@@ -1742,6 +1745,7 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1614
         }
       },
@@ -1764,6 +1768,7 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1606
         }
       },
@@ -1786,10 +1791,11 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1607
         }
       }
     ]
   },
-  "version": "3616a51dcbe3194440a07dd45583d345"
+  "version": "cedc2982f5153ff064d4830e65d45c3e"
 }

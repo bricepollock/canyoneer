@@ -24,67 +24,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.687347204,
-            48.643353333,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "description": "Parking",
-          "elevationMeters": 548
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.69440585044207,
-            48.604711426885714,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Road turns to trail",
-          "elevationMeters": 413
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.69851938997945,
-            48.60484093867027,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Stash bikes around here",
-          "elevationMeters": 373
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.68733722415483,
-            48.64324185430756,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gate",
-          "elevationMeters": 531
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -481,7 +420,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 5539.965384627622,
@@ -629,7 +568,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1097.6989827211064,
@@ -737,7 +676,7 @@
         },
         "properties": {
           "name": "Exit Option 2",
-          "stroke": "#F0E000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.7019607843137254,
           "stroke-width": 4,
           "lengthMeters": 671.9538479003597,
@@ -890,7 +829,7 @@
         },
         "properties": {
           "name": "Exit Option 3",
-          "stroke": "#F0C000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.7019607843137254,
           "stroke-width": 4,
           "lengthMeters": 1264.1033934740603,
@@ -1043,7 +982,7 @@
         },
         "properties": {
           "name": "Exit Option 1",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1258.0446872036553,
@@ -1051,8 +990,73 @@
           "descentMeters": 156.89999389648438,
           "changeMeters": -57.79998779296875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.687347204,
+            48.643353333,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "description": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 548
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.69440585044207,
+            48.604711426885714,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Road turns to trail",
+          "stroke": "#34C759",
+          "elevationMeters": 413
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.69851938997945,
+            48.60484093867027,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Stash bikes around here",
+          "stroke": "#FFCC00",
+          "elevationMeters": 373
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.68733722415483,
+            48.64324185430756,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gate",
+          "stroke": "#34C759",
+          "elevationMeters": 531
+        }
       }
     ]
   },
-  "version": "c2f135ecef067822e74239982549be14"
+  "version": "a84404319ad9d2572262495f89a7f409"
 }

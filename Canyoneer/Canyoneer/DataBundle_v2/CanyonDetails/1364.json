@@ -632,7 +632,7 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00d000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 2471.3722755898666,
@@ -712,35 +712,13 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 258.2517039577395,
           "ascentMeters": 36.300018310546875,
           "descentMeters": 5.800018310546875,
           "changeMeters": 30.5
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.1456627825989,
-            34.22057436626916,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Big drop",
-          "styleUrl": "#m_ylw-pushpin22",
-          "styleHash": "-780ef402",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin0",
-            "highlight": "#s_ylw-pushpin_hl1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 413
         }
       },
       {
@@ -829,13 +807,36 @@
             "highlight": "#sh_ylw-pushpin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 573.6271262931426,
           "ascentMeters": 86,
           "descentMeters": 13,
           "changeMeters": 73
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.1456627825989,
+            34.22057436626916,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Big drop",
+          "styleUrl": "#m_ylw-pushpin22",
+          "styleHash": "-780ef402",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin0",
+            "highlight": "#s_ylw-pushpin_hl1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 413
         }
       },
       {
@@ -857,10 +858,11 @@
             "highlight": "#sh_parking_lot"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 501
         }
       }
     ]
   },
-  "version": "b570b681562bbcbe53ec8a7caf96ef01"
+  "version": "06d1ce04db1c216b81f566c22bd27d00"
 }

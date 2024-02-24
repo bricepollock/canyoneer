@@ -23,171 +23,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.39613590129731,
-            49.556653841153604,
-            0
-          ]
-        },
-        "properties": {
-          "name": "McNab Creek dock",
-          "elevationMeters": 709
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.40335445415107,
-            49.578337951707894,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Descent end",
-          "elevationMeters": 763
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.39488864689802,
-            49.57766742216391,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Waterflow checkpoint",
-          "elevationMeters": 1166
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.41609215389644,
-            49.58096496719224,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Descent start",
-          "elevationMeters": 888
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.4275799591854,
-            49.584695802365665,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Box Canyon Creek main intake",
-          "elevationMeters": 1242
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.39570994529824,
-            49.55992164829538,
-            0
-          ]
-        },
-        "properties": {
-          "name": "abandoned structure",
-          "elevationMeters": 484
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.39395506489178,
-            49.584978688682384,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Box Canyon Hydroelectric Project powerhouse and substation",
-          "elevationMeters": 1284
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.42490273056748,
-            49.5830323018641,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Box Canyon Creek tributary intake 1",
-          "elevationMeters": 1073
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.42335601492553,
-            49.58127415431223,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Box Canyon Creek tributary intake 2",
-          "elevationMeters": 918
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.39701120746899,
-            49.58640241131833,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Road junction",
-          "elevationMeters": 1270
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.41370565926145,
-            49.58318600297168,
-            0
-          ]
-        },
-        "properties": {
-          "name": "small structure",
-          "elevationMeters": 1079
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -969,7 +804,7 @@
         },
         "properties": {
           "name": "Approach (road walk)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 7606.41185058762,
@@ -1097,7 +932,7 @@
         },
         "properties": {
           "name": "Exit (stream walk)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 669.5262194766799,
@@ -1375,7 +1210,7 @@
         },
         "properties": {
           "name": "Exit (road walk)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2363.800101423055,
@@ -1638,7 +1473,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1092.6290703063983,
@@ -1746,7 +1581,7 @@
         },
         "properties": {
           "name": "Approach (bushwhack)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 218.60145115821328,
@@ -1904,7 +1739,7 @@
         },
         "properties": {
           "name": "Approach (alternate bushwhack)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 1,
           "lengthMeters": 669.8389924109491,
@@ -1912,8 +1747,184 @@
           "descentMeters": 207.20001220703125,
           "changeMeters": -131.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.39613590129731,
+            49.556653841153604,
+            0
+          ]
+        },
+        "properties": {
+          "name": "McNab Creek dock",
+          "stroke": "#34C759",
+          "elevationMeters": 709
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.40335445415107,
+            49.578337951707894,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Descent end",
+          "stroke": "#FFCC00",
+          "elevationMeters": 763
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.39488864689802,
+            49.57766742216391,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Waterflow checkpoint",
+          "stroke": "#34C759",
+          "elevationMeters": 1166
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.41609215389644,
+            49.58096496719224,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Descent start",
+          "stroke": "#FF3B30",
+          "elevationMeters": 888
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.4275799591854,
+            49.584695802365665,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Box Canyon Creek main intake",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1242
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.39570994529824,
+            49.55992164829538,
+            0
+          ]
+        },
+        "properties": {
+          "name": "abandoned structure",
+          "stroke": "#FF3B30",
+          "elevationMeters": 484
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.39395506489178,
+            49.584978688682384,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Box Canyon Hydroelectric Project powerhouse and substation",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1284
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.42490273056748,
+            49.5830323018641,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Box Canyon Creek tributary intake 1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1073
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.42335601492553,
+            49.58127415431223,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Box Canyon Creek tributary intake 2",
+          "stroke": "#FF3B30",
+          "elevationMeters": 918
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.39701120746899,
+            49.58640241131833,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Road junction",
+          "stroke": "#34C759",
+          "elevationMeters": 1270
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.41370565926145,
+            49.58318600297168,
+            0
+          ]
+        },
+        "properties": {
+          "name": "small structure",
+          "stroke": "#34C759",
+          "elevationMeters": 1079
+        }
       }
     ]
   },
-  "version": "1f4685e3cd2816e2acddcc4e03be097b"
+  "version": "e58ae54078d712003e9145a8baccf817"
 }

@@ -20,66 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.67201252001928,
-            38.01633137858595,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Via Ferrata Parking",
-          "elevationMeters": 2696
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.66901229042888,
-            38.01335682988836,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ladder",
-          "elevationMeters": 2872
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.67231828101428,
-            38.015154771798336,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Skybridge",
-          "elevationMeters": 2731
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.6694063036387,
-            38.0136257463365,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Via Ferrata Start",
-          "elevationMeters": 2852
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -391,7 +331,7 @@
         },
         "properties": {
           "name": "approach to Via Ferrata Start",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 889.1253460037649,
@@ -534,7 +474,7 @@
         },
         "properties": {
           "name": "return Via Ferrata (downstream)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 173.9150325290224,
@@ -657,7 +597,7 @@
         },
         "properties": {
           "name": "return Via Ferrata (upstream)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 270.18514537984936,
@@ -980,7 +920,7 @@
         },
         "properties": {
           "name": "Via Ferrata (downstream)",
-          "stroke": "#009AFF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 526.9399871665826,
@@ -1223,7 +1163,7 @@
         },
         "properties": {
           "name": "Via Ferrata (upstream)",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 262.7831844172812,
@@ -1231,8 +1171,72 @@
           "descentMeters": 0,
           "changeMeters": 66.599853515625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.67201252001928,
+            38.01633137858595,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Via Ferrata Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2696
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.66901229042888,
+            38.01335682988836,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ladder",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2872
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.67231828101428,
+            38.015154771798336,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Skybridge",
+          "stroke": "#007AFF",
+          "elevationMeters": 2731
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.6694063036387,
+            38.0136257463365,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Via Ferrata Start",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2852
+        }
       }
     ]
   },
-  "version": "dfbbd1d77cea814f0f15e78456b37926"
+  "version": "c3965f8675f14835980a27a682b65a6b"
 }

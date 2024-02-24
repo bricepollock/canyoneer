@@ -29,28 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.5215205,
-            38.154472,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Adobe Swale Trailhead",
-          "styleUrl": "#icon-1644-097138-nodesc",
-          "styleHash": "4a201df4",
-          "styleMapHash": {
-            "normal": "#icon-1644-097138-nodesc-normal",
-            "highlight": "#icon-1644-097138-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1608
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -433,7 +411,7 @@
             "normal": "#line-097138-5844-nodesc-normal",
             "highlight": "#line-097138-5844-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 1615.8018761115818,
@@ -987,7 +965,7 @@
             "normal": "#line-A52714-5456-nodesc-normal",
             "highlight": "#line-A52714-5456-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 1159.3504863505475,
@@ -1891,13 +1869,36 @@
             "normal": "#line-FFD600-5456-nodesc-normal",
             "highlight": "#line-FFD600-5456-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5.456,
           "lengthMeters": 3931.580194793457,
           "ascentMeters": 212,
           "descentMeters": 179.9000244140625,
           "changeMeters": 32.0999755859375
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.5215205,
+            38.154472,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Adobe Swale Trailhead",
+          "styleUrl": "#icon-1644-097138-nodesc",
+          "styleHash": "4a201df4",
+          "styleMapHash": {
+            "normal": "#icon-1644-097138-nodesc-normal",
+            "highlight": "#icon-1644-097138-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1608
         }
       },
       {
@@ -1919,10 +1920,11 @@
             "highlight": "#icon-1644-FFD600-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FFCC00",
           "elevationMeters": 1663
         }
       }
     ]
   },
-  "version": "d701b01da503a93366a02d75418aad9d"
+  "version": "25e82b69e913357274b5db1c1512dca9"
 }

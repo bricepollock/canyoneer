@@ -21,81 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.2176594111637,
-            25.07938850972514,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gringo's house",
-          "elevationMeters": 2649
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.2162682649332,
-            25.08054990819322,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Driver's house",
-          "elevationMeters": 2680
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.2342735148685,
-            25.0793993602934,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Turn off",
-          "elevationMeters": 2780
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.2304133961331,
-            25.07233075870031,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "elevationMeters": 2461
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.227224912002,
-            25.07137942538797,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "elevationMeters": 2467
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2887,7 +2812,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1613.9067626355475,
@@ -14220,7 +14145,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#55ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3836.750490493472,
@@ -14943,7 +14868,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 343.8263324277222,
@@ -15301,7 +15226,7 @@
         },
         "properties": {
           "name": "Walking exit",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1033.180165251174,
@@ -15309,8 +15234,88 @@
           "descentMeters": 69.500244140625,
           "changeMeters": 223.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.2176594111637,
+            25.07938850972514,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gringo's house",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2649
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.2162682649332,
+            25.08054990819322,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Driver's house",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2680
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.2342735148685,
+            25.0793993602934,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Turn off",
+          "stroke": "#34C759",
+          "elevationMeters": 2780
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.2304133961331,
+            25.07233075870031,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "stroke": "#34C759",
+          "elevationMeters": 2461
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.227224912002,
+            25.07137942538797,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2467
+        }
       }
     ]
   },
-  "version": "cdd01f612d058faedbfc310769e14b46"
+  "version": "a0a0e45fe8be4fa4a3cd5f418b10fcf2"
 }

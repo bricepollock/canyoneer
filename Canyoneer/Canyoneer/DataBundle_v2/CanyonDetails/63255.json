@@ -4,7 +4,7 @@
   "longitude": -122.0525,
   "id": 63255,
   "name": "Rock Creek (Indie, South Cascades)",
-  "quality": 2,
+  "quality": 1,
   "months": [
     "Jul",
     "Aug",
@@ -22,36 +22,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.02862262725831,
-            45.765756679803424,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Parking",
-          "elevationMeters": 762
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.04145431518556,
-            45.773539877110856,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "elevationMeters": 699
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -381,7 +351,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1642.3399736897095,
@@ -774,7 +744,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2153.8162830149686,
@@ -857,7 +827,7 @@
         },
         "properties": {
           "name": "Indie-Rock",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 928.1207915025936,
@@ -959,7 +929,7 @@
             [
               -122.03990936279298,
               45.76680448116361,
-              683.5999755859375
+              672.2999877929688
             ],
             [
               -122.03879356384279,
@@ -1185,16 +1155,48 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2785.4284663596463,
-          "ascentMeters": 399.80010986328125,
-          "descentMeters": 278.0001220703125,
+          "ascentMeters": 402.60009765625,
+          "descentMeters": 280.80010986328125,
           "changeMeters": 121.79998779296875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.02862262725831,
+            45.765756679803424,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 762
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.04145431518556,
+            45.773539877110856,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 699
         }
       }
     ]
   },
-  "version": "3f8c1d001333f1f7af051eb1c4935212"
+  "version": "007ce957016dc7c836467f95253424ff"
 }

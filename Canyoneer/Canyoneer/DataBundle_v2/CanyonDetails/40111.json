@@ -28,51 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7417234182358,
-            34.99032979287881,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Park",
-          "elevationMeters": 1627
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.74128085374834,
-            35.025197244337285,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park (Ridge Approach)",
-          "elevationMeters": 2075
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.7567276954651,
-            35.01382098549108,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 2030
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -4564,7 +4519,7 @@
         },
         "properties": {
           "name": "Shuttle Road",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 23985.84704252789,
@@ -4682,7 +4637,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 612.9509948694063,
@@ -4845,7 +4800,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 496.304286463745,
@@ -5813,7 +5768,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4055.8551648709004,
@@ -6566,7 +6521,7 @@
         },
         "properties": {
           "name": "Approach (Ridge)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2190.265542440579,
@@ -6574,8 +6529,56 @@
           "descentMeters": 231.500244140625,
           "changeMeters": -84.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7417234182358,
+            34.99032979287881,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Park",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1627
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.74128085374834,
+            35.025197244337285,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park (Ridge Approach)",
+          "stroke": "#34C759",
+          "elevationMeters": 2075
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.7567276954651,
+            35.01382098549108,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 2030
+        }
       }
     ]
   },
-  "version": "7ebbbd6fc9d1b2a04ea3322142f3d051"
+  "version": "85ebb0e32827ea86f19cd3c577a1386e"
 }

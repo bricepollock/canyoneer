@@ -32,50 +32,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.4833514,
-            38.7753708,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Zero G Trailhead",
-          "styleUrl": "#icon-1644-0288D1-nodesc",
-          "styleHash": "-2ff614cc",
-          "styleMapHash": {
-            "normal": "#icon-1644-0288D1-nodesc-normal",
-            "highlight": "#icon-1644-0288D1-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1389
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.5048343,
-            38.7704455,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Zero G Start",
-          "styleUrl": "#icon-1899-0288D1-nodesc",
-          "styleHash": "8e57c38",
-          "styleMapHash": {
-            "normal": "#icon-1899-0288D1-nodesc-normal",
-            "highlight": "#icon-1899-0288D1-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1438
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -563,7 +519,7 @@
             "normal": "#line-0F9D58-5844-nodesc-normal",
             "highlight": "#line-0F9D58-5844-nodesc-highlight"
           },
-          "stroke": "#0f9d58",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 2205.600211147276,
@@ -957,7 +913,7 @@
             "normal": "#line-A52714-5263-nodesc-normal",
             "highlight": "#line-A52714-5263-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.263,
           "lengthMeters": 1114.8253550460652,
@@ -1216,13 +1172,59 @@
             "normal": "#line-FFD600-3906-nodesc-normal",
             "highlight": "#line-FFD600-3906-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3.906,
           "lengthMeters": 1148.994377220367,
           "ascentMeters": 56.800048828125,
           "descentMeters": 113.300048828125,
           "changeMeters": -56.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.4833514,
+            38.7753708,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Zero G Trailhead",
+          "styleUrl": "#icon-1644-0288D1-nodesc",
+          "styleHash": "-2ff614cc",
+          "styleMapHash": {
+            "normal": "#icon-1644-0288D1-nodesc-normal",
+            "highlight": "#icon-1644-0288D1-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1389
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.5048343,
+            38.7704455,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Zero G Start",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "styleHash": "8e57c38",
+          "styleMapHash": {
+            "normal": "#icon-1899-0288D1-nodesc-normal",
+            "highlight": "#icon-1899-0288D1-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1438
         }
       },
       {
@@ -1244,6 +1246,7 @@
             "highlight": "#icon-1772-A52714-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1453
         }
       },
@@ -1266,10 +1269,11 @@
             "highlight": "#icon-1899-0288D1-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1446
         }
       }
     ]
   },
-  "version": "fd3d3ab4a1a222b8ad5fad20428d4b5b"
+  "version": "a3609a04d9b506239463f506b7dd162f"
 }

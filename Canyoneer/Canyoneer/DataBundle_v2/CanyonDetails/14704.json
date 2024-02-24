@@ -25,28 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.028024,
-            42.781716,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking (II)",
-          "styleUrl": "#icon-93-nodesc",
-          "styleHash": "711bfc1",
-          "styleMapHash": {
-            "normal": "#icon-93-nodesc-normal",
-            "highlight": "#icon-93-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "elevationMeters": 1638
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -154,13 +132,36 @@
         "properties": {
           "name": "Descent",
           "description": "Solo hicimos un tramo del principio, el barranco integral llega hasta el pueblo de Gèdre.",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 1,
           "lengthMeters": 1597.2257879202843,
           "ascentMeters": 438.800048828125,
           "descentMeters": 233.5,
           "changeMeters": 205.300048828125
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.028024,
+            42.781716,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking (II)",
+          "styleUrl": "#icon-93-nodesc",
+          "styleHash": "711bfc1",
+          "styleMapHash": {
+            "normal": "#icon-93-nodesc-normal",
+            "highlight": "#icon-93-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1638
         }
       },
       {
@@ -182,10 +183,11 @@
             "highlight": "#icon-93-nodesc-highlight"
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1708
         }
       }
     ]
   },
-  "version": "07b93f8b55ebbefa48931a8b8025ca05"
+  "version": "cfd3ff4a511ab7b1c1aa4d74b06a76e9"
 }

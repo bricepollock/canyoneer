@@ -24,111 +24,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.66390352183075,
-            48.23159351485215,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bushwhack Start",
-          "elevationMeters": 193
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.66686468058319,
-            48.228077214556535,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-In",
-          "elevationMeters": 176
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.65553063736675,
-            48.24471545414651,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Berm",
-          "elevationMeters": 462
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.65391399637352,
-            48.243772329126855,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Hide Bikes Here",
-          "elevationMeters": 526
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.65394147442191,
-            48.24098454414586,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Creekbed",
-          "elevationMeters": 344
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.6621280921402,
-            48.254455582588214,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Road Split - Stay Left",
-          "elevationMeters": 462
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.67024298765799,
-            48.269307888188095,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 433
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -710,7 +605,7 @@
         },
         "properties": {
           "name": "Main Approach/Exit",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 5152.96959831922,
@@ -833,7 +728,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 456.49234011008775,
@@ -1026,7 +921,7 @@
         },
         "properties": {
           "name": "Bushwhack Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 627.7912894584881,
@@ -1034,8 +929,120 @@
           "descentMeters": 21.899978637695312,
           "changeMeters": -17.199996948242188
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.66390352183075,
+            48.23159351485215,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bushwhack Start",
+          "stroke": "#FF3B30",
+          "elevationMeters": 193
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.66686468058319,
+            48.228077214556535,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-In",
+          "stroke": "#FF3B30",
+          "elevationMeters": 176
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.65553063736675,
+            48.24471545414651,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Berm",
+          "stroke": "#34C759",
+          "elevationMeters": 462
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.65391399637352,
+            48.243772329126855,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Hide Bikes Here",
+          "stroke": "#34C759",
+          "elevationMeters": 526
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.65394147442191,
+            48.24098454414586,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Creekbed",
+          "stroke": "#34C759",
+          "elevationMeters": 344
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.6621280921402,
+            48.254455582588214,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Road Split - Stay Left",
+          "stroke": "#34C759",
+          "elevationMeters": 462
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.67024298765799,
+            48.269307888188095,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 433
+        }
       }
     ]
   },
-  "version": "3a623a31369cc6438f5b1b8f19ccca9b"
+  "version": "c8873b899023600f709b907eeeeef916"
 }

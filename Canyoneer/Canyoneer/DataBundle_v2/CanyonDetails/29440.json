@@ -5,56 +5,10 @@
   "id": 29440,
   "name": "Gota",
   "permit": "No",
-  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=6243401\">Wikiloc.com</a> :\nTenerife. Barranco de la Gota</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=7376282\">Wikiloc.com</a> :\nBarranco de la Gota. Tenerife.</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
+  "description": "<h2 id=\"introduction\">Introduction</h2>\n<h2 id=\"approach\">Approach</h2>\n<h2 id=\"descent\">Descent</h2>\n<h2 id=\"exit\">Exit</h2>\n<h2 id=\"red_tape\">Red tape</h2>\n<h2 id=\"beta_sites\">Beta sites</h2>\n<ul>\n<li><img src=\"rwl_es.png\" title=\"rwl_es.png\" alt=\"rwl_es.png\" /><a\nhref=\"https://www.docuwiki.infobarrancos.es/doku.php?id=barrancos:canarias:gota\">Wiki-Infobarrancos</a>\n: Barranco de la Gota (http://infobarrancos.es/)</li>\n</ul>\n<h2 id=\"trip_reports_and_media\">Trip reports and media</h2>\n<ul>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=6243401\">Wikiloc.com</a> :\nTenerife. Barranco de la Gota</li>\n<li><img src=\"rwl_auto.png\" title=\"rwl_auto.png\" alt=\"rwl_auto.png\" /><a\nhref=\"http://wikiloc.com/wikiloc/view.do?id=7376282\">Wikiloc.com</a> :\nBarranco de la Gota. Tenerife.</li>\n</ul>\n<h2 id=\"background\">Background</h2>\n",
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.448076,
-            28.380166,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "50ff4041",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Davidz1000 at wikiloc.com)",
-          "elevationMeters": 2008
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -16.427572,
-            28.372712,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-328cf2de",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Davidz1000 at wikiloc.com)",
-          "elevationMeters": 1095
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -575,7 +529,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Davidz1000 at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 4106.076799634346,
@@ -583,8 +537,56 @@
           "descentMeters": 1348.1011962890625,
           "changeMeters": -913.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.448076,
+            28.380166,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "73eb5726",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Davidz1000 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2008
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -16.427572,
+            28.372712,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "28d99084",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Davidz1000 at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1095
+        }
       }
     ]
   },
-  "version": "c13fa6a6588b01eda6aa554818cecd2b"
+  "version": "4f538b383987e6f73de96d1009454141"
 }

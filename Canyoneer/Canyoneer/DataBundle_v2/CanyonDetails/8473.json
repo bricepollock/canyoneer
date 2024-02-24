@@ -34,94 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -104.0662543915447,
-            20.27997084552825,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#msn_placemark_circle",
-          "styleHash": "-2ecbf92b",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle",
-            "highlight": "#sh_placemark_circle_highlight"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 1984
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -104.0660950658606,
-            20.27643120820423,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#msn_placemark_circle0",
-          "styleHash": "6eb3216e",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle0",
-            "highlight": "#sh_placemark_circle_highlight0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 2124
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -104.0656474753035,
-            20.2753717135535,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "styleUrl": "#msn_placemark_circle0",
-          "styleHash": "6eb3216e",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle0",
-            "highlight": "#sh_placemark_circle_highlight0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 2081
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -104.0649191349958,
-            20.27461739510603,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "styleUrl": "#msn_placemark_circle0",
-          "styleHash": "6eb3216e",
-          "styleMapHash": {
-            "normal": "#sn_placemark_circle0",
-            "highlight": "#sh_placemark_circle_highlight0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-          "elevationMeters": 2050
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -185,7 +97,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 449.8734908176003,
@@ -240,7 +152,7 @@
             "highlight": "#sh_ylw-pushpin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 290.9205396803309,
@@ -405,7 +317,7 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1074.3046307311752,
@@ -413,8 +325,100 @@
           "descentMeters": 452.0999755859375,
           "changeMeters": -19.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.0662543915447,
+            20.27997084552825,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#msn_placemark_circle",
+          "styleHash": "-2ecbf92b",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle",
+            "highlight": "#sh_placemark_circle_highlight"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1984
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.0660950658606,
+            20.27643120820423,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#msn_placemark_circle0",
+          "styleHash": "6eb3216e",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle0",
+            "highlight": "#sh_placemark_circle_highlight0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2124
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.0656474753035,
+            20.2753717135535,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "styleUrl": "#msn_placemark_circle0",
+          "styleHash": "6eb3216e",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle0",
+            "highlight": "#sh_placemark_circle_highlight0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2081
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.0649191349958,
+            20.27461739510603,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "styleUrl": "#msn_placemark_circle0",
+          "styleHash": "6eb3216e",
+          "styleMapHash": {
+            "normal": "#sn_placemark_circle0",
+            "highlight": "#sh_placemark_circle_highlight0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2050
+        }
       }
     ]
   },
-  "version": "5214a49841361b1dfc7eb34fced05568"
+  "version": "9b9676913ef2ddc989236c383f6c518f"
 }

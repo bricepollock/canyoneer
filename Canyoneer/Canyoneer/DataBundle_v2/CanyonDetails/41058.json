@@ -20,50 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            22.49266174916687,
-            37.62723125217867,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking approach",
-          "styleUrl": "#m_ylw-pushpin0",
-          "styleHash": "f1ac54d",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin0",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 637
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            22.4937479184898,
-            37.64582188775976,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking exit",
-          "styleUrl": "#m_ylw-pushpin0",
-          "styleHash": "f1ac54d",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin0",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 640
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -107,7 +63,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00aa00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 591.6327411486399,
@@ -167,7 +123,7 @@
             "highlight": "#sh_ylw-pushpin3"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffa537",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2.5,
           "lengthMeters": 761.9427039709537,
@@ -227,7 +183,7 @@
             "highlight": "#sh_ylw-pushpin3"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffa537",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2.5,
           "lengthMeters": 1012.6809070641818,
@@ -337,7 +293,7 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffa537",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "lengthMeters": 2907.071841756062,
           "ascentMeters": 271.5000305175781,
@@ -481,7 +437,7 @@
             "highlight": "#sh_ylw-pushpin2"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1875.5369026778255,
@@ -586,7 +542,7 @@
             "highlight": "#sh_ylw-pushpin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2860.4111741914376,
@@ -9590,7 +9546,7 @@
             "normal": "#dir_route2",
             "highlight": "#dir_route3"
           },
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 2,
           "lengthMeters": 22832.979334924785,
@@ -23610,7 +23566,7 @@
             "normal": "#dir_route4",
             "highlight": "#dir_route0"
           },
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 2,
           "lengthMeters": 29622.399267807006,
@@ -23706,7 +23662,7 @@
             "highlight": "#s_ylw-pushpin_hl0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#55007f",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 394.03896237069836,
@@ -23714,8 +23670,54 @@
           "descentMeters": 0.10003662109375,
           "changeMeters": 0.79998779296875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.49266174916687,
+            37.62723125217867,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking approach",
+          "styleUrl": "#m_ylw-pushpin0",
+          "styleHash": "f1ac54d",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin0",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#5856D6",
+          "elevationMeters": 637
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.4937479184898,
+            37.64582188775976,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking exit",
+          "styleUrl": "#m_ylw-pushpin0",
+          "styleHash": "f1ac54d",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin0",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#5856D6",
+          "elevationMeters": 640
+        }
       }
     ]
   },
-  "version": "eb65183f06b990975db2b184057a9a6b"
+  "version": "c41276cea6484857111e3314a7a5abec"
 }

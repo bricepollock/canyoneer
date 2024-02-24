@@ -31,73 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.94375,
-            38.49727,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead / Parking",
-          "styleUrl": "#icon-1453",
-          "styleHash": "48a3dc84",
-          "styleMapHash": {
-            "normal": "#icon-1453-normal",
-            "highlight": "#icon-1453-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "description": "If the roads are muddy you may not be able to drive this far and might have to hike some of the roads as part of the approach.",
-          "elevationMeters": 1442
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.89972,
-            38.37667,
-            1420
-          ]
-        },
-        "properties": {
-          "name": "Pit Toilet",
-          "styleUrl": "#icon-1219-nodesc",
-          "styleHash": "26b94f30",
-          "styleMapHash": {
-            "normal": "#icon-1219-nodesc-normal",
-            "highlight": "#icon-1219-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1219-fac-wc-unisex.png",
-          "elevationMeters": 1432
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.95315,
-            38.49772,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cable",
-          "styleUrl": "#icon-503-F4B400-nodesc",
-          "styleHash": "-63f76ce7",
-          "styleMapHash": {
-            "normal": "#icon-503-F4B400-nodesc-normal",
-            "highlight": "#icon-503-F4B400-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 1411
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -290,7 +223,7 @@
             "normal": "#line-097138-5650-nodesc-normal",
             "highlight": "#line-097138-5650-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 3725.1645059848815,
@@ -1489,7 +1422,7 @@
             "normal": "#line-A52714-5844-nodesc-normal",
             "highlight": "#line-A52714-5844-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 4073.750281237746,
@@ -1853,7 +1786,7 @@
             "normal": "#line-F9A825-5650-nodesc-normal",
             "highlight": "#line-F9A825-5650-nodesc-highlight"
           },
-          "stroke": "#f9a825",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5.65,
           "lengthMeters": 2302.7436844951762,
@@ -2787,7 +2720,7 @@
             "normal": "#line-4E342E-5000-nodesc-normal",
             "highlight": "#line-4E342E-5000-nodesc-highlight"
           },
-          "stroke": "#4e342e",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 18062.121798156364,
@@ -3221,7 +3154,7 @@
             "normal": "#line-4E342E-5000-nodesc-normal",
             "highlight": "#line-4E342E-5000-nodesc-highlight"
           },
-          "stroke": "#4e342e",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3086.962740771186,
@@ -7165,7 +7098,7 @@
             "normal": "#line-795548-5000-nodesc-normal",
             "highlight": "#line-795548-5000-nodesc-highlight"
           },
-          "stroke": "#795548",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 48547.29694099049,
@@ -7173,8 +7106,78 @@
           "descentMeters": 2544.2996826171875,
           "changeMeters": -40.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.94375,
+            38.49727,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead / Parking",
+          "styleUrl": "#icon-1453",
+          "styleHash": "48a3dc84",
+          "styleMapHash": {
+            "normal": "#icon-1453-normal",
+            "highlight": "#icon-1453-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "description": "If the roads are muddy you may not be able to drive this far and might have to hike some of the roads as part of the approach.",
+          "stroke": "#FF9500",
+          "elevationMeters": 1442
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.89972,
+            38.37667,
+            1420
+          ]
+        },
+        "properties": {
+          "name": "Pit Toilet",
+          "styleUrl": "#icon-1219-nodesc",
+          "styleHash": "26b94f30",
+          "styleMapHash": {
+            "normal": "#icon-1219-nodesc-normal",
+            "highlight": "#icon-1219-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1219-fac-wc-unisex.png",
+          "stroke": "#FF2D55",
+          "elevationMeters": 1432
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.95315,
+            38.49772,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cable",
+          "styleUrl": "#icon-503-F4B400-nodesc",
+          "styleHash": "-63f76ce7",
+          "styleMapHash": {
+            "normal": "#icon-503-F4B400-nodesc-normal",
+            "highlight": "#icon-503-F4B400-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF9500",
+          "elevationMeters": 1411
+        }
       }
     ]
   },
-  "version": "0a5de76700716f6d74236559473066e1"
+  "version": "66d636fbf65cce13c3dc2b1d732e01de"
 }

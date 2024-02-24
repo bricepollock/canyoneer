@@ -29,29 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.2184,
-            37.5932,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#icon-93",
-          "styleHash": "265cc677",
-          "styleMapHash": {
-            "normal": "#icon-93-normal",
-            "highlight": "#icon-93-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "description": "High-clearance vehicle recommended. (Data by Erek)",
-          "elevationMeters": 1552
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -745,43 +722,13 @@
             "highlight": "#line-000099-5000-nodesc-highlight"
           },
           "description": " (Data by Erek)",
-          "stroke": "#33cc00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 9655.895765948762,
           "ascentMeters": 737.7001953125,
           "descentMeters": 732.1002197265625,
           "changeMeters": 5.5999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.1656,
-            37.6038,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Petroglyphs",
-          "elevationMeters": 1567
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.1526,
-            37.6011,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1648
         }
       },
       {
@@ -945,7 +892,7 @@
             "highlight": "#line-FF0000-5000-nodesc-highlight"
           },
           "description": " (Data by Erek)",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1596.6294754179744,
@@ -1550,7 +1497,7 @@
             "highlight": "#line-33CC00-5000-nodesc-highlight"
           },
           "description": " (Data by Erek)",
-          "stroke": "#33cc00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 7652.574690006173,
@@ -1558,8 +1505,64 @@
           "descentMeters": 651.1002197265625,
           "changeMeters": -49.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.2184,
+            37.5932,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#icon-93",
+          "styleHash": "265cc677",
+          "styleMapHash": {
+            "normal": "#icon-93-normal",
+            "highlight": "#icon-93-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "description": "High-clearance vehicle recommended. (Data by Erek)",
+          "stroke": "#34C759",
+          "elevationMeters": 1552
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.1656,
+            37.6038,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Petroglyphs",
+          "stroke": "#34C759",
+          "elevationMeters": 1567
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.1526,
+            37.6011,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1648
+        }
       }
     ]
   },
-  "version": "5c6882e56267cc1d02ddbfda4f721efc"
+  "version": "d1374820ca7eed7c71f0643aca55c4fe"
 }

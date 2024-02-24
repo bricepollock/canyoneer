@@ -26,81 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70389999999998,
-            46.3461,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1242
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70400000000001,
-            46.3467,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "elevationMeters": 1229
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70389999999998,
-            46.3472,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "elevationMeters": 1226
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.7039841413498,
-            46.34500571752322,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Tributary",
-          "elevationMeters": 1269
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.70761585235597,
-            46.34944559550728,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Up",
-          "elevationMeters": 1289
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -242,7 +167,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 818.0472605229894,
@@ -320,7 +245,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 367.3348640507353,
@@ -383,7 +308,7 @@
         },
         "properties": {
           "name": "NorHex Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 489.6964446301089,
@@ -391,8 +316,88 @@
           "descentMeters": 196.800048828125,
           "changeMeters": -196.800048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70389999999998,
+            46.3461,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1242
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70400000000001,
+            46.3467,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1229
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70389999999998,
+            46.3472,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1226
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.7039841413498,
+            46.34500571752322,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Tributary",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1269
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.70761585235597,
+            46.34944559550728,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Up",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1289
+        }
       }
     ]
   },
-  "version": "bd727d29cf03b709c8725573b8cf625f"
+  "version": "dd6716bf13266e1de215c79e0d591d3a"
 }

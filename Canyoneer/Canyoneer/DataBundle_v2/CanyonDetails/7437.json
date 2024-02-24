@@ -29,28 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -113.8374136964921,
-            36.89957967289922,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Mayday start",
-          "styleUrl": "#stylemap_id0",
-          "styleHash": "-7fc72772",
-          "styleMapHash": {
-            "normal": "#style32",
-            "highlight": "#style31"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 1364
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -208,7 +186,7 @@
             "normal": "#style0",
             "highlight": "#style4"
           },
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#f0f000",
@@ -329,7 +307,7 @@
             "normal": "#style3",
             "highlight": "#style2"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#ff0000",
@@ -805,7 +783,7 @@
             "normal": "#style",
             "highlight": "#style1"
           },
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00cd00",
@@ -814,6 +792,29 @@
           "ascentMeters": 744.2999267578125,
           "descentMeters": 279.7999267578125,
           "changeMeters": 464.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -113.8374136964921,
+            36.89957967289922,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Mayday start",
+          "styleUrl": "#stylemap_id0",
+          "styleHash": "-7fc72772",
+          "styleMapHash": {
+            "normal": "#style32",
+            "highlight": "#style31"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1364
         }
       },
       {
@@ -835,6 +836,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
           "elevationMeters": 919
         }
       },
@@ -857,6 +859,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
           "elevationMeters": 1153
         }
       },
@@ -879,6 +882,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
           "elevationMeters": 1062
         }
       },
@@ -901,6 +905,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
           "elevationMeters": 1221
         }
       },
@@ -923,6 +928,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
           "elevationMeters": 1208
         }
       },
@@ -945,6 +951,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1084
         }
       },
@@ -967,10 +974,11 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
           "elevationMeters": 1335
         }
       }
     ]
   },
-  "version": "d6b1846d435cdd6d13e23812f92f2532"
+  "version": "84288f5f6b39391cf3e33ccbb5fd9690"
 }

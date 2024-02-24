@@ -20,94 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.9171676592956,
-            34.48034221347685,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#msn_parking_lot32",
-          "styleHash": "-57ce3d45",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot8",
-            "highlight": "#sh_parking_lot400"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 450
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.9284423979437,
-            34.49025519742941,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop in",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "2e05bde5",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 461
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.9450590810819,
-            34.49214069788653,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Beach camp",
-          "styleUrl": "#msn_open-diamond0",
-          "styleHash": "-9154126",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond0",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 853
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.9235836207138,
-            34.45360735477811,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle",
-          "styleUrl": "#msn_bus",
-          "styleHash": "4cbf46e4",
-          "styleMapHash": {
-            "normal": "#sn_bus",
-            "highlight": "#sh_bus"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/bus.png",
-          "elevationMeters": 435
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -860,7 +772,7 @@
             "normal": "#dir_route16",
             "highlight": "#dir_route14"
           },
-          "stroke": "#00d000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 3434.294359194659,
@@ -2035,7 +1947,7 @@
             "normal": "#dir_route12",
             "highlight": "#dir_route0"
           },
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 5069.161669859811,
@@ -3189,7 +3101,7 @@
             "normal": "#dir_route6",
             "highlight": "#dir_route8"
           },
-          "stroke": "#000000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 3,
           "lengthMeters": 8358.935350256967,
@@ -3198,28 +3110,6 @@
           "changeMeters": 15.399993896484375
         },
         "id": "22.4"
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.9177617223344,
-            34.39613183230909,
-            0
-          ]
-        },
-        "properties": {
-          "name": "23/126 intersection",
-          "styleUrl": "#msn_open-diamond0",
-          "styleHash": "-9154126",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond0",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 119
-        }
       },
       {
         "type": "Feature",
@@ -3436,7 +3326,7 @@
             "normal": "#dir_route15",
             "highlight": "#dir_route11"
           },
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 3,
           "lengthMeters": 6077.742203543247,
@@ -3591,101 +3481,13 @@
             "normal": "#dir_route7",
             "highlight": "#dir_route3"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 1774.8463945188657,
           "ascentMeters": 559.5,
           "descentMeters": 142.10003662109375,
           "changeMeters": 417.39996337890625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.9401155666272,
-            34.49350753704803,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower falls",
-          "styleUrl": "#msn_open-diamond0",
-          "styleHash": "-9154126",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond0",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 940
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.9367878966736,
-            34.4945117581258,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper falls",
-          "styleUrl": "#msn_open-diamond0",
-          "styleHash": "-9154126",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond0",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 1021
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.9333075483917,
-            34.49269571191817,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cascades",
-          "styleUrl": "#msn_open-diamond0",
-          "styleHash": "-9154126",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond0",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 772
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.9583906250172,
-            34.49440177979447,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bear Heaven Falls",
-          "styleUrl": "#msn_open-diamond0",
-          "styleHash": "-9154126",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond0",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 940
         }
       },
       {
@@ -4023,13 +3825,220 @@
             "normal": "#dir_route1",
             "highlight": "#dir_route"
           },
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 6416.63924953016,
           "ascentMeters": 973.6000671386719,
           "descentMeters": 1417.300048828125,
           "changeMeters": -443.6999816894531
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.9171676592956,
+            34.48034221347685,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#msn_parking_lot32",
+          "styleHash": "-57ce3d45",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot8",
+            "highlight": "#sh_parking_lot400"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 450
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.9284423979437,
+            34.49025519742941,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop in",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "2e05bde5",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 461
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.9450590810819,
+            34.49214069788653,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Beach camp",
+          "styleUrl": "#msn_open-diamond0",
+          "styleHash": "-9154126",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond0",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 853
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.9235836207138,
+            34.45360735477811,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle",
+          "styleUrl": "#msn_bus",
+          "styleHash": "4cbf46e4",
+          "styleMapHash": {
+            "normal": "#sn_bus",
+            "highlight": "#sh_bus"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/bus.png",
+          "stroke": "#34C759",
+          "elevationMeters": 435
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.9177617223344,
+            34.39613183230909,
+            0
+          ]
+        },
+        "properties": {
+          "name": "23/126 intersection",
+          "styleUrl": "#msn_open-diamond0",
+          "styleHash": "-9154126",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond0",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 119
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.9401155666272,
+            34.49350753704803,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower falls",
+          "styleUrl": "#msn_open-diamond0",
+          "styleHash": "-9154126",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond0",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 940
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.9367878966736,
+            34.4945117581258,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper falls",
+          "styleUrl": "#msn_open-diamond0",
+          "styleHash": "-9154126",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond0",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1021
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.9333075483917,
+            34.49269571191817,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cascades",
+          "styleUrl": "#msn_open-diamond0",
+          "styleHash": "-9154126",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond0",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 772
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.9583906250172,
+            34.49440177979447,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bear Heaven Falls",
+          "styleUrl": "#msn_open-diamond0",
+          "styleHash": "-9154126",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond0",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 940
         }
       },
       {
@@ -4051,10 +4060,11 @@
             "highlight": "#sh_open-diamond0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
           "elevationMeters": 562
         }
       }
     ]
   },
-  "version": "798334bd6e9c513a018346f15e3021cb"
+  "version": "d656050ff9ec17c78359b7c9cbc91286"
 }

@@ -23,21 +23,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.46769285202028,
-            33.48692759102898,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 598
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1079,7 +1064,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5498.645883854032,
@@ -1692,7 +1677,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1595.425013481476,
@@ -2139,7 +2124,7 @@
             [
               -111.48724615573884,
               33.51878546796255,
-              602.2000122070312
+              578.7000122070312
             ],
             [
               -111.48701548576356,
@@ -3500,16 +3485,32 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 5837.576053898392,
-          "ascentMeters": 429.8001708984375,
-          "descentMeters": 599.2001342773438,
+          "ascentMeters": 408.10015869140625,
+          "descentMeters": 577.5001220703125,
           "changeMeters": -169.39996337890625
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.46769285202028,
+            33.48692759102898,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 598
         }
       }
     ]
   },
-  "version": "aeb466ecebfae96ad545bb70c9599bd6"
+  "version": "c16f12862e5557005af357107aa573d0"
 }

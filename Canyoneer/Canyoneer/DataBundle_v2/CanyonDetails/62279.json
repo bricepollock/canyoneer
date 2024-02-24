@@ -31,111 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.87082624435426,
-            36.62298488439929,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Turn-off",
-          "elevationMeters": 1913
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.87732791900636,
-            36.61957495981034,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1886
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.88321805000307,
-            36.621073278585655,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Slot begins",
-          "elevationMeters": 1886
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.88459670543672,
-            36.619971069904416,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1868
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.8854389190674,
-            36.61983759825226,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "elevationMeters": 1850
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.88922083377838,
-            36.61822300350981,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Fixed handline",
-          "elevationMeters": 1880
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.89074969291688,
-            36.61868370465733,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "elevationMeters": 1900
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -237,7 +132,7 @@
         },
         "properties": {
           "name": "Drive",
-          "stroke": "#FFC400",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 891.6137915186853,
@@ -310,7 +205,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00FFF7",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 663.1844730141455,
@@ -433,7 +328,7 @@
         },
         "properties": {
           "name": "Descent/ascent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 885.8410578503353,
@@ -441,8 +336,120 @@
           "descentMeters": 95.9000244140625,
           "changeMeters": 13.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.87082624435426,
+            36.62298488439929,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Turn-off",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1913
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.87732791900636,
+            36.61957495981034,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1886
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.88321805000307,
+            36.621073278585655,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Slot begins",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 1886
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.88459670543672,
+            36.619971069904416,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#5856D6",
+          "elevationMeters": 1868
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.8854389190674,
+            36.61983759825226,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "stroke": "#5856D6",
+          "elevationMeters": 1850
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.88922083377838,
+            36.61822300350981,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fixed handline",
+          "stroke": "#5856D6",
+          "elevationMeters": 1880
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.89074969291688,
+            36.61868370465733,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "stroke": "#5856D6",
+          "elevationMeters": 1900
+        }
       }
     ]
   },
-  "version": "76a110432b55aef811208ea60cb4a46a"
+  "version": "28219b3d42adb166ccd2e1a18db1a073"
 }

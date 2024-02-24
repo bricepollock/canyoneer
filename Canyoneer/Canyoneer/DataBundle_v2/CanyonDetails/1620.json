@@ -25,54 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [
-              [
-                -118.4733611566074,
-                36.05305506603092,
-                0
-              ],
-              [
-                -118.4736278192036,
-                36.06768195295282,
-                0
-              ],
-              [
-                -118.4827421853505,
-                36.06777408012535,
-                0
-              ],
-              [
-                -118.4827820689297,
-                36.05305258303078,
-                0
-              ],
-              [
-                -118.4733611566074,
-                36.05305506603092,
-                0
-              ],
-              [
-                -118.4733611566074,
-                36.05305506603092,
-                0
-              ]
-            ]
-          ]
-        },
-        "properties": {
-          "name": "Private property (approximate)",
-          "stroke": "#000000",
-          "stroke-opacity": 1,
-          "stroke-width": 2,
-          "fill": "#000000",
-          "fill-opacity": 0.26666666666666666
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -339,7 +291,7 @@
         },
         "properties": {
           "name": "Property bypass (descent)",
-          "stroke": "#00d000",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#0000A0",
@@ -454,7 +406,7 @@
         },
         "properties": {
           "name": "Upper descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "fill": "#FF0000",
@@ -744,7 +696,7 @@
         },
         "properties": {
           "name": "Lower descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "fill": "#FF0000",
@@ -1569,7 +1521,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#FFFF00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "fill": "#FFFF00",
@@ -1592,6 +1544,7 @@
         },
         "properties": {
           "name": "Lower Peppermint Campground",
+          "stroke": "#FF3B30",
           "elevationMeters": 1576
         }
       },
@@ -1607,6 +1560,7 @@
         },
         "properties": {
           "name": "R1",
+          "stroke": "#FF3B30",
           "elevationMeters": 1528
         }
       },
@@ -1622,6 +1576,7 @@
         },
         "properties": {
           "name": "Begin bypass",
+          "stroke": "#FFCC00",
           "elevationMeters": 1535
         }
       },
@@ -1637,6 +1592,7 @@
         },
         "properties": {
           "name": "Lower section begins",
+          "stroke": "#FF3B30",
           "elevationMeters": 1535
         }
       },
@@ -1652,6 +1608,7 @@
         },
         "properties": {
           "name": "Ridge climb",
+          "stroke": "#FFCC00",
           "elevationMeters": 2450
         }
       },
@@ -1667,6 +1624,7 @@
         },
         "properties": {
           "name": "Join trail",
+          "stroke": "#FFCC00",
           "elevationMeters": 2372
         }
       },
@@ -1682,6 +1640,7 @@
         },
         "properties": {
           "name": "Leave trail",
+          "stroke": "#FFCC00",
           "elevationMeters": 2243
         }
       },
@@ -1697,6 +1656,7 @@
         },
         "properties": {
           "name": "Canyon begins",
+          "stroke": "#FF3B30",
           "elevationMeters": 1540
         }
       },
@@ -1712,6 +1672,7 @@
         },
         "properties": {
           "name": "North cabin",
+          "stroke": "#FF3B30",
           "elevationMeters": 1524
         }
       },
@@ -1727,6 +1688,7 @@
         },
         "properties": {
           "name": "South compound",
+          "stroke": "#FF3B30",
           "elevationMeters": 1523
         }
       },
@@ -1742,6 +1704,7 @@
         },
         "properties": {
           "name": "Helipad",
+          "stroke": "#FF3B30",
           "elevationMeters": 1522
         }
       },
@@ -1757,6 +1720,7 @@
         },
         "properties": {
           "name": "Bridge",
+          "stroke": "#FF3B30",
           "elevationMeters": 1549
         }
       },
@@ -1772,6 +1736,7 @@
         },
         "properties": {
           "name": "Jump (optional)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1528
         }
       },
@@ -1787,6 +1752,7 @@
         },
         "properties": {
           "name": "R2",
+          "stroke": "#FF3B30",
           "elevationMeters": 2354
         }
       },
@@ -1802,6 +1768,7 @@
         },
         "properties": {
           "name": "Slide",
+          "stroke": "#FF3B30",
           "elevationMeters": 2318
         }
       },
@@ -1817,6 +1784,7 @@
         },
         "properties": {
           "name": "Slide",
+          "stroke": "#FF3B30",
           "elevationMeters": 2307
         }
       },
@@ -1832,6 +1800,7 @@
         },
         "properties": {
           "name": "R3",
+          "stroke": "#FF3B30",
           "elevationMeters": 2293
         }
       },
@@ -1847,6 +1816,7 @@
         },
         "properties": {
           "name": "R4",
+          "stroke": "#FF3B30",
           "elevationMeters": 2376
         }
       },
@@ -1862,10 +1832,11 @@
         },
         "properties": {
           "name": "R5",
+          "stroke": "#FF3B30",
           "elevationMeters": 2386
         }
       }
     ]
   },
-  "version": "82dfd344f352b7be7b26a5da73b0f2dd"
+  "version": "f3f7436b6c185d65a583e2006a3a6af4"
 }

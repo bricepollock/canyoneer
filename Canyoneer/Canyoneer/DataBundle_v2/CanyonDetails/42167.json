@@ -19,98 +19,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.118476,
-            25.217073,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "6c270f07",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by k2team.mty at wikiloc.com)",
-          "elevationMeters": 1396
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.096638,
-            25.219181,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-16ce5e9f",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by k2team.mty at wikiloc.com)",
-          "elevationMeters": 922
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.096614,
-            25.219224,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Charco Azul Fin",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-3d47f2fe",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by k2team.mty at wikiloc.com)",
-          "elevationMeters": 922
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.118454,
-            25.217088,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Charco Azul Ini",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-3d47f2fe",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by k2team.mty at wikiloc.com)",
-          "elevationMeters": 1396
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -598,7 +506,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by k2team.mty at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 4787.719833234212,
@@ -606,8 +514,104 @@
           "descentMeters": 1067.5000610351562,
           "changeMeters": -473.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.118476,
+            25.217073,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "32692f9f",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by k2team.mty at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1396
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.096638,
+            25.219181,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "652e636",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by k2team.mty at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 922
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.096614,
+            25.219224,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Charco Azul Fin",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "24166255",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by k2team.mty at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 922
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.118454,
+            25.217088,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Charco Azul Ini",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "24166255",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by k2team.mty at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1396
+        }
       }
     ]
   },
-  "version": "01141009f102779aedc6af8f272ae9f7"
+  "version": "a85edd8f0ee8f5f553517138c171bab5"
 }

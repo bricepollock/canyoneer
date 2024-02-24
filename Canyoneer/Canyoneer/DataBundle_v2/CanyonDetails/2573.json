@@ -56,7 +56,7 @@
             "normal": "#style0",
             "highlight": "#style"
           },
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "fill": "#f0f000",
@@ -106,7 +106,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00cd00",
@@ -331,7 +331,7 @@
         },
         "properties": {
           "name": "Return",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#f0f000",
@@ -541,7 +541,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#ff0000",
@@ -550,36 +550,6 @@
           "ascentMeters": 412.5,
           "descentMeters": 137,
           "changeMeters": 275.5
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.0527539451514,
-            39.98403969847861,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Camp/Trailhead",
-          "elevationMeters": 1079
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -123.0567968429731,
-            39.9727062180386,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Kofi's Chasm",
-          "elevationMeters": 1336
         }
       },
       {
@@ -973,7 +943,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2203.327963557136,
@@ -981,8 +951,40 @@
           "descentMeters": 407.0997314453125,
           "changeMeters": -265.2000732421875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.0527539451514,
+            39.98403969847861,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Camp/Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 1079
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.0567968429731,
+            39.9727062180386,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Kofi's Chasm",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1336
+        }
       }
     ]
   },
-  "version": "b10a2432e7b6809ad0d21c5acce71577"
+  "version": "8a02a9d65f29d994a2ba6a9a47a793a6"
 }

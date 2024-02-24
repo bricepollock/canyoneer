@@ -29,81 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.95339200000001,
-            34.096376,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 2927
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.95286722950004,
-            34.09983345470611,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-in",
-          "elevationMeters": 2797
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.95750280068751,
-            34.0956694788055,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Checkpoint Road",
-          "elevationMeters": 2838
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.95464490700766,
-            34.09617145598395,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Alt Parking",
-          "elevationMeters": 2915
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.95314000000002,
-            34.09979,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Checkpoint DropIn",
-          "elevationMeters": 2809
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -170,7 +95,7 @@
         },
         "properties": {
           "name": "Exit Left",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 216.5630496709544,
@@ -298,7 +223,7 @@
         },
         "properties": {
           "name": "Exit Right",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 714.482231108395,
@@ -406,7 +331,7 @@
         },
         "properties": {
           "name": "Approach Gully",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 429.70193575091355,
@@ -444,7 +369,7 @@
         },
         "properties": {
           "name": "Gully Drop-in",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 60.82054289537924,
@@ -792,7 +717,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 468.0182062431556,
@@ -830,7 +755,7 @@
         },
         "properties": {
           "name": "Decent upper waterfalls",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 132.4585410084046,
@@ -913,7 +838,7 @@
         },
         "properties": {
           "name": "Approach Ridge",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 375.9754934761437,
@@ -966,7 +891,7 @@
         },
         "properties": {
           "name": "Approach Upper Falls",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 138.3291964348643,
@@ -994,7 +919,7 @@
         },
         "properties": {
           "name": "Drop-in Upper Falls",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 38.158149724598985,
@@ -1027,7 +952,7 @@
         },
         "properties": {
           "name": "Drop-in Earthen",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 54.851506268202435,
@@ -1060,7 +985,7 @@
         },
         "properties": {
           "name": "Approach Connector",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 63.794029477029525,
@@ -1068,8 +993,88 @@
           "descentMeters": 0,
           "changeMeters": 32.599853515625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.95339200000001,
+            34.096376,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2927
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.95286722950004,
+            34.09983345470611,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-in",
+          "stroke": "#34C759",
+          "elevationMeters": 2797
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.95750280068751,
+            34.0956694788055,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Checkpoint Road",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2838
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.95464490700766,
+            34.09617145598395,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Alt Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2915
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.95314000000002,
+            34.09979,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Checkpoint DropIn",
+          "stroke": "#34C759",
+          "elevationMeters": 2809
+        }
       }
     ]
   },
-  "version": "c340cc33817a2257d279cc668b07a08c"
+  "version": "3d5d7f2d5c90653c6f6adedabd835d84"
 }

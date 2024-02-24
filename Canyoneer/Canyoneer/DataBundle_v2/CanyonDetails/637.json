@@ -26,52 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.378677,
-            33.541189,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 15’",
-          "description": "Off rock pinch",
-          "elevationMeters": 768
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.38438142836095,
-            33.54666657869953,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave road",
-          "elevationMeters": 646
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.37819290161134,
-            33.53652542567854,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 697
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -893,7 +847,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2540.4339967551855,
@@ -1341,7 +1295,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 967.7382165097713,
@@ -1554,7 +1508,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 332.62251823748284,
@@ -1562,8 +1516,57 @@
           "descentMeters": 83.0999755859375,
           "changeMeters": -75.5999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.378677,
+            33.541189,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 15’",
+          "description": "Off rock pinch",
+          "stroke": "#FF3B30",
+          "elevationMeters": 768
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.38438142836095,
+            33.54666657869953,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave road",
+          "stroke": "#34C759",
+          "elevationMeters": 646
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.37819290161134,
+            33.53652542567854,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#FFCC00",
+          "elevationMeters": 697
+        }
       }
     ]
   },
-  "version": "6fea9c9ba50aec86bd2bd8e85c5a4f44"
+  "version": "dbfcb9dfff82fc571335af57d11400ac"
 }

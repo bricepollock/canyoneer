@@ -12,144 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -46.368381,
-            -23.64925,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-4c921b23",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by ecocultural viagens at wikiloc.com)",
-          "elevationMeters": 818
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -46.363699,
-            -23.642288,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-368f2f16",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by ecocultural viagens at wikiloc.com)",
-          "elevationMeters": 827
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -46.365758,
-            -23.643033,
-            0
-          ]
-        },
-        "properties": {
-          "name": "FIMSUBIDA",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-17557b5d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by ecocultural viagens at wikiloc.com)",
-          "elevationMeters": 820
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -46.368423,
-            -23.649181,
-            0
-          ]
-        },
-        "properties": {
-          "name": "INICIOELEF",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-17557b5d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by ecocultural viagens at wikiloc.com)",
-          "elevationMeters": 810
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -46.363705,
-            -23.642338,
-            0
-          ]
-        },
-        "properties": {
-          "name": "PEDRAELEFA",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-17557b5d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by ecocultural viagens at wikiloc.com)",
-          "elevationMeters": 821
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -46.371064,
-            -23.646,
-            0
-          ]
-        },
-        "properties": {
-          "name": "PORTEIRA",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-17557b5d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by ecocultural viagens at wikiloc.com)",
-          "elevationMeters": 866
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -502,7 +364,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by ecocultural viagens at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 1491.240773546248,
@@ -510,8 +372,152 @@
           "descentMeters": 117.2999267578125,
           "changeMeters": 9
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -46.368381,
+            -23.64925,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "5a65c225",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by ecocultural viagens at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 818
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -46.363699,
+            -23.642288,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "5b8a41c2",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by ecocultural viagens at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 827
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -46.365758,
+            -23.643033,
+            0
+          ]
+        },
+        "properties": {
+          "name": "FIMSUBIDA",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "794dbde1",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by ecocultural viagens at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 820
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -46.368423,
+            -23.649181,
+            0
+          ]
+        },
+        "properties": {
+          "name": "INICIOELEF",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "794dbde1",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by ecocultural viagens at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 810
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -46.363705,
+            -23.642338,
+            0
+          ]
+        },
+        "properties": {
+          "name": "PEDRAELEFA",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "794dbde1",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by ecocultural viagens at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 821
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -46.371064,
+            -23.646,
+            0
+          ]
+        },
+        "properties": {
+          "name": "PORTEIRA",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "794dbde1",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by ecocultural viagens at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 866
+        }
       }
     ]
   },
-  "version": "53ebd1bf2c2580429e3899ce004e9dc9"
+  "version": "b454421589f12dea46c51fe09194834c"
 }

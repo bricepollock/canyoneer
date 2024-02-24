@@ -29,141 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.63333821296693,
-            39.03286943792514,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking @ Devil's Kitchen",
-          "elevationMeters": 1626
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.64550018310547,
-            39.036598205566406,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Adder Canyon Start",
-          "elevationMeters": 1706
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.64874096,
-            39.03453121,
-            0
-          ]
-        },
-        "properties": {
-          "name": "power line pole and Serpent's drop in",
-          "elevationMeters": 1536
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.64530611,
-            39.03663715,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 65'",
-          "elevationMeters": 1706
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.64500705,
-            39.03671044,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 50'",
-          "elevationMeters": 1701
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.64447876811028,
-            39.03701652141034,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 50'",
-          "elevationMeters": 1752
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.64308536052705,
-            39.037466529396276,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4: 200'",
-          "elevationMeters": 1756
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.64247348,
-            39.03773498,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5: 140'",
-          "elevationMeters": 1785
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.64593062509513,
-            39.033320014047476,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Limited Parking",
-          "elevationMeters": 1562
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1620,7 +1485,7 @@
         },
         "properties": {
           "name": "Serpents Trail Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4175.6724439014615,
@@ -1673,7 +1538,7 @@
         },
         "properties": {
           "name": "game trail",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 44.16066089708508,
@@ -2181,7 +2046,7 @@
         },
         "properties": {
           "name": "Adder Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 657.9400715445009,
@@ -2519,7 +2384,7 @@
         },
         "properties": {
           "name": "Adder Return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 939.8630721231715,
@@ -3252,7 +3117,7 @@
         },
         "properties": {
           "name": "Monument Road",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3943.090190801689,
@@ -3260,8 +3125,152 @@
           "descentMeters": 2409.6002197265625,
           "changeMeters": 64.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.63333821296693,
+            39.03286943792514,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking @ Devil's Kitchen",
+          "stroke": "#34C759",
+          "elevationMeters": 1626
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.64550018310547,
+            39.036598205566406,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Adder Canyon Start",
+          "stroke": "#5856D6",
+          "elevationMeters": 1706
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.64874096,
+            39.03453121,
+            0
+          ]
+        },
+        "properties": {
+          "name": "power line pole and Serpent's drop in",
+          "stroke": "#34C759",
+          "elevationMeters": 1536
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.64530611,
+            39.03663715,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 65'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1706
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.64500705,
+            39.03671044,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 50'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1701
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.64447876811028,
+            39.03701652141034,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 50'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1752
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.64308536052705,
+            39.037466529396276,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4: 200'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1756
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.64247348,
+            39.03773498,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5: 140'",
+          "stroke": "#5856D6",
+          "elevationMeters": 1785
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.64593062509513,
+            39.033320014047476,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Limited Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1562
+        }
       }
     ]
   },
-  "version": "b0ce5c5e13beab5a5c4452c73709bd63"
+  "version": "e22d16cda5b56e12c5a31eb6292b9bda"
 }

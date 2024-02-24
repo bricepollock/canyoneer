@@ -4,7 +4,7 @@
   "longitude": -111.8537,
   "id": 62836,
   "name": "Mushroom Drops",
-  "quality": 3.6,
+  "quality": 3.5,
   "months": [
     "Mar",
     "Apr",
@@ -25,97 +25,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.855646,
-            34.932238,
-            0
-          ]
-        },
-        "properties": {
-          "name": "sky island ",
-          "description": "Location: 34.932238, -111.855646<br/>\nElevation: 1.1 mi<br/>\nTime Created: 12/21/20 12:30:50 PM<br/>\n",
-          "elevationMeters": 1552
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.85569467023016,
-            34.92927430555092,
-            0
-          ]
-        },
-        "properties": {
-          "name": "r4 200'",
-          "elevationMeters": 1513
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8546102047003,
-            34.92941801043538,
-            0
-          ]
-        },
-        "properties": {
-          "name": "r2 100'",
-          "elevationMeters": 1518
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.85370162129404,
-            34.93022009830402,
-            0
-          ]
-        },
-        "properties": {
-          "name": "r1 150'",
-          "elevationMeters": 1593
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.85535432305187,
-            34.92947904423105,
-            0
-          ]
-        },
-        "properties": {
-          "name": "r3 40'",
-          "elevationMeters": 1512
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.85232715681197,
-            34.92950286183323,
-            0
-          ]
-        },
-        "properties": {
-          "name": "mushroom rock",
-          "elevationMeters": 1595
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -185,7 +94,7 @@
         },
         "properties": {
           "name": "Mushroom drops",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 316.86866755809615,
@@ -263,7 +172,7 @@
         },
         "properties": {
           "name": "Mushroom drops",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 316.86866755809615,
@@ -1101,7 +1010,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4154.77530952488,
@@ -1269,7 +1178,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 566.0598742186729,
@@ -1342,7 +1251,7 @@
         },
         "properties": {
           "name": "Sky Island ",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 292.11376474933485,
@@ -1350,8 +1259,105 @@
           "descentMeters": 72.2999267578125,
           "changeMeters": -56
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.855646,
+            34.932238,
+            0
+          ]
+        },
+        "properties": {
+          "name": "sky island ",
+          "description": "Location: 34.932238, -111.855646<br/>\nElevation: 1.1 mi<br/>\nTime Created: 12/21/20 12:30:50 PM<br/>\n",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1552
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.85569467023016,
+            34.92927430555092,
+            0
+          ]
+        },
+        "properties": {
+          "name": "r4 200'",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1513
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8546102047003,
+            34.92941801043538,
+            0
+          ]
+        },
+        "properties": {
+          "name": "r2 100'",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1518
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.85370162129404,
+            34.93022009830402,
+            0
+          ]
+        },
+        "properties": {
+          "name": "r1 150'",
+          "stroke": "#34C759",
+          "elevationMeters": 1593
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.85535432305187,
+            34.92947904423105,
+            0
+          ]
+        },
+        "properties": {
+          "name": "r3 40'",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1512
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.85232715681197,
+            34.92950286183323,
+            0
+          ]
+        },
+        "properties": {
+          "name": "mushroom rock",
+          "stroke": "#34C759",
+          "elevationMeters": 1595
+        }
       }
     ]
   },
-  "version": "6bfe5d2382063c67c20e0bc82995f195"
+  "version": "c5a615e7e2e6b4256f25882272fc6954"
 }

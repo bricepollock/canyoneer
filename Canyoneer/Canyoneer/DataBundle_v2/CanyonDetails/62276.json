@@ -34,51 +34,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.169664144516,
-            34.2973172526565,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Corona Gulch Parking",
-          "elevationMeters": 934
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.17126274108888,
-            34.30633751684721,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In",
-          "elevationMeters": 749
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.16817283630373,
-            34.30390032027924,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End Techincal Section",
-          "elevationMeters": 803
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1644,7 +1599,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 8190.270666667498,
@@ -1652,8 +1607,56 @@
           "descentMeters": 1826.9998168945312,
           "changeMeters": 1
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.169664144516,
+            34.2973172526565,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Corona Gulch Parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 934
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.17126274108888,
+            34.30633751684721,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In",
+          "stroke": "#FF3B30",
+          "elevationMeters": 749
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.16817283630373,
+            34.30390032027924,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End Techincal Section",
+          "stroke": "#FF3B30",
+          "elevationMeters": 803
+        }
       }
     ]
   },
-  "version": "f66cb6cc3cfa6db78cb6ac8064ee19ab"
+  "version": "55a2963f8ad2ff56a84a68060b09951b"
 }

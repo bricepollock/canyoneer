@@ -23,75 +23,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            27.330611,
-            38.414679,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "1e08bc7",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Burak Can Oztas at wikiloc.com)",
-          "elevationMeters": 580
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            27.329157,
-            38.422378,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "6e346ca7",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Burak Can Oztas at wikiloc.com)",
-          "elevationMeters": 617
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            27.329078,
-            38.420315,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Nif Kanyonu",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-7408173a",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Burak Can Oztas at wikiloc.com)",
-          "elevationMeters": 552
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1229,7 +1160,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Burak Can Oztas at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3777.259645138497,
@@ -1237,8 +1168,80 @@
           "descentMeters": 514.4000854492188,
           "changeMeters": 37.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            27.330611,
+            38.414679,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "68a708",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Burak Can Oztas at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 580
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            27.329157,
+            38.422378,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-2181d1a3",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Burak Can Oztas at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 617
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            27.329078,
+            38.420315,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nif Kanyonu",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-14c9bde7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Burak Can Oztas at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 552
+        }
       }
     ]
   },
-  "version": "14ac93358d7f7018f64c3a69c329f880"
+  "version": "258ad09a567f832f2f08947a2b7e60a0"
 }

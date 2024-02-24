@@ -28,156 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.60865843296052,
-            46.255475900260954,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R0",
-          "elevationMeters": 975
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.60886052206551,
-            46.255395861937224,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 968
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.61543276509771,
-            46.25457096246796,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "elevationMeters": 948
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.61771833522175,
-            46.252808901104274,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R7",
-          "elevationMeters": 957
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.61710960340966,
-            46.253150072915524,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6",
-          "elevationMeters": 957
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.61701840830315,
-            46.253325339519904,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "elevationMeters": 953
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.61697819201879,
-            46.25365494575335,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "elevationMeters": 950
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.61669133136552,
-            46.25385702490055,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 (guess)",
-          "elevationMeters": 949
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.62834238857343,
-            46.24484062126892,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Shuttle",
-          "elevationMeters": 1049
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.60854997200575,
-            46.25504607312352,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Shuttle",
-          "elevationMeters": 986
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -229,7 +79,7 @@
         },
         "properties": {
           "name": "Hike Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 97.78062181610156,
@@ -427,7 +277,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1249.7026798856773,
@@ -670,7 +520,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 914.500581051201,
@@ -698,7 +548,7 @@
         },
         "properties": {
           "name": "Rap Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 9.308030624209827,
@@ -706,8 +556,168 @@
           "descentMeters": 0,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.60865843296052,
+            46.255475900260954,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R0",
+          "stroke": "#34C759",
+          "elevationMeters": 975
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.60886052206551,
+            46.255395861937224,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 968
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.61543276509771,
+            46.25457096246796,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "stroke": "#FF3B30",
+          "elevationMeters": 948
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.61771833522175,
+            46.252808901104274,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R7",
+          "stroke": "#FF3B30",
+          "elevationMeters": 957
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.61710960340966,
+            46.253150072915524,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6",
+          "stroke": "#FF3B30",
+          "elevationMeters": 957
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.61701840830315,
+            46.253325339519904,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "stroke": "#FF3B30",
+          "elevationMeters": 953
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.61697819201879,
+            46.25365494575335,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "stroke": "#FF3B30",
+          "elevationMeters": 950
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.61669133136552,
+            46.25385702490055,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 (guess)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 949
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.62834238857343,
+            46.24484062126892,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Shuttle",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1049
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.60854997200575,
+            46.25504607312352,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Shuttle",
+          "stroke": "#34C759",
+          "elevationMeters": 986
+        }
       }
     ]
   },
-  "version": "87423b31aa338e127210080b9688ee8f"
+  "version": "52d1b598ea1a33a14448cd235a9007a8"
 }

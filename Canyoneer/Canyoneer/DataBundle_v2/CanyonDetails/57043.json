@@ -25,81 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.12613439559938,
-            45.81906477511801,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 611
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.13094091415407,
-            45.82990567457194,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "elevationMeters": 498
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.1306619644165,
-            45.828948769780986,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Optional Exit",
-          "elevationMeters": 491
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.13531827926637,
-            45.833478970475234,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 527
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.11748695373537,
-            45.81901991183784,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Campground",
-          "elevationMeters": 640
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -376,7 +301,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3035.598668152021,
@@ -504,7 +429,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 688.527184034874,
@@ -672,7 +597,7 @@
         },
         "properties": {
           "name": "Lower Skookum",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1196.8054365818798,
@@ -680,8 +605,88 @@
           "descentMeters": 162.70001220703125,
           "changeMeters": 110.89999389648438
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.12613439559938,
+            45.81906477511801,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 611
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.13094091415407,
+            45.82990567457194,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "stroke": "#FF3B30",
+          "elevationMeters": 498
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.1306619644165,
+            45.828948769780986,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Optional Exit",
+          "stroke": "#FF3B30",
+          "elevationMeters": 491
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.13531827926637,
+            45.833478970475234,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 527
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.11748695373537,
+            45.81901991183784,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Campground",
+          "stroke": "#FF3B30",
+          "elevationMeters": 640
+        }
       }
     ]
   },
-  "version": "1627a90f984cc84bc8e2b3ba12fa599c"
+  "version": "16e070b792d25aa66c654c66a393e671"
 }

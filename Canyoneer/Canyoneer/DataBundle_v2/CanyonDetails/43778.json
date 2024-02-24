@@ -20,75 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.640227,
-            25.649183,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-75e70b39",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by ClubTotem at wikiloc.com)",
-          "elevationMeters": 1911
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.674127,
-            25.675744,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-3518f77c",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by ClubTotem at wikiloc.com)",
-          "elevationMeters": 1117
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -100.640227,
-            25.649183,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Estacionamiento e inicio",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-17557b5d",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by ClubTotem at wikiloc.com)",
-          "elevationMeters": 1911
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1471,7 +1402,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by ClubTotem at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 8174.357367808522,
@@ -1479,8 +1410,80 @@
           "descentMeters": 1617.9000244140625,
           "changeMeters": -794.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.640227,
+            25.649183,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "32692f9f",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by ClubTotem at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1911
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.674127,
+            25.675744,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "5514d5ba",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by ClubTotem at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1117
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.640227,
+            25.649183,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Estacionamiento e inicio",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "72d851d9",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by ClubTotem at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1911
+        }
       }
     ]
   },
-  "version": "b1b8de3691dc35d348b20dd1c7df447b"
+  "version": "ad630f5ce6d16c56b6e84f94eb617182"
 }

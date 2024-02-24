@@ -29,116 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -113.8337015188881,
-            36.90984892205016,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bonus Canyon",
-          "styleUrl": "#msn_open-diamond13",
-          "styleHash": "-3da3816d",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond11",
-            "highlight": "#sh_open-diamond7"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 923
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -113.8308188715707,
-            36.89710003466227,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "2e05bde5",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 1399
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -113.8263139752057,
-            36.90748194978758,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Saddle",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "2e05bde5",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 1088
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -113.829367,
-            36.913444,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave wash",
-          "styleUrl": "#msn_open-diamond13",
-          "styleHash": "-3da3816d",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond11",
-            "highlight": "#sh_open-diamond7"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 924
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -113.835096,
-            36.915385,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#stylemap_id4",
-          "styleHash": "-392af90b",
-          "styleMapHash": {
-            "normal": "#style00",
-            "highlight": "#style"
-          },
-          "icon": "http://caltopo.com/static/images/icons/nps-parking.png",
-          "elevationMeters": 899
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -836,7 +726,7 @@
             "normal": "#style1",
             "highlight": "#style5"
           },
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00cd00",
@@ -1037,7 +927,7 @@
             "normal": "#style3",
             "highlight": "#style2"
           },
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#f0f000",
@@ -1278,7 +1168,7 @@
             "normal": "#style4",
             "highlight": "#style0"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#ff0000",
@@ -1287,6 +1177,121 @@
           "ascentMeters": 287.699951171875,
           "descentMeters": 673.699951171875,
           "changeMeters": -386
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -113.8337015188881,
+            36.90984892205016,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bonus Canyon",
+          "styleUrl": "#msn_open-diamond13",
+          "styleHash": "-3da3816d",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond11",
+            "highlight": "#sh_open-diamond7"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 923
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -113.8308188715707,
+            36.89710003466227,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "2e05bde5",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1399
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -113.8263139752057,
+            36.90748194978758,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Saddle",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "2e05bde5",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1088
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -113.829367,
+            36.913444,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave wash",
+          "styleUrl": "#msn_open-diamond13",
+          "styleHash": "-3da3816d",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond11",
+            "highlight": "#sh_open-diamond7"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
+          "elevationMeters": 924
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -113.835096,
+            36.915385,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#stylemap_id4",
+          "styleHash": "-392af90b",
+          "styleMapHash": {
+            "normal": "#style00",
+            "highlight": "#style"
+          },
+          "icon": "http://caltopo.com/static/images/icons/nps-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 899
         }
       },
       {
@@ -1308,6 +1313,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
           "elevationMeters": 1378
         }
       },
@@ -1330,6 +1336,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
           "elevationMeters": 1544
         }
       },
@@ -1352,6 +1359,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
           "elevationMeters": 1223
         }
       },
@@ -1374,10 +1382,11 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1099
         }
       }
     ]
   },
-  "version": "f5b8f1f3dbeaed8e73874699b3e86d33"
+  "version": "468456f9f9ce5a2daee6132e01d0db1a"
 }

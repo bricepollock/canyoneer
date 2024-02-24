@@ -21,66 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.83930158615114,
-            45.66705551099801,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Saddle",
-          "elevationMeters": 844
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.84552431106569,
-            45.668959868228214,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Checkpoint",
-          "elevationMeters": 444
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.84249877929689,
-            45.68255839413016,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 215
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.83904409408571,
-            45.671726319010666,
-            0
-          ]
-        },
-        "properties": {
-          "name": "PCT Junction",
-          "elevationMeters": 656
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -756,7 +696,7 @@
           ]
         },
         "properties": {
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2724.8848800670953,
@@ -839,7 +779,7 @@
         },
         "properties": {
           "name": "Approach (bushwhack)",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 797.8265609131122,
@@ -902,7 +842,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 386.11957025402864,
@@ -1675,7 +1615,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3368.0934114064485,
@@ -1683,8 +1623,72 @@
           "descentMeters": 725.4000701904297,
           "changeMeters": -208.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.83930158615114,
+            45.66705551099801,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Saddle",
+          "stroke": "#34C759",
+          "elevationMeters": 844
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.84552431106569,
+            45.668959868228214,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Checkpoint",
+          "stroke": "#AF52DE",
+          "elevationMeters": 444
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.84249877929689,
+            45.68255839413016,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 215
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.83904409408571,
+            45.671726319010666,
+            0
+          ]
+        },
+        "properties": {
+          "name": "PCT Junction",
+          "stroke": "#AF52DE",
+          "elevationMeters": 656
+        }
       }
     ]
   },
-  "version": "21747b966d4bf5da5ea0fe77eef59966"
+  "version": "08f343580a19cc67a8b29a07460dcded"
 }

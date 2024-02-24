@@ -25,51 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.74172377586365,
-            39.69984854775252,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 65'",
-          "elevationMeters": 3816
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.74177742004396,
-            39.69860206474545,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 100'",
-          "elevationMeters": 3772
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -105.7396960258484,
-            39.69651766372402,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3767
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -361,7 +316,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 854.6779175655456,
@@ -474,7 +429,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 170.09934377225093,
@@ -632,7 +587,7 @@
         },
         "properties": {
           "name": "Return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 503.55817250980067,
@@ -640,8 +595,56 @@
           "descentMeters": 54.400146484375,
           "changeMeters": -3.099853515625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.74172377586365,
+            39.69984854775252,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 65'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3816
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.74177742004396,
+            39.69860206474545,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 100'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3772
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.7396960258484,
+            39.69651766372402,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 3767
+        }
       }
     ]
   },
-  "version": "10bf96adc834023373f765f2ecb0506c"
+  "version": "b3d18922f7fac7c214e1c2a42e411db4"
 }

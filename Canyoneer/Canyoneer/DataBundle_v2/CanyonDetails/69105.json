@@ -27,25 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.267049,
-            36.578028,
-            409.3
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "styleUrl": "#track-start-pin",
-          "styleHash": "-32a79d36",
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
-          "timestamp": "2022-01-15T18:44:15Z",
-          "elevationMeters": 958
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -3724,7 +3705,7 @@
           "name": "Dread pirate Roberts canyon FD",
           "styleUrl": "#track-line",
           "styleHash": "7b70f5a3",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 4,
           "fill": "#ff0000",
@@ -3733,6 +3714,26 @@
           "ascentMeters": 743.5000610351562,
           "descentMeters": 470.00006103515625,
           "changeMeters": 273.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.267049,
+            36.578028,
+            409.3
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "styleUrl": "#track-start-pin",
+          "styleHash": "-32a79d36",
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+          "timestamp": "2022-01-15T18:44:15Z",
+          "stroke": "#FF3B30",
+          "elevationMeters": 958
         }
       },
       {
@@ -3751,10 +3752,11 @@
           "styleHash": "43f6b3b1",
           "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
           "timestamp": "2022-01-15T23:11:15Z",
+          "stroke": "#FF3B30",
           "elevationMeters": 1232
         }
       }
     ]
   },
-  "version": "dddd4443b3103c92b2ab9e19eefc6f75"
+  "version": "5b13a164633994ee4ef3eb8e887139e7"
 }

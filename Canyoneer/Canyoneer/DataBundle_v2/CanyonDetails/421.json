@@ -20,96 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2237450524174,
-            34.28507665761889,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park/shuttle",
-          "elevationMeters": 547
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.192306904664,
-            34.26035563034709,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 1385
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.230833333333,
-            34.2665727318466,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop In",
-          "elevationMeters": 746
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2148214589718,
-            34.27571326730096,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit",
-          "elevationMeters": 523
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2238484136069,
-            34.27412409622669,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Sign",
-          "elevationMeters": 598
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2254396066119,
-            34.27180188217184,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shortcut drop in",
-          "elevationMeters": 623
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1911,7 +1821,7 @@
         },
         "properties": {
           "name": "Stone Canyon approach",
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 8730.202929303763,
@@ -9449,7 +9359,7 @@
         },
         "properties": {
           "name": "Shuttle approach",
-          "stroke": "#00aa00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 9810.042301569834,
@@ -9662,7 +9572,7 @@
         },
         "properties": {
           "name": "Lower descent",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 1410.3472453718232,
@@ -9735,7 +9645,7 @@
         },
         "properties": {
           "name": "Upper descent",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 874.4883516810179,
@@ -10023,7 +9933,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 1524.7363668998928,
@@ -12256,7 +12166,7 @@
         },
         "properties": {
           "name": "Shortcut Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2256.8559456806465,
@@ -12264,8 +12174,104 @@
           "descentMeters": 71.800048828125,
           "changeMeters": 78.70001220703125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2237450524174,
+            34.28507665761889,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park/shuttle",
+          "stroke": "#FFCC00",
+          "elevationMeters": 547
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.192306904664,
+            34.26035563034709,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#34C759",
+          "elevationMeters": 1385
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.230833333333,
+            34.2665727318466,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop In",
+          "stroke": "#FFCC00",
+          "elevationMeters": 746
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2148214589718,
+            34.27571326730096,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "stroke": "#FF3B30",
+          "elevationMeters": 523
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2238484136069,
+            34.27412409622669,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Sign",
+          "stroke": "#34C759",
+          "elevationMeters": 598
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2254396066119,
+            34.27180188217184,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shortcut drop in",
+          "stroke": "#34C759",
+          "elevationMeters": 623
+        }
       }
     ]
   },
-  "version": "bd21b5050b6720229a7f5d064885c6bc"
+  "version": "2b791fce010403b4f5eac5ca4a7c187c"
 }

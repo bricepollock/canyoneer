@@ -4,7 +4,7 @@
   "longitude": -111.3844,
   "id": 68631,
   "name": "Loincloth Canyon",
-  "quality": 2.7,
+  "quality": 2.6,
   "months": [
     "Dec",
     "Jan",
@@ -28,84 +28,6 @@
   "geojson": {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.383758,
-            33.523366,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 25’",
-          "description": "Off rock pinch\n",
-          "elevationMeters": 577
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.38367332518102,
-            33.523507013253145,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 30’",
-          "description": "Small arch in watercourse, or cairn",
-          "elevationMeters": 577
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.38364449143411,
-            33.523619933628986,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - 110’",
-          "description": "Off boulder",
-          "elevationMeters": 577
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.386127,
-            33.522849,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Leave trail",
-          "elevationMeters": 622
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.38859450817108,
-            33.52693592566138,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 577
-        }
-      },
       {
         "type": "Feature",
         "geometry": {
@@ -485,7 +407,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1001.2407403537021,
@@ -598,7 +520,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 169.9930498943316,
@@ -1121,7 +1043,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 761.4088597081345,
@@ -1129,8 +1051,91 @@
           "descentMeters": 58.4000244140625,
           "changeMeters": 17.29998779296875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.383758,
+            33.523366,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 25’",
+          "description": "Off rock pinch\n",
+          "stroke": "#FF3B30",
+          "elevationMeters": 577
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.38367332518102,
+            33.523507013253145,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 30’",
+          "description": "Small arch in watercourse, or cairn",
+          "stroke": "#FF3B30",
+          "elevationMeters": 577
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.38364449143411,
+            33.523619933628986,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - 110’",
+          "description": "Off boulder",
+          "stroke": "#FF3B30",
+          "elevationMeters": 577
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.386127,
+            33.522849,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Leave trail",
+          "stroke": "#34C759",
+          "elevationMeters": 622
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.38859450817108,
+            33.52693592566138,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#34C759",
+          "elevationMeters": 577
+        }
       }
     ]
   },
-  "version": "731ba3f9fbde05dc94969c3bb1f000ea"
+  "version": "c7683294bdcef392d6a6561bb46f1c18"
 }

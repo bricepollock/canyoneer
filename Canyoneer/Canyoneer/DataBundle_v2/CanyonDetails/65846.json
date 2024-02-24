@@ -32,101 +32,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.851273,
-            34.921716,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 - 225’",
-          "description": "bolts rdc on ledge",
-          "elevationMeters": 1523
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.84905469417573,
-            34.90764840006353,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 1526
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.85172617435457,
-            34.92110563454889,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - 30’",
-          "description": "Off tree",
-          "elevationMeters": 1525
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.851423,
-            34.921341,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 105'",
-          "description": "Off tree",
-          "elevationMeters": 1521
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.851855,
-            34.921075,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4 - 145' ",
-          "description": "bolts on ledge",
-          "elevationMeters": 1530
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.839742,
-            34.920744,
-            0
-          ]
-        },
-        "properties": {
-          "name": "4th Class Crack",
-          "description": "Identifiable by footholds carved in rock",
-          "elevationMeters": 1549
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -913,7 +818,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 3757.715737283594,
@@ -1066,7 +971,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 236.10199300457498,
@@ -1619,7 +1524,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2013.3703928921304,
@@ -1627,8 +1532,109 @@
           "descentMeters": 574.5001220703125,
           "changeMeters": -4
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.851273,
+            34.921716,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 - 225’",
+          "description": "bolts rdc on ledge",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1523
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.84905469417573,
+            34.90764840006353,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#34C759",
+          "elevationMeters": 1526
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.85172617435457,
+            34.92110563454889,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - 30’",
+          "description": "Off tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1525
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.851423,
+            34.921341,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 105'",
+          "description": "Off tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1521
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.851855,
+            34.921075,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4 - 145' ",
+          "description": "bolts on ledge",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1530
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.839742,
+            34.920744,
+            0
+          ]
+        },
+        "properties": {
+          "name": "4th Class Crack",
+          "description": "Identifiable by footholds carved in rock",
+          "stroke": "#34C759",
+          "elevationMeters": 1549
+        }
       }
     ]
   },
-  "version": "ed907f295c033d2fc5ee103f1a566c1d"
+  "version": "9aa723bc3d745d1dde9f9d1266b2e6e5"
 }

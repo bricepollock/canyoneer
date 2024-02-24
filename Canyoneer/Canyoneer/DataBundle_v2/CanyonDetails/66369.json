@@ -35,85 +35,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.85798,
-            34.93312,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1b - 60’",
-          "description": "Off tree ldc",
-          "elevationMeters": 1592
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.85826539993288,
-            34.932722917557854,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 - 100’",
-          "description": "Off large tree",
-          "elevationMeters": 1569
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.85822516679765,
-            34.93240571956931,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 - 70’",
-          "description": "Off tree ldc",
-          "elevationMeters": 1561
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86054795980455,
-            34.930486013368586,
-            0
-          ]
-        },
-        "properties": {
-          "name": "4th class",
-          "elevationMeters": 1545
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8583753705025,
-            34.93330728429778,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1a - 80’",
-          "description": "Set back 25’ off large tree",
-          "elevationMeters": 1575
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -735,7 +656,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1208.7049359429695,
@@ -938,7 +859,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 842.8241208048665,
@@ -1071,7 +992,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 143.1963581451867,
@@ -1129,7 +1050,7 @@
         },
         "properties": {
           "name": "Alt Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 51.221691164819305,
@@ -1137,8 +1058,92 @@
           "descentMeters": 7.699951171875,
           "changeMeters": -7.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.85798,
+            34.93312,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1b - 60’",
+          "description": "Off tree ldc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1592
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.85826539993288,
+            34.932722917557854,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 - 100’",
+          "description": "Off large tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1569
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.85822516679765,
+            34.93240571956931,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 - 70’",
+          "description": "Off tree ldc",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1561
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86054795980455,
+            34.930486013368586,
+            0
+          ]
+        },
+        "properties": {
+          "name": "4th class",
+          "stroke": "#34C759",
+          "elevationMeters": 1545
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8583753705025,
+            34.93330728429778,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1a - 80’",
+          "description": "Set back 25’ off large tree",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1575
+        }
       }
     ]
   },
-  "version": "9cfb6e069bc84ae2d873c4a487da57c7"
+  "version": "c5c54819bbaed639ac9cafd22319d166"
 }

@@ -20,142 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2854347,
-            34.3006331
-          ]
-        },
-        "properties": {
-          "name": "15' Downclimb",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 678
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.284317,
-            34.2994232
-          ]
-        },
-        "properties": {
-          "name": "8' Downclimb + 45' Waterfall",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 587
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2840042,
-            34.2993813
-          ]
-        },
-        "properties": {
-          "name": "2 Tier: 10'  + 30'",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 570
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.283905,
-            34.2991665
-          ]
-        },
-        "properties": {
-          "name": "10' Downclimb or Rappel",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 550
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2831192,
-            34.2984581
-          ]
-        },
-        "properties": {
-          "name": "25' Waterfall",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 515
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2828064,
-            34.2984657
-          ]
-        },
-        "properties": {
-          "name": "2 Tier: 15' + 40'Rappelling together 200' rope",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 503
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2809264,
-            34.2970044
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 459
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2809075,
-            34.2970399
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#waypoint",
-          "styleHash": "127183d8",
-          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
-          "elevationMeters": 459
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -805,7 +669,7 @@
           "styleUrl": "#track",
           "styleHash": "-567d95f2",
           "description": "Length: 1.668 km (1.036 mi)",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "visibility": "1",
@@ -814,8 +678,152 @@
           "descentMeters": 324.9000244140625,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2854347,
+            34.3006331
+          ]
+        },
+        "properties": {
+          "name": "15' Downclimb",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 678
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.284317,
+            34.2994232
+          ]
+        },
+        "properties": {
+          "name": "8' Downclimb + 45' Waterfall",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 587
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2840042,
+            34.2993813
+          ]
+        },
+        "properties": {
+          "name": "2 Tier: 10'  + 30'",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 570
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.283905,
+            34.2991665
+          ]
+        },
+        "properties": {
+          "name": "10' Downclimb or Rappel",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 550
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2831192,
+            34.2984581
+          ]
+        },
+        "properties": {
+          "name": "25' Waterfall",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 515
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2828064,
+            34.2984657
+          ]
+        },
+        "properties": {
+          "name": "2 Tier: 15' + 40'Rappelling together 200' rope",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 503
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2809264,
+            34.2970044
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 459
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2809075,
+            34.2970399
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#waypoint",
+          "styleHash": "127183d8",
+          "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 459
+        }
       }
     ]
   },
-  "version": "c1068287e7c247c19fd0b31a15d30ab0"
+  "version": "c4a124c0add2ed37f379972915b5fbd3"
 }

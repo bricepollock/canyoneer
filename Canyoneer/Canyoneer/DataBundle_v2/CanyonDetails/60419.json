@@ -26,51 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.1164517402649,
-            36.999914985192696,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Option 2",
-          "elevationMeters": 1231
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.10314798355103,
-            36.987734428849315,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Option 1",
-          "elevationMeters": 770
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -119.06675577163698,
-            37.004960232746534,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Start",
-          "elevationMeters": 2198
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -562,7 +517,7 @@
         },
         "properties": {
           "name": "Descent ",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 3984.6421297319807,
@@ -20880,7 +20835,7 @@
         },
         "properties": {
           "name": "Exit for short shuttle (2.1 miles)",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3380.621252179834,
@@ -20953,7 +20908,7 @@
         },
         "properties": {
           "name": "Exit Creek Walking",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 628.498700884009,
@@ -21056,7 +21011,7 @@
         },
         "properties": {
           "name": "Extended shuttle exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1227.2161295763601,
@@ -23914,7 +23869,7 @@
         },
         "properties": {
           "name": "Shuttle Option 2 (long)",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 29517.11198886623,
@@ -24747,7 +24702,7 @@
         },
         "properties": {
           "name": "Shuttle Option 1 (short)",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 6400.057717821817,
@@ -24755,8 +24710,56 @@
           "descentMeters": 1645.0005493164062,
           "changeMeters": 1436.2999877929688
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.1164517402649,
+            36.999914985192696,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Option 2",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1231
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.10314798355103,
+            36.987734428849315,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Option 1",
+          "stroke": "#FFCC00",
+          "elevationMeters": 770
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.06675577163698,
+            37.004960232746534,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Start",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 2198
+        }
       }
     ]
   },
-  "version": "49ba7fb718cd4a810615f3cacd1544c3"
+  "version": "c05b20f07aec87ff93c6b0db3c8fc019"
 }

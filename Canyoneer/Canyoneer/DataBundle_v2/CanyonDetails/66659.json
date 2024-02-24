@@ -24,66 +24,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.00303649902344,
-            39.56929397583008,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cabin, proceed quietly through the property",
-          "elevationMeters": 2442
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.00890350341797,
-            39.568328857421875,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 2393
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.98587845,
-            39.57865299,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gate at Bull Gulch Rd #8012",
-          "elevationMeters": 2622
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.01393336,
-            39.5626017,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 220' East Fork Parachute Creek Falls",
-          "elevationMeters": 2502
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -390,7 +330,7 @@
         },
         "properties": {
           "name": "Roan Cliffs Rd",
-          "stroke": "#000000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2593.8786933469196,
@@ -1368,7 +1308,7 @@
         },
         "properties": {
           "name": "Long Ridge Rd #8008",
-          "stroke": "#000000",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 9145.938133031099,
@@ -1646,7 +1586,7 @@
         },
         "properties": {
           "name": "BLM boundary",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 55441.98675922726,
@@ -1974,7 +1914,7 @@
         },
         "properties": {
           "name": "CR 5",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 5306.912693037278,
@@ -2417,7 +2357,7 @@
         },
         "properties": {
           "name": "EF Parachute Creek approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1161.8130585899582,
@@ -2540,7 +2480,7 @@
         },
         "properties": {
           "name": "scramble up scree ravine",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 92.46321199414521,
@@ -2853,7 +2793,7 @@
         },
         "properties": {
           "name": "Bull Gulch Rd #8012",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3057.051806446126,
@@ -4026,7 +3966,7 @@
         },
         "properties": {
           "name": "Roan Cliffs Rd",
-          "stroke": "#000000",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 9075.406962295543,
@@ -5249,7 +5189,7 @@
         },
         "properties": {
           "name": "JQS Rd",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 18242.235798025144,
@@ -5427,7 +5367,7 @@
         },
         "properties": {
           "name": "Short Ridge Rd #8011",
-          "stroke": "#000000",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1634.7038355706966,
@@ -6780,7 +6720,7 @@
         },
         "properties": {
           "name": "Cow Creek Gulch / County Highway 249",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 20040.171977664348,
@@ -7178,7 +7118,7 @@
         },
         "properties": {
           "name": "EF Parachute Creek return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 874.8560968427834,
@@ -7516,7 +7456,7 @@
         },
         "properties": {
           "name": "EF Parachute Creek descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 668.4873311422982,
@@ -7524,8 +7464,72 @@
           "descentMeters": 148.499755859375,
           "changeMeters": -92.89990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.00303649902344,
+            39.56929397583008,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cabin, proceed quietly through the property",
+          "stroke": "#FF2D55",
+          "elevationMeters": 2442
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.00890350341797,
+            39.568328857421875,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FF2D55",
+          "elevationMeters": 2393
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.98587845,
+            39.57865299,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gate at Bull Gulch Rd #8012",
+          "stroke": "#FF2D55",
+          "elevationMeters": 2622
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.01393336,
+            39.5626017,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 220' East Fork Parachute Creek Falls",
+          "stroke": "#5856D6",
+          "elevationMeters": 2502
+        }
       }
     ]
   },
-  "version": "ceee26211579af93b95917e9fdcc3eb2"
+  "version": "e5b781fe4db75d4f0c0ac0baa89edbbe"
 }

@@ -32,81 +32,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.80245399475099,
-            34.903539418528595,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1430
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.80258810520174,
-            34.90346022842819,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "elevationMeters": 1430
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8027436733246,
-            34.903367839881184,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "elevationMeters": 1438
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.80285632610321,
-            34.90328425015388,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "elevationMeters": 1438
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.80355906486513,
-            34.902694720187256,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "elevationMeters": 1458
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1103,7 +1028,7 @@
         },
         "properties": {
           "name": "Approach and Summit",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 2768.2582125508725,
@@ -1216,7 +1141,7 @@
         },
         "properties": {
           "name": "Descent ",
-          "stroke": "#CD3700",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 200.60289344802126,
@@ -2084,7 +2009,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1528.3190387323157,
@@ -2092,8 +2017,88 @@
           "descentMeters": 232.2998046875,
           "changeMeters": -100.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.80245399475099,
+            34.903539418528595,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#34C759",
+          "elevationMeters": 1430
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.80258810520174,
+            34.90346022842819,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1430
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8027436733246,
+            34.903367839881184,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1438
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.80285632610321,
+            34.90328425015388,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1438
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.80355906486513,
+            34.902694720187256,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1458
+        }
       }
     ]
   },
-  "version": "6c7fcf878c080308b4281bd0a39df27a"
+  "version": "4eaebc1e152026cc6e0c7c2c2f285ea4"
 }

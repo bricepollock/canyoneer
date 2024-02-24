@@ -31,36 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.13919734954835,
-            36.083199323274734,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Rappel",
-          "elevationMeters": 1585
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.142066,
-            36.084488,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit",
-          "elevationMeters": 1579
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1376,7 +1346,7 @@
           ]
         },
         "properties": {
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 363.75907428853344,
@@ -1384,8 +1354,40 @@
           "descentMeters": 0,
           "changeMeters": 6.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.13919734954835,
+            36.083199323274734,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Rappel",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1585
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.142066,
+            36.084488,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1579
+        }
       }
     ]
   },
-  "version": "868da1ac9b7d035d659c3e1b6a286a03"
+  "version": "8c6d48dedd4c8e5319ab326a2792bda6"
 }

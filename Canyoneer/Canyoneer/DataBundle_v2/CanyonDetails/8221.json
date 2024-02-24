@@ -26,173 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.04649686813349,
-            45.64974088260596,
-            0
-          ]
-        },
-        "properties": {
-          "name": "creek crossing",
-          "elevationMeters": 339
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.05866336822504,
-            45.664671224392485,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Parking",
-          "description": "Upper Trailhead",
-          "elevationMeters": 551
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.05874383449554,
-            45.64727335597706,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Parking",
-          "description": "Lower Trailhead",
-          "elevationMeters": 499
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.05246210098261,
-            45.6465608280623,
-            0
-          ]
-        },
-        "properties": {
-          "name": "sharp left (overgrown)",
-          "elevationMeters": 425
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.0602834224701,
-            45.65884504028796,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Confluence",
-          "elevationMeters": 456
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.05880820751192,
-            45.65496433033276,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5",
-          "elevationMeters": 402
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.05801963806154,
-            45.65244828675087,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R9",
-          "elevationMeters": 446
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.05844879150392,
-            45.65190081669094,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Creek",
-          "elevationMeters": 448
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.05950558185579,
-            45.65015337645272,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cedar Grove",
-          "elevationMeters": 477
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.0418405532837,
-            45.65004837830723,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Hostile Local Territory",
-          "elevationMeters": 239
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.05899596214296,
-            45.66321286067791,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 529
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -784,10 +617,10 @@
         },
         "properties": {
           "name": "Hiking Route",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
-          "lengthMeters": 4770.607388194744,
+          "lengthMeters": 4770.607388194743,
           "ascentMeters": 671.8999328613281,
           "descentMeters": 605.699951171875,
           "changeMeters": 66.19998168945312
@@ -997,7 +830,7 @@
         },
         "properties": {
           "name": "RJ Trail (infrequently used)",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 0.7019607843137254,
           "stroke-width": 5,
           "lengthMeters": 1529.488526511452,
@@ -2495,7 +2328,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#3A3A3A",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 0.6,
           "stroke-width": 5,
           "lengthMeters": 13462.904526666334,
@@ -2543,7 +2376,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 84.20204341255292,
@@ -2896,7 +2729,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1485.2017594681597,
@@ -3099,7 +2932,7 @@
         },
         "properties": {
           "name": "Fast Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 580.3435692971019,
@@ -3107,8 +2940,186 @@
           "descentMeters": 39.800018310546875,
           "changeMeters": 51.100006103515625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.04649686813349,
+            45.64974088260596,
+            0
+          ]
+        },
+        "properties": {
+          "name": "creek crossing",
+          "stroke": "#34C759",
+          "elevationMeters": 339
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.05866336822504,
+            45.664671224392485,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Parking",
+          "description": "Upper Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 551
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.05874383449554,
+            45.64727335597706,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Parking",
+          "description": "Lower Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 499
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.05246210098261,
+            45.6465608280623,
+            0
+          ]
+        },
+        "properties": {
+          "name": "sharp left (overgrown)",
+          "stroke": "#34C759",
+          "elevationMeters": 425
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.0602834224701,
+            45.65884504028796,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Confluence",
+          "stroke": "#FF3B30",
+          "elevationMeters": 456
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.05880820751192,
+            45.65496433033276,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5",
+          "stroke": "#FF3B30",
+          "elevationMeters": 402
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.05801963806154,
+            45.65244828675087,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R9",
+          "stroke": "#FF3B30",
+          "elevationMeters": 446
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.05844879150392,
+            45.65190081669094,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Creek",
+          "stroke": "#FF3B30",
+          "elevationMeters": 448
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.05950558185579,
+            45.65015337645272,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cedar Grove",
+          "stroke": "#AF52DE",
+          "elevationMeters": 477
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.0418405532837,
+            45.65004837830723,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Hostile Local Territory",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 239
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.05899596214296,
+            45.66321286067791,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#FF3B30",
+          "elevationMeters": 529
+        }
       }
     ]
   },
-  "version": "e6a7a837a7bd856752681d0b14bbcfdd"
+  "version": "0ef802754ed6adc3abfe0e558cad926a"
 }

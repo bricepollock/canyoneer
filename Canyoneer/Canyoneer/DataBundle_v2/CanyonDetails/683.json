@@ -25,81 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.3962895,
-            36.1374818,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Pasture Wash Ranger Station",
-          "elevationMeters": 2014
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.37687846490871,
-            36.183819136779576,
-            0
-          ]
-        },
-        "properties": {
-          "name": "South Bass Trailhead",
-          "elevationMeters": 817
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.45505315725035,
-            36.188577304287165,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Camp",
-          "elevationMeters": 982
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.42357121849456,
-            36.15167260407701,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drainage",
-          "elevationMeters": 1829
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.4295961198169,
-            36.15413399245782,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Notch",
-          "elevationMeters": 1827
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1716,7 +1641,7 @@
         },
         "properties": {
           "name": "Point Huitzil Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 11094.857057907064,
@@ -5744,7 +5669,7 @@
         },
         "properties": {
           "name": "Esplanade Approach",
-          "stroke": "#008E00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 19118.451459621014,
@@ -6052,7 +5977,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1470.967657100966,
@@ -8580,7 +8505,7 @@
         },
         "properties": {
           "name": "Point Huitzil Exit",
-          "stroke": "#B3B300",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 15987.783004607782,
@@ -13563,7 +13488,7 @@
         },
         "properties": {
           "name": "Esplanade Exit",
-          "stroke": "#FFFF00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 1,
           "lengthMeters": 24281.34628488506,
@@ -19736,7 +19661,7 @@
         },
         "properties": {
           "name": "Tonto Trail to South Bass Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 30138.479688747142,
@@ -19744,8 +19669,88 @@
           "descentMeters": 6898.399963378906,
           "changeMeters": -119.0999755859375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.3962895,
+            36.1374818,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Pasture Wash Ranger Station",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2014
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.37687846490871,
+            36.183819136779576,
+            0
+          ]
+        },
+        "properties": {
+          "name": "South Bass Trailhead",
+          "stroke": "#34C759",
+          "elevationMeters": 817
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.45505315725035,
+            36.188577304287165,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Camp",
+          "stroke": "#FF3B30",
+          "elevationMeters": 982
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.42357121849456,
+            36.15167260407701,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drainage",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1829
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.4295961198169,
+            36.15413399245782,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Notch",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1827
+        }
       }
     ]
   },
-  "version": "7e6cf34aca46c697c71287d28a21f1f8"
+  "version": "1ba744ed92605bc073b9657d8be31697"
 }

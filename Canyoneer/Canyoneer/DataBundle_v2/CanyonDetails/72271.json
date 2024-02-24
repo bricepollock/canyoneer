@@ -26,52 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.72433731802346,
-            35.04436742552728,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "description": "80'",
-          "elevationMeters": 1951
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.72942387725536,
-            35.04091890172756,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Drop-In",
-          "elevationMeters": 1933
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.73353591200853,
-            35.04210789802681,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1945
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1528,7 +1482,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 411.06846286955437,
@@ -5806,7 +5760,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 845.3091451238961,
@@ -11954,7 +11908,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 1380.112889389247,
@@ -11962,8 +11916,57 @@
           "descentMeters": 124.3001708984375,
           "changeMeters": -1.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.72433731802346,
+            35.04436742552728,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "description": "80'",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1951
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.72942387725536,
+            35.04091890172756,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Drop-In",
+          "stroke": "#34C759",
+          "elevationMeters": 1933
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.73353591200853,
+            35.04210789802681,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1945
+        }
       }
     ]
   },
-  "version": "89b333023ce31861b365d039a4d1a9d8"
+  "version": "6c15761606698ff49926addc42efc3eb"
 }

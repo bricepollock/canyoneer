@@ -26,98 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.059919,
-            33.481508,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "53856e46",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by kamali shahin at wikiloc.com)",
-          "elevationMeters": 1444
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.061809,
-            33.476986,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "f15104d",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by kamali shahin at wikiloc.com)",
-          "elevationMeters": 1455
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.199392,
-            33.340555,
-            0
-          ]
-        },
-        "properties": {
-          "name": "abshare dareh gerdo",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "4672ed84",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by kamali shahin at wikiloc.com)",
-          "elevationMeters": 2179
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            49.161199,
-            33.316483,
-            0
-          ]
-        },
-        "properties": {
-          "name": "abshare neigah",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "4672ed84",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by kamali shahin at wikiloc.com)",
-          "elevationMeters": 2387
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2510,7 +2418,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by kamali shahin at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 72093.05442217826,
@@ -2518,8 +2426,104 @@
           "descentMeters": 8193.500732421875,
           "changeMeters": 11.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.059919,
+            33.481508,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-580aef83",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by kamali shahin at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1444
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.061809,
+            33.476986,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "652e636",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by kamali shahin at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1455
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.199392,
+            33.340555,
+            0
+          ]
+        },
+        "properties": {
+          "name": "abshare dareh gerdo",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-3139ce05",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by kamali shahin at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2179
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.161199,
+            33.316483,
+            0
+          ]
+        },
+        "properties": {
+          "name": "abshare neigah",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-3139ce05",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by kamali shahin at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2387
+        }
       }
     ]
   },
-  "version": "017a9dbf76fc3abee72d149bdfca04b1"
+  "version": "34aabd385f7769ea65474d6d54a72a09"
 }

@@ -26,75 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            47.125187,
-            34.397613,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "53856e46",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Nader Montazeryani نادر منتظریانی at wikiloc.com)",
-          "elevationMeters": 1436
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            47.124425,
-            34.394799,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "f15104d",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Nader Montazeryani نادر منتظریانی at wikiloc.com)",
-          "elevationMeters": 1441
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            47.124794,
-            34.399378,
-            0
-          ]
-        },
-        "properties": {
-          "name": "پارک کوهستان",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "4672ed84",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Nader Montazeryani نادر منتظریانی at wikiloc.com)",
-          "elevationMeters": 1432
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -747,7 +678,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Nader Montazeryani نادر منتظریانی at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 5092.895038188533,
@@ -755,8 +686,80 @@
           "descentMeters": 42.9998779296875,
           "changeMeters": 5.10009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            47.125187,
+            34.397613,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-1e56a49a",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Nader Montazeryani نادر منتظریانی at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1436
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            47.124425,
+            34.394799,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "-328d3a06",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Nader Montazeryani نادر منتظریانی at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1441
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            47.124794,
+            34.399378,
+            0
+          ]
+        },
+        "properties": {
+          "name": "پارک کوهستان",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-14c9bde7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Nader Montazeryani نادر منتظریانی at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1432
+        }
       }
     ]
   },
-  "version": "b8e8ad1cb89b087d1b585e280bc499a3"
+  "version": "014950826c5d56f906d5883b9f2befc4"
 }

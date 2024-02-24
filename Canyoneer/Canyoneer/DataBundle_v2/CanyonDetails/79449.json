@@ -27,111 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.31090351994503,
-            40.60998841817518,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 2283
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.33766867116394,
-            40.61257148262651,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Shuttle Parking",
-          "elevationMeters": 1783
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.32692527770998,
-            40.61877375016634,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DC",
-          "elevationMeters": 2275
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.32057380676271,
-            40.62242207705034,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 70'",
-          "elevationMeters": 2289
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.319463532338,
-            40.62341412769617,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 170'",
-          "elevationMeters": 2290
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.32643353273308,
-            40.618567386995494,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DC",
-          "elevationMeters": 2274
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.32306289672853,
-            40.620793384312655,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DC",
-          "elevationMeters": 2285
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -418,7 +313,7 @@
         },
         "properties": {
           "name": "approx approach on public land",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2483.135337937902,
@@ -1886,7 +1781,7 @@
         },
         "properties": {
           "name": "Chicken Slot Drive",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 29619.648073335782,
@@ -2154,7 +2049,7 @@
         },
         "properties": {
           "name": "Chicken Slot Shuttle drive",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2245.590438072422,
@@ -3052,7 +2947,7 @@
         },
         "properties": {
           "name": "Chicken Slot Shuttle Drive",
-          "stroke": "#000000",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4233.9629551902,
@@ -3125,7 +3020,7 @@
         },
         "properties": {
           "name": "Public Land to South",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 5242.51007994945,
@@ -4278,7 +4173,7 @@
         },
         "properties": {
           "name": "Chicken Slot descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1090.4634969079254,
@@ -5546,7 +5441,7 @@
         },
         "properties": {
           "name": "Chicken Slot return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1427.8875895442643,
@@ -5554,8 +5449,120 @@
           "descentMeters": 567.4996337890625,
           "changeMeters": -486.60009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.31090351994503,
+            40.60998841817518,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#007AFF",
+          "elevationMeters": 2283
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.33766867116394,
+            40.61257148262651,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Shuttle Parking",
+          "stroke": "#007AFF",
+          "elevationMeters": 1783
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.32692527770998,
+            40.61877375016634,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DC",
+          "stroke": "#5856D6",
+          "elevationMeters": 2275
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.32057380676271,
+            40.62242207705034,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 70'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2289
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.319463532338,
+            40.62341412769617,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 170'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2290
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.32643353273308,
+            40.618567386995494,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DC",
+          "stroke": "#5856D6",
+          "elevationMeters": 2274
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.32306289672853,
+            40.620793384312655,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DC",
+          "stroke": "#5856D6",
+          "elevationMeters": 2285
+        }
       }
     ]
   },
-  "version": "dde7e2593b78861779fb42811631cddc"
+  "version": "0ecf3be9237a6c615ca09831ca92cf1c"
 }

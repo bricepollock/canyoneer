@@ -27,83 +27,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.98833333333333,
-            34.96138888888889,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Tech",
-          "elevationMeters": 1715
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.94610119484425,
-            34.98596029524834,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "description": "Space limited. Up to two cars. Do not block the gate!!!!",
-          "elevationMeters": 2106
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.98776591198114,
-            34.98806204815361,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Taylor cabin",
-          "elevationMeters": 1372
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.97688,
-            34.96715,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Spot bikes",
-          "elevationMeters": 1978
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.98833333333333,
-            34.963055555555556,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Big drop",
-          "description": "200' to first ledge. Then 35' off a tree on the right. A 235 rope' will bypass the last rappel. ",
-          "elevationMeters": 1593
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -575,7 +498,7 @@
         },
         "properties": {
           "name": "Alternate Exit",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4175.975177832661,
@@ -1129,7 +1052,7 @@
         "properties": {
           "name": "Alternate exit",
           "description": "Plus 6 miles ",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 5634.905870364536,
@@ -1268,7 +1191,7 @@
         "properties": {
           "name": "Descent",
           "description": "Starting at the technical section up to 6 rappels 200' max",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1628.8768491011363,
@@ -1687,7 +1610,7 @@
         "properties": {
           "name": "Exit",
           "description": "Gane the ridge and navigate through brushy terrain. Protective layers reccomended. ",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1377.0287507589783,
@@ -2261,7 +2184,7 @@
         "properties": {
           "name": "Approach",
           "description": "This road is gated and has big hills , and loose gravel. \n\nBikes optional approx 1 hr. \nOn foot approach  2 hours. \n ",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 5756.844877569017,
@@ -2269,8 +2192,90 @@
           "descentMeters": 431.1002197265625,
           "changeMeters": 742.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.98833333333333,
+            34.96138888888889,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Tech",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1715
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.94610119484425,
+            34.98596029524834,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "description": "Space limited. Up to two cars. Do not block the gate!!!!",
+          "stroke": "#34C759",
+          "elevationMeters": 2106
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.98776591198114,
+            34.98806204815361,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Taylor cabin",
+          "stroke": "#FF9500",
+          "elevationMeters": 1372
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.97688,
+            34.96715,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Spot bikes",
+          "stroke": "#34C759",
+          "elevationMeters": 1978
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.98833333333333,
+            34.963055555555556,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Big drop",
+          "description": "200' to first ledge. Then 35' off a tree on the right. A 235 rope' will bypass the last rappel. ",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1593
+        }
       }
     ]
   },
-  "version": "9ee85a86c50b08b149fe7e460f6e9978"
+  "version": "b8380391527702fce20f6d631692d334"
 }

@@ -32,81 +32,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.809318,
-            36.619475,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(Start)",
-          "elevationMeters": 2518
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.894701,
-            36.544938,
-            0
-          ]
-        },
-        "properties": {
-          "name": "(End)",
-          "elevationMeters": 1255
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.87908386909413,
-            36.54882718503221,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trail crosses left to right (less poison oak)",
-          "elevationMeters": 1043
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.87491167294387,
-            36.548625633360366,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trail crosses right to left (significant poison oak)",
-          "elevationMeters": 1000
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.86454121777619,
-            36.55007393002859,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Find trail on right (some poison oak)",
-          "elevationMeters": 923
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -4353,7 +4278,7 @@
         },
         "properties": {
           "name": "Little Baldy Saddle Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3722.53756857504,
@@ -4521,7 +4446,7 @@
         },
         "properties": {
           "name": "Old Trail (approximate)",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 7279.297409731515,
@@ -5599,7 +5524,7 @@
         },
         "properties": {
           "name": "Upper Technical Section",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 806.8415827851916,
@@ -9227,7 +9152,7 @@
         },
         "properties": {
           "name": "Creek Walking",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2821.874383030043,
@@ -11345,7 +11270,7 @@
         },
         "properties": {
           "name": "Technical Gorge",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1671.949246360076,
@@ -18078,7 +18003,7 @@
         },
         "properties": {
           "name": "Creek Walking",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6821.281611549351,
@@ -21066,7 +20991,7 @@
         },
         "properties": {
           "name": "Exit Trail",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3381.7678138970523,
@@ -21194,7 +21119,7 @@
         },
         "properties": {
           "name": "More old trail?",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 749.1543196072528,
@@ -21342,7 +21267,7 @@
         },
         "properties": {
           "name": "Crystal Cave Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 861.2251895500741,
@@ -21350,8 +21275,88 @@
           "descentMeters": 1129.5000610351562,
           "changeMeters": -1049.3999633789062
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.809318,
+            36.619475,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(Start)",
+          "stroke": "#34C759",
+          "elevationMeters": 2518
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.894701,
+            36.544938,
+            0
+          ]
+        },
+        "properties": {
+          "name": "(End)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1255
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.87908386909413,
+            36.54882718503221,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trail crosses left to right (less poison oak)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1043
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.87491167294387,
+            36.548625633360366,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trail crosses right to left (significant poison oak)",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1000
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.86454121777619,
+            36.55007393002859,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Find trail on right (some poison oak)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 923
+        }
       }
     ]
   },
-  "version": "c1560efcc931b46247ceb4dd954fb95a"
+  "version": "f356cf2cfc23944baa3717b12a05b833"
 }

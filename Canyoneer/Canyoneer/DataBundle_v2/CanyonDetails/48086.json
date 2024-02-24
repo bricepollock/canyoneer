@@ -24,51 +24,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.72220706939697,
-            45.690338203108716,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Gate Parking",
-          "elevationMeters": 190
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.72081232070924,
-            45.68361525249668,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lindsey Creek Falls",
-          "elevationMeters": 24
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.69029951095582,
-            45.68846455227013,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Starvation Creek",
-          "elevationMeters": 370
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -195,7 +150,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 594.0441114240061,
@@ -468,7 +423,7 @@
         },
         "properties": {
           "name": "Approach - Bushwhack",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1803.3458497580252,
@@ -601,7 +556,7 @@
         },
         "properties": {
           "name": "Descent (Upper Lindsey)",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1128.4645222416307,
@@ -789,7 +744,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 940.8759245250388,
@@ -857,7 +812,7 @@
         },
         "properties": {
           "name": "Lower Lindsey",
-          "stroke": "#009AFF",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 448.16878045381696,
@@ -920,7 +875,7 @@
         },
         "properties": {
           "name": "Early Entrance",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 343.51578141790304,
@@ -928,8 +883,56 @@
           "descentMeters": 0,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.72220706939697,
+            45.690338203108716,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Gate Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 190
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.72081232070924,
+            45.68361525249668,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lindsey Creek Falls",
+          "stroke": "#FF3B30",
+          "elevationMeters": 24
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.69029951095582,
+            45.68846455227013,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Starvation Creek",
+          "stroke": "#FF3B30",
+          "elevationMeters": 370
+        }
       }
     ]
   },
-  "version": "089dc5779f6531717ca9653e8d20a329"
+  "version": "4eb190309b2ab372b5929ef2e5ad1c6f"
 }

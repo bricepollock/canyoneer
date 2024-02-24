@@ -35,66 +35,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.0287318229675293,
-            42.15171206246085,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking (Lower)",
-          "elevationMeters": 541
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.04531860351562501,
-            42.21980971183234,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking (Upper)",
-          "elevationMeters": 980
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.04347324371337891,
-            42.220222875382646,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start descent",
-          "elevationMeters": 1042
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.02768039703369141,
-            42.15182341895086,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon finish",
-          "elevationMeters": 530
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -111,7 +51,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 84.90708308018604,
@@ -374,7 +314,7 @@
         },
         "properties": {
           "name": "Shuttle (or hitchhike)",
-          "stroke": "#000000",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 16596.546317039843,
@@ -427,7 +367,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 397.2679233258656,
@@ -690,7 +630,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 10273.775762395508,
@@ -698,8 +638,72 @@
           "descentMeters": 1185.9000244140625,
           "changeMeters": -511.89996337890625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.0287318229675293,
+            42.15171206246085,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking (Lower)",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 541
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.04531860351562501,
+            42.21980971183234,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking (Upper)",
+          "stroke": "#5AC8FA",
+          "elevationMeters": 980
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.04347324371337891,
+            42.220222875382646,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start descent",
+          "stroke": "#34C759",
+          "elevationMeters": 1042
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.02768039703369141,
+            42.15182341895086,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon finish",
+          "stroke": "#FFCC00",
+          "elevationMeters": 530
+        }
       }
     ]
   },
-  "version": "f9c70beb2a3d4c8f9517a07b51c38d24"
+  "version": "b408438ae45692ece3027a2627ecf4af"
 }

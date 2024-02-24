@@ -26,81 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.05948412418367,
-            45.650074627862054,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cedar Grove",
-          "elevationMeters": 477
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.05872237682344,
-            45.64733335791403,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Parking",
-          "elevationMeters": 499
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.0642,
-            45.6548,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 (approx)",
-          "elevationMeters": 527
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.06693530082703,
-            45.65105335248294,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Last Tower",
-          "elevationMeters": 672
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -122.05857753753662,
-            45.64065774826779,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Unsigned Junction",
-          "elevationMeters": 226
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -502,7 +427,7 @@
         },
         "properties": {
           "name": "Shuttle",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 4486.525596012243,
@@ -620,7 +545,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 980.6625904200723,
@@ -868,7 +793,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 778.0523212713322,
@@ -1031,7 +956,7 @@
         },
         "properties": {
           "name": "Fast Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 343.6373351008724,
@@ -1039,8 +964,88 @@
           "descentMeters": 36.899993896484375,
           "changeMeters": 23.899993896484375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.05948412418367,
+            45.650074627862054,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cedar Grove",
+          "stroke": "#FF3B30",
+          "elevationMeters": 477
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.05872237682344,
+            45.64733335791403,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 499
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.0642,
+            45.6548,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 (approx)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 527
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.06693530082703,
+            45.65105335248294,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Last Tower",
+          "stroke": "#34C759",
+          "elevationMeters": 672
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.05857753753662,
+            45.64065774826779,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Unsigned Junction",
+          "stroke": "#FF2D55",
+          "elevationMeters": 226
+        }
       }
     ]
   },
-  "version": "72c4e6bfa795d58f384ce16151bc91c8"
+  "version": "7beb7ff37e6f0c798bbdba67decff511"
 }

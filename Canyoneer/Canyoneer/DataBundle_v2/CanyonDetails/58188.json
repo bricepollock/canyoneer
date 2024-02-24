@@ -28,141 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.66107182109337,
-            38.61251649912563,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1450
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.67027272721647,
-            38.60921965169065,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Weakness in cliff bands",
-          "elevationMeters": 1456
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.65394301248269,
-            38.61791514058727,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Entrance to canyon",
-          "elevationMeters": 1411
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.65537968822291,
-            38.61721843541779,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Pool",
-          "elevationMeters": 1417
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.65562983707443,
-            38.61720748526424,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 1417
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.6567096934701,
-            38.616132905551666,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "elevationMeters": 1460
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.6578879952162,
-            38.615583384063584,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Bypass",
-          "elevationMeters": 1454
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.65822004187099,
-            38.61479939311008,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3",
-          "elevationMeters": 1449
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -109.65486286970624,
-            38.61744617051645,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Canyon Floor",
-          "elevationMeters": 1414
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -409,7 +274,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#2BFF00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 3215.212466483041,
@@ -517,7 +382,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#BC00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 836.2173464772394,
@@ -525,8 +390,152 @@
           "descentMeters": 20.5,
           "changeMeters": 35.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.66107182109337,
+            38.61251649912563,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1450
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.67027272721647,
+            38.60921965169065,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Weakness in cliff bands",
+          "stroke": "#34C759",
+          "elevationMeters": 1456
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.65394301248269,
+            38.61791514058727,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Entrance to canyon",
+          "stroke": "#34C759",
+          "elevationMeters": 1411
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.65537968822291,
+            38.61721843541779,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Pool",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1417
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.65562983707443,
+            38.61720748526424,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1417
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.6567096934701,
+            38.616132905551666,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1460
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.6578879952162,
+            38.615583384063584,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Bypass",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1454
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.65822004187099,
+            38.61479939311008,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1449
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -109.65486286970624,
+            38.61744617051645,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Canyon Floor",
+          "stroke": "#34C759",
+          "elevationMeters": 1414
+        }
       }
     ]
   },
-  "version": "a6069c7302947bb807e52135c1545738"
+  "version": "071720855b59bb27fd14ad394ca3c74d"
 }

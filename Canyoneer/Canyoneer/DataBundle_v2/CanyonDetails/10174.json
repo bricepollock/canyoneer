@@ -25,96 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.82701571163943,
-            37.855598944135046,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 3362
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.830657,
-            37.851618,
-            0
-          ]
-        },
-        "properties": {
-          "name": "junction",
-          "elevationMeters": 3146
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.831295,
-            37.850605,
-            0
-          ]
-        },
-        "properties": {
-          "name": "drop in faint use trail",
-          "elevationMeters": 3087
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.83213714847946,
-            37.85158835562233,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 65' or 85'",
-          "elevationMeters": 3118
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.83313259,
-            37.85244037,
-            0
-          ]
-        },
-        "properties": {
-          "name": "2 log bridge stay canyon right",
-          "elevationMeters": 3108
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.83343421,
-            37.85524744,
-            0
-          ]
-        },
-        "properties": {
-          "name": "junction",
-          "elevationMeters": 3204
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -316,7 +226,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 311.9265461610233,
@@ -694,7 +604,7 @@
         },
         "properties": {
           "name": "return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1038.489177927122,
@@ -1102,7 +1012,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1020.2105982292093,
@@ -1110,8 +1020,104 @@
           "descentMeters": 330.600341796875,
           "changeMeters": -284
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.82701571163943,
+            37.855598944135046,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 3362
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.830657,
+            37.851618,
+            0
+          ]
+        },
+        "properties": {
+          "name": "junction",
+          "stroke": "#34C759",
+          "elevationMeters": 3146
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.831295,
+            37.850605,
+            0
+          ]
+        },
+        "properties": {
+          "name": "drop in faint use trail",
+          "stroke": "#34C759",
+          "elevationMeters": 3087
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.83213714847946,
+            37.85158835562233,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 65' or 85'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3118
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.83313259,
+            37.85244037,
+            0
+          ]
+        },
+        "properties": {
+          "name": "2 log bridge stay canyon right",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3108
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.83343421,
+            37.85524744,
+            0
+          ]
+        },
+        "properties": {
+          "name": "junction",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3204
+        }
       }
     ]
   },
-  "version": "251211482c03ed3d5108be42697e3d34"
+  "version": "b9aba573c0fff136dd6aea457c121513"
 }

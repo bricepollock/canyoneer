@@ -26,141 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.8802801775819,
-            40.28646395391374,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 45'",
-          "elevationMeters": 2344
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.87946066139193,
-            40.2830089124615,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DC",
-          "elevationMeters": 2199
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.8752883782854,
-            40.27574354701319,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DC: 20'",
-          "elevationMeters": 2018
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.880766968191,
-            40.287775881045675,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 75'",
-          "elevationMeters": 2344
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.87611261003259,
-            40.27843166154109,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DC: 25' rabbit hole",
-          "elevationMeters": 2184
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.8799152259162,
-            40.284497301779915,
-            0
-          ]
-        },
-        "properties": {
-          "name": "DC: 20'",
-          "elevationMeters": 2285
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.90085757970284,
-            40.30650744440022,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 1842
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.87595823092855,
-            40.277716585742795,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 45'",
-          "elevationMeters": 2168
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.87553217707138,
-            40.27609358556214,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4: 155'",
-          "elevationMeters": 2025
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -2232,7 +2097,7 @@
         },
         "properties": {
           "name": "Snake Drop approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2546.093436680271,
@@ -10980,7 +10845,7 @@
         },
         "properties": {
           "name": "Snake Drop return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6389.1930888631105,
@@ -11053,7 +10918,7 @@
         },
         "properties": {
           "name": "possible better return shortcut",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 833.9318459944411,
@@ -11086,7 +10951,7 @@
         },
         "properties": {
           "name": "escape",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 45.08458354572275,
@@ -14299,7 +14164,7 @@
         },
         "properties": {
           "name": "Snake Drop descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2558.175683208137,
@@ -14762,7 +14627,7 @@
         },
         "properties": {
           "name": "BLM Road",
-          "stroke": "#000000",
+          "stroke": "#007AFF",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4352.246721569664,
@@ -14770,8 +14635,152 @@
           "descentMeters": 33.699951171875,
           "changeMeters": 140.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.8802801775819,
+            40.28646395391374,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 45'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2344
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.87946066139193,
+            40.2830089124615,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DC",
+          "stroke": "#5856D6",
+          "elevationMeters": 2199
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.8752883782854,
+            40.27574354701319,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DC: 20'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2018
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.880766968191,
+            40.287775881045675,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 75'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2344
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.87611261003259,
+            40.27843166154109,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DC: 25' rabbit hole",
+          "stroke": "#5856D6",
+          "elevationMeters": 2184
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.8799152259162,
+            40.284497301779915,
+            0
+          ]
+        },
+        "properties": {
+          "name": "DC: 20'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2285
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.90085757970284,
+            40.30650744440022,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 1842
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.87595823092855,
+            40.277716585742795,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 45'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2168
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.87553217707138,
+            40.27609358556214,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4: 155'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2025
+        }
       }
     ]
   },
-  "version": "745a3da4b1a0725a1addc3d5104927f6"
+  "version": "1fc212b0ee916f1747a1c415da932928"
 }

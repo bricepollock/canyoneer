@@ -31,21 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.39659685539243,
-            34.54485605889948,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Car Park",
-          "elevationMeters": 2069
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -332,7 +317,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 401.9775717606767,
@@ -475,7 +460,7 @@
         },
         "properties": {
           "name": "Technical Section",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 243.57440727665613,
@@ -1008,7 +993,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 874.5323655505365,
@@ -1016,8 +1001,24 @@
           "descentMeters": 67.300048828125,
           "changeMeters": 44.7000732421875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.39659685539243,
+            34.54485605889948,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Car Park",
+          "stroke": "#34C759",
+          "elevationMeters": 2069
+        }
       }
     ]
   },
-  "version": "1c5e135feb16eaa759e835a80bc17950"
+  "version": "47b7226044ce53feccef033a1f794806"
 }

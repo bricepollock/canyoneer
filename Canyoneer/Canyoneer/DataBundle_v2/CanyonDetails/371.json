@@ -26,28 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.9552026155374,
-            37.03779814311946,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#m_ylw-pushpin6",
-          "styleHash": "-603ca3bd",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin15",
-            "highlight": "#s_ylw-pushpin_hl0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 1726
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -196,79 +174,13 @@
             "highlight": "#s_ylw-pushpin_hl1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00d000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 1271.8342468667822,
           "ascentMeters": 488.1998291015625,
           "descentMeters": 53.099853515625,
           "changeMeters": 435.0999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.9648303352289,
-            37.05220252317802,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Top Rock",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "6054c48b",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin0",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 2088
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.9673386055769,
-            37.05392424320069,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Down climb",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "6054c48b",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin0",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 2066
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.9667248325067,
-            37.05434710623472,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "6054c48b",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin0",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 2072
         }
       },
       {
@@ -367,7 +279,7 @@
             "highlight": "#s_ylw-pushpin_hl1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00d000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 347.7639985170273,
@@ -512,13 +424,105 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 1130.3134069309397,
           "ascentMeters": 102.600341796875,
           "descentMeters": 7.80029296875,
           "changeMeters": 94.800048828125
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.9552026155374,
+            37.03779814311946,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#m_ylw-pushpin6",
+          "styleHash": "-603ca3bd",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin15",
+            "highlight": "#s_ylw-pushpin_hl0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1726
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.9648303352289,
+            37.05220252317802,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Top Rock",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "6054c48b",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin0",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
+          "elevationMeters": 2088
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.9673386055769,
+            37.05392424320069,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Down climb",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "6054c48b",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin0",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2066
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.9667248325067,
+            37.05434710623472,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "6054c48b",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin0",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2072
         }
       },
       {
@@ -540,10 +544,11 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1480
         }
       }
     ]
   },
-  "version": "f349f6a0626a432bb727eaaec88df00b"
+  "version": "53431b298caeb416cb1470222172d0ff"
 }

@@ -31,142 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.062515,
-            34.311207,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3-35 chute",
-          "elevationMeters": 2086
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.05707,
-            34.308826,
-            0
-          ]
-        },
-        "properties": {
-          "name": "wetsuit",
-          "elevationMeters": 2188
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.060776,
-            34.311043,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1-25",
-          "elevationMeters": 2066
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.06288,
-            34.311134,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4-25",
-          "elevationMeters": 2095
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.06335,
-            34.311123,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5-20",
-          "elevationMeters": 2110
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.06205,
-            34.311092,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2-30, 20, J45",
-          "description": "flow reference rappel LDC or rap out of flow high LDC",
-          "elevationMeters": 2056
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.06558,
-            34.311428,
-            0
-          ]
-        },
-        "properties": {
-          "name": "exit",
-          "description": "changing area with lunch view",
-          "elevationMeters": 2175
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.063399,
-            34.311235,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Alternate Exit",
-          "elevationMeters": 2110
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.0626,
-            34.3171,
-            0
-          ]
-        },
-        "properties": {
-          "elevationMeters": 2052
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -628,7 +492,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 986.5593840870647,
@@ -981,7 +845,7 @@
         },
         "properties": {
           "description": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 1371.5749318692485,
@@ -2013,7 +1877,7 @@
           ]
         },
         "properties": {
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 2003.9848536941142,
@@ -2246,7 +2110,7 @@
         },
         "properties": {
           "name": "Alternate Exit",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 549.5826879129826,
@@ -2479,7 +2343,7 @@
         },
         "properties": {
           "name": "cc climbers exit ",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 4,
           "lengthMeters": 549.5826879129826,
@@ -2487,8 +2351,153 @@
           "descentMeters": 117.7001953125,
           "changeMeters": -36.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.062515,
+            34.311207,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3-35 chute",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2086
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.05707,
+            34.308826,
+            0
+          ]
+        },
+        "properties": {
+          "name": "wetsuit",
+          "stroke": "#34C759",
+          "elevationMeters": 2188
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.060776,
+            34.311043,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1-25",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2066
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.06288,
+            34.311134,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4-25",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2095
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.06335,
+            34.311123,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5-20",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2110
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.06205,
+            34.311092,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2-30, 20, J45",
+          "description": "flow reference rappel LDC or rap out of flow high LDC",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2056
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.06558,
+            34.311428,
+            0
+          ]
+        },
+        "properties": {
+          "name": "exit",
+          "description": "changing area with lunch view",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2175
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.063399,
+            34.311235,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Alternate Exit",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2110
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.0626,
+            34.3171,
+            0
+          ]
+        },
+        "properties": {
+          "stroke": "#FFCC00",
+          "elevationMeters": 2052
+        }
       }
     ]
   },
-  "version": "c4facff0bbc1ac46fcc0a321707e99d3"
+  "version": "4417bdce7f8b95c0d1dc165073bd25b0"
 }

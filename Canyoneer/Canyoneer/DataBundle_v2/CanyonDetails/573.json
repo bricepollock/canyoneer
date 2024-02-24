@@ -31,50 +31,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.798098,
-            38.7025165,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Teepee Mesa",
-          "styleUrl": "#icon-1899-0288D1-nodesc",
-          "styleHash": "8e57c38",
-          "styleMapHash": {
-            "normal": "#icon-1899-0288D1-nodesc-normal",
-            "highlight": "#icon-1899-0288D1-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
-          "elevationMeters": 2069
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.801358,
-            38.696604,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Baptist Draw TH",
-          "styleUrl": "#icon-1453-nodesc",
-          "styleHash": "7c43fdb1",
-          "styleMapHash": {
-            "normal": "#icon-1453-nodesc-normal",
-            "highlight": "#icon-1453-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
-          "elevationMeters": 2086
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -452,7 +408,7 @@
             "normal": "#line-097138-6000-nodesc-normal",
             "highlight": "#line-097138-6000-nodesc-highlight"
           },
-          "stroke": "#097138",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 1451.8204593308492,
@@ -711,7 +667,7 @@
             "normal": "#line-A52714-6000-nodesc-normal",
             "highlight": "#line-A52714-6000-nodesc-highlight"
           },
-          "stroke": "#a52714",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 1430.7064790659933,
@@ -1100,7 +1056,7 @@
             "normal": "#line-FF5252-5844-nodesc-normal",
             "highlight": "#line-FF5252-5844-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5.844,
           "lengthMeters": 1469.824834487524,
@@ -1479,7 +1435,7 @@
             "normal": "#line-FFD600-6000-nodesc-normal",
             "highlight": "#line-FFD600-6000-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 6,
           "lengthMeters": 1931.031788594747,
@@ -1748,7 +1704,7 @@
             "normal": "#line-FF5252-3131-nodesc-normal",
             "highlight": "#line-FF5252-3131-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3.131,
           "lengthMeters": 3083.000596184302,
@@ -2042,7 +1998,7 @@
             "normal": "#line-FF5252-3519-nodesc-normal",
             "highlight": "#line-FF5252-3519-nodesc-highlight"
           },
-          "stroke": "#ff5252",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3.519,
           "lengthMeters": 1604.012310727323,
@@ -2531,35 +2487,13 @@
             "normal": "#line-FFD600-3519-nodesc-normal",
             "highlight": "#line-FFD600-3519-nodesc-highlight"
           },
-          "stroke": "#ffd600",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 3.519,
           "lengthMeters": 4775.418536678705,
           "ascentMeters": 458.900146484375,
           "descentMeters": 236.4000244140625,
           "changeMeters": 222.5001220703125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -110.793573,
-            38.692571,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Southern Baptist Draw TH",
-          "styleUrl": "#icon-1207-nodesc",
-          "styleHash": "69dbb8f1",
-          "styleMapHash": {
-            "normal": "#icon-1207-nodesc-normal",
-            "highlight": "#icon-1207-nodesc-highlight"
-          },
-          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
-          "elevationMeters": 2048
         }
       },
       {
@@ -2762,13 +2696,82 @@
             "normal": "#line-4E342E-3713-nodesc-normal",
             "highlight": "#line-4E342E-3713-nodesc-highlight"
           },
-          "stroke": "#4e342e",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 3.713,
           "lengthMeters": 996.6808528122336,
           "ascentMeters": 15.5,
           "descentMeters": 53.2998046875,
           "changeMeters": -37.7998046875
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.798098,
+            38.7025165,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Teepee Mesa",
+          "styleUrl": "#icon-1899-0288D1-nodesc",
+          "styleHash": "8e57c38",
+          "styleMapHash": {
+            "normal": "#icon-1899-0288D1-nodesc-normal",
+            "highlight": "#icon-1899-0288D1-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2069
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.801358,
+            38.696604,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Baptist Draw TH",
+          "styleUrl": "#icon-1453-nodesc",
+          "styleHash": "7c43fdb1",
+          "styleMapHash": {
+            "normal": "#icon-1453-nodesc-normal",
+            "highlight": "#icon-1453-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1453-trans-parking.png",
+          "stroke": "#34C759",
+          "elevationMeters": 2086
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -110.793573,
+            38.692571,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Southern Baptist Draw TH",
+          "styleUrl": "#icon-1207-nodesc",
+          "styleHash": "69dbb8f1",
+          "styleMapHash": {
+            "normal": "#icon-1207-nodesc-normal",
+            "highlight": "#icon-1207-nodesc-highlight"
+          },
+          "icon": "https://www.gstatic.com/mapspro/images/stock/1207-fac-parking.png",
+          "stroke": "#FF2D55",
+          "elevationMeters": 2048
         }
       },
       {
@@ -2790,10 +2793,11 @@
             "highlight": "#icon-1125-nodesc-highlight"
           },
           "icon": "https://www.gstatic.com/mapspro/images/stock/1125-crisis-caution.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 2022
         }
       }
     ]
   },
-  "version": "bcf6b563ed669ef807e6ad76ae0cf978"
+  "version": "65af5a9e83a346dc20d57c93662ad9dc"
 }

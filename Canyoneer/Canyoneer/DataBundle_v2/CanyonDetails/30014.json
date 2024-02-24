@@ -26,167 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            54.351103,
-            31.541053,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "53856e46",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by adoroshk at wikiloc.com)",
-          "elevationMeters": 1774
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            54.344081,
-            31.520217,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-16dd6754",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by adoroshk at wikiloc.com)",
-          "elevationMeters": 1652
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            54.350803,
-            31.541236,
-            0
-          ]
-        },
-        "properties": {
-          "name": "jadeh-e adoroshk",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "1df47145",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by adoroshk at wikiloc.com)",
-          "elevationMeters": 1771
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            54.343293,
-            31.521548,
-            0
-          ]
-        },
-        "properties": {
-          "name": "pas pasok",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "1df47145",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by adoroshk at wikiloc.com)",
-          "elevationMeters": 1658
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            54.340651,
-            31.517141,
-            0
-          ]
-        },
-        "properties": {
-          "name": "ورود به دره کل کوه",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "1df47145",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by adoroshk at wikiloc.com)",
-          "elevationMeters": 1640
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            54.340889,
-            31.517212,
-            0
-          ]
-        },
-        "properties": {
-          "name": "نخستین فرود",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "1df47145",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by adoroshk at wikiloc.com)",
-          "elevationMeters": 1641
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            54.343969,
-            31.52013,
-            0
-          ]
-        },
-        "properties": {
-          "name": "پایان دره",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "1df47145",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by adoroshk at wikiloc.com)",
-          "elevationMeters": 1652
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -759,7 +598,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by adoroshk at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3619.7959869607425,
@@ -767,8 +606,176 @@
           "descentMeters": 136,
           "changeMeters": -121.699951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.351103,
+            31.541053,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-32c9f3c1",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by adoroshk at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1774
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.344081,
+            31.520217,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "3b9cd2d8",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by adoroshk at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1652
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.350803,
+            31.541236,
+            0
+          ]
+        },
+        "properties": {
+          "name": "jadeh-e adoroshk",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "59604ef7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by adoroshk at wikiloc.com)",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1771
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.343293,
+            31.521548,
+            0
+          ]
+        },
+        "properties": {
+          "name": "pas pasok",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "59604ef7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by adoroshk at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1658
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.340651,
+            31.517141,
+            0
+          ]
+        },
+        "properties": {
+          "name": "ورود به دره کل کوه",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "59604ef7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by adoroshk at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1640
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.340889,
+            31.517212,
+            0
+          ]
+        },
+        "properties": {
+          "name": "نخستین فرود",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "59604ef7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by adoroshk at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1641
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.343969,
+            31.52013,
+            0
+          ]
+        },
+        "properties": {
+          "name": "پایان دره",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "59604ef7",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by adoroshk at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1652
+        }
       }
     ]
   },
-  "version": "113ab2be7f8e1db0b37b40df0068c285"
+  "version": "acb8f9d6d90363bbdc5294aa20fec24f"
 }

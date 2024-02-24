@@ -19,72 +19,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2856921636075,
-            34.29210454945529,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Baby Pipe Falls",
-          "styleUrl": "#msn_open-diamond0",
-          "styleHash": "-9154126",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond0",
-            "highlight": "#sh_open-diamond0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 529
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2833148750598,
-            34.29084506965159,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Lower Pipe Falls",
-          "styleUrl": "#msn_open-diamond0",
-          "styleHash": "-9154126",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond0",
-            "highlight": "#sh_open-diamond0"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 684
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2918317495394,
-            34.28413736116167,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "styleUrl": "#msn_parking_lot",
-          "styleHash": "bdcce78",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 510
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -823,7 +757,7 @@
             "highlight": "#sh_ylw-pushpin1"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#00d000",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 2233.135578338856,
@@ -1283,35 +1217,13 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 1797.9463948558084,
           "ascentMeters": 301.70001220703125,
           "descentMeters": 618.7999877929688,
           "changeMeters": -317.0999755859375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -118.2768354819678,
-            34.28308798570424,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Summit",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 820
         }
       },
       {
@@ -1440,7 +1352,7 @@
             "highlight": "#sh_ylw-pushpin"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 6,
           "lengthMeters": 1119.0241847066038,
@@ -1448,8 +1360,100 @@
           "descentMeters": 78.20001220703125,
           "changeMeters": 9
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2856921636075,
+            34.29210454945529,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Baby Pipe Falls",
+          "styleUrl": "#msn_open-diamond0",
+          "styleHash": "-9154126",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond0",
+            "highlight": "#sh_open-diamond0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 529
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2833148750598,
+            34.29084506965159,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Lower Pipe Falls",
+          "styleUrl": "#msn_open-diamond0",
+          "styleHash": "-9154126",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond0",
+            "highlight": "#sh_open-diamond0"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 684
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2918317495394,
+            34.28413736116167,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "styleUrl": "#msn_parking_lot",
+          "styleHash": "bdcce78",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 510
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.2768354819678,
+            34.28308798570424,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Summit",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 820
+        }
       }
     ]
   },
-  "version": "f3256b71cc06a1821eb1b20ca31901ce"
+  "version": "5f41d0cc7a8e652cc163d2c312ac3110"
 }

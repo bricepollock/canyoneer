@@ -22,50 +22,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.142267,
-            41.26955,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ermita del Remei",
-          "styleUrl": "#icon-163-nodesc",
-          "styleHash": "149d9b83",
-          "styleMapHash": {
-            "normal": "#icon-163-nodesc-normal",
-            "highlight": "#icon-163-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/163-lightblue.png",
-          "elevationMeters": 470
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.132997,
-            41.265892,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-93-nodesc",
-          "styleHash": "711bfc1",
-          "styleMapHash": {
-            "normal": "#icon-93-nodesc-normal",
-            "highlight": "#icon-93-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "elevationMeters": 670
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -372,7 +328,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#FFFF00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 2959.4557262261437,
@@ -480,7 +436,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 866.1905257246094,
@@ -623,35 +579,13 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00FF00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 882.3851171642036,
           "ascentMeters": 44.60003662109375,
           "descentMeters": 64.9000244140625,
           "changeMeters": -20.29998779296875
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.098686,
-            41.282817,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#icon-93-nodesc",
-          "styleHash": "711bfc1",
-          "styleMapHash": {
-            "normal": "#icon-93-nodesc-normal",
-            "highlight": "#icon-93-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
-          "elevationMeters": 745
         }
       },
       {
@@ -728,35 +662,13 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00FF00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 272.58177503018027,
           "ascentMeters": 35.0999755859375,
           "descentMeters": 55.9000244140625,
           "changeMeters": -20.800048828125
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.09657,
-            41.280195,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Fonts del Glorieta",
-          "styleUrl": "#icon-62-nodesc",
-          "styleHash": "-7c65c352",
-          "styleMapHash": {
-            "normal": "#icon-62-nodesc-normal",
-            "highlight": "#icon-62-nodesc-highlight"
-          },
-          "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png",
-          "elevationMeters": 732
         }
       },
       {
@@ -854,13 +766,105 @@
         "properties": {
           "name": "Descent (parte superior)",
           "description": "Habitualmente seco",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.7843137254901961,
           "stroke-width": 5,
           "lengthMeters": 477.21295852357775,
           "ascentMeters": 77.0999755859375,
           "descentMeters": 43.5999755859375,
           "changeMeters": 33.5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.142267,
+            41.26955,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ermita del Remei",
+          "styleUrl": "#icon-163-nodesc",
+          "styleHash": "149d9b83",
+          "styleMapHash": {
+            "normal": "#icon-163-nodesc-normal",
+            "highlight": "#icon-163-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/163-lightblue.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 470
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.132997,
+            41.265892,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-93-nodesc",
+          "styleHash": "711bfc1",
+          "styleMapHash": {
+            "normal": "#icon-93-nodesc-normal",
+            "highlight": "#icon-93-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 670
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.098686,
+            41.282817,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#icon-93-nodesc",
+          "styleHash": "711bfc1",
+          "styleMapHash": {
+            "normal": "#icon-93-nodesc-normal",
+            "highlight": "#icon-93-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/93-parkinglot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 745
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.09657,
+            41.280195,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fonts del Glorieta",
+          "styleUrl": "#icon-62-nodesc",
+          "styleHash": "-7c65c352",
+          "styleMapHash": {
+            "normal": "#icon-62-nodesc-normal",
+            "highlight": "#icon-62-nodesc-highlight"
+          },
+          "icon": "http://www.gstatic.com/mapspro/images/stock/62-green.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 732
         }
       },
       {
@@ -883,10 +887,11 @@
           },
           "icon": "http://www.gstatic.com/mapspro/images/stock/124-red.png",
           "description": "Final del descenso",
+          "stroke": "#FFCC00",
           "elevationMeters": 816
         }
       }
     ]
   },
-  "version": "aafac81ce8efedbbb93fe0b20b786cce"
+  "version": "0c6eddc53ea15bfc90f4f0348eeb29d6"
 }

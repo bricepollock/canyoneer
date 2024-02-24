@@ -234,7 +234,7 @@
             "normal": "#style3",
             "highlight": "#style"
           },
-          "stroke": "#00cd00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#00cd00",
@@ -304,7 +304,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#ff0000",
@@ -385,7 +385,7 @@
             "normal": "#style1",
             "highlight": "#style2"
           },
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "fill": "#f0f000",
@@ -394,94 +394,6 @@
           "ascentMeters": 17.9000244140625,
           "descentMeters": 8.5,
           "changeMeters": 9.4000244140625
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.430667,
-            36.146133,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Trailhead",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "2e05bde5",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 1194
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.4273066674051,
-            36.14786690501282,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start of canyon",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "2e05bde5",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 1195
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.4289000382125,
-            36.14616596173981,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "2e05bde5",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 1186
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -115.4302465149905,
-            36.14724098729707,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Optional drop",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "2e05bde5",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 1192
         }
       },
       {
@@ -639,7 +551,7 @@
             "normal": "#style0",
             "highlight": "#style4"
           },
-          "stroke": "#00ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "fill": "#f0f000",
@@ -648,6 +560,98 @@
           "ascentMeters": 16.6998291015625,
           "descentMeters": 11.7999267578125,
           "changeMeters": 4.89990234375
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.430667,
+            36.146133,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Trailhead",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "2e05bde5",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1194
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.4273066674051,
+            36.14786690501282,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start of canyon",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "2e05bde5",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1195
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.4289000382125,
+            36.14616596173981,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "2e05bde5",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1186
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.4302465149905,
+            36.14724098729707,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Optional drop",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "2e05bde5",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1192
         }
       },
       {
@@ -669,6 +673,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1192
         }
       },
@@ -691,6 +696,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1184
         }
       },
@@ -713,6 +719,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1184
         }
       },
@@ -735,6 +742,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1184
         }
       },
@@ -757,6 +765,7 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1184
         }
       },
@@ -779,10 +788,11 @@
             "highlight": "#s_ylw-pushpin_hl"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 1187
         }
       }
     ]
   },
-  "version": "c39ec10d25955f3a04f86f46bf3b4d67"
+  "version": "5984ddb0e814f174e23a49ddd2bfc199"
 }

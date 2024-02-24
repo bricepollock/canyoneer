@@ -12,75 +12,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -97.011058,
-            19.42312,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-d129815",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by ICANMX at wikiloc.com)",
-          "elevationMeters": 1234
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -97.055047,
-            19.438977,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "-12fa6f3d",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by ICANMX at wikiloc.com)",
-          "elevationMeters": 1811
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -97.011079,
-            19.423023,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Ent Mariposa Coche28/11/2012 (inicio)",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "43e6e8e6",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by ICANMX at wikiloc.com)",
-          "elevationMeters": 1234
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1328,7 +1259,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by ICANMX at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 5606.383979195545,
@@ -1336,8 +1267,80 @@
           "descentMeters": 352.999267578125,
           "changeMeters": 577
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.011058,
+            19.42312,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-414d3f",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by ICANMX at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1234
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.055047,
+            19.438977,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "7184e5d8",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by ICANMX at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1811
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.011079,
+            19.423023,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Ent Mariposa Coche28/11/2012 (inicio)",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "1d88217f",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by ICANMX at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1234
+        }
       }
     ]
   },
-  "version": "f5c1b18578f1eef157c9b325659beca8"
+  "version": "001bb425b87f0dc0d5690881dd871afd"
 }

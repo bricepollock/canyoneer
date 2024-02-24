@@ -23,81 +23,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.71595695614816,
-            40.32371341008048,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 2079
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.71579446,
-            40.32216462,
-            0
-          ]
-        },
-        "properties": {
-          "name": "fenceline",
-          "elevationMeters": 2063
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.72005403051965,
-            40.31185407660931,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1",
-          "elevationMeters": 2081
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.7231700868427,
-            40.301286793575294,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2",
-          "elevationMeters": 1786
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -108.72738203215481,
-            40.32014732104909,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "elevationMeters": 2133
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1569,7 +1494,7 @@
         },
         "properties": {
           "name": "Miller Return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4199.6451612059755,
@@ -2272,7 +2197,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1238.532845626933,
@@ -2525,7 +2450,7 @@
         },
         "properties": {
           "name": "Skull Creek Wilderness Study Area to south",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 9782.804584027572,
@@ -2708,7 +2633,7 @@
         },
         "properties": {
           "name": "alt exit up ridge east (approx) reported to go",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3771.7880854569335,
@@ -3571,7 +3496,7 @@
         },
         "properties": {
           "name": "CO104,95",
-          "stroke": "#000000",
+          "stroke": "#FF2D55",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 13266.245593654243,
@@ -3654,7 +3579,7 @@
         },
         "properties": {
           "name": "Skull Creek Wilderness area to north",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 9581.819004603269,
@@ -5882,7 +5807,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3263.2098305986046,
@@ -5920,7 +5845,7 @@
         },
         "properties": {
           "name": "alt exit?",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 74.88385036354353,
@@ -5963,7 +5888,7 @@
         },
         "properties": {
           "name": "Miller connector (approx)",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 374.686104634239,
@@ -5971,8 +5896,88 @@
           "descentMeters": 19.60009765625,
           "changeMeters": -19.60009765625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.71595695614816,
+            40.32371341008048,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2079
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.71579446,
+            40.32216462,
+            0
+          ]
+        },
+        "properties": {
+          "name": "fenceline",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2063
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.72005403051965,
+            40.31185407660931,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1",
+          "stroke": "#5856D6",
+          "elevationMeters": 2081
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.7231700868427,
+            40.301286793575294,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2",
+          "stroke": "#5856D6",
+          "elevationMeters": 1786
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -108.72738203215481,
+            40.32014732104909,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "stroke": "#FF2D55",
+          "elevationMeters": 2133
+        }
       }
     ]
   },
-  "version": "9445f55dd862050f75370843bf276a1e"
+  "version": "32c397aba0928f1d2a668112c90db0b1"
 }

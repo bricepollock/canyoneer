@@ -21,138 +21,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -155.1628749375529,
-            19.9322273513518,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit",
-          "styleUrl": "#m_ylw-pushpin",
-          "styleHash": "-45b61afe",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin",
-            "highlight": "#s_ylw-pushpin_hl"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 230
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -155.1808087985942,
-            19.9185910292211,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Stone Rd South Fork",
-          "styleUrl": "#m_ylw-pushpin00",
-          "styleHash": "-780ef402",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin0",
-            "highlight": "#s_ylw-pushpin_hl1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -155.1785315612047,
-            19.92162500362299,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Confluence",
-          "styleUrl": "#m_ylw-pushpin00",
-          "styleHash": "-780ef402",
-          "styleMapHash": {
-            "normal": "#s_ylw-pushpin0",
-            "highlight": "#s_ylw-pushpin_hl1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 0
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -155.1748843427336,
-            19.92538070196194,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 52
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -155.1705451271008,
-            19.92845951561793,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 138
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -155.1690180169062,
-            19.92882580580026,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R7",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "6cafbdb6",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 157
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -615,7 +483,7 @@
             "normal": "#failed10",
             "highlight": "#failed0"
           },
-          "stroke": "#00aa00",
+          "stroke": "#34C759",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 3113.275117748943,
@@ -931,13 +799,151 @@
             "highlight": "#sh_ylw-pushpin0"
           },
           "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 0.4980392156862745,
           "stroke-width": 5,
           "lengthMeters": 2833.8925371076066,
           "ascentMeters": 295.8000214099884,
           "descentMeters": 65.8000214099884,
           "changeMeters": 230
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -155.1628749375529,
+            19.9322273513518,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit",
+          "styleUrl": "#m_ylw-pushpin",
+          "styleHash": "-45b61afe",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin",
+            "highlight": "#s_ylw-pushpin_hl"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 230
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -155.1808087985942,
+            19.9185910292211,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Stone Rd South Fork",
+          "styleUrl": "#m_ylw-pushpin00",
+          "styleHash": "-780ef402",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin0",
+            "highlight": "#s_ylw-pushpin_hl1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -155.1785315612047,
+            19.92162500362299,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Confluence",
+          "styleUrl": "#m_ylw-pushpin00",
+          "styleHash": "-780ef402",
+          "styleMapHash": {
+            "normal": "#s_ylw-pushpin0",
+            "highlight": "#s_ylw-pushpin_hl1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -155.1748843427336,
+            19.92538070196194,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 52
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -155.1705451271008,
+            19.92845951561793,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 138
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -155.1690180169062,
+            19.92882580580026,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R7",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "6cafbdb6",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 157
         }
       },
       {
@@ -959,6 +965,7 @@
             "highlight": "#sh_open-diamond"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#34C759",
           "elevationMeters": 0
         }
       },
@@ -981,6 +988,7 @@
             "highlight": "#sh_open-diamond"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 0
         }
       },
@@ -1003,6 +1011,7 @@
             "highlight": "#sh_open-diamond"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 0
         }
       },
@@ -1025,6 +1034,7 @@
             "highlight": "#sh_open-diamond"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 170
         }
       },
@@ -1047,10 +1057,11 @@
             "highlight": "#sh_open-diamond"
           },
           "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF3B30",
           "elevationMeters": 168
         }
       }
     ]
   },
-  "version": "ba7e4941103937e40e65267ca4cc17db"
+  "version": "aacd383c569192a0ee1b9f0594dec17c"
 }

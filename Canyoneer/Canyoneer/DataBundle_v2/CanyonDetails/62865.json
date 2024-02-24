@@ -32,111 +32,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86295121908189,
-            34.925584291700204,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1 From Tree",
-          "elevationMeters": 1600
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86244964599611,
-            34.92497073122003,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2 140",
-          "elevationMeters": 1697
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86139419674875,
-            34.92467054673306,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3 70",
-          "elevationMeters": 1601
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86091274023059,
-            34.9245726841538,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R4 20",
-          "elevationMeters": 1586
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.8606472015381,
-            34.924519904287315,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R5 30",
-          "elevationMeters": 1576
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86045408248903,
-            34.9244847176908,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R6 30",
-          "elevationMeters": 1593
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.86026632785799,
-            34.92443413693188,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R7 25",
-          "elevationMeters": 1609
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -898,7 +793,7 @@
         },
         "properties": {
           "name": "Boynton Island East",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3678.0046213768605,
@@ -1186,7 +1081,7 @@
         },
         "properties": {
           "name": "Boynton Island East",
-          "stroke": "#FFFF00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 562.8235387331487,
@@ -1554,7 +1449,7 @@
         },
         "properties": {
           "name": "Boynton Island East",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2715.822450721418,
@@ -1562,8 +1457,120 @@
           "descentMeters": 822.2000732421875,
           "changeMeters": -103.199951171875
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86295121908189,
+            34.925584291700204,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1 From Tree",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1600
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86244964599611,
+            34.92497073122003,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2 140",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1697
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86139419674875,
+            34.92467054673306,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3 70",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1601
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86091274023059,
+            34.9245726841538,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R4 20",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1586
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.8606472015381,
+            34.924519904287315,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R5 30",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1576
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86045408248903,
+            34.9244847176908,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R6 30",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1593
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.86026632785799,
+            34.92443413693188,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R7 25",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1609
+        }
       }
     ]
   },
-  "version": "c809ed4b24d823b56155e9f63bb216e7"
+  "version": "84bcd296ca2f8b3015245781de2309cd"
 }

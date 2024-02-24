@@ -20,51 +20,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.84222006797792,
-            34.19918470388389,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Sneak",
-          "elevationMeters": 1044
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.83189892768861,
-            34.20093280420774,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Full",
-          "elevationMeters": 958
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -117.85437852144244,
-            34.20302027246307,
-            0
-          ]
-        },
-        "properties": {
-          "name": "The BFR?",
-          "elevationMeters": 776
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -146,7 +101,7 @@
         },
         "properties": {
           "name": "South Ridge Exit Walking?",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 770.2123776523811,
@@ -444,7 +399,7 @@
         },
         "properties": {
           "name": "North Ridge Exit Fire Break",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2768.7901598671674,
@@ -492,7 +447,7 @@
         },
         "properties": {
           "name": "Gully Exit?",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 356.4487184095766,
@@ -545,7 +500,7 @@
         },
         "properties": {
           "name": "Last Chance Gully Exit?",
-          "stroke": "#FFAA00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 395.24664681324697,
@@ -918,7 +873,7 @@
         },
         "properties": {
           "name": "Steele Taco in all its Glory",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2478.797043850583,
@@ -956,7 +911,7 @@
         },
         "properties": {
           "name": "Sneak Gully",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 187.43066534475474,
@@ -964,8 +919,56 @@
           "descentMeters": 50.9000244140625,
           "changeMeters": -50.9000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.84222006797792,
+            34.19918470388389,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Sneak",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1044
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.83189892768861,
+            34.20093280420774,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Full",
+          "stroke": "#FF3B30",
+          "elevationMeters": 958
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.85437852144244,
+            34.20302027246307,
+            0
+          ]
+        },
+        "properties": {
+          "name": "The BFR?",
+          "stroke": "#FF3B30",
+          "elevationMeters": 776
+        }
       }
     ]
   },
-  "version": "45b0df868c8d650dd15b5a6e9cee21af"
+  "version": "cfc8d2f077886ca6f89073585c59af2a"
 }

@@ -25,66 +25,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.30729906548048,
-            39.638690653048016,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 110'",
-          "elevationMeters": 3253
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.30681487,
-            39.63915878,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R3: 80'",
-          "elevationMeters": 3255
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.3070637,
-            39.63887282,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 65'",
-          "elevationMeters": 3257
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -106.30693324878736,
-            39.643262182563255,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Gore Valley TH",
-          "elevationMeters": 3798
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -326,7 +266,7 @@
         },
         "properties": {
           "name": "E Vail Falls return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 592.4915136971956,
@@ -774,7 +714,7 @@
         },
         "properties": {
           "name": "E Vail Falls approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 794.6219955705478,
@@ -927,7 +867,7 @@
         },
         "properties": {
           "name": "E Vail Falls descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 129.1365976548791,
@@ -935,8 +875,72 @@
           "descentMeters": 7.099609375,
           "changeMeters": 7.5
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.30729906548048,
+            39.638690653048016,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 110'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3253
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.30681487,
+            39.63915878,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R3: 80'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3255
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.3070637,
+            39.63887282,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 65'",
+          "stroke": "#5856D6",
+          "elevationMeters": 3257
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.30693324878736,
+            39.643262182563255,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Gore Valley TH",
+          "stroke": "#FFCC00",
+          "elevationMeters": 3798
+        }
       }
     ]
   },
-  "version": "fafa55c5ab61c9829e431ab7effe8490"
+  "version": "24280b03dd0eb03c88a36ccedb9e6601"
 }

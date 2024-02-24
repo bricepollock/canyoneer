@@ -28,98 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.825,
-            41.570733,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-20a465c3",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Sandra ole at wikiloc.com)",
-          "elevationMeters": 345
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.824936,
-            41.57089,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "50aabe9b",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Sandra ole at wikiloc.com)",
-          "elevationMeters": 345
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.825044,
-            41.571969,
-            0
-          ]
-        },
-        "properties": {
-          "name": "C/ Drecera. Inici pujada",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "352211e0",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Sandra ole at wikiloc.com)",
-          "elevationMeters": 346
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.825962,
-            41.573986,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Dreta. Deixem el GR i seguim PR.",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "352211e0",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Sandra ole at wikiloc.com)",
-          "elevationMeters": 339
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1477,7 +1385,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Sandra ole at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 9047.28820471615,
@@ -1485,8 +1393,104 @@
           "descentMeters": 2667.5,
           "changeMeters": 0
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.825,
+            41.570733,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "68a708",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Sandra ole at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 345
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.824936,
+            41.57089,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "17ce2821",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Sandra ole at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 345
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.825044,
+            41.571969,
+            0
+          ]
+        },
+        "properties": {
+          "name": "C/ Drecera. Inici pujada",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-7fe439bd",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Sandra ole at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 346
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.825962,
+            41.573986,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Dreta. Deixem el GR i seguim PR.",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-7fe439bd",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Sandra ole at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 339
+        }
       }
     ]
   },
-  "version": "39db6ddcded5e4ecff18c2e6a3db55ef"
+  "version": "75590fe12a82543b3044d31cdf5d7382"
 }

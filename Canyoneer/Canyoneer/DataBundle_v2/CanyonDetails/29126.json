@@ -15,98 +15,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -5.416708,
-            42.889301,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-53c033fe",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by Vpintos at wikiloc.com)",
-          "elevationMeters": 1610
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -5.401498,
-            42.888057,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "30f526",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by Vpintos at wikiloc.com)",
-          "elevationMeters": 1362
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -5.416929,
-            42.88866,
-            0
-          ]
-        },
-        "properties": {
-          "name": "0000033",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "6f51d80",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Vpintos at wikiloc.com)",
-          "elevationMeters": 1599
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -5.417947,
-            42.887615,
-            0
-          ]
-        },
-        "properties": {
-          "name": "WPT 0000034",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "6f51d80",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by Vpintos at wikiloc.com)",
-          "elevationMeters": 1607
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -659,7 +567,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by Vpintos at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 4573.3127346146475,
@@ -667,8 +575,104 @@
           "descentMeters": 609.9002685546875,
           "changeMeters": -248.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.416708,
+            42.889301,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-54632f3b",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by Vpintos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1610
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.401498,
+            42.888057,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "175e4e99",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by Vpintos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1362
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.416929,
+            42.88866,
+            0
+          ]
+        },
+        "properties": {
+          "name": "0000033",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "49c366b5",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Vpintos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1599
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.417947,
+            42.887615,
+            0
+          ]
+        },
+        "properties": {
+          "name": "WPT 0000034",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "49c366b5",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by Vpintos at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 1607
+        }
       }
     ]
   },
-  "version": "3b1f485e7b569aafc80d02c0a42ea463"
+  "version": "d8588ced1aa04df86363a9b742cf5869"
 }

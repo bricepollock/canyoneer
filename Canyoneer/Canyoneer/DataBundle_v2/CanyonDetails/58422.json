@@ -28,38 +28,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.7645277642,
-            36.2572136521,
-            170.688
-          ]
-        },
-        "properties": {
-          "name": "560 ft Confluence",
-          "description": "560 ft height",
-          "elevationMeters": 1082
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.7777679861,
-            36.2583830114,
-            -60.96
-          ]
-        },
-        "properties": {
-          "name": "-200 ft Badwater Rd",
-          "description": "-200 ft height",
-          "elevationMeters": 1379
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1432,7 +1400,7 @@
             "normal": "#path8Style0",
             "highlight": "#path8Style1"
           },
-          "stroke": "#ffaa00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4035.6182754276033,
@@ -3156,7 +3124,7 @@
             "normal": "#path5Style",
             "highlight": "#path5Style0"
           },
-          "stroke": "#ffaa00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4373.7084133077415,
@@ -4046,7 +4014,7 @@
           "name": "Typhon Mid N Fork - 3.6 mi - 2-16-20",
           "styleUrl": "#path6Style",
           "styleHash": "1446eac3",
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 5731.96150650496,
@@ -4530,7 +4498,7 @@
             "normal": "#path6Style01",
             "highlight": "#path6Style11"
           },
-          "stroke": "#ffaa00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3204.2238526285205,
@@ -10600,7 +10568,7 @@
           "name": "Ridge Approach",
           "styleUrl": "#path4Style1",
           "styleHash": "-214e16aa",
-          "stroke": "#f0f000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 9615.032599248672,
@@ -11110,7 +11078,7 @@
           "name": "Purgatory",
           "styleUrl": "#path3Style1",
           "styleHash": "58ed914b",
-          "stroke": "#00ffff",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3203.5821453620747,
@@ -11380,7 +11348,7 @@
           "name": "N Fork Abysmal",
           "styleUrl": "#path2Style1",
           "styleHash": "921a8ac",
-          "stroke": "#00ffff",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 877.5120147168734,
@@ -12635,7 +12603,7 @@
           "name": "Erebus Cyn",
           "styleUrl": "#path1Style1",
           "styleHash": "-46aa3ff3",
-          "stroke": "#00ffff",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 4696.014878049283,
@@ -13140,13 +13108,47 @@
           "name": "Abysmal",
           "styleUrl": "#path0Style1",
           "styleHash": "6989d76e",
-          "stroke": "#00ffff",
+          "stroke": "#5AC8FA",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 3166.443785205564,
           "ascentMeters": 639.0001220703125,
           "descentMeters": 648.9000854492188,
           "changeMeters": -9.89996337890625
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.7645277642,
+            36.2572136521,
+            170.688
+          ]
+        },
+        "properties": {
+          "name": "560 ft Confluence",
+          "description": "560 ft height",
+          "stroke": "#FF9500",
+          "elevationMeters": 1082
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.7777679861,
+            36.2583830114,
+            -60.96
+          ]
+        },
+        "properties": {
+          "name": "-200 ft Badwater Rd",
+          "description": "-200 ft height",
+          "stroke": "#FF3B30",
+          "elevationMeters": 1379
         }
       },
       {
@@ -13162,6 +13164,7 @@
         "properties": {
           "name": "1400 ft",
           "description": "1400 ft height",
+          "stroke": "#FF9500",
           "elevationMeters": 1181
         }
       },
@@ -13178,6 +13181,7 @@
         "properties": {
           "name": "2760",
           "description": "California Desert Conservation Area (Blm)",
+          "stroke": "#FFCC00",
           "elevationMeters": 422
         }
       },
@@ -13194,6 +13198,7 @@
         "properties": {
           "name": "3160",
           "description": "Intermittent Stream",
+          "stroke": "#FFCC00",
           "elevationMeters": 566
         }
       },
@@ -13210,6 +13215,7 @@
         "properties": {
           "name": "3480 ft",
           "description": "3480 ft height",
+          "stroke": "#FFCC00",
           "elevationMeters": 848
         }
       },
@@ -13226,6 +13232,7 @@
         "properties": {
           "name": "3720 ft",
           "description": "3720 ft height",
+          "stroke": "#FFCC00",
           "elevationMeters": 926
         }
       },
@@ -13242,6 +13249,7 @@
         "properties": {
           "name": "4800 ft",
           "description": "California Desert Conservation Area (Blm)",
+          "stroke": "#FF9500",
           "elevationMeters": 1571
         }
       },
@@ -13258,6 +13266,7 @@
         "properties": {
           "name": "4920 ft",
           "description": "4920 ft height",
+          "stroke": "#FF3B30",
           "elevationMeters": 1353
         }
       },
@@ -13274,6 +13283,7 @@
         "properties": {
           "name": "5120 ft",
           "description": "California Desert Conservation Area (Blm)",
+          "stroke": "#FFCC00",
           "elevationMeters": 1509
         }
       },
@@ -13290,6 +13300,7 @@
         "properties": {
           "name": "5200'",
           "description": "California Desert Conservation Area (Blm)",
+          "stroke": "#FF3B30",
           "elevationMeters": 1509
         }
       },
@@ -13306,6 +13317,7 @@
         "properties": {
           "name": "car Badwater Rd",
           "description": "Intermittent Stream",
+          "stroke": "#5AC8FA",
           "elevationMeters": 1472
         }
       },
@@ -13322,6 +13334,7 @@
         "properties": {
           "name": "Dantes View 5475",
           "description": "Dantes View 5475",
+          "stroke": "#FF3B30",
           "elevationMeters": -83
         }
       },
@@ -13338,10 +13351,11 @@
         "properties": {
           "name": "Mount Perry 5739",
           "description": "Mount Perry 5739",
+          "stroke": "#FF3B30",
           "elevationMeters": 776
         }
       }
     ]
   },
-  "version": "65f009e30c69d3ca5025dc2e24365d8a"
+  "version": "529d1a0dbf56d2f489193a04d4b56d95"
 }

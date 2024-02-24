@@ -23,75 +23,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.826863,
-            39.267659,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#begin",
-          "styleHash": "-1bd76f1b",
-          "styleMapHash": {
-            "normal": "#begin0",
-            "highlight": "#begin1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
-          "description": " (Data by PACWEISER at wikiloc.com)",
-          "elevationMeters": 507
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.8261,
-            39.262842,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End",
-          "styleUrl": "#end",
-          "styleHash": "3142a141",
-          "styleMapHash": {
-            "normal": "#end0",
-            "highlight": "#end1"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "description": " (Data by PACWEISER at wikiloc.com)",
-          "elevationMeters": 501
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.826849,
-            39.267748,
-            0
-          ]
-        },
-        "properties": {
-          "name": "final del barranco segundo coche",
-          "styleUrl": "#yellowmarker",
-          "styleHash": "-79006353",
-          "styleMapHash": {
-            "normal": "#yellowmarker0",
-            "highlight": "#yellowmarker1"
-          },
-          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
-          "description": " (Data by PACWEISER at wikiloc.com)",
-          "elevationMeters": 507
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -1429,7 +1360,7 @@
         "properties": {
           "name": "Track",
           "description": " (Data by PACWEISER at wikiloc.com)",
-          "stroke": "#FF00FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 3696.027276535744,
@@ -1437,8 +1368,80 @@
           "descentMeters": 440.8999938964844,
           "changeMeters": -5.899993896484375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.826863,
+            39.267659,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#begin",
+          "styleHash": "-24e0fee1",
+          "styleMapHash": {
+            "normal": "#begin0",
+            "highlight": "#begin1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/go.png",
+          "description": " (Data by PACWEISER at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 507
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.8261,
+            39.262842,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End",
+          "styleUrl": "#end",
+          "styleHash": "5b74c9ba",
+          "styleMapHash": {
+            "normal": "#end0",
+            "highlight": "#end1"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "description": " (Data by PACWEISER at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 501
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.826849,
+            39.267748,
+            0
+          ]
+        },
+        "properties": {
+          "name": "final del barranco segundo coche",
+          "styleUrl": "#yellowmarker",
+          "styleHash": "-3139ce05",
+          "styleMapHash": {
+            "normal": "#yellowmarker0",
+            "highlight": "#yellowmarker1"
+          },
+          "icon": "http://maps.google.com/mapfiles/ms/micons/yellow-dot.png",
+          "description": " (Data by PACWEISER at wikiloc.com)",
+          "stroke": "#AF52DE",
+          "elevationMeters": 507
+        }
       }
     ]
   },
-  "version": "cf93e9b5dc66b554ee0d3629616ec3cb"
+  "version": "afed718d293016565f27ea7e4f04c93a"
 }

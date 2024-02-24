@@ -26,81 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.30774759809465,
-            48.64966077934389,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Flow check bridge & parking",
-          "elevationMeters": 208
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.30914046552552,
-            48.65034194890623,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Classic Approach Parking",
-          "elevationMeters": 333
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.32544518814561,
-            48.65320481045732,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Upper Section Parking",
-          "elevationMeters": 658
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.31442755365137,
-            48.652248783180106,
-            0
-          ]
-        },
-        "properties": {
-          "name": "\"Lunch Spot\"",
-          "elevationMeters": 488
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -121.30294724499934,
-            48.650476459646235,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Hwy 20 Parking",
-          "elevationMeters": 147
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -172,7 +97,7 @@
         },
         "properties": {
           "name": "Upper Section Approach",
-          "stroke": "#3CFF00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 427.7140532170126,
@@ -225,7 +150,7 @@
         },
         "properties": {
           "name": "Upper Section",
-          "stroke": "#FF0022",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 515.7968214893698,
@@ -258,7 +183,7 @@
         },
         "properties": {
           "name": "Lower Section Exit",
-          "stroke": "#A200FF",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 239.14425524925076,
@@ -316,7 +241,7 @@
         },
         "properties": {
           "name": "Lower Section",
-          "stroke": "#FF0022",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 362.5635149769168,
@@ -439,7 +364,7 @@
         },
         "properties": {
           "name": "Old Forest Road",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 394.3338674074206,
@@ -533,7 +458,7 @@
         "properties": {
           "name": "Classic Section",
           "description": "2",
-          "stroke": "#FF0022",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 583.9103877804561,
@@ -646,7 +571,7 @@
         },
         "properties": {
           "name": "Classic Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 2,
           "lengthMeters": 445.7312103285308,
@@ -679,7 +604,7 @@
         },
         "properties": {
           "name": "Extra Short Option",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 1,
           "lengthMeters": 35.32481758262209,
@@ -687,8 +612,88 @@
           "descentMeters": 0,
           "changeMeters": 19.899993896484375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.30774759809465,
+            48.64966077934389,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Flow check bridge & parking",
+          "stroke": "#FF3B30",
+          "elevationMeters": 208
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.30914046552552,
+            48.65034194890623,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Classic Approach Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 333
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.32544518814561,
+            48.65320481045732,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Upper Section Parking",
+          "stroke": "#34C759",
+          "elevationMeters": 658
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.31442755365137,
+            48.652248783180106,
+            0
+          ]
+        },
+        "properties": {
+          "name": "\"Lunch Spot\"",
+          "stroke": "#FFCC00",
+          "elevationMeters": 488
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.30294724499934,
+            48.650476459646235,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Hwy 20 Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 147
+        }
       }
     ]
   },
-  "version": "ce8c3a8611b5bf470310a911a77bd69e"
+  "version": "e3b9150829f5fce8781b9673f9e6547b"
 }

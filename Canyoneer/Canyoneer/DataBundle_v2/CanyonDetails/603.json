@@ -29,36 +29,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.842,
-            37.16377,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Park",
-          "elevationMeters": 1756
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -112.82922,
-            37.16116,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Alt Park",
-          "elevationMeters": 1760
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -610,7 +580,7 @@
         },
         "properties": {
           "name": "Approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2396.2509655015197,
@@ -793,7 +763,7 @@
         },
         "properties": {
           "name": "Descent",
-          "stroke": "#FF0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1055.1908525985739,
@@ -2141,7 +2111,7 @@
         },
         "properties": {
           "name": "Exit",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 6865.137291065311,
@@ -2149,8 +2119,40 @@
           "descentMeters": 1018.7001953125,
           "changeMeters": 193.4000244140625
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.842,
+            37.16377,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Park",
+          "stroke": "#FFCC00",
+          "elevationMeters": 1756
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.82922,
+            37.16116,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Alt Park",
+          "stroke": "#34C759",
+          "elevationMeters": 1760
+        }
       }
     ]
   },
-  "version": "8f6b48c5ada6b0db103f17c1c84d0921"
+  "version": "d31cf355819da5646749ca76dfe8583c"
 }

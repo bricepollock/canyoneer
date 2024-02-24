@@ -1262,7 +1262,7 @@
             "normal": "#track39",
             "highlight": "#track2"
           },
-          "stroke": "#000000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1483.3161225712017,
@@ -3341,7 +3341,7 @@
             "normal": "#track24",
             "highlight": "#track38"
           },
-          "stroke": "#55ff00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2037.4240704766285,
@@ -3535,7 +3535,7 @@
             "normal": "#track29",
             "highlight": "#track26"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 5133.128608648088,
@@ -12484,7 +12484,7 @@
             "normal": "#track5",
             "highlight": "#track4"
           },
-          "stroke": "#ffaa00",
+          "stroke": "#FF9500",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 2731.370594996447,
@@ -12568,167 +12568,13 @@
             "normal": "#track34",
             "highlight": "#track"
           },
-          "stroke": "#ffff00",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 1641.221406023687,
           "ascentMeters": 374.800048828125,
           "descentMeters": 15.400146484375,
           "changeMeters": 359.39990234375
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -99.62889986121992,
-            21.1473427992511,
-            2296.8
-          ]
-        },
-        "properties": {
-          "name": "Parking",
-          "styleUrl": "#sh_ylw-pushpin57",
-          "styleHash": "-5d32d5c1",
-          "styleMapHash": {
-            "normal": "#sh_ylw-pushpin16",
-            "highlight": "#sh_ylw-pushpin2"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 2020
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -99.62838,
-            21.135648,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Parking Alt",
-          "styleUrl": "#sh_ylw-pushpin57",
-          "styleHash": "-5d32d5c1",
-          "styleMapHash": {
-            "normal": "#sh_ylw-pushpin16",
-            "highlight": "#sh_ylw-pushpin2"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 2001
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -99.63225525057959,
-            21.14739696523671,
-            2212
-          ]
-        },
-        "properties": {
-          "name": "Junction",
-          "styleUrl": "#msn_open-diamond",
-          "styleHash": "-28e2142b",
-          "styleMapHash": {
-            "normal": "#sn_open-diamond",
-            "highlight": "#sh_open-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
-          "elevationMeters": 2015
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -99.6390165668909,
-            21.14928995726737,
-            1883.8
-          ]
-        },
-        "properties": {
-          "name": "Start",
-          "styleUrl": "#msn_red-circle",
-          "styleHash": "-55b7952f",
-          "styleMapHash": {
-            "normal": "#sn_red-circle",
-            "highlight": "#sh_red-circle"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
-          "elevationMeters": 1824
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -99.63300453131723,
-            21.16080256264186,
-            1739.7
-          ]
-        },
-        "properties": {
-          "name": "Midpoint",
-          "styleUrl": "#msn_red-diamond",
-          "styleHash": "-6b834075",
-          "styleMapHash": {
-            "normal": "#sn_red-diamond",
-            "highlight": "#sh_red-diamond"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-diamond.png",
-          "elevationMeters": 1880
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -99.61351458446259,
-            21.18382642874661,
-            0
-          ]
-        },
-        "properties": {
-          "name": "End (Puente de Dios)",
-          "styleUrl": "#msn_red-square",
-          "styleHash": "-22a20202",
-          "styleMapHash": {
-            "normal": "#sn_red-square",
-            "highlight": "#sh_red-square"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
-          "elevationMeters": 2173
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -99.60491538047792,
-            21.19654587903971,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Exit Parking",
-          "styleUrl": "#msn_parking_lot",
-          "styleHash": "-33c06c2d",
-          "styleMapHash": {
-            "normal": "#sn_parking_lot",
-            "highlight": "#sh_parking_lot"
-          },
-          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
-          "elevationMeters": 2549
         }
       },
       {
@@ -12901,7 +12747,7 @@
             "normal": "#style2",
             "highlight": "#style0"
           },
-          "stroke": "#ff0000",
+          "stroke": "#FF3B30",
           "stroke-opacity": 1,
           "stroke-width": 3,
           "lengthMeters": 581.5225387964018,
@@ -12909,8 +12755,169 @@
           "descentMeters": 238.4000244140625,
           "changeMeters": -146.300048828125
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.62889986121992,
+            21.1473427992511,
+            2296.8
+          ]
+        },
+        "properties": {
+          "name": "Parking",
+          "styleUrl": "#sh_ylw-pushpin57",
+          "styleHash": "-5d32d5c1",
+          "styleMapHash": {
+            "normal": "#sh_ylw-pushpin16",
+            "highlight": "#sh_ylw-pushpin2"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#34C759",
+          "elevationMeters": 2020
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.62838,
+            21.135648,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Parking Alt",
+          "styleUrl": "#sh_ylw-pushpin57",
+          "styleHash": "-5d32d5c1",
+          "styleMapHash": {
+            "normal": "#sh_ylw-pushpin16",
+            "highlight": "#sh_ylw-pushpin2"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2001
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.63225525057959,
+            21.14739696523671,
+            2212
+          ]
+        },
+        "properties": {
+          "name": "Junction",
+          "styleUrl": "#msn_open-diamond",
+          "styleHash": "-28e2142b",
+          "styleMapHash": {
+            "normal": "#sn_open-diamond",
+            "highlight": "#sh_open-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/open-diamond.png",
+          "stroke": "#FF9500",
+          "elevationMeters": 2015
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.6390165668909,
+            21.14928995726737,
+            1883.8
+          ]
+        },
+        "properties": {
+          "name": "Start",
+          "styleUrl": "#msn_red-circle",
+          "styleHash": "-55b7952f",
+          "styleMapHash": {
+            "normal": "#sn_red-circle",
+            "highlight": "#sh_red-circle"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+          "stroke": "#34C759",
+          "elevationMeters": 1824
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.63300453131723,
+            21.16080256264186,
+            1739.7
+          ]
+        },
+        "properties": {
+          "name": "Midpoint",
+          "styleUrl": "#msn_red-diamond",
+          "styleHash": "-6b834075",
+          "styleMapHash": {
+            "normal": "#sn_red-diamond",
+            "highlight": "#sh_red-diamond"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-diamond.png",
+          "stroke": "#FF9500",
+          "elevationMeters": 1880
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.61351458446259,
+            21.18382642874661,
+            0
+          ]
+        },
+        "properties": {
+          "name": "End (Puente de Dios)",
+          "styleUrl": "#msn_red-square",
+          "styleHash": "-22a20202",
+          "styleMapHash": {
+            "normal": "#sn_red-square",
+            "highlight": "#sh_red-square"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+          "stroke": "#FFCC00",
+          "elevationMeters": 2173
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.60491538047792,
+            21.19654587903971,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Exit Parking",
+          "styleUrl": "#msn_parking_lot",
+          "styleHash": "-33c06c2d",
+          "styleMapHash": {
+            "normal": "#sn_parking_lot",
+            "highlight": "#sh_parking_lot"
+          },
+          "icon": "http://maps.google.com/mapfiles/kml/shapes/parking_lot.png",
+          "stroke": "#FF3B30",
+          "elevationMeters": 2549
+        }
       }
     ]
   },
-  "version": "825a2d81726475b6f662c3f43c40feb1"
+  "version": "fb84002643677695bed48f3ca991444b"
 }

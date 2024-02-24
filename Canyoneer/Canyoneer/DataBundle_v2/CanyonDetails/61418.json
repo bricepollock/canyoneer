@@ -26,51 +26,6 @@
       {
         "type": "Feature",
         "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.57851593196393,
-            37.77861309806286,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R1: 50'",
-          "elevationMeters": 2706
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.57988739013672,
-            37.78093338012695,
-            0
-          ]
-        },
-        "properties": {
-          "name": "Cunningham Creek Parking",
-          "elevationMeters": 2933
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -107.57849112153055,
-            37.778761514356,
-            0
-          ]
-        },
-        "properties": {
-          "name": "R2: 30'",
-          "elevationMeters": 2706
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
           "type": "LineString",
           "coordinates": [
             [
@@ -122,7 +77,7 @@
         },
         "properties": {
           "name": "return",
-          "stroke": "#F0F000",
+          "stroke": "#FFCC00",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 60.9998984005787,
@@ -280,7 +235,7 @@
         },
         "properties": {
           "name": "descent",
-          "stroke": "#0000FF",
+          "stroke": "#5856D6",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 176.64766638111413,
@@ -493,7 +448,7 @@
         },
         "properties": {
           "name": "approach",
-          "stroke": "#00CD00",
+          "stroke": "#34C759",
           "stroke-opacity": 1,
           "stroke-width": 4,
           "lengthMeters": 419.17452749329357,
@@ -1721,7 +1676,7 @@
         },
         "properties": {
           "name": "Road CR4 ",
-          "stroke": "#000000",
+          "stroke": "#AF52DE",
           "stroke-opacity": 1,
           "stroke-width": 5,
           "lengthMeters": 7461.977580009079,
@@ -1729,8 +1684,56 @@
           "descentMeters": 1751.30029296875,
           "changeMeters": 636.39990234375
         }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.57851593196393,
+            37.77861309806286,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R1: 50'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2706
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.57988739013672,
+            37.78093338012695,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Cunningham Creek Parking",
+          "stroke": "#AF52DE",
+          "elevationMeters": 2933
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -107.57849112153055,
+            37.778761514356,
+            0
+          ]
+        },
+        "properties": {
+          "name": "R2: 30'",
+          "stroke": "#5856D6",
+          "elevationMeters": 2706
+        }
       }
     ]
   },
-  "version": "4faa89afda4d086911db5eab2fed6400"
+  "version": "f5272f846371c40d3f70b06e6c85f70a"
 }
