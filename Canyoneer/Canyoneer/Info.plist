@@ -2,12 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>ITSAppUsesNonExemptEncryption</key>
-	<false/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Used to provide location on map and find nearby canyons</string>
 	<key>BGTaskSchedulerPermittedIdentifiers</key>
 	<array>
 		<string>backcountry_nomad_canyoneer_index_update</string>
 	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>mailto</string>
