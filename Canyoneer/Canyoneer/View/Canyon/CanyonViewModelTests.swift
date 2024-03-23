@@ -15,6 +15,7 @@ class CanyonViewModelTests: XCTestCase {
     var manager: MockCanyonDataManager!
     var favorite: MockFavoriteService!
     var weather: WeatherViewModel!
+    var locationService: LocationService!
     var viewModel: CanyonViewModel!
     
     override func setUp() {
@@ -24,9 +25,11 @@ class CanyonViewModelTests: XCTestCase {
         manager = MockCanyonDataManager()
         favorite = MockFavoriteService()
         weather = WeatherViewModel()
+        locationService = LocationService()
         viewModel = CanyonViewModel(
             canyonId: canyon.id,
             canyonManager: manager,
+            locationService: locationService,
             favoriteService: favorite,
             weatherViewModel: WeatherViewModel()
         )

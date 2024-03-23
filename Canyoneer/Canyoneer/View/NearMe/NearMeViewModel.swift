@@ -11,7 +11,7 @@ import Foundation
 class NearMeViewModel: ResultsViewModel {
     private static let maxNearMe = 100
     
-    public var mapViewModel: MapViewModel?
+    public var mapViewModel: ManyCanyonMapViewModel?
     private let searchService: SearchServiceInterface
     
     init(
@@ -19,7 +19,8 @@ class NearMeViewModel: ResultsViewModel {
         weatherViewModel: WeatherViewModel,
         canyonManager: CanyonDataManaging,
         favoriteService: FavoriteServing,
-        searchService: SearchServiceInterface
+        searchService: SearchServiceInterface,
+        locationService: LocationService
     ) {
         self.searchService = searchService
         super.init(
@@ -28,7 +29,8 @@ class NearMeViewModel: ResultsViewModel {
             filterSheetViewModel: CanyonFilterSheetViewModel(filterViewModel: filterViewModel),
             weatherViewModel: weatherViewModel,
             canyonManager: canyonManager,
-            favoriteService: favoriteService
+            favoriteService: favoriteService,
+            locationService: locationService
         )
     }
     
@@ -40,8 +42,7 @@ class NearMeViewModel: ResultsViewModel {
             title = resultList.searchString
             self.updateResults(to: resultList.results)
             
-            self.mapViewModel = MapViewModel(
-                type: .apple,
+            self.mapViewModel = ManyCanyonMapViewModel(
                 allCanyons: self.results.map { $0.canyonDetails },
                 applyFilters: true,
                 filterViewModel: filterViewModel,

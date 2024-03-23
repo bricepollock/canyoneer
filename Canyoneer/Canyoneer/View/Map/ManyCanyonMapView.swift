@@ -1,9 +1,4 @@
-//
-//  MapViewController.swift
-//  Canyoneer
-//
-//  Created by Brice Pollock on 1/6/22.
-//
+//  Created by Brice Pollock for Canyoneer on 3/8/24
 
 import Foundation
 import SwiftUI
@@ -14,15 +9,15 @@ fileprivate enum Strings {
     static let legend = "Legend"
 }
 
-struct MapView: View {
-    @ObservedObject var viewModel: MapViewModel
+struct ManyCanyonMapView: View {
+    @ObservedObject var viewModel: ManyCanyonMapViewModel
         
     @State var showLegend: Bool = false
     @State var showTopoLines: Bool = true
     @State var showFilters: Bool = false
     @State var showCanyonsOnMap: Bool = false
     
-    init(viewModel: MapViewModel) {
+    init(viewModel: ManyCanyonMapViewModel) {
         self.viewModel = viewModel
     }
     
@@ -30,12 +25,7 @@ struct MapView: View {
     var body: some View {
         NavigationStack {
             Group {
-                switch viewModel.mapView {
-                case .apple(let view):
-                    view
-                case .mapbox(let view):
-                    view
-                }
+                viewModel.mapView
             }
             .onAppear {
                 viewModel.didAppear()
@@ -62,13 +52,15 @@ struct MapView: View {
                                     .font(FontBook.Subhead.emphasis)
                             })
                         }
-                        HStack {
-                            Spacer()
-                            Toggle(isOn: $showTopoLines) {
-                                HStack {
-                                    Spacer()
-                                    Text(Strings.showTopoLines)
-                                        .font(FontBook.Subhead.emphasis)
+                        if viewModel.canRenderTopoLines {
+                            HStack {
+                                Spacer()
+                                Toggle(isOn: $showTopoLines) {
+                                    HStack {
+                                        Spacer()
+                                        Text(Strings.showTopoLines)
+                                            .font(FontBook.Subhead.emphasis)
+                                    }
                                 }
                             }
                         }
@@ -79,12 +71,13 @@ struct MapView: View {
             .navigationDestination(isPresented: $showCanyonsOnMap) {
                 ResultListView(
                     viewModel: MapListViewModel(
-                        canyonsOnMap: viewModel.canyonMapViewOwner.visibleCanyons,
+                        canyonsOnMap: viewModel.mapOwner.visibleCanyons,
                         filterViewModel: viewModel.filterViewModel,
                         filterSheetViewModel: viewModel.filterSheetViewModel,
                         weatherViewModel: viewModel.weatherViewModel,
                         canyonManager: viewModel.canyonManager,
-                        favoriteService: viewModel.favoriteService
+                        favoriteService: viewModel.favoriteService,
+                        locationService: viewModel.locationService
                     )
                 )
             }
@@ -94,6 +87,7 @@ struct MapView: View {
                         viewModel: CanyonViewModel(
                             canyonId: canyonID,
                             canyonManager: viewModel.canyonManager,
+                            locationService: viewModel.locationService,
                             favoriteService: viewModel.favoriteService,
                             weatherViewModel: viewModel.weatherViewModel
                         )
@@ -105,12 +99,18 @@ struct MapView: View {
         }
         .onChange(of: showTopoLines) { showTopoLines in
             // FIXME: We dropped support of TOPO lines on map to migrate to index file, when we address [ISSUE-6] we can use the mapbox tiles and avoid loading all KLM into memory which should allow us to put topo lines back on the map
-            self.showTopoLines  = false
-//            if showTopoLines {
-//                viewModel.canyonMapViewOwner.renderPolylinesFromCache()
-//            } else {
-//                viewModel.canyonMapViewOwner.removePolylines()
-//            }
+            if showTopoLines {
+                Task(priority: .userInitiated) {
+                    do {
+                        try await viewModel.mapOwner.renderCanyonPolylinesOnMap()
+                    } catch {
+                        Global.logger.error(error)
+                    }
+                }
+                
+            } else {
+                viewModel.mapOwner.removeAllPolylines()
+            }
         }
         .sheet(isPresented: $showLegend) {
             MapLegendView()

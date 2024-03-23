@@ -31,6 +31,7 @@ struct ResultListView: View {
                             viewModel: CanyonViewModel(
                                 canyonId: result.id,
                                 canyonManager: viewModel.canyonManager,
+                                locationService: viewModel.locationService,
                                 favoriteService: viewModel.favoriteService,
                                 weatherViewModel: viewModel.weatherViewModel
 

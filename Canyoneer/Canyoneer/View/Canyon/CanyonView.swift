@@ -66,12 +66,7 @@ struct CanyonView: View {
         .navigationDestination(isPresented: $showMapDetails) {
             if let mapViewModel = viewModel.mapViewModel {
                 VStack {
-                    switch mapViewModel.mapView {
-                    case .apple(let view):
-                        view
-                    case .mapbox(let view):
-                        view
-                    }
+                    mapViewModel.mapView
                 }
             } else {
                 EmptyView()

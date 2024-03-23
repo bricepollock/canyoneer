@@ -15,7 +15,7 @@ class FavoriteListViewModel: ResultsViewModel {
     @Published public var isDownloading: Bool = false
     
     @Published public var badgeProfile: Bool = false
-    @Published public var mapViewModel: MapViewModel?
+    @Published public var mapViewModel: ManyCanyonMapViewModel?
     public let profileViewModel: ProfileViewModel
     private let mapService: MapService
     
@@ -26,6 +26,7 @@ class FavoriteListViewModel: ResultsViewModel {
         mapService: MapService,
         canyonManager: CanyonDataManaging,
         favoriteService: FavoriteServing,
+        locationService: LocationService,
         updateManager: UpdateManager = UpdateManager.shared
     ) {
         self.hasDownloadedAll = false
@@ -43,7 +44,8 @@ class FavoriteListViewModel: ResultsViewModel {
             filterSheetViewModel: CanyonFilterSheetViewModel(filterViewModel: filterViewModel),
             weatherViewModel: weatherViewModel,
             canyonManager: canyonManager,
-            favoriteService: favoriteService
+            favoriteService: favoriteService,
+            locationService: locationService
         )
         
         self.title = Strings.title
@@ -69,8 +71,7 @@ class FavoriteListViewModel: ResultsViewModel {
         }
         self.updateResults(to: results)
         
-        self.mapViewModel = MapViewModel(
-            type: .apple,
+        self.mapViewModel = ManyCanyonMapViewModel(
             allCanyons: results.map { $0.canyonDetails },
             applyFilters: false,
             filterViewModel: filterViewModel,

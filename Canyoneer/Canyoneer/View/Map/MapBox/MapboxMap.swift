@@ -23,18 +23,14 @@ extension Point {
     }
 }
 
-class MapboxMapViewOwner: NSObject, CanyonMap {
-    public let view: CanyonMapViewType
+class MapboxMapViewOwner: NSObject {
+    public let view: AnyUIKitView
     private let mapView: MapboxMaps.MapView
-    
     let didRequestCanyon = PassthroughSubject<String, Never>()
     
     public let locationService: LocationService
-    private var mapOverlays = [PolylineAnnotation]()
     
-    init(
-        locationService: LocationService = LocationService()
-    ) {        
+    init(locationService: LocationService = LocationService()) {
         let myResourceOptions = ResourceOptions(accessToken: MapService.publicAccessToken)
         let myMapInitOptions = MapInitOptions(
             resourceOptions: myResourceOptions,
@@ -42,94 +38,32 @@ class MapboxMapViewOwner: NSObject, CanyonMap {
         )
         let mapboxMapView = MapboxMaps.MapView(frame: UIScreen.main.bounds, mapInitOptions: myMapInitOptions)
         self.mapView = mapboxMapView
-        self.view = .mapbox(AnyUIKitView(view: mapboxMapView))
+        self.view = AnyUIKitView(view: mapView)
         
         self.locationService = locationService
     }
     
-    var visibleCanyons: [CanyonIndex] {
-        Global.logger.error("Not implemented because only supports one canyon right now")
-        return []
-    }
-    var currentCanyons: [CanyonIndex] {
-        Global.logger.error("Not implemented because only supports one canyon right now")
-        return []
-    }
-    
-    func initialize() {
-        self.mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        let annotationManager = self.mapView.annotations.makePointAnnotationManager()
-        annotationManager.delegate = self
-        
-        if locationService.isLocationEnabled() {
-            // Add user position icon to the map with location indicator layer
-            mapView.location.options.puckType = .puck2D()
-        }
-    }
-    
-    func addAnnotations(for canyons: [CanyonIndex]) {
-        let annotationManager = self.mapView.annotations.makePointAnnotationManager()
-        annotationManager.annotations = canyons.map {
-            let point = Point($0.coordinate.asCLObject)
-            var annotation = PointAnnotation(point: point)
-            let image = UIImage(systemName: "pin.fill")!.withTintColor(UIColor(ColorPalette.Color.warning), renderingMode: .alwaysOriginal)
-            annotation.image = .init(image: image, name: "red_pin")
-            annotation.textField = $0.name
-            annotation.iconAnchor = .bottom
-            annotation.userInfo = ["canyon": $0]
-            return annotation
-        }
-    }
-    
-    func removeAnnotations(for canyonMap: [String : CanyonIndex]) {
-        let annotationManager = self.mapView.annotations.makePointAnnotationManager()
-        annotationManager.annotations = annotationManager.annotations.filter {
-            guard let canyon = $0.userInfo?["canyon"] as? Canyon else { return true }
-            return canyonMap[canyon.id] == nil
-        }
-    }
-    
-    func removeAnnotations() {
-        let annotationManager = self.mapView.annotations.makePointAnnotationManager()
-        annotationManager.annotations = []
-    }
-    
-    public func deselectCanyons() {
-        Global.logger.error("Not implemented because doesn't support canyon sele")
-    }
-    
-    func renderPolylines(canyons: [Canyon]) {
+    func renderPolylines(for canyon: Canyon) {
         let lineManager = self.mapView.annotations.makePolylineAnnotationManager()
-        let overlays = canyons.flatMap { canyon in
-            return canyon.geoLines.map { feature -> PolylineAnnotation in
-                var overlay = PolylineAnnotation(lineCoordinates: feature.coordinates.map { $0.asCLObject })
-                let type = TopoLineType(string: feature.name)
-                let geoColor: UIColor?
-                if let stroke = feature.hexColor {
-                    geoColor = UIColor.hex(stroke)
-                } else {
-                    geoColor = nil
-                }
-                let color = type == .unknown ? geoColor ?? UIColor(type.color) : UIColor(type.color)
-                overlay.lineColor = StyleColor(color)
-                overlay.lineWidth = 3
-                overlay.lineOpacity = 0.5
-                return overlay
+        let overlays = canyon.geoLines.map { feature -> PolylineAnnotation in
+            var overlay = PolylineAnnotation(lineCoordinates: feature.coordinates.map { $0.asCLObject })
+            let type = TopoLineType(string: feature.name)
+            let geoColor: UIColor?
+            if let stroke = feature.hexColor {
+                geoColor = UIColor.hex(stroke)
+            } else {
+                geoColor = nil
             }
+            let color = type == .unknown ? geoColor ?? UIColor(type.color) : UIColor(type.color)
+            overlay.lineColor = StyleColor(color)
+            overlay.lineWidth = 3
+            overlay.lineOpacity = 0.5
+            return overlay
         }
-        self.mapOverlays = overlays
         lineManager.annotations = overlays
     }
     
-    func renderPolylinesFromCache() {
-        let lineManager = self.mapView.annotations.makePolylineAnnotationManager()
-        guard lineManager.annotations.isEmpty else {
-            return // we already added the overlays
-        }
-        lineManager.annotations = self.mapOverlays
-    }
-    
-    func removePolylines() {
+    func removeAllPolylines() {
         let lineManager = self.mapView.annotations.makePolylineAnnotationManager()
         lineManager.annotations = []
     }
@@ -195,6 +129,20 @@ class MapboxMapViewOwner: NSObject, CanyonMap {
             return annotation
         }
         annotationManager.annotations = waypoints + labels
+    }
+
+}
+
+extension MapboxMapViewOwner: BasicMap {
+    func initialize() {
+        self.mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        let annotationManager = self.mapView.annotations.makePointAnnotationManager()
+        annotationManager.delegate = self
+        
+        if locationService.isLocationEnabled() {
+            // Add user position icon to the map with location indicator layer
+            mapView.location.options.puckType = .puck2D()
+        }
     }
     
     func focusCameraOn(canyon: Canyon) {

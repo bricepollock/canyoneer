@@ -37,7 +37,7 @@ class MainTabViewModel: ObservableObject {
     @Published var currentTab: AppTab
     
     let tabs: [AppTab]
-    let mapViewModel: MapViewModel
+    let mapViewModel: ManyCanyonMapViewModel
     let favoriteViewModel: FavoriteListViewModel
     let searchViewModel: SearchViewModel
     
@@ -47,13 +47,13 @@ class MainTabViewModel: ObservableObject {
         filterViewModel: CanyonFilterViewModel,
         weatherViewModel: WeatherViewModel,
         mapService: MapService,
-        favoriteService: FavoriteServing
+        favoriteService: FavoriteServing,
+        locationService: LocationService
     ) {
         self.tabs = AppTab.allCases.sorted { $0.index < $1.index }
         self.currentTab = .favorites
         
-        mapViewModel = MapViewModel(
-            type: .apple,
+        mapViewModel = ManyCanyonMapViewModel(
             allCanyons: allCanyons,
             applyFilters: true,
             showOverlays: true,
@@ -66,7 +66,8 @@ class MainTabViewModel: ObservableObject {
             weatherViewModel: weatherViewModel,
             mapService: mapService, 
             canyonManager: canyonManager,
-            favoriteService: favoriteService
+            favoriteService: favoriteService,
+            locationService: locationService
         )
         
         searchViewModel = SearchViewModel(
@@ -74,8 +75,9 @@ class MainTabViewModel: ObservableObject {
             filterViewModel: filterViewModel,
             weatherViewModel: weatherViewModel,
             canyonManager: canyonManager,
-            favoriteService: favoriteService
-        )        
+            favoriteService: favoriteService,
+            locationService: locationService
+        )
     }
     
 }
@@ -97,7 +99,7 @@ struct MainTabView: View {
                         }
                     )
                 }
-            MapView(viewModel: viewModel.mapViewModel)
+            ManyCanyonMapView(viewModel: viewModel.mapViewModel)
                 .tag(AppTab.map)
                 .tabItem {
                     Label(

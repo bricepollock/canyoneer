@@ -52,7 +52,8 @@ class MainViewModel: ObservableObject {
             filterViewModel: filterViewModel,
             weatherViewModel: weatherViewModel,
             mapService: mapService,
-            favoriteService: favoriteService
+            favoriteService: favoriteService,
+            locationService: LocationService()
         )
         isLoadingApp = false
         

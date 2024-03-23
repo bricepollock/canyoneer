@@ -27,6 +27,7 @@ import Combine
     
     public let canyonManager: CanyonDataManaging
     public let favoriteService: FavoriteServing
+    public let locationService: LocationService
     public let weatherViewModel: WeatherViewModel
     public let filterSheetViewModel: CanyonFilterSheetViewModel
     public let filterViewModel: CanyonFilterViewModel
@@ -37,7 +38,8 @@ import Combine
         filterSheetViewModel: CanyonFilterSheetViewModel,
         weatherViewModel: WeatherViewModel,
         canyonManager: CanyonDataManaging,
-        favoriteService: FavoriteServing
+        favoriteService: FavoriteServing,
+        locationService: LocationService
     ) {
         self.title = ""
         self.unfilteredResults = []
@@ -47,6 +49,7 @@ import Combine
         self.weatherViewModel = weatherViewModel
         self.canyonManager = canyonManager
         self.favoriteService = favoriteService
+        self.locationService = locationService
         
         super.init()
         

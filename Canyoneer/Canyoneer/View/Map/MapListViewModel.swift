@@ -22,7 +22,8 @@ class MapListViewModel: ResultsViewModel {
         filterSheetViewModel: CanyonFilterSheetViewModel,
         weatherViewModel: WeatherViewModel,
         canyonManager: CanyonDataManaging,
-        favoriteService: FavoriteServing
+        favoriteService: FavoriteServing,
+        locationService: LocationService
     ) {
         let results = canyonsOnMap.map {
             return QueryResult(name: $0.name, canyonDetails: $0)
@@ -35,7 +36,8 @@ class MapListViewModel: ResultsViewModel {
             filterSheetViewModel: filterSheetViewModel,
             weatherViewModel: weatherViewModel,
             canyonManager: canyonManager,
-            favoriteService: favoriteService
+            favoriteService: favoriteService,
+            locationService: locationService
         )
         
         self.title = Strings.map(count: results.count)

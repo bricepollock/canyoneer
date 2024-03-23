@@ -32,7 +32,7 @@ struct NearMeView: View {
         }
         .navigationDestination(isPresented: $showOnMap) {
             if let mapViewModel = viewModel.mapViewModel {
-                MapView(viewModel: mapViewModel)
+                ManyCanyonMapView(viewModel: mapViewModel)
                     .navigationBarTitleDisplayMode(.inline)
             } else {
                 EmptyView()
