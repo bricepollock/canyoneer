@@ -157,6 +157,8 @@
 		40E8E6DD2B801AD8002EB480 /* UpdateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E8E6DC2B801AD8002EB480 /* UpdateManager.swift */; };
 		40E8E6E22B802D5D002EB480 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E8E6E12B802D5D002EB480 /* ProfileView.swift */; };
 		40E8E6E42B802D76002EB480 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E8E6E32B802D76002EB480 /* ProfileViewModel.swift */; };
+		40F17C712BAF284B00BEBFF9 /* FilterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C702BAF284B00BEBFF9 /* FilterState.swift */; };
+		40F17C732BAF286C00BEBFF9 /* FilterStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C722BAF286B00BEBFF9 /* FilterStateTests.swift */; };
 		40FDB37E2791CF5D0065FF47 /* MapboxMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB37D2791CF5D0065FF47 /* MapboxMap.swift */; };
 		40FDB3832791D0E30065FF47 /* TopoLineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3822791D0E30065FF47 /* TopoLineType.swift */; };
 		40FDB3862791FAA00065FF47 /* CoreGPX in Frameworks */ = {isa = PBXBuildFile; productRef = 40FDB3852791FAA00065FF47 /* CoreGPX */; };
@@ -330,6 +332,8 @@
 		40E8E6DC2B801AD8002EB480 /* UpdateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateManager.swift; sourceTree = "<group>"; };
 		40E8E6E12B802D5D002EB480 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		40E8E6E32B802D76002EB480 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		40F17C702BAF284B00BEBFF9 /* FilterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterState.swift; sourceTree = "<group>"; };
+		40F17C722BAF286B00BEBFF9 /* FilterStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterStateTests.swift; sourceTree = "<group>"; };
 		40FDB37D2791CF5D0065FF47 /* MapboxMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxMap.swift; sourceTree = "<group>"; };
 		40FDB3822791D0E30065FF47 /* TopoLineType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopoLineType.swift; sourceTree = "<group>"; };
 		40FDB3872791FCCB0065FF47 /* GPXService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXService.swift; sourceTree = "<group>"; };
@@ -778,6 +782,8 @@
 		40E4433D2788F1C800FE245D /* Filters */ = {
 			isa = PBXGroup;
 			children = (
+				40F17C702BAF284B00BEBFF9 /* FilterState.swift */,
+				40F17C722BAF286B00BEBFF9 /* FilterStateTests.swift */,
 				4005DFBF278F60C500EB1640 /* CanyonFilterViewModel.swift */,
 				4005DFC4278F6F0300EB1640 /* CanyonFilterViewModelTests+update.swift */,
 				4005DFC6278F733400EB1640 /* CanyonFilterViewModelTests+filter.swift */,
@@ -949,6 +955,7 @@
 				40DF5FA72B1BF1A9007A076F /* Canyon+detailString.swift in Sources */,
 				40FDB37E2791CF5D0065FF47 /* MapboxMap.swift in Sources */,
 				40FDB3882791FCCB0065FF47 /* GPXService.swift in Sources */,
+				40F17C712BAF284B00BEBFF9 /* FilterState.swift in Sources */,
 				40E442F82787770200FE245D /* ContainedButton.swift in Sources */,
 				401248B22B26B28C00E40553 /* CanyonPreview.swift in Sources */,
 				40DF5F9E2B1BB460007A076F /* MainTabView.swift in Sources */,
@@ -1079,6 +1086,7 @@
 				4089A1332B0AC9CF00886179 /* CoordinateTests.swift in Sources */,
 				40A63B4A2B3338A500996567 /* FavoriteServiceTests.swift in Sources */,
 				4032AECB278F3FD8002EEA4E /* MockCanyonAPIService.swift in Sources */,
+				40F17C732BAF286C00BEBFF9 /* FilterStateTests.swift in Sources */,
 				40A09BF62B8275BB00254501 /* CanyonDataManagerTests.swift in Sources */,
 				40A09C1A2B82D90000254501 /* CanyonFilterViewModelTests+update.swift in Sources */,
 				40A09C172B82D90000254501 /* WeatherDataPointTests+Strings.swift in Sources */,

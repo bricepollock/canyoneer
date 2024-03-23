@@ -20,7 +20,7 @@ class CanyonFilterViewModelUpdateTests: XCTestCase {
         XCTAssertEqual(currentState.numRaps.min, 0)
         XCTAssertEqual(currentState.numRaps.max, 50)
         XCTAssertEqual(currentState.maxRap.min, 0)
-        XCTAssertEqual(Double(currentState.maxRap.max), Measurement(value: 600, unit: UnitLength.feet).converted(to: .meters).value.rounded())
+        XCTAssertEqual(Double(currentState.maxRap.max), 600)
         XCTAssertEqual(currentState.stars, [1,2,3,4,5])
         XCTAssertEqual(currentState.technicality, Set(TechnicalGrade.allCases))
         XCTAssertEqual(currentState.water, Set(WaterGrade.allCases))
