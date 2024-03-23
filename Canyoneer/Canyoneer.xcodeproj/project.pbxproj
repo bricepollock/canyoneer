@@ -26,7 +26,6 @@
 		401248B02B26AEF200E40553 /* Canyon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401248AF2B26AEF200E40553 /* Canyon.swift */; };
 		401248B22B26B28C00E40553 /* CanyonPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401248B12B26B28C00E40553 /* CanyonPreview.swift */; };
 		401248B42B26B35B00E40553 /* LegacyCanyon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401248B32B26B35B00E40553 /* LegacyCanyon.swift */; };
-		401248B62B26D28E00E40553 /* CanyonDetailMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401248B52B26D28E00E40553 /* CanyonDetailMapViewModel.swift */; };
 		401248B82B26D9FE00E40553 /* simple_rap.json in Resources */ = {isa = PBXBuildFile; fileRef = 401248B72B26D9FE00E40553 /* simple_rap.json */; };
 		401248BA2B26DC5B00E40553 /* CanyonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401248B92B26DC5B00E40553 /* CanyonTests.swift */; };
 		40218D7327A83714006A6ABC /* CanyonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40218D7227A83714006A6ABC /* CanyonItemView.swift */; };
@@ -72,7 +71,6 @@
 		407FB7672790CDB3008B65BE /* UnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB7662790CDB3008B65BE /* UnitConverter.swift */; };
 		407FB76B2790D592008B65BE /* WeatherForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB76A2790D591008B65BE /* WeatherForecastView.swift */; };
 		407FB76D2790D59C008B65BE /* WeatherForecastDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB76C2790D59C008B65BE /* WeatherForecastDayView.swift */; };
-		407FB7712790FF49008B65BE /* CanyonMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB7702790FF49008B65BE /* CanyonMap.swift */; };
 		407FB7732790FF7B008B65BE /* AppleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407FB7722790FF7B008B65BE /* AppleMapView.swift */; };
 		4089A1302B0AC91800886179 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089A12F2B0AC91800886179 /* Coordinate.swift */; };
 		4089A1332B0AC9CF00886179 /* CoordinateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089A1312B0AC98D00886179 /* CoordinateTests.swift */; };
@@ -126,7 +124,6 @@
 		40DF5FA92B1BFFFB007A076F /* CanyonViewModel+share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF5FA82B1BFFFB007A076F /* CanyonViewModel+share.swift */; };
 		40DF5FAB2B1D5802007A076F /* BestSeasonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF5FAA2B1D5802007A076F /* BestSeasonsView.swift */; };
 		40DF5FAD2B1D5D47007A076F /* DataTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF5FAC2B1D5D47007A076F /* DataTableViewModel.swift */; };
-		40DF5FAF2B1E2902007A076F /* AnyUIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF5FAE2B1E2902007A076F /* AnyUIKitView.swift */; };
 		40E4429027875DA000FE245D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E4428F27875DA000FE245D /* Assets.xcassets */; };
 		40E4429327875DA000FE245D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E4429127875DA000FE245D /* LaunchScreen.storyboard */; };
 		40E442B927875EB200FE245D /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E442B827875EB200FE245D /* Region.swift */; };
@@ -140,8 +137,6 @@
 		40E4430127877C5500FE245D /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430027877C5500FE245D /* GlobalConstants.swift */; };
 		40E4430727877F9500FE245D /* CanyonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430627877F9500FE245D /* CanyonView.swift */; };
 		40E4430D2787842800FE245D /* CanyonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4430C2787842800FE245D /* CanyonDetailView.swift */; };
-		40E4431D27879F1D00FE245D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431C27879F1D00FE245D /* MapView.swift */; };
-		40E4431F2787A0C000FE245D /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4431E2787A0C000FE245D /* MapViewModel.swift */; };
 		40E443222787A0F200FE245D /* CanyonAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443212787A0F200FE245D /* CanyonAPIService.swift */; };
 		40E443262787A23A00FE245D /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E443252787A23A00FE245D /* SearchService.swift */; };
 		40E4432F2787D90C00FE245D /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4432E2787D90C00FE245D /* RequestError.swift */; };
@@ -157,6 +152,11 @@
 		40E8E6DD2B801AD8002EB480 /* UpdateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E8E6DC2B801AD8002EB480 /* UpdateManager.swift */; };
 		40E8E6E22B802D5D002EB480 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E8E6E12B802D5D002EB480 /* ProfileView.swift */; };
 		40E8E6E42B802D76002EB480 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E8E6E32B802D76002EB480 /* ProfileViewModel.swift */; };
+		40F17C672B9BFED600BEBFF9 /* SingleCanyonMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C662B9BFED600BEBFF9 /* SingleCanyonMapViewModel.swift */; };
+		40F17C692B9BFEE400BEBFF9 /* ManyCanyonMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C682B9BFEE400BEBFF9 /* ManyCanyonMapView.swift */; };
+		40F17C6B2B9BFEEC00BEBFF9 /* ManyCanyonMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C6A2B9BFEEC00BEBFF9 /* ManyCanyonMapViewModel.swift */; };
+		40F17C6D2B9C013F00BEBFF9 /* BasicMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C6C2B9C013F00BEBFF9 /* BasicMap.swift */; };
+		40F17C6F2B9C024000BEBFF9 /* AnyUIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C6E2B9C024000BEBFF9 /* AnyUIKitView.swift */; };
 		40F17C712BAF284B00BEBFF9 /* FilterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C702BAF284B00BEBFF9 /* FilterState.swift */; };
 		40F17C732BAF286C00BEBFF9 /* FilterStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C722BAF286B00BEBFF9 /* FilterStateTests.swift */; };
 		40FDB37E2791CF5D0065FF47 /* MapboxMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB37D2791CF5D0065FF47 /* MapboxMap.swift */; };
@@ -205,7 +205,6 @@
 		401248AF2B26AEF200E40553 /* Canyon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canyon.swift; sourceTree = "<group>"; };
 		401248B12B26B28C00E40553 /* CanyonPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonPreview.swift; sourceTree = "<group>"; };
 		401248B32B26B35B00E40553 /* LegacyCanyon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegacyCanyon.swift; sourceTree = "<group>"; };
-		401248B52B26D28E00E40553 /* CanyonDetailMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonDetailMapViewModel.swift; sourceTree = "<group>"; };
 		401248B72B26D9FE00E40553 /* simple_rap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simple_rap.json; sourceTree = "<group>"; };
 		401248B92B26DC5B00E40553 /* CanyonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonTests.swift; sourceTree = "<group>"; };
 		40218D7227A83714006A6ABC /* CanyonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonItemView.swift; sourceTree = "<group>"; };
@@ -251,7 +250,6 @@
 		407FB7662790CDB3008B65BE /* UnitConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverter.swift; sourceTree = "<group>"; };
 		407FB76A2790D591008B65BE /* WeatherForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastView.swift; sourceTree = "<group>"; };
 		407FB76C2790D59C008B65BE /* WeatherForecastDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastDayView.swift; sourceTree = "<group>"; };
-		407FB7702790FF49008B65BE /* CanyonMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonMap.swift; sourceTree = "<group>"; };
 		407FB7722790FF7B008B65BE /* AppleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapView.swift; sourceTree = "<group>"; };
 		4089A12F2B0AC91800886179 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
 		4089A1312B0AC98D00886179 /* CoordinateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateTests.swift; sourceTree = "<group>"; };
@@ -295,7 +293,6 @@
 		40DF5FA82B1BFFFB007A076F /* CanyonViewModel+share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CanyonViewModel+share.swift"; sourceTree = "<group>"; };
 		40DF5FAA2B1D5802007A076F /* BestSeasonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSeasonsView.swift; sourceTree = "<group>"; };
 		40DF5FAC2B1D5D47007A076F /* DataTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewModel.swift; sourceTree = "<group>"; };
-		40DF5FAE2B1E2902007A076F /* AnyUIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyUIKitView.swift; sourceTree = "<group>"; };
 		40DF5FB02B203D55007A076F /* DataTableViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewModelTests.swift; sourceTree = "<group>"; };
 		40DF5FB22B203D99007A076F /* StarQualityViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarQualityViewModelTests.swift; sourceTree = "<group>"; };
 		40DF5FB42B203F32007A076F /* WeatherViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModelTests.swift; sourceTree = "<group>"; };
@@ -315,8 +312,6 @@
 		40E4430027877C5500FE245D /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
 		40E4430627877F9500FE245D /* CanyonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonView.swift; sourceTree = "<group>"; };
 		40E4430C2787842800FE245D /* CanyonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonDetailView.swift; sourceTree = "<group>"; };
-		40E4431C27879F1D00FE245D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		40E4431E2787A0C000FE245D /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		40E443212787A0F200FE245D /* CanyonAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonAPIService.swift; sourceTree = "<group>"; };
 		40E443252787A23A00FE245D /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
 		40E4432E2787D90C00FE245D /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
@@ -332,6 +327,11 @@
 		40E8E6DC2B801AD8002EB480 /* UpdateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateManager.swift; sourceTree = "<group>"; };
 		40E8E6E12B802D5D002EB480 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		40E8E6E32B802D76002EB480 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		40F17C662B9BFED600BEBFF9 /* SingleCanyonMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCanyonMapViewModel.swift; sourceTree = "<group>"; };
+		40F17C682B9BFEE400BEBFF9 /* ManyCanyonMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManyCanyonMapView.swift; sourceTree = "<group>"; };
+		40F17C6A2B9BFEEC00BEBFF9 /* ManyCanyonMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManyCanyonMapViewModel.swift; sourceTree = "<group>"; };
+		40F17C6C2B9C013F00BEBFF9 /* BasicMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMap.swift; sourceTree = "<group>"; };
+		40F17C6E2B9C024000BEBFF9 /* AnyUIKitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyUIKitView.swift; sourceTree = "<group>"; };
 		40F17C702BAF284B00BEBFF9 /* FilterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterState.swift; sourceTree = "<group>"; };
 		40F17C722BAF286B00BEBFF9 /* FilterStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterStateTests.swift; sourceTree = "<group>"; };
 		40FDB37D2791CF5D0065FF47 /* MapboxMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxMap.swift; sourceTree = "<group>"; };
@@ -670,7 +670,7 @@
 				40DF5FAC2B1D5D47007A076F /* DataTableViewModel.swift */,
 				40DF5FB02B203D55007A076F /* DataTableViewModelTests.swift */,
 				40DF5FA02B1BC500007A076F /* LargeProgressView.swift */,
-				40DF5FAE2B1E2902007A076F /* AnyUIKitView.swift */,
+				40F17C6E2B9C024000BEBFF9 /* AnyUIKitView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -725,15 +725,15 @@
 		40E4431B27879EFA00FE245D /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				407FB7702790FF49008B65BE /* CanyonMap.swift */,
+				40F17C6C2B9C013F00BEBFF9 /* BasicMap.swift */,
 				40FDB3822791D0E30065FF47 /* TopoLineType.swift */,
 				40FDB3762791CF170065FF47 /* MapBox */,
 				407FB77427910328008B65BE /* AppleMaps */,
-				40E4431C27879F1D00FE245D /* MapView.swift */,
-				40E4431E2787A0C000FE245D /* MapViewModel.swift */,
+				40F17C662B9BFED600BEBFF9 /* SingleCanyonMapViewModel.swift */,
+				40F17C682B9BFEE400BEBFF9 /* ManyCanyonMapView.swift */,
+				40F17C6A2B9BFEEC00BEBFF9 /* ManyCanyonMapViewModel.swift */,
 				405E67B42797865D00BA41D9 /* MapListViewModel.swift */,
 				407FB75227906DF0008B65BE /* MapLegendView.swift */,
-				401248B52B26D28E00E40553 /* CanyonDetailMapViewModel.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -931,7 +931,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				401248B62B26D28E00E40553 /* CanyonDetailMapViewModel.swift in Sources */,
 				407FB7642790CD2B008B65BE /* NetworkService.swift in Sources */,
 				4068C3562B16F9700033707F /* WebView.swift in Sources */,
 				407FB76D2790D59C008B65BE /* WeatherForecastDayView.swift in Sources */,
@@ -960,19 +959,19 @@
 				401248B22B26B28C00E40553 /* CanyonPreview.swift in Sources */,
 				40DF5F9E2B1BB460007A076F /* MainTabView.swift in Sources */,
 				40E442DF2787630700FE245D /* GlobalStrings.swift in Sources */,
-				40E4431D27879F1D00FE245D /* MapView.swift in Sources */,
 				405E67C02797869100BA41D9 /* FavoriteListView.swift in Sources */,
+				40F17C6B2B9BFEEC00BEBFF9 /* ManyCanyonMapViewModel.swift in Sources */,
 				40DF5FAB2B1D5802007A076F /* BestSeasonsView.swift in Sources */,
 				4068C36B2B18CB190033707F /* CommonStrings.swift in Sources */,
 				4089A1302B0AC91800886179 /* Coordinate.swift in Sources */,
 				40A09C2D2B8439A400254501 /* IndexUpdate.swift in Sources */,
 				401248A82B26A2D800E40553 /* ShuttleTypes.swift in Sources */,
 				405E67BD2797865D00BA41D9 /* MapListViewModel.swift in Sources */,
+				40F17C6F2B9C024000BEBFF9 /* AnyUIKitView.swift in Sources */,
 				40E4430D2787842800FE245D /* CanyonDetailView.swift in Sources */,
 				407FB75127906CAC008B65BE /* AppleMapObjects.swift in Sources */,
 				4005DFBE278F5DD900EB1640 /* Logger+error.swift in Sources */,
 				4005DFC0278F60C500EB1640 /* CanyonFilterViewModel.swift in Sources */,
-				407FB7712790FF49008B65BE /* CanyonMap.swift in Sources */,
 				40E443222787A0F200FE245D /* CanyonAPIService.swift in Sources */,
 				407FB7632790CD2B008B65BE /* NOAASerializer.swift in Sources */,
 				40DF5FA52B1BEF0E007A076F /* ShareSheetView.swift in Sources */,
@@ -987,6 +986,7 @@
 				407FB7622790CD2B008B65BE /* WeatherDataPoint.swift in Sources */,
 				407FB7732790FF7B008B65BE /* AppleMapView.swift in Sources */,
 				4068C3512B14CC090033707F /* GeneralError.swift in Sources */,
+				40F17C672B9BFED600BEBFF9 /* SingleCanyonMapViewModel.swift in Sources */,
 				407FB76B2790D592008B65BE /* WeatherForecastView.swift in Sources */,
 				40B83C3B2B2F895B00C843A7 /* CanyonDataManager+read.swift in Sources */,
 				4068C36F2B18D7B50033707F /* CanyonDetailViewModel.swift in Sources */,
@@ -1002,6 +1002,7 @@
 				40E44348278A0A7100FE245D /* BestSeasonsViewModel.swift in Sources */,
 				40E4433727888D9100FE245D /* LocationService.swift in Sources */,
 				40B83C352B2F7CA500C843A7 /* CanyonAPIURL.swift in Sources */,
+				40F17C692B9BFEE400BEBFF9 /* ManyCanyonMapView.swift in Sources */,
 				40DF5FA12B1BC500007A076F /* LargeProgressView.swift in Sources */,
 				40783CE9278DF46A001E78DB /* UserPreferencesStorage+favorite.swift in Sources */,
 				40E442C82787601D00FE245D /* Logger.swift in Sources */,
@@ -1011,7 +1012,6 @@
 				40E443262787A23A00FE245D /* SearchService.swift in Sources */,
 				4032AEC8278F3EFE002EEA4E /* Array+safe.swift in Sources */,
 				401248A62B26A2BA00E40553 /* Month.swift in Sources */,
-				40E4431F2787A0C000FE245D /* MapViewModel.swift in Sources */,
 				40A09BFA2B82790700254501 /* CanyonDataManager+cache.swift in Sources */,
 				40E4433F2788F1D600FE245D /* SpreadFilter.swift in Sources */,
 				40E442D82787614000FE245D /* Grid.swift in Sources */,
@@ -1034,6 +1034,7 @@
 				401248AA2B26A4DF00E40553 /* Permit.swift in Sources */,
 				40E4432F2787D90C00FE245D /* RequestError.swift in Sources */,
 				405E67BA2797865D00BA41D9 /* ResultsViewModel.swift in Sources */,
+				40F17C6D2B9C013F00BEBFF9 /* BasicMap.swift in Sources */,
 				40FDB38A2791FCDE0065FF47 /* Data+toFile.swift in Sources */,
 				40E443412789F36C00FE245D /* CanyonFilterSheetView.swift in Sources */,
 				405E67B72797865D00BA41D9 /* NearMeView.swift in Sources */,
@@ -1045,7 +1046,6 @@
 				401248B02B26AEF200E40553 /* Canyon.swift in Sources */,
 				407FB75F2790CD2B008B65BE /* WeatherDataResponse.swift in Sources */,
 				40DF5F602B1BAD57007A076F /* CanyonFilterSheetViewModel.swift in Sources */,
-				40DF5FAF2B1E2902007A076F /* AnyUIKitView.swift in Sources */,
 				40E442B927875EB200FE245D /* Region.swift in Sources */,
 				4012489E2B26A0B600E40553 /* CanyonIndex.swift in Sources */,
 				40FDB38E279218C50065FF47 /* SolarService.swift in Sources */,
@@ -1183,7 +1183,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3E2X8PZ6MG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Canyoneer/Info.plist;
@@ -1201,7 +1201,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = out.backcountry.canyoneering;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1356,7 +1356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3E2X8PZ6MG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Canyoneer/Info.plist;
@@ -1374,7 +1374,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = out.backcountry.canyoneering;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1392,7 +1392,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3E2X8PZ6MG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Canyoneer/Info.plist;
@@ -1410,7 +1410,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = out.backcountry.canyoneering;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

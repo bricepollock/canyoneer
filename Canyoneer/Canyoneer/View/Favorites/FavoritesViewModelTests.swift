@@ -13,17 +13,20 @@ import XCTest
 class FavoritesViewModelTests: XCTestCase {
     var manager: MockCanyonDataManager!
     var favoriteService: MockFavoriteService!
+    var locationService: LocationService!
     var viewModel: FavoriteListViewModel!
     
     override func setUp() {
         super.setUp()
         manager = MockCanyonDataManager()
         favoriteService = MockFavoriteService()
+        locationService = LocationService()
         viewModel = FavoriteListViewModel(
             weatherViewModel: WeatherViewModel(),
             mapService: MapService(),
             canyonManager: manager,
-            favoriteService: favoriteService
+            favoriteService: favoriteService,
+            locationService: locationService
         )
     }
     

@@ -12,8 +12,10 @@ import XCTest
 @MainActor
 class NearMeViewModelTests: XCTestCase {
     var favorite: MockFavoriteService!
+    var locationService: LocationService!
     override func setUp() {
         super.setUp()
+        locationService = LocationService()
         favorite = MockFavoriteService()
     }
     
@@ -31,7 +33,8 @@ class NearMeViewModelTests: XCTestCase {
             weatherViewModel: WeatherViewModel(),
             canyonManager: manager,
             favoriteService: favorite,
-            searchService: service
+            searchService: service,
+            locationService: locationService
         )
         
         // test response
