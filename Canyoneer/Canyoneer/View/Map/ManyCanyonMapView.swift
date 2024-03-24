@@ -12,13 +12,14 @@ fileprivate enum Strings {
 struct ManyCanyonMapView: View {
     @ObservedObject var viewModel: ManyCanyonMapViewModel
         
-    @State var showLegend: Bool = false
-    @State var showTopoLines: Bool = true
-    @State var showFilters: Bool = false
+    @State var showLegendSheet: Bool = false
+    @State var showTopoLines: Bool
+    @State var showFiltersSheet: Bool = false
     @State var showCanyonsOnMap: Bool = false
     
     init(viewModel: ManyCanyonMapViewModel) {
         self.viewModel = viewModel
+        self.showTopoLines = viewModel.showTopoLines
     }
     
     @ViewBuilder
@@ -39,14 +40,14 @@ struct ManyCanyonMapView: View {
                                 showCanyonsOnMap = true
                             }
                             ImageButton(system: "line.3.horizontal.decrease.circle") {
-                                showFilters = true
+                                showFiltersSheet = true
                             }
                         }
                         Spacer()
                         HStack {
                             Spacer()
                             Button(action: {
-                                self.showLegend = true
+                                self.showLegendSheet = true
                             }, label: {
                                 Text(Strings.legend)
                                     .font(FontBook.Subhead.emphasis)
@@ -62,6 +63,9 @@ struct ManyCanyonMapView: View {
                                             .font(FontBook.Subhead.emphasis)
                                     }
                                 }
+                                .onChange(of: showTopoLines) { shouldShow in
+                                    viewModel.showTopoLines = shouldShow
+                                }
                             }
                         }
                     }
@@ -71,7 +75,7 @@ struct ManyCanyonMapView: View {
             .navigationDestination(isPresented: $showCanyonsOnMap) {
                 ResultListView(
                     viewModel: MapListViewModel(
-                        canyonsOnMap: viewModel.mapOwner.visibleCanyons,
+                        canyonsOnMap: viewModel.visibleCanyons,
                         filterViewModel: viewModel.filterViewModel,
                         filterSheetViewModel: viewModel.filterSheetViewModel,
                         weatherViewModel: viewModel.weatherViewModel,
@@ -97,25 +101,10 @@ struct ManyCanyonMapView: View {
                 }
             }
         }
-        .onChange(of: showTopoLines) { showTopoLines in
-            // FIXME: We dropped support of TOPO lines on map to migrate to index file, when we address [ISSUE-6] we can use the mapbox tiles and avoid loading all KLM into memory which should allow us to put topo lines back on the map
-            if showTopoLines {
-                Task(priority: .userInitiated) {
-                    do {
-                        try await viewModel.mapOwner.renderCanyonPolylinesOnMap()
-                    } catch {
-                        Global.logger.error(error)
-                    }
-                }
-                
-            } else {
-                viewModel.mapOwner.removeAllPolylines()
-            }
-        }
-        .sheet(isPresented: $showLegend) {
+        .sheet(isPresented: $showLegendSheet) {
             MapLegendView()
         }
-        .sheet(isPresented: $showFilters) {
+        .sheet(isPresented: $showFiltersSheet) {
             CanyonFilterSheetView(viewModel: self.viewModel.filterSheetViewModel)
         }
     }

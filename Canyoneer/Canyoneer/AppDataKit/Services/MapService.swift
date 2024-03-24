@@ -14,13 +14,13 @@ class MapService {
     /// Percentage of progress complete
     @Published public var downloadPercentage: Double? = nil
     
-    public static let publicAccessToken = "pk.eyJ1IjoiYnJpY2Vwb2xsb2NrIiwiYSI6ImNreWRhdGNtODAyNzUyb2xoMXdmbWFvd3UifQ.-iGgCZKoYX9wKf5uAyLWHA"
-    private let tileStore = TileStore.default
+    private let tileStore: TileStore
     private let offlineManager: OfflineManager
     
     init() {
-        self.tileStore.setOptionForKey(TileStoreOptions.mapboxAccessToken, value: Self.publicAccessToken as Any)
-        self.offlineManager = OfflineManager(resourceOptions: ResourceOptions(accessToken: Self.publicAccessToken, tileStore: tileStore))
+        self.tileStore = TileStore.default
+        MapboxMapsOptions.tileStore = tileStore
+        self.offlineManager = OfflineManager()
     }
     
     func hasDownloaded(all canyons: [Canyon]) async throws -> Bool {
@@ -45,7 +45,8 @@ class MapService {
         
     func downloadTile(for canyon: Canyon) async throws {
         let id = canyon.id
-        let options = TilesetDescriptorOptions(styleURI: .outdoors, zoomRange: 8...16)
+//        let tilesets = ["mapbox://mapbox.mapbox-streets-v8"]
+        let options = TilesetDescriptorOptions(styleURI: .outdoors, zoomRange: 8...16, tilesets: nil)
         let tilesetDescriptor = offlineManager.createTilesetDescriptor(for: options)
         
         guard let tileRegionLoadOptions = TileRegionLoadOptions(

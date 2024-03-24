@@ -23,126 +23,62 @@ extension Point {
     }
 }
 
-class MapboxMapViewOwner: NSObject {
+class MapboxMap: NSObject {
     public let view: AnyUIKitView
-    private let mapView: MapboxMaps.MapView
-    let didRequestCanyon = PassthroughSubject<String, Never>()
+    internal let mapView: MapboxMaps.MapView
     
-    public let locationService: LocationService
+    @Published var zoomLevel: Double
+    @Published var visibleMap: CoordinateBounds
+    let didRequestCanyon = PassthroughSubject<CanyonIndex, Never>()
+    
+    internal let canyonLineManager: PolylineAnnotationManager
+    internal let waypointManager: PointAnnotationManager
+    internal let canyonLabelManager: PointAnnotationManager
+    internal let canyonPinManager: PointAnnotationManager
+    internal var cachedPolylines: [PolylineAnnotation] = []
+    
+    internal let locationService: LocationService
+    private var bag = Set<AnyCancellable>()
     
     init(locationService: LocationService = LocationService()) {
-        let myResourceOptions = ResourceOptions(accessToken: MapService.publicAccessToken)
         let myMapInitOptions = MapInitOptions(
-            resourceOptions: myResourceOptions,
             styleURI: StyleURI.outdoors
         )
         let mapboxMapView = MapboxMaps.MapView(frame: UIScreen.main.bounds, mapInitOptions: myMapInitOptions)
+        mapboxMapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.mapView = mapboxMapView
-        self.view = AnyUIKitView(view: mapView)
+        self.zoomLevel = Double(mapboxMapView.mapboxMap.cameraState.zoom)
+        self.visibleMap = mapboxMapView.mapboxMap.cameraBounds.bounds
         
+        canyonLineManager = mapboxMapView.annotations.makePolylineAnnotationManager(id: "canyon-lines")
+        waypointManager = mapboxMapView.annotations.makePointAnnotationManager(id: "canyon-waypoints")
+        canyonLabelManager = mapboxMapView.annotations.makePointAnnotationManager(id: "canyon-labels")
+        canyonPinManager = mapboxMapView.annotations.makePointAnnotationManager(id: "canyon-pins")
+        
+        self.view = AnyUIKitView(view: mapView)
         self.locationService = locationService
     }
     
-    func renderPolylines(for canyon: Canyon) {
-        let lineManager = self.mapView.annotations.makePolylineAnnotationManager()
-        let overlays = canyon.geoLines.map { feature -> PolylineAnnotation in
-            var overlay = PolylineAnnotation(lineCoordinates: feature.coordinates.map { $0.asCLObject })
-            let type = TopoLineType(string: feature.name)
-            let geoColor: UIColor?
-            if let stroke = feature.hexColor {
-                geoColor = UIColor.hex(stroke)
-            } else {
-                geoColor = nil
-            }
-            let color = type == .unknown ? geoColor ?? UIColor(type.color) : UIColor(type.color)
-            overlay.lineColor = StyleColor(color)
-            overlay.lineWidth = 3
-            overlay.lineOpacity = 0.5
-            return overlay
-        }
-        lineManager.annotations = overlays
-    }
-    
     func removeAllPolylines() {
-        let lineManager = self.mapView.annotations.makePolylineAnnotationManager()
-        lineManager.annotations = []
+        canyonLineManager.annotations = []
     }
-    
-    func renderWaypoints(canyon: Canyon) {
-        let annotationManager = self.mapView.annotations.makePointAnnotationManager()
-        
-        // add waypoints from map
-        var waypoints: [PointAnnotation] = []
-        canyon.geoWaypoints.forEach { feature in
-            // all waypoints should have one coordinate
-            guard let first = feature.coordinates.first else {
-                return
-            }
-            let point = Point(first.asCLObject)
-            
-            // avoid any waypoints that overlap with others
-            if waypoints.contains(where: { $0.point.isClose(to: point, proximity: 1) }) == true {
-                return
-            }
-            
-            var annotation = PointAnnotation(point: point)
-            let image = UIImage(systemName: "pin.fill")!.withTintColor(UIColor(ColorPalette.Color.warning), renderingMode: .alwaysOriginal)
-            annotation.image = .init(image: image, name: "red_pin")
-            annotation.textField = feature.name
-            annotation.iconAnchor = .bottom
-            waypoints.append(annotation)
-        }
-        
-        // if no waypoints throw the canyon on there
-        if waypoints.isEmpty {
-            let point = Point(canyon.coordinate.asCLObject)
-            var annotation = PointAnnotation(point: point)
-            let image = UIImage(systemName: "pin.fill")!.withTintColor(UIColor(ColorPalette.Color.warning), renderingMode: .alwaysOriginal)
-            annotation.image = .init(image: image, name: "red_pin")
-            annotation.textField = canyon.name
-            annotation.iconAnchor = .bottom
-            waypoints.append(annotation)
-        }
-        
-        // add labels for the lines
-        let labels = canyon.geoLines.compactMap { feature -> PointAnnotation? in
-            // find a coordinate away from waypoints to label the polyline
-            var coordinates = feature.coordinates
-            var first: Coordinate? = coordinates.first
-            while let found = first {
-                let point = Point(found.asCLObject)
-                // if our line coordinate is far from other waypoints, then use it
-                if waypoints.contains(where: { $0.point.isClose(to: point) }) == false{
-                    break
-                }
-                coordinates = Array(coordinates.dropFirst())
-                first = coordinates.first
-            }
-            // if couldn't find a coordinate away from waypoints then skip this label
-            guard let labelCoordinate = first else {
-                return nil
-            }
-            let labelPoint = Point(labelCoordinate.asCLObject)
-            var annotation = PointAnnotation(point: labelPoint)
-            annotation.textField = feature.name
-            annotation.iconAnchor = .center
-            return annotation
-        }
-        annotationManager.annotations = waypoints + labels
-    }
-
 }
 
-extension MapboxMapViewOwner: BasicMap {
+extension MapboxMap: BasicMap {
     func initialize() {
-        self.mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        let annotationManager = self.mapView.annotations.makePointAnnotationManager()
-        annotationManager.delegate = self
-        
         if locationService.isLocationEnabled() {
             // Add user position icon to the map with location indicator layer
             mapView.location.options.puckType = .puck2D()
         }
+        
+        // Accuracy ring is only shown when zoom is greater than or equal to 18.
+        mapView.mapboxMap.onCameraChanged
+            .debounce(for: .milliseconds(500), scheduler: DispatchQueue.main)
+            .sink { [weak self] cameraChanged in
+            guard let self else { return }
+            self.zoomLevel = Double(cameraChanged.cameraState.zoom)
+            self.visibleMap = self.mapView.mapboxMap.cameraBounds.bounds
+        }.store(in: &bag)
     }
     
     func focusCameraOn(canyon: Canyon) {
@@ -153,14 +89,13 @@ extension MapboxMapViewOwner: BasicMap {
     func focusCameraOn(location: CLLocationCoordinate2D) {
         self.mapView.mapboxMap.setCamera(to: CameraOptions(center: location, zoom: 8))
     }
-}
-
-extension MapboxMapViewOwner: AnnotationInteractionDelegate {
-    public func annotationManager(_ manager: AnnotationManager, didDetectTappedAnnotations annotations: [Annotation]) {
-        guard let first = annotations.first, let canyon = first.userInfo?["canyon"] as? Canyon else {
-            Global.logger.error("Cannot find canyon from annotation")
-            return
+    
+    internal func makePointAnnotation(for canyon: CanyonIndex) -> PointAnnotation {
+        var annotation = PointAnnotation(canyon: canyon)
+        annotation.tapHandler = { [weak self] _ in
+            self?.didRequestCanyon.send(canyon)
+            return true
         }
-        self.didRequestCanyon.send(canyon.id)
+        return annotation
     }
 }

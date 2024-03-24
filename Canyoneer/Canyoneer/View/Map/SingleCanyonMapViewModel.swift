@@ -7,7 +7,7 @@ import SwiftUI
 @MainActor
 class SingleCanyonMapViewModel: ObservableObject {
     private let canyon: Canyon
-    private let mapOwner: MapboxMapViewOwner
+    private let mapOwner: MapboxMap
     public let mapView: AnyUIKitView
     
     init(
@@ -15,7 +15,7 @@ class SingleCanyonMapViewModel: ObservableObject {
         locationService: LocationService = LocationService()
     ) {
         self.canyon = canyon
-        self.mapOwner = MapboxMapViewOwner(locationService: locationService)
+        self.mapOwner = MapboxMap(locationService: locationService)
         self.mapView = mapOwner.view
         
         self.mapOwner.initialize()
