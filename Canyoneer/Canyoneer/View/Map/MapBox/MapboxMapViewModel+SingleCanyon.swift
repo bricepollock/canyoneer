@@ -4,7 +4,7 @@ import Foundation
 import CoreLocation
 import MapboxMaps
 
-extension MapboxMap {
+extension MapboxMapViewModel {
     func renderPolylines(for canyon: Canyon) {
         let annotations = canyon.geoLines.map { feature -> PolylineAnnotation in
             PolylineAnnotation(feature: feature, in: canyon.index)

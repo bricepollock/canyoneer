@@ -4,9 +4,8 @@ import Foundation
 import CoreLocation
 import MapboxMaps
 
-
 // MARK: Visibility
-extension MapboxMap {
+extension MapboxMapViewModel {
     public func isVisible(canyon: CanyonIndex) -> Bool {
         visibleMap.contains(forPoint: canyon.coordinate.asCLObject, wrappedCoordinates: true)
     }
@@ -40,7 +39,7 @@ extension MapboxMap {
 }
 
 // MARK: Canyon Pins
-extension MapboxMap {
+extension MapboxMapViewModel {
     
     
     public func addAnnotations(for canyons: [CanyonIndex]) {
@@ -69,7 +68,7 @@ extension MapboxMap {
 }
 
 // MARK: Canyon Lines
-extension MapboxMap {  
+extension MapboxMapViewModel {
     public func cachePolylines() {
         cachedPolylines = canyonLineManager.annotations
     }

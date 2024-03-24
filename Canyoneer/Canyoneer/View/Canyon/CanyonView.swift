@@ -64,10 +64,11 @@ struct CanyonView: View {
             }
         }
         .navigationDestination(isPresented: $showMapDetails) {
-            if let mapViewModel = viewModel.mapViewModel {
-                VStack {
-                    mapViewModel.mapView
-                }
+            if let singleCanyonViewModel = viewModel.singleCanyonViewModel {
+                MapboxMapView(viewModel: singleCanyonViewModel.mapViewModel)
+                    .onAppear {
+                        singleCanyonViewModel.onAppear()
+                    }
             } else {
                 EmptyView()
             }

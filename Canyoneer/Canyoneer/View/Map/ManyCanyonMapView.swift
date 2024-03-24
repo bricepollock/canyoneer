@@ -26,10 +26,10 @@ struct ManyCanyonMapView: View {
     var body: some View {
         NavigationStack {
             Group {
-                viewModel.mapView
-            }
-            .onAppear {
-                viewModel.didAppear()
+                MapboxMapView(viewModel: viewModel.mapViewModel)
+                    .onAppear {
+                        viewModel.didAppear()
+                    }
             }
             .overlay(alignment: .bottomTrailing) {
                 if viewModel.showOverlays {
@@ -43,16 +43,9 @@ struct ManyCanyonMapView: View {
                                 showFiltersSheet = true
                             }
                         }
+                        .padding(Grid.medium)
+                        
                         Spacer()
-                        HStack {
-                            Spacer()
-                            Button(action: {
-                                self.showLegendSheet = true
-                            }, label: {
-                                Text(Strings.legend)
-                                    .font(FontBook.Subhead.emphasis)
-                            })
-                        }
                         if viewModel.canRenderTopoLines {
                             HStack {
                                 Spacer()
@@ -68,8 +61,18 @@ struct ManyCanyonMapView: View {
                                 }
                             }
                         }
+                        HStack {
+                            Spacer()
+                            Button(action: {
+                                self.showLegendSheet = true
+                            }, label: {
+                                Text(Strings.legend)
+                                    .font(FontBook.Subhead.emphasis)
+                            })
+                            // Avoid the mapbox (i)
+                            .offset(x: -38, y: -10)
+                        }
                     }
-                    .padding(Grid.medium)
                 }
             }
             .navigationDestination(isPresented: $showCanyonsOnMap) {

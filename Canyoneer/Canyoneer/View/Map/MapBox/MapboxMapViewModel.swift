@@ -23,39 +23,36 @@ extension Point {
     }
 }
 
-class MapboxMap: NSObject {
-    public let view: AnyUIKitView
-    internal let mapView: MapboxMaps.MapView
+struct MapboxMapView: UIViewControllerRepresentable {
+    let viewModel: MapboxMapViewModel
     
-    @Published var zoomLevel: Double
-    @Published var visibleMap: CoordinateBounds
+    func makeUIViewController(context: Context) -> some UIViewController {
+        return MapboxMapViewController(controller: viewModel)
+    }
+    
+    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
+        
+    }
+}
+
+/// - Warning: Cannot be interact with until `appear` since it relies the SwiftUI-UIKit bridge and in `Mapbox.v11` SwiftUI support is still experimental
+class MapboxMapViewModel: NSObject {
+    internal var mapView: MapboxMaps.MapView!
+    
+    @Published var zoomLevel: Double = 0
+    @Published var visibleMap: CoordinateBounds = .zero
     let didRequestCanyon = PassthroughSubject<CanyonIndex, Never>()
     
-    internal let canyonLineManager: PolylineAnnotationManager
-    internal let waypointManager: PointAnnotationManager
-    internal let canyonLabelManager: PointAnnotationManager
-    internal let canyonPinManager: PointAnnotationManager
+    internal var canyonLineManager: PolylineAnnotationManager!
+    internal var waypointManager: PointAnnotationManager!
+    internal var canyonLabelManager: PointAnnotationManager!
+    internal var canyonPinManager: PointAnnotationManager!
     internal var cachedPolylines: [PolylineAnnotation] = []
     
     internal let locationService: LocationService
     private var bag = Set<AnyCancellable>()
     
     init(locationService: LocationService = LocationService()) {
-        let myMapInitOptions = MapInitOptions(
-            styleURI: StyleURI.outdoors
-        )
-        let mapboxMapView = MapboxMaps.MapView(frame: UIScreen.main.bounds, mapInitOptions: myMapInitOptions)
-        mapboxMapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        self.mapView = mapboxMapView
-        self.zoomLevel = Double(mapboxMapView.mapboxMap.cameraState.zoom)
-        self.visibleMap = mapboxMapView.mapboxMap.cameraBounds.bounds
-        
-        canyonLineManager = mapboxMapView.annotations.makePolylineAnnotationManager(id: "canyon-lines")
-        waypointManager = mapboxMapView.annotations.makePointAnnotationManager(id: "canyon-waypoints")
-        canyonLabelManager = mapboxMapView.annotations.makePointAnnotationManager(id: "canyon-labels")
-        canyonPinManager = mapboxMapView.annotations.makePointAnnotationManager(id: "canyon-pins")
-        
-        self.view = AnyUIKitView(view: mapView)
         self.locationService = locationService
     }
     
@@ -64,7 +61,21 @@ class MapboxMap: NSObject {
     }
 }
 
-extension MapboxMap: BasicMap {
+extension MapboxMapViewModel: MapboxMapController {
+    func didLoad(mapView: MapView) {
+        self.mapView = mapView
+
+        self.zoomLevel = Double(mapView.mapboxMap.cameraState.zoom)
+        self.visibleMap = mapView.mapboxMap.cameraBounds.bounds
+        
+        self.canyonLineManager = mapView.annotations.makePolylineAnnotationManager(id: "canyon-lines")
+        self.waypointManager = mapView.annotations.makePointAnnotationManager(id: "canyon-waypoints")
+        self.canyonLabelManager = mapView.annotations.makePointAnnotationManager(id: "canyon-labels")
+        self.canyonPinManager = mapView.annotations.makePointAnnotationManager(id: "canyon-pins")
+    }
+}
+
+extension MapboxMapViewModel: BasicMap {
     func initialize() {
         if locationService.isLocationEnabled() {
             // Add user position icon to the map with location indicator layer
