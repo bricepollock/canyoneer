@@ -79,6 +79,7 @@ class MapboxMapViewModel: NSObject {
 extension MapboxMapViewModel: MapboxMapController {
     func didLoad(mapView: MapView) {
         self.mapView = mapView
+        mapView.ornaments.compassView.isHidden = true
 
         self.zoomLevel = Double(mapView.mapboxMap.cameraState.zoom)
         self.visibleMap = visibleCoordinateBounds
