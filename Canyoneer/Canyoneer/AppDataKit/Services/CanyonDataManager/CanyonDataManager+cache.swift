@@ -31,9 +31,9 @@ extension CanyonDataManager {
         let newCacheCount = existingCachedCanyons.count + canyonsToCache.count
         guard newCacheCount < Self.databaseCanyonCacheLimit else {
             let remainingCapacity = Self.databaseCanyonCacheLimit - canyonsToCache.count
-            let purgedCacheCanyons = canyonsToCache + existingCachedCanyons.prefix(remainingCapacity)
+            let newCacheCanyons = canyonsToCache + existingCachedCanyons.prefix(remainingCapacity)
             canyonsCache = [:]
-            canyonsToCache.forEach {
+            newCacheCanyons.forEach {
                 canyonsCache[$0.id] = $0
             }
             return

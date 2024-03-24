@@ -41,6 +41,8 @@ class MapboxMapViewModel: NSObject {
     
     @Published var zoomLevel: Double = 0
     @Published var visibleMap: CoordinateBounds = .zero
+    /// The coordinate-area we want to render within (has an additional buffer around visibleMap)
+    @Published var renderingBounds: CoordinateBounds = .zero
     let didRequestCanyon = PassthroughSubject<CanyonIndex, Never>()
     
     internal var canyonLineManager: PolylineAnnotationManager!
@@ -56,8 +58,20 @@ class MapboxMapViewModel: NSObject {
         self.locationService = locationService
     }
     
-    func removeAllPolylines() {
-        canyonLineManager.annotations = []
+    var visibleCoordinateBounds: CoordinateBounds {
+        mapView.mapboxMap.coordinateBounds(for: CameraOptions(cameraState: mapView.mapboxMap.cameraState))
+    }
+    
+    /// Applies a buffer around rect so if we are using it to render on the map then we have less stuff loading dynamically and it looks smooth like everything is just there
+    var visibleCoordinateBoundsWithBuffer: CoordinateBounds {
+        let bounds = mapView.bounds
+        let buffer = bounds.width
+        let expandedBounds = CGRect(
+            origin: CGPoint(x: bounds.origin.x - buffer, y: bounds.origin.y - buffer),
+            size: CGSize(width: bounds.width + 2*buffer, height: bounds.height + 2*buffer)
+        )
+        // This is working really well, but we still get flashing
+        return mapView.mapboxMap.coordinateBounds(for: expandedBounds)
     }
 }
 
@@ -66,7 +80,8 @@ extension MapboxMapViewModel: MapboxMapController {
         self.mapView = mapView
 
         self.zoomLevel = Double(mapView.mapboxMap.cameraState.zoom)
-        self.visibleMap = mapView.mapboxMap.cameraBounds.bounds
+        self.visibleMap = visibleCoordinateBounds
+        self.renderingBounds = visibleCoordinateBoundsWithBuffer
         
         self.canyonLineManager = mapView.annotations.makePolylineAnnotationManager(id: "canyon-lines")
         self.waypointManager = mapView.annotations.makePointAnnotationManager(id: "canyon-waypoints")
@@ -84,11 +99,12 @@ extension MapboxMapViewModel: BasicMap {
         
         // Accuracy ring is only shown when zoom is greater than or equal to 18.
         mapView.mapboxMap.onCameraChanged
-            .debounce(for: .milliseconds(500), scheduler: DispatchQueue.main)
+            .debounce(for: .milliseconds(100), scheduler: DispatchQueue.main)
             .sink { [weak self] cameraChanged in
             guard let self else { return }
             self.zoomLevel = Double(cameraChanged.cameraState.zoom)
-            self.visibleMap = self.mapView.mapboxMap.cameraBounds.bounds
+            self.visibleMap = self.visibleCoordinateBounds
+            self.renderingBounds = self.visibleCoordinateBoundsWithBuffer
         }.store(in: &bag)
     }
     
@@ -99,14 +115,5 @@ extension MapboxMapViewModel: BasicMap {
     
     func focusCameraOn(location: CLLocationCoordinate2D) {
         self.mapView.mapboxMap.setCamera(to: CameraOptions(center: location, zoom: 8))
-    }
-    
-    internal func makePointAnnotation(for canyon: CanyonIndex) -> PointAnnotation {
-        var annotation = PointAnnotation(canyon: canyon)
-        annotation.tapHandler = { [weak self] _ in
-            self?.didRequestCanyon.send(canyon)
-            return true
-        }
-        return annotation
     }
 }

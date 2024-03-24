@@ -60,6 +60,8 @@ struct ManyCanyonMapView: View {
                                     viewModel.showTopoLines = shouldShow
                                 }
                             }
+                            .padding(.horizontal, Grid.medium)
+                            .padding(.vertical, Grid.small)
                         }
                         HStack {
                             Spacer()
@@ -70,7 +72,7 @@ struct ManyCanyonMapView: View {
                                     .font(FontBook.Subhead.emphasis)
                             })
                             // Avoid the mapbox (i)
-                            .offset(x: -38, y: -10)
+                            .offset(x: -46, y: -10)
                         }
                     }
                 }

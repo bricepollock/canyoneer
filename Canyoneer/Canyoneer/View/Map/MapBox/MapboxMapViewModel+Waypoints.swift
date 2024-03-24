@@ -4,14 +4,7 @@ import Foundation
 import CoreLocation
 import MapboxMaps
 
-extension MapboxMapViewModel {
-    func renderPolylines(for canyon: Canyon) {
-        let annotations = canyon.geoLines.map { feature -> PolylineAnnotation in
-            PolylineAnnotation(feature: feature, in: canyon.index)
-        }
-        canyonLineManager.annotations = annotations
-    }
-    
+extension MapboxMapViewModel {    
     func renderWaypoints(canyon: Canyon) {        
         // add waypoints from map
         var waypoints: [PointAnnotation] = []
@@ -34,8 +27,7 @@ extension MapboxMapViewModel {
         
         // if no waypoints throw the canyon on there
         if waypoints.isEmpty {
-            let canyonAnnotation = makePointAnnotation(for: canyon.index)
-            canyonPinManager.annotations = [canyonAnnotation]
+            self.updateCanyonPins(to: [canyon.index])
         }
         
         // add labels for the lines

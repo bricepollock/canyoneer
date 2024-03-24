@@ -26,7 +26,7 @@ extension PolylineAnnotation {
     }
     
     var canyonId: String? {
-        guard let canyonId = id.split(separator: ".")[safe: 3] else {
+        guard let canyonId = id.split(separator: ".")[safe: 2] else {
             return nil
         }
         return String(canyonId)

@@ -12,7 +12,7 @@ class ManyCanyonMapViewModel: ObservableObject {
     @Published var filteredCanyons: [CanyonIndex] = []
     public var visibleCanyons: [CanyonIndex] {
         var lookupMap = [String: String]()
-        mapViewModel.visibleCanyonIDs.forEach {
+        mapViewModel.visibleCanyonIDs().forEach {
             lookupMap[$0] = $0
         }
         // FIXME: Pretty non-performant, could maybe be improved with ViewAnnotation with contains the canyon filter
@@ -41,6 +41,7 @@ class ManyCanyonMapViewModel: ObservableObject {
     private let applyFilters: Bool
     private var hasSetupMap: Bool = false
     private var bag = Set<AnyCancellable>()
+    private var currentRenderPolylineTask: Task<Void, Error>?
     
     /// - Parameter applyFilters: Whether to apply filers to the canyons provided and when filters are updated
     init(
@@ -86,17 +87,9 @@ class ManyCanyonMapViewModel: ObservableObject {
         self.mapViewModel.initialize()
         self.updateInitialCamera()
         
-        initialCanyonPinRender(for: self.filteredCanyons)
         self.$filteredCanyons
-            .dropFirst()
             .sink { canyons in
-            Task(priority: .userInitiated) {
-                do {
-                    try await self.renderCanyonPins(new: canyons, previous: self.filteredCanyons)
-                } catch {
-                    Global.logger.error(error)
-                }
-            }
+                self.mapViewModel.updateCanyonPins(to: canyons)
         }.store(in: &bag)
         
         self.mapViewModel.didRequestCanyon.sink { [weak self] canyon in
@@ -108,7 +101,7 @@ class ManyCanyonMapViewModel: ObservableObject {
         self.mapViewModel.$zoomLevel.sink { [weak self] newLevel in
             guard let self else { return }
             // If we are close enough, then there is minimal performance overhead to render topo lines on client
-            self.canRenderTopoLines = newLevel > Self.zoomLevelThresholdForTopoLines
+            self.canRenderTopoLines = newLevel >= Self.zoomLevelThresholdForTopoLines
         }.store(in: &bag)
         
         // Handle user-toggling to show canyon-lines
@@ -118,11 +111,13 @@ class ManyCanyonMapViewModel: ObservableObject {
                 if self.canRenderTopoLines {
                     if !showLines {
                         self.mapViewModel.cachePolylines()
+                        self.mapViewModel.removeAllPolylines()
                     } else {
                         self.mapViewModel.applyCache()
                         self.mapViewModel.purgePolylineCache()
                     }
                 } else {
+                    self.mapViewModel.removeAllPolylines()
                     self.mapViewModel.purgePolylineCache()
                 }
             }.store(in: &bag)
@@ -135,14 +130,17 @@ class ManyCanyonMapViewModel: ObservableObject {
                 
                 // TODO: To avoid this client-workaround we should probably build all the GPX lines, points, etc into Mapbox layers
                 if canRenderLines, showTopoLines {
-                    let visibleCanyonIDs = self.mapViewModel.visibleCanyonIDs
-                    Task(priority: .userInitiated) { [weak self] in
+                    let visibleCanyonIDs = self.mapViewModel.renderAreaCanyonIDs()
+                    currentRenderPolylineTask?.cancel()
+                    self.currentRenderPolylineTask = Task(priority: .userInitiated) { [weak self] in
                         guard let self else { return }
                         
                         let visibleCanyons = try await self.canyonManager.canyons(for: visibleCanyonIDs)
-                        self.mapViewModel.renderPolylines(for: visibleCanyons)
+                        try Task.checkCancellation()
+                        self.mapViewModel.updatePolylines(to: visibleCanyons)
                     }
                 } else {
+                    currentRenderPolylineTask?.cancel()
                     self.mapViewModel.purgePolylineCache()
                     self.mapViewModel.removeAllPolylines()
                 }
@@ -166,45 +164,6 @@ class ManyCanyonMapViewModel: ObservableObject {
     }
     
     // MARK: Render details of a group of canyons
-    
-    private func initialCanyonPinRender(for canyons: [CanyonIndex]) {
-        Task(priority: .userInitiated) {
-            do {
-                try await self.renderCanyonPins(new: canyons, previous: [])
-            } catch {
-                Global.logger.error(error)
-            }
-        }
-    }
-    
-    /// Complexity: 4*n, could maybe do an optimization of patching only on screen and otherwise group update
-    private func renderCanyonPins(new: [CanyonIndex], previous: [CanyonIndex]) async throws {
-        Global.logger.debug("Rendering canyons: \(new.count)")
-        
-        var updatedMap = [String: CanyonIndex]()
-        new.forEach { updatedMap[$0.id] = $0}
-        
-        var currentMap = [String: CanyonIndex]()
-        previous.forEach { currentMap[$0.id] = $0}
-                
-        var removed = [String: CanyonIndex]()
-        var added = [CanyonIndex]()
-        var all = currentMap
-        new.filter { currentMap[$0.id] == nil }
-            .forEach {
-                all[$0.id] = $0
-                added.append($0)
-            }
-        previous.filter { updatedMap[$0.id] == nil }
-            .forEach {
-                all[$0.id] = nil
-                removed[$0.id] = $0
-            }
-        
-//        self.mapViewModel.removeAnnotations(for: removed)
-//        self.mapViewModel.addAnnotations(for: added)
-        self.mapViewModel.addAnnotations(for: new)
-    }
     
     private func updateCamera(canyons: [CanyonIndex]) async throws {
         // center location
