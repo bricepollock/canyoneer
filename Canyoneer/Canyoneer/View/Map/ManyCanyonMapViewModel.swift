@@ -7,8 +7,6 @@ import CoreLocation
 
 @MainActor
 class ManyCanyonMapViewModel: ObservableObject {
-    private static let zoomLevelThresholdForTopoLines: Double = 10
-    
     @Published var filteredCanyons: [CanyonIndex] = []
     public var visibleCanyons: [CanyonIndex] {
         var lookupMap = [String: String]()
@@ -101,7 +99,7 @@ class ManyCanyonMapViewModel: ObservableObject {
         self.mapViewModel.$zoomLevel.sink { [weak self] newLevel in
             guard let self else { return }
             // If we are close enough, then there is minimal performance overhead to render topo lines on client
-            self.canRenderTopoLines = newLevel >= Self.zoomLevelThresholdForTopoLines
+            self.canRenderTopoLines = newLevel > MapboxMapViewModel.zoomLevelThresholdForTopoLines
         }.store(in: &bag)
         
         // Handle user-toggling to show canyon-lines

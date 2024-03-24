@@ -37,6 +37,7 @@ struct MapboxMapView: UIViewControllerRepresentable {
 
 /// - Warning: Cannot be interact with until `appear` since it relies the SwiftUI-UIKit bridge and in `Mapbox.v11` SwiftUI support is still experimental
 class MapboxMapViewModel: NSObject {
+    public static let zoomLevelThresholdForTopoLines: Double = 9.9
     internal var mapView: MapboxMaps.MapView!
     
     @Published var zoomLevel: Double = 0
@@ -87,7 +88,12 @@ extension MapboxMapViewModel: MapboxMapController {
         
         self.waypointManager = mapView.annotations.makePointAnnotationManager(id: "canyon-waypoints")
         self.canyonLabelManager = mapView.annotations.makePointAnnotationManager(id: "canyon-labels")
-        self.canyonPinManager = mapView.annotations.makePointAnnotationManager(id: "canyon-pins")
+        
+        let clusterOptions = ClusterOptions(
+            circleColor: .constant(StyleColor(UIColor(ColorPalette.Color.canyonRed))),
+            clusterMaxZoom: Self.zoomLevelThresholdForTopoLines
+        )
+        self.canyonPinManager = mapView.annotations.makePointAnnotationManager(id: "canyon-pins", clusterOptions: clusterOptions)
 
         // These seem to have no affect right now
 //        self.canyonPinManager.textAllowOverlap = false
