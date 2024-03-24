@@ -29,7 +29,7 @@ struct ManyCanyonMapView: View {
                 MapboxMapView(viewModel: viewModel.mapViewModel)
                     .onAppear {
                         viewModel.didAppear()
-                    }
+                    }.ignoresSafeArea(edges: .top)
             }
             .overlay(alignment: .bottomTrailing) {
                 if viewModel.showOverlays {
@@ -43,6 +43,7 @@ struct ManyCanyonMapView: View {
                                 showFiltersSheet = true
                             }
                         }
+                        .offset(y: 40)
                         .padding(Grid.medium)
                         
                         Spacer()
@@ -75,6 +76,7 @@ struct ManyCanyonMapView: View {
                             .offset(x: -46, y: -10)
                         }
                     }
+                    .ignoresSafeArea(edges: .top)
                 }
             }
             .navigationDestination(isPresented: $showCanyonsOnMap) {
