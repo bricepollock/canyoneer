@@ -5,17 +5,9 @@ import MapboxMaps
 import CoreLocation
 import UIKit
 
-// Consider moving to ViewAnnotation API
+// Be careful about any adoption of ViewAnnotation as it lists performance issues with 250+ annotation
 extension PointAnnotation {
-    init(canyon: CanyonIndex) {
-        self.init(id: Self.id(for: canyon), point: Point(canyon.coordinate.asCLObject))
-        let image = UIImage(systemName: "pin.fill")!.withTintColor(UIColor(ColorPalette.Color.warning), renderingMode: .alwaysOriginal)
-        self.image = .init(image: image, name: "red_pin")
-        self.textField = canyon.name
-        self.iconAnchor = .bottom
-    }
-    
-    static func id(for canyon: CanyonIndex) -> String {
+    static func canyonPinId(for canyon: CanyonIndex) -> String {
         return canyonPinPrefix + canyon.id
     }
     
@@ -29,3 +21,4 @@ extension PointAnnotation {
     
     static let canyonPinPrefix = "canyon-pin-"
 }
+

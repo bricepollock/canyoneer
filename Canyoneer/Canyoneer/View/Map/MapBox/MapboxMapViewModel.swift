@@ -52,7 +52,7 @@ class MapboxMapViewModel: NSObject {
     internal var cachedPolylines: [PolylineAnnotation] = []
     
     internal let locationService: LocationService
-    private var bag = Set<AnyCancellable>()
+    internal var bag = Set<AnyCancellable>()
     
     init(locationService: LocationService = LocationService()) {
         self.locationService = locationService
@@ -84,9 +84,18 @@ extension MapboxMapViewModel: MapboxMapController {
         self.renderingBounds = visibleCoordinateBoundsWithBuffer
         
         self.canyonLineManager = mapView.annotations.makePolylineAnnotationManager(id: "canyon-lines")
+        
         self.waypointManager = mapView.annotations.makePointAnnotationManager(id: "canyon-waypoints")
         self.canyonLabelManager = mapView.annotations.makePointAnnotationManager(id: "canyon-labels")
         self.canyonPinManager = mapView.annotations.makePointAnnotationManager(id: "canyon-pins")
+
+        // These seem to have no affect right now
+//        self.canyonPinManager.textAllowOverlap = false
+//        self.canyonPinManager.iconAllowOverlap = true
+//        self.canyonPinManager.textOptional = true
+        
+        // Debug test code
+//        setupDropPinAtCameraCenter()
     }
 }
 
