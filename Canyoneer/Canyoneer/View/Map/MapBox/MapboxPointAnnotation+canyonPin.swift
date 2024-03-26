@@ -14,8 +14,9 @@ extension PointAnnotation {
         let image = UIImage(named: "canyon_pin")!
         annotation.image = PointAnnotation.Image(image: image, name: "canyon_pin")
         annotation.textField = canyon.name
+        annotation.textSize = 12
         annotation.iconAnchor = .bottom
-        annotation.iconOffset = [0, -12]
+        annotation.textOffset = [0, 1]
         return annotation
     }
     

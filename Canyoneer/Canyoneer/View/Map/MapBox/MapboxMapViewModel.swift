@@ -91,11 +91,13 @@ extension MapboxMapViewModel: MapboxMapController {
         self.canyonLabelManager = mapView.annotations.makePointAnnotationManager(id: "canyon-labels")
         
         let clusterOptions = ClusterOptions(
+            circleRadius: .constant(24),
             circleColor: .constant(StyleColor(UIColor(ColorPalette.Color.canyonRed))),
+            textSize: .constant(18),
             clusterMaxZoom: Self.zoomLevelThresholdForTopoLines
         )
         self.canyonPinManager = mapView.annotations.makePointAnnotationManager(id: "canyon-pins", clusterOptions: clusterOptions)
-
+        
         // These seem to have no affect right now
 //        self.canyonPinManager.textAllowOverlap = false
 //        self.canyonPinManager.iconAllowOverlap = true

@@ -34,9 +34,9 @@ enum TopoLineType: String, CaseIterable, Equatable {
     var color: Color {
         switch self {
         case .driving: return ColorPalette.Color.action
-        case .approach: return ColorPalette.Color.green
+        case .approach: return ColorPalette.Color.canyonLineApproach
         case .descent: return ColorPalette.Color.warning
-        case .exit: return ColorPalette.Color.yellow
+        case .exit: return ColorPalette.Color.canyonLineExit
         case .unknown: return ColorPalette.GrayScale.dark
         }
     }
