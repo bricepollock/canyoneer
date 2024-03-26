@@ -164,6 +164,10 @@
 		40F17C892BB080BE00BEBFF9 /* MapboxMapViewModel+Polylines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C882BB080BE00BEBFF9 /* MapboxMapViewModel+Polylines.swift */; };
 		40F17C8D2BB0898F00BEBFF9 /* PossibleIdentifiable+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C8C2BB0898F00BEBFF9 /* PossibleIdentifiable+Compare.swift */; };
 		40F17C912BB0C9C900BEBFF9 /* MapboxMapViewModel+CanyonPins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C902BB0C9C900BEBFF9 /* MapboxMapViewModel+CanyonPins.swift */; };
+		40F17C972BB0E16C00BEBFF9 /* PossibleIdentifiable+CompareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C962BB0E16C00BEBFF9 /* PossibleIdentifiable+CompareTests.swift */; };
+		40F17C992BB0E1BA00BEBFF9 /* MapboxPointAnnotation+canyonPinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C982BB0E1BA00BEBFF9 /* MapboxPointAnnotation+canyonPinTests.swift */; };
+		40F17C9C2BB0E1C800BEBFF9 /* MapboxPolylineAnnotation+canyonLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C9A2BB0E1C600BEBFF9 /* MapboxPolylineAnnotation+canyonLineTests.swift */; };
+		40F17C9E2BB0E5E600BEBFF9 /* TopoLineTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C9D2BB0E5E600BEBFF9 /* TopoLineTypeTests.swift */; };
 		40FDB37E2791CF5D0065FF47 /* MapboxMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB37D2791CF5D0065FF47 /* MapboxMapViewModel.swift */; };
 		40FDB3832791D0E30065FF47 /* TopoLineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3822791D0E30065FF47 /* TopoLineType.swift */; };
 		40FDB3862791FAA00065FF47 /* CoreGPX in Frameworks */ = {isa = PBXBuildFile; productRef = 40FDB3852791FAA00065FF47 /* CoreGPX */; };
@@ -344,6 +348,10 @@
 		40F17C882BB080BE00BEBFF9 /* MapboxMapViewModel+Polylines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapboxMapViewModel+Polylines.swift"; sourceTree = "<group>"; };
 		40F17C8C2BB0898F00BEBFF9 /* PossibleIdentifiable+Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PossibleIdentifiable+Compare.swift"; sourceTree = "<group>"; };
 		40F17C902BB0C9C900BEBFF9 /* MapboxMapViewModel+CanyonPins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapboxMapViewModel+CanyonPins.swift"; sourceTree = "<group>"; };
+		40F17C962BB0E16C00BEBFF9 /* PossibleIdentifiable+CompareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PossibleIdentifiable+CompareTests.swift"; sourceTree = "<group>"; };
+		40F17C982BB0E1BA00BEBFF9 /* MapboxPointAnnotation+canyonPinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapboxPointAnnotation+canyonPinTests.swift"; sourceTree = "<group>"; };
+		40F17C9A2BB0E1C600BEBFF9 /* MapboxPolylineAnnotation+canyonLineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapboxPolylineAnnotation+canyonLineTests.swift"; sourceTree = "<group>"; };
+		40F17C9D2BB0E5E600BEBFF9 /* TopoLineTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopoLineTypeTests.swift; sourceTree = "<group>"; };
 		40FDB37D2791CF5D0065FF47 /* MapboxMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxMapViewModel.swift; sourceTree = "<group>"; };
 		40FDB3822791D0E30065FF47 /* TopoLineType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopoLineType.swift; sourceTree = "<group>"; };
 		40FDB3872791FCCB0065FF47 /* GPXService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXService.swift; sourceTree = "<group>"; };
@@ -467,6 +475,7 @@
 				40A09BEC2B8122B600254501 /* DateComponentsFormatter+timeString.swift */,
 				40A09BEE2B8122DF00254501 /* Array+chunk.swift */,
 				40F17C8C2BB0898F00BEBFF9 /* PossibleIdentifiable+Compare.swift */,
+				40F17C962BB0E16C00BEBFF9 /* PossibleIdentifiable+CompareTests.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -726,6 +735,7 @@
 			children = (
 				40F17C6C2B9C013F00BEBFF9 /* BasicMap.swift */,
 				40FDB3822791D0E30065FF47 /* TopoLineType.swift */,
+				40F17C9D2BB0E5E600BEBFF9 /* TopoLineTypeTests.swift */,
 				40FDB3762791CF170065FF47 /* MapBox */,
 				40F17C662B9BFED600BEBFF9 /* SingleCanyonMapViewModel.swift */,
 				40F17C682B9BFEE400BEBFF9 /* ManyCanyonMapView.swift */,
@@ -814,8 +824,10 @@
 				40F17C882BB080BE00BEBFF9 /* MapboxMapViewModel+Polylines.swift */,
 				40F17C902BB0C9C900BEBFF9 /* MapboxMapViewModel+CanyonPins.swift */,
 				40F17C802BAF502400BEBFF9 /* MapboxPolylineAnnotation+canyonLine.swift */,
+				40F17C9A2BB0E1C600BEBFF9 /* MapboxPolylineAnnotation+canyonLineTests.swift */,
 				40F17C7A2BAF4E1000BEBFF9 /* MapboxPointAnnotation+waypoint.swift */,
 				40F17C7C2BAF4EBA00BEBFF9 /* MapboxPointAnnotation+canyonPin.swift */,
+				40F17C982BB0E1BA00BEBFF9 /* MapboxPointAnnotation+canyonPinTests.swift */,
 				40F17C7E2BAF4F6C00BEBFF9 /* MapboxPointAnnotation+topoLabel.swift */,
 			);
 			path = MapBox;
@@ -1075,20 +1087,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40F17C972BB0E16C00BEBFF9 /* PossibleIdentifiable+CompareTests.swift in Sources */,
 				40A09C1E2B831CAB00254501 /* ModelCodableTests.swift in Sources */,
 				40A09C2A2B83B80A00254501 /* UpdateManagerTests.swift in Sources */,
 				40A09C192B82D90000254501 /* CanyonViewModelTests.swift in Sources */,
 				40A09C102B82D8E100254501 /* NearMeViewModelTests.swift in Sources */,
 				40A09C152B82D90000254501 /* CanyonDetailViewModelTests.swift in Sources */,
+				40F17C992BB0E1BA00BEBFF9 /* MapboxPointAnnotation+canyonPinTests.swift in Sources */,
 				40A09C182B82D90000254501 /* StarQualityViewModelTests.swift in Sources */,
 				40A09C0F2B82D8DA00254501 /* FavoritesViewModelTests.swift in Sources */,
 				40A09C232B83B71000254501 /* UserDefaults+favoriteTests.swift in Sources */,
 				4005DFCD278F7B0A00EB1640 /* MockSearchService.swift in Sources */,
 				40A09C312B843B0700254501 /* UserDefaults+lastUpdateTests.swift in Sources */,
+				40F17C9C2BB0E1C800BEBFF9 /* MapboxPolylineAnnotation+canyonLineTests.swift in Sources */,
 				40A09C272B83B75F00254501 /* IndexUpdateTests.swift in Sources */,
 				408B33032B0ABF22000CD934 /* GPXService+simplifyTests.swift in Sources */,
 				40A09C252B83B73100254501 /* CanyonAPIURLTests.swift in Sources */,
 				40A09C332B8459E500254501 /* MockCanyonDataUpdating.swift in Sources */,
+				40F17C9E2BB0E5E600BEBFF9 /* TopoLineTypeTests.swift in Sources */,
 				40A09C162B82D90000254501 /* WeatherViewModelTests.swift in Sources */,
 				40A09BF32B82748C00254501 /* CanyonFilePathTests.swift in Sources */,
 				401248BA2B26DC5B00E40553 /* CanyonTests.swift in Sources */,

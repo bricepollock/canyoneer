@@ -6,8 +6,8 @@ import CoreLocation
 import UIKit
 
 extension PolylineAnnotation {
-    init(feature: CoordinateFeature, in canyon: CanyonIndex) {
-        self.init(id: Self.id(for: canyon), lineCoordinates: feature.coordinates.map { $0.asCLObject })
+    static func makeCanyonLineAnnotation(feature: CoordinateFeature, in canyon: CanyonIndex) -> PolylineAnnotation {
+        var annotation = PolylineAnnotation(id: Self.id(for: canyon), lineCoordinates: feature.coordinates.map { $0.asCLObject })
         let type = TopoLineType(string: feature.name)
         let geoColor: UIColor?
         if let stroke = feature.hexColor {
@@ -16,21 +16,22 @@ extension PolylineAnnotation {
             geoColor = nil
         }
         let color = type == .unknown ? geoColor ?? UIColor(type.color) : UIColor(type.color)
-        self.lineColor = StyleColor(color)
-        self.lineWidth = 3
-        self.lineOpacity = 0.5
+        annotation.lineColor = StyleColor(color)
+        annotation.lineWidth = 3
+        annotation.lineOpacity = 0.5
+        return annotation
     }
     
-    static func id(for canyon: CanyonIndex) -> String {
+    private static func id(for canyon: CanyonIndex) -> String {
         return "\(canyonLinePrefix).\(canyon.id).\(UUID().uuidString)"
     }
     
-    var canyonId: String? {
+    public var canyonId: String? {
         guard let canyonId = id.split(separator: ".")[safe: 2] else {
             return nil
         }
         return String(canyonId)
     }
     
-    static let canyonLinePrefix = "canyon.line"
+    private static let canyonLinePrefix = "canyon.line"
 }

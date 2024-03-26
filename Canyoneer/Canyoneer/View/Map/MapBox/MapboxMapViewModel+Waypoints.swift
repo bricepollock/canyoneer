@@ -20,7 +20,7 @@ extension MapboxMapViewModel {
                 return
             }
             
-            let waypointAnnotation = PointAnnotation(coordinate: first, waypointName: feature.name)
+            let waypointAnnotation = PointAnnotation.makeWaypointAnnotation(coordinate: first, waypointName: feature.name)
             waypoints.append(waypointAnnotation)
         }
         waypointManager.annotations = waypoints
@@ -49,7 +49,7 @@ extension MapboxMapViewModel {
                 return nil
             }
             
-            return PointAnnotation(coordinate: labelCoordinate, topoName: feature.name)
+            return PointAnnotation.makeLabel(coordinate: labelCoordinate, topoName: feature.name)
         }
     }
 }

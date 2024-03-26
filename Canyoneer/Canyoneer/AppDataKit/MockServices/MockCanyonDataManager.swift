@@ -16,4 +16,12 @@ class MockCanyonDataManager: CanyonDataManaging {
         }
         return mockCanyon
     }
+    
+    public var mockCanyonList: [Canyon] = []
+    func canyons(for canyonIdList: [String]) async throws -> [Canyon] {
+        guard mockCanyonList.isEmpty == false else {
+            throw GeneralError.notFound
+        }
+        return mockCanyonList
+    }
 }

@@ -30,7 +30,7 @@ extension MapboxMapViewModel {
         // Add new lines
         let newAnnotations = comparisonLookup.added.values.flatMap { canyon in
             canyon.geoLines.map { feature -> PolylineAnnotation in
-                PolylineAnnotation(feature: feature, in: canyon.index)
+                PolylineAnnotation.makeCanyonLineAnnotation(feature: feature, in: canyon.index)
             }
         }
         canyonLineManager.annotations.append(contentsOf: newAnnotations)

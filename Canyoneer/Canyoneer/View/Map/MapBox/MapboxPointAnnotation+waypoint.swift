@@ -6,11 +6,13 @@ import CoreLocation
 import UIKit
 
 extension PointAnnotation {
-    init(coordinate: AnyCoordinate, waypointName: String?) {
-        self.init(point: Point(coordinate.asCLObject))
+    // Be careful transforming this to custom initialization method as that caused image not to render for some reason    
+    static func makeWaypointAnnotation(coordinate: AnyCoordinate, waypointName: String?) -> PointAnnotation {
+        var annotation = PointAnnotation(point: Point(coordinate.asCLObject))
         let image = UIImage(systemName: "pin.fill")!.withTintColor(UIColor(ColorPalette.Color.warning), renderingMode: .alwaysOriginal)
-        self.image = .init(image: image, name: "red_pin")
-        self.textField = waypointName
-        self.iconAnchor = .bottom
+        annotation.image = .init(image: image, name: "red_pin")
+        annotation.textField = waypointName
+        annotation.iconAnchor = .bottom
+        return annotation
     }
 }

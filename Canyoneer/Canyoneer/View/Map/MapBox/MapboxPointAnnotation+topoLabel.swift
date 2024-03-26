@@ -5,9 +5,9 @@ import MapboxMaps
 import CoreLocation
 
 extension PointAnnotation {
-    init(coordinate: AnyCoordinate, topoName: String?) {
-        self.init(point: Point(coordinate.asCLObject))
-        self.textField = topoName
-        self.iconAnchor = .center
+    static func makeLabel(coordinate: AnyCoordinate, topoName: String?) -> PointAnnotation {
+        var annotation = PointAnnotation(coordinate: coordinate.asCLObject)
+        annotation.iconAnchor = .center
+        return annotation
     }
 }

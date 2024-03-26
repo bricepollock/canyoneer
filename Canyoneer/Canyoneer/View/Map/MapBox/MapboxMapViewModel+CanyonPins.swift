@@ -30,13 +30,7 @@ extension MapboxMapViewModel {
     }
     
     func makePointAnnotation(for canyon: CanyonIndex) -> PointAnnotation {
-        var annotation = PointAnnotation(id: PointAnnotation.canyonPinId(for: canyon), coordinate: canyon.coordinate.asCLObject)
-                
-        let image = UIImage(named: "canyon_pin")!
-        annotation.image = PointAnnotation.Image(image: image, name: "canyon_pin")
-        annotation.textField = canyon.name
-        annotation.iconAnchor = .bottom
-        annotation.iconOffset = [0, -12]
+        var annotation = PointAnnotation.makeCanyonAnnotation(for: canyon)
         annotation.tapHandler = { [weak self] _ in
             self?.didRequestCanyon.send(canyon)
             return true
