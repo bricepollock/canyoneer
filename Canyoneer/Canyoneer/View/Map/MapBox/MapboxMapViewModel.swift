@@ -98,10 +98,12 @@ extension MapboxMapViewModel: MapboxMapController {
         )
         self.canyonPinManager = mapView.annotations.makePointAnnotationManager(id: "canyon-pins", clusterOptions: clusterOptions)
         
-        // These seem to have no affect right now
-//        self.canyonPinManager.textAllowOverlap = false
-//        self.canyonPinManager.iconAllowOverlap = true
-//        self.canyonPinManager.textOptional = true
+        // Hide text if it collides with other text (it will still show if collide with icon, so there is still some overlapping)
+        self.canyonPinManager.textAllowOverlap = false
+        self.canyonPinManager.iconAllowOverlap = true
+        self.canyonPinManager.textIgnorePlacement = false
+        self.canyonPinManager.iconIgnorePlacement = false
+        self.canyonPinManager.textOptional = true
         
         // Debug test code
 //        setupDropPinAtCameraCenter()
