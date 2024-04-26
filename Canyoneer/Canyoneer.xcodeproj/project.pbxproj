@@ -155,6 +155,7 @@
 		40F17C6D2B9C013F00BEBFF9 /* BasicMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C6C2B9C013F00BEBFF9 /* BasicMap.swift */; };
 		40F17C712BAF284B00BEBFF9 /* FilterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C702BAF284B00BEBFF9 /* FilterState.swift */; };
 		40F17C732BAF286C00BEBFF9 /* FilterStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C722BAF286B00BEBFF9 /* FilterStateTests.swift */; };
+		40F17C752BAF3F6B00BEBFF9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 40F17C742BAF3F6B00BEBFF9 /* PrivacyInfo.xcprivacy */; };
 		40F17C772BAF4C0500BEBFF9 /* MapboxMapViewModel+Waypoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C762BAF4C0500BEBFF9 /* MapboxMapViewModel+Waypoints.swift */; };
 		40F17C792BAF4D1900BEBFF9 /* MapboxMapViewModel+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C782BAF4D1900BEBFF9 /* MapboxMapViewModel+Visibility.swift */; };
 		40F17C7B2BAF4E1000BEBFF9 /* MapboxPointAnnotation+waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C7A2BAF4E1000BEBFF9 /* MapboxPointAnnotation+waypoint.swift */; };
@@ -172,7 +173,6 @@
 		40F17CA02BB2700600BEBFF9 /* UIColor+contrast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C9F2BB2700600BEBFF9 /* UIColor+contrast.swift */; };
 		40F17CA22BB2707000BEBFF9 /* UIColor+darken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17CA12BB2707000BEBFF9 /* UIColor+darken.swift */; };
 		40FDB37E2791CF5D0065FF47 /* MapboxMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB37D2791CF5D0065FF47 /* MapboxMapViewModel.swift */; };
-		40F17C752BAF3F6B00BEBFF9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 40F17C742BAF3F6B00BEBFF9 /* PrivacyInfo.xcprivacy */; };
 		40FDB3832791D0E30065FF47 /* TopoLineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3822791D0E30065FF47 /* TopoLineType.swift */; };
 		40FDB3862791FAA00065FF47 /* CoreGPX in Frameworks */ = {isa = PBXBuildFile; productRef = 40FDB3852791FAA00065FF47 /* CoreGPX */; };
 		40FDB3882791FCCB0065FF47 /* GPXService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3872791FCCB0065FF47 /* GPXService.swift */; };
@@ -343,6 +343,7 @@
 		40F17C6C2B9C013F00BEBFF9 /* BasicMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMap.swift; sourceTree = "<group>"; };
 		40F17C702BAF284B00BEBFF9 /* FilterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterState.swift; sourceTree = "<group>"; };
 		40F17C722BAF286B00BEBFF9 /* FilterStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterStateTests.swift; sourceTree = "<group>"; };
+		40F17C742BAF3F6B00BEBFF9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		40F17C762BAF4C0500BEBFF9 /* MapboxMapViewModel+Waypoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapboxMapViewModel+Waypoints.swift"; sourceTree = "<group>"; };
 		40F17C782BAF4D1900BEBFF9 /* MapboxMapViewModel+Visibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapboxMapViewModel+Visibility.swift"; sourceTree = "<group>"; };
 		40F17C7A2BAF4E1000BEBFF9 /* MapboxPointAnnotation+waypoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapboxPointAnnotation+waypoint.swift"; sourceTree = "<group>"; };
@@ -360,7 +361,6 @@
 		40F17C9F2BB2700600BEBFF9 /* UIColor+contrast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+contrast.swift"; sourceTree = "<group>"; };
 		40F17CA12BB2707000BEBFF9 /* UIColor+darken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+darken.swift"; sourceTree = "<group>"; };
 		40FDB37D2791CF5D0065FF47 /* MapboxMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxMapViewModel.swift; sourceTree = "<group>"; };
-		40F17C742BAF3F6B00BEBFF9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		40FDB3822791D0E30065FF47 /* TopoLineType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopoLineType.swift; sourceTree = "<group>"; };
 		40FDB3872791FCCB0065FF47 /* GPXService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXService.swift; sourceTree = "<group>"; };
 		40FDB3892791FCDE0065FF47 /* Data+toFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+toFile.swift"; sourceTree = "<group>"; };
@@ -1227,7 +1227,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 3E2X8PZ6MG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Canyoneer/Info.plist;
@@ -1400,7 +1400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 3E2X8PZ6MG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Canyoneer/Info.plist;
@@ -1436,7 +1436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 3E2X8PZ6MG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Canyoneer/Info.plist;
