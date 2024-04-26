@@ -6,21 +6,21 @@ import SwiftUI
 
 @MainActor
 class SingleCanyonMapViewModel: ObservableObject {
+    public let mapViewModel: MapboxMapViewModel
     private let canyon: Canyon
-    private let mapOwner: MapboxMapViewOwner
-    public let mapView: AnyUIKitView
-    
+        
     init(
         canyon: Canyon,
         locationService: LocationService = LocationService()
     ) {
         self.canyon = canyon
-        self.mapOwner = MapboxMapViewOwner(locationService: locationService)
-        self.mapView = mapOwner.view
-        
-        self.mapOwner.initialize()
-        self.mapOwner.focusCameraOn(canyon: canyon)
-        self.mapOwner.renderPolylines(for: canyon)
-        self.mapOwner.renderWaypoints(canyon: canyon)
+        self.mapViewModel = MapboxMapViewModel(locationService: locationService)
+    }
+    
+    func onAppear() {
+        self.mapViewModel.initialize()
+        self.mapViewModel.focusCameraOn(canyon: canyon)
+        self.mapViewModel.updatePolylines(to: [canyon])
+        self.mapViewModel.renderWaypoints(canyon: canyon)
     }
 }

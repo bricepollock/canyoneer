@@ -7,12 +7,22 @@ import CoreLocation
 
 @MainActor
 class ManyCanyonMapViewModel: ObservableObject {
-    @Published var canyons: [CanyonIndex] = []
-    public let mapOwner: AppleMapViewOwner
-    public let mapView: AnyUIKitView
+    @Published var filteredCanyons: [CanyonIndex] = []
+    public var visibleCanyons: [CanyonIndex] {
+        var lookupMap = [String: String]()
+        mapViewModel.visibleCanyonIDs().forEach {
+            lookupMap[$0] = $0
+        }
+        // FIXME: Pretty non-performant, but ViewAnnotations have a numerical limit. Maybe a map-object filter is the most performant.
+        return filteredCanyons.filter {
+            lookupMap[$0.id] != nil
+        }
+    }
+    
+    public let mapViewModel: MapboxMapViewModel
     public let showOverlays: Bool
     
-    // FIXME: [ISSUE-6] Need to link this with mapOwner so we know whether we are close enough to the map to render topo lines
+    @Published var showTopoLines: Bool = true
     @Published var canRenderTopoLines: Bool = false
     @Published var showCanyonDetails: Bool = false
     var showCanyonWithID: String?
@@ -26,7 +36,10 @@ class ManyCanyonMapViewModel: ObservableObject {
     public let locationService: LocationService
     
     private let allCanyons: [CanyonIndex]
+    private let applyFilters: Bool
+    private var hasSetupMap: Bool = false
     private var bag = Set<AnyCancellable>()
+    private var currentRenderPolylineTask: Task<Void, Error>?
     
     /// - Parameter applyFilters: Whether to apply filers to the canyons provided and when filters are updated
     init(
@@ -40,109 +53,122 @@ class ManyCanyonMapViewModel: ObservableObject {
         locationService: LocationService = LocationService()
     ) {
         self.allCanyons = allCanyons
+        self.applyFilters = applyFilters
+        self.showOverlays = showOverlays
+        
         self.weatherViewModel = weatherViewModel
         self.canyonManager = canyonManager
         self.favoriteService = favoriteService
         self.locationService = locationService
         self.filterViewModel = filterViewModel
         self.filterSheetViewModel = CanyonFilterSheetViewModel(filterViewModel: filterViewModel)
-        self.showOverlays = showOverlays
+        self.mapViewModel = MapboxMapViewModel(locationService: locationService)
         
-        self.mapOwner = AppleMapViewOwner(locationService: locationService, canyonManager: canyonManager)
-        self.mapView = mapOwner.view
-        
-        
-        self.mapOwner.initialize()
-        self.updateInitialCamera()
-        
-        self.$canyons.sink { canyons in
-            Task(priority: .userInitiated) {
-                do {
-                    try await self.render(canyons: canyons)
-                } catch {
-                    Global.logger.error(error)
-                }
-            }
-        }.store(in: &bag)
-        
-        self.mapOwner.didRequestCanyon.sink {
-            self.showCanyonWithID = $0
-            self.showCanyonDetails = true
-        }.store(in: &bag)
-
-        Task(priority: .userInitiated) { @MainActor [weak self] in
-            guard let self else { return }
-            do {
-                try await self.updateCamera(canyons: canyons)
-            } catch {
-                Global.logger.error(error)
-            }
-        }
-        
+        // Initialize canyons to render on map
         if applyFilters {
             // Update based upon state
-            filterViewModel.$currentState.map { newState in
-                CanyonFilterViewModel.filter(canyons: allCanyons, given: newState)
-            }.assign(to: &$canyons)
+            filterViewModel.$currentState.map { [weak self] newState in
+                CanyonFilterViewModel.filter(canyons: self?.allCanyons ?? [], given: newState)
+            }.assign(to: &$filteredCanyons)
+        } else {
+            filteredCanyons = allCanyons
         }
     }
     
     func didAppear() {
-        mapOwner.deselectCanyons()
+        guard !hasSetupMap else { return }
+        hasSetupMap = true
+        
+        self.mapViewModel.initialize()
+        self.updateInitialCamera()
+        
+        self.$filteredCanyons
+            .sink { canyons in
+                self.mapViewModel.updateCanyonPins(to: canyons)
+        }.store(in: &bag)
+        
+        self.mapViewModel.didRequestCanyon.sink { [weak self] canyon in
+            guard let self else { return }
+            self.showCanyonWithID = canyon.id
+            self.showCanyonDetails = true
+        }.store(in: &bag)
+        
+        self.mapViewModel.$zoomLevel.sink { [weak self] newLevel in
+            guard let self else { return }
+            // If we are close enough, then there is minimal performance overhead to render topo lines on client
+            self.canRenderTopoLines = newLevel > MapboxMapViewModel.zoomLevelThresholdForTopoLines
+        }.store(in: &bag)
+        
+        // Handle user-toggling to show canyon-lines
+        $showTopoLines
+            .sink { [weak self] showLines in
+                guard let self else { return }
+                if self.canRenderTopoLines {
+                    if !showLines {
+                        self.mapViewModel.cachePolylines()
+                        self.mapViewModel.removeAllPolylines()
+                    } else {
+                        self.mapViewModel.applyCache()
+                        self.mapViewModel.purgePolylineCache()
+                    }
+                } else {
+                    self.mapViewModel.removeAllPolylines()
+                    self.mapViewModel.purgePolylineCache()
+                }
+            }.store(in: &bag)
+        
+        // Update topo lines based upon camera changes
+        $canRenderTopoLines
+            .combineLatest(mapViewModel.$visibleMap)
+            .sink { [weak self] canRenderLines, _ in
+                guard let self else { return }
+                
+                // TODO: To avoid this client-workaround we should probably build all the GPX lines, points, etc into Mapbox layers
+                if canRenderLines, showTopoLines {
+                    let visibleCanyonIDs = self.mapViewModel.renderAreaCanyonIDs()
+                    currentRenderPolylineTask?.cancel()
+                    self.currentRenderPolylineTask = Task(priority: .userInitiated) { [weak self] in
+                        guard let self else { return }
+                        
+                        let visibleCanyons = try await self.canyonManager.canyons(for: visibleCanyonIDs)
+                        try Task.checkCancellation()
+                        self.mapViewModel.updatePolylines(to: visibleCanyons)
+                    }
+                } else {
+                    currentRenderPolylineTask?.cancel()
+                    self.mapViewModel.purgePolylineCache()
+                    self.mapViewModel.removeAllPolylines()
+                }
+            }.store(in: &bag)
+        
+        // Possible race with filtered canyons
+        Task(priority: .userInitiated) { @MainActor [weak self] in
+            guard let self else { return }
+            do {
+                try await self.updateCamera(canyons: filteredCanyons)
+            } catch {
+                Global.logger.error(error)
+            }
+        }
     }
     
     private func updateInitialCamera() {
         let utahCenter = CLLocationCoordinate2D(latitude: 39.3210, longitude: -111.0937)
         let center = UserDefaults.standard.lastViewCoordinate ?? utahCenter
-        self.mapOwner.focusCameraOn(location: center)
+        self.mapViewModel.focusCameraOn(location: center)
     }
     
     // MARK: Render details of a group of canyons
     
-    /// Complexity: 4*n, could maybe do an optimization of patching only on screen and otherwise group update
-    private func render(canyons updated: [CanyonIndex]) async throws {
-        Global.logger.debug("Rendering canyons: \(updated.count)")
-        
-        var updatedMap = [String: CanyonIndex]()
-        updated.forEach { updatedMap[$0.id] = $0}
-        
-        let current = mapOwner.currentCanyons
-        var currentMap = [String: CanyonIndex]()
-        current.forEach { currentMap[$0.id] = $0}
-                
-        var removed = [String: CanyonIndex]()
-        var added = [CanyonIndex]()
-        var all = currentMap
-        updated
-            .filter { currentMap[$0.id] == nil }
-            .forEach {
-                all[$0.id] = $0
-                added.append($0)
-            }
-        current
-            .filter { updatedMap[$0.id] == nil }
-            .forEach {
-                all[$0.id] = nil
-                removed[$0.id] = $0
-            }
-                
-        // FIXME: We dropped support of TOPO lines on map to migrate to index file, when we address [ISSUE-6] we can use the mapbox tiles and avoid loading all KLM into memory which should allow us to put topo lines back on the map
-//        self.mapOwner.removePolylines(for: Array(removed.values))
-//        try await self.mapOwner.renderPolylines(for: added)
-        
-        self.mapOwner.removeAnnotations(for: removed)
-        self.mapOwner.addAnnotations(for: added)
-    }
-    
     private func updateCamera(canyons: [CanyonIndex]) async throws {
         // center location
         if canyons.isEmpty == false && canyons.count < 100 {
-            self.mapOwner.focusCameraOn(location: canyons[0].coordinate.asCLObject)
+            self.mapViewModel.focusCameraOn(location: canyons[0].coordinate.asCLObject)
         } else if let lastViewed = UserDefaults.standard.lastViewCoordinate {
-            self.mapOwner.focusCameraOn(location: lastViewed)
+            self.mapViewModel.focusCameraOn(location: lastViewed)
         } else if locationService.isLocationEnabled() {
             let location = try await self.locationService.getCurrentLocation()
-            self.mapOwner.focusCameraOn(location: location)
+            self.mapViewModel.focusCameraOn(location: location)
         }
     }
 }

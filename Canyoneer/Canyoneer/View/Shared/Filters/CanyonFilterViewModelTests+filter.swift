@@ -64,8 +64,8 @@ class CanyonFilterViewModelTests: XCTestCase {
     }
     
     func testFilter_numRaps_low() {
-        let first = Canyon()
-        let second = Canyon()
+        let first = Canyon(minRaps: 2, maxRaps: 2)
+        let second = Canyon(minRaps: 2, maxRaps: 2)
         let third = Canyon(minRaps: 1, maxRaps: 1)
         let canyons = [first, second, third]
         
@@ -75,8 +75,8 @@ class CanyonFilterViewModelTests: XCTestCase {
     }
     
     func testFilter_numRaps_nil() {
-        let first = Canyon()
-        let second = Canyon()
+        let first = Canyon(minRaps: 2, maxRaps: 2)
+        let second = Canyon(minRaps: 2, maxRaps: 2)
         let third = Canyon(minRaps: nil, maxRaps: nil)
         let canyons = [first, second, third]
         
@@ -86,8 +86,8 @@ class CanyonFilterViewModelTests: XCTestCase {
     }
     
     func testFilter_numRaps_match() {
-        let first = Canyon()
-        let second = Canyon()
+        let first = Canyon(minRaps: 2, maxRaps: 2)
+        let second = Canyon(minRaps: 2, maxRaps: 2)
         let third = Canyon(minRaps: 12, maxRaps: 12)
         let canyons = [first, second, third]
         

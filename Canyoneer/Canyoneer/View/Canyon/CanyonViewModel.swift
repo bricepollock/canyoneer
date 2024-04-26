@@ -21,7 +21,7 @@ class CanyonViewModel: NSObject, ObservableObject {
     private let canyonId: String
     
     // objects
-    public var mapViewModel: SingleCanyonMapViewModel?
+    public var singleCanyonViewModel: SingleCanyonMapViewModel?
     private let canyonManager: CanyonDataManaging
     private let locationService: LocationService
     private let favoriteService: FavoriteServing
@@ -55,7 +55,7 @@ class CanyonViewModel: NSObject, ObservableObject {
             isFavorite = self.favoriteService.isFavorite(canyon: canyon)
             
             detailViewModel = CanyonDetailViewModel(canyon: canyon, weatherViewModel: weatherViewModel)
-            self.mapViewModel = SingleCanyonMapViewModel(canyon: canyon)
+            self.singleCanyonViewModel = SingleCanyonMapViewModel(canyon: canyon)
         } catch {
             Global.logger.error(error)
         }

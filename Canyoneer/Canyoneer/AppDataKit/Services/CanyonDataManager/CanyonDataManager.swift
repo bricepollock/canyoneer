@@ -8,13 +8,16 @@ protocol CanyonDataManaging {
     
     /// Get detail canyon information
     func canyon(for id: String) async throws -> Canyon
+    
+    /// Get a list of detailed canyons
+    func canyons(for canyonIdList: [String]) async throws -> [Canyon]
 }
 
 protocol CanyonDataUpdating: CanyonDataManaging, CanyonDataWriter {}
 
 actor CanyonDataManager: CanyonDataUpdating {
     internal var previews = [String: CanyonIndex]()
-    internal var canyons = [String: Canyon]()
+    internal var canyonsCache = [String: Canyon]()
     
     internal var isLoaded: Bool = false
     internal let storage = UserDefaults.standard
@@ -59,13 +62,55 @@ actor CanyonDataManager: CanyonDataUpdating {
     }
     
     func canyon(for id: String) async throws -> Canyon {
-        if let cached = canyons[id] {
+        if let cached = canyonFromCache(with: id) {
             return cached
         }
         
         let data = try await loadCanyonFromFile(id: id)
         let canyon = Canyon(data: data)
-        canyons[id] = canyon
+        updateCanyonCache(with: [canyon])
         return canyon
+    }
+    
+    /// - Warning: Does not guarentee order
+    func canyons(for canyonIdList: [String]) async throws -> [Canyon] {
+        var uncachedCanyonIDs = [String]()
+        var cachedCanyons = [Canyon]()
+        
+        // First grab any canyons from the cache
+        // Hope is if we only moved the map a little most will be found
+        canyonIdList.forEach {
+            if let cached = canyonFromCache(with: $0) {
+                cachedCanyons.append(cached)
+            } else {
+                uncachedCanyonIDs.append($0)
+            }
+        }
+        
+        // Get all canyon topos from disk
+        let diskCanyons = try await withThrowingTaskGroup(of: Canyon.self) { group in
+            uncachedCanyonIDs.forEach { canyonID in
+                _ = group.addTaskUnlessCancelled { [weak self] in
+                    guard let self else {
+                        throw GeneralError.unknownFailure
+                    }
+                    do {
+                        return try await self.canyon(for: canyonID)
+                    } catch {
+                        let errorMessage: String = "Failed to get canyon for \(canyonID): \(error)"
+                        Global.logger.error("\(errorMessage)")
+                        throw error
+                    }
+                }
+            }
+            
+            var responses = [Canyon]()
+            for try await canyon in group {
+                responses.append(canyon)
+            }
+            return responses
+        }
+        updateCanyonCache(with: diskCanyons)
+        return cachedCanyons + diskCanyons
     }
 }

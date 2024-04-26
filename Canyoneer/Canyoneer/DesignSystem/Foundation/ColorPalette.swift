@@ -20,10 +20,12 @@ enum ColorPalette {
     enum Color {
         static let warning = SwiftUI.Color.red
         static let canyonRed = SwiftUI.Color(uiColor: UIColor(red: 171/255, green: 119/255, blue: 108/255, alpha: 1))
-        static let yellow = SwiftUI.Color.yellow
         static let green = SwiftUI.Color.green
         static let action = SwiftUI.Color(uiColor: .systemBlue)
         static let actionDark = SwiftUI.Color.black
         static let actionLight = SwiftUI.Color(uiColor: .lightGray)
+        
+        static let canyonLineApproach = SwiftUI.Color(uiColor: UIColor(red: 48/255, green: 117/255, blue: 31/255, alpha: 1))
+        static let canyonLineExit = SwiftUI.Color(uiColor: UIColor.yellow)
     }
 }

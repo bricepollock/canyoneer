@@ -23,15 +23,16 @@ extension DataTableViewModel {
     }
     init(canyon: Canyon) {
         let isMetric = Locale.current.measurementSystem != .us
-        let longestRapInt: Int?
-        if let longestRap = canyon.maxRapLength?.converted(to: isMetric ? .meters : .feet).value.rounded() {
-            longestRapInt = Int(longestRap)
+        let longestRapString: String?
+        if let longestRap = canyon.maxRapLength?.converted(to: isMetric ? .meters : .feet) {
+            let value = Int(longestRap.value.rounded())
+            longestRapString = "\(value) \(longestRap.unit.symbol)"
         } else {
-            longestRapInt = nil
+            longestRapString = nil
         }
         let dataList = [
-            RowData(title: Strings.numRaps, value: Strings.intValue(int: canyon.maxRaps)),
-            RowData(title: Strings.longestRap, value: Strings.intValue(int: longestRapInt)),
+            RowData(title: Strings.numRaps, value: Strings.stringValue(string: canyon.numRappelsAsString)),
+            RowData(title: Strings.longestRap, value: Strings.stringValue(string: longestRapString)),
             RowData(title: Strings.difficulty, value: Strings.stringValue(string: canyon.technicalDifficulty?.text)),
             RowData(title: Strings.risk, value: Strings.stringValue(string: canyon.risk?.rawValue)),
             RowData(title: Strings.water, value: Strings.stringValue(string: canyon.waterDifficulty?.text)),
