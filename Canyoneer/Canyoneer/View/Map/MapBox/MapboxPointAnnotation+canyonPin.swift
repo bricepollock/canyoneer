@@ -15,6 +15,10 @@ extension PointAnnotation {
         annotation.image = PointAnnotation.Image(image: image, name: "canyon_pin")
         annotation.textField = canyon.name
         annotation.textSize = 12
+        annotation.textHaloBlur = 2
+        annotation.textHaloColor = StyleColor(.white)
+        annotation.textOpacity = 100
+        annotation.textHaloWidth = 2
         annotation.iconAnchor = .bottom
         annotation.textOffset = [0, 1]
         return annotation

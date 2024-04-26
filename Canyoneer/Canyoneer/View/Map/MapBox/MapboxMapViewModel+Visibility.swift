@@ -1,6 +1,7 @@
 //  Created by Brice Pollock for Canyoneer on 3/23/24
 
 import Foundation
+import MapboxMaps
 
 // All visiblity logic
 extension MapboxMapViewModel {
