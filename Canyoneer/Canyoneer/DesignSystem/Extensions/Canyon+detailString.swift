@@ -18,8 +18,8 @@ extension CanyonPreview {
         if let risk = risk {
             summary.append(" \(risk.rawValue)")
         }
-        if let num = maxRaps {
-            summary.append(" \(num)r")
+        if let numRaps = numRappelsAsString {
+            summary.append(" \(numRaps)")
         }
         if let max = maxRapLength {
             summary.append(" ↧\(Int(max.converted(to: .feet).value.rounded()))ft")

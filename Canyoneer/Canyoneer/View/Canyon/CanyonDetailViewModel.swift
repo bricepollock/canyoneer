@@ -29,7 +29,6 @@ class CanyonDetailViewModel: NSObject, ObservableObject {
         self.ropeWikiURL = canyon.ropeWikiURL
         self.starViewModel = StarQualityViewModel(quality: canyon.quality)
         
-        
         self.tableData = DataTableViewModel(canyon: canyon)
         self.bestMonths = BestSeasonsViewModel(
             selections: Set(canyon.bestSeasons),

@@ -48,4 +48,14 @@ extension CanyonPreview {
         guard let permit else { return false }
         return permit == .closed
     }
+    
+    var numRappelsAsString: String? {
+        if let min = minRaps, let max = maxRaps, min != max {
+            return "\(min)-\(max)r"
+        } else if let singleNumber = minRaps ?? maxRaps {
+            return "\(singleNumber)r"
+        } else {
+            return nil
+        }
+    }
 }
