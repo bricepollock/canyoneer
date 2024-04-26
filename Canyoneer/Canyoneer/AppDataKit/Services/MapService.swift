@@ -45,7 +45,6 @@ class MapService {
         
     func downloadTile(for canyon: Canyon) async throws {
         let id = canyon.id
-//        let tilesets = ["mapbox://mapbox.mapbox-streets-v8"]
         let options = TilesetDescriptorOptions(styleURI: .outdoors, zoomRange: 8...16, tilesets: nil)
         let tilesetDescriptor = offlineManager.createTilesetDescriptor(for: options)
         

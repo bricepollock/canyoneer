@@ -11,7 +11,6 @@ import SwiftUI
 struct SearchView: View {
     @ObservedObject var viewModel: SearchViewModel
     
-    @State var showCanyonWithID: String?
     @State var isSearchPresent: Bool = false
     
     @ViewBuilder

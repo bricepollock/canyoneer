@@ -1,8 +1,6 @@
 //  Created by Brice Pollock for Canyoneer on 3/23/24
 
 import Foundation
-import CoreLocation
-import MapboxMaps
 
 // All visiblity logic
 extension MapboxMapViewModel {
@@ -27,20 +25,6 @@ extension MapboxMapViewModel {
                 
             }
     }
-        
-    // Logic doesn't belong here, probably easier with view annotations because they can store the canyon object?
-//    public var visibleCanyons: [CanyonIndex] {
-//        return self.mapView.visibleAnnotations().compactMap {
-//            return ($0 as? CanyonAnnotation)?.canyon
-//        }
-//    }
-    
-    // Logic doesn't belong here
-//    public var currentCanyons: [CanyonIndex] {
-//        return self.mapView.annotations.compactMap {
-//            return ($0 as? CanyonAnnotation)?.canyon
-//        }
-//    }
 }
 
 

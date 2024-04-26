@@ -38,6 +38,7 @@ struct ComparisonLookup<T: PossibleIdentifable, V: PossibleIdentifable> {
 }
 
 extension Array where Element: PossibleIdentifable {
+    /// Create a comparison lookup table between two collections
     func compare<V: PossibleIdentifable>(to existing: [V]) -> ComparisonLookup<Element, V> {
         var newMap = [String: Element]()
         self.forEach {
@@ -76,47 +77,4 @@ extension Array where Element: PossibleIdentifable {
         }
         return ComparisonLookup(added: added, removed: removed, matched: matched, merged: merged)
     }
-}
-
-struct ComparisonLookupIDs {
-    let added: [String: String]
-    let removed: [String: String]
-    let matched: [String: String]
-    
-    /// Add the two together
-    let merged: [String: String]
-    
-    /// Should match NEW
-    var updateFromNew: [String] {
-        Array(added.values) + Array(matched.values)
-    }
-}
-
-
-func compare(newIDs: [String], existingIDs: [String]) -> ComparisonLookupIDs {
-    var updatedMap = [String: String]()
-    newIDs.forEach { updatedMap[$0] = $0}
-    
-    var merged = [String: String]()
-    var removed = [String: String]()
-    var added = [String: String]()
-    var matched = [String: String]()
-    
-    existingIDs
-        .forEach {
-            if updatedMap[$0] == nil {
-                removed[$0] = $0
-            }
-            merged[$0] = $0
-        }
-    
-    newIDs.forEach {
-        if merged[$0] == nil {
-            added[$0] = $0
-        } else {
-            matched[$0] = $0
-        }
-        merged[$0] = $0
-    }
-    return ComparisonLookupIDs(added: added, removed: removed, matched: matched, merged: merged)
 }

@@ -71,7 +71,6 @@ class MapboxMapViewModel: NSObject {
             origin: CGPoint(x: bounds.origin.x - buffer, y: bounds.origin.y - buffer),
             size: CGSize(width: bounds.width + 2*buffer, height: bounds.height + 2*buffer)
         )
-        // This is working really well, but we still get flashing
         return mapView.mapboxMap.coordinateBounds(for: expandedBounds)
     }
 }
@@ -104,9 +103,6 @@ extension MapboxMapViewModel: MapboxMapController {
         self.canyonPinManager.textIgnorePlacement = false
         self.canyonPinManager.iconIgnorePlacement = false
         self.canyonPinManager.textOptional = true
-        
-        // Debug test code
-//        setupDropPinAtCameraCenter()
     }
 }
 

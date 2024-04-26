@@ -13,7 +13,7 @@ class ManyCanyonMapViewModel: ObservableObject {
         mapViewModel.visibleCanyonIDs().forEach {
             lookupMap[$0] = $0
         }
-        // FIXME: Pretty non-performant, could maybe be improved with ViewAnnotation with contains the canyon filter
+        // FIXME: Pretty non-performant, but ViewAnnotations have a numerical limit. Maybe a map-object filter is the most performant.
         return filteredCanyons.filter {
             lookupMap[$0.id] != nil
         }
@@ -76,9 +76,6 @@ class ManyCanyonMapViewModel: ObservableObject {
     }
     
     func didAppear() {
-        // FIXME: do something with selection state
-//        mapOwner.deselectCanyons()
-        
         guard !hasSetupMap else { return }
         hasSetupMap = true
         
