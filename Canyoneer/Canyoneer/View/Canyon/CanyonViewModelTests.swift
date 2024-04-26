@@ -81,28 +81,28 @@ class CanyonViewModelTests: XCTestCase {
     }
     
     func testMessage() {
-        let canyon = Canyon()
+        let canyon = Canyon(minRaps: 2, maxRaps: 2)
         let expected = "I found 'Moonflower Canyon 3A II 2r ↧220ft' on the 'Canyoneer' app. Check out the canyon on Ropewiki: http://ropewiki.com/Moonflower_Canyon"
         let result = CanyonViewModel.Strings.message(for: canyon)
         XCTAssertEqual(expected, result)
     }
     
     func testMessage_noUrl() {
-        let canyon = Canyon(url: nil)
+        let canyon = Canyon(minRaps: 2, maxRaps: 2, url: nil)
         let expected = "I found 'Moonflower Canyon 3A II 2r ↧220ft' on the 'Canyoneer' app."
         let result = CanyonViewModel.Strings.message(for: canyon)
         XCTAssertEqual(expected, result)
     }
     
     func testBody() {
-        let canyon = Canyon()
+        let canyon = Canyon(minRaps: 2, maxRaps: 2)
         let expected = "I found 'Moonflower Canyon 3A II 2r ↧220ft' on the 'Canyoneer' app. Check out the canyon on Ropewiki: http://ropewiki.com/Moonflower_Canyon"
         let result = CanyonViewModel.Strings.body(for: canyon)
         XCTAssertEqual(expected, result)
     }
     
     func testBody_noUrl() {
-        let canyon = Canyon(url: nil)
+        let canyon = Canyon(minRaps: 2, maxRaps: 2, url: nil)
         let expected = "I found 'Moonflower Canyon 3A II 2r ↧220ft' on the 'Canyoneer' app."
         let result = CanyonViewModel.Strings.body(for: canyon)
         XCTAssertEqual(expected, result)
