@@ -103,6 +103,13 @@ extension MapboxMapViewModel: MapboxMapController {
         self.canyonPinManager.textIgnorePlacement = false
         self.canyonPinManager.iconIgnorePlacement = false
         self.canyonPinManager.textOptional = true
+        
+        // Do same for waypoints
+        self.waypointManager.textAllowOverlap = false
+        self.waypointManager.iconAllowOverlap = true
+        self.waypointManager.textIgnorePlacement = false
+        self.waypointManager.iconIgnorePlacement = false
+        self.waypointManager.textOptional = true
     }
 }
 

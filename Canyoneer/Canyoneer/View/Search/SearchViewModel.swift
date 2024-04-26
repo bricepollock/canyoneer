@@ -15,6 +15,7 @@ class SearchViewModel: ResultsViewModel {
     public let nearMeViewModel: NearMeViewModel
     private let searchService: SearchServiceInterface
     
+    private var lastTask: Task<Void, Never>?
     private var bag = Set<AnyCancellable>()
     
     init(
@@ -48,7 +49,8 @@ class SearchViewModel: ResultsViewModel {
         self.title = Strings.search
         
         $query.sink { [weak self] query in
-            Task(priority: .userInitiated) { [weak self] in
+            self?.lastTask?.cancel()
+            self?.lastTask = Task(priority: .userInitiated) { [weak self] in
                 await self?.search(query: query)
             }
         }.store(in: &bag)
@@ -63,6 +65,7 @@ class SearchViewModel: ResultsViewModel {
         }
         self.isLoading = true
         let response = await searchService.requestSearch(for: query)
+        guard !Task.isCancelled else { return }
         self.isLoading = false
         self.updateResults(to: response.results)
     }

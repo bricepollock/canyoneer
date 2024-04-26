@@ -13,6 +13,10 @@ extension PointAnnotation {
         let image = UIImage(named: "info_pin")!
         annotation.image = PointAnnotation.Image(image: image, name: "info_pin")
         annotation.textField = waypointName
+        annotation.textHaloBlur = 2
+        annotation.textHaloColor = StyleColor(.white)
+        annotation.textOpacity = 100
+        annotation.textHaloWidth = 2
         annotation.iconAnchor = .bottom
         annotation.textSize = 12
         annotation.textOffset = [0, 1]
