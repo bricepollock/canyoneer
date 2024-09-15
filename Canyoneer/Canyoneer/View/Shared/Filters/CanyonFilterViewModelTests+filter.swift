@@ -24,7 +24,7 @@ class CanyonFilterViewModelTests: XCTestCase {
     func testDefaultFilter_fromSource() async {
         let manager = CanyonDataManager()
         let allCanyons = await manager.canyons()
-        XCTAssertEqual(allCanyons.count, 10751)
+        XCTAssertEqual(allCanyons.count, 12309)
         
         let openFilterResults = CanyonFilterViewModel.filter(canyons: allCanyons, given: .default)
         XCTAssertEqual(allCanyons.count, openFilterResults.count)

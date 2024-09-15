@@ -30,7 +30,7 @@ class CanyonDataManagerTests: XCTestCase {
     
     func testIndexFromBundle() async throws {
         let index = try await manager.loadIndexFromFile()
-        XCTAssertEqual(index.count, 10751)
+        XCTAssertEqual(index.count, 12309)
     }
     
     func testReadWriteIndex() async throws {
@@ -85,7 +85,7 @@ class CanyonDataManagerTests: XCTestCase {
         XCTAssertEqual(canyon.rappelLongestMeters, 30.48)
         XCTAssertTrue(canyon.htmlDescription?.contains("SCOTTY'S CANYON WITH RICK KENT") ?? false)
         XCTAssertNil(canyon.vehicleAccessibility)
-        XCTAssertEqual(canyon.version, "ca61c07d1fcbbfa32da0e97165344293")
+        XCTAssertEqual(canyon.version, "7cd7c6b635b21ea67d7a70809c07d9731a4e6a7cc8ed2126d5aa54aa77b30883")
         
         // Test Translation
         XCTAssertEqual(canyon.technicalRating, .three)
@@ -117,7 +117,7 @@ class CanyonDataManagerTests: XCTestCase {
         XCTAssertEqual(canyon.rappelLongestMeters, 33.53)
         XCTAssertTrue(canyon.htmlDescription?.contains("One of the most coveted canyons in Zion") ?? false)
         XCTAssertEqual(canyon.vehicleString, "Passenger")
-        XCTAssertEqual(canyon.version, "37354cc4509c77aaafb93a42a51b97ff")
+        XCTAssertEqual(canyon.version, "f6e3cc197e7e859de1d7e8b9dd62b2ccef3f01b6836c0315a368ded64f474bb3")
         
         // Test Translation
         XCTAssertEqual(canyon.technicalRating, .three)
@@ -150,7 +150,7 @@ class CanyonDataManagerTests: XCTestCase {
         XCTAssertEqual(canyon.rappelLongestMeters, 32)
         XCTAssertEqual(canyon.shuttleInSeconds, 4200)
         XCTAssertEqual(canyon.vehicleString, "Passenger")
-        XCTAssertEqual(canyon.version, "ab2392fa6bf7d63cfdb55ec005e12b6f")
+        XCTAssertEqual(canyon.version, "f6e64150d3d229c33e16ff930dff626a74b5c76d197a1088f3b94d8abf392e3b")
         
         // Test Translation
         XCTAssertEqual(canyon.technicalRating, .three)
@@ -173,14 +173,14 @@ class CanyonDataManagerTests: XCTestCase {
         XCTAssertEqual(canyon.riskRating, .r)
     }
     
-    func testReadDecode_shuttle() async throws {
+    func testReadDecode_optionalShuttle() async throws {
         let canyonID = 49
         let canyon = try await manager.loadCanyonFromFile(id: String(canyonID))
         
         XCTAssertEqual(canyon.technicalRating, .four)
         XCTAssertEqual(canyon.waterRating, .c)
         XCTAssertEqual(canyon.timeRating, .four)
-        XCTAssertEqual(canyon.shuttleInSeconds, 30)
+        XCTAssertNil(canyon.shuttleInSeconds)
         XCTAssertEqual(canyon.vehicleString, "Passenger")
         XCTAssertEqual(canyon.vehicleAccessibility, .passenger)
     }
