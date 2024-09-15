@@ -38,7 +38,11 @@ actor CanyonDataManager: CanyonDataUpdating {
 
         // populate from cache
         do {
-            return try await loadIndex()
+            let allCanyons = try await loadIndex()
+            allCanyons.forEach {
+                previews[$0.id] = $0
+            }
+            return allCanyons
         } catch {
             assertionFailure(error.localizedDescription)
             return []

@@ -5,18 +5,15 @@ import Foundation
 /// Fully typed version of Canyon detail representation
 class RopeWikiCanyon: RopeWikiCanyonIndex {
     internal enum CodingKeys: String, CodingKey {
-        case urlString = "url"
         case htmlDescription = "description"
         case geoJson = "geojson"
     }
     
-    let urlString: String
     let htmlDescription: String?
     let geoJson: GeoJson?
     
     required init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        self.urlString = try container.decode(String.self, forKey: CodingKeys.urlString)
         self.htmlDescription = try? container.decode(String.self, forKey: CodingKeys.htmlDescription)
         self.geoJson = try? container.decode(GeoJson.self, forKey: CodingKeys.geoJson)
         // RopeWikiCanyonIndex
@@ -27,7 +24,6 @@ class RopeWikiCanyon: RopeWikiCanyonIndex {
         var container = encoder.container(keyedBy: CodingKeys.self)
         
         // Added for RopeWikiCanyon
-        try container.encode(urlString, forKey: .urlString)
         try container.encode(htmlDescription, forKey: .htmlDescription)
         try container.encode(geoJson, forKey: .geoJson)
         
@@ -52,7 +48,7 @@ class RopeWikiCanyon: RopeWikiCanyonIndex {
         shuttleDuration: Measurement<UnitDuration>? = nil,
         quality: Double = 4.3,
         vehicleAccessibility: Vehicle? = .passenger,
-        url: URL? = URL(string: "http://ropewiki.com/Moonflower_Canyon"),
+        urlString: String = "http://ropewiki.com/Moonflower_Canyon",
         description: String = "<b>This is a canyon</b>",
         geoWaypoints: [CoordinateFeature] = [],
         geoLines: [CoordinateFeature] = []
@@ -62,12 +58,12 @@ class RopeWikiCanyon: RopeWikiCanyonIndex {
         #else
         fatalError("Should not be using this outside of testing")
         #endif
-        self.urlString = url?.absoluteString ?? ""
         self.htmlDescription = description
         self.geoJson = nil
         super.init(
             id: id,
             name: name,
+            urlString: urlString,
             coordinate: coordinate,
             technicalDifficulty: technicalDifficulty,
             risk: risk,
