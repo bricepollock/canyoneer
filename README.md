@@ -37,4 +37,11 @@ The Canyoneer app primarily renders cayons originating from [Ropewiki][ropewiki.
 ### Updating the Bundle
 One of the main goals for this project was an offline-first experience to search for and view canyons. Therefore we bundle most canyons with the app and then update from server throughout the app lifetime. The data bundled with the app becomes stale over time so 1-2 times a year, a new app version should be published with updated bundled canyon data for First Time User Experience.
 
-To update the bundle, follow the instructions at the [API README][https://github.com/CanyoneerApp/api] to pull down the zip archive for the current version. Replace the `index.json` file and `CanyonDetails` directory with the contents of that zip. Then submit a pull request with @brice-pollock as the reviewer.
+
+#### Generating new data / server-update
+To generate new data, follow the instructions at the [GITHUB PROJECT README][https://github.com/bricepollock/canyoneer-server] to generate new data, validate it and then you can either just update the server-data...or also include the new data in the app. down the zip archive for the current version. 
+
+#### Updating local bundled data
+Given the new data, replace the `index.json` file and `CanyonDetails` directory with the newly generated data. Then submit a pull request with @brice-pollock as the reviewer.
+
+Note: When you update the bundled data, you need to also update `UpdateManager.bundledDataUpdatedAt` as this will preference newer, bundled data on update instead of continuing to use the less recently pulled data.

@@ -4,6 +4,7 @@ import Foundation
 @testable import Canyoneer
 
 class MockCanyonDataUpdating: MockCanyonDataManager, CanyonDataUpdating {
+
     var requiresUpdate: DataUpdate?
     func canyonsRequiringUpdate() async throws -> DataUpdate? {
         requiresUpdate
@@ -12,4 +13,6 @@ class MockCanyonDataUpdating: MockCanyonDataManager, CanyonDataUpdating {
     func updateCanyons(from dataUpdate: DataUpdate, inBackground: Bool) async throws {
         
     }
+    
+    func clearNetworkUpdate() async {}
 }

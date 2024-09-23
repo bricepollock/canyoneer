@@ -10,6 +10,9 @@ protocol CanyonDataWriter {
     /// Updates canyons from server and writes them to disk
     /// - Throws: Only IndexUpdateError
     func updateCanyons(from dataUpdate: DataUpdate, inBackground: Bool) async throws
+    
+    /// Clears out the latest network update
+    func clearNetworkUpdate() async
 }
 
 extension CanyonDataManager: CanyonDataWriter {
@@ -69,6 +72,20 @@ extension CanyonDataManager: CanyonDataWriter {
         
         let canyonFilePath = URL(filePath: CanyonFilePath.writableCanyonPath(for: String(response.canyon.id)))
         try response.data.write(to: canyonFilePath)
+    }
+    
+    func clearNetworkUpdate() {
+        do {
+            if fileManager.fileExists(atPath: CanyonFilePath.writableIndexPath) {
+                try fileManager.removeItem(atPath: CanyonFilePath.writableIndexPath)
+            }
+            
+            if fileManager.fileExists(atPath: CanyonFilePath.writableCanyonDirectory) {
+                try fileManager.removeItem(atPath: CanyonFilePath.writableCanyonDirectory)
+            }
+        } catch {
+            Global.logger.error("Unable to clear out network-update data: \(error)")
+        }
     }
     
     private func createCanyonDirectoryIfNeeded() throws {
