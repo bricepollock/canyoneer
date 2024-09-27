@@ -16,6 +16,9 @@ import BackgroundTasks
     @Published var isUpdatingDatabase: Bool = false
     @Published var updateFailure: String?
     
+    /// When was the last time we manually updated the data bundled with the app. (September 24, 2024)
+    let bundledDataUpdatedAt = Date(timeIntervalSince1970: 1727189835)
+    
     var secondsBetweenUpdates: Double {
         Constants.updateInterval.converted(to: .seconds).value
     }
@@ -110,7 +113,7 @@ import BackgroundTasks
      }
     
     func checkServerForUpdate() async {
-        serverHasDatabaseUpdate = await checkServerForNewData() != nil
+        serverHasDatabaseUpdate = await checkServerForNewData(inBackground: true) != nil
     }
     
     /// Need to keep in sync with other `updateAppFromServerWithError` callers
@@ -131,7 +134,7 @@ import BackgroundTasks
         Global.logger.debug("Starting update request")
         isUpdatingDatabase = true
         
-        guard let newData = await checkServerForNewData() else {
+        guard let newData = await checkServerForNewData(inBackground: inBackground) else {
             return
         }
         
@@ -144,6 +147,22 @@ import BackgroundTasks
         let duration = DateComponentsFormatter.duration(for: durationSeconds)
         Global.logger.debug("Update for \(newData.neededCanyonUpdates.count) canyons took \(duration)")
         reportSuccess()
+    }
+    
+    /// Whether the shipped, bundled local data is newer than the last time we pulled data from server. If so, preference the newer bundle.
+    func checkServerDataAgainstBundle() async {
+        if isBundledDataNewerThanUpdates() {
+            await canyonManager.clearNetworkUpdate()
+            Global.logger.debug("Local bundle is newer than server data. Clearing out server-data.")
+        }
+    }
+    
+    private func isBundledDataNewerThanUpdates() -> Bool {
+        guard let lastUpdate = statusRecorder.lastUpdate?.time else {
+            Global.logger.debug("No last update recorded. Assuming never updated.")
+            return false
+        }
+        return bundledDataUpdatedAt > lastUpdate
     }
     
     internal func shouldAutoCheckForUpdate() -> Bool {
@@ -165,9 +184,10 @@ import BackgroundTasks
     /// Provides information about any server updates since app last checked
     /// - Note; Manages `serverHasDatabaseUpdate` state
     /// - Returns: New updated data (nil if nothing is new or error)
-    private func checkServerForNewData() async -> DataUpdate? {
+    private func checkServerForNewData(inBackground: Bool) async -> DataUpdate? {
         Global.logger.debug("Checking for update")
-        guard shouldAutoCheckForUpdate() else {
+        
+        guard !inBackground || shouldAutoCheckForUpdate() else {
             Global.logger.debug("Canceling update")
             try? await Task.sleep(for: .seconds(2))
             reportSuccess()

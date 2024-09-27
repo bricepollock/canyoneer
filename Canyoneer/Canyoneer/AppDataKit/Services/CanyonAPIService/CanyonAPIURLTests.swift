@@ -8,12 +8,12 @@ import XCTest
 class CanyonAPIURLTests: XCTestCase {
     
     func testIndexURL() {
-        let expected = "https://canyoneer--main.s3.us-west-1.amazonaws.com/v2/index.json"
+        let expected = "https://canyoneer-api.s3.us-west-1.amazonaws.com/index.json"
         XCTAssertEqual(CanyonAPIURL.index.absoluteString, expected)
     }
     
     func testCanyonURL() {
-        let expected = "https://canyoneer--main.s3.us-west-1.amazonaws.com/v2/details/101.json"
+        let expected = "https://canyoneer-api.s3.us-west-1.amazonaws.com/routes/101.json"
         let url = CanyonAPIURL.canyon(with: "101")
         XCTAssertEqual(url.absoluteString, expected)
 

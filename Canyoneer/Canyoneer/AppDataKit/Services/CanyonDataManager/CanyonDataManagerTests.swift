@@ -85,7 +85,7 @@ class CanyonDataManagerTests: XCTestCase {
         XCTAssertEqual(canyon.rappelLongestMeters, 30.48)
         XCTAssertTrue(canyon.htmlDescription?.contains("SCOTTY'S CANYON WITH RICK KENT") ?? false)
         XCTAssertNil(canyon.vehicleAccessibility)
-        XCTAssertEqual(canyon.version, "7cd7c6b635b21ea67d7a70809c07d9731a4e6a7cc8ed2126d5aa54aa77b30883")
+        XCTAssertEqual(canyon.version, "1b8cb8844b8dd68bd4e78d9e53540c161ae0e2d36526585e01904d1e0925b890")
         
         // Test Translation
         XCTAssertEqual(canyon.technicalRating, .three)
@@ -117,7 +117,7 @@ class CanyonDataManagerTests: XCTestCase {
         XCTAssertEqual(canyon.rappelLongestMeters, 33.53)
         XCTAssertTrue(canyon.htmlDescription?.contains("One of the most coveted canyons in Zion") ?? false)
         XCTAssertEqual(canyon.vehicleString, "Passenger")
-        XCTAssertEqual(canyon.version, "f6e3cc197e7e859de1d7e8b9dd62b2ccef3f01b6836c0315a368ded64f474bb3")
+        XCTAssertEqual(canyon.version, "230d324c5ff4bf37030146c1366cfd4e089f2c04e0152195dafc7b2349c4afd7")
         
         // Test Translation
         XCTAssertEqual(canyon.technicalRating, .three)
@@ -150,7 +150,7 @@ class CanyonDataManagerTests: XCTestCase {
         XCTAssertEqual(canyon.rappelLongestMeters, 32)
         XCTAssertEqual(canyon.shuttleInSeconds, 4200)
         XCTAssertEqual(canyon.vehicleString, "Passenger")
-        XCTAssertEqual(canyon.version, "f6e64150d3d229c33e16ff930dff626a74b5c76d197a1088f3b94d8abf392e3b")
+        XCTAssertEqual(canyon.version, "5b9253be926f26ad75d5f5031624eae90bbefebe5f4554a0ac8f2da6f20a49c2")
         
         // Test Translation
         XCTAssertEqual(canyon.technicalRating, .three)

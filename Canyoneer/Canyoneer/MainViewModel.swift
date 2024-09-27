@@ -40,6 +40,9 @@ class MainViewModel: ObservableObject {
     func loadApp() async {
         isLoadingApp = true
         
+        // Check against bundle
+        await updateManager.checkServerDataAgainstBundle()
+        
         // load the canyon data
         let allCanyons = await canyonManager.canyons()
         

@@ -63,8 +63,9 @@ class CanyonAPIService: CanyonAPIServing {
         let request = URLRequest(url: CanyonAPIURL.index)
         
         let data: Data
+        let response: URLResponse
         do {
-            (data, _) = try await self.standardSession.data(for: request)
+            (data, response) = try await self.standardSession.data(for: request)
         } catch {
             throw IndexUpdateError.indexRequest(error.localizedDescription)
         }

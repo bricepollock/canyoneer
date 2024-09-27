@@ -6,6 +6,7 @@ class RopeWikiCanyonIndex: CanyonIndexData, Codable {
     internal enum CodingKeys: String, CodingKey {
         case id = "id"
         case name = "name"
+        case urlString = "url"
         case quality = "quality"
         case monthStringList = "months"
         case technicalRatingRaw = "technicalRating"
@@ -23,28 +24,30 @@ class RopeWikiCanyonIndex: CanyonIndexData, Codable {
         case version
     }
     
-    let id: Int
-    let name: String
-    let quality: Double?
-    let monthStringList: [String]?
-    let technicalRatingRaw: Int?
-    let waterRatingString: String?
-    let timeRatingString: String?
-    let riskRatingString: String?
-    let permitString: String?
-    let rappelCountMin: Int?
-    let rappelCountMax: Int?
-    let rappelLongestMeters: Double?
-    let vehicleString: String?
-    let shuttleInSeconds: Double?
-    let latitude: Double
-    let longitude: Double
-    let version: String
+    public let id: Int
+    public let name: String
+    public let urlString: String
+    public let quality: Double?
+    public let monthStringList: [String]?
+    public let technicalRatingRaw: Int?
+    public let waterRatingString: String?
+    public let timeRatingString: String?
+    public let riskRatingString: String?
+    public let permitString: String?
+    public let rappelCountMin: Int?
+    public let rappelCountMax: Int?
+    public let rappelLongestMeters: Double?
+    public let vehicleString: String?
+    public let shuttleInSeconds: Double?
+    public let latitude: Double
+    public let longitude: Double
+    public let version: String
     
-    required init(from decoder: Decoder) throws {
+    public required init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.id = try container.decode(Int.self, forKey: CodingKeys.id)
         self.name = try container.decode(String.self, forKey: CodingKeys.name)
+        self.urlString = try container.decode(String.self, forKey: CodingKeys.urlString)
         self.quality = try? container.decode(Double.self, forKey: CodingKeys.quality)
         self.monthStringList = try? container.decode( [String].self, forKey: CodingKeys.monthStringList)
         self.technicalRatingRaw = try? container.decode(Int.self, forKey: CodingKeys.technicalRatingRaw)
@@ -62,10 +65,11 @@ class RopeWikiCanyonIndex: CanyonIndexData, Codable {
         self.version = try container.decode(String.self, forKey: CodingKeys.version)
     }
     
-    func encode(to encoder: Encoder) throws {
+    public func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         try container.encode(id, forKey: .id)
         try container.encode(name, forKey: .name)
+        try container.encode(urlString, forKey: .urlString)
         try container.encode(quality, forKey: .quality)
         try container.encode(monthStringList, forKey: .monthStringList)
         try container.encode(technicalRatingRaw, forKey: .technicalRatingRaw)
@@ -87,6 +91,7 @@ class RopeWikiCanyonIndex: CanyonIndexData, Codable {
     init(
         id: String = String(Int.random(in: (1..<1000))),
         name: String = "Moonflower Canyon",
+        urlString: String = "https://ropewiki.com/Moonflower_Canyon",
         coordinate: Coordinate = Coordinate(latitude: 1, longitude: 1),
         technicalDifficulty: TechnicalGrade? = .three,
         risk: Risk? = nil,
@@ -112,6 +117,7 @@ class RopeWikiCanyonIndex: CanyonIndexData, Codable {
         }
         self.id = mappedID
         self.name = name
+        self.urlString = urlString
         self.technicalRatingRaw = technicalDifficulty?.rawValue
         self.waterRatingString = waterDifficulty?.rawValue
         self.timeRatingString = timeGrade?.rawValue
