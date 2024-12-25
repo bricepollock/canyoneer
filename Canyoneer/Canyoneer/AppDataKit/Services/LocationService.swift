@@ -42,7 +42,12 @@ class LocationService: NSObject, CLLocationManagerDelegate {
         authorizationContinuation = nil
                 
         self.locationManager.startUpdatingHeading()
+                
+        // Clear out any pending task
+        currentLocationContinuation?.resume(throwing: GeneralError.canceled)
+        currentLocationContinuation = nil
         
+        // Launch another
         defer { currentLocationContinuation = nil }
         return try await withCheckedThrowingContinuation { continuation in
             currentLocationContinuation = continuation
