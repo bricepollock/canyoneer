@@ -172,12 +172,12 @@
 		40F17C9E2BB0E5E600BEBFF9 /* TopoLineTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C9D2BB0E5E600BEBFF9 /* TopoLineTypeTests.swift */; };
 		40F17CA02BB2700600BEBFF9 /* UIColor+contrast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17C9F2BB2700600BEBFF9 /* UIColor+contrast.swift */; };
 		40F17CA22BB2707000BEBFF9 /* UIColor+darken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F17CA12BB2707000BEBFF9 /* UIColor+darken.swift */; };
-		40F8C80B2D1C96E800C2948B /* CanyoneerTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C8092D1C96E800C2948B /* CanyoneerTips.swift */; };
 		40F8C7FB2D1C75EB00C2948B /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C7FA2D1C75EB00C2948B /* ImageButton.swift */; };
 		40F8C7FD2D1C75FB00C2948B /* MapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C7FC2D1C75FB00C2948B /* MapButton.swift */; };
 		40F8C7FF2D1C800300C2948B /* View+border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C7FE2D1C800300C2948B /* View+border.swift */; };
 		40F8C8012D1C921800C2948B /* Point+isClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C8002D1C921800C2948B /* Point+isClose.swift */; };
 		40F8C8032D1C924800C2948B /* CLLocationCoordinate2D+isClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C8022D1C924800C2948B /* CLLocationCoordinate2D+isClose.swift */; };
+		40F8C80B2D1C96E800C2948B /* CanyoneerTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C8092D1C96E800C2948B /* CanyoneerTips.swift */; };
 		40F8C80D2D1C9D2100C2948B /* SingleCanyonMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C80C2D1C9D2100C2948B /* SingleCanyonMapView.swift */; };
 		40FDB37E2791CF5D0065FF47 /* MapboxMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB37D2791CF5D0065FF47 /* MapboxMapViewModel.swift */; };
 		40FDB3832791D0E30065FF47 /* TopoLineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3822791D0E30065FF47 /* TopoLineType.swift */; };
@@ -367,12 +367,12 @@
 		40F17C9D2BB0E5E600BEBFF9 /* TopoLineTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopoLineTypeTests.swift; sourceTree = "<group>"; };
 		40F17C9F2BB2700600BEBFF9 /* UIColor+contrast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+contrast.swift"; sourceTree = "<group>"; };
 		40F17CA12BB2707000BEBFF9 /* UIColor+darken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+darken.swift"; sourceTree = "<group>"; };
-		40F8C8092D1C96E800C2948B /* CanyoneerTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyoneerTips.swift; sourceTree = "<group>"; };
 		40F8C7FA2D1C75EB00C2948B /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
 		40F8C7FC2D1C75FB00C2948B /* MapButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapButton.swift; sourceTree = "<group>"; };
 		40F8C7FE2D1C800300C2948B /* View+border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+border.swift"; sourceTree = "<group>"; };
 		40F8C8002D1C921800C2948B /* Point+isClose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Point+isClose.swift"; sourceTree = "<group>"; };
 		40F8C8022D1C924800C2948B /* CLLocationCoordinate2D+isClose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+isClose.swift"; sourceTree = "<group>"; };
+		40F8C8092D1C96E800C2948B /* CanyoneerTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyoneerTips.swift; sourceTree = "<group>"; };
 		40F8C80C2D1C9D2100C2948B /* SingleCanyonMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCanyonMapView.swift; sourceTree = "<group>"; };
 		40FDB37D2791CF5D0065FF47 /* MapboxMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxMapViewModel.swift; sourceTree = "<group>"; };
 		40FDB3822791D0E30065FF47 /* TopoLineType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopoLineType.swift; sourceTree = "<group>"; };
@@ -1249,7 +1249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1278,7 +1278,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1304,7 +1304,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3E2X8PZ6MG;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.backcountry-nomad.CanyoneerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1368,7 +1367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1425,7 +1424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1454,7 +1453,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1490,7 +1489,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1515,7 +1514,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3E2X8PZ6MG;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.backcountry-nomad.CanyoneerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1534,7 +1532,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3E2X8PZ6MG;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.backcountry-nomad.CanyoneerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
