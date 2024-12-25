@@ -42,6 +42,8 @@ struct ManyCanyonMapView: View {
                                 MapButton(system: "line.3.horizontal.decrease.circle") {
                                     showFiltersSheet = true
                                 }
+                                .popoverTip(CanyoneerTips.mapFilter)
+
                                 MapButton(system: "list.bullet.rectangle") {
                                     showCanyonsOnMap = true
                                 }

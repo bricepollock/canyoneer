@@ -3,8 +3,9 @@
 import Foundation
 import UserNotifications
 import UIKit
+import TipKit
 
-class AppDelegate: NSObject, UIApplicationDelegate { 
+class AppDelegate: NSObject, UIApplicationDelegate {
     func application(
        _ application: UIApplication,
        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil
@@ -19,6 +20,13 @@ class AppDelegate: NSObject, UIApplicationDelegate {
        // Wasn't able to get background tasks working reliably enough to ship to production
        // https://github.com/bricepollock/canyoneer/issues/29
 //       UpdateManager.shared.registerForBackgroundTask()
+       
+       // Initialize TipKit for the session
+       do {
+           try Tips.configure()
+       } catch {
+           Global.logger.error("Unable to init TipKit: \(error)")
+       }
 
        return true
    }
