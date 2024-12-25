@@ -48,9 +48,12 @@ struct CanyonView: View {
                 ImageButton(system: "map") {
                     showMapDetails = true
                 }
+                .popoverTip(CanyoneerTips.seeCanyonOnMap)
+                
                 ImageButton(system: "square.and.arrow.down") {
                     viewModel.requestDownloadGPX()
                 }
+                .popoverTip(CanyoneerTips.saveGPX)
             }
         }
         .sheet(isPresented: $showCanyonShareSheet) {
