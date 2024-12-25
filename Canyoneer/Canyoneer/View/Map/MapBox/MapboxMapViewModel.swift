@@ -12,17 +12,6 @@ import CoreLocation
 import MapboxMaps
 import Combine
 
-extension Point {
-    func isClose(to point: Point, proximity: Double = 2) -> Bool {
-        let precision: Double = 1000
-        let selfCloseLat = (self.coordinates.latitude * precision).rounded(.toNearestOrAwayFromZero)
-        let selfCloseLong = (self.coordinates.longitude * precision).rounded(.toNearestOrAwayFromZero)
-        let pointCloseLat = (point.coordinates.latitude * precision).rounded(.toNearestOrAwayFromZero)
-        let pointCloseLong = (point.coordinates.longitude * precision).rounded(.toNearestOrAwayFromZero)
-        return abs(selfCloseLat - pointCloseLat) <= proximity && abs(selfCloseLong - pointCloseLong) <= proximity
-    }
-}
-
 struct MapboxMapView: UIViewControllerRepresentable {
     let viewModel: MapboxMapViewModel
     
@@ -40,7 +29,12 @@ class MapboxMapViewModel: NSObject {
     public static let zoomLevelThresholdForTopoLines: Double = 9.9
     internal var mapView: MapboxMaps.MapView!
     
+    public var center: CLLocationCoordinate2D {
+        mapView.mapboxMap.cameraState.center
+    }
+    
     @Published var zoomLevel: Double = 0
+    /// The coordinate bounds of the visible map
     @Published var visibleMap: CoordinateBounds = .zero
     /// The coordinate-area we want to render within (has an additional buffer around visibleMap)
     @Published var renderingBounds: CoordinateBounds = .zero
@@ -131,12 +125,22 @@ extension MapboxMapViewModel: BasicMap {
         }.store(in: &bag)
     }
     
-    func focusCameraOn(canyon: Canyon) {
+    func focusCameraOn(canyon: Canyon, animate: Bool) {
         let center = canyon.coordinate.asCLObject
-        self.mapView.mapboxMap.setCamera(to: CameraOptions(center: center, zoom: 11))
+        let cameraDetails = CameraOptions(center: center, zoom: 11)
+        if animate {
+            self.mapView.camera.ease(to: cameraDetails, duration: 0.5)
+        } else {
+            self.mapView.mapboxMap.setCamera(to: cameraDetails)
+        }
     }
     
-    func focusCameraOn(location: CLLocationCoordinate2D) {
-        self.mapView.mapboxMap.setCamera(to: CameraOptions(center: location, zoom: 8))
+    func focusCameraOn(location: CLLocationCoordinate2D, animate: Bool) {
+        let cameraDetails = CameraOptions(center: location, zoom: 8)
+        if animate {
+            self.mapView.camera.ease(to: cameraDetails, duration: 0.5)
+        } else {
+            self.mapView.mapboxMap.setCamera(to: cameraDetails)
+        }
     }
 }

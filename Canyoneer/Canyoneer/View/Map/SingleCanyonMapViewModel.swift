@@ -19,7 +19,7 @@ class SingleCanyonMapViewModel: ObservableObject {
     
     func onAppear() {
         self.mapViewModel.initialize()
-        self.mapViewModel.focusCameraOn(canyon: canyon)
+        self.mapViewModel.focusCameraOn(canyon: canyon, animate: false)
         self.mapViewModel.updatePolylines(to: [canyon])
         self.mapViewModel.renderWaypoints(canyon: canyon)
     }

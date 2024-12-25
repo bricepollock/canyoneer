@@ -14,8 +14,8 @@ protocol BasicMap {
     // MARK: Camera Methods
     
     /// Set the camera to the canyons
-    func focusCameraOn(canyon: Canyon)
+    func focusCameraOn(canyon: Canyon, animate: Bool)
     
     /// Set the camera to current location
-    func focusCameraOn(location: CLLocationCoordinate2D)
+    func focusCameraOn(location: CLLocationCoordinate2D, animate: Bool)
 }

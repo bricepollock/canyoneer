@@ -40,29 +40,3 @@ struct SimpleButton: View {
         .foregroundColor(isEnabled ? style.textColor :  style.disabledColor)
     }
 }
-
-struct ImageButton: View {
-    private let image: UIImage
-    private let action: () -> Void
-    
-    init(system name: String, action: @escaping () -> Void) {
-        self.image = UIImage(systemName: name)!.withRenderingMode(.alwaysTemplate)
-        self.action = action
-    }
-    
-    init(image: UIImage, action: @escaping () -> Void) {
-        self.image = image.withRenderingMode(.alwaysTemplate)
-        self.action = action
-    }
-    
-    @ViewBuilder
-    var body: some View {
-        Button(action: action, label: {
-            Image(uiImage: image.withRenderingMode(.alwaysTemplate))
-                .resizable()
-                .scaledToFit()
-                .frame(width: 24, height: 24)
-                .foregroundColor(ColorPalette.Color.action)
-        })
-    }
-}

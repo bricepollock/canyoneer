@@ -25,6 +25,12 @@ class ManyCanyonMapViewModel: ObservableObject {
     @Published var showTopoLines: Bool = true
     @Published var canRenderTopoLines: Bool = false
     @Published var showCanyonDetails: Bool = false
+    
+    /// Whether the map is centered at current location
+    @Published var isAtCurrentLocation: Bool = false
+    /// The user location the last time the 'go to current location' button was tapped
+    private var lastUserLocation: CLLocationCoordinate2D?
+    
     var showCanyonWithID: String?
         
     public let filterViewModel: CanyonFilterViewModel
@@ -73,6 +79,11 @@ class ManyCanyonMapViewModel: ObservableObject {
         } else {
             filteredCanyons = allCanyons
         }
+        
+        // Initialize Current Location
+        Task(priority: .high) {
+            self.lastUserLocation = try? await locationService.getCurrentLocation()
+        }
     }
     
     func didAppear() {
@@ -98,6 +109,16 @@ class ManyCanyonMapViewModel: ObservableObject {
             // If we are close enough, then there is minimal performance overhead to render topo lines on client
             self.canRenderTopoLines = newLevel > MapboxMapViewModel.zoomLevelThresholdForTopoLines
         }.store(in: &bag)
+        
+        // Observe the map state change to know whether centered on current location
+        mapViewModel.$visibleMap
+            .map { [weak self] _ in
+                guard let self, let lastUserLocation else { return false }
+                return mapViewModel.center.isClose(to: lastUserLocation)
+            }
+            .removeDuplicates()
+            .assign(to: &$isAtCurrentLocation)
+        
         
         // Handle user-toggling to show canyon-lines
         $showTopoLines
@@ -152,10 +173,18 @@ class ManyCanyonMapViewModel: ObservableObject {
         }
     }
     
+    public func goToCurrentLocation() async {
+        guard let currentLocation = try? await locationService.getCurrentLocation() else {
+            return
+        }
+        self.lastUserLocation = currentLocation
+        self.mapViewModel.focusCameraOn(location: currentLocation, animate: true)
+    }
+    
     private func updateInitialCamera() {
         let utahCenter = CLLocationCoordinate2D(latitude: 39.3210, longitude: -111.0937)
         let center = UserDefaults.standard.lastViewCoordinate ?? utahCenter
-        self.mapViewModel.focusCameraOn(location: center)
+        self.mapViewModel.focusCameraOn(location: center, animate: false)
     }
     
     // MARK: Render details of a group of canyons
@@ -163,12 +192,12 @@ class ManyCanyonMapViewModel: ObservableObject {
     private func updateCamera(canyons: [CanyonIndex]) async throws {
         // center location
         if canyons.isEmpty == false && canyons.count < 100 {
-            self.mapViewModel.focusCameraOn(location: canyons[0].coordinate.asCLObject)
+            self.mapViewModel.focusCameraOn(location: canyons[0].coordinate.asCLObject, animate: false)
         } else if let lastViewed = UserDefaults.standard.lastViewCoordinate {
-            self.mapViewModel.focusCameraOn(location: lastViewed)
+            self.mapViewModel.focusCameraOn(location: lastViewed, animate: false)
         } else if locationService.isLocationEnabled() {
             let location = try await self.locationService.getCurrentLocation()
-            self.mapViewModel.focusCameraOn(location: location)
+            self.mapViewModel.focusCameraOn(location: location, animate: false)
         }
     }
 }
