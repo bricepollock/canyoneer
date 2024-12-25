@@ -110,8 +110,18 @@ extension MapboxMapViewModel: MapboxMapController {
 extension MapboxMapViewModel: BasicMap {
     func initialize() {
         if locationService.isLocationEnabled() {
-            // Add user position icon to the map with location indicator layer
-            mapView.location.options.puckType = .puck2D()
+
+            // Used "location.north.fill" image but SF Symbols didn't work here needed a bundled asset
+            let heading = UIImage(named: "map_location_heading")!            
+            let puckConfig = Puck2DConfiguration(
+                topImage: heading,
+                scale: .constant(0.25)
+            )
+            
+            // Add user location icon with heading direction
+            mapView.location.options.puckType = .puck2D(puckConfig)
+            mapView.location.options.puckBearing = .heading
+            mapView.location.options.puckBearingEnabled = true
         }
         
         // Accuracy ring is only shown when zoom is greater than or equal to 18.
