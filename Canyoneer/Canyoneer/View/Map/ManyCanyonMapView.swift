@@ -28,7 +28,7 @@ struct ManyCanyonMapView: View {
             Group {
                 MapboxMapView(viewModel: viewModel.mapViewModel)
                     .onAppear {
-                        viewModel.didAppear()
+                        viewModel.onAppear()
                     }.ignoresSafeArea(edges: .top)
             }
             .overlay(alignment: .bottomTrailing) {

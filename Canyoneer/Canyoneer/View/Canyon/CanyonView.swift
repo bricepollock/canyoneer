@@ -65,10 +65,8 @@ struct CanyonView: View {
         }
         .navigationDestination(isPresented: $showMapDetails) {
             if let singleCanyonViewModel = viewModel.singleCanyonViewModel {
-                MapboxMapView(viewModel: singleCanyonViewModel.mapViewModel)
-                    .onAppear {
-                        singleCanyonViewModel.onAppear()
-                    }
+                SingleCanyonMapView(viewModel: singleCanyonViewModel)
+                    .navigationTitle(viewModel.detailViewModel?.canyonName ?? "")
             } else {
                 EmptyView()
             }

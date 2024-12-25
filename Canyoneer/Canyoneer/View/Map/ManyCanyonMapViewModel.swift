@@ -86,7 +86,7 @@ class ManyCanyonMapViewModel: ObservableObject {
         }
     }
     
-    func didAppear() {
+    func onAppear() {
         guard !hasSetupMap else { return }
         hasSetupMap = true
         

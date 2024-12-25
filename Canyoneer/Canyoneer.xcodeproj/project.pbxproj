@@ -177,6 +177,7 @@
 		40F8C7FF2D1C800300C2948B /* View+border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C7FE2D1C800300C2948B /* View+border.swift */; };
 		40F8C8012D1C921800C2948B /* Point+isClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C8002D1C921800C2948B /* Point+isClose.swift */; };
 		40F8C8032D1C924800C2948B /* CLLocationCoordinate2D+isClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C8022D1C924800C2948B /* CLLocationCoordinate2D+isClose.swift */; };
+		40F8C80D2D1C9D2100C2948B /* SingleCanyonMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C80C2D1C9D2100C2948B /* SingleCanyonMapView.swift */; };
 		40FDB37E2791CF5D0065FF47 /* MapboxMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB37D2791CF5D0065FF47 /* MapboxMapViewModel.swift */; };
 		40FDB3832791D0E30065FF47 /* TopoLineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3822791D0E30065FF47 /* TopoLineType.swift */; };
 		40FDB3862791FAA00065FF47 /* CoreGPX in Frameworks */ = {isa = PBXBuildFile; productRef = 40FDB3852791FAA00065FF47 /* CoreGPX */; };
@@ -370,6 +371,7 @@
 		40F8C7FE2D1C800300C2948B /* View+border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+border.swift"; sourceTree = "<group>"; };
 		40F8C8002D1C921800C2948B /* Point+isClose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Point+isClose.swift"; sourceTree = "<group>"; };
 		40F8C8022D1C924800C2948B /* CLLocationCoordinate2D+isClose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+isClose.swift"; sourceTree = "<group>"; };
+		40F8C80C2D1C9D2100C2948B /* SingleCanyonMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCanyonMapView.swift; sourceTree = "<group>"; };
 		40FDB37D2791CF5D0065FF47 /* MapboxMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxMapViewModel.swift; sourceTree = "<group>"; };
 		40FDB3822791D0E30065FF47 /* TopoLineType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopoLineType.swift; sourceTree = "<group>"; };
 		40FDB3872791FCCB0065FF47 /* GPXService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXService.swift; sourceTree = "<group>"; };
@@ -764,6 +766,7 @@
 				40FDB3822791D0E30065FF47 /* TopoLineType.swift */,
 				40F17C9D2BB0E5E600BEBFF9 /* TopoLineTypeTests.swift */,
 				40FDB3762791CF170065FF47 /* MapBox */,
+				40F8C80C2D1C9D2100C2948B /* SingleCanyonMapView.swift */,
 				40F17C662B9BFED600BEBFF9 /* SingleCanyonMapViewModel.swift */,
 				40F17C682B9BFEE400BEBFF9 /* ManyCanyonMapView.swift */,
 				40F17C6A2B9BFEEC00BEBFF9 /* ManyCanyonMapViewModel.swift */,
@@ -1101,6 +1104,7 @@
 				4005DFB6278F583500EB1640 /* FavoriteService.swift in Sources */,
 				40B83C3E2B2F899500C843A7 /* CanyonFilePath.swift in Sources */,
 				401248B02B26AEF200E40553 /* Canyon.swift in Sources */,
+				40F8C80D2D1C9D2100C2948B /* SingleCanyonMapView.swift in Sources */,
 				407FB75F2790CD2B008B65BE /* WeatherDataResponse.swift in Sources */,
 				40DF5F602B1BAD57007A076F /* CanyonFilterSheetViewModel.swift in Sources */,
 				40E442B927875EB200FE245D /* Region.swift in Sources */,
