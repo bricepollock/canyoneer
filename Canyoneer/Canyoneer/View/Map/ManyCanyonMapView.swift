@@ -28,22 +28,31 @@ struct ManyCanyonMapView: View {
             Group {
                 MapboxMapView(viewModel: viewModel.mapViewModel)
                     .onAppear {
-                        viewModel.didAppear()
+                        viewModel.onAppear()
                     }.ignoresSafeArea(edges: .top)
             }
             .overlay(alignment: .bottomTrailing) {
                 if viewModel.showOverlays {
                     VStack {
-                        HStack(spacing: Grid.medium) {
+                        HStack {
                             Spacer()
-                            ImageButton(system: "list.bullet.rectangle") {
-                                showCanyonsOnMap = true
-                            }
-                            ImageButton(system: "line.3.horizontal.decrease.circle") {
-                                showFiltersSheet = true
+                            VStack(spacing: Grid.medium) {
+                                Spacer()
+                                    .frame(height: 40)
+                                MapButton(system: "line.3.horizontal.decrease.circle") {
+                                    showFiltersSheet = true
+                                }
+                                MapButton(system: "list.bullet.rectangle") {
+                                    showCanyonsOnMap = true
+                                }
+                                MapButton(system: viewModel.isAtCurrentLocation ? "location.fill" : "location") {
+                                    Task(priority: .userInitiated) { [weak viewModel] in
+                                        await viewModel?.goToCurrentLocation()
+                                    }
+                                }
+                                Spacer()
                             }
                         }
-                        .offset(y: 40)
                         .padding(Grid.medium)
                         
                         Spacer()
