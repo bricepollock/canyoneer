@@ -25,4 +25,4 @@ jobs:
             echo "login mapbox" >> ~/.netrc
             echo "password $MAPBOX_SECRET_KEY" >> ~/.netrc
         - name: Run the xcode tests
-          run: set -o pipefail && xcodebuild clean test -project Canyoneer/Canyoneer.xcodeproj -scheme Canyoneer -destination "platform=iOS Simulator,name=iPhone 14" | xcbeautify
+          run: set -o pipefail && xcodebuild clean test -project Canyoneer/Canyoneer.xcodeproj -scheme Canyoneer -destination "platform=iOS Simulator,name=iPhone 16" | xcbeautify
