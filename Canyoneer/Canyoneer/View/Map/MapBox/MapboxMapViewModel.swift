@@ -135,19 +135,19 @@ extension MapboxMapViewModel: BasicMap {
         }.store(in: &bag)
     }
     
-    func focusCameraOn(canyon: Canyon, animate: Bool) {
+    func focusCameraOn(canyon: Canyon, animated: Bool) {
         let center = canyon.coordinate.asCLObject
         let cameraDetails = CameraOptions(center: center, zoom: 11)
-        if animate {
+        if animated {
             self.mapView.camera.ease(to: cameraDetails, duration: 0.5)
         } else {
             self.mapView.mapboxMap.setCamera(to: cameraDetails)
         }
     }
     
-    func focusCameraOn(location: CLLocationCoordinate2D, animate: Bool) {
+    func focusCameraOn(location: CLLocationCoordinate2D, animated: Bool) {
         let cameraDetails = CameraOptions(center: location, zoom: 8)
-        if animate {
+        if animated {
             self.mapView.camera.ease(to: cameraDetails, duration: 0.5)
         } else {
             self.mapView.mapboxMap.setCamera(to: cameraDetails)

@@ -33,8 +33,8 @@ struct ResultListView: View {
                                 canyonManager: viewModel.canyonManager,
                                 locationService: viewModel.locationService,
                                 favoriteService: viewModel.favoriteService,
-                                weatherViewModel: viewModel.weatherViewModel
-
+                                weatherViewModel: viewModel.weatherViewModel,
+                                mapDelegate: viewModel.mapDelegate
                             )
                         )
                     } label: {

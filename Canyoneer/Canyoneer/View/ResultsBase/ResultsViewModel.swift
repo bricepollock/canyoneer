@@ -31,7 +31,9 @@ import Combine
     public let weatherViewModel: WeatherViewModel
     public let filterSheetViewModel: CanyonFilterSheetViewModel
     public let filterViewModel: CanyonFilterViewModel
+    public private(set) weak var mapDelegate: MainMapDelegate?
 
+    /// - Parameter mapDelegate: Delegate for interacting with the map. If not nil then resulting `CanyonView`s will show a button to switch to map tab at the canyon's location
     init(
         applyFilters: Bool,
         filterViewModel: CanyonFilterViewModel,
@@ -39,7 +41,8 @@ import Combine
         weatherViewModel: WeatherViewModel,
         canyonManager: CanyonDataManaging,
         favoriteService: FavoriteServing,
-        locationService: LocationService
+        locationService: LocationService,
+        mapDelegate: MainMapDelegate?
     ) {
         self.title = ""
         self.unfilteredResults = []
@@ -50,6 +53,7 @@ import Combine
         self.canyonManager = canyonManager
         self.favoriteService = favoriteService
         self.locationService = locationService
+        self.mapDelegate = mapDelegate
         
         super.init()
         

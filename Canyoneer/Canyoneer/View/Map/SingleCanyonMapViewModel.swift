@@ -32,7 +32,7 @@ class SingleCanyonMapViewModel: ObservableObject {
     
     public func onAppear() {
         self.mapViewModel.initialize()
-        self.mapViewModel.focusCameraOn(canyon: canyon, animate: false)
+        self.mapViewModel.focusCameraOn(canyon: canyon, animated: false)
         self.mapViewModel.updatePolylines(to: [canyon])
         self.mapViewModel.renderWaypoints(canyon: canyon)
         
@@ -51,6 +51,6 @@ class SingleCanyonMapViewModel: ObservableObject {
             return
         }
         self.lastUserLocation = currentLocation
-        self.mapViewModel.focusCameraOn(location: currentLocation, animate: true)
+        self.mapViewModel.focusCameraOn(location: currentLocation, animated: true)
     }
 }

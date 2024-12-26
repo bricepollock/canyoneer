@@ -2,96 +2,34 @@
 
 import SwiftUI
 
-enum AppTab: CaseIterable {
-    case map
-    case favorites
-    case search
-    
-    var index: Int {
-        switch self {
-        case .favorites: return 0
-        case .map: return 1
-        case .search: return 2
-        }
-    }
-    
-    var icon: UIImage {
-        switch self {
-        case .map: return UIImage(systemName: "map")!
-        case .favorites: return UIImage(systemName: "star")!
-        case .search: return UIImage(systemName: "magnifyingglass")!
-        }
-    }
-    
-    var title: String {
-        switch self {
-        case .map: return "Map"
-        case .favorites: return "Favorites"
-        case .search: return "Search"
-        }
-    }
-}
-
-@MainActor
-class MainTabViewModel: ObservableObject {
-    @Published var currentTab: AppTab
-    
-    let tabs: [AppTab]
-    let mapViewModel: ManyCanyonMapViewModel
-    let favoriteViewModel: FavoriteListViewModel
-    let searchViewModel: SearchViewModel
-    
-    init(
-        allCanyons: [CanyonIndex],
-        canyonManager: CanyonDataManaging,
-        filterViewModel: CanyonFilterViewModel,
-        weatherViewModel: WeatherViewModel,
-        mapService: MapService,
-        favoriteService: FavoriteServing,
-        locationService: LocationService
-    ) {
-        self.tabs = AppTab.allCases.sorted { $0.index < $1.index }
-        self.currentTab = .favorites
-        
-        mapViewModel = ManyCanyonMapViewModel(
-            allCanyons: allCanyons,
-            applyFilters: true,
-            showOverlays: true,
-            filterViewModel: filterViewModel,
-            weatherViewModel: weatherViewModel,
-            canyonManager: canyonManager,
-            favoriteService: favoriteService
-        )
-        favoriteViewModel = FavoriteListViewModel(
-            weatherViewModel: weatherViewModel,
-            mapService: mapService, 
-            canyonManager: canyonManager,
-            favoriteService: favoriteService,
-            locationService: locationService
-        )
-        
-        searchViewModel = SearchViewModel(
-            searchService: SearchService(canyonManager: canyonManager),
-            filterViewModel: filterViewModel,
-            weatherViewModel: weatherViewModel,
-            canyonManager: canyonManager,
-            favoriteService: favoriteService,
-            locationService: locationService
-        )
-    }
-    
-}
-
 struct MainTabView: View {
     @ObservedObject var viewModel: MainTabViewModel
     
+    @State private var currentTab: AppTab = .favorites
+    @State private var toastMessage: String?
+    
     var body: some View {
-        TabView(selection: $viewModel.currentTab) {
+        ZStack {
+            tabView
+            Group {
+                if let toastMessage {
+                    ToastView(message: toastMessage)
+                }
+            }
+            .animation(.linear(duration: 0.3), value: toastMessage != nil)
+            .transition(.opacity)
+
+        }
+        .environment(\.toastMessage, $toastMessage)
+    }
+    
+    var tabView: some View {
+        TabView(selection: $currentTab) {
             FavoriteListView(viewModel: viewModel.favoriteViewModel)
                 .tag(AppTab.favorites)
                 .tabItem {
                     Label(
-                        title: { 
+                        title: {
                             Text(AppTab.favorites.title)
                         },
                         icon: {
@@ -124,5 +62,6 @@ struct MainTabView: View {
                     )
                 }
         }
+        .environment(\.currentTab, $currentTab)
     }
 }

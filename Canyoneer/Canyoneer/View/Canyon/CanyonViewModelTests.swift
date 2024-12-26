@@ -31,7 +31,8 @@ class CanyonViewModelTests: XCTestCase {
             canyonManager: manager,
             locationService: locationService,
             favoriteService: favorite,
-            weatherViewModel: WeatherViewModel()
+            weatherViewModel: WeatherViewModel(),
+            mapDelegate: nil
         )
     }
     

@@ -27,6 +27,7 @@ class CanyonViewModel: NSObject, ObservableObject {
     private let favoriteService: FavoriteServing
     private let weatherViewModel: WeatherViewModel
     private let gpxService: GPXService
+    private weak var mapDelegate: MainMapDelegate?
     
     init(
         canyonId: String,
@@ -34,7 +35,8 @@ class CanyonViewModel: NSObject, ObservableObject {
         locationService: LocationService,
         favoriteService: FavoriteServing,
         weatherViewModel: WeatherViewModel,
-        gpxService: GPXService = GPXService()
+        gpxService: GPXService = GPXService(),
+        mapDelegate: MainMapDelegate?
     ) {
         self.canyonId = canyonId
         self.canyonManager = canyonManager
@@ -42,6 +44,7 @@ class CanyonViewModel: NSObject, ObservableObject {
         self.favoriteService = favoriteService
         self.weatherViewModel = weatherViewModel
         self.gpxService = gpxService
+        self.mapDelegate = mapDelegate
     }
     
     // MARK: Actions
@@ -54,7 +57,7 @@ class CanyonViewModel: NSObject, ObservableObject {
             
             isFavorite = self.favoriteService.isFavorite(canyon: canyon)
             
-            detailViewModel = CanyonDetailViewModel(canyon: canyon, weatherViewModel: weatherViewModel)
+            detailViewModel = CanyonDetailViewModel(canyon: canyon, weatherViewModel: weatherViewModel, mapDelegate: mapDelegate)
             self.singleCanyonViewModel = SingleCanyonMapViewModel(canyon: canyon)
         } catch {
             Global.logger.error(error)

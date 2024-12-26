@@ -179,6 +179,14 @@
 		40F8C8032D1C924800C2948B /* CLLocationCoordinate2D+isClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C8022D1C924800C2948B /* CLLocationCoordinate2D+isClose.swift */; };
 		40F8C80B2D1C96E800C2948B /* CanyoneerTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C8092D1C96E800C2948B /* CanyoneerTips.swift */; };
 		40F8C80D2D1C9D2100C2948B /* SingleCanyonMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C80C2D1C9D2100C2948B /* SingleCanyonMapView.swift */; };
+		40F8C80F2D1CBF9300C2948B /* Double+digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C80E2D1CBF9300C2948B /* Double+digits.swift */; };
+		40F8C8122D1CC08E00C2948B /* DoubleDigitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C8102D1CC07A00C2948B /* DoubleDigitsTests.swift */; };
+		40F8C8152D1CC1C500C2948B /* PointIsCloseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C8132D1CC1C100C2948B /* PointIsCloseTests.swift */; };
+		40F8C8182D1CC29300C2948B /* CLLocationCoordinate2DIsCloseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C8162D1CC28600C2948B /* CLLocationCoordinate2DIsCloseTests.swift */; };
+		40F8C81A2D1CC74600C2948B /* AppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C8192D1CC74600C2948B /* AppTab.swift */; };
+		40F8C81C2D1CC86600C2948B /* MainTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C81B2D1CC86600C2948B /* MainTabViewModel.swift */; };
+		40F8C81E2D1CCE8C00C2948B /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C81D2D1CCE8C00C2948B /* ToastView.swift */; };
+		40F8C8202D1CCF2700C2948B /* ToastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C81F2D1CCF2700C2948B /* ToastMessage.swift */; };
 		40FDB37E2791CF5D0065FF47 /* MapboxMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB37D2791CF5D0065FF47 /* MapboxMapViewModel.swift */; };
 		40FDB3832791D0E30065FF47 /* TopoLineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDB3822791D0E30065FF47 /* TopoLineType.swift */; };
 		40FDB3862791FAA00065FF47 /* CoreGPX in Frameworks */ = {isa = PBXBuildFile; productRef = 40FDB3852791FAA00065FF47 /* CoreGPX */; };
@@ -374,6 +382,14 @@
 		40F8C8022D1C924800C2948B /* CLLocationCoordinate2D+isClose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+isClose.swift"; sourceTree = "<group>"; };
 		40F8C8092D1C96E800C2948B /* CanyoneerTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyoneerTips.swift; sourceTree = "<group>"; };
 		40F8C80C2D1C9D2100C2948B /* SingleCanyonMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCanyonMapView.swift; sourceTree = "<group>"; };
+		40F8C80E2D1CBF9300C2948B /* Double+digits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+digits.swift"; sourceTree = "<group>"; };
+		40F8C8102D1CC07A00C2948B /* DoubleDigitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleDigitsTests.swift; sourceTree = "<group>"; };
+		40F8C8132D1CC1C100C2948B /* PointIsCloseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointIsCloseTests.swift; sourceTree = "<group>"; };
+		40F8C8162D1CC28600C2948B /* CLLocationCoordinate2DIsCloseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2DIsCloseTests.swift; sourceTree = "<group>"; };
+		40F8C8192D1CC74600C2948B /* AppTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTab.swift; sourceTree = "<group>"; };
+		40F8C81B2D1CC86600C2948B /* MainTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewModel.swift; sourceTree = "<group>"; };
+		40F8C81D2D1CCE8C00C2948B /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		40F8C81F2D1CCF2700C2948B /* ToastMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMessage.swift; sourceTree = "<group>"; };
 		40FDB37D2791CF5D0065FF47 /* MapboxMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxMapViewModel.swift; sourceTree = "<group>"; };
 		40FDB3822791D0E30065FF47 /* TopoLineType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopoLineType.swift; sourceTree = "<group>"; };
 		40FDB3872791FCCB0065FF47 /* GPXService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXService.swift; sourceTree = "<group>"; };
@@ -621,6 +637,8 @@
 				40A63B472B33265100996567 /* MainView.swift */,
 				40DF5F9B2B1BB3F0007A076F /* MainViewModel.swift */,
 				40DF5F9D2B1BB460007A076F /* MainTabView.swift */,
+				40F8C81B2D1CC86600C2948B /* MainTabViewModel.swift */,
+				40F8C8192D1CC74600C2948B /* AppTab.swift */,
 				4068C3522B14CE6B0033707F /* Foundation */,
 				40E442C62787601300FE245D /* AppDataKit */,
 				40E442BE27875FB800FE245D /* DesignSystem */,
@@ -668,6 +686,7 @@
 		40E442BE27875FB800FE245D /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
+				40F8C8232D1CD16700C2948B /* Toast */,
 				4068C3572B17930F0033707F /* ViewModifiers */,
 				40E442C9278760CB00FE245D /* Components */,
 				40E442D22787610600FE245D /* Foundation */,
@@ -732,7 +751,9 @@
 				40DF5FA62B1BF1A9007A076F /* Canyon+detailString.swift */,
 				40F8C7FE2D1C800300C2948B /* View+border.swift */,
 				40F8C8002D1C921800C2948B /* Point+isClose.swift */,
+				40F8C8132D1CC1C100C2948B /* PointIsCloseTests.swift */,
 				40F8C8022D1C924800C2948B /* CLLocationCoordinate2D+isClose.swift */,
+				40F8C8162D1CC28600C2948B /* CLLocationCoordinate2DIsCloseTests.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -751,9 +772,9 @@
 			children = (
 				40DF5F9F2B1BB75F007A076F /* Weather */,
 				4068C3552B16F9700033707F /* WebView.swift */,
+				40E4430C2787842800FE245D /* CanyonDetailView.swift */,
 				4068C36E2B18D7B50033707F /* CanyonDetailViewModel.swift */,
 				4032AECC278F41D0002EEA4E /* CanyonDetailViewModelTests.swift */,
-				40E4430C2787842800FE245D /* CanyonDetailView.swift */,
 				40E4430627877F9500FE245D /* CanyonView.swift */,
 				4032AEBE278F324D002EEA4E /* CanyonViewModel.swift */,
 				40DF5FA82B1BFFFB007A076F /* CanyonViewModel+share.swift */,
@@ -816,6 +837,8 @@
 				40FDB3892791FCDE0065FF47 /* Data+toFile.swift */,
 				405E679327973BBE00BA41D9 /* DispatchTime+duration.swift */,
 				40FDB38B2791FCFD0065FF47 /* FileAccess.swift */,
+				40F8C80E2D1CBF9300C2948B /* Double+digits.swift */,
+				40F8C8102D1CC07A00C2948B /* DoubleDigitsTests.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -853,6 +876,15 @@
 				40F8C8092D1C96E800C2948B /* CanyoneerTips.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		40F8C8232D1CD16700C2948B /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				40F8C81F2D1CCF2700C2948B /* ToastMessage.swift */,
+				40F8C81D2D1CCE8C00C2948B /* ToastView.swift */,
+			);
+			path = Toast;
 			sourceTree = "<group>";
 		};
 		40FDB3762791CF170065FF47 /* MapBox */ = {
@@ -1040,6 +1072,7 @@
 				407FB7632790CD2B008B65BE /* NOAASerializer.swift in Sources */,
 				40DF5FA52B1BEF0E007A076F /* ShareSheetView.swift in Sources */,
 				40F8C7FF2D1C800300C2948B /* View+border.swift in Sources */,
+				40F8C80F2D1CBF9300C2948B /* Double+digits.swift in Sources */,
 				40FDB38C2791FCFD0065FF47 /* FileAccess.swift in Sources */,
 				4068C3742B1A3A8D0033707F /* MultiPicker.swift in Sources */,
 				40A09C002B82D05700254501 /* UpdateManager+debugNotifications.swift in Sources */,
@@ -1062,11 +1095,14 @@
 				40E4430127877C5500FE245D /* GlobalConstants.swift in Sources */,
 				40A63B482B33265100996567 /* MainView.swift in Sources */,
 				40DF5F982B1BAFC5007A076F /* Window.swift in Sources */,
+				40F8C81A2D1CC74600C2948B /* AppTab.swift in Sources */,
+				40F8C81E2D1CCE8C00C2948B /* ToastView.swift in Sources */,
 				40A09C2F2B8439CC00254501 /* IndexUpdateStatus.swift in Sources */,
 				40A09BF12B8122F400254501 /* IndexUpdateError.swift in Sources */,
 				40E44348278A0A7100FE245D /* BestSeasonsViewModel.swift in Sources */,
 				40E4433727888D9100FE245D /* LocationService.swift in Sources */,
 				40B83C352B2F7CA500C843A7 /* CanyonAPIURL.swift in Sources */,
+				40F8C81C2D1CC86600C2948B /* MainTabViewModel.swift in Sources */,
 				40F17C692B9BFEE400BEBFF9 /* ManyCanyonMapView.swift in Sources */,
 				40DF5FA12B1BC500007A076F /* LargeProgressView.swift in Sources */,
 				40783CE9278DF46A001E78DB /* UserPreferencesStorage+favorite.swift in Sources */,
@@ -1085,6 +1121,7 @@
 				407FB7612790CD2B008B65BE /* NOAAData.swift in Sources */,
 				40A09BF82B8277C600254501 /* CanyonDataManager+write.swift in Sources */,
 				40E442D72787614000FE245D /* ColorPalette.swift in Sources */,
+				40F8C8202D1CCF2700C2948B /* ToastMessage.swift in Sources */,
 				40F17C892BB080BE00BEBFF9 /* MapboxMapViewModel+Polylines.swift in Sources */,
 				4068C35B2B179A9F0033707F /* StarQualityView.swift in Sources */,
 				405E6792279736C600BA41D9 /* DownloadBar.swift in Sources */,
@@ -1162,6 +1199,9 @@
 				401248BA2B26DC5B00E40553 /* CanyonTests.swift in Sources */,
 				40A09C132B82D8FF00254501 /* CanyonFilterViewModelTests+filter.swift in Sources */,
 				40A09C142B82D90000254501 /* DataTableViewModelTests.swift in Sources */,
+				40F8C8122D1CC08E00C2948B /* DoubleDigitsTests.swift in Sources */,
+				40F8C8152D1CC1C500C2948B /* PointIsCloseTests.swift in Sources */,
+				40F8C8182D1CC29300C2948B /* CLLocationCoordinate2DIsCloseTests.swift in Sources */,
 				40A09BFE2B82AA7C00254501 /* MockCanyonDataManager.swift in Sources */,
 				4089A1332B0AC9CF00886179 /* CoordinateTests.swift in Sources */,
 				40A63B4A2B3338A500996567 /* FavoriteServiceTests.swift in Sources */,

@@ -43,7 +43,8 @@ class SearchViewModel: ResultsViewModel {
             weatherViewModel: weatherViewModel,
             canyonManager: canyonManager,
             favoriteService: favoriteService,
-            locationService: locationService
+            locationService: locationService,
+            mapDelegate: nil
         )
 
         self.title = Strings.search

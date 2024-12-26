@@ -5,8 +5,13 @@ import Combine
 import SwiftUI
 import CoreLocation
 
+protocol MainMapDelegate: AnyObject {
+    @MainActor
+    func updateCenter(to location: CLLocationCoordinate2D, animated: Bool)
+}
+
 @MainActor
-class ManyCanyonMapViewModel: ObservableObject {
+class ManyCanyonMapViewModel: ObservableObject, MainMapDelegate {
     @Published var filteredCanyons: [CanyonIndex] = []
     public var visibleCanyons: [CanyonIndex] {
         var lookupMap = [String: String]()
@@ -86,6 +91,7 @@ class ManyCanyonMapViewModel: ObservableObject {
         }
     }
     
+    @MainActor
     func onAppear() {
         guard !hasSetupMap else { return }
         hasSetupMap = true
@@ -173,18 +179,28 @@ class ManyCanyonMapViewModel: ObservableObject {
         }
     }
     
+    @MainActor
     public func goToCurrentLocation() async {
         guard let currentLocation = try? await locationService.getCurrentLocation() else {
             return
         }
         self.lastUserLocation = currentLocation
-        self.mapViewModel.focusCameraOn(location: currentLocation, animate: true)
+        self.mapViewModel.focusCameraOn(location: currentLocation, animated: true)
+    }
+    
+    @MainActor
+    public func updateCenter(to location: CLLocationCoordinate2D, animated: Bool) {
+        guard hasSetupMap else {
+            UserDefaults.standard.setLastViewCoordinate(location)
+            return
+        }
+        self.mapViewModel.focusCameraOn(location: location, animated: animated)
     }
     
     private func updateInitialCamera() {
         let utahCenter = CLLocationCoordinate2D(latitude: 39.3210, longitude: -111.0937)
         let center = UserDefaults.standard.lastViewCoordinate ?? utahCenter
-        self.mapViewModel.focusCameraOn(location: center, animate: false)
+        self.mapViewModel.focusCameraOn(location: center, animated: false)
     }
     
     // MARK: Render details of a group of canyons
@@ -192,12 +208,12 @@ class ManyCanyonMapViewModel: ObservableObject {
     private func updateCamera(canyons: [CanyonIndex]) async throws {
         // center location
         if canyons.isEmpty == false && canyons.count < 100 {
-            self.mapViewModel.focusCameraOn(location: canyons[0].coordinate.asCLObject, animate: false)
+            self.mapViewModel.focusCameraOn(location: canyons[0].coordinate.asCLObject, animated: false)
         } else if let lastViewed = UserDefaults.standard.lastViewCoordinate {
-            self.mapViewModel.focusCameraOn(location: lastViewed, animate: false)
+            self.mapViewModel.focusCameraOn(location: lastViewed, animated: false)
         } else if locationService.isLocationEnabled() {
             let location = try await self.locationService.getCurrentLocation()
-            self.mapViewModel.focusCameraOn(location: location, animate: false)
+            self.mapViewModel.focusCameraOn(location: location, animated: false)
         }
     }
 }

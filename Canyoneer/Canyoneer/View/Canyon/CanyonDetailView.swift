@@ -7,11 +7,14 @@
 
 import Foundation
 import SwiftUI
+import UniformTypeIdentifiers
 
 struct CanyonDetailView: View {
     static let horizontalPadding: CGFloat = 12
     
     @ObservedObject var viewModel: CanyonDetailViewModel
+    @Environment(\.currentTab) var tab
+    @Environment(\.toastMessage) var toastMessage
     
     @ViewBuilder
     var body: some View {
@@ -23,11 +26,12 @@ struct CanyonDetailView: View {
             summary
             canyonDetails
             monthSummary
+            location
             weather
             directions
             htmlDescription
         }
-        .padding(.vertical, Grid.small)        
+        .padding(.vertical, Grid.small)
     }
     
     @ViewBuilder
@@ -52,7 +56,7 @@ struct CanyonDetailView: View {
             .padding(.vertical, Grid.small)
         }
     }
-    
+        
     @ViewBuilder
     var canyonDetails: some View {
         VStack(spacing: Grid.medium) {
@@ -67,6 +71,46 @@ struct CanyonDetailView: View {
     var monthSummary: some View {
         BestSeasonsView(viewModel: viewModel.bestMonths)
     }
+    
+    @ViewBuilder
+    var location: some View {
+        VStack(spacing: Grid.medium) {
+            Text(Strings.location)
+                .font(FontBook.Body.emphasis)
+                .asCanyonHeader()
+            
+            HStack(spacing: Grid.small) {
+                Text(Strings.coordinate)
+                    .font(FontBook.Body.emphasis)
+                Text(viewModel.canyonCoordinate)
+                    .font(FontBook.Body.regular)
+                Button {
+                    UIPasteboard.general.setValue(viewModel.canyonCoordinate, forPasteboardType: UTType.plainText.identifier)
+                    toastMessage.wrappedValue = Strings.coordinateCopied
+                } label: {
+                    Image(systemName: "doc.on.doc")
+                        .resizable()
+                        .scaledToFit()
+                        .foregroundStyle(ColorPalette.Color.action)
+                        .frame(width: Constants.copyImageSize, height: Constants.copyImageSize)
+                }
+                Spacer()
+            }
+            .padding(.horizontal, Self.horizontalPadding)
+            
+            if viewModel.showOnMapVisible {
+                ContainedButton(title: Strings.goToOnMap) {
+                    Task(priority: .userInitiated) { @MainActor in
+                        tab.wrappedValue = .map
+                        viewModel.showOnMap()
+                    }
+                }
+                .padding(.top, Grid.xSmall)
+                .padding(.horizontal, Self.horizontalPadding)
+            }
+        }
+    }
+    
     
     @ViewBuilder
     var weather: some View {
@@ -87,7 +131,7 @@ struct CanyonDetailView: View {
                 .font(FontBook.Body.emphasis)
                 .asCanyonHeader()
 
-            ContainedButton(title: Strings.openInMaps) {
+            ContainedButton(title: Strings.launchDirections) {
                 viewModel.launchDirections()
             }
             .padding(.top, Grid.xSmall)
@@ -116,15 +160,21 @@ struct CanyonDetailView: View {
     
     enum Constants {
         static let headerTitlePadding: CGFloat = 2
+        static let copyImageSize: CGFloat = 16
     }
             
     private enum Strings {
         // section titles
         static let summary = "Summary"
+        static let location = "Location"
         static let details = "Details"
         static let weather = "Weather"
         static let directions = "Directions"
         static let description = "Description"
+        
+        // Location
+        static let coordinate = "Coordinate:"
+        static let coordinateCopied = "Coordinates Copied"
                     
         // Months
         static let season = "Best Months"
@@ -134,6 +184,7 @@ struct CanyonDetailView: View {
         
         // Actions
         static let ropeWiki = "Ropewiki Page"
-        static let openInMaps = "Open in Apple Maps"
+        static let goToOnMap = "Go to on Map"
+        static let launchDirections = "Open in Apple Maps"
     }
 }

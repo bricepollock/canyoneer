@@ -8,6 +8,13 @@
 import Foundation
 import XCTest
 @testable import Canyoneer
+import CoreLocation
+
+class MockMapDelegate: MainMapDelegate {
+    public init() {}
+    
+    func updateCenter(to location: CLLocationCoordinate2D, animated: Bool) { }
+}
 
 @MainActor
 class FavoritesViewModelTests: XCTestCase {
@@ -26,7 +33,8 @@ class FavoritesViewModelTests: XCTestCase {
             mapService: MapService(),
             canyonManager: manager,
             favoriteService: favoriteService,
-            locationService: locationService
+            locationService: locationService,
+            mapDelegate: MockMapDelegate()
         )
     }
     

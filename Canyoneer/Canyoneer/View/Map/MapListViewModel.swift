@@ -37,7 +37,8 @@ class MapListViewModel: ResultsViewModel {
             weatherViewModel: weatherViewModel,
             canyonManager: canyonManager,
             favoriteService: favoriteService,
-            locationService: locationService
+            locationService: locationService,
+            mapDelegate: nil
         )
         
         self.title = Strings.map(count: results.count)
