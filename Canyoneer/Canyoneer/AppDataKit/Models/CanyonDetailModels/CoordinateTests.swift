@@ -10,6 +10,15 @@ import XCTest
 @testable import Canyoneer
 
 class CoordinateTests: XCTestCase {
+    func testString() {
+        let coordinate = Coordinate(
+            latitude: 36.3887494337,
+            longitude: -116.6066334955
+        )
+        let expected = "36.38875, -116.60663"
+        XCTAssertEqual(coordinate.asString, expected)
+    }
+    
     func testDistance() {
         let start = Coordinate(
             latitude: 36.3887494337,

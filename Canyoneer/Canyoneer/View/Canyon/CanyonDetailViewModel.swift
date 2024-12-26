@@ -10,6 +10,7 @@ class CanyonDetailViewModel: NSObject, ObservableObject {
     @Published var webViewHeight: CGFloat = 200
     
     let canyonName: String
+    let canyonCoordinate: String
     let canyonSummary: String
     let ropeWikiURL: URL?
     let starViewModel: StarQualityViewModel
@@ -17,14 +18,21 @@ class CanyonDetailViewModel: NSObject, ObservableObject {
     let bestMonths: BestSeasonsViewModel
     let htmlString: String
     
+    /// If we have a `mapDelegate`, then we show the button to go this canyon on the main map
+    let showOnMapVisible: Bool
+    
     let weatherViewModel: WeatherForecastViewModel
     
     private let canyon: Canyon
+    private weak var mapDelegate: MainMapDelegate?
     
-    init(canyon: Canyon, weatherViewModel: WeatherViewModel) {
+    init(canyon: Canyon, weatherViewModel: WeatherViewModel, mapDelegate: MainMapDelegate?) {
         self.canyon = canyon
+        self.mapDelegate = mapDelegate
+        self.showOnMapVisible = mapDelegate != nil
         
         self.canyonName = canyon.name
+        self.canyonCoordinate = canyon.coordinate.asString
         self.canyonSummary = canyon.technicalSummary
         self.ropeWikiURL = canyon.ropeWikiURL
         self.starViewModel = StarQualityViewModel(quality: canyon.quality)
@@ -46,6 +54,11 @@ class CanyonDetailViewModel: NSObject, ObservableObject {
     public func launchRopeWikiURL() {
         guard let url = ropeWikiURL else { return }
         UIApplication.shared.open(url)
+    }
+    
+    @MainActor
+    public func showOnMap() {
+        mapDelegate?.updateCenter(to: canyon.coordinate.asCLObject, animated: false)
     }
     
     public func launchDirections() {

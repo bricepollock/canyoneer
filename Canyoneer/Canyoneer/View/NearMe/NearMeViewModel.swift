@@ -30,7 +30,8 @@ class NearMeViewModel: ResultsViewModel {
             weatherViewModel: weatherViewModel,
             canyonManager: canyonManager,
             favoriteService: favoriteService,
-            locationService: locationService
+            locationService: locationService,
+            mapDelegate: nil
         )
     }
     

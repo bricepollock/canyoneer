@@ -10,6 +10,12 @@ import XCTest
 @testable import Canyoneer
 
 class CanyonDetailViewModelTests: XCTestCase {
+    
+    @MainActor
+    func testInit() {
+        let viewModel = CanyonDetailViewModel(canyon: Canyon(), weatherViewModel: WeatherViewModel(), mapDelegate: nil)
+        XCTAssertFalse(viewModel.showOnMapVisible)
+    }
    
     func testSummaryDetails_all() {
         let canyon = Canyon(risk: .x, maxRaps: 2)

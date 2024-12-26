@@ -18,6 +18,10 @@ extension AnyCoordinate {
         return CLLocationCoordinate2D(latitude: self.latitude, longitude: self.longitude)
     }
     
+    var asString: String {
+        "\(self.latitude.digits(5)), \(self.longitude.digits(5))"
+    }
+    
     func distance(to coordinate: AnyCoordinate) -> Measurement<UnitLength> {
         let from = CLLocation(latitude: self.latitude, longitude: self.longitude)
         let to = CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude)

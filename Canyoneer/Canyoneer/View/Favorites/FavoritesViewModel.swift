@@ -21,13 +21,15 @@ class FavoriteListViewModel: ResultsViewModel {
     
     private var favorites: [Canyon] = []
     
+    /// - Parameter mapDelegate: The delegate we use to go to a favorite'd canyon on the main map in downstream UX (this is only allowed from Favorites)
     init(
         weatherViewModel: WeatherViewModel,
         mapService: MapService,
         canyonManager: CanyonDataManaging,
         favoriteService: FavoriteServing,
         locationService: LocationService,
-        updateManager: UpdateManager = UpdateManager.shared
+        updateManager: UpdateManager = UpdateManager.shared,
+        mapDelegate: MainMapDelegate
     ) {
         self.hasDownloadedAll = false
         self.progress = 0
@@ -45,7 +47,8 @@ class FavoriteListViewModel: ResultsViewModel {
             weatherViewModel: weatherViewModel,
             canyonManager: canyonManager,
             favoriteService: favoriteService,
-            locationService: locationService
+            locationService: locationService,
+            mapDelegate: mapDelegate
         )
         
         self.title = Strings.title
