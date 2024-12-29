@@ -2,7 +2,7 @@
 
 import Foundation
 
-struct FilterState {
+struct FilterState: Equatable {
     /// Maximum rappel lengths, in feet
     let maxRap: Bounds
     let numRaps: Bounds

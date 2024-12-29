@@ -39,7 +39,7 @@ struct ManyCanyonMapView: View {
                             VStack(spacing: Grid.medium) {
                                 Spacer()
                                     .frame(height: 40)
-                                MapButton(system: "line.3.horizontal.decrease.circle") {
+                                MapButton(system: viewModel.anyFiltersActive ? "line.3.horizontal.decrease.circle.fill" : "line.3.horizontal.decrease.circle") {
                                     showFiltersSheet = true
                                 }
                                 .popoverTip(CanyoneerTips.mapFilter)

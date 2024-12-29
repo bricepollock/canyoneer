@@ -11,6 +11,7 @@ import Foundation
 class CanyonFilterViewModel: ObservableObject {
     // Compiled
     @Published private(set) public var currentState: FilterState
+    @Published private(set) public var areFiltersActive: Bool
     
     // Filters
     @Published var maxRap: Bounds
@@ -32,6 +33,7 @@ class CanyonFilterViewModel: ObservableObject {
         self.shuttleRequired = initialState.shuttleRequired
         self.seasons = initialState.seasons
         self.currentState = initialState
+        self.areFiltersActive = initialState != .default
         
         self.$maxRap
             .combineLatest($numRaps, $stars, $technicality)
@@ -50,6 +52,12 @@ class CanyonFilterViewModel: ObservableObject {
                     seasons: seasons
                 )
             }.assign(to: &$currentState)
+        
+        self.$currentState
+            .map { state in
+                state != .default
+            }
+            .assign(to: &$areFiltersActive)
     }
     
     func reset() {

@@ -10,7 +10,31 @@ import XCTest
 @testable import Canyoneer
 
 @MainActor
-class CanyonFilterViewModelUpdateTests: XCTestCase {    
+class CanyonFilterViewModelUpdateTests: XCTestCase {
+    // MARK: isActive
+    
+    func testIsActive_init_default_update() {
+        let viewModel = CanyonFilterViewModel(initialState: .default)
+        XCTAssertFalse(viewModel.areFiltersActive)
+        
+        viewModel.time = [.three, .four]
+        XCTAssertTrue(viewModel.areFiltersActive)
+        
+        viewModel.reset()
+        XCTAssertFalse(viewModel.areFiltersActive)
+    }
+    
+    func testIsActive_init_reset() {
+        var state = FilterState(numRaps: Bounds(min: 3, max: 10))
+        let viewModel = CanyonFilterViewModel(initialState: state)
+        XCTAssertTrue(viewModel.areFiltersActive)
+        
+        viewModel.reset()
+        XCTAssertFalse(viewModel.areFiltersActive)
+    }
+    
+    // MARK: reset
+    
     func testStateReset() {
         // setup
         let viewModel = CanyonFilterViewModel(initialState: .default)
