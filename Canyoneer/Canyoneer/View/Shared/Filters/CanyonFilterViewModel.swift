@@ -39,6 +39,7 @@ class CanyonFilterViewModel: ObservableObject {
             .combineLatest($numRaps, $stars, $technicality)
             .combineLatest($water, $time, $shuttleRequired)
             .combineLatest($seasons)
+            .receive(on: DispatchQueue.main)
             .map { (combined, seasons) in
                 let (((maxRap), numRaps, stars, technicality), water, time, shuttleRequired) = combined
                 return FilterState(
@@ -54,6 +55,7 @@ class CanyonFilterViewModel: ObservableObject {
             }.assign(to: &$currentState)
         
         self.$currentState
+            .receive(on: DispatchQueue.main)
             .map { state in
                 state != .default
             }
@@ -81,6 +83,10 @@ class CanyonFilterViewModel: ObservableObject {
         
         if self.water != resetState.water {
             self.water = resetState.water
+        }
+        
+        if self.time != resetState.time {
+            self.time = resetState.time
         }
         
         if self.shuttleRequired != resetState.shuttleRequired {

@@ -7,35 +7,80 @@
 
 import Foundation
 import XCTest
+import Combine
 @testable import Canyoneer
 
 @MainActor
 class CanyonFilterViewModelUpdateTests: XCTestCase {
+    
+    private var bag: Set<AnyCancellable>!
+    
+    override func setUp() {
+        bag = Set<AnyCancellable>()
+    }
+    
     // MARK: isActive
     
-    func testIsActive_init_default_update() {
+    @MainActor
+    func testIsActive_init_default_update() async throws {
         let viewModel = CanyonFilterViewModel(initialState: .default)
         XCTAssertFalse(viewModel.areFiltersActive)
         
+        // Test change to active
+        let waitForActive = XCTestExpectation(description: "wait for active")
+        viewModel.$areFiltersActive
+            .dropFirst()
+            .sink { isActive in
+                if isActive {
+                    waitForActive.fulfill()
+                }
+            }
+            .store(in: &bag)
+        
         viewModel.time = [.three, .four]
+        await fulfillment(of: [waitForActive], timeout: 3)
         XCTAssertTrue(viewModel.areFiltersActive)
         
+        // Test reset
+        let waitForReset = XCTestExpectation(description: "wait for reset")
+        viewModel.$areFiltersActive
+            .dropFirst()
+            .sink { isActive in
+                if !isActive {
+                    waitForReset.fulfill()
+                }
+            }
+            .store(in: &bag)
         viewModel.reset()
+        await fulfillment(of: [waitForReset], timeout: 3)
         XCTAssertFalse(viewModel.areFiltersActive)
     }
     
-    func testIsActive_init_reset() {
-        var state = FilterState(numRaps: Bounds(min: 3, max: 10))
+    @MainActor
+    func testIsActive_init_reset() async {
+        let state = FilterState(numRaps: Bounds(min: 3, max: 10))
         let viewModel = CanyonFilterViewModel(initialState: state)
         XCTAssertTrue(viewModel.areFiltersActive)
         
+        // Test reset
+        let waitForReset = XCTestExpectation(description: "wait for reset")
+        viewModel.$areFiltersActive
+            .dropFirst()
+            .sink { isActive in
+                if !isActive {
+                    waitForReset.fulfill()
+                }
+            }
+            .store(in: &bag)
         viewModel.reset()
+        await fulfillment(of: [waitForReset], timeout: 3)
         XCTAssertFalse(viewModel.areFiltersActive)
     }
     
     // MARK: reset
     
-    func testStateReset() {
+    @MainActor
+    func testState() {
         // setup
         let viewModel = CanyonFilterViewModel(initialState: .default)
         
@@ -53,9 +98,22 @@ class CanyonFilterViewModelUpdateTests: XCTestCase {
         XCTAssertEqual(currentState.seasons, Set(Month.allCases))
     }
     
-    func testStateChangeAll() {
+    @MainActor
+    func testStateChangeAll() async {
         // setup
         let viewModel = CanyonFilterViewModel(initialState: .default)
+        
+        // wait for all updates
+        let seasonsApply: Set<Month> = [.february, .march, .april]
+        let waitForFinalUpdate = XCTestExpectation(description: "wait for update")
+        viewModel.$seasons
+            .dropFirst()
+            .sink { seasons in
+                if seasons == seasonsApply  {
+                    waitForFinalUpdate.fulfill()
+                }
+            }
+            .store(in: &bag)
         
         // Modify filter
         viewModel.maxRap = Bounds(min: 50, max: 200)
@@ -65,8 +123,10 @@ class CanyonFilterViewModelUpdateTests: XCTestCase {
         viewModel.water = [.a]
         viewModel.time = [.three, .four]
         viewModel.shuttleRequired = true
-        viewModel.seasons = [.february, .march, .april]
-        
+        viewModel.seasons = seasonsApply
+        await fulfillment(of: [waitForFinalUpdate], timeout: 3)
+    
+        // Test Update
         let currentState = viewModel.currentState
         XCTAssertEqual(currentState.numRaps.min, 5)
         XCTAssertEqual(currentState.numRaps.max, 20)
@@ -78,5 +138,20 @@ class CanyonFilterViewModelUpdateTests: XCTestCase {
         XCTAssertEqual(currentState.time, [.three, .four])
         XCTAssertEqual(currentState.shuttleRequired, true)
         XCTAssertEqual(currentState.seasons, [Month.february, Month.march, Month.april])
+        XCTAssertTrue(viewModel.areFiltersActive)
+        
+        // Test reset
+        let waitForReset = XCTestExpectation(description: "wait for reset")
+        viewModel.$areFiltersActive
+            .dropFirst()
+            .sink { isActive in
+                if !isActive {
+                    waitForReset.fulfill()
+                }
+            }
+            .store(in: &bag)
+        viewModel.reset()
+        await fulfillment(of: [waitForReset], timeout: 3)
+        XCTAssertFalse(viewModel.areFiltersActive)
     }
 }
