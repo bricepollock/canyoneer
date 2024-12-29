@@ -34,7 +34,7 @@ class SingleCanyonMapViewModel: ObservableObject {
         self.mapViewModel.initialize()
         self.mapViewModel.focusCameraOn(canyon: canyon, animated: false)
         self.mapViewModel.updatePolylines(to: [canyon])
-        self.mapViewModel.renderWaypoints(canyon: canyon)
+        self.mapViewModel.renderWaypointsAndLineLabels(canyon: canyon)
         
         // Observe the map state change to know whether centered on current location
         mapViewModel.$visibleMap

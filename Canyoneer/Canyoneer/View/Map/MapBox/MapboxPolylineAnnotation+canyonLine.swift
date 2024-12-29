@@ -5,28 +5,35 @@ import MapboxMaps
 import CoreLocation
 import UIKit
 
-extension PolylineAnnotation {
-    private static let topoBackgroundColor = UIColor(red: 158/255, green: 203/255, blue: 128/255, alpha: 1)
-    static func makeCanyonLineAnnotation(feature: CoordinateFeature, in canyon: CanyonIndex) -> PolylineAnnotation {
-        var annotation = PolylineAnnotation(id: Self.id(for: canyon), lineCoordinates: feature.coordinates.map { $0.asCLObject })
-        let type = TopoLineType(string: feature.name)
+fileprivate let topoBackgroundColor = UIColor(red: 158/255, green: 203/255, blue: 128/255, alpha: 1)
+
+extension CoordinateFeature {
+    /// The color for this line we show on map
+    var lineColor: UIColor {
+        let type = TopoLineType(string: name)
         let geoColor: UIColor?
-        if let stroke = feature.hexColor {
+        if let stroke = hexColor {
             geoColor = UIColor.hex(stroke)
         } else {
             geoColor = nil
         }
         let lineColor = type == .unknown ? geoColor ?? UIColor(type.color) : UIColor(type.color)
-        let finalColor: UIColor
-        if lineColor.contrastRatio(with: topoBackgroundColor) < 1.5, let darker = lineColor.darker() {
+        var finalColor = lineColor
+        while finalColor.contrastRatio(with: topoBackgroundColor) < 1.5, let darker = finalColor.darker() {
             if type != .unknown {
                 assertionFailure("Our defined colors do not contrast nicely with background map green (see Imlay in Zion for an example)")
             }
             finalColor = darker
-        } else {
-            finalColor = lineColor
         }
-        annotation.lineColor = StyleColor(finalColor)
+        return finalColor
+    }
+}
+
+extension PolylineAnnotation {
+    
+    static func makeCanyonLineAnnotation(feature: CoordinateFeature, in canyon: CanyonIndex) -> PolylineAnnotation {
+        var annotation = PolylineAnnotation(id: Self.id(for: canyon), lineCoordinates: feature.coordinates.map { $0.asCLObject })
+        annotation.lineColor = StyleColor(feature.lineColor)
         annotation.lineWidth = 3
         annotation.lineOpacity = 0.5
         return annotation

@@ -20,4 +20,3 @@ class PointIsCloseTests: XCTestCase {
         XCTAssertFalse(this.isClose(to: that))
     }
 }
-   
