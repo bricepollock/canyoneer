@@ -9,7 +9,6 @@ import Foundation
 
 enum GeneralError: Error {
     case notFound
-    case canceled
     case permissionsDenied
     case unknownFailure
 }
