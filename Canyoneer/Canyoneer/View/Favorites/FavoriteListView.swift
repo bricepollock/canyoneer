@@ -66,7 +66,7 @@ struct FavoriteListView: View {
                     }
                     .popoverTip(CanyoneerTips.downloadFavorites)
                     
-                    ImageButton(system: "line.3.horizontal.decrease.circle") {
+                    ImageButton(system: viewModel.anyFiltersActive ? "line.3.horizontal.decrease.circle.fill" : "line.3.horizontal.decrease.circle") {
                         showFilters = true
                     }
                     ImageButton(system: "map") {

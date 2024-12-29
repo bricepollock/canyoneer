@@ -31,6 +31,9 @@ class ManyCanyonMapViewModel: ObservableObject, MainMapDelegate {
     @Published var canRenderTopoLines: Bool = false
     @Published var showCanyonDetails: Bool = false
     
+    /// Whether any filters are currently active on map
+    @Published var anyFiltersActive: Bool
+    
     /// Whether the map is centered at current location
     @Published var isAtCurrentLocation: Bool = false
     /// The user location the last time the 'go to current location' button was tapped
@@ -66,6 +69,7 @@ class ManyCanyonMapViewModel: ObservableObject, MainMapDelegate {
         self.allCanyons = allCanyons
         self.applyFilters = applyFilters
         self.showOverlays = showOverlays
+        self.anyFiltersActive = filterViewModel.areFiltersActive
         
         self.weatherViewModel = weatherViewModel
         self.canyonManager = canyonManager
@@ -98,6 +102,9 @@ class ManyCanyonMapViewModel: ObservableObject, MainMapDelegate {
         
         self.mapViewModel.initialize()
         self.updateInitialCamera()
+        
+        filterViewModel.$areFiltersActive
+            .assign(to: &$anyFiltersActive)
         
         self.$filteredCanyons
             .sink { canyons in

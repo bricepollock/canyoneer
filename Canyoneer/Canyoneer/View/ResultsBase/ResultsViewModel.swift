@@ -22,6 +22,9 @@ import Combine
     /// Keeps a copy of unfiltered results so we can apply different filter treatments to the same result-set
     @Published private var unfilteredResults: [QueryResult]
     
+    /// Whether any filters are currently active on map
+    @Published private(set) var anyFiltersActive: Bool
+    
     /// Whether view is processing query
     @Published var isLoading: Bool = false
     
@@ -47,6 +50,7 @@ import Combine
         self.title = ""
         self.unfilteredResults = []
         self.results = []
+        self.anyFiltersActive = filterViewModel.areFiltersActive
         self.filterViewModel = filterViewModel
         self.filterSheetViewModel = filterSheetViewModel
         self.weatherViewModel = weatherViewModel
@@ -56,6 +60,9 @@ import Combine
         self.mapDelegate = mapDelegate
         
         super.init()
+        
+        filterViewModel.$areFiltersActive
+            .assign(to: &$anyFiltersActive)
         
         $unfilteredResults.map { unfiltered in
             guard applyFilters else {
