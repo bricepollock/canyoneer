@@ -26,6 +26,7 @@ class FavoriteListViewModel: ResultsViewModel {
         weatherViewModel: WeatherViewModel,
         mapService: MapService,
         canyonManager: CanyonDataManaging,
+        filterViewModel: CanyonFilterViewModel,
         favoriteService: FavoriteServing,
         locationService: LocationService,
         updateManager: UpdateManager = UpdateManager.shared,
@@ -36,9 +37,6 @@ class FavoriteListViewModel: ResultsViewModel {
 
         self.mapService = mapService
         self.profileViewModel = ProfileViewModel(updateManager: updateManager)
-        
-        // Favorites has its own filter disconnected from map
-        let filterViewModel = CanyonFilterViewModel(initialState: .default)
         
         super.init(
             applyFilters: true,

@@ -14,6 +14,7 @@ enum ColorPalette {
         static let dark = SwiftUI.Color(uiColor: .darkGray)
         static let gray = SwiftUI.Color.gray
         static let light = SwiftUI.Color(UIColor(white: 0.9, alpha: 1))
+        static let extraLight = SwiftUI.Color(UIColor(white: 0.95, alpha: 1))
         static let white = SwiftUI.Color.white
     }
     

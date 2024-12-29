@@ -32,6 +32,7 @@ class FavoritesViewModelTests: XCTestCase {
             weatherViewModel: WeatherViewModel(),
             mapService: MapService(),
             canyonManager: manager,
+            filterViewModel: CanyonFilterViewModel(initialState: .default),
             favoriteService: favoriteService,
             locationService: locationService,
             mapDelegate: MockMapDelegate()

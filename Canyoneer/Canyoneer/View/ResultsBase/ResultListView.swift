@@ -21,11 +21,8 @@ struct ResultListView: View {
     
     var body: some View {
         ScrollView {
-            VStack(spacing: Grid.medium) {
+            VStack(spacing: .zero) {
                 ForEach(viewModel.results) { result in
-                    if result.id != viewModel.results.first?.id {
-                        Divider()
-                    }
                     NavigationLink {
                         CanyonView(
                             viewModel: CanyonViewModel(
@@ -38,8 +35,32 @@ struct ResultListView: View {
                             )
                         )
                     } label: {
-                        CanyonItemView(result: result)
+                        CanyonItemView(result: result, isDisabled: false)
                     }.buttonStyle(.plain)
+                    
+                    Divider()
+                }
+                
+                if !viewModel.hiddenResults.isEmpty {
+                    HStack {
+                        Text(Strings.hidden)
+                            .font(FontBook.Body.emphasis)
+                            .foregroundStyle(ColorPalette.GrayScale.dark)
+                            .underline()
+                            .padding(.top, Grid.medium)
+                        
+                        Spacer()
+                    }
+                    .padding(.horizontal, .medium)
+                    .padding(.bottom, .medium)
+                    .background(ColorPalette.GrayScale.extraLight)
+                    
+                    Divider()
+                    
+                    ForEach(viewModel.hiddenResults) { result in
+                        CanyonItemView(result: result, isDisabled: true)
+                        Divider()
+                    }
                 }
             }
         }.overlay {
@@ -51,4 +72,8 @@ struct ResultListView: View {
         }
         .navigationTitle(viewModel.title)
     }
+         
+     private enum Strings {
+         static let hidden = "Favorites that don't match filters"
+     }
 }
