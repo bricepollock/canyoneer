@@ -5,13 +5,13 @@ import MapboxMaps
 import CoreLocation
 import UIKit
 
-extension PolylineAnnotation {
-    private static let topoBackgroundColor = UIColor(red: 158/255, green: 203/255, blue: 128/255, alpha: 1)
-    static func makeCanyonLineAnnotation(feature: CoordinateFeature, in canyon: CanyonIndex) -> PolylineAnnotation {
-        var annotation = PolylineAnnotation(id: Self.id(for: canyon), lineCoordinates: feature.coordinates.map { $0.asCLObject })
-        let type = TopoLineType(string: feature.name)
+fileprivate let topoBackgroundColor = UIColor(red: 158/255, green: 203/255, blue: 128/255, alpha: 1)
+
+extension CoordinateFeature {
+    var lineColor: UIColor {
+        let type = TopoLineType(string: name)
         let geoColor: UIColor?
-        if let stroke = feature.hexColor {
+        if let stroke = hexColor {
             geoColor = UIColor.hex(stroke)
         } else {
             geoColor = nil
@@ -26,7 +26,15 @@ extension PolylineAnnotation {
         } else {
             finalColor = lineColor
         }
-        annotation.lineColor = StyleColor(finalColor)
+        return finalColor
+    }
+}
+
+extension PolylineAnnotation {
+    
+    static func makeCanyonLineAnnotation(feature: CoordinateFeature, in canyon: CanyonIndex) -> PolylineAnnotation {
+        var annotation = PolylineAnnotation(id: Self.id(for: canyon), lineCoordinates: feature.coordinates.map { $0.asCLObject })        
+        annotation.lineColor = StyleColor(feature.lineColor)
         annotation.lineWidth = 3
         annotation.lineOpacity = 0.5
         return annotation

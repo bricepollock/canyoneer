@@ -104,6 +104,12 @@ extension MapboxMapViewModel: MapboxMapController {
         self.waypointManager.textIgnorePlacement = false
         self.waypointManager.iconIgnorePlacement = false
         self.waypointManager.textOptional = true
+        
+        // canyon line labels
+        self.canyonLabelManager.textAllowOverlap = false
+        self.canyonLabelManager.textIgnorePlacement = false
+        self.canyonLabelManager.iconIgnorePlacement = false
+        self.canyonLabelManager.iconOptional = true
     }
 }
 
