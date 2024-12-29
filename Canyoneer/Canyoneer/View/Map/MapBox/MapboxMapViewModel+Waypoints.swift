@@ -41,7 +41,7 @@ extension MapboxMapViewModel {
                 return nil
             }
             
-            return PointAnnotation.makeLabel(coordinate: labelCoordinate, topoName: feature.name, topoColor: feature.lineColor)
+            return PointAnnotation.makeLabel(feature: feature, coordinate: labelCoordinate)
         }
     }
     
