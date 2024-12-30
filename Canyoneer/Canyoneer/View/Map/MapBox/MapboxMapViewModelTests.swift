@@ -9,7 +9,7 @@ import CoreLocation
 class MapboxMapViewModelTests: XCTestCase {
     func testWaypointLabelOverlap() throws {
         // Test: Red Wall Canyon (West Fork) Topo lines show up
-        let viewModel = MapboxMapViewModel()
+        let viewModel = MapboxMapViewModel(favoriteService: MockFavoriteService())
         
         let waypointCoordinates = [
             CLLocationCoordinate2D(

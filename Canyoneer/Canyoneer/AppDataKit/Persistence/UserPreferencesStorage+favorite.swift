@@ -5,6 +5,11 @@
 
 import Foundation
 
+protocol FavoritableCanyon {
+    var id: String { get }
+    var name: String { get }
+}
+
 extension UserPreferencesStorage {
     fileprivate static let favoriteListKey = "canyon_favorite_list"
     public static let favorites = UserPreferencesStorage()
@@ -50,19 +55,19 @@ extension UserPreferencesStorage {
         return list
     }
     
-    static func isFavorite(canyon: Canyon) -> Bool {
+    static func isFavorite(canyon: FavoritableCanyon) -> Bool {
         return allFavoriteIDs.firstIndex(where: { id in
             return id == canyon.id
         }) != nil
     }
 
-    static func addFavorite(canyon: Canyon) {
+    static func addFavorite(canyon: FavoritableCanyon) {
         var list = allFavoriteIDs
         list.append(canyon.id)
         favorites.set(key: favoriteListKey, value: list)
     }
     
-    static func removeFavorite(canyon: Canyon) {
+    static func removeFavorite(canyon: FavoritableCanyon) {
         var list = allFavoriteIDs
         guard let index = list.firstIndex(where: { id in
             return id == canyon.id

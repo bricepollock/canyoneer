@@ -9,7 +9,7 @@ import MapboxMaps
 class PointAnnotation_canyonPin: XCTestCase {
     func testIDCodeDecode() {
         let canyon = CanyonIndex()
-        let annotation = PointAnnotation.makeCanyonAnnotation(for: canyon)
+        let annotation = PointAnnotation.makeCanyonAnnotation(for: canyon, isFavorite: false)
         XCTAssertEqual(annotation.canyonId, canyon.id)
         XCTAssertEqual(annotation.textField, canyon.name)
     }

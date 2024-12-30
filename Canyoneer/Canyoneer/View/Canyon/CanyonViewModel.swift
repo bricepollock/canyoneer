@@ -58,7 +58,7 @@ class CanyonViewModel: NSObject, ObservableObject {
             isFavorite = self.favoriteService.isFavorite(canyon: canyon)
             
             detailViewModel = CanyonDetailViewModel(canyon: canyon, weatherViewModel: weatherViewModel, mapDelegate: mapDelegate)
-            self.singleCanyonViewModel = SingleCanyonMapViewModel(canyon: canyon)
+            self.singleCanyonViewModel = SingleCanyonMapViewModel(canyon: canyon, favoriteService: favoriteService)
         } catch {
             Global.logger.error(error)
         }
@@ -68,7 +68,7 @@ class CanyonViewModel: NSObject, ObservableObject {
         guard let canyon = canyon else { return }
         
         let isFavorited = favoriteService.isFavorite(canyon: canyon)
-        favoriteService.setFavorite(canyon: canyon, to: !isFavorited)
+        favoriteService.setFavorite(canyon: canyon.index, to: !isFavorited)
         isFavorite = !isFavorited
     }
     

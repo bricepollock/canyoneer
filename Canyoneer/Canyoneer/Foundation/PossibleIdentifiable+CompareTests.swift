@@ -112,8 +112,8 @@ class PossibleIdentifable_CompareTests: XCTestCase {
             CanyonIndex()
         ]
         let that: [PointAnnotation] = [
-            PointAnnotation.makeCanyonAnnotation(for: this[1]),
-            PointAnnotation.makeCanyonAnnotation(for: CanyonIndex())
+            PointAnnotation.makeCanyonAnnotation(for: this[1], isFavorite: false),
+            PointAnnotation.makeCanyonAnnotation(for: CanyonIndex(), isFavorite: false)
         ]
         let lookup = this.compare(to: that)
         

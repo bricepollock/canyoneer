@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Canyon {
+struct Canyon: FavoritableCanyon {
     let id: String
     let index: CanyonIndex
     /// Optional to support other data sources in future
@@ -127,6 +127,27 @@ struct Canyon {
             vehicleAccessibility: vehicleAccessibility
         )
         self.ropeWikiURL = url
+        self.description = description
+        self.geoWaypoints = geoWaypoints
+        self.geoLines = geoLines
+    }
+    
+    /// - Warning: Should only be used in previews and testing
+    init(
+        index: CanyonIndex,
+        ropeWikiURL: URL? = nil,
+        description: String = "some place",
+        geoWaypoints: [CoordinateFeature] = [],
+        geoLines: [CoordinateFeature] = []
+    ) {
+        #if TEST
+        // All-good to use
+        #else
+        fatalError("Should not be using this outside of testing")
+        #endif
+        self.id = index.id
+        self.index = index
+        self.ropeWikiURL = ropeWikiURL
         self.description = description
         self.geoWaypoints = geoWaypoints
         self.geoLines = geoLines

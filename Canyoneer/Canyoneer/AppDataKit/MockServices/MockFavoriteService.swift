@@ -1,6 +1,7 @@
 //  Created by Brice Pollock for Canyoneer on 2/18/24
 
 import Foundation
+import Combine
 @testable import Canyoneer
 
 class MockFavoriteService: FavoriteServing {
@@ -11,19 +12,21 @@ class MockFavoriteService: FavoriteServing {
         allFavorites
     }
     
-    func isFavorite(canyon: Canyon) -> Bool {
+    func isFavorite(canyon: FavoritableCanyon) -> Bool {
         allFavorites.contains { this in
             this.id == canyon.id
         }
     }
     
-    func setFavorite(canyon: Canyon, to isFavorite: Bool) {
+    func setFavorite(canyon: CanyonIndex, to isFavorite: Bool) {
         if isFavorite {
-            allFavorites.append(canyon)
+            allFavorites.append(Canyon(index: canyon))
         } else {
             allFavorites.removeAll { this in
                 this.id == canyon.id
             }
         }
     }
+    
+    var favoriteStatusDidChange: PassthroughSubject<(canyon: CanyonIndex, isFavorite: Bool), Never> = PassthroughSubject()
 }

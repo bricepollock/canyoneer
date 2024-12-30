@@ -7,7 +7,7 @@ import CoreLocation
 
 protocol MainMapDelegate: AnyObject {
     @MainActor
-    func updateCenter(to location: CLLocationCoordinate2D, animated: Bool)
+    func updateCenter(to location: CLLocationCoordinate2D, zoomLevel: CGFloat, animated: Bool)
 }
 
 @MainActor
@@ -77,7 +77,10 @@ class ManyCanyonMapViewModel: ObservableObject, MainMapDelegate {
         self.locationService = locationService
         self.filterViewModel = filterViewModel
         self.filterSheetViewModel = CanyonFilterSheetViewModel(filterViewModel: filterViewModel)
-        self.mapViewModel = MapboxMapViewModel(locationService: locationService)
+        self.mapViewModel = MapboxMapViewModel(
+            locationService: locationService,
+            favoriteService: favoriteService
+        )
         
         // Initialize canyons to render on map
         if applyFilters {
@@ -107,8 +110,14 @@ class ManyCanyonMapViewModel: ObservableObject, MainMapDelegate {
             .assign(to: &$anyFiltersActive)
         
         self.$filteredCanyons
-            .sink { canyons in
+            .sink { [weak self] canyons in
+                guard let self else { return }
                 self.mapViewModel.updateCanyonPins(to: canyons)
+        }.store(in: &bag)
+        
+        favoriteService.favoriteStatusDidChange.sink { [weak self] (canyon, _) in
+            guard let self else { return }
+            self.mapViewModel.updateCanyonPin(canyon)
         }.store(in: &bag)
         
         self.mapViewModel.didRequestCanyon.sink { [weak self] canyon in
@@ -196,18 +205,23 @@ class ManyCanyonMapViewModel: ObservableObject, MainMapDelegate {
     }
     
     @MainActor
-    public func updateCenter(to location: CLLocationCoordinate2D, animated: Bool) {
+    public func updateCenter(to location: CLLocationCoordinate2D, zoomLevel: CGFloat, animated: Bool) {
         guard hasSetupMap else {
-            UserDefaults.standard.setLastViewCoordinate(location)
+            // If not setup yet, set this as the last viewport so we adopt it on first render
+            UserDefaults.standard.setLastViewport(Viewport(center: location, zoomLevel: zoomLevel))
             return
         }
-        self.mapViewModel.focusCameraOn(location: location, animated: animated)
+        self.mapViewModel.focusCameraOn(location: location, zoomLevel: zoomLevel, animated: animated)
     }
     
     private func updateInitialCamera() {
-        let utahCenter = CLLocationCoordinate2D(latitude: 39.3210, longitude: -111.0937)
-        let center = UserDefaults.standard.lastViewCoordinate ?? utahCenter
-        self.mapViewModel.focusCameraOn(location: center, animated: false)
+        guard let lastViewport = UserDefaults.standard.lastViewport else {
+            let utahCenter = CLLocationCoordinate2D(latitude: 39.3210, longitude: -111.0937)
+            self.mapViewModel.focusCameraOn(location: utahCenter, animated: false)
+            return
+        }
+        
+        self.mapViewModel.focusCameraOn(location: lastViewport.center, zoomLevel: lastViewport.zoomLevel, animated: false)
     }
     
     // MARK: Render details of a group of canyons
@@ -216,8 +230,8 @@ class ManyCanyonMapViewModel: ObservableObject, MainMapDelegate {
         // center location
         if canyons.isEmpty == false && canyons.count < 100 {
             self.mapViewModel.focusCameraOn(location: canyons[0].coordinate.asCLObject, animated: false)
-        } else if let lastViewed = UserDefaults.standard.lastViewCoordinate {
-            self.mapViewModel.focusCameraOn(location: lastViewed, animated: false)
+        } else if let lastViewed = UserDefaults.standard.lastViewport {
+            self.mapViewModel.focusCameraOn(location: lastViewed.center, zoomLevel: lastViewed.zoomLevel, animated: false)
         } else if locationService.isLocationEnabled() {
             let location = try await self.locationService.getCurrentLocation()
             self.mapViewModel.focusCameraOn(location: location, animated: false)

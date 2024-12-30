@@ -13,7 +13,7 @@ import CoreLocation
 class MockMapDelegate: MainMapDelegate {
     public init() {}
     
-    func updateCenter(to location: CLLocationCoordinate2D, animated: Bool) { }
+    func updateCenter(to location: CLLocationCoordinate2D, zoomLevel: CGFloat, animated: Bool) { }
 }
 
 @MainActor
@@ -41,7 +41,7 @@ class FavoritesViewModelTests: XCTestCase {
     func testRefresh() async {
         // setup
         let canyon = Canyon()
-        favoriteService.setFavorite(canyon: canyon, to: true)
+        favoriteService.setFavorite(canyon: canyon.index, to: true)
         
         // test
         await viewModel.refresh()

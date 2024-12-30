@@ -18,10 +18,11 @@ class SingleCanyonMapViewModel: ObservableObject {
         
     init(
         canyon: Canyon,
-        locationService: LocationService = LocationService()
+        locationService: LocationService = LocationService(),
+        favoriteService: FavoriteServing
     ) {
         self.canyon = canyon
-        self.mapViewModel = MapboxMapViewModel(locationService: locationService)
+        self.mapViewModel = MapboxMapViewModel(locationService: locationService, favoriteService: favoriteService)
         self.locationService = locationService
         
         // Initialize Current Location

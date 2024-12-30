@@ -17,5 +17,11 @@ protocol BasicMap {
     func focusCameraOn(canyon: Canyon, animated: Bool)
     
     /// Set the camera to current location
-    func focusCameraOn(location: CLLocationCoordinate2D, animated: Bool)
+    func focusCameraOn(location: CLLocationCoordinate2D, zoomLevel: CGFloat, animated: Bool)
+}
+
+extension BasicMap {
+    func focusCameraOn(location: CLLocationCoordinate2D, animated: Bool) {
+        focusCameraOn(location: location, zoomLevel: 8, animated: animated)
+    }
 }

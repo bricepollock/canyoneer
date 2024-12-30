@@ -16,7 +16,7 @@ extension MapboxMapViewModel {
         
         // Add new lines
         let newAnnotations = comparisonLookup.added.values.map {
-            makePointAnnotation(for: $0)
+            makePointAnnotation(for: $0, isFavorite: favoriteService.isFavorite(canyon: $0))
         }
         canyonPinManager.annotations.append(contentsOf: newAnnotations)
         
@@ -29,8 +29,19 @@ extension MapboxMapViewModel {
         }
     }
     
-    func makePointAnnotation(for canyon: CanyonIndex) -> PointAnnotation {
-        var annotation = PointAnnotation.makeCanyonAnnotation(for: canyon)
+    /// Updates canyon pin imagery with current status (ex: Favorite image changes)
+    public func updateCanyonPin(_ canyon: CanyonIndex) {
+        // Remove exisiting pin
+        canyonPinManager.annotations.removeAll {
+            $0.canyonId == canyon.id
+        }
+        
+        // update with new Pin
+        canyonPinManager.annotations.append(makePointAnnotation(for: canyon, isFavorite: favoriteService.isFavorite(canyon: canyon)))
+    }
+    
+    func makePointAnnotation(for canyon: CanyonIndex, isFavorite: Bool) -> PointAnnotation {
+        var annotation = PointAnnotation.makeCanyonAnnotation(for: canyon, isFavorite: isFavorite)
         annotation.tapHandler = { [weak self] _ in
             self?.didRequestCanyon.send(canyon)
             return true
