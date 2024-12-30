@@ -58,7 +58,8 @@ class CanyonDetailViewModel: NSObject, ObservableObject {
     
     @MainActor
     public func showOnMap() {
-        mapDelegate?.updateCenter(to: canyon.coordinate.asCLObject, animated: false)
+        // Zoom level was chosen by hand for something like Behunin which has a lot of conflicting pins, to be close enough for the name to show up.
+        mapDelegate?.updateCenter(to: canyon.coordinate.asCLObject, zoomLevel: 13, animated: false)
     }
     
     public func launchDirections() {

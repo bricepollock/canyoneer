@@ -23,16 +23,32 @@ extension CLLocationCoordinate2D: Codable {
     }
 }
 
+struct Viewport: Codable {
+    let center: CLLocationCoordinate2D
+    let zoomLevel: CGFloat
+}
+
 extension UserDefaults {
     
-    fileprivate static let lastCoordinateViewKey = "last_view_coordinate"
+    /// - Warning: No longer used. Capture zoom level in addition to coordinate now.
+    fileprivate static let legacyLastCoordinateViewKey = "last_view_coordinate"
+    
+    fileprivate static let lastViewportKey = "last_viewport"
     private static let locationStorage = UserPreferencesStorage()
     
-    func setLastViewCoordinate(_ coordinate: CLLocationCoordinate2D) {
-        Self.locationStorage.set(key: Self.lastCoordinateViewKey, value: coordinate)
+    func setLastViewport(_ viewport: Viewport) {
+        Self.locationStorage.set(key: Self.lastViewportKey, value: viewport)
     }
     
-    var lastViewCoordinate: CLLocationCoordinate2D? {
-        Self.locationStorage.get(key: Self.lastCoordinateViewKey)
+    var lastViewport: Viewport? {
+        if let lastViewport: Viewport = Self.locationStorage.get(key: Self.lastViewportKey) {
+            return lastViewport
+        // Legacy Migration. Can be removed in March 2025
+        } else if let lastCenter: CLLocationCoordinate2D = Self.locationStorage.get(key: Self.legacyLastCoordinateViewKey) {
+            Self.locationStorage.remove(key: Self.legacyLastCoordinateViewKey)
+            return Viewport(center: lastCenter, zoomLevel: 8)
+        } else {
+            return nil
+        }
     }
 }

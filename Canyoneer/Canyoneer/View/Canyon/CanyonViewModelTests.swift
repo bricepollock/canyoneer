@@ -39,7 +39,7 @@ class CanyonViewModelTests: XCTestCase {
     func testInitialFavorite_true() async throws {
         // setup
         manager.mockCanyon = canyon
-        favorite.setFavorite(canyon: canyon, to: true)
+        favorite.setFavorite(canyon: canyon.index, to: true)
         
         // test
         await viewModel.refresh()

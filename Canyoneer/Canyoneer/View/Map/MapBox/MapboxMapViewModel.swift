@@ -33,7 +33,7 @@ class MapboxMapViewModel: NSObject {
         mapView.mapboxMap.cameraState.center
     }
     
-    @Published var zoomLevel: Double = 0
+    @Published var zoomLevel: CGFloat = 0
     /// The coordinate bounds of the visible map
     @Published var visibleMap: CoordinateBounds = .zero
     /// The coordinate-area we want to render within (has an additional buffer around visibleMap)
@@ -47,10 +47,15 @@ class MapboxMapViewModel: NSObject {
     internal var cachedPolylines: [PolylineAnnotation] = []
     
     internal let locationService: LocationService
+    internal let favoriteService: FavoriteServing
     internal var bag = Set<AnyCancellable>()
     
-    init(locationService: LocationService = LocationService()) {
+    init(
+        locationService: LocationService = LocationService(),
+        favoriteService: FavoriteServing
+    ) {
         self.locationService = locationService
+        self.favoriteService = favoriteService
     }
     
     var visibleCoordinateBounds: CoordinateBounds {
@@ -151,8 +156,8 @@ extension MapboxMapViewModel: BasicMap {
         }
     }
     
-    func focusCameraOn(location: CLLocationCoordinate2D, animated: Bool) {
-        let cameraDetails = CameraOptions(center: location, zoom: 8)
+    func focusCameraOn(location: CLLocationCoordinate2D, zoomLevel: CGFloat, animated: Bool) {
+        let cameraDetails = CameraOptions(center: location, zoom: zoomLevel)
         if animated {
             self.mapView.camera.ease(to: cameraDetails, duration: 0.5)
         } else {

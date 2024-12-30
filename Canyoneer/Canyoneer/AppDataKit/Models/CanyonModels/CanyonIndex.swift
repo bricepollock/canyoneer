@@ -3,7 +3,7 @@
 import Foundation
 
 /// Fully typed version of Canyon index representation
-struct CanyonIndex: CanyonPreview {
+struct CanyonIndex: CanyonPreview, FavoritableCanyon {
     let id: String
     let name: String
     let coordinate: Coordinate

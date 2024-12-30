@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Combine
 
 protocol FavoriteServing {
     /// Does a migration if needed and warms the cache
@@ -14,15 +15,20 @@ protocol FavoriteServing {
         
     func allFavorites() async -> [Canyon]
     
-    func isFavorite(canyon: Canyon) -> Bool
-    func setFavorite(canyon: Canyon, to isFavorite: Bool)
+    func isFavorite(canyon: FavoritableCanyon) -> Bool
+    func setFavorite(canyon: CanyonIndex, to isFavorite: Bool)
+    
+    /// Observe changes to favorites while app is foreground
+    var favoriteStatusDidChange: PassthroughSubject<(canyon: CanyonIndex, isFavorite: Bool), Never> { get }
 }
 
 class FavoriteService: FavoriteServing {
+    public let favoriteStatusDidChange: PassthroughSubject<(canyon: CanyonIndex, isFavorite: Bool), Never>
     private let canyonManager: CanyonDataManaging
     
     init(canyonManager: CanyonDataManaging) {
         self.canyonManager = canyonManager
+        self.favoriteStatusDidChange = PassthroughSubject()
     }
     
     func start() async {
@@ -53,16 +59,17 @@ class FavoriteService: FavoriteServing {
         }
     }
     
-    func isFavorite(canyon: Canyon) -> Bool {
+    func isFavorite(canyon: FavoritableCanyon) -> Bool {
         return UserPreferencesStorage.isFavorite(canyon: canyon)
     }
     
-    func setFavorite(canyon: Canyon, to isFavorite: Bool) {
+    func setFavorite(canyon: CanyonIndex, to isFavorite: Bool) {
         if isFavorite {
             UserPreferencesStorage.addFavorite(canyon: canyon)
         } else {
             UserPreferencesStorage.removeFavorite(canyon: canyon)
         }
+        favoriteStatusDidChange.send((canyon: canyon, isFavorite: isFavorite))
     }
     
     private func migrateIfNeeded() async {
