@@ -34,6 +34,7 @@ class MainTabViewModel: ObservableObject {
             weatherViewModel: weatherViewModel,
             mapService: mapService,
             canyonManager: canyonManager,
+            filterViewModel: filterViewModel,
             favoriteService: favoriteService,
             locationService: locationService,
             mapDelegate: mapViewModel

@@ -19,6 +19,9 @@ import Combine
     /// - Warning: Will update automatically when filters change if applied
     @Published public private(set) var results: [QueryResult]
     
+    /// Results that do not meet filter criteria and are absent from `results`
+    @Published public private(set) var hiddenResults: [QueryResult]
+    
     /// Keeps a copy of unfiltered results so we can apply different filter treatments to the same result-set
     @Published private var unfilteredResults: [QueryResult]
     
@@ -35,6 +38,8 @@ import Combine
     public let filterSheetViewModel: CanyonFilterSheetViewModel
     public let filterViewModel: CanyonFilterViewModel
     public private(set) weak var mapDelegate: MainMapDelegate?
+    
+    private var bag = Set<AnyCancellable>()
 
     /// - Parameter mapDelegate: Delegate for interacting with the map. If not nil then resulting `CanyonView`s will show a button to switch to map tab at the canyon's location
     init(
@@ -50,6 +55,7 @@ import Combine
         self.title = ""
         self.unfilteredResults = []
         self.results = []
+        self.hiddenResults = []
         self.anyFiltersActive = filterViewModel.areFiltersActive
         self.filterViewModel = filterViewModel
         self.filterSheetViewModel = filterSheetViewModel
@@ -70,6 +76,18 @@ import Combine
             }
             return filterViewModel.filter(results: unfiltered, with: filterViewModel.currentState)
         }.assign(to: &$results)
+        
+        $results.map { [weak self] resultList in
+            guard let self else { return [] }
+            
+            var resultsLookup = [String: String]()
+            resultList.forEach {
+                resultsLookup[$0.id] = $0.id
+            }
+            return self.unfilteredResults.filter { unfilteredCanyon in
+                resultsLookup[unfilteredCanyon.id] == nil
+            }
+        }.assign(to: &$hiddenResults)
         
         // Update results when filters change
         if applyFilters {
