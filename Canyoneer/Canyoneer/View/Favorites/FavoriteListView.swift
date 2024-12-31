@@ -12,7 +12,7 @@ struct FavoriteListView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                if viewModel.results.isEmpty {
+                if viewModel.unfilteredResults.isEmpty {
                     Spacer()
                     HStack {
                         Spacer()

@@ -23,7 +23,7 @@ import Combine
     @Published public private(set) var hiddenResults: [QueryResult]
     
     /// Keeps a copy of unfiltered results so we can apply different filter treatments to the same result-set
-    @Published private var unfilteredResults: [QueryResult]
+    @Published public private(set) var unfilteredResults: [QueryResult]
     
     /// Whether any filters are currently active on map
     @Published private(set) var anyFiltersActive: Bool
