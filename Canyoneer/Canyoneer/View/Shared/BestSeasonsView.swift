@@ -25,12 +25,12 @@ struct BestSeasonsView: View {
                 Spacer()
             }
             VStack(alignment: .center) {
-                HStack(spacing: 20) {
+                HStack(spacing: 18) {
                     ForEach(viewModel.topRow) {
                         monthView(for: $0)
                     }
                 }
-                HStack(spacing: 20) {
+                HStack(spacing: 18) {
                     ForEach(viewModel.bottomRow) {
                         monthView(for: $0)
                     }
